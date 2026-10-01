@@ -7,12 +7,13 @@
 // and aligned globally (Needleman-Wunsch) with a fuzzy phonetic similarity score.
 // Usage: node scripts/align.mjs
 import fs from "node:fs";
+import { V } from "./video.mjs";
 import { execFileSync } from "node:child_process";
 
-const SCRIPT = "script.txt";
-const TRANSCRIPT = "src/data/transcript.json";
-const AUDIO = "public/audio/voiceover.mp3";
-const OUT = "src/data/timings.json";
+const SCRIPT = V("script.txt");
+const TRANSCRIPT = V("data/transcript.json");
+const AUDIO = V("public/audio/voiceover.mp3");
+const OUT = V("data/timings.json");
 const FADE_OUT = 1.5; // seconds of fade to black after the voiceover
 
 // ---------- number → spoken words ----------

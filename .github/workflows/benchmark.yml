@@ -5,6 +5,10 @@ name: Render benchmark
 on:
   workflow_dispatch:
     inputs:
+      video:
+        description: "Video folder name in videos/ (e.g. mongol-empire)"
+        required: true
+        default: "mongol-empire"
       frames:
         description: "Frames per test segment (3 segments per variant)"
         default: "120"
@@ -24,7 +28,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx remotion browser ensure
-      - run: node scripts/bench.mjs --frames=${{ inputs.frames }} --scale=${{ inputs.scale }}
+      - run: node scripts/v.mjs bench "${{ inputs.video }}" --frames=${{ inputs.frames }} --scale=${{ inputs.scale }}
       - uses: actions/upload-artifact@v4
         with:
           name: benchmark-clips

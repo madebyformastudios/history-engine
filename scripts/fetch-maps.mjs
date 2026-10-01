@@ -1,6 +1,6 @@
 // Builds the map data used by <MapScene>:
-//   src/data/territories.json  – named MultiPolygons (one per keyframe) from aourednik/historical-basemaps
-//   src/data/land.json         – Natural Earth 50m land (world-atlas), clipped to LAND_CLIP
+//   engine/maps-data/territories.json  – named MultiPolygons (one per keyframe) from aourednik/historical-basemaps
+//   engine/maps-data/land.json         – Natural Earth 50m land (world-atlas), clipped to LAND_CLIP
 // Usage: node scripts/fetch-maps.mjs
 // For a new topic, edit MAP_KEYFRAMES (and LAND_CLIP) below and re-run.
 import fs from "node:fs";
@@ -11,9 +11,9 @@ import { geoArea, geoCentroid } from "d3-geo";
 
 const require = createRequire(import.meta.url);
 const BASE = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
-const RAW_DIR = "data/raw";
-const OUT = "src/data/territories.json";
-const LAND_OUT = "src/data/land.json";
+const RAW_DIR = "engine/maps-data/raw"; // download cache, not in git
+const OUT = "engine/maps-data/territories.json"; // shared library: every video can use every territory
+const LAND_OUT = "engine/maps-data/land.json";
 const LAND_CLIP = [-40, -15, 185, 82]; // [minLon, minLat, maxLon, maxLat]
 
 // Hand-made polygons (lon/lat) for things the dataset lacks or gets wrong.

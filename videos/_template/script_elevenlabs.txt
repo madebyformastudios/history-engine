@@ -1,0 +1,2 @@
+The text for ElevenLabs: same paragraphs as script.txt, but with years written out ("twelve oh six")
+and phonetic spelling for hard names. List every phonetic spelling in DRAAIBOEK.md under "Pronunciation".

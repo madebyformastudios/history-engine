@@ -2,18 +2,23 @@
 // To restyle a video for another topic, change this file only.
 import { Easing } from "remotion";
 import { loadFont } from "@remotion/fonts";
-import { staticFile } from "remotion";
 
-// Fonts are bundled in public/fonts (no network needed at render time).
+// Fonts ship with the engine (engine/fonts), imported through webpack: no network needed at render time.
+import cinzel500 from "./fonts/cinzel-latin-500-normal.woff2";
+import cinzel700 from "./fonts/cinzel-latin-700-normal.woff2";
+import inter500 from "./fonts/inter-latin-500-normal.woff2";
+import inter600 from "./fonts/inter-latin-600-normal.woff2";
+import inter700 from "./fonts/inter-latin-700-normal.woff2";
+
 const fonts: [string, string, string][] = [
-  ["Cinzel", "500", "cinzel-latin-500-normal.woff2"],
-  ["Cinzel", "700", "cinzel-latin-700-normal.woff2"],
-  ["Inter", "500", "inter-latin-500-normal.woff2"],
-  ["Inter", "600", "inter-latin-600-normal.woff2"],
-  ["Inter", "700", "inter-latin-700-normal.woff2"],
+  ["Cinzel", "500", cinzel500],
+  ["Cinzel", "700", cinzel700],
+  ["Inter", "500", inter500],
+  ["Inter", "600", inter600],
+  ["Inter", "700", inter700],
 ];
-for (const [family, weight, file] of fonts) {
-  loadFont({ family, url: staticFile(`fonts/${file}`), weight, format: "woff2" });
+for (const [family, weight, url] of fonts) {
+  loadFont({ family, url, weight, format: "woff2" });
 }
 const display = { fontFamily: "Cinzel" };
 const sans = { fontFamily: "Inter" };

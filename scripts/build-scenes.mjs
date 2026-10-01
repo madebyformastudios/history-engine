@@ -1,13 +1,16 @@
-// Resolves scripts/scene-spec.mjs against src/data/timings.json and writes src/data/scenes.json.
+// Resolves videos/<slug>/scene-spec.mjs against data/timings.json and writes data/scenes.json.
 //   - scene start/end come from the voiceover alignment (seconds + frames)
 //   - every "@word" reference is resolved to the moment that word is spoken in that scene
 //   - runbook cues are resolved in order and stored per scene with their frame
 // Usage: node scripts/build-scenes.mjs
 import fs from "node:fs";
-import * as spec from "./scene-spec.mjs";
+import path from "node:path";
+import { pathToFileURL } from "node:url";
+import { V } from "./video.mjs";
+const spec = await import(pathToFileURL(path.resolve(V("scene-spec.mjs"))).href);
 
-const TIMINGS = "src/data/timings.json";
-const OUT = "src/data/scenes.json";
+const TIMINGS = V("data/timings.json");
+const OUT = V("data/scenes.json");
 const timings = JSON.parse(fs.readFileSync(TIMINGS, "utf8"));
 const fps = spec.meta.fps;
 const frameOf = (s) => Math.round(s * fps);
@@ -134,4 +137,4 @@ if (problems.length) {
   console.log("PROBLEMS:");
   for (const p of problems) console.log(`  ${p}`);
 }
-fs.writeFileSync("src/data/cue-report.json", JSON.stringify({ problems, anchors: anchorsUsed }, null, 1));
+fs.writeFileSync(V("data/cue-report.json"), JSON.stringify({ problems, anchors: anchorsUsed }, null, 1));

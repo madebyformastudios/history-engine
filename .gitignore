@@ -1,6 +1,8 @@
 node_modules/
 out/
-checks/
-data/raw/
+checkouts/
+**/checks/
+engine/maps-data/raw/
 whisper.cpp/
+*.mp4
 .DS_Store

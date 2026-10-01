@@ -9,7 +9,19 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "lib": ["DOM", "ES2020"]
+    "lib": [
+      "DOM",
+      "ES2020"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@video/*": [
+        "videos/mongol-empire/*"
+      ]
+    }
   },
-  "include": ["src", "remotion.config.ts"]
+  "include": [
+    "engine",
+    "remotion.config.ts"
+  ]
 }

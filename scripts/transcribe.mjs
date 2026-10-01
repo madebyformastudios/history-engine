@@ -1,7 +1,8 @@
-// Transcribes public/audio/voiceover.mp3 with whisper.cpp (word-level timestamps)
-// and writes src/data/transcript.json: { words: [{ text, start, end }] } in seconds.
+// Transcribes videos/<slug>/public/audio/voiceover.mp3 with whisper.cpp (word-level timestamps)
+// and writes videos/<slug>/data/transcript.json: { words: [{ text, start, end }] } in seconds.
 // Usage: node scripts/transcribe.mjs
 import fs from "node:fs";
+import { V } from "./video.mjs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { downloadWhisperModel, installWhisperCpp, toCaptions, transcribe } from "@remotion/install-whisper-cpp";
@@ -9,9 +10,9 @@ import { downloadWhisperModel, installWhisperCpp, toCaptions, transcribe } from 
 const WHISPER_DIR = path.resolve("whisper.cpp");
 const WHISPER_VERSION = "1.5.5"; // last release that builds with plain `make` (no cmake needed)
 const MODEL = "medium.en";
-const AUDIO = "public/audio/voiceover.mp3";
+const AUDIO = V("public/audio/voiceover.mp3");
 const WAV = path.resolve("whisper.cpp/voiceover-16k.wav"); // whisper runs in its own cwd
-const OUT = "src/data/transcript.json";
+const OUT = V("data/transcript.json");
 
 await installWhisperCpp({ to: WHISPER_DIR, version: WHISPER_VERSION });
 await downloadWhisperModel({ model: MODEL, folder: WHISPER_DIR });

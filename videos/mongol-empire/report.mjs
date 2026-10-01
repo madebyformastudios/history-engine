@@ -2,10 +2,10 @@
 // Usage: node scripts/report.mjs
 import fs from "node:fs";
 
-const data = JSON.parse(fs.readFileSync("src/data/scenes.json", "utf8"));
-const timings = JSON.parse(fs.readFileSync("src/data/timings.json", "utf8"));
-const cueReport = JSON.parse(fs.readFileSync("src/data/cue-report.json", "utf8"));
-const territories = JSON.parse(fs.readFileSync("src/data/territories.json", "utf8"));
+const data = JSON.parse(fs.readFileSync("videos/mongol-empire/data/scenes.json", "utf8"));
+const timings = JSON.parse(fs.readFileSync("videos/mongol-empire/data/timings.json", "utf8"));
+const cueReport = JSON.parse(fs.readFileSync("videos/mongol-empire/data/cue-report.json", "utf8"));
+const territories = JSON.parse(fs.readFileSync("engine/maps-data/territories.json", "utf8"));
 const fps = data.meta.fps;
 const ts = (s) => `${Math.floor(s / 60)}:${(s % 60).toFixed(2).padStart(5, "0")}`;
 

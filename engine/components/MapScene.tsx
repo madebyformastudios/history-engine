@@ -6,8 +6,8 @@ import type { GeoPermissibleObjects } from "d3-geo";
 import type { LineConfig, LonLat, MapSettings, MapSpec, MapState, MarkerConfig, RegionLabel } from "../config";
 import { keyframes, ramp, useSceneTime } from "../timing";
 import { color, theme } from "../theme";
-import territoriesJson from "../data/territories.json";
-import landJson from "../data/land.json";
+import territoriesJson from "../maps-data/territories.json";
+import landJson from "../maps-data/land.json";
 
 const territories = territoriesJson as unknown as Record<string, GeoPermissibleObjects>;
 const land = landJson as unknown as GeoPermissibleObjects;

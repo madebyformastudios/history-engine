@@ -6,6 +6,10 @@ name: Render video
 on:
   workflow_dispatch:
     inputs:
+      video:
+        description: "Video folder name in videos/ (e.g. mongol-empire)"
+        required: true
+        default: "mongol-empire"
       chunks:
         description: "Number of parallel machines (max 20 on the free plan)"
         default: "20"
@@ -29,7 +33,7 @@ jobs:
         run: |
           node -e '
             const fs = require("fs");
-            const { meta } = JSON.parse(fs.readFileSync("src/data/scenes.json", "utf8"));
+            const { meta } = JSON.parse(fs.readFileSync(`videos/${process.env.VIDEO}/data/scenes.json`, "utf8"));
             const n = Math.max(1, Math.min(20, parseInt(process.env.CHUNKS, 10) || 20));
             const total = meta.durationInFrames, size = Math.ceil(total / n);
             const chunks = [];
@@ -43,6 +47,7 @@ jobs:
             console.log(`${meta.id}: ${total} frames in ${chunks.length} chunks of ~${size}`);
           '
         env:
+          VIDEO: ${{ inputs.video }}
           CHUNKS: ${{ inputs.chunks }}
           OFF: ${{ inputs.off }}
 
@@ -62,9 +67,11 @@ jobs:
       - run: npm ci
       - run: npx remotion browser ensure
       - name: Render frames ${{ matrix.start }}-${{ matrix.end }}
+        env:
+          VIDEO: ${{ inputs.video }}
         run: |
           echo "CPU cores: $(nproc)"
-          npx remotion render src/index.ts "${{ needs.plan.outputs.id }}" "out/chunk-${{ matrix.index }}.mp4" \
+          npx remotion render "${{ needs.plan.outputs.id }}" "out/chunk-${{ matrix.index }}.mp4" \
             --frames=${{ matrix.start }}-${{ matrix.end }} \
             --muted \
             --scale=${{ inputs.scale }} \
@@ -93,13 +100,13 @@ jobs:
           ls chunks/*.mp4 | sort | sed "s|^|file '$PWD/|; s|$|'|" > list.txt
           cat list.txt
           ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i list.txt -c copy video-only.mp4
-          ffmpeg -hide_banner -loglevel error -i video-only.mp4 -i public/audio/voiceover.mp3 \
-            -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -movflags +faststart video.mp4
-          ffprobe -v error -show_entries format=duration -of csv=p=0 video.mp4
+          ffmpeg -hide_banner -loglevel error -i video-only.mp4 -i "videos/${{ inputs.video }}/public/audio/voiceover.mp3" \
+            -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -movflags +faststart "${{ inputs.video }}.mp4"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "${{ inputs.video }}.mp4"
           echo "## Render done" >> $GITHUB_STEP_SUMMARY
-          echo "Download **video** from the artifacts below." >> $GITHUB_STEP_SUMMARY
+          echo "Download the video from the artifacts below." >> $GITHUB_STEP_SUMMARY
       - uses: actions/upload-artifact@v4
         with:
-          name: video
-          path: video.mp4
+          name: ${{ inputs.video }}
+          path: ${{ inputs.video }}.mp4
           retention-days: 14

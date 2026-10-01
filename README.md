@@ -1,25 +1,29 @@
 # history-engine
 
-Remotion engine for 2D history videos with map animations. Current video: **The Mongol Empire in 5 Minutes**.
+Remotion engine for 2D history videos with map animations. One shared engine, one folder per video.
 
-## Render in the cloud (GitHub Actions)
+- `engine/`: shared components, effects, maps and fonts
+- `videos/<slug>/`: everything for one video (runbook, script, scene spec, images, voiceover)
+- `CATALOG.md`: what the engine can already do
+- `CLAUDE.md`: working rules and commands
 
-Actions tab > **Render video** > Run workflow.
-- `chunks`: number of parallel machines (max 20)
-- `scale`: 1 = final 1920x1080, 0.5 = fast draft
-- `off`: effects to switch off, e.g. `grain,blur`
-
-When it finishes, download the **video** artifact from the run page.
-
-## Benchmark
-
-Actions tab > **Render benchmark** > Run workflow. Renders three test clips once per effect setting
-on the same machine and shows a table of what each effect costs in the run summary.
-
-## Local
+## Quick start
 
 ```bash
 npm ci
-npx remotion studio      # preview
-npx remotion render      # full render to out/video.mp4
+npm run studio mongol-empire     # preview
+npm run draft mongol-empire      # fast half-resolution render
+npm run render mongol-empire     # final render to out/mongol-empire.mp4
+npm run new viking-age           # start a new video
 ```
+
+## Cloud render (GitHub Actions)
+
+Actions tab > **Render video** > Run workflow, fill in the video folder name. Download the MP4 from the run's artifacts.
+On the free plan this is about as fast as a local Mac, but it keeps your computer free.
+
+## Videos
+
+| Folder | Title |
+|---|---|
+| `mongol-empire` | The Mongol Empire in 5 Minutes |

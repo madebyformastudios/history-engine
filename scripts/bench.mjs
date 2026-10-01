@@ -7,7 +7,7 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { bundle } from "@remotion/bundler";
+import { V, bundleVideo, readJson } from "./video.mjs";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 
 const arg = (k, d) => {
@@ -20,19 +20,19 @@ const only = arg("variants", ""); // e.g. --variants=baseline,all
 const tag = arg("tag", "");
 const concurrency = os.cpus().length;
 
-const { meta, scenes } = JSON.parse(fs.readFileSync("src/data/scenes.json", "utf8"));
+const { meta, scenes } = readJson(V("data/scenes.json"));
 const at = (id, frac) => {
   const s = scenes.find((x) => x.id === id);
-  const start = Math.round(s.startFrame + (s.endFrame - s.startFrame - len) * frac);
+  const start = Math.max(s.startFrame, Math.round(s.startFrame + (s.endFrame - s.startFrame - len) * frac));
   return [start, start + len - 1];
 };
 
-// Three representative segments: a zooming map, an image with smoke, the Silk Road map with glowing routes.
-const segments = [
-  { name: "map-S04", range: at("S04", 0.4) },
-  { name: "smoke-S23", range: at("S23", 0.3) },
-  { name: "silkroad-S36", range: at("S36", 0.5) },
-];
+// Three representative segments: the first and last map scene, and an image scene (preferably one with effects).
+const maps = scenes.filter((s) => s.type === "map");
+const images = scenes.filter((s) => s.type === "image" || s.type === "parallax");
+const fxImage = images.find((s) => s.effects && Object.keys(s.effects).length) ?? images[0];
+const picks = [maps[0], fxImage, maps[maps.length - 1]].filter(Boolean);
+const segments = [...new Map(picks.map((s) => [s.id, s])).values()].map((s) => ({ name: `${s.type}-${s.id}`, range: at(s.id, 0.4) }));
 
 const variants = [
   { name: "baseline (all on)", off: [] },
@@ -53,7 +53,7 @@ if (only) {
 fs.mkdirSync("out/bench", { recursive: true });
 console.log(`CPU: ${os.cpus()[0]?.model} x${concurrency}, ${Math.round(os.totalmem() / 1e9)} GB RAM`);
 console.log("Bundling...");
-const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts") });
+const serveUrl = await bundleVideo();
 
 const rows = [];
 for (const v of variants) {

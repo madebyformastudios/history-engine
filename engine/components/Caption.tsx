@@ -1,5 +1,5 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import timings from "../data/timings.json";
+import timings from "@video/data/timings.json";
 import { theme } from "../theme";
 
 export type TimedWord = { text: string; start: number; end: number; scene: string };

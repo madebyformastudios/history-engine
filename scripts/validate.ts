@@ -9,6 +9,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+const VIDEO = process.env.VIDEO;
+if (!VIDEO) throw new Error("No video selected. Use `npm run validate <slug>`.");
+const V = (...p: string[]) => path.join("videos", VIDEO, ...p);
+
 type Cue = { word: string; t: number; frame: number; exact: boolean };
 type Scene = {
   id: string;
@@ -30,10 +34,10 @@ const warnings: string[] = [];
 const ok: string[] = [];
 const fail = (m: string) => errors.push(m);
 
-const runbook = fs.readFileSync("DRAAIBOEK.md", "utf8");
-const data = JSON.parse(fs.readFileSync("src/data/scenes.json", "utf8"));
+const runbook = fs.readFileSync(V("DRAAIBOEK.md"), "utf8");
+const data = JSON.parse(fs.readFileSync(V("data/scenes.json"), "utf8"));
 const scenes: Scene[] = data.scenes;
-const territories = JSON.parse(fs.readFileSync("src/data/territories.json", "utf8"));
+const territories = JSON.parse(fs.readFileSync("engine/maps-data/territories.json", "utf8"));
 
 // ---------- parse the runbook ----------
 // "### S16 | BG 002 + CUT 012 | parallax"
@@ -70,7 +74,7 @@ rbScenes.forEach((rb, i) => {
   if (s.id !== rb.id) fail(`position ${i + 1}: runbook ${rb.id}, build ${s.id} (order mismatch)`);
   if (JSON.stringify(s.assets) !== JSON.stringify(rb.assets)) fail(`${rb.id}: runbook assets [${rb.assets}] vs build [${s.assets}]`);
 });
-const paragraphs = fs.readFileSync("script.txt", "utf8").split(/\n\s*\n/).filter((p) => p.trim());
+const paragraphs = fs.readFileSync(V("script.txt"), "utf8").split(/\n\s*\n/).filter((p) => p.trim());
 if (paragraphs.length !== rbScenes.length) fail(`script.txt has ${paragraphs.length} paragraphs, runbook ${rbScenes.length} scenes`);
 
 // ---------- what each built scene actually puts on screen ----------
@@ -104,20 +108,30 @@ for (const { asset, scenes: expected } of checklist) {
 for (const s of scenes) for (const a of usedBy(s)) if (!checklist.some((c) => c.asset === a)) fail(`${s.id} uses ${a}, which is not in the asset checklist`);
 
 // ---------- 4. files exist ----------
-const mustExist = new Set<string>([path.join("public", data.meta.audio)]);
+const mustExist = new Set<string>([V("public", data.meta.audio)]);
+const sprites = new Set<string>();
 for (const s of scenes) {
-  if (s.image) mustExist.add(path.join("public", s.image));
-  if (s.background) mustExist.add(path.join("public", s.background.src));
-  for (const sp of s.sprites ?? []) mustExist.add(path.join("public", sp.src));
+  if (s.image) mustExist.add(V("public", s.image));
+  if (s.background) mustExist.add(V("public", s.background.src));
+  for (const sp of s.sprites ?? []) {
+    mustExist.add(V("public", sp.src));
+    sprites.add(V("public", sp.src));
+  }
 }
-for (const n of Array.from({ length: 26 }, (_, i) => String(i + 1).padStart(3, "0")))
-  if (!fs.existsSync(`public/images/${n}.jpg`) && !fs.existsSync(`public/images/${n}.png`)) fail(`public/images/${n}.jpg missing`);
+// every numbered image in the checklist must exist
+for (const c of checklist) {
+  const n = c.asset.match(/^\d{3}$/)?.[0];
+  if (n && !fs.existsSync(V(`public/images/${n}.jpg`)) && !fs.existsSync(V(`public/images/${n}.png`))) fail(`public/images/${n}.jpg missing`);
+}
 for (const f of mustExist) if (!fs.existsSync(f)) fail(`missing file ${f}`);
 for (const s of scenes) for (const st of s.map?.states ?? []) for (const l of st.layers)
-  if (!territories[l.territory]) fail(`${s.id}: territory "${l.territory}" not in src/data/territories.json`);
-// cutout must really be transparent
-const png = fs.readFileSync("public/images/012.png");
-if (png.readUInt8(25) !== 6) fail("public/images/012.png is not an RGBA PNG");
+  if (!territories[l.territory]) fail(`${s.id}: territory "${l.territory}" not in engine/maps-data/territories.json`);
+// cutouts (sprites) must really be transparent PNGs
+for (const f of sprites) {
+  if (!fs.existsSync(f)) continue;
+  const png = fs.readFileSync(f);
+  if (!f.endsWith(".png") || png.readUInt8(25) !== 6) fail(`${f} is not an RGBA PNG`);
+}
 
 // ---------- 5. timing: contiguous, no gaps/overlaps ----------
 if (scenes[0].startFrame !== 0) fail(`first scene starts at frame ${scenes[0].startFrame}, not 0`);

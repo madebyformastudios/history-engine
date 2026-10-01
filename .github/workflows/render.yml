@@ -1,0 +1,105 @@
+name: Render video
+
+# Splits the video into chunks, renders them in parallel on separate machines,
+# then joins them and adds the voiceover once (no audio seams between chunks).
+# Run it from the Actions tab: "Render video" > "Run workflow".
+on:
+  workflow_dispatch:
+    inputs:
+      chunks:
+        description: "Number of parallel machines (max 20 on the free plan)"
+        default: "20"
+      scale:
+        description: "Render scale (1 = 1920x1080 final, 0.5 = fast draft)"
+        default: "1"
+      off:
+        description: "Effects to switch off, comma separated (parchment,grain,dust,grade,vignette,mapShadow,blur). Empty = all on"
+        default: ""
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      id: ${{ steps.plan.outputs.id }}
+      props: ${{ steps.plan.outputs.props }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        run: |
+          node -e '
+            const fs = require("fs");
+            const { meta } = JSON.parse(fs.readFileSync("src/data/scenes.json", "utf8"));
+            const n = Math.max(1, Math.min(20, parseInt(process.env.CHUNKS, 10) || 20));
+            const total = meta.durationInFrames, size = Math.ceil(total / n);
+            const chunks = [];
+            for (let i = 0, s = 0; s < total; i++, s += size)
+              chunks.push({ index: String(i).padStart(2, "0"), start: s, end: Math.min(total, s + size) - 1 });
+            const off = (process.env.OFF || "").split(",").map((x) => x.trim()).filter(Boolean);
+            const out = fs.openSync(process.env.GITHUB_OUTPUT, "a");
+            fs.writeSync(out, `matrix=${JSON.stringify({ include: chunks })}\n`);
+            fs.writeSync(out, `id=${meta.id}\n`);
+            fs.writeSync(out, `props=${JSON.stringify({ off })}\n`);
+            console.log(`${meta.id}: ${total} frames in ${chunks.length} chunks of ~${size}`);
+          '
+        env:
+          CHUNKS: ${{ inputs.chunks }}
+          OFF: ${{ inputs.off }}
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx remotion browser ensure
+      - name: Render frames ${{ matrix.start }}-${{ matrix.end }}
+        run: |
+          echo "CPU cores: $(nproc)"
+          npx remotion render src/index.ts "${{ needs.plan.outputs.id }}" "out/chunk-${{ matrix.index }}.mp4" \
+            --frames=${{ matrix.start }}-${{ matrix.end }} \
+            --muted \
+            --scale=${{ inputs.scale }} \
+            --concurrency=$(nproc) \
+            --props='${{ needs.plan.outputs.props }}' \
+            --log=info
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.index }}
+          path: out/chunk-${{ matrix.index }}.mp4
+          retention-days: 1
+
+  join:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: chunks
+          merge-multiple: true
+      - name: Join chunks and add voiceover
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          ls chunks/*.mp4 | sort | sed "s|^|file '$PWD/|; s|$|'|" > list.txt
+          cat list.txt
+          ffmpeg -hide_banner -loglevel error -f concat -safe 0 -i list.txt -c copy video-only.mp4
+          ffmpeg -hide_banner -loglevel error -i video-only.mp4 -i public/audio/voiceover.mp3 \
+            -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -movflags +faststart video.mp4
+          ffprobe -v error -show_entries format=duration -of csv=p=0 video.mp4
+          echo "## Render done" >> $GITHUB_STEP_SUMMARY
+          echo "Download **video** from the artifacts below." >> $GITHUB_STEP_SUMMARY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video
+          path: video.mp4
+          retention-days: 14

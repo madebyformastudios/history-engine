@@ -1,0 +1,7464 @@
+{
+ "source": {
+  "script": "script.txt",
+  "transcript": "src/data/transcript.json",
+  "audio": "public/audio/voiceover.mp3"
+ },
+ "audioDuration": 327.271,
+ "voiceEnd": 326.8,
+ "fadeOut": 1.5,
+ "duration": 328.771,
+ "scenes": [
+  {
+   "id": "S01",
+   "start": 0,
+   "firstWord": "In",
+   "vo": "In less than a century, a few nomadic tribes from the Mongolian steppe built the largest connected land empire in history. At its height, it stretched from Korea all the way to Hungary.",
+   "end": 10.215
+  },
+  {
+   "id": "S02",
+   "start": 10.215,
+   "firstWord": "And",
+   "vo": "And it all began with a boy who had nothing.",
+   "end": 13.724
+  },
+  {
+   "id": "S03",
+   "start": 13.724,
+   "firstWord": "This",
+   "vo": "This is the story of the Mongol Empire.",
+   "end": 17.077
+  },
+  {
+   "id": "S04",
+   "start": 17.077,
+   "firstWord": "Around",
+   "vo": "Around 1162, a boy named Temujin was born on the steppe of what is now Mongolia. The steppe was divided between rival tribes, who raided and fought each other constantly.",
+   "end": 28.01
+  },
+  {
+   "id": "S05",
+   "start": 28.01,
+   "firstWord": "When",
+   "vo": "When Temujin was about nine, his father was poisoned by the Tatars, a rival tribe.",
+   "end": 33.038
+  },
+  {
+   "id": "S06",
+   "start": 33.038,
+   "firstWord": "His",
+   "vo": "His own clan abandoned the family. They survived by fishing, hunting small animals and digging up roots.",
+   "end": 38.689
+  },
+  {
+   "id": "S07",
+   "start": 38.689,
+   "firstWord": "As",
+   "vo": "As a teenager, Temujin was captured by a rival clan and locked in a heavy wooden collar. One night, he escaped.",
+   "end": 45.276
+  },
+  {
+   "id": "S08",
+   "start": 45.276,
+   "firstWord": "He",
+   "vo": "He married a young woman named Borte. But soon after the wedding, she was kidnapped by the Merkit tribe.",
+   "end": 50.819
+  },
+  {
+   "id": "S09",
+   "start": 50.819,
+   "firstWord": "Temujin",
+   "vo": "Temujin gathered allies, including his blood brother Jamukha, and rescued her. It was his first great victory, and people began to follow him.",
+   "end": 59.099
+  },
+  {
+   "id": "S10",
+   "start": 59.099,
+   "firstWord": "But",
+   "vo": "But Jamukha became his greatest rival. For twenty years, Temujin fought tribe after tribe for control of the steppe.",
+   "end": 65.696
+  },
+  {
+   "id": "S11",
+   "start": 65.696,
+   "firstWord": "He",
+   "vo": "He crushed the Tatars, the Keraites and the Naimans. In the end, Jamukha was betrayed by his own men and executed.",
+   "end": 73.243
+  },
+  {
+   "id": "S12",
+   "start": 73.243,
+   "firstWord": "In",
+   "vo": "In 1206, a great assembly of the tribes gave him a new title: Genghis Khan. For the first time, the steppe was united.",
+   "end": 82.015
+  },
+  {
+   "id": "S13",
+   "start": 82.015,
+   "firstWord": "Genghis",
+   "vo": "Genghis rebuilt Mongol society around the army. Men were organized in units of ten, a hundred, a thousand and ten thousand.",
+   "end": 90
+  },
+  {
+   "id": "S14",
+   "start": 90,
+   "firstWord": "Old",
+   "vo": "Old tribal loyalties were broken up on purpose. Commanders were promoted for loyalty and skill, not for noble birth.",
+   "end": 97
+  },
+  {
+   "id": "S15",
+   "start": 97,
+   "firstWord": "He",
+   "vo": "He introduced a code of law called the Yassa, and a network of relay stations, where riders swapped horses so messages could cross the empire at incredible speed.",
+   "end": 105.9
+  },
+  {
+   "id": "S16",
+   "start": 105.9,
+   "firstWord": "Every",
+   "vo": "Every Mongol warrior was a horse archer, trained from childhood. Each rider brought several spare horses, so an army could cover huge distances without stopping.",
+   "end": 116.189
+  },
+  {
+   "id": "S17",
+   "start": 116.189,
+   "firstWord": "First,",
+   "vo": "First, he turned south. The Tangut kingdom of Western Xia submitted in 1209. Then he invaded the Jin dynasty of northern China.",
+   "end": 123.5
+  },
+  {
+   "id": "S18",
+   "start": 123.5,
+   "firstWord": "The",
+   "vo": "The Mongols had no experience with walled cities. So they learned, using captured Chinese engineers to build siege weapons.",
+   "end": 130.3
+  },
+  {
+   "id": "S19",
+   "start": 130.3,
+   "firstWord": "In",
+   "vo": "In 1215, they captured the Jin capital Zhongdu, near modern Beijing.",
+   "end": 135.5
+  },
+  {
+   "id": "S20",
+   "start": 135.5,
+   "firstWord": "In",
+   "vo": "In the west lay the Khwarazmian Empire, a rich Muslim state in Central Asia. Genghis sent a trade caravan there, but the governor of Otrar had the merchants killed.",
+   "end": 145.865
+  },
+  {
+   "id": "S21",
+   "start": 145.865,
+   "firstWord": "Genghis",
+   "vo": "Genghis sent envoys to demand justice. The Shah had one of them executed and sent the others back humiliated.",
+   "end": 151.9
+  },
+  {
+   "id": "S22",
+   "start": 151.9,
+   "firstWord": "It",
+   "vo": "It was a fatal mistake. In 1219, the Mongols invaded. Within three years, Otrar, Bukhara, Samarkand and Merv had fallen.",
+   "end": 161.8
+  },
+  {
+   "id": "S23",
+   "start": 161.8,
+   "firstWord": "Cities",
+   "vo": "Cities that resisted were destroyed and their people massacred. Cities that surrendered were usually spared. Word spread fast.",
+   "end": 169.43
+  },
+  {
+   "id": "S24",
+   "start": 169.43,
+   "firstWord": "Meanwhile,",
+   "vo": "Meanwhile, two generals, Jebe and Subutai, rode all the way around the Caspian Sea, defeating Georgian and Rus armies on the way.",
+   "end": 176.7
+  },
+  {
+   "id": "S25",
+   "start": 176.7,
+   "firstWord": "In",
+   "vo": "In 1227, Genghis Khan died during a campaign in western China. To this day, nobody knows where he is buried.",
+   "end": 184.1
+  },
+  {
+   "id": "S26",
+   "start": 184.1,
+   "firstWord": "His",
+   "vo": "His son Ogedei became the Great Khan and built a capital at Karakorum. In 1234, the Jin dynasty was finally destroyed.",
+   "end": 193.6
+  },
+  {
+   "id": "S27",
+   "start": 193.6,
+   "firstWord": "Then",
+   "vo": "Then the Mongols looked west. Between 1237 and 1241, they swept through the Russian principalities, burned Kyiv, and crushed armies in Poland and Hungary.",
+   "end": 203.4
+  },
+  {
+   "id": "S28",
+   "start": 203.4,
+   "firstWord": "European",
+   "vo": "European knights had never faced anything like this. Mongol riders would pretend to retreat, then turn around and surround their pursuers.",
+   "end": 211.8
+  },
+  {
+   "id": "S29",
+   "start": 211.8,
+   "firstWord": "Europe",
+   "vo": "Europe seemed open. But in late 1241, news came that Ogedei had died. The Mongol leaders turned back east, and they never returned in full force.",
+   "end": 223.931
+  },
+  {
+   "id": "S30",
+   "start": 223.931,
+   "firstWord": "In",
+   "vo": "In the Middle East, Genghis's grandson Hulegu attacked Baghdad in 1258. One of the greatest cities in the world was sacked, and the last Abbasid caliph was killed.",
+   "end": 233.89
+  },
+  {
+   "id": "S31",
+   "start": 233.89,
+   "firstWord": "According",
+   "vo": "According to legend, so many books were thrown into the Tigris that the river ran black with ink.",
+   "end": 239.227
+  },
+  {
+   "id": "S32",
+   "start": 239.227,
+   "firstWord": "But",
+   "vo": "But in 1260, the Egyptian Mamluks defeated a Mongol army at Ain Jalut. For the first time, the Mongol advance had been stopped.",
+   "end": 248.31
+  },
+  {
+   "id": "S33",
+   "start": 248.31,
+   "firstWord": "By",
+   "vo": "By then, the empire was too big to rule from one place. After a civil war between Genghis's grandsons, it broke into four parts: the Golden Horde, the Chagatai Khanate, the Ilkhanate, and the Yuan dynasty in China.",
+   "end": 261.455
+  },
+  {
+   "id": "S34",
+   "start": 261.455,
+   "firstWord": "The",
+   "vo": "The Yuan was ruled by Kublai Khan. In 1279, he completed the conquest of southern China, and for the first time all of China was under Mongol rule.",
+   "end": 270.8
+  },
+  {
+   "id": "S35",
+   "start": 270.8,
+   "firstWord": "He",
+   "vo": "He also tried to invade Japan, twice. Both attempts failed. The second fleet was destroyed by a typhoon the Japanese called kamikaze, the divine wind.",
+   "end": 281.4
+  },
+  {
+   "id": "S36",
+   "start": 281.4,
+   "firstWord": "Despite",
+   "vo": "Despite all the violence, Mongol rule made the Silk Road safer than ever. Merchants, ideas and travelers like Marco Polo crossed from Europe to China.",
+   "end": 290.649
+  },
+  {
+   "id": "S37",
+   "start": 290.649,
+   "firstWord": "But",
+   "vo": "But the same routes also carried something deadly. In the 1340s, the Black Death spread from Central Asia to the Black Sea, and from there to Europe.",
+   "end": 300.768
+  },
+  {
+   "id": "S38",
+   "start": 300.768,
+   "firstWord": "One",
+   "vo": "One by one, the khanates fell apart. The Ilkhanate collapsed in 1335. In 1368, the Yuan were driven out of China by the Ming. The Golden Horde held on the longest, until its grip on Moscow ended in 1480.",
+   "end": 314.6
+  },
+  {
+   "id": "S39",
+   "start": 314.6,
+   "firstWord": "The",
+   "vo": "The empire was gone. But it had reshaped the map of Asia and Europe, and the countries that rose from its ruins, from Russia to China.",
+   "end": 322.8
+  },
+  {
+   "id": "S40",
+   "start": 322.8,
+   "firstWord": "And",
+   "vo": "And it all started with a boy on the steppe who refused to give up.",
+   "end": 328.771
+  }
+ ],
+ "words": [
+  {
+   "text": "In",
+   "scene": "S01",
+   "start": 0.08,
+   "end": 0.12,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "less",
+   "scene": "S01",
+   "start": 0.18,
+   "end": 0.36,
+   "heard": "less",
+   "confidence": 1
+  },
+  {
+   "text": "than",
+   "scene": "S01",
+   "start": 0.36,
+   "end": 0.6,
+   "heard": "than",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S01",
+   "start": 0.6,
+   "end": 0.66,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "century,",
+   "scene": "S01",
+   "start": 0.7,
+   "end": 1.24,
+   "heard": "century,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S01",
+   "start": 1.24,
+   "end": 1.29,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "few",
+   "scene": "S01",
+   "start": 1.34,
+   "end": 1.48,
+   "heard": "few",
+   "confidence": 1
+  },
+  {
+   "text": "nomadic",
+   "scene": "S01",
+   "start": 1.48,
+   "end": 2.05,
+   "heard": "nomadic",
+   "confidence": 1
+  },
+  {
+   "text": "tribes",
+   "scene": "S01",
+   "start": 2.05,
+   "end": 2.43,
+   "heard": "tribes",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S01",
+   "start": 2.43,
+   "end": 2.61,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S01",
+   "start": 2.61,
+   "end": 2.77,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Mongolian",
+   "scene": "S01",
+   "start": 2.77,
+   "end": 3.25,
+   "heard": "Mongolian",
+   "confidence": 1
+  },
+  {
+   "text": "steppe",
+   "scene": "S01",
+   "start": 3.25,
+   "end": 3.62,
+   "heard": "steppe",
+   "confidence": 1
+  },
+  {
+   "text": "built",
+   "scene": "S01",
+   "start": 3.62,
+   "end": 3.92,
+   "heard": "built",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S01",
+   "start": 3.92,
+   "end": 4.03,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "largest",
+   "scene": "S01",
+   "start": 4.03,
+   "end": 4.58,
+   "heard": "largest",
+   "confidence": 1
+  },
+  {
+   "text": "connected",
+   "scene": "S01",
+   "start": 4.58,
+   "end": 4.96,
+   "heard": "connected",
+   "confidence": 1
+  },
+  {
+   "text": "land",
+   "scene": "S01",
+   "start": 4.96,
+   "end": 5.24,
+   "heard": "land",
+   "confidence": 1
+  },
+  {
+   "text": "empire",
+   "scene": "S01",
+   "start": 5.24,
+   "end": 5.65,
+   "heard": "empire",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S01",
+   "start": 5.65,
+   "end": 5.79,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "history.",
+   "scene": "S01",
+   "start": 5.79,
+   "end": 6.5,
+   "heard": "history.",
+   "confidence": 1
+  },
+  {
+   "text": "At",
+   "scene": "S01",
+   "start": 6.826,
+   "end": 6.926,
+   "heard": "At",
+   "confidence": 1
+  },
+  {
+   "text": "its",
+   "scene": "S01",
+   "start": 6.926,
+   "end": 6.976,
+   "heard": "its",
+   "confidence": 1
+  },
+  {
+   "text": "height,",
+   "scene": "S01",
+   "start": 7.026,
+   "end": 7.31,
+   "heard": "height,",
+   "confidence": 1
+  },
+  {
+   "text": "it",
+   "scene": "S01",
+   "start": 7.31,
+   "end": 7.48,
+   "heard": "it",
+   "confidence": 1
+  },
+  {
+   "text": "stretched",
+   "scene": "S01",
+   "start": 7.48,
+   "end": 8,
+   "heard": "stretched",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S01",
+   "start": 8,
+   "end": 8.25,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "Korea",
+   "scene": "S01",
+   "start": 8.25,
+   "end": 8.81,
+   "heard": "Korea",
+   "confidence": 1
+  },
+  {
+   "text": "all",
+   "scene": "S01",
+   "start": 8.826,
+   "end": 8.926,
+   "heard": "all",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S01",
+   "start": 8.926,
+   "end": 9.02,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "way",
+   "scene": "S01",
+   "start": 9.026,
+   "end": 9.23,
+   "heard": "way",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S01",
+   "start": 9.23,
+   "end": 9.37,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "Hungary.",
+   "scene": "S01",
+   "start": 9.37,
+   "end": 9.9,
+   "heard": "Hungary.",
+   "confidence": 1
+  },
+  {
+   "text": "And",
+   "scene": "S02",
+   "start": 10.215,
+   "end": 10.315,
+   "heard": "And",
+   "confidence": 1
+  },
+  {
+   "text": "it",
+   "scene": "S02",
+   "start": 10.315,
+   "end": 10.42,
+   "heard": "it",
+   "confidence": 1
+  },
+  {
+   "text": "all",
+   "scene": "S02",
+   "start": 10.42,
+   "end": 10.7,
+   "heard": "all",
+   "confidence": 1
+  },
+  {
+   "text": "began",
+   "scene": "S02",
+   "start": 10.7,
+   "end": 11.13,
+   "heard": "began",
+   "confidence": 1
+  },
+  {
+   "text": "with",
+   "scene": "S02",
+   "start": 11.13,
+   "end": 11.63,
+   "heard": "with",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S02",
+   "start": 11.63,
+   "end": 11.68,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "boy",
+   "scene": "S02",
+   "start": 11.73,
+   "end": 11.89,
+   "heard": "boy",
+   "confidence": 1
+  },
+  {
+   "text": "who",
+   "scene": "S02",
+   "start": 11.89,
+   "end": 12.14,
+   "heard": "who",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S02",
+   "start": 12.14,
+   "end": 12.43,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "nothing.",
+   "scene": "S02",
+   "start": 12.43,
+   "end": 13.3,
+   "heard": "nothing.",
+   "confidence": 1
+  },
+  {
+   "text": "This",
+   "scene": "S03",
+   "start": 13.724,
+   "end": 13.824,
+   "heard": "This",
+   "confidence": 1
+  },
+  {
+   "text": "is",
+   "scene": "S03",
+   "start": 13.824,
+   "end": 13.874,
+   "heard": "is",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S03",
+   "start": 13.924,
+   "end": 14.06,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "story",
+   "scene": "S03",
+   "start": 14.06,
+   "end": 14.45,
+   "heard": "story",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S03",
+   "start": 14.45,
+   "end": 14.61,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S03",
+   "start": 14.61,
+   "end": 14.86,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S03",
+   "start": 14.86,
+   "end": 15.37,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "Empire.",
+   "scene": "S03",
+   "start": 15.37,
+   "end": 15.9,
+   "heard": "Empire.",
+   "confidence": 1
+  },
+  {
+   "text": "Around",
+   "scene": "S04",
+   "start": 17.077,
+   "end": 17.177,
+   "heard": "Around",
+   "confidence": 1
+  },
+  {
+   "text": "1162,",
+   "scene": "S04",
+   "start": 17.177,
+   "end": 18.67,
+   "heard": "1162,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S04",
+   "start": 18.86,
+   "end": 18.96,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "boy",
+   "scene": "S04",
+   "start": 18.96,
+   "end": 19.01,
+   "heard": "boy",
+   "confidence": 1
+  },
+  {
+   "text": "named",
+   "scene": "S04",
+   "start": 19.06,
+   "end": 19.24,
+   "heard": "named",
+   "confidence": 1
+  },
+  {
+   "text": "Temujin",
+   "scene": "S04",
+   "start": 19.24,
+   "end": 19.73,
+   "heard": "Temujin",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S04",
+   "start": 19.73,
+   "end": 19.94,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "born",
+   "scene": "S04",
+   "start": 19.94,
+   "end": 20.23,
+   "heard": "born",
+   "confidence": 1
+  },
+  {
+   "text": "on",
+   "scene": "S04",
+   "start": 20.23,
+   "end": 20.37,
+   "heard": "on",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S04",
+   "start": 20.37,
+   "end": 20.58,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "steppe",
+   "scene": "S04",
+   "start": 20.58,
+   "end": 21,
+   "heard": "steppe",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S04",
+   "start": 21,
+   "end": 21.15,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "what",
+   "scene": "S04",
+   "start": 21.15,
+   "end": 21.43,
+   "heard": "what",
+   "confidence": 1
+  },
+  {
+   "text": "is",
+   "scene": "S04",
+   "start": 21.43,
+   "end": 21.57,
+   "heard": "is",
+   "confidence": 1
+  },
+  {
+   "text": "now",
+   "scene": "S04",
+   "start": 21.57,
+   "end": 21.78,
+   "heard": "now",
+   "confidence": 1
+  },
+  {
+   "text": "Mongolia.",
+   "scene": "S04",
+   "start": 21.78,
+   "end": 22.7,
+   "heard": "Mongolia.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S04",
+   "start": 22.904,
+   "end": 23.004,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "steppe",
+   "scene": "S04",
+   "start": 23.004,
+   "end": 23.27,
+   "heard": "steppe",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S04",
+   "start": 23.27,
+   "end": 23.51,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "divided",
+   "scene": "S04",
+   "start": 23.51,
+   "end": 23.9,
+   "heard": "divided",
+   "confidence": 1
+  },
+  {
+   "text": "between",
+   "scene": "S04",
+   "start": 23.9,
+   "end": 24.34,
+   "heard": "between",
+   "confidence": 1
+  },
+  {
+   "text": "rival",
+   "scene": "S04",
+   "start": 24.34,
+   "end": 24.65,
+   "heard": "rival",
+   "confidence": 1
+  },
+  {
+   "text": "tribes,",
+   "scene": "S04",
+   "start": 24.65,
+   "end": 25.02,
+   "heard": "tribes",
+   "confidence": 1
+  },
+  {
+   "text": "who",
+   "scene": "S04",
+   "start": 25.02,
+   "end": 25.38,
+   "heard": "who",
+   "confidence": 1
+  },
+  {
+   "text": "raided",
+   "scene": "S04",
+   "start": 25.38,
+   "end": 25.6,
+   "heard": "raided",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S04",
+   "start": 25.6,
+   "end": 25.79,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "fought",
+   "scene": "S04",
+   "start": 25.79,
+   "end": 26.18,
+   "heard": "fought",
+   "confidence": 1
+  },
+  {
+   "text": "each",
+   "scene": "S04",
+   "start": 26.18,
+   "end": 26.42,
+   "heard": "each",
+   "confidence": 1
+  },
+  {
+   "text": "other",
+   "scene": "S04",
+   "start": 26.42,
+   "end": 26.73,
+   "heard": "other",
+   "confidence": 1
+  },
+  {
+   "text": "constantly.",
+   "scene": "S04",
+   "start": 26.73,
+   "end": 27.6,
+   "heard": "constantly.",
+   "confidence": 1
+  },
+  {
+   "text": "When",
+   "scene": "S05",
+   "start": 28.01,
+   "end": 28.15,
+   "heard": "When",
+   "confidence": 1
+  },
+  {
+   "text": "Temujin",
+   "scene": "S05",
+   "start": 28.15,
+   "end": 28.56,
+   "heard": "Temujin",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S05",
+   "start": 28.56,
+   "end": 28.74,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "about",
+   "scene": "S05",
+   "start": 28.74,
+   "end": 29.04,
+   "heard": "about",
+   "confidence": 1
+  },
+  {
+   "text": "nine,",
+   "scene": "S05",
+   "start": 29.04,
+   "end": 29.4,
+   "heard": "nine,",
+   "confidence": 1
+  },
+  {
+   "text": "his",
+   "scene": "S05",
+   "start": 29.4,
+   "end": 29.58,
+   "heard": "his",
+   "confidence": 1
+  },
+  {
+   "text": "father",
+   "scene": "S05",
+   "start": 29.58,
+   "end": 29.97,
+   "heard": "father",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S05",
+   "start": 29.97,
+   "end": 30.12,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "poisoned",
+   "scene": "S05",
+   "start": 30.12,
+   "end": 30.59,
+   "heard": "poisoned",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S05",
+   "start": 30.59,
+   "end": 30.76,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S05",
+   "start": 30.76,
+   "end": 30.9,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Tatars,",
+   "scene": "S05",
+   "start": 30.9,
+   "end": 31.42,
+   "heard": "Tatars,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S05",
+   "start": 31.562,
+   "end": 31.662,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "rival",
+   "scene": "S05",
+   "start": 31.662,
+   "end": 31.95,
+   "heard": "rival",
+   "confidence": 1
+  },
+  {
+   "text": "tribe.",
+   "scene": "S05",
+   "start": 31.95,
+   "end": 32.7,
+   "heard": "tribe.",
+   "confidence": 1
+  },
+  {
+   "text": "His",
+   "scene": "S06",
+   "start": 33.038,
+   "end": 33.138,
+   "heard": "His",
+   "confidence": 1
+  },
+  {
+   "text": "own",
+   "scene": "S06",
+   "start": 33.138,
+   "end": 33.188,
+   "heard": "own",
+   "confidence": 1
+  },
+  {
+   "text": "clan",
+   "scene": "S06",
+   "start": 33.238,
+   "end": 33.37,
+   "heard": "clan",
+   "confidence": 1
+  },
+  {
+   "text": "abandoned",
+   "scene": "S06",
+   "start": 33.37,
+   "end": 33.97,
+   "heard": "abandoned",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S06",
+   "start": 33.97,
+   "end": 34.17,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "family.",
+   "scene": "S06",
+   "start": 34.17,
+   "end": 34.8,
+   "heard": "family.",
+   "confidence": 1
+  },
+  {
+   "text": "They",
+   "scene": "S06",
+   "start": 35.082,
+   "end": 35.182,
+   "heard": "They",
+   "confidence": 1
+  },
+  {
+   "text": "survived",
+   "scene": "S06",
+   "start": 35.182,
+   "end": 35.46,
+   "heard": "survived",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S06",
+   "start": 35.46,
+   "end": 35.56,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "fishing,",
+   "scene": "S06",
+   "start": 35.56,
+   "end": 36.07,
+   "heard": "fishing,",
+   "confidence": 1
+  },
+  {
+   "text": "hunting",
+   "scene": "S06",
+   "start": 36.07,
+   "end": 36.46,
+   "heard": "hunting",
+   "confidence": 1
+  },
+  {
+   "text": "small",
+   "scene": "S06",
+   "start": 36.46,
+   "end": 36.74,
+   "heard": "small",
+   "confidence": 1
+  },
+  {
+   "text": "animals",
+   "scene": "S06",
+   "start": 36.74,
+   "end": 37.24,
+   "heard": "animals,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S06",
+   "start": 37.24,
+   "end": 37.4,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "digging",
+   "scene": "S06",
+   "start": 37.4,
+   "end": 37.84,
+   "heard": "digging",
+   "confidence": 1
+  },
+  {
+   "text": "up",
+   "scene": "S06",
+   "start": 37.84,
+   "end": 37.9,
+   "heard": "up",
+   "confidence": 1
+  },
+  {
+   "text": "roots.",
+   "scene": "S06",
+   "start": 37.94,
+   "end": 38.4,
+   "heard": "roots.",
+   "confidence": 1
+  },
+  {
+   "text": "As",
+   "scene": "S07",
+   "start": 38.689,
+   "end": 38.789,
+   "heard": "As",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S07",
+   "start": 38.789,
+   "end": 38.839,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "teenager,",
+   "scene": "S07",
+   "start": 38.889,
+   "end": 39.25,
+   "heard": "teenager,",
+   "confidence": 1
+  },
+  {
+   "text": "Temujin",
+   "scene": "S07",
+   "start": 39.25,
+   "end": 39.7,
+   "heard": "Temujin",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S07",
+   "start": 39.7,
+   "end": 39.9,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "captured",
+   "scene": "S07",
+   "start": 39.9,
+   "end": 40.43,
+   "heard": "captured",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S07",
+   "start": 40.43,
+   "end": 40.56,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S07",
+   "start": 40.56,
+   "end": 40.62,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "rival",
+   "scene": "S07",
+   "start": 40.66,
+   "end": 40.95,
+   "heard": "rival",
+   "confidence": 1
+  },
+  {
+   "text": "clan",
+   "scene": "S07",
+   "start": 40.95,
+   "end": 41.21,
+   "heard": "clan",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S07",
+   "start": 41.21,
+   "end": 41.41,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "locked",
+   "scene": "S07",
+   "start": 41.41,
+   "end": 41.8,
+   "heard": "locked",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S07",
+   "start": 41.8,
+   "end": 41.93,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S07",
+   "start": 41.93,
+   "end": 41.99,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "heavy",
+   "scene": "S07",
+   "start": 42.03,
+   "end": 42.31,
+   "heard": "heavy",
+   "confidence": 1
+  },
+  {
+   "text": "wooden",
+   "scene": "S07",
+   "start": 42.31,
+   "end": 42.71,
+   "heard": "wooden",
+   "confidence": 1
+  },
+  {
+   "text": "collar.",
+   "scene": "S07",
+   "start": 42.71,
+   "end": 43.4,
+   "heard": "collar.",
+   "confidence": 1
+  },
+  {
+   "text": "One",
+   "scene": "S07",
+   "start": 43.742,
+   "end": 43.842,
+   "heard": "One",
+   "confidence": 1
+  },
+  {
+   "text": "night,",
+   "scene": "S07",
+   "start": 43.842,
+   "end": 44.11,
+   "heard": "night,",
+   "confidence": 1
+  },
+  {
+   "text": "he",
+   "scene": "S07",
+   "start": 44.11,
+   "end": 44.25,
+   "heard": "he",
+   "confidence": 1
+  },
+  {
+   "text": "escaped.",
+   "scene": "S07",
+   "start": 44.25,
+   "end": 45,
+   "heard": "escaped.",
+   "confidence": 1
+  },
+  {
+   "text": "He",
+   "scene": "S08",
+   "start": 45.276,
+   "end": 45.376,
+   "heard": "He",
+   "confidence": 1
+  },
+  {
+   "text": "married",
+   "scene": "S08",
+   "start": 45.376,
+   "end": 45.59,
+   "heard": "married",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S08",
+   "start": 45.59,
+   "end": 45.65,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "young",
+   "scene": "S08",
+   "start": 45.69,
+   "end": 45.98,
+   "heard": "young",
+   "confidence": 1
+  },
+  {
+   "text": "woman",
+   "scene": "S08",
+   "start": 45.98,
+   "end": 46.31,
+   "heard": "woman",
+   "confidence": 1
+  },
+  {
+   "text": "named",
+   "scene": "S08",
+   "start": 46.31,
+   "end": 46.64,
+   "heard": "named",
+   "confidence": 1
+  },
+  {
+   "text": "Borte.",
+   "scene": "S08",
+   "start": 46.64,
+   "end": 47.2,
+   "heard": "Borte.",
+   "confidence": 1
+  },
+  {
+   "text": "But",
+   "scene": "S08",
+   "start": 47.522,
+   "end": 47.622,
+   "heard": "But",
+   "confidence": 1
+  },
+  {
+   "text": "soon",
+   "scene": "S08",
+   "start": 47.622,
+   "end": 47.672,
+   "heard": "soon",
+   "confidence": 1
+  },
+  {
+   "text": "after",
+   "scene": "S08",
+   "start": 47.722,
+   "end": 47.85,
+   "heard": "after",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S08",
+   "start": 47.85,
+   "end": 48.04,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "wedding,",
+   "scene": "S08",
+   "start": 48.04,
+   "end": 48.5,
+   "heard": "wedding,",
+   "confidence": 1
+  },
+  {
+   "text": "she",
+   "scene": "S08",
+   "start": 48.5,
+   "end": 48.66,
+   "heard": "she",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S08",
+   "start": 48.66,
+   "end": 48.93,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "kidnapped",
+   "scene": "S08",
+   "start": 48.93,
+   "end": 49.31,
+   "heard": "kidnapped",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S08",
+   "start": 49.31,
+   "end": 49.42,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S08",
+   "start": 49.42,
+   "end": 49.57,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Merkit",
+   "scene": "S08",
+   "start": 49.57,
+   "end": 49.9,
+   "heard": "Merkit",
+   "confidence": 1
+  },
+  {
+   "text": "tribe.",
+   "scene": "S08",
+   "start": 49.9,
+   "end": 50.4,
+   "heard": "tribe.",
+   "confidence": 1
+  },
+  {
+   "text": "Temujin",
+   "scene": "S09",
+   "start": 50.819,
+   "end": 50.919,
+   "heard": "Temujin",
+   "confidence": 1
+  },
+  {
+   "text": "gathered",
+   "scene": "S09",
+   "start": 50.919,
+   "end": 51.31,
+   "heard": "gathered",
+   "confidence": 1
+  },
+  {
+   "text": "allies,",
+   "scene": "S09",
+   "start": 51.31,
+   "end": 51.8,
+   "heard": "allies,",
+   "confidence": 1
+  },
+  {
+   "text": "including",
+   "scene": "S09",
+   "start": 51.8,
+   "end": 52.36,
+   "heard": "including",
+   "confidence": 1
+  },
+  {
+   "text": "his",
+   "scene": "S09",
+   "start": 52.36,
+   "end": 52.54,
+   "heard": "his",
+   "confidence": 1
+  },
+  {
+   "text": "blood",
+   "scene": "S09",
+   "start": 52.54,
+   "end": 52.86,
+   "heard": "blood",
+   "confidence": 1
+  },
+  {
+   "text": "brother",
+   "scene": "S09",
+   "start": 52.86,
+   "end": 53.28,
+   "heard": "brother",
+   "confidence": 1
+  },
+  {
+   "text": "Jamukha,",
+   "scene": "S09",
+   "start": 53.28,
+   "end": 53.82,
+   "heard": "Jamukha,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S09",
+   "start": 53.82,
+   "end": 54.05,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "rescued",
+   "scene": "S09",
+   "start": 54.05,
+   "end": 54.47,
+   "heard": "rescued",
+   "confidence": 1
+  },
+  {
+   "text": "her.",
+   "scene": "S09",
+   "start": 54.47,
+   "end": 54.9,
+   "heard": "her.",
+   "confidence": 1
+  },
+  {
+   "text": "It",
+   "scene": "S09",
+   "start": 55.223,
+   "end": 55.323,
+   "heard": "It",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S09",
+   "start": 55.323,
+   "end": 55.373,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "his",
+   "scene": "S09",
+   "start": 55.423,
+   "end": 55.473,
+   "heard": "his",
+   "confidence": 1
+  },
+  {
+   "text": "first",
+   "scene": "S09",
+   "start": 55.523,
+   "end": 55.76,
+   "heard": "first",
+   "confidence": 1
+  },
+  {
+   "text": "great",
+   "scene": "S09",
+   "start": 55.76,
+   "end": 56.09,
+   "heard": "great",
+   "confidence": 1
+  },
+  {
+   "text": "victory,",
+   "scene": "S09",
+   "start": 56.09,
+   "end": 56.8,
+   "heard": "victory.",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S09",
+   "start": 57.19,
+   "end": 57.27,
+   "heard": "And",
+   "confidence": 1
+  },
+  {
+   "text": "people",
+   "scene": "S09",
+   "start": 57.29,
+   "end": 57.61,
+   "heard": "people",
+   "confidence": 1
+  },
+  {
+   "text": "began",
+   "scene": "S09",
+   "start": 57.61,
+   "end": 57.89,
+   "heard": "began",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S09",
+   "start": 57.89,
+   "end": 58,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "follow",
+   "scene": "S09",
+   "start": 58,
+   "end": 58.34,
+   "heard": "follow",
+   "confidence": 1
+  },
+  {
+   "text": "him.",
+   "scene": "S09",
+   "start": 58.34,
+   "end": 58.7,
+   "heard": "him.",
+   "confidence": 1
+  },
+  {
+   "text": "But",
+   "scene": "S10",
+   "start": 59.099,
+   "end": 59.199,
+   "heard": "But",
+   "confidence": 1
+  },
+  {
+   "text": "Jamukha",
+   "scene": "S10",
+   "start": 59.199,
+   "end": 59.34,
+   "heard": "Jamukha",
+   "confidence": 1
+  },
+  {
+   "text": "became",
+   "scene": "S10",
+   "start": 59.34,
+   "end": 59.73,
+   "heard": "became",
+   "confidence": 1
+  },
+  {
+   "text": "his",
+   "scene": "S10",
+   "start": 59.73,
+   "end": 59.92,
+   "heard": "his",
+   "confidence": 1
+  },
+  {
+   "text": "greatest",
+   "scene": "S10",
+   "start": 59.92,
+   "end": 60.44,
+   "heard": "greatest",
+   "confidence": 1
+  },
+  {
+   "text": "rival.",
+   "scene": "S10",
+   "start": 60.44,
+   "end": 61,
+   "heard": "rival.",
+   "confidence": 1
+  },
+  {
+   "text": "For",
+   "scene": "S10",
+   "start": 61.243,
+   "end": 61.343,
+   "heard": "For",
+   "confidence": 1
+  },
+  {
+   "text": "twenty",
+   "scene": "S10",
+   "start": 61.343,
+   "end": 61.56,
+   "heard": "twenty",
+   "confidence": 1
+  },
+  {
+   "text": "years,",
+   "scene": "S10",
+   "start": 61.56,
+   "end": 61.98,
+   "heard": "years,",
+   "confidence": 1
+  },
+  {
+   "text": "Temujin",
+   "scene": "S10",
+   "start": 61.98,
+   "end": 62.4,
+   "heard": "Temujin",
+   "confidence": 1
+  },
+  {
+   "text": "fought",
+   "scene": "S10",
+   "start": 62.4,
+   "end": 62.81,
+   "heard": "fought",
+   "confidence": 1
+  },
+  {
+   "text": "tribe",
+   "scene": "S10",
+   "start": 62.81,
+   "end": 63.08,
+   "heard": "tribe",
+   "confidence": 1
+  },
+  {
+   "text": "after",
+   "scene": "S10",
+   "start": 63.08,
+   "end": 63.39,
+   "heard": "after",
+   "confidence": 1
+  },
+  {
+   "text": "tribe",
+   "scene": "S10",
+   "start": 63.39,
+   "end": 63.7,
+   "heard": "tribe",
+   "confidence": 1
+  },
+  {
+   "text": "for",
+   "scene": "S10",
+   "start": 63.7,
+   "end": 63.88,
+   "heard": "for",
+   "confidence": 1
+  },
+  {
+   "text": "control",
+   "scene": "S10",
+   "start": 63.88,
+   "end": 64.32,
+   "heard": "control",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S10",
+   "start": 64.32,
+   "end": 64.5,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S10",
+   "start": 64.5,
+   "end": 64.62,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "steppe.",
+   "scene": "S10",
+   "start": 64.62,
+   "end": 65.3,
+   "heard": "steppe.",
+   "confidence": 1
+  },
+  {
+   "text": "He",
+   "scene": "S11",
+   "start": 65.696,
+   "end": 65.796,
+   "heard": "He",
+   "confidence": 1
+  },
+  {
+   "text": "crushed",
+   "scene": "S11",
+   "start": 65.796,
+   "end": 65.98,
+   "heard": "crushed",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S11",
+   "start": 65.98,
+   "end": 66.32,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Tatars,",
+   "scene": "S11",
+   "start": 66.32,
+   "end": 66.82,
+   "heard": "Tatars,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S11",
+   "start": 66.82,
+   "end": 67.28,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Keraites",
+   "scene": "S11",
+   "start": 67.284,
+   "end": 67.73,
+   "heard": "Karites,",
+   "confidence": 0.75
+  },
+  {
+   "text": "and",
+   "scene": "S11",
+   "start": 67.73,
+   "end": 68.19,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S11",
+   "start": 68.218,
+   "end": 68.318,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Naimans.",
+   "scene": "S11",
+   "start": 68.318,
+   "end": 69,
+   "heard": "Naimans.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S11",
+   "start": 69.294,
+   "end": 69.394,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S11",
+   "start": 69.394,
+   "end": 69.444,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "end,",
+   "scene": "S11",
+   "start": 69.494,
+   "end": 69.7,
+   "heard": "end,",
+   "confidence": 1
+  },
+  {
+   "text": "Jamukha",
+   "scene": "S11",
+   "start": 69.7,
+   "end": 70.23,
+   "heard": "Jamukha",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S11",
+   "start": 70.23,
+   "end": 70.4,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "betrayed",
+   "scene": "S11",
+   "start": 70.4,
+   "end": 70.97,
+   "heard": "betrayed",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S11",
+   "start": 70.97,
+   "end": 71.11,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "his",
+   "scene": "S11",
+   "start": 71.11,
+   "end": 71.31,
+   "heard": "his",
+   "confidence": 1
+  },
+  {
+   "text": "own",
+   "scene": "S11",
+   "start": 71.31,
+   "end": 71.53,
+   "heard": "own",
+   "confidence": 1
+  },
+  {
+   "text": "men",
+   "scene": "S11",
+   "start": 71.53,
+   "end": 71.95,
+   "heard": "men",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S11",
+   "start": 71.979,
+   "end": 72.079,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "executed.",
+   "scene": "S11",
+   "start": 72.079,
+   "end": 72.8,
+   "heard": "executed.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S12",
+   "start": 73.243,
+   "end": 73.343,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1206,",
+   "scene": "S12",
+   "start": 73.343,
+   "end": 74.03,
+   "heard": "1206,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S12",
+   "start": 74.03,
+   "end": 74.08,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "great",
+   "scene": "S12",
+   "start": 74.13,
+   "end": 74.42,
+   "heard": "great",
+   "confidence": 1
+  },
+  {
+   "text": "assembly",
+   "scene": "S12",
+   "start": 74.42,
+   "end": 74.97,
+   "heard": "assembly",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S12",
+   "start": 74.97,
+   "end": 75.11,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S12",
+   "start": 75.11,
+   "end": 75.33,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "tribes",
+   "scene": "S12",
+   "start": 75.33,
+   "end": 75.76,
+   "heard": "tribes",
+   "confidence": 1
+  },
+  {
+   "text": "gave",
+   "scene": "S12",
+   "start": 75.76,
+   "end": 76.06,
+   "heard": "gave",
+   "confidence": 1
+  },
+  {
+   "text": "him",
+   "scene": "S12",
+   "start": 76.06,
+   "end": 76.28,
+   "heard": "him",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S12",
+   "start": 76.28,
+   "end": 76.35,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "new",
+   "scene": "S12",
+   "start": 76.38,
+   "end": 76.57,
+   "heard": "new",
+   "confidence": 1
+  },
+  {
+   "text": "title:",
+   "scene": "S12",
+   "start": 76.57,
+   "end": 77,
+   "heard": "title.",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis",
+   "scene": "S12",
+   "start": 77.489,
+   "end": 77.88,
+   "heard": "Genghis",
+   "confidence": 1
+  },
+  {
+   "text": "Khan.",
+   "scene": "S12",
+   "start": 77.88,
+   "end": 78.4,
+   "heard": "Khan.",
+   "confidence": 1
+  },
+  {
+   "text": "For",
+   "scene": "S12",
+   "start": 78.645,
+   "end": 78.745,
+   "heard": "For",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S12",
+   "start": 78.745,
+   "end": 78.795,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "first",
+   "scene": "S12",
+   "start": 78.845,
+   "end": 79.07,
+   "heard": "first",
+   "confidence": 1
+  },
+  {
+   "text": "time,",
+   "scene": "S12",
+   "start": 79.07,
+   "end": 79.44,
+   "heard": "time,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S12",
+   "start": 79.44,
+   "end": 79.62,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "steppe",
+   "scene": "S12",
+   "start": 79.62,
+   "end": 79.98,
+   "heard": "steppe",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S12",
+   "start": 79.98,
+   "end": 80.16,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "united.",
+   "scene": "S12",
+   "start": 80.16,
+   "end": 80.8,
+   "heard": "united.",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis",
+   "scene": "S13",
+   "start": 82.015,
+   "end": 82.115,
+   "heard": "Genghis",
+   "confidence": 1
+  },
+  {
+   "text": "rebuilt",
+   "scene": "S13",
+   "start": 82.115,
+   "end": 82.165,
+   "heard": "rebuilt",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S13",
+   "start": 82.215,
+   "end": 82.63,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "society",
+   "scene": "S13",
+   "start": 82.63,
+   "end": 83.28,
+   "heard": "society",
+   "confidence": 1
+  },
+  {
+   "text": "around",
+   "scene": "S13",
+   "start": 83.28,
+   "end": 83.83,
+   "heard": "around",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S13",
+   "start": 83.83,
+   "end": 84.1,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "army.",
+   "scene": "S13",
+   "start": 84.1,
+   "end": 84.8,
+   "heard": "army.",
+   "confidence": 1
+  },
+  {
+   "text": "Men",
+   "scene": "S13",
+   "start": 85.11,
+   "end": 85.22,
+   "heard": "Men",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S13",
+   "start": 85.22,
+   "end": 85.51,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "organized",
+   "scene": "S13",
+   "start": 85.51,
+   "end": 86.17,
+   "heard": "organized",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S13",
+   "start": 86.17,
+   "end": 86.31,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "units",
+   "scene": "S13",
+   "start": 86.31,
+   "end": 86.67,
+   "heard": "units",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S13",
+   "start": 86.67,
+   "end": 86.81,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "ten,",
+   "scene": "S13",
+   "start": 86.81,
+   "end": 87.24,
+   "heard": "ten,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S13",
+   "start": 87.24,
+   "end": 87.3,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "hundred,",
+   "scene": "S13",
+   "start": 87.34,
+   "end": 87.96,
+   "heard": "hundred,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S13",
+   "start": 88.071,
+   "end": 88.171,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "thousand",
+   "scene": "S13",
+   "start": 88.171,
+   "end": 88.67,
+   "heard": "thousand,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S13",
+   "start": 88.67,
+   "end": 89.11,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "ten",
+   "scene": "S13",
+   "start": 89.11,
+   "end": 89.16,
+   "heard": "ten",
+   "confidence": 1
+  },
+  {
+   "text": "thousand.",
+   "scene": "S13",
+   "start": 89.21,
+   "end": 90,
+   "heard": "thousand.",
+   "confidence": 1
+  },
+  {
+   "text": "Old",
+   "scene": "S14",
+   "start": 90,
+   "end": 90.63,
+   "heard": "Old",
+   "confidence": 1
+  },
+  {
+   "text": "tribal",
+   "scene": "S14",
+   "start": 90.63,
+   "end": 90.68,
+   "heard": "tribal",
+   "confidence": 1
+  },
+  {
+   "text": "loyalties",
+   "scene": "S14",
+   "start": 90.73,
+   "end": 91.26,
+   "heard": "loyalties",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S14",
+   "start": 91.26,
+   "end": 91.53,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "broken",
+   "scene": "S14",
+   "start": 91.53,
+   "end": 91.96,
+   "heard": "broken",
+   "confidence": 1
+  },
+  {
+   "text": "up",
+   "scene": "S14",
+   "start": 91.96,
+   "end": 92.1,
+   "heard": "up",
+   "confidence": 1
+  },
+  {
+   "text": "on",
+   "scene": "S14",
+   "start": 92.1,
+   "end": 92.24,
+   "heard": "on",
+   "confidence": 1
+  },
+  {
+   "text": "purpose.",
+   "scene": "S14",
+   "start": 92.24,
+   "end": 93,
+   "heard": "purpose.",
+   "confidence": 1
+  },
+  {
+   "text": "Commanders",
+   "scene": "S14",
+   "start": 93,
+   "end": 93.63,
+   "heard": "Commanders",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S14",
+   "start": 93.63,
+   "end": 93.88,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "promoted",
+   "scene": "S14",
+   "start": 93.88,
+   "end": 94.39,
+   "heard": "promoted",
+   "confidence": 1
+  },
+  {
+   "text": "for",
+   "scene": "S14",
+   "start": 94.39,
+   "end": 94.65,
+   "heard": "for",
+   "confidence": 1
+  },
+  {
+   "text": "loyalty",
+   "scene": "S14",
+   "start": 94.65,
+   "end": 95.02,
+   "heard": "loyalty",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S14",
+   "start": 95.02,
+   "end": 95.21,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "skill,",
+   "scene": "S14",
+   "start": 95.21,
+   "end": 95.7,
+   "heard": "skill,",
+   "confidence": 1
+  },
+  {
+   "text": "not",
+   "scene": "S14",
+   "start": 95.7,
+   "end": 95.9,
+   "heard": "not",
+   "confidence": 1
+  },
+  {
+   "text": "for",
+   "scene": "S14",
+   "start": 95.9,
+   "end": 96.1,
+   "heard": "for",
+   "confidence": 1
+  },
+  {
+   "text": "noble",
+   "scene": "S14",
+   "start": 96.1,
+   "end": 96.44,
+   "heard": "noble",
+   "confidence": 1
+  },
+  {
+   "text": "birth.",
+   "scene": "S14",
+   "start": 96.44,
+   "end": 97,
+   "heard": "birth.",
+   "confidence": 1
+  },
+  {
+   "text": "He",
+   "scene": "S15",
+   "start": 97,
+   "end": 97.51,
+   "heard": "He",
+   "confidence": 1
+  },
+  {
+   "text": "introduced",
+   "scene": "S15",
+   "start": 97.51,
+   "end": 97.88,
+   "heard": "introduced",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S15",
+   "start": 97.88,
+   "end": 98.02,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "code",
+   "scene": "S15",
+   "start": 98.02,
+   "end": 98.24,
+   "heard": "code",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S15",
+   "start": 98.24,
+   "end": 98.38,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "law",
+   "scene": "S15",
+   "start": 98.38,
+   "end": 98.6,
+   "heard": "law",
+   "confidence": 1
+  },
+  {
+   "text": "called",
+   "scene": "S15",
+   "start": 98.6,
+   "end": 99.06,
+   "heard": "called",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S15",
+   "start": 99.06,
+   "end": 99.26,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Yassa,",
+   "scene": "S15",
+   "start": 99.26,
+   "end": 99.6,
+   "heard": "Yasa,",
+   "confidence": 0.95
+  },
+  {
+   "text": "and",
+   "scene": "S15",
+   "start": 99.6,
+   "end": 99.85,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S15",
+   "start": 99.982,
+   "end": 100.082,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "network",
+   "scene": "S15",
+   "start": 100.082,
+   "end": 100.35,
+   "heard": "network",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S15",
+   "start": 100.35,
+   "end": 100.44,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "relay",
+   "scene": "S15",
+   "start": 100.45,
+   "end": 100.77,
+   "heard": "relay",
+   "confidence": 1
+  },
+  {
+   "text": "stations,",
+   "scene": "S15",
+   "start": 100.77,
+   "end": 101.28,
+   "heard": "stations",
+   "confidence": 1
+  },
+  {
+   "text": "where",
+   "scene": "S15",
+   "start": 101.28,
+   "end": 101.63,
+   "heard": "where",
+   "confidence": 1
+  },
+  {
+   "text": "riders",
+   "scene": "S15",
+   "start": 101.63,
+   "end": 102.01,
+   "heard": "riders",
+   "confidence": 1
+  },
+  {
+   "text": "swapped",
+   "scene": "S15",
+   "start": 102.01,
+   "end": 102.52,
+   "heard": "swapped",
+   "confidence": 1
+  },
+  {
+   "text": "horses",
+   "scene": "S15",
+   "start": 102.52,
+   "end": 102.9,
+   "heard": "horses",
+   "confidence": 1
+  },
+  {
+   "text": "so",
+   "scene": "S15",
+   "start": 102.9,
+   "end": 103.13,
+   "heard": "so",
+   "confidence": 1
+  },
+  {
+   "text": "messages",
+   "scene": "S15",
+   "start": 103.13,
+   "end": 103.6,
+   "heard": "messages",
+   "confidence": 1
+  },
+  {
+   "text": "could",
+   "scene": "S15",
+   "start": 103.6,
+   "end": 103.89,
+   "heard": "could",
+   "confidence": 1
+  },
+  {
+   "text": "cross",
+   "scene": "S15",
+   "start": 103.89,
+   "end": 104.19,
+   "heard": "cross",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S15",
+   "start": 104.19,
+   "end": 104.35,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "empire",
+   "scene": "S15",
+   "start": 104.35,
+   "end": 104.7,
+   "heard": "empire",
+   "confidence": 1
+  },
+  {
+   "text": "at",
+   "scene": "S15",
+   "start": 104.7,
+   "end": 104.81,
+   "heard": "at",
+   "confidence": 1
+  },
+  {
+   "text": "incredible",
+   "scene": "S15",
+   "start": 104.81,
+   "end": 105.42,
+   "heard": "incredible",
+   "confidence": 1
+  },
+  {
+   "text": "speed.",
+   "scene": "S15",
+   "start": 105.42,
+   "end": 105.9,
+   "heard": "speed.",
+   "confidence": 1
+  },
+  {
+   "text": "Every",
+   "scene": "S16",
+   "start": 105.9,
+   "end": 106.43,
+   "heard": "Every",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S16",
+   "start": 106.43,
+   "end": 106.59,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "warrior",
+   "scene": "S16",
+   "start": 106.59,
+   "end": 107.03,
+   "heard": "warrior",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S16",
+   "start": 107.03,
+   "end": 107.22,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S16",
+   "start": 107.22,
+   "end": 107.28,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "horse",
+   "scene": "S16",
+   "start": 107.32,
+   "end": 107.59,
+   "heard": "horse",
+   "confidence": 1
+  },
+  {
+   "text": "archer,",
+   "scene": "S16",
+   "start": 107.59,
+   "end": 108.08,
+   "heard": "archer,",
+   "confidence": 1
+  },
+  {
+   "text": "trained",
+   "scene": "S16",
+   "start": 108.08,
+   "end": 108.65,
+   "heard": "trained",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S16",
+   "start": 108.65,
+   "end": 108.77,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "childhood.",
+   "scene": "S16",
+   "start": 108.77,
+   "end": 109.6,
+   "heard": "childhood.",
+   "confidence": 1
+  },
+  {
+   "text": "Each",
+   "scene": "S16",
+   "start": 109.6,
+   "end": 110.05,
+   "heard": "Each",
+   "confidence": 1
+  },
+  {
+   "text": "rider",
+   "scene": "S16",
+   "start": 110.05,
+   "end": 110.26,
+   "heard": "rider",
+   "confidence": 1
+  },
+  {
+   "text": "brought",
+   "scene": "S16",
+   "start": 110.26,
+   "end": 110.72,
+   "heard": "brought",
+   "confidence": 1
+  },
+  {
+   "text": "several",
+   "scene": "S16",
+   "start": 110.72,
+   "end": 111.21,
+   "heard": "several",
+   "confidence": 1
+  },
+  {
+   "text": "spare",
+   "scene": "S16",
+   "start": 111.21,
+   "end": 111.56,
+   "heard": "spare",
+   "confidence": 1
+  },
+  {
+   "text": "horses,",
+   "scene": "S16",
+   "start": 111.56,
+   "end": 111.98,
+   "heard": "horses",
+   "confidence": 1
+  },
+  {
+   "text": "so",
+   "scene": "S16",
+   "start": 111.98,
+   "end": 112.16,
+   "heard": "so",
+   "confidence": 1
+  },
+  {
+   "text": "an",
+   "scene": "S16",
+   "start": 112.16,
+   "end": 112.22,
+   "heard": "an",
+   "confidence": 1
+  },
+  {
+   "text": "army",
+   "scene": "S16",
+   "start": 112.26,
+   "end": 112.45,
+   "heard": "army",
+   "confidence": 1
+  },
+  {
+   "text": "could",
+   "scene": "S16",
+   "start": 112.45,
+   "end": 112.74,
+   "heard": "could",
+   "confidence": 1
+  },
+  {
+   "text": "cover",
+   "scene": "S16",
+   "start": 112.74,
+   "end": 113.03,
+   "heard": "cover",
+   "confidence": 1
+  },
+  {
+   "text": "huge",
+   "scene": "S16",
+   "start": 113.03,
+   "end": 113.26,
+   "heard": "huge",
+   "confidence": 1
+  },
+  {
+   "text": "distances",
+   "scene": "S16",
+   "start": 113.26,
+   "end": 113.78,
+   "heard": "distances",
+   "confidence": 1
+  },
+  {
+   "text": "without",
+   "scene": "S16",
+   "start": 113.78,
+   "end": 114.2,
+   "heard": "without",
+   "confidence": 1
+  },
+  {
+   "text": "stopping.",
+   "scene": "S16",
+   "start": 114.2,
+   "end": 114.9,
+   "heard": "stopping.",
+   "confidence": 1
+  },
+  {
+   "text": "First,",
+   "scene": "S17",
+   "start": 116.189,
+   "end": 116.289,
+   "heard": "First,",
+   "confidence": 1
+  },
+  {
+   "text": "he",
+   "scene": "S17",
+   "start": 116.289,
+   "end": 116.339,
+   "heard": "he",
+   "confidence": 1
+  },
+  {
+   "text": "turned",
+   "scene": "S17",
+   "start": 116.389,
+   "end": 116.439,
+   "heard": "turned",
+   "confidence": 1
+  },
+  {
+   "text": "south.",
+   "scene": "S17",
+   "start": 116.489,
+   "end": 117.1,
+   "heard": "south.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S17",
+   "start": 117.1,
+   "end": 117.28,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Tangut",
+   "scene": "S17",
+   "start": 117.28,
+   "end": 117.77,
+   "heard": "Tangut",
+   "confidence": 1
+  },
+  {
+   "text": "kingdom",
+   "scene": "S17",
+   "start": 117.77,
+   "end": 118.13,
+   "heard": "kingdom",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S17",
+   "start": 118.13,
+   "end": 118.31,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "Western",
+   "scene": "S17",
+   "start": 118.31,
+   "end": 118.7,
+   "heard": "western",
+   "confidence": 1
+  },
+  {
+   "text": "Xia",
+   "scene": "S17",
+   "start": 118.7,
+   "end": 118.98,
+   "heard": "Shia",
+   "confidence": 0.95
+  },
+  {
+   "text": "submitted",
+   "scene": "S17",
+   "start": 118.98,
+   "end": 119.55,
+   "heard": "submitted",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S17",
+   "start": 119.55,
+   "end": 119.68,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "1209.",
+   "scene": "S17",
+   "start": 119.68,
+   "end": 120.7,
+   "heard": "1209.",
+   "confidence": 1
+  },
+  {
+   "text": "Then",
+   "scene": "S17",
+   "start": 120.7,
+   "end": 120.94,
+   "heard": "Then",
+   "confidence": 1
+  },
+  {
+   "text": "he",
+   "scene": "S17",
+   "start": 121.289,
+   "end": 121.389,
+   "heard": "he",
+   "confidence": 1
+  },
+  {
+   "text": "invaded",
+   "scene": "S17",
+   "start": 121.389,
+   "end": 121.51,
+   "heard": "invaded",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S17",
+   "start": 121.51,
+   "end": 121.7,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Jin",
+   "scene": "S17",
+   "start": 121.7,
+   "end": 121.89,
+   "heard": "Jin",
+   "confidence": 1
+  },
+  {
+   "text": "dynasty",
+   "scene": "S17",
+   "start": 121.89,
+   "end": 122.33,
+   "heard": "dynasty",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S17",
+   "start": 122.33,
+   "end": 122.45,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "northern",
+   "scene": "S17",
+   "start": 122.45,
+   "end": 122.95,
+   "heard": "northern",
+   "confidence": 1
+  },
+  {
+   "text": "China.",
+   "scene": "S17",
+   "start": 122.95,
+   "end": 123.5,
+   "heard": "China.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S18",
+   "start": 123.5,
+   "end": 123.94,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Mongols",
+   "scene": "S18",
+   "start": 124.049,
+   "end": 124.149,
+   "heard": "Mongols",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S18",
+   "start": 124.149,
+   "end": 124.32,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "no",
+   "scene": "S18",
+   "start": 124.32,
+   "end": 124.44,
+   "heard": "no",
+   "confidence": 1
+  },
+  {
+   "text": "experience",
+   "scene": "S18",
+   "start": 124.44,
+   "end": 125.11,
+   "heard": "experience",
+   "confidence": 1
+  },
+  {
+   "text": "with",
+   "scene": "S18",
+   "start": 125.11,
+   "end": 125.32,
+   "heard": "with",
+   "confidence": 1
+  },
+  {
+   "text": "walled",
+   "scene": "S18",
+   "start": 125.32,
+   "end": 125.69,
+   "heard": "walled",
+   "confidence": 1
+  },
+  {
+   "text": "cities.",
+   "scene": "S18",
+   "start": 125.69,
+   "end": 126.3,
+   "heard": "cities.",
+   "confidence": 1
+  },
+  {
+   "text": "So",
+   "scene": "S18",
+   "start": 126.3,
+   "end": 126.42,
+   "heard": "So",
+   "confidence": 1
+  },
+  {
+   "text": "they",
+   "scene": "S18",
+   "start": 126.942,
+   "end": 127.042,
+   "heard": "they",
+   "confidence": 1
+  },
+  {
+   "text": "learned,",
+   "scene": "S18",
+   "start": 127.042,
+   "end": 127.2,
+   "heard": "learned,",
+   "confidence": 1
+  },
+  {
+   "text": "using",
+   "scene": "S18",
+   "start": 127.2,
+   "end": 127.5,
+   "heard": "using",
+   "confidence": 1
+  },
+  {
+   "text": "captured",
+   "scene": "S18",
+   "start": 127.5,
+   "end": 128.03,
+   "heard": "captured",
+   "confidence": 1
+  },
+  {
+   "text": "Chinese",
+   "scene": "S18",
+   "start": 128.03,
+   "end": 128.46,
+   "heard": "Chinese",
+   "confidence": 1
+  },
+  {
+   "text": "engineers",
+   "scene": "S18",
+   "start": 128.46,
+   "end": 128.94,
+   "heard": "engineers",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S18",
+   "start": 128.94,
+   "end": 129.06,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "build",
+   "scene": "S18",
+   "start": 129.06,
+   "end": 129.38,
+   "heard": "build",
+   "confidence": 1
+  },
+  {
+   "text": "siege",
+   "scene": "S18",
+   "start": 129.38,
+   "end": 129.66,
+   "heard": "siege",
+   "confidence": 1
+  },
+  {
+   "text": "weapons.",
+   "scene": "S18",
+   "start": 129.66,
+   "end": 130.3,
+   "heard": "weapons.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S19",
+   "start": 130.3,
+   "end": 130.44,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1215,",
+   "scene": "S19",
+   "start": 130.44,
+   "end": 131.45,
+   "heard": "1215,",
+   "confidence": 1
+  },
+  {
+   "text": "they",
+   "scene": "S19",
+   "start": 131.45,
+   "end": 131.72,
+   "heard": "they",
+   "confidence": 1
+  },
+  {
+   "text": "captured",
+   "scene": "S19",
+   "start": 131.72,
+   "end": 132.29,
+   "heard": "captured",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S19",
+   "start": 132.29,
+   "end": 132.5,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Jin",
+   "scene": "S19",
+   "start": 132.5,
+   "end": 132.71,
+   "heard": "Jin",
+   "confidence": 1
+  },
+  {
+   "text": "capital",
+   "scene": "S19",
+   "start": 132.71,
+   "end": 133.34,
+   "heard": "capital,",
+   "confidence": 1
+  },
+  {
+   "text": "Zhongdu,",
+   "scene": "S19",
+   "start": 133.34,
+   "end": 133.98,
+   "heard": "Zhongdu,",
+   "confidence": 1
+  },
+  {
+   "text": "near",
+   "scene": "S19",
+   "start": 133.98,
+   "end": 134.25,
+   "heard": "near",
+   "confidence": 1
+  },
+  {
+   "text": "modern",
+   "scene": "S19",
+   "start": 134.25,
+   "end": 134.69,
+   "heard": "modern",
+   "confidence": 1
+  },
+  {
+   "text": "Beijing.",
+   "scene": "S19",
+   "start": 134.69,
+   "end": 135.5,
+   "heard": "Beijing.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S20",
+   "start": 135.5,
+   "end": 135.63,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S20",
+   "start": 135.63,
+   "end": 136.02,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "west",
+   "scene": "S20",
+   "start": 136.02,
+   "end": 136.14,
+   "heard": "west",
+   "confidence": 1
+  },
+  {
+   "text": "lay",
+   "scene": "S20",
+   "start": 136.14,
+   "end": 136.35,
+   "heard": "lay",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S20",
+   "start": 136.35,
+   "end": 136.64,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Khwarazmian",
+   "scene": "S20",
+   "start": 136.64,
+   "end": 137.33,
+   "heard": "Khwarazmian",
+   "confidence": 1
+  },
+  {
+   "text": "Empire,",
+   "scene": "S20",
+   "start": 137.33,
+   "end": 137.9,
+   "heard": "Empire,",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S20",
+   "start": 137.9,
+   "end": 137.97,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "rich",
+   "scene": "S20",
+   "start": 138,
+   "end": 138.42,
+   "heard": "rich",
+   "confidence": 1
+  },
+  {
+   "text": "Muslim",
+   "scene": "S20",
+   "start": 138.42,
+   "end": 138.69,
+   "heard": "Muslim",
+   "confidence": 1
+  },
+  {
+   "text": "state",
+   "scene": "S20",
+   "start": 138.69,
+   "end": 139.05,
+   "heard": "state",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S20",
+   "start": 139.05,
+   "end": 139.19,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "Central",
+   "scene": "S20",
+   "start": 139.19,
+   "end": 139.71,
+   "heard": "Central",
+   "confidence": 1
+  },
+  {
+   "text": "Asia.",
+   "scene": "S20",
+   "start": 139.71,
+   "end": 140.3,
+   "heard": "Asia.",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis",
+   "scene": "S20",
+   "start": 140.3,
+   "end": 140.88,
+   "heard": "Genghis",
+   "confidence": 1
+  },
+  {
+   "text": "sent",
+   "scene": "S20",
+   "start": 140.88,
+   "end": 140.97,
+   "heard": "sent",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S20",
+   "start": 140.98,
+   "end": 141.03,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "trade",
+   "scene": "S20",
+   "start": 141.08,
+   "end": 141.36,
+   "heard": "trade",
+   "confidence": 1
+  },
+  {
+   "text": "caravan",
+   "scene": "S20",
+   "start": 141.36,
+   "end": 141.8,
+   "heard": "caravan",
+   "confidence": 1
+  },
+  {
+   "text": "there,",
+   "scene": "S20",
+   "start": 141.8,
+   "end": 142.3,
+   "heard": "there.",
+   "confidence": 1
+  },
+  {
+   "text": "but",
+   "scene": "S20",
+   "start": 142.8,
+   "end": 142.9,
+   "heard": "But",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S20",
+   "start": 142.9,
+   "end": 142.98,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "governor",
+   "scene": "S20",
+   "start": 143,
+   "end": 143.36,
+   "heard": "governor",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S20",
+   "start": 143.36,
+   "end": 143.47,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "Otrar",
+   "scene": "S20",
+   "start": 143.47,
+   "end": 143.76,
+   "heard": "Otrar",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S20",
+   "start": 143.76,
+   "end": 143.9,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S20",
+   "start": 143.9,
+   "end": 144.06,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "merchants",
+   "scene": "S20",
+   "start": 144.06,
+   "end": 144.58,
+   "heard": "merchants",
+   "confidence": 1
+  },
+  {
+   "text": "killed.",
+   "scene": "S20",
+   "start": 144.58,
+   "end": 145.1,
+   "heard": "killed.",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis",
+   "scene": "S21",
+   "start": 145.865,
+   "end": 145.965,
+   "heard": "Genghis",
+   "confidence": 1
+  },
+  {
+   "text": "sent",
+   "scene": "S21",
+   "start": 145.965,
+   "end": 146.03,
+   "heard": "sent",
+   "confidence": 1
+  },
+  {
+   "text": "envoys",
+   "scene": "S21",
+   "start": 146.065,
+   "end": 146.53,
+   "heard": "envoys",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S21",
+   "start": 146.53,
+   "end": 146.7,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "demand",
+   "scene": "S21",
+   "start": 146.7,
+   "end": 147.21,
+   "heard": "demand",
+   "confidence": 1
+  },
+  {
+   "text": "justice.",
+   "scene": "S21",
+   "start": 147.21,
+   "end": 148.1,
+   "heard": "justice.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S21",
+   "start": 148.1,
+   "end": 148.54,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Shah",
+   "scene": "S21",
+   "start": 148.604,
+   "end": 148.704,
+   "heard": "Shah",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S21",
+   "start": 148.704,
+   "end": 148.754,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "one",
+   "scene": "S21",
+   "start": 148.804,
+   "end": 148.92,
+   "heard": "one",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S21",
+   "start": 148.92,
+   "end": 149.04,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "them",
+   "scene": "S21",
+   "start": 149.04,
+   "end": 149.29,
+   "heard": "them",
+   "confidence": 1
+  },
+  {
+   "text": "executed",
+   "scene": "S21",
+   "start": 149.29,
+   "end": 149.79,
+   "heard": "executed",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S21",
+   "start": 149.79,
+   "end": 149.98,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "sent",
+   "scene": "S21",
+   "start": 149.98,
+   "end": 150.23,
+   "heard": "sent",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S21",
+   "start": 150.23,
+   "end": 150.42,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "others",
+   "scene": "S21",
+   "start": 150.42,
+   "end": 150.79,
+   "heard": "others",
+   "confidence": 1
+  },
+  {
+   "text": "back",
+   "scene": "S21",
+   "start": 150.79,
+   "end": 151.04,
+   "heard": "back",
+   "confidence": 1
+  },
+  {
+   "text": "humiliated.",
+   "scene": "S21",
+   "start": 151.04,
+   "end": 151.9,
+   "heard": "humiliated.",
+   "confidence": 1
+  },
+  {
+   "text": "It",
+   "scene": "S22",
+   "start": 151.9,
+   "end": 152.03,
+   "heard": "It",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S22",
+   "start": 152.361,
+   "end": 152.461,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S22",
+   "start": 152.461,
+   "end": 152.511,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "fatal",
+   "scene": "S22",
+   "start": 152.561,
+   "end": 152.78,
+   "heard": "fatal",
+   "confidence": 1
+  },
+  {
+   "text": "mistake.",
+   "scene": "S22",
+   "start": 152.78,
+   "end": 153.5,
+   "heard": "mistake.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S22",
+   "start": 153.5,
+   "end": 153.96,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1219,",
+   "scene": "S22",
+   "start": 153.96,
+   "end": 154.69,
+   "heard": "1219,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S22",
+   "start": 154.69,
+   "end": 154.85,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Mongols",
+   "scene": "S22",
+   "start": 154.85,
+   "end": 155.34,
+   "heard": "Mongols",
+   "confidence": 1
+  },
+  {
+   "text": "invaded.",
+   "scene": "S22",
+   "start": 155.34,
+   "end": 156.1,
+   "heard": "invaded.",
+   "confidence": 1
+  },
+  {
+   "text": "Within",
+   "scene": "S22",
+   "start": 156.1,
+   "end": 156.56,
+   "heard": "Within",
+   "confidence": 1
+  },
+  {
+   "text": "three",
+   "scene": "S22",
+   "start": 156.56,
+   "end": 156.94,
+   "heard": "three",
+   "confidence": 1
+  },
+  {
+   "text": "years,",
+   "scene": "S22",
+   "start": 156.94,
+   "end": 157.49,
+   "heard": "years,",
+   "confidence": 1
+  },
+  {
+   "text": "Otrar,",
+   "scene": "S22",
+   "start": 157.49,
+   "end": 158.09,
+   "heard": "Otrar,",
+   "confidence": 1
+  },
+  {
+   "text": "Bukhara,",
+   "scene": "S22",
+   "start": 158.09,
+   "end": 158.86,
+   "heard": "Bukhara,",
+   "confidence": 1
+  },
+  {
+   "text": "Samarkand",
+   "scene": "S22",
+   "start": 158.86,
+   "end": 159.81,
+   "heard": "Samarkand,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S22",
+   "start": 159.81,
+   "end": 160.15,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "Merv",
+   "scene": "S22",
+   "start": 160.162,
+   "end": 160.41,
+   "heard": "Merv",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S22",
+   "start": 160.41,
+   "end": 160.66,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "fallen.",
+   "scene": "S22",
+   "start": 161.08,
+   "end": 161.8,
+   "heard": "fallen.",
+   "confidence": 1
+  },
+  {
+   "text": "Cities",
+   "scene": "S23",
+   "start": 161.8,
+   "end": 162.27,
+   "heard": "Cities",
+   "confidence": 1
+  },
+  {
+   "text": "that",
+   "scene": "S23",
+   "start": 162.27,
+   "end": 162.33,
+   "heard": "that",
+   "confidence": 1
+  },
+  {
+   "text": "resisted",
+   "scene": "S23",
+   "start": 162.37,
+   "end": 162.76,
+   "heard": "resisted",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S23",
+   "start": 162.76,
+   "end": 163.04,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "destroyed",
+   "scene": "S23",
+   "start": 163.04,
+   "end": 163.45,
+   "heard": "destroyed",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S23",
+   "start": 163.45,
+   "end": 163.61,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "their",
+   "scene": "S23",
+   "start": 163.61,
+   "end": 163.88,
+   "heard": "their",
+   "confidence": 1
+  },
+  {
+   "text": "people",
+   "scene": "S23",
+   "start": 163.88,
+   "end": 164.2,
+   "heard": "people",
+   "confidence": 1
+  },
+  {
+   "text": "massacred.",
+   "scene": "S23",
+   "start": 164.2,
+   "end": 164.9,
+   "heard": "massacred.",
+   "confidence": 1
+  },
+  {
+   "text": "Cities",
+   "scene": "S23",
+   "start": 164.9,
+   "end": 165.45,
+   "heard": "Cities",
+   "confidence": 1
+  },
+  {
+   "text": "that",
+   "scene": "S23",
+   "start": 165.45,
+   "end": 165.5,
+   "heard": "that",
+   "confidence": 1
+  },
+  {
+   "text": "surrendered",
+   "scene": "S23",
+   "start": 165.55,
+   "end": 166.17,
+   "heard": "surrendered",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S23",
+   "start": 166.17,
+   "end": 166.4,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "usually",
+   "scene": "S23",
+   "start": 166.4,
+   "end": 166.83,
+   "heard": "usually",
+   "confidence": 1
+  },
+  {
+   "text": "spared.",
+   "scene": "S23",
+   "start": 166.83,
+   "end": 167.4,
+   "heard": "spared.",
+   "confidence": 1
+  },
+  {
+   "text": "Word",
+   "scene": "S23",
+   "start": 167.4,
+   "end": 167.91,
+   "heard": "Word",
+   "confidence": 1
+  },
+  {
+   "text": "spread",
+   "scene": "S23",
+   "start": 167.91,
+   "end": 168.28,
+   "heard": "spread",
+   "confidence": 1
+  },
+  {
+   "text": "fast.",
+   "scene": "S23",
+   "start": 168.28,
+   "end": 168.9,
+   "heard": "fast.",
+   "confidence": 1
+  },
+  {
+   "text": "Meanwhile,",
+   "scene": "S24",
+   "start": 169.43,
+   "end": 169.92,
+   "heard": "Meanwhile,",
+   "confidence": 1
+  },
+  {
+   "text": "two",
+   "scene": "S24",
+   "start": 169.92,
+   "end": 170.11,
+   "heard": "two",
+   "confidence": 1
+  },
+  {
+   "text": "generals,",
+   "scene": "S24",
+   "start": 170.11,
+   "end": 170.77,
+   "heard": "generals,",
+   "confidence": 1
+  },
+  {
+   "text": "Jebe",
+   "scene": "S24",
+   "start": 170.77,
+   "end": 171.01,
+   "heard": "Jeba",
+   "confidence": 0.75
+  },
+  {
+   "text": "and",
+   "scene": "S24",
+   "start": 171.01,
+   "end": 171.28,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "Subutai,",
+   "scene": "S24",
+   "start": 171.28,
+   "end": 171.78,
+   "heard": "Subutai,",
+   "confidence": 1
+  },
+  {
+   "text": "rode",
+   "scene": "S24",
+   "start": 171.78,
+   "end": 172.12,
+   "heard": "rode",
+   "confidence": 1
+  },
+  {
+   "text": "all",
+   "scene": "S24",
+   "start": 172.12,
+   "end": 172.23,
+   "heard": "all",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S24",
+   "start": 172.23,
+   "end": 172.46,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "way",
+   "scene": "S24",
+   "start": 172.46,
+   "end": 172.61,
+   "heard": "way",
+   "confidence": 1
+  },
+  {
+   "text": "around",
+   "scene": "S24",
+   "start": 172.61,
+   "end": 173,
+   "heard": "around",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S24",
+   "start": 173,
+   "end": 173.19,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Caspian",
+   "scene": "S24",
+   "start": 173.19,
+   "end": 173.64,
+   "heard": "Caspian",
+   "confidence": 1
+  },
+  {
+   "text": "Sea,",
+   "scene": "S24",
+   "start": 173.64,
+   "end": 174.1,
+   "heard": "Sea,",
+   "confidence": 1
+  },
+  {
+   "text": "defeating",
+   "scene": "S24",
+   "start": 174.1,
+   "end": 174.72,
+   "heard": "defeating",
+   "confidence": 1
+  },
+  {
+   "text": "Georgian",
+   "scene": "S24",
+   "start": 174.72,
+   "end": 175.19,
+   "heard": "Georgian",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S24",
+   "start": 175.19,
+   "end": 175.38,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "Rus",
+   "scene": "S24",
+   "start": 175.38,
+   "end": 175.57,
+   "heard": "Rus",
+   "confidence": 1
+  },
+  {
+   "text": "armies",
+   "scene": "S24",
+   "start": 175.57,
+   "end": 175.95,
+   "heard": "armies",
+   "confidence": 1
+  },
+  {
+   "text": "on",
+   "scene": "S24",
+   "start": 175.95,
+   "end": 176.08,
+   "heard": "on",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S24",
+   "start": 176.08,
+   "end": 176.27,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "way.",
+   "scene": "S24",
+   "start": 176.27,
+   "end": 176.7,
+   "heard": "way.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S25",
+   "start": 176.7,
+   "end": 177.23,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1227,",
+   "scene": "S25",
+   "start": 177.23,
+   "end": 177.79,
+   "heard": "1227,",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis",
+   "scene": "S25",
+   "start": 177.79,
+   "end": 178.25,
+   "heard": "Genghis",
+   "confidence": 1
+  },
+  {
+   "text": "Khan",
+   "scene": "S25",
+   "start": 178.25,
+   "end": 178.52,
+   "heard": "Khan",
+   "confidence": 1
+  },
+  {
+   "text": "died",
+   "scene": "S25",
+   "start": 178.52,
+   "end": 178.79,
+   "heard": "died",
+   "confidence": 1
+  },
+  {
+   "text": "during",
+   "scene": "S25",
+   "start": 178.79,
+   "end": 179.2,
+   "heard": "during",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S25",
+   "start": 179.2,
+   "end": 179.27,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "campaign",
+   "scene": "S25",
+   "start": 179.3,
+   "end": 179.85,
+   "heard": "campaign",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S25",
+   "start": 179.85,
+   "end": 179.96,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "western",
+   "scene": "S25",
+   "start": 179.96,
+   "end": 180.44,
+   "heard": "western",
+   "confidence": 1
+  },
+  {
+   "text": "China.",
+   "scene": "S25",
+   "start": 180.44,
+   "end": 181.1,
+   "heard": "China.",
+   "confidence": 1
+  },
+  {
+   "text": "To",
+   "scene": "S25",
+   "start": 181.1,
+   "end": 181.55,
+   "heard": "To",
+   "confidence": 1
+  },
+  {
+   "text": "this",
+   "scene": "S25",
+   "start": 181.55,
+   "end": 181.6,
+   "heard": "this",
+   "confidence": 1
+  },
+  {
+   "text": "day,",
+   "scene": "S25",
+   "start": 181.65,
+   "end": 181.91,
+   "heard": "day,",
+   "confidence": 1
+  },
+  {
+   "text": "nobody",
+   "scene": "S25",
+   "start": 181.91,
+   "end": 182.63,
+   "heard": "nobody",
+   "confidence": 1
+  },
+  {
+   "text": "knows",
+   "scene": "S25",
+   "start": 182.63,
+   "end": 182.72,
+   "heard": "knows",
+   "confidence": 1
+  },
+  {
+   "text": "where",
+   "scene": "S25",
+   "start": 182.73,
+   "end": 183.09,
+   "heard": "where",
+   "confidence": 1
+  },
+  {
+   "text": "he",
+   "scene": "S25",
+   "start": 183.09,
+   "end": 183.24,
+   "heard": "he",
+   "confidence": 1
+  },
+  {
+   "text": "is",
+   "scene": "S25",
+   "start": 183.24,
+   "end": 183.39,
+   "heard": "is",
+   "confidence": 1
+  },
+  {
+   "text": "buried.",
+   "scene": "S25",
+   "start": 183.39,
+   "end": 184.1,
+   "heard": "buried.",
+   "confidence": 1
+  },
+  {
+   "text": "His",
+   "scene": "S26",
+   "start": 184.1,
+   "end": 184.86,
+   "heard": "His",
+   "confidence": 1
+  },
+  {
+   "text": "son",
+   "scene": "S26",
+   "start": 185.74,
+   "end": 185.84,
+   "heard": "son",
+   "confidence": 1
+  },
+  {
+   "text": "Ogedei",
+   "scene": "S26",
+   "start": 185.84,
+   "end": 185.89,
+   "heard": "Ogedei",
+   "confidence": 1
+  },
+  {
+   "text": "became",
+   "scene": "S26",
+   "start": 185.94,
+   "end": 186.35,
+   "heard": "became",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S26",
+   "start": 186.35,
+   "end": 186.72,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Great",
+   "scene": "S26",
+   "start": 186.72,
+   "end": 187.36,
+   "heard": "Great",
+   "confidence": 1
+  },
+  {
+   "text": "Khan",
+   "scene": "S26",
+   "start": 187.36,
+   "end": 187.9,
+   "heard": "Khan",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S26",
+   "start": 187.9,
+   "end": 188.14,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "built",
+   "scene": "S26",
+   "start": 188.14,
+   "end": 188.4,
+   "heard": "built",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S26",
+   "start": 188.4,
+   "end": 188.5,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "capital",
+   "scene": "S26",
+   "start": 188.5,
+   "end": 188.9,
+   "heard": "capital",
+   "confidence": 1
+  },
+  {
+   "text": "at",
+   "scene": "S26",
+   "start": 188.9,
+   "end": 189.02,
+   "heard": "at",
+   "confidence": 1
+  },
+  {
+   "text": "Karakorum.",
+   "scene": "S26",
+   "start": 189.02,
+   "end": 189.8,
+   "heard": "Karakoram.",
+   "confidence": 0.889
+  },
+  {
+   "text": "In",
+   "scene": "S26",
+   "start": 189.8,
+   "end": 190.38,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1234,",
+   "scene": "S26",
+   "start": 190.38,
+   "end": 190.96,
+   "heard": "1234,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S26",
+   "start": 190.96,
+   "end": 191.18,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Jin",
+   "scene": "S26",
+   "start": 191.18,
+   "end": 191.4,
+   "heard": "Jin",
+   "confidence": 1
+  },
+  {
+   "text": "dynasty",
+   "scene": "S26",
+   "start": 191.4,
+   "end": 191.92,
+   "heard": "dynasty",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S26",
+   "start": 191.92,
+   "end": 192.14,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "finally",
+   "scene": "S26",
+   "start": 192.14,
+   "end": 192.66,
+   "heard": "finally",
+   "confidence": 1
+  },
+  {
+   "text": "destroyed.",
+   "scene": "S26",
+   "start": 192.66,
+   "end": 193.6,
+   "heard": "destroyed.",
+   "confidence": 1
+  },
+  {
+   "text": "Then",
+   "scene": "S27",
+   "start": 193.6,
+   "end": 193.8,
+   "heard": "Then",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S27",
+   "start": 194.388,
+   "end": 194.488,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Mongols",
+   "scene": "S27",
+   "start": 194.488,
+   "end": 194.72,
+   "heard": "Mongols",
+   "confidence": 1
+  },
+  {
+   "text": "looked",
+   "scene": "S27",
+   "start": 194.72,
+   "end": 195.19,
+   "heard": "looked",
+   "confidence": 1
+  },
+  {
+   "text": "west.",
+   "scene": "S27",
+   "start": 195.19,
+   "end": 195.8,
+   "heard": "west.",
+   "confidence": 1
+  },
+  {
+   "text": "Between",
+   "scene": "S27",
+   "start": 196.31,
+   "end": 196.48,
+   "heard": "Between",
+   "confidence": 1
+  },
+  {
+   "text": "1237",
+   "scene": "S27",
+   "start": 196.48,
+   "end": 197.14,
+   "heard": "1237",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S27",
+   "start": 197.14,
+   "end": 197.3,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "1241,",
+   "scene": "S27",
+   "start": 197.3,
+   "end": 198.07,
+   "heard": "1241,",
+   "confidence": 1
+  },
+  {
+   "text": "they",
+   "scene": "S27",
+   "start": 198.07,
+   "end": 198.29,
+   "heard": "they",
+   "confidence": 1
+  },
+  {
+   "text": "swept",
+   "scene": "S27",
+   "start": 198.29,
+   "end": 198.66,
+   "heard": "swept",
+   "confidence": 1
+  },
+  {
+   "text": "through",
+   "scene": "S27",
+   "start": 198.66,
+   "end": 198.94,
+   "heard": "through",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S27",
+   "start": 198.94,
+   "end": 199.1,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Russian",
+   "scene": "S27",
+   "start": 199.1,
+   "end": 199.48,
+   "heard": "Russian",
+   "confidence": 1
+  },
+  {
+   "text": "principalities,",
+   "scene": "S27",
+   "start": 199.48,
+   "end": 200.4,
+   "heard": "principalities,",
+   "confidence": 1
+  },
+  {
+   "text": "burned",
+   "scene": "S27",
+   "start": 200.4,
+   "end": 200.76,
+   "heard": "burned",
+   "confidence": 1
+  },
+  {
+   "text": "Kyiv,",
+   "scene": "S27",
+   "start": 200.76,
+   "end": 201.12,
+   "heard": "Kiev,",
+   "confidence": 0.75
+  },
+  {
+   "text": "and",
+   "scene": "S27",
+   "start": 201.12,
+   "end": 201.3,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "crushed",
+   "scene": "S27",
+   "start": 201.3,
+   "end": 201.72,
+   "heard": "crushed",
+   "confidence": 1
+  },
+  {
+   "text": "armies",
+   "scene": "S27",
+   "start": 201.72,
+   "end": 202.08,
+   "heard": "armies",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S27",
+   "start": 202.08,
+   "end": 202.2,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "Poland",
+   "scene": "S27",
+   "start": 202.2,
+   "end": 202.56,
+   "heard": "Poland",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S27",
+   "start": 202.56,
+   "end": 202.73,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "Hungary.",
+   "scene": "S27",
+   "start": 202.73,
+   "end": 203.4,
+   "heard": "Hungary.",
+   "confidence": 1
+  },
+  {
+   "text": "European",
+   "scene": "S28",
+   "start": 203.4,
+   "end": 204.15,
+   "heard": "European",
+   "confidence": 1
+  },
+  {
+   "text": "knights",
+   "scene": "S28",
+   "start": 204.15,
+   "end": 204.51,
+   "heard": "knights",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S28",
+   "start": 204.51,
+   "end": 204.73,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "never",
+   "scene": "S28",
+   "start": 204.73,
+   "end": 205.1,
+   "heard": "never",
+   "confidence": 1
+  },
+  {
+   "text": "faced",
+   "scene": "S28",
+   "start": 205.1,
+   "end": 205.47,
+   "heard": "faced",
+   "confidence": 1
+  },
+  {
+   "text": "anything",
+   "scene": "S28",
+   "start": 205.47,
+   "end": 206.06,
+   "heard": "anything",
+   "confidence": 1
+  },
+  {
+   "text": "like",
+   "scene": "S28",
+   "start": 206.06,
+   "end": 206.35,
+   "heard": "like",
+   "confidence": 1
+  },
+  {
+   "text": "this.",
+   "scene": "S28",
+   "start": 206.35,
+   "end": 206.9,
+   "heard": "this.",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S28",
+   "start": 206.9,
+   "end": 207.39,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "riders",
+   "scene": "S28",
+   "start": 207.39,
+   "end": 207.68,
+   "heard": "riders",
+   "confidence": 1
+  },
+  {
+   "text": "would",
+   "scene": "S28",
+   "start": 207.68,
+   "end": 208,
+   "heard": "would",
+   "confidence": 1
+  },
+  {
+   "text": "pretend",
+   "scene": "S28",
+   "start": 208,
+   "end": 208.45,
+   "heard": "pretend",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S28",
+   "start": 208.45,
+   "end": 208.58,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "retreat,",
+   "scene": "S28",
+   "start": 208.58,
+   "end": 209.51,
+   "heard": "retreat,",
+   "confidence": 1
+  },
+  {
+   "text": "then",
+   "scene": "S28",
+   "start": 209.549,
+   "end": 209.649,
+   "heard": "then",
+   "confidence": 1
+  },
+  {
+   "text": "turn",
+   "scene": "S28",
+   "start": 209.649,
+   "end": 209.82,
+   "heard": "turn",
+   "confidence": 1
+  },
+  {
+   "text": "around",
+   "scene": "S28",
+   "start": 209.82,
+   "end": 210.3,
+   "heard": "around",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S28",
+   "start": 210.3,
+   "end": 210.5,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "surround",
+   "scene": "S28",
+   "start": 210.5,
+   "end": 210.9,
+   "heard": "surround",
+   "confidence": 1
+  },
+  {
+   "text": "their",
+   "scene": "S28",
+   "start": 210.9,
+   "end": 211.17,
+   "heard": "their",
+   "confidence": 1
+  },
+  {
+   "text": "pursuers.",
+   "scene": "S28",
+   "start": 211.17,
+   "end": 211.8,
+   "heard": "pursuers.",
+   "confidence": 1
+  },
+  {
+   "text": "Europe",
+   "scene": "S29",
+   "start": 211.8,
+   "end": 212.39,
+   "heard": "Europe",
+   "confidence": 1
+  },
+  {
+   "text": "seemed",
+   "scene": "S29",
+   "start": 212.39,
+   "end": 212.8,
+   "heard": "seemed",
+   "confidence": 1
+  },
+  {
+   "text": "open.",
+   "scene": "S29",
+   "start": 212.8,
+   "end": 213.28,
+   "heard": "open,",
+   "confidence": 1
+  },
+  {
+   "text": "But",
+   "scene": "S29",
+   "start": 213.28,
+   "end": 213.68,
+   "heard": "but",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S29",
+   "start": 213.68,
+   "end": 213.77,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "late",
+   "scene": "S29",
+   "start": 213.78,
+   "end": 213.99,
+   "heard": "late",
+   "confidence": 1
+  },
+  {
+   "text": "1241,",
+   "scene": "S29",
+   "start": 213.99,
+   "end": 215.1,
+   "heard": "1241,",
+   "confidence": 1
+  },
+  {
+   "text": "news",
+   "scene": "S29",
+   "start": 215.1,
+   "end": 215.41,
+   "heard": "news",
+   "confidence": 1
+  },
+  {
+   "text": "came",
+   "scene": "S29",
+   "start": 215.41,
+   "end": 215.71,
+   "heard": "came",
+   "confidence": 1
+  },
+  {
+   "text": "that",
+   "scene": "S29",
+   "start": 215.71,
+   "end": 216.03,
+   "heard": "that",
+   "confidence": 1
+  },
+  {
+   "text": "Ogedei",
+   "scene": "S29",
+   "start": 216.03,
+   "end": 216.47,
+   "heard": "Ogedei",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S29",
+   "start": 216.47,
+   "end": 216.71,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "died.",
+   "scene": "S29",
+   "start": 216.71,
+   "end": 217.3,
+   "heard": "died.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S29",
+   "start": 217.3,
+   "end": 218.1,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S29",
+   "start": 218.1,
+   "end": 218.19,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "leaders",
+   "scene": "S29",
+   "start": 218.2,
+   "end": 218.87,
+   "heard": "leaders",
+   "confidence": 1
+  },
+  {
+   "text": "turned",
+   "scene": "S29",
+   "start": 218.87,
+   "end": 219.47,
+   "heard": "turned",
+   "confidence": 1
+  },
+  {
+   "text": "back",
+   "scene": "S29",
+   "start": 219.47,
+   "end": 219.86,
+   "heard": "back",
+   "confidence": 1
+  },
+  {
+   "text": "east,",
+   "scene": "S29",
+   "start": 219.86,
+   "end": 220.63,
+   "heard": "east,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S29",
+   "start": 220.788,
+   "end": 220.888,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "they",
+   "scene": "S29",
+   "start": 220.888,
+   "end": 220.938,
+   "heard": "they",
+   "confidence": 1
+  },
+  {
+   "text": "never",
+   "scene": "S29",
+   "start": 220.988,
+   "end": 221.24,
+   "heard": "never",
+   "confidence": 1
+  },
+  {
+   "text": "returned",
+   "scene": "S29",
+   "start": 221.24,
+   "end": 221.78,
+   "heard": "returned",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S29",
+   "start": 221.78,
+   "end": 221.92,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "full",
+   "scene": "S29",
+   "start": 221.92,
+   "end": 222.19,
+   "heard": "full",
+   "confidence": 1
+  },
+  {
+   "text": "force.",
+   "scene": "S29",
+   "start": 222.19,
+   "end": 222.8,
+   "heard": "force.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S30",
+   "start": 223.931,
+   "end": 224.031,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S30",
+   "start": 224.031,
+   "end": 224.081,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Middle",
+   "scene": "S30",
+   "start": 224.131,
+   "end": 224.43,
+   "heard": "Middle",
+   "confidence": 1
+  },
+  {
+   "text": "East,",
+   "scene": "S30",
+   "start": 224.43,
+   "end": 224.77,
+   "heard": "East,",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis's",
+   "scene": "S30",
+   "start": 224.77,
+   "end": 225.18,
+   "heard": "Genghis",
+   "confidence": 0.95
+  },
+  {
+   "text": "grandson",
+   "scene": "S30",
+   "start": 225.52,
+   "end": 226.07,
+   "heard": "grandson,",
+   "confidence": 1
+  },
+  {
+   "text": "Hulegu",
+   "scene": "S30",
+   "start": 226.07,
+   "end": 226.6,
+   "heard": "Hulagu,",
+   "confidence": 0.833
+  },
+  {
+   "text": "attacked",
+   "scene": "S30",
+   "start": 226.6,
+   "end": 227.12,
+   "heard": "attacked",
+   "confidence": 1
+  },
+  {
+   "text": "Baghdad",
+   "scene": "S30",
+   "start": 227.12,
+   "end": 227.57,
+   "heard": "Baghdad",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S30",
+   "start": 227.57,
+   "end": 227.7,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "1258.",
+   "scene": "S30",
+   "start": 227.7,
+   "end": 228.7,
+   "heard": "1258.",
+   "confidence": 1
+  },
+  {
+   "text": "One",
+   "scene": "S30",
+   "start": 229.036,
+   "end": 229.136,
+   "heard": "One",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S30",
+   "start": 229.136,
+   "end": 229.186,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S30",
+   "start": 229.236,
+   "end": 229.286,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "greatest",
+   "scene": "S30",
+   "start": 229.336,
+   "end": 229.7,
+   "heard": "greatest",
+   "confidence": 1
+  },
+  {
+   "text": "cities",
+   "scene": "S30",
+   "start": 229.7,
+   "end": 230.07,
+   "heard": "cities",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S30",
+   "start": 230.07,
+   "end": 230.2,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S30",
+   "start": 230.2,
+   "end": 230.39,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "world",
+   "scene": "S30",
+   "start": 230.39,
+   "end": 230.7,
+   "heard": "world",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S30",
+   "start": 230.7,
+   "end": 230.88,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "sacked,",
+   "scene": "S30",
+   "start": 230.88,
+   "end": 231.44,
+   "heard": "sacked,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S30",
+   "start": 231.44,
+   "end": 231.58,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S30",
+   "start": 231.58,
+   "end": 231.75,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "last",
+   "scene": "S30",
+   "start": 231.75,
+   "end": 231.97,
+   "heard": "last",
+   "confidence": 1
+  },
+  {
+   "text": "Abbasid",
+   "scene": "S30",
+   "start": 231.97,
+   "end": 232.39,
+   "heard": "Abbasid",
+   "confidence": 1
+  },
+  {
+   "text": "caliph",
+   "scene": "S30",
+   "start": 232.39,
+   "end": 232.76,
+   "heard": "caliph",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S30",
+   "start": 232.76,
+   "end": 232.86,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "killed.",
+   "scene": "S30",
+   "start": 232.86,
+   "end": 233.4,
+   "heard": "killed.",
+   "confidence": 1
+  },
+  {
+   "text": "According",
+   "scene": "S31",
+   "start": 233.89,
+   "end": 234.06,
+   "heard": "According",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S31",
+   "start": 234.06,
+   "end": 234.2,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "legend,",
+   "scene": "S31",
+   "start": 234.2,
+   "end": 234.8,
+   "heard": "legend,",
+   "confidence": 1
+  },
+  {
+   "text": "so",
+   "scene": "S31",
+   "start": 234.8,
+   "end": 235.01,
+   "heard": "so",
+   "confidence": 1
+  },
+  {
+   "text": "many",
+   "scene": "S31",
+   "start": 235.01,
+   "end": 235.14,
+   "heard": "many",
+   "confidence": 1
+  },
+  {
+   "text": "books",
+   "scene": "S31",
+   "start": 235.14,
+   "end": 235.42,
+   "heard": "books",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S31",
+   "start": 235.42,
+   "end": 235.69,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "thrown",
+   "scene": "S31",
+   "start": 235.69,
+   "end": 236.01,
+   "heard": "thrown",
+   "confidence": 1
+  },
+  {
+   "text": "into",
+   "scene": "S31",
+   "start": 236.01,
+   "end": 236.24,
+   "heard": "into",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S31",
+   "start": 236.24,
+   "end": 236.42,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Tigris",
+   "scene": "S31",
+   "start": 236.42,
+   "end": 236.79,
+   "heard": "Tigris",
+   "confidence": 1
+  },
+  {
+   "text": "that",
+   "scene": "S31",
+   "start": 236.79,
+   "end": 237.1,
+   "heard": "that",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S31",
+   "start": 237.1,
+   "end": 237.26,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "river",
+   "scene": "S31",
+   "start": 237.26,
+   "end": 237.59,
+   "heard": "river",
+   "confidence": 1
+  },
+  {
+   "text": "ran",
+   "scene": "S31",
+   "start": 237.59,
+   "end": 237.79,
+   "heard": "ran",
+   "confidence": 1
+  },
+  {
+   "text": "black",
+   "scene": "S31",
+   "start": 237.79,
+   "end": 238.11,
+   "heard": "black",
+   "confidence": 1
+  },
+  {
+   "text": "with",
+   "scene": "S31",
+   "start": 238.11,
+   "end": 238.38,
+   "heard": "with",
+   "confidence": 1
+  },
+  {
+   "text": "ink.",
+   "scene": "S31",
+   "start": 238.38,
+   "end": 238.8,
+   "heard": "ink.",
+   "confidence": 1
+  },
+  {
+   "text": "But",
+   "scene": "S32",
+   "start": 239.227,
+   "end": 239.327,
+   "heard": "But",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S32",
+   "start": 239.327,
+   "end": 239.377,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "1260,",
+   "scene": "S32",
+   "start": 239.427,
+   "end": 240.17,
+   "heard": "1260,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S32",
+   "start": 240.17,
+   "end": 240.57,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Egyptian",
+   "scene": "S32",
+   "start": 240.57,
+   "end": 240.99,
+   "heard": "Egyptian",
+   "confidence": 1
+  },
+  {
+   "text": "Mamluks",
+   "scene": "S32",
+   "start": 240.99,
+   "end": 241.49,
+   "heard": "Mamluks",
+   "confidence": 1
+  },
+  {
+   "text": "defeated",
+   "scene": "S32",
+   "start": 241.49,
+   "end": 242.08,
+   "heard": "defeated",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S32",
+   "start": 242.08,
+   "end": 242.15,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S32",
+   "start": 242.18,
+   "end": 242.59,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "army",
+   "scene": "S32",
+   "start": 242.59,
+   "end": 242.88,
+   "heard": "army",
+   "confidence": 1
+  },
+  {
+   "text": "at",
+   "scene": "S32",
+   "start": 242.88,
+   "end": 243.02,
+   "heard": "at",
+   "confidence": 1
+  },
+  {
+   "text": "Ain",
+   "scene": "S32",
+   "start": 243.02,
+   "end": 243.24,
+   "heard": "Ain",
+   "confidence": 1
+  },
+  {
+   "text": "Jalut.",
+   "scene": "S32",
+   "start": 243.24,
+   "end": 243.9,
+   "heard": "Jalut.",
+   "confidence": 1
+  },
+  {
+   "text": "For",
+   "scene": "S32",
+   "start": 244.223,
+   "end": 244.323,
+   "heard": "For",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S32",
+   "start": 244.323,
+   "end": 244.373,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "first",
+   "scene": "S32",
+   "start": 244.423,
+   "end": 244.6,
+   "heard": "first",
+   "confidence": 1
+  },
+  {
+   "text": "time,",
+   "scene": "S32",
+   "start": 244.6,
+   "end": 244.97,
+   "heard": "time,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S32",
+   "start": 244.97,
+   "end": 245.17,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S32",
+   "start": 245.17,
+   "end": 245.54,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "advance",
+   "scene": "S32",
+   "start": 245.54,
+   "end": 245.98,
+   "heard": "advance",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S32",
+   "start": 245.98,
+   "end": 246.17,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "been",
+   "scene": "S32",
+   "start": 246.17,
+   "end": 246.44,
+   "heard": "been",
+   "confidence": 1
+  },
+  {
+   "text": "stopped.",
+   "scene": "S32",
+   "start": 246.44,
+   "end": 247.1,
+   "heard": "stopped.",
+   "confidence": 1
+  },
+  {
+   "text": "By",
+   "scene": "S33",
+   "start": 248.31,
+   "end": 248.41,
+   "heard": "By",
+   "confidence": 1
+  },
+  {
+   "text": "then,",
+   "scene": "S33",
+   "start": 248.41,
+   "end": 248.46,
+   "heard": "then,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S33",
+   "start": 248.51,
+   "end": 248.56,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "empire",
+   "scene": "S33",
+   "start": 248.61,
+   "end": 248.66,
+   "heard": "empire",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S33",
+   "start": 248.71,
+   "end": 248.82,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "too",
+   "scene": "S33",
+   "start": 248.82,
+   "end": 249.08,
+   "heard": "too",
+   "confidence": 1
+  },
+  {
+   "text": "big",
+   "scene": "S33",
+   "start": 249.08,
+   "end": 249.28,
+   "heard": "big",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S33",
+   "start": 249.28,
+   "end": 249.51,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "rule",
+   "scene": "S33",
+   "start": 249.51,
+   "end": 249.9,
+   "heard": "rule",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S33",
+   "start": 249.9,
+   "end": 250.19,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "one",
+   "scene": "S33",
+   "start": 250.19,
+   "end": 250.44,
+   "heard": "one",
+   "confidence": 1
+  },
+  {
+   "text": "place.",
+   "scene": "S33",
+   "start": 250.44,
+   "end": 251.2,
+   "heard": "place.",
+   "confidence": 1
+  },
+  {
+   "text": "After",
+   "scene": "S33",
+   "start": 251.46,
+   "end": 251.68,
+   "heard": "After",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S33",
+   "start": 251.68,
+   "end": 251.73,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "civil",
+   "scene": "S33",
+   "start": 251.78,
+   "end": 252.03,
+   "heard": "civil",
+   "confidence": 1
+  },
+  {
+   "text": "war",
+   "scene": "S33",
+   "start": 252.03,
+   "end": 252.18,
+   "heard": "war",
+   "confidence": 1
+  },
+  {
+   "text": "between",
+   "scene": "S33",
+   "start": 252.18,
+   "end": 252.58,
+   "heard": "between",
+   "confidence": 1
+  },
+  {
+   "text": "Genghis's",
+   "scene": "S33",
+   "start": 252.58,
+   "end": 252.97,
+   "heard": "Genghis",
+   "confidence": 0.95
+  },
+  {
+   "text": "grandsons,",
+   "scene": "S33",
+   "start": 253.31,
+   "end": 254.05,
+   "heard": "grandsons,",
+   "confidence": 1
+  },
+  {
+   "text": "it",
+   "scene": "S33",
+   "start": 254.05,
+   "end": 254.22,
+   "heard": "it",
+   "confidence": 1
+  },
+  {
+   "text": "broke",
+   "scene": "S33",
+   "start": 254.22,
+   "end": 254.48,
+   "heard": "broke",
+   "confidence": 1
+  },
+  {
+   "text": "into",
+   "scene": "S33",
+   "start": 254.48,
+   "end": 254.76,
+   "heard": "into",
+   "confidence": 1
+  },
+  {
+   "text": "four",
+   "scene": "S33",
+   "start": 254.76,
+   "end": 255.04,
+   "heard": "four",
+   "confidence": 1
+  },
+  {
+   "text": "parts:",
+   "scene": "S33",
+   "start": 255.04,
+   "end": 255.4,
+   "heard": "parts",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S33",
+   "start": 255.833,
+   "end": 255.933,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Golden",
+   "scene": "S33",
+   "start": 255.933,
+   "end": 256.18,
+   "heard": "Golden",
+   "confidence": 1
+  },
+  {
+   "text": "Horde,",
+   "scene": "S33",
+   "start": 256.18,
+   "end": 256.94,
+   "heard": "Horde,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S33",
+   "start": 256.94,
+   "end": 256.99,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Chagatai",
+   "scene": "S33",
+   "start": 257.04,
+   "end": 257.49,
+   "heard": "Chagatai",
+   "confidence": 1
+  },
+  {
+   "text": "Khanate,",
+   "scene": "S33",
+   "start": 257.49,
+   "end": 258.33,
+   "heard": "Khanadi,",
+   "confidence": 0.667
+  },
+  {
+   "text": "the",
+   "scene": "S33",
+   "start": 258.361,
+   "end": 258.461,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Ilkhanate,",
+   "scene": "S33",
+   "start": 258.461,
+   "end": 259.4,
+   "heard": "Ilkhanadi,",
+   "confidence": 0.75
+  },
+  {
+   "text": "and",
+   "scene": "S33",
+   "start": 259.459,
+   "end": 259.559,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S33",
+   "start": 259.559,
+   "end": 259.609,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Yuan",
+   "scene": "S33",
+   "start": 259.659,
+   "end": 259.86,
+   "heard": "Yuan",
+   "confidence": 1
+  },
+  {
+   "text": "dynasty",
+   "scene": "S33",
+   "start": 259.86,
+   "end": 260.27,
+   "heard": "dynasty",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S33",
+   "start": 260.27,
+   "end": 260.45,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "China.",
+   "scene": "S33",
+   "start": 260.45,
+   "end": 261,
+   "heard": "China.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S34",
+   "start": 261.455,
+   "end": 261.555,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Yuan",
+   "scene": "S34",
+   "start": 261.555,
+   "end": 261.605,
+   "heard": "Yuan",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S34",
+   "start": 261.655,
+   "end": 261.8,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "ruled",
+   "scene": "S34",
+   "start": 261.8,
+   "end": 262.19,
+   "heard": "ruled",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S34",
+   "start": 262.19,
+   "end": 262.35,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "Kublai",
+   "scene": "S34",
+   "start": 262.35,
+   "end": 262.81,
+   "heard": "Kublai",
+   "confidence": 1
+  },
+  {
+   "text": "Khan.",
+   "scene": "S34",
+   "start": 262.81,
+   "end": 263.4,
+   "heard": "Khan.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S34",
+   "start": 263.4,
+   "end": 263.81,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1279,",
+   "scene": "S34",
+   "start": 263.81,
+   "end": 264.53,
+   "heard": "1279,",
+   "confidence": 1
+  },
+  {
+   "text": "he",
+   "scene": "S34",
+   "start": 264.53,
+   "end": 264.67,
+   "heard": "he",
+   "confidence": 1
+  },
+  {
+   "text": "completed",
+   "scene": "S34",
+   "start": 264.67,
+   "end": 265.35,
+   "heard": "completed",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S34",
+   "start": 265.35,
+   "end": 265.52,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "conquest",
+   "scene": "S34",
+   "start": 265.52,
+   "end": 266.09,
+   "heard": "conquest",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S34",
+   "start": 266.09,
+   "end": 266.23,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "southern",
+   "scene": "S34",
+   "start": 266.23,
+   "end": 266.8,
+   "heard": "southern",
+   "confidence": 1
+  },
+  {
+   "text": "China,",
+   "scene": "S34",
+   "start": 266.8,
+   "end": 267.2,
+   "heard": "China,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S34",
+   "start": 267.517,
+   "end": 267.617,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "for",
+   "scene": "S34",
+   "start": 267.617,
+   "end": 267.667,
+   "heard": "for",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S34",
+   "start": 267.717,
+   "end": 267.83,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "first",
+   "scene": "S34",
+   "start": 267.83,
+   "end": 268.18,
+   "heard": "first",
+   "confidence": 1
+  },
+  {
+   "text": "time",
+   "scene": "S34",
+   "start": 268.18,
+   "end": 268.6,
+   "heard": "time,",
+   "confidence": 1
+  },
+  {
+   "text": "all",
+   "scene": "S34",
+   "start": 268.6,
+   "end": 268.81,
+   "heard": "all",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S34",
+   "start": 268.81,
+   "end": 268.95,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "China",
+   "scene": "S34",
+   "start": 268.95,
+   "end": 269.3,
+   "heard": "China",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S34",
+   "start": 269.3,
+   "end": 269.5,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "under",
+   "scene": "S34",
+   "start": 269.5,
+   "end": 269.86,
+   "heard": "under",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S34",
+   "start": 269.86,
+   "end": 270.28,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "rule.",
+   "scene": "S34",
+   "start": 270.28,
+   "end": 270.8,
+   "heard": "rule.",
+   "confidence": 1
+  },
+  {
+   "text": "He",
+   "scene": "S35",
+   "start": 270.8,
+   "end": 271.37,
+   "heard": "He",
+   "confidence": 1
+  },
+  {
+   "text": "also",
+   "scene": "S35",
+   "start": 271.711,
+   "end": 271.811,
+   "heard": "also",
+   "confidence": 1
+  },
+  {
+   "text": "tried",
+   "scene": "S35",
+   "start": 271.811,
+   "end": 271.861,
+   "heard": "tried",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S35",
+   "start": 271.911,
+   "end": 272.07,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "invade",
+   "scene": "S35",
+   "start": 272.07,
+   "end": 272.62,
+   "heard": "invade",
+   "confidence": 1
+  },
+  {
+   "text": "Japan,",
+   "scene": "S35",
+   "start": 272.62,
+   "end": 273.1,
+   "heard": "Japan",
+   "confidence": 1
+  },
+  {
+   "text": "twice.",
+   "scene": "S35",
+   "start": 273.42,
+   "end": 274.2,
+   "heard": "twice.",
+   "confidence": 1
+  },
+  {
+   "text": "Both",
+   "scene": "S35",
+   "start": 274.2,
+   "end": 274.79,
+   "heard": "Both",
+   "confidence": 1
+  },
+  {
+   "text": "attempts",
+   "scene": "S35",
+   "start": 274.79,
+   "end": 275.1,
+   "heard": "attempts",
+   "confidence": 1
+  },
+  {
+   "text": "failed.",
+   "scene": "S35",
+   "start": 275.1,
+   "end": 275.8,
+   "heard": "failed.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S35",
+   "start": 275.8,
+   "end": 276.2,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "second",
+   "scene": "S35",
+   "start": 276.2,
+   "end": 276.41,
+   "heard": "second",
+   "confidence": 1
+  },
+  {
+   "text": "fleet",
+   "scene": "S35",
+   "start": 276.41,
+   "end": 276.75,
+   "heard": "fleet",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S35",
+   "start": 276.75,
+   "end": 276.95,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "destroyed",
+   "scene": "S35",
+   "start": 276.95,
+   "end": 277.56,
+   "heard": "destroyed",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S35",
+   "start": 277.56,
+   "end": 277.69,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S35",
+   "start": 277.69,
+   "end": 277.79,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "typhoon",
+   "scene": "S35",
+   "start": 277.79,
+   "end": 278.22,
+   "heard": "typhoon",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S35",
+   "start": 278.22,
+   "end": 278.42,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Japanese",
+   "scene": "S35",
+   "start": 278.42,
+   "end": 279,
+   "heard": "Japanese",
+   "confidence": 1
+  },
+  {
+   "text": "called",
+   "scene": "S35",
+   "start": 279,
+   "end": 279.38,
+   "heard": "called",
+   "confidence": 1
+  },
+  {
+   "text": "kamikaze,",
+   "scene": "S35",
+   "start": 279.38,
+   "end": 279.99,
+   "heard": "Kamikaze",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S35",
+   "start": 280.4,
+   "end": 280.58,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "divine",
+   "scene": "S35",
+   "start": 280.58,
+   "end": 280.95,
+   "heard": "Divine",
+   "confidence": 1
+  },
+  {
+   "text": "wind.",
+   "scene": "S35",
+   "start": 280.95,
+   "end": 281.4,
+   "heard": "Wind.",
+   "confidence": 1
+  },
+  {
+   "text": "Despite",
+   "scene": "S36",
+   "start": 281.4,
+   "end": 281.88,
+   "heard": "Despite",
+   "confidence": 1
+  },
+  {
+   "text": "all",
+   "scene": "S36",
+   "start": 281.88,
+   "end": 282.08,
+   "heard": "all",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S36",
+   "start": 282.08,
+   "end": 282.29,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "violence,",
+   "scene": "S36",
+   "start": 282.29,
+   "end": 283.12,
+   "heard": "violence,",
+   "confidence": 1
+  },
+  {
+   "text": "Mongol",
+   "scene": "S36",
+   "start": 283.12,
+   "end": 283.38,
+   "heard": "Mongol",
+   "confidence": 1
+  },
+  {
+   "text": "rule",
+   "scene": "S36",
+   "start": 283.38,
+   "end": 283.63,
+   "heard": "rule",
+   "confidence": 1
+  },
+  {
+   "text": "made",
+   "scene": "S36",
+   "start": 283.63,
+   "end": 283.88,
+   "heard": "made",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S36",
+   "start": 283.88,
+   "end": 284.1,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Silk",
+   "scene": "S36",
+   "start": 284.1,
+   "end": 284.44,
+   "heard": "Silk",
+   "confidence": 1
+  },
+  {
+   "text": "Road",
+   "scene": "S36",
+   "start": 284.44,
+   "end": 284.57,
+   "heard": "Road",
+   "confidence": 1
+  },
+  {
+   "text": "safer",
+   "scene": "S36",
+   "start": 284.57,
+   "end": 284.88,
+   "heard": "safer",
+   "confidence": 1
+  },
+  {
+   "text": "than",
+   "scene": "S36",
+   "start": 284.88,
+   "end": 285.13,
+   "heard": "than",
+   "confidence": 1
+  },
+  {
+   "text": "ever.",
+   "scene": "S36",
+   "start": 285.13,
+   "end": 285.6,
+   "heard": "ever.",
+   "confidence": 1
+  },
+  {
+   "text": "Merchants,",
+   "scene": "S36",
+   "start": 285.929,
+   "end": 286.67,
+   "heard": "Merchants,",
+   "confidence": 1
+  },
+  {
+   "text": "ideas",
+   "scene": "S36",
+   "start": 286.67,
+   "end": 287.03,
+   "heard": "ideas,",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S36",
+   "start": 287.03,
+   "end": 287.2,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "travelers",
+   "scene": "S36",
+   "start": 287.2,
+   "end": 287.77,
+   "heard": "travelers",
+   "confidence": 1
+  },
+  {
+   "text": "like",
+   "scene": "S36",
+   "start": 287.77,
+   "end": 288.02,
+   "heard": "like",
+   "confidence": 1
+  },
+  {
+   "text": "Marco",
+   "scene": "S36",
+   "start": 288.02,
+   "end": 288.33,
+   "heard": "Marco",
+   "confidence": 1
+  },
+  {
+   "text": "Polo",
+   "scene": "S36",
+   "start": 288.33,
+   "end": 288.6,
+   "heard": "Polo",
+   "confidence": 1
+  },
+  {
+   "text": "crossed",
+   "scene": "S36",
+   "start": 288.6,
+   "end": 289.01,
+   "heard": "crossed",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S36",
+   "start": 289.01,
+   "end": 289.24,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "Europe",
+   "scene": "S36",
+   "start": 289.24,
+   "end": 289.64,
+   "heard": "Europe",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S36",
+   "start": 289.64,
+   "end": 289.74,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "China.",
+   "scene": "S36",
+   "start": 289.74,
+   "end": 290.2,
+   "heard": "China.",
+   "confidence": 1
+  },
+  {
+   "text": "But",
+   "scene": "S37",
+   "start": 290.649,
+   "end": 290.749,
+   "heard": "But",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S37",
+   "start": 290.749,
+   "end": 290.799,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "same",
+   "scene": "S37",
+   "start": 290.849,
+   "end": 290.899,
+   "heard": "same",
+   "confidence": 1
+  },
+  {
+   "text": "routes",
+   "scene": "S37",
+   "start": 290.949,
+   "end": 291.17,
+   "heard": "routes",
+   "confidence": 1
+  },
+  {
+   "text": "also",
+   "scene": "S37",
+   "start": 291.17,
+   "end": 291.41,
+   "heard": "also",
+   "confidence": 1
+  },
+  {
+   "text": "carried",
+   "scene": "S37",
+   "start": 291.41,
+   "end": 291.84,
+   "heard": "carried",
+   "confidence": 1
+  },
+  {
+   "text": "something",
+   "scene": "S37",
+   "start": 291.84,
+   "end": 292.39,
+   "heard": "something",
+   "confidence": 1
+  },
+  {
+   "text": "deadly.",
+   "scene": "S37",
+   "start": 292.39,
+   "end": 292.8,
+   "heard": "deadly.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S37",
+   "start": 292.8,
+   "end": 293.15,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S37",
+   "start": 293.167,
+   "end": 293.267,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "1340s,",
+   "scene": "S37",
+   "start": 293.267,
+   "end": 294.19,
+   "heard": "1340s,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S37",
+   "start": 294.19,
+   "end": 294.39,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Black",
+   "scene": "S37",
+   "start": 294.39,
+   "end": 294.69,
+   "heard": "Black",
+   "confidence": 1
+  },
+  {
+   "text": "Death",
+   "scene": "S37",
+   "start": 294.69,
+   "end": 295.02,
+   "heard": "Death",
+   "confidence": 1
+  },
+  {
+   "text": "spread",
+   "scene": "S37",
+   "start": 295.02,
+   "end": 295.39,
+   "heard": "spread",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S37",
+   "start": 295.39,
+   "end": 295.64,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "Central",
+   "scene": "S37",
+   "start": 295.64,
+   "end": 296.07,
+   "heard": "Central",
+   "confidence": 1
+  },
+  {
+   "text": "Asia",
+   "scene": "S37",
+   "start": 296.07,
+   "end": 296.33,
+   "heard": "Asia",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S37",
+   "start": 296.33,
+   "end": 296.45,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S37",
+   "start": 296.45,
+   "end": 296.64,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Black",
+   "scene": "S37",
+   "start": 296.64,
+   "end": 296.95,
+   "heard": "Black",
+   "confidence": 1
+  },
+  {
+   "text": "Sea,",
+   "scene": "S37",
+   "start": 296.95,
+   "end": 297.2,
+   "heard": "Sea.",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S37",
+   "start": 297.597,
+   "end": 297.697,
+   "heard": "And",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S37",
+   "start": 297.697,
+   "end": 297.82,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "there",
+   "scene": "S37",
+   "start": 297.82,
+   "end": 298.58,
+   "heard": "there,",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S37",
+   "start": 298.613,
+   "end": 298.713,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "Europe.",
+   "scene": "S37",
+   "start": 298.713,
+   "end": 299.4,
+   "heard": "Europe.",
+   "confidence": 1
+  },
+  {
+   "text": "One",
+   "scene": "S38",
+   "start": 300.768,
+   "end": 300.868,
+   "heard": "One",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S38",
+   "start": 300.868,
+   "end": 300.918,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "one,",
+   "scene": "S38",
+   "start": 300.968,
+   "end": 301.018,
+   "heard": "one,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S38",
+   "start": 301.068,
+   "end": 301.118,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "khanates",
+   "scene": "S38",
+   "start": 301.168,
+   "end": 301.6,
+   "heard": "Khanates",
+   "confidence": 1
+  },
+  {
+   "text": "fell",
+   "scene": "S38",
+   "start": 301.6,
+   "end": 301.94,
+   "heard": "fell",
+   "confidence": 1
+  },
+  {
+   "text": "apart.",
+   "scene": "S38",
+   "start": 301.94,
+   "end": 302.8,
+   "heard": "apart.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S38",
+   "start": 302.8,
+   "end": 303.18,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Ilkhanate",
+   "scene": "S38",
+   "start": 303.2,
+   "end": 303.71,
+   "heard": "Ilkhanate",
+   "confidence": 1
+  },
+  {
+   "text": "collapsed",
+   "scene": "S38",
+   "start": 303.71,
+   "end": 304.45,
+   "heard": "collapsed",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S38",
+   "start": 304.45,
+   "end": 304.57,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "1335.",
+   "scene": "S38",
+   "start": 304.57,
+   "end": 305.8,
+   "heard": "1335.",
+   "confidence": 1
+  },
+  {
+   "text": "In",
+   "scene": "S38",
+   "start": 306.229,
+   "end": 306.329,
+   "heard": "In",
+   "confidence": 1
+  },
+  {
+   "text": "1368,",
+   "scene": "S38",
+   "start": 306.329,
+   "end": 306.93,
+   "heard": "1368,",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S38",
+   "start": 306.93,
+   "end": 307.15,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Yuan",
+   "scene": "S38",
+   "start": 307.15,
+   "end": 307.56,
+   "heard": "Yuan",
+   "confidence": 1
+  },
+  {
+   "text": "were",
+   "scene": "S38",
+   "start": 307.56,
+   "end": 307.73,
+   "heard": "were",
+   "confidence": 1
+  },
+  {
+   "text": "driven",
+   "scene": "S38",
+   "start": 307.73,
+   "end": 308.17,
+   "heard": "driven",
+   "confidence": 1
+  },
+  {
+   "text": "out",
+   "scene": "S38",
+   "start": 308.17,
+   "end": 308.37,
+   "heard": "out",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S38",
+   "start": 308.37,
+   "end": 308.51,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "China",
+   "scene": "S38",
+   "start": 308.51,
+   "end": 308.87,
+   "heard": "China",
+   "confidence": 1
+  },
+  {
+   "text": "by",
+   "scene": "S38",
+   "start": 308.87,
+   "end": 309.01,
+   "heard": "by",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S38",
+   "start": 309.01,
+   "end": 309.22,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "Ming.",
+   "scene": "S38",
+   "start": 309.22,
+   "end": 309.8,
+   "heard": "Ming.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S38",
+   "start": 310.27,
+   "end": 310.42,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "Golden",
+   "scene": "S38",
+   "start": 310.42,
+   "end": 310.73,
+   "heard": "Golden",
+   "confidence": 1
+  },
+  {
+   "text": "Horde",
+   "scene": "S38",
+   "start": 310.73,
+   "end": 311.02,
+   "heard": "Horde",
+   "confidence": 1
+  },
+  {
+   "text": "held",
+   "scene": "S38",
+   "start": 311.02,
+   "end": 311.26,
+   "heard": "held",
+   "confidence": 1
+  },
+  {
+   "text": "on",
+   "scene": "S38",
+   "start": 311.26,
+   "end": 311.38,
+   "heard": "on",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S38",
+   "start": 311.38,
+   "end": 311.55,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "longest,",
+   "scene": "S38",
+   "start": 311.55,
+   "end": 311.99,
+   "heard": "longest",
+   "confidence": 1
+  },
+  {
+   "text": "until",
+   "scene": "S38",
+   "start": 311.99,
+   "end": 312.3,
+   "heard": "until",
+   "confidence": 1
+  },
+  {
+   "text": "its",
+   "scene": "S38",
+   "start": 312.3,
+   "end": 312.48,
+   "heard": "its",
+   "confidence": 1
+  },
+  {
+   "text": "grip",
+   "scene": "S38",
+   "start": 312.48,
+   "end": 312.72,
+   "heard": "grip",
+   "confidence": 1
+  },
+  {
+   "text": "on",
+   "scene": "S38",
+   "start": 312.72,
+   "end": 312.86,
+   "heard": "on",
+   "confidence": 1
+  },
+  {
+   "text": "Moscow",
+   "scene": "S38",
+   "start": 312.86,
+   "end": 313.21,
+   "heard": "Moscow",
+   "confidence": 1
+  },
+  {
+   "text": "ended",
+   "scene": "S38",
+   "start": 313.21,
+   "end": 313.51,
+   "heard": "ended",
+   "confidence": 1
+  },
+  {
+   "text": "in",
+   "scene": "S38",
+   "start": 313.51,
+   "end": 313.63,
+   "heard": "in",
+   "confidence": 1
+  },
+  {
+   "text": "1480.",
+   "scene": "S38",
+   "start": 313.63,
+   "end": 314.6,
+   "heard": "1480.",
+   "confidence": 1
+  },
+  {
+   "text": "The",
+   "scene": "S39",
+   "start": 314.6,
+   "end": 315.24,
+   "heard": "The",
+   "confidence": 1
+  },
+  {
+   "text": "empire",
+   "scene": "S39",
+   "start": 315.24,
+   "end": 315.54,
+   "heard": "empire",
+   "confidence": 1
+  },
+  {
+   "text": "was",
+   "scene": "S39",
+   "start": 315.54,
+   "end": 315.85,
+   "heard": "was",
+   "confidence": 1
+  },
+  {
+   "text": "gone.",
+   "scene": "S39",
+   "start": 315.85,
+   "end": 316.6,
+   "heard": "gone.",
+   "confidence": 1
+  },
+  {
+   "text": "But",
+   "scene": "S39",
+   "start": 316.992,
+   "end": 317.092,
+   "heard": "But",
+   "confidence": 1
+  },
+  {
+   "text": "it",
+   "scene": "S39",
+   "start": 317.092,
+   "end": 317.142,
+   "heard": "it",
+   "confidence": 1
+  },
+  {
+   "text": "had",
+   "scene": "S39",
+   "start": 317.192,
+   "end": 317.242,
+   "heard": "had",
+   "confidence": 1
+  },
+  {
+   "text": "reshaped",
+   "scene": "S39",
+   "start": 317.292,
+   "end": 317.95,
+   "heard": "reshaped",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S39",
+   "start": 317.95,
+   "end": 318.12,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "map",
+   "scene": "S39",
+   "start": 318.12,
+   "end": 318.36,
+   "heard": "map",
+   "confidence": 1
+  },
+  {
+   "text": "of",
+   "scene": "S39",
+   "start": 318.36,
+   "end": 318.52,
+   "heard": "of",
+   "confidence": 1
+  },
+  {
+   "text": "Asia",
+   "scene": "S39",
+   "start": 318.52,
+   "end": 318.84,
+   "heard": "Asia",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S39",
+   "start": 318.84,
+   "end": 319.08,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "Europe,",
+   "scene": "S39",
+   "start": 319.08,
+   "end": 319.6,
+   "heard": "Europe",
+   "confidence": 1
+  },
+  {
+   "text": "and",
+   "scene": "S39",
+   "start": 319.874,
+   "end": 319.974,
+   "heard": "and",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S39",
+   "start": 319.974,
+   "end": 320.024,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "countries",
+   "scene": "S39",
+   "start": 320.074,
+   "end": 320.4,
+   "heard": "countries",
+   "confidence": 1
+  },
+  {
+   "text": "that",
+   "scene": "S39",
+   "start": 320.4,
+   "end": 320.51,
+   "heard": "that",
+   "confidence": 1
+  },
+  {
+   "text": "rose",
+   "scene": "S39",
+   "start": 320.51,
+   "end": 320.62,
+   "heard": "rose",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S39",
+   "start": 320.62,
+   "end": 320.93,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "its",
+   "scene": "S39",
+   "start": 320.93,
+   "end": 321.18,
+   "heard": "its",
+   "confidence": 1
+  },
+  {
+   "text": "ruins,",
+   "scene": "S39",
+   "start": 321.18,
+   "end": 321.71,
+   "heard": "ruins",
+   "confidence": 1
+  },
+  {
+   "text": "from",
+   "scene": "S39",
+   "start": 321.71,
+   "end": 321.88,
+   "heard": "from",
+   "confidence": 1
+  },
+  {
+   "text": "Russia",
+   "scene": "S39",
+   "start": 321.88,
+   "end": 322.3,
+   "heard": "Russia",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S39",
+   "start": 322.3,
+   "end": 322.44,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "China.",
+   "scene": "S39",
+   "start": 322.44,
+   "end": 322.8,
+   "heard": "China.",
+   "confidence": 1
+  },
+  {
+   "text": "And",
+   "scene": "S40",
+   "start": 322.8,
+   "end": 323.2,
+   "heard": "And",
+   "confidence": 1
+  },
+  {
+   "text": "it",
+   "scene": "S40",
+   "start": 323.2,
+   "end": 323.25,
+   "heard": "it",
+   "confidence": 1
+  },
+  {
+   "text": "all",
+   "scene": "S40",
+   "start": 323.3,
+   "end": 323.44,
+   "heard": "all",
+   "confidence": 1
+  },
+  {
+   "text": "started",
+   "scene": "S40",
+   "start": 323.44,
+   "end": 323.99,
+   "heard": "started",
+   "confidence": 1
+  },
+  {
+   "text": "with",
+   "scene": "S40",
+   "start": 324.45,
+   "end": 324.55,
+   "heard": "with",
+   "confidence": 1
+  },
+  {
+   "text": "a",
+   "scene": "S40",
+   "start": 324.55,
+   "end": 324.6,
+   "heard": "a",
+   "confidence": 1
+  },
+  {
+   "text": "boy",
+   "scene": "S40",
+   "start": 324.65,
+   "end": 324.7,
+   "heard": "boy",
+   "confidence": 1
+  },
+  {
+   "text": "on",
+   "scene": "S40",
+   "start": 324.75,
+   "end": 324.8,
+   "heard": "on",
+   "confidence": 1
+  },
+  {
+   "text": "the",
+   "scene": "S40",
+   "start": 324.85,
+   "end": 324.9,
+   "heard": "the",
+   "confidence": 1
+  },
+  {
+   "text": "steppe",
+   "scene": "S40",
+   "start": 324.95,
+   "end": 325.32,
+   "heard": "steppe",
+   "confidence": 1
+  },
+  {
+   "text": "who",
+   "scene": "S40",
+   "start": 325.32,
+   "end": 325.53,
+   "heard": "who",
+   "confidence": 1
+  },
+  {
+   "text": "refused",
+   "scene": "S40",
+   "start": 325.53,
+   "end": 326,
+   "heard": "refused",
+   "confidence": 1
+  },
+  {
+   "text": "to",
+   "scene": "S40",
+   "start": 326,
+   "end": 326.14,
+   "heard": "to",
+   "confidence": 1
+  },
+  {
+   "text": "give",
+   "scene": "S40",
+   "start": 326.14,
+   "end": 326.41,
+   "heard": "give",
+   "confidence": 1
+  },
+  {
+   "text": "up.",
+   "scene": "S40",
+   "start": 326.41,
+   "end": 326.8,
+   "heard": "up.",
+   "confidence": 1
+  }
+ ],
+ "unaligned": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "mongol-empire-in-5-minutes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "cutouts": "node scripts/remove-white-bg.mjs public/images/012.png",
+    "maps": "node scripts/fetch-maps.mjs",
+    "transcribe": "node scripts/transcribe.mjs",
+    "timings": "node scripts/align.mjs",
+    "validate": "node --experimental-strip-types scripts/validate.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.532",
+    "@remotion/fonts": "^4.0.532",
+    "@remotion/google-fonts": "^4.0.532",
+    "@remotion/install-whisper-cpp": "^4.0.532",
+    "d3-geo": "^3.1.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.532"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
+    "@types/react": "^19.3.0",
+    "sharp": "^0.35.5",
+    "topojson-client": "^3.1.0",
+    "typescript": "^5.9.3",
+    "world-atlas": "^2.0.2"
+  }
+}

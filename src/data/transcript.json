@@ -1,0 +1,4516 @@
+{
+ "source": "public/audio/voiceover.mp3",
+ "model": "medium.en",
+ "words": [
+  {
+   "text": "In",
+   "start": 0.08,
+   "end": 0.12
+  },
+  {
+   "text": "less",
+   "start": 0.12,
+   "end": 0.36
+  },
+  {
+   "text": "than",
+   "start": 0.36,
+   "end": 0.6
+  },
+  {
+   "text": "a",
+   "start": 0.6,
+   "end": 0.66
+  },
+  {
+   "text": "century,",
+   "start": 0.66,
+   "end": 1.24
+  },
+  {
+   "text": "a",
+   "start": 1.24,
+   "end": 1.27
+  },
+  {
+   "text": "few",
+   "start": 1.27,
+   "end": 1.48
+  },
+  {
+   "text": "nomadic",
+   "start": 1.48,
+   "end": 2.05
+  },
+  {
+   "text": "tribes",
+   "start": 2.05,
+   "end": 2.43
+  },
+  {
+   "text": "from",
+   "start": 2.43,
+   "end": 2.61
+  },
+  {
+   "text": "the",
+   "start": 2.61,
+   "end": 2.77
+  },
+  {
+   "text": "Mongolian",
+   "start": 2.77,
+   "end": 3.25
+  },
+  {
+   "text": "steppe",
+   "start": 3.25,
+   "end": 3.62
+  },
+  {
+   "text": "built",
+   "start": 3.62,
+   "end": 3.92
+  },
+  {
+   "text": "the",
+   "start": 3.92,
+   "end": 4.03
+  },
+  {
+   "text": "largest",
+   "start": 4.03,
+   "end": 4.58
+  },
+  {
+   "text": "connected",
+   "start": 4.58,
+   "end": 4.96
+  },
+  {
+   "text": "land",
+   "start": 4.96,
+   "end": 5.24
+  },
+  {
+   "text": "empire",
+   "start": 5.24,
+   "end": 5.65
+  },
+  {
+   "text": "in",
+   "start": 5.65,
+   "end": 5.79
+  },
+  {
+   "text": "history.",
+   "start": 5.79,
+   "end": 6.5
+  },
+  {
+   "text": "At",
+   "start": 6.5,
+   "end": 6.81
+  },
+  {
+   "text": "its",
+   "start": 6.81,
+   "end": 6.86
+  },
+  {
+   "text": "height,",
+   "start": 6.86,
+   "end": 7.31
+  },
+  {
+   "text": "it",
+   "start": 7.31,
+   "end": 7.48
+  },
+  {
+   "text": "stretched",
+   "start": 7.48,
+   "end": 8
+  },
+  {
+   "text": "from",
+   "start": 8,
+   "end": 8.25
+  },
+  {
+   "text": "Korea",
+   "start": 8.25,
+   "end": 8.81
+  },
+  {
+   "text": "all",
+   "start": 8.81,
+   "end": 8.86
+  },
+  {
+   "text": "the",
+   "start": 8.86,
+   "end": 9.02
+  },
+  {
+   "text": "way",
+   "start": 9.02,
+   "end": 9.23
+  },
+  {
+   "text": "to",
+   "start": 9.23,
+   "end": 9.37
+  },
+  {
+   "text": "Hungary.",
+   "start": 9.37,
+   "end": 9.9
+  },
+  {
+   "text": "And",
+   "start": 9.9,
+   "end": 10.25
+  },
+  {
+   "text": "it",
+   "start": 10.25,
+   "end": 10.42
+  },
+  {
+   "text": "all",
+   "start": 10.42,
+   "end": 10.7
+  },
+  {
+   "text": "began",
+   "start": 10.7,
+   "end": 11.13
+  },
+  {
+   "text": "with",
+   "start": 11.13,
+   "end": 11.63
+  },
+  {
+   "text": "a",
+   "start": 11.63,
+   "end": 11.65
+  },
+  {
+   "text": "boy",
+   "start": 11.65,
+   "end": 11.89
+  },
+  {
+   "text": "who",
+   "start": 11.89,
+   "end": 12.14
+  },
+  {
+   "text": "had",
+   "start": 12.14,
+   "end": 12.43
+  },
+  {
+   "text": "nothing.",
+   "start": 12.43,
+   "end": 13.3
+  },
+  {
+   "text": "This",
+   "start": 13.3,
+   "end": 13.76
+  },
+  {
+   "text": "is",
+   "start": 13.76,
+   "end": 13.79
+  },
+  {
+   "text": "the",
+   "start": 13.79,
+   "end": 14.06
+  },
+  {
+   "text": "story",
+   "start": 14.06,
+   "end": 14.45
+  },
+  {
+   "text": "of",
+   "start": 14.45,
+   "end": 14.61
+  },
+  {
+   "text": "the",
+   "start": 14.61,
+   "end": 14.86
+  },
+  {
+   "text": "Mongol",
+   "start": 14.86,
+   "end": 15.37
+  },
+  {
+   "text": "Empire.",
+   "start": 15.37,
+   "end": 15.9
+  },
+  {
+   "text": "Around",
+   "start": 15.9,
+   "end": 17.11
+  },
+  {
+   "text": "1162,",
+   "start": 17.11,
+   "end": 18.67
+  },
+  {
+   "text": "a",
+   "start": 18.67,
+   "end": 18.88
+  },
+  {
+   "text": "boy",
+   "start": 18.88,
+   "end": 18.9
+  },
+  {
+   "text": "named",
+   "start": 18.9,
+   "end": 19.24
+  },
+  {
+   "text": "Temujin",
+   "start": 19.24,
+   "end": 19.73
+  },
+  {
+   "text": "was",
+   "start": 19.73,
+   "end": 19.94
+  },
+  {
+   "text": "born",
+   "start": 19.94,
+   "end": 20.23
+  },
+  {
+   "text": "on",
+   "start": 20.23,
+   "end": 20.37
+  },
+  {
+   "text": "the",
+   "start": 20.37,
+   "end": 20.58
+  },
+  {
+   "text": "steppe",
+   "start": 20.58,
+   "end": 21
+  },
+  {
+   "text": "of",
+   "start": 21,
+   "end": 21.15
+  },
+  {
+   "text": "what",
+   "start": 21.15,
+   "end": 21.43
+  },
+  {
+   "text": "is",
+   "start": 21.43,
+   "end": 21.57
+  },
+  {
+   "text": "now",
+   "start": 21.57,
+   "end": 21.78
+  },
+  {
+   "text": "Mongolia.",
+   "start": 21.78,
+   "end": 22.7
+  },
+  {
+   "text": "The",
+   "start": 22.7,
+   "end": 22.95
+  },
+  {
+   "text": "steppe",
+   "start": 22.95,
+   "end": 23.27
+  },
+  {
+   "text": "was",
+   "start": 23.27,
+   "end": 23.51
+  },
+  {
+   "text": "divided",
+   "start": 23.51,
+   "end": 23.9
+  },
+  {
+   "text": "between",
+   "start": 23.9,
+   "end": 24.34
+  },
+  {
+   "text": "rival",
+   "start": 24.34,
+   "end": 24.65
+  },
+  {
+   "text": "tribes",
+   "start": 24.65,
+   "end": 25.02
+  },
+  {
+   "text": "who",
+   "start": 25.02,
+   "end": 25.38
+  },
+  {
+   "text": "raided",
+   "start": 25.38,
+   "end": 25.6
+  },
+  {
+   "text": "and",
+   "start": 25.6,
+   "end": 25.79
+  },
+  {
+   "text": "fought",
+   "start": 25.79,
+   "end": 26.18
+  },
+  {
+   "text": "each",
+   "start": 26.18,
+   "end": 26.42
+  },
+  {
+   "text": "other",
+   "start": 26.42,
+   "end": 26.73
+  },
+  {
+   "text": "constantly.",
+   "start": 26.73,
+   "end": 27.6
+  },
+  {
+   "text": "When",
+   "start": 28.01,
+   "end": 28.15
+  },
+  {
+   "text": "Temujin",
+   "start": 28.15,
+   "end": 28.56
+  },
+  {
+   "text": "was",
+   "start": 28.56,
+   "end": 28.74
+  },
+  {
+   "text": "about",
+   "start": 28.74,
+   "end": 29.04
+  },
+  {
+   "text": "nine,",
+   "start": 29.04,
+   "end": 29.4
+  },
+  {
+   "text": "his",
+   "start": 29.4,
+   "end": 29.58
+  },
+  {
+   "text": "father",
+   "start": 29.58,
+   "end": 29.97
+  },
+  {
+   "text": "was",
+   "start": 29.97,
+   "end": 30.12
+  },
+  {
+   "text": "poisoned",
+   "start": 30.12,
+   "end": 30.59
+  },
+  {
+   "text": "by",
+   "start": 30.59,
+   "end": 30.76
+  },
+  {
+   "text": "the",
+   "start": 30.76,
+   "end": 30.9
+  },
+  {
+   "text": "Tatars,",
+   "start": 30.9,
+   "end": 31.42
+  },
+  {
+   "text": "a",
+   "start": 31.42,
+   "end": 31.63
+  },
+  {
+   "text": "rival",
+   "start": 31.63,
+   "end": 31.95
+  },
+  {
+   "text": "tribe.",
+   "start": 31.95,
+   "end": 32.7
+  },
+  {
+   "text": "His",
+   "start": 32.7,
+   "end": 33.09
+  },
+  {
+   "text": "own",
+   "start": 33.09,
+   "end": 33.1
+  },
+  {
+   "text": "clan",
+   "start": 33.1,
+   "end": 33.37
+  },
+  {
+   "text": "abandoned",
+   "start": 33.37,
+   "end": 33.97
+  },
+  {
+   "text": "the",
+   "start": 33.97,
+   "end": 34.17
+  },
+  {
+   "text": "family.",
+   "start": 34.17,
+   "end": 34.8
+  },
+  {
+   "text": "They",
+   "start": 34.8,
+   "end": 35.12
+  },
+  {
+   "text": "survived",
+   "start": 35.12,
+   "end": 35.46
+  },
+  {
+   "text": "by",
+   "start": 35.46,
+   "end": 35.56
+  },
+  {
+   "text": "fishing,",
+   "start": 35.56,
+   "end": 36.07
+  },
+  {
+   "text": "hunting",
+   "start": 36.07,
+   "end": 36.46
+  },
+  {
+   "text": "small",
+   "start": 36.46,
+   "end": 36.74
+  },
+  {
+   "text": "animals,",
+   "start": 36.74,
+   "end": 37.24
+  },
+  {
+   "text": "and",
+   "start": 37.24,
+   "end": 37.4
+  },
+  {
+   "text": "digging",
+   "start": 37.4,
+   "end": 37.84
+  },
+  {
+   "text": "up",
+   "start": 37.84,
+   "end": 37.9
+  },
+  {
+   "text": "roots.",
+   "start": 37.9,
+   "end": 38.4
+  },
+  {
+   "text": "As",
+   "start": 38.4,
+   "end": 38.53
+  },
+  {
+   "text": "a",
+   "start": 38.53,
+   "end": 38.76
+  },
+  {
+   "text": "teenager,",
+   "start": 38.76,
+   "end": 39.25
+  },
+  {
+   "text": "Temujin",
+   "start": 39.25,
+   "end": 39.7
+  },
+  {
+   "text": "was",
+   "start": 39.7,
+   "end": 39.9
+  },
+  {
+   "text": "captured",
+   "start": 39.9,
+   "end": 40.43
+  },
+  {
+   "text": "by",
+   "start": 40.43,
+   "end": 40.56
+  },
+  {
+   "text": "a",
+   "start": 40.56,
+   "end": 40.62
+  },
+  {
+   "text": "rival",
+   "start": 40.62,
+   "end": 40.95
+  },
+  {
+   "text": "clan",
+   "start": 40.95,
+   "end": 41.21
+  },
+  {
+   "text": "and",
+   "start": 41.21,
+   "end": 41.41
+  },
+  {
+   "text": "locked",
+   "start": 41.41,
+   "end": 41.8
+  },
+  {
+   "text": "in",
+   "start": 41.8,
+   "end": 41.93
+  },
+  {
+   "text": "a",
+   "start": 41.93,
+   "end": 41.99
+  },
+  {
+   "text": "heavy",
+   "start": 41.99,
+   "end": 42.31
+  },
+  {
+   "text": "wooden",
+   "start": 42.31,
+   "end": 42.71
+  },
+  {
+   "text": "collar.",
+   "start": 42.71,
+   "end": 43.4
+  },
+  {
+   "text": "One",
+   "start": 43.4,
+   "end": 43.78
+  },
+  {
+   "text": "night,",
+   "start": 43.78,
+   "end": 44.11
+  },
+  {
+   "text": "he",
+   "start": 44.11,
+   "end": 44.25
+  },
+  {
+   "text": "escaped.",
+   "start": 44.25,
+   "end": 45
+  },
+  {
+   "text": "He",
+   "start": 45,
+   "end": 45.34
+  },
+  {
+   "text": "married",
+   "start": 45.34,
+   "end": 45.59
+  },
+  {
+   "text": "a",
+   "start": 45.59,
+   "end": 45.65
+  },
+  {
+   "text": "young",
+   "start": 45.65,
+   "end": 45.98
+  },
+  {
+   "text": "woman",
+   "start": 45.98,
+   "end": 46.31
+  },
+  {
+   "text": "named",
+   "start": 46.31,
+   "end": 46.64
+  },
+  {
+   "text": "Borte.",
+   "start": 46.64,
+   "end": 47.2
+  },
+  {
+   "text": "But",
+   "start": 47.2,
+   "end": 47.56
+  },
+  {
+   "text": "soon",
+   "start": 47.56,
+   "end": 47.58
+  },
+  {
+   "text": "after",
+   "start": 47.58,
+   "end": 47.85
+  },
+  {
+   "text": "the",
+   "start": 47.85,
+   "end": 48.04
+  },
+  {
+   "text": "wedding,",
+   "start": 48.04,
+   "end": 48.5
+  },
+  {
+   "text": "she",
+   "start": 48.5,
+   "end": 48.66
+  },
+  {
+   "text": "was",
+   "start": 48.66,
+   "end": 48.93
+  },
+  {
+   "text": "kidnapped",
+   "start": 48.93,
+   "end": 49.31
+  },
+  {
+   "text": "by",
+   "start": 49.31,
+   "end": 49.42
+  },
+  {
+   "text": "the",
+   "start": 49.42,
+   "end": 49.57
+  },
+  {
+   "text": "Merkit",
+   "start": 49.57,
+   "end": 49.9
+  },
+  {
+   "text": "tribe.",
+   "start": 49.9,
+   "end": 50.4
+  },
+  {
+   "text": "Temujin",
+   "start": 50.4,
+   "end": 50.89
+  },
+  {
+   "text": "gathered",
+   "start": 50.89,
+   "end": 51.31
+  },
+  {
+   "text": "allies,",
+   "start": 51.31,
+   "end": 51.8
+  },
+  {
+   "text": "including",
+   "start": 51.8,
+   "end": 52.36
+  },
+  {
+   "text": "his",
+   "start": 52.36,
+   "end": 52.54
+  },
+  {
+   "text": "blood",
+   "start": 52.54,
+   "end": 52.86
+  },
+  {
+   "text": "brother",
+   "start": 52.86,
+   "end": 53.28
+  },
+  {
+   "text": "Jamukha,",
+   "start": 53.28,
+   "end": 53.82
+  },
+  {
+   "text": "and",
+   "start": 53.82,
+   "end": 54.05
+  },
+  {
+   "text": "rescued",
+   "start": 54.05,
+   "end": 54.47
+  },
+  {
+   "text": "her.",
+   "start": 54.47,
+   "end": 54.9
+  },
+  {
+   "text": "It",
+   "start": 54.9,
+   "end": 55.23
+  },
+  {
+   "text": "was",
+   "start": 55.23,
+   "end": 55.26
+  },
+  {
+   "text": "his",
+   "start": 55.26,
+   "end": 55.43
+  },
+  {
+   "text": "first",
+   "start": 55.43,
+   "end": 55.76
+  },
+  {
+   "text": "great",
+   "start": 55.76,
+   "end": 56.09
+  },
+  {
+   "text": "victory.",
+   "start": 56.09,
+   "end": 56.8
+  },
+  {
+   "text": "And",
+   "start": 57.19,
+   "end": 57.27
+  },
+  {
+   "text": "people",
+   "start": 57.27,
+   "end": 57.61
+  },
+  {
+   "text": "began",
+   "start": 57.61,
+   "end": 57.89
+  },
+  {
+   "text": "to",
+   "start": 57.89,
+   "end": 58
+  },
+  {
+   "text": "follow",
+   "start": 58,
+   "end": 58.34
+  },
+  {
+   "text": "him.",
+   "start": 58.34,
+   "end": 58.7
+  },
+  {
+   "text": "But",
+   "start": 58.7,
+   "end": 59.08
+  },
+  {
+   "text": "Jamukha",
+   "start": 59.08,
+   "end": 59.34
+  },
+  {
+   "text": "became",
+   "start": 59.34,
+   "end": 59.73
+  },
+  {
+   "text": "his",
+   "start": 59.73,
+   "end": 59.92
+  },
+  {
+   "text": "greatest",
+   "start": 59.92,
+   "end": 60.44
+  },
+  {
+   "text": "rival.",
+   "start": 60.44,
+   "end": 61
+  },
+  {
+   "text": "For",
+   "start": 61,
+   "end": 61.33
+  },
+  {
+   "text": "twenty",
+   "start": 61.33,
+   "end": 61.56
+  },
+  {
+   "text": "years,",
+   "start": 61.56,
+   "end": 61.98
+  },
+  {
+   "text": "Temujin",
+   "start": 61.98,
+   "end": 62.4
+  },
+  {
+   "text": "fought",
+   "start": 62.4,
+   "end": 62.81
+  },
+  {
+   "text": "tribe",
+   "start": 62.81,
+   "end": 63.08
+  },
+  {
+   "text": "after",
+   "start": 63.08,
+   "end": 63.39
+  },
+  {
+   "text": "tribe",
+   "start": 63.39,
+   "end": 63.7
+  },
+  {
+   "text": "for",
+   "start": 63.7,
+   "end": 63.88
+  },
+  {
+   "text": "control",
+   "start": 63.88,
+   "end": 64.32
+  },
+  {
+   "text": "of",
+   "start": 64.32,
+   "end": 64.5
+  },
+  {
+   "text": "the",
+   "start": 64.5,
+   "end": 64.62
+  },
+  {
+   "text": "steppe.",
+   "start": 64.62,
+   "end": 65.3
+  },
+  {
+   "text": "He",
+   "start": 65.3,
+   "end": 65.73
+  },
+  {
+   "text": "crushed",
+   "start": 65.73,
+   "end": 65.98
+  },
+  {
+   "text": "the",
+   "start": 65.98,
+   "end": 66.32
+  },
+  {
+   "text": "Tatars,",
+   "start": 66.32,
+   "end": 66.82
+  },
+  {
+   "text": "the",
+   "start": 66.82,
+   "end": 67.28
+  },
+  {
+   "text": "Karites,",
+   "start": 67.28,
+   "end": 67.73
+  },
+  {
+   "text": "and",
+   "start": 67.73,
+   "end": 68.19
+  },
+  {
+   "text": "the",
+   "start": 68.19,
+   "end": 68.25
+  },
+  {
+   "text": "Naimans.",
+   "start": 68.25,
+   "end": 69
+  },
+  {
+   "text": "In",
+   "start": 69,
+   "end": 69.33
+  },
+  {
+   "text": "the",
+   "start": 69.33,
+   "end": 69.35
+  },
+  {
+   "text": "end,",
+   "start": 69.35,
+   "end": 69.7
+  },
+  {
+   "text": "Jamukha",
+   "start": 69.7,
+   "end": 70.23
+  },
+  {
+   "text": "was",
+   "start": 70.23,
+   "end": 70.4
+  },
+  {
+   "text": "betrayed",
+   "start": 70.4,
+   "end": 70.97
+  },
+  {
+   "text": "by",
+   "start": 70.97,
+   "end": 71.11
+  },
+  {
+   "text": "his",
+   "start": 71.11,
+   "end": 71.31
+  },
+  {
+   "text": "own",
+   "start": 71.31,
+   "end": 71.53
+  },
+  {
+   "text": "men",
+   "start": 71.53,
+   "end": 71.95
+  },
+  {
+   "text": "and",
+   "start": 71.95,
+   "end": 72.03
+  },
+  {
+   "text": "executed.",
+   "start": 72.03,
+   "end": 72.8
+  },
+  {
+   "text": "In",
+   "start": 72.8,
+   "end": 73.28
+  },
+  {
+   "text": "1206,",
+   "start": 73.28,
+   "end": 74.03
+  },
+  {
+   "text": "a",
+   "start": 74.03,
+   "end": 74.03
+  },
+  {
+   "text": "great",
+   "start": 74.03,
+   "end": 74.42
+  },
+  {
+   "text": "assembly",
+   "start": 74.42,
+   "end": 74.97
+  },
+  {
+   "text": "of",
+   "start": 74.97,
+   "end": 75.11
+  },
+  {
+   "text": "the",
+   "start": 75.11,
+   "end": 75.33
+  },
+  {
+   "text": "tribes",
+   "start": 75.33,
+   "end": 75.76
+  },
+  {
+   "text": "gave",
+   "start": 75.76,
+   "end": 76.06
+  },
+  {
+   "text": "him",
+   "start": 76.06,
+   "end": 76.28
+  },
+  {
+   "text": "a",
+   "start": 76.28,
+   "end": 76.35
+  },
+  {
+   "text": "new",
+   "start": 76.35,
+   "end": 76.57
+  },
+  {
+   "text": "title.",
+   "start": 76.57,
+   "end": 77
+  },
+  {
+   "text": "Genghis",
+   "start": 77,
+   "end": 77.88
+  },
+  {
+   "text": "Khan.",
+   "start": 77.88,
+   "end": 78.4
+  },
+  {
+   "text": "For",
+   "start": 78.4,
+   "end": 78.7
+  },
+  {
+   "text": "the",
+   "start": 78.7,
+   "end": 78.76
+  },
+  {
+   "text": "first",
+   "start": 78.76,
+   "end": 79.07
+  },
+  {
+   "text": "time,",
+   "start": 79.07,
+   "end": 79.44
+  },
+  {
+   "text": "the",
+   "start": 79.44,
+   "end": 79.62
+  },
+  {
+   "text": "steppe",
+   "start": 79.62,
+   "end": 79.98
+  },
+  {
+   "text": "was",
+   "start": 79.98,
+   "end": 80.16
+  },
+  {
+   "text": "united.",
+   "start": 80.16,
+   "end": 80.8
+  },
+  {
+   "text": "Genghis",
+   "start": 80.8,
+   "end": 82.05
+  },
+  {
+   "text": "rebuilt",
+   "start": 82.05,
+   "end": 82.11
+  },
+  {
+   "text": "Mongol",
+   "start": 82.11,
+   "end": 82.63
+  },
+  {
+   "text": "society",
+   "start": 82.63,
+   "end": 83.28
+  },
+  {
+   "text": "around",
+   "start": 83.28,
+   "end": 83.83
+  },
+  {
+   "text": "the",
+   "start": 83.83,
+   "end": 84.1
+  },
+  {
+   "text": "army.",
+   "start": 84.1,
+   "end": 84.8
+  },
+  {
+   "text": "Men",
+   "start": 85.11,
+   "end": 85.22
+  },
+  {
+   "text": "were",
+   "start": 85.22,
+   "end": 85.51
+  },
+  {
+   "text": "organized",
+   "start": 85.51,
+   "end": 86.17
+  },
+  {
+   "text": "in",
+   "start": 86.17,
+   "end": 86.31
+  },
+  {
+   "text": "units",
+   "start": 86.31,
+   "end": 86.67
+  },
+  {
+   "text": "of",
+   "start": 86.67,
+   "end": 86.81
+  },
+  {
+   "text": "ten,",
+   "start": 86.81,
+   "end": 87.24
+  },
+  {
+   "text": "a",
+   "start": 87.24,
+   "end": 87.3
+  },
+  {
+   "text": "hundred,",
+   "start": 87.3,
+   "end": 87.96
+  },
+  {
+   "text": "a",
+   "start": 87.96,
+   "end": 88.15
+  },
+  {
+   "text": "thousand,",
+   "start": 88.15,
+   "end": 88.67
+  },
+  {
+   "text": "and",
+   "start": 88.67,
+   "end": 89.11
+  },
+  {
+   "text": "ten",
+   "start": 89.11,
+   "end": 89.14
+  },
+  {
+   "text": "thousand.",
+   "start": 89.14,
+   "end": 90
+  },
+  {
+   "text": "Old",
+   "start": 90,
+   "end": 90.63
+  },
+  {
+   "text": "tribal",
+   "start": 90.63,
+   "end": 90.66
+  },
+  {
+   "text": "loyalties",
+   "start": 90.66,
+   "end": 91.26
+  },
+  {
+   "text": "were",
+   "start": 91.26,
+   "end": 91.53
+  },
+  {
+   "text": "broken",
+   "start": 91.53,
+   "end": 91.96
+  },
+  {
+   "text": "up",
+   "start": 91.96,
+   "end": 92.1
+  },
+  {
+   "text": "on",
+   "start": 92.1,
+   "end": 92.24
+  },
+  {
+   "text": "purpose.",
+   "start": 92.24,
+   "end": 93
+  },
+  {
+   "text": "Commanders",
+   "start": 93,
+   "end": 93.63
+  },
+  {
+   "text": "were",
+   "start": 93.63,
+   "end": 93.88
+  },
+  {
+   "text": "promoted",
+   "start": 93.88,
+   "end": 94.39
+  },
+  {
+   "text": "for",
+   "start": 94.39,
+   "end": 94.65
+  },
+  {
+   "text": "loyalty",
+   "start": 94.65,
+   "end": 95.02
+  },
+  {
+   "text": "and",
+   "start": 95.02,
+   "end": 95.21
+  },
+  {
+   "text": "skill,",
+   "start": 95.21,
+   "end": 95.7
+  },
+  {
+   "text": "not",
+   "start": 95.7,
+   "end": 95.9
+  },
+  {
+   "text": "for",
+   "start": 95.9,
+   "end": 96.1
+  },
+  {
+   "text": "noble",
+   "start": 96.1,
+   "end": 96.44
+  },
+  {
+   "text": "birth.",
+   "start": 96.44,
+   "end": 97
+  },
+  {
+   "text": "He",
+   "start": 97,
+   "end": 97.51
+  },
+  {
+   "text": "introduced",
+   "start": 97.51,
+   "end": 97.88
+  },
+  {
+   "text": "a",
+   "start": 97.88,
+   "end": 98.02
+  },
+  {
+   "text": "code",
+   "start": 98.02,
+   "end": 98.24
+  },
+  {
+   "text": "of",
+   "start": 98.24,
+   "end": 98.38
+  },
+  {
+   "text": "law",
+   "start": 98.38,
+   "end": 98.6
+  },
+  {
+   "text": "called",
+   "start": 98.6,
+   "end": 99.06
+  },
+  {
+   "text": "the",
+   "start": 99.06,
+   "end": 99.26
+  },
+  {
+   "text": "Yasa,",
+   "start": 99.26,
+   "end": 99.6
+  },
+  {
+   "text": "and",
+   "start": 99.6,
+   "end": 99.85
+  },
+  {
+   "text": "a",
+   "start": 99.85,
+   "end": 100.02
+  },
+  {
+   "text": "network",
+   "start": 100.02,
+   "end": 100.35
+  },
+  {
+   "text": "of",
+   "start": 100.35,
+   "end": 100.44
+  },
+  {
+   "text": "relay",
+   "start": 100.44,
+   "end": 100.77
+  },
+  {
+   "text": "stations",
+   "start": 100.77,
+   "end": 101.28
+  },
+  {
+   "text": "where",
+   "start": 101.28,
+   "end": 101.63
+  },
+  {
+   "text": "riders",
+   "start": 101.63,
+   "end": 102.01
+  },
+  {
+   "text": "swapped",
+   "start": 102.01,
+   "end": 102.52
+  },
+  {
+   "text": "horses",
+   "start": 102.52,
+   "end": 102.9
+  },
+  {
+   "text": "so",
+   "start": 102.9,
+   "end": 103.13
+  },
+  {
+   "text": "messages",
+   "start": 103.13,
+   "end": 103.6
+  },
+  {
+   "text": "could",
+   "start": 103.6,
+   "end": 103.89
+  },
+  {
+   "text": "cross",
+   "start": 103.89,
+   "end": 104.19
+  },
+  {
+   "text": "the",
+   "start": 104.19,
+   "end": 104.35
+  },
+  {
+   "text": "empire",
+   "start": 104.35,
+   "end": 104.7
+  },
+  {
+   "text": "at",
+   "start": 104.7,
+   "end": 104.81
+  },
+  {
+   "text": "incredible",
+   "start": 104.81,
+   "end": 105.42
+  },
+  {
+   "text": "speed.",
+   "start": 105.42,
+   "end": 105.9
+  },
+  {
+   "text": "Every",
+   "start": 105.9,
+   "end": 106.43
+  },
+  {
+   "text": "Mongol",
+   "start": 106.43,
+   "end": 106.59
+  },
+  {
+   "text": "warrior",
+   "start": 106.59,
+   "end": 107.03
+  },
+  {
+   "text": "was",
+   "start": 107.03,
+   "end": 107.22
+  },
+  {
+   "text": "a",
+   "start": 107.22,
+   "end": 107.28
+  },
+  {
+   "text": "horse",
+   "start": 107.28,
+   "end": 107.59
+  },
+  {
+   "text": "archer,",
+   "start": 107.59,
+   "end": 108.08
+  },
+  {
+   "text": "trained",
+   "start": 108.08,
+   "end": 108.65
+  },
+  {
+   "text": "from",
+   "start": 108.65,
+   "end": 108.77
+  },
+  {
+   "text": "childhood.",
+   "start": 108.77,
+   "end": 109.6
+  },
+  {
+   "text": "Each",
+   "start": 109.6,
+   "end": 110.05
+  },
+  {
+   "text": "rider",
+   "start": 110.05,
+   "end": 110.26
+  },
+  {
+   "text": "brought",
+   "start": 110.26,
+   "end": 110.72
+  },
+  {
+   "text": "several",
+   "start": 110.72,
+   "end": 111.21
+  },
+  {
+   "text": "spare",
+   "start": 111.21,
+   "end": 111.56
+  },
+  {
+   "text": "horses",
+   "start": 111.56,
+   "end": 111.98
+  },
+  {
+   "text": "so",
+   "start": 111.98,
+   "end": 112.16
+  },
+  {
+   "text": "an",
+   "start": 112.16,
+   "end": 112.22
+  },
+  {
+   "text": "army",
+   "start": 112.22,
+   "end": 112.45
+  },
+  {
+   "text": "could",
+   "start": 112.45,
+   "end": 112.74
+  },
+  {
+   "text": "cover",
+   "start": 112.74,
+   "end": 113.03
+  },
+  {
+   "text": "huge",
+   "start": 113.03,
+   "end": 113.26
+  },
+  {
+   "text": "distances",
+   "start": 113.26,
+   "end": 113.78
+  },
+  {
+   "text": "without",
+   "start": 113.78,
+   "end": 114.2
+  },
+  {
+   "text": "stopping.",
+   "start": 114.2,
+   "end": 114.9
+  },
+  {
+   "text": "First,",
+   "start": 115.9,
+   "end": 115.56
+  },
+  {
+   "text": "he",
+   "start": 115.56,
+   "end": 116.22
+  },
+  {
+   "text": "turned",
+   "start": 116.22,
+   "end": 116.32
+  },
+  {
+   "text": "south.",
+   "start": 116.32,
+   "end": 117.1
+  },
+  {
+   "text": "The",
+   "start": 117.1,
+   "end": 117.28
+  },
+  {
+   "text": "Tangut",
+   "start": 117.28,
+   "end": 117.77
+  },
+  {
+   "text": "kingdom",
+   "start": 117.77,
+   "end": 118.13
+  },
+  {
+   "text": "of",
+   "start": 118.13,
+   "end": 118.31
+  },
+  {
+   "text": "western",
+   "start": 118.31,
+   "end": 118.7
+  },
+  {
+   "text": "Shia",
+   "start": 118.7,
+   "end": 118.98
+  },
+  {
+   "text": "submitted",
+   "start": 118.98,
+   "end": 119.55
+  },
+  {
+   "text": "in",
+   "start": 119.55,
+   "end": 119.68
+  },
+  {
+   "text": "1209.",
+   "start": 119.68,
+   "end": 120.7
+  },
+  {
+   "text": "Then",
+   "start": 120.7,
+   "end": 120.94
+  },
+  {
+   "text": "he",
+   "start": 120.94,
+   "end": 121.33
+  },
+  {
+   "text": "invaded",
+   "start": 121.33,
+   "end": 121.51
+  },
+  {
+   "text": "the",
+   "start": 121.51,
+   "end": 121.7
+  },
+  {
+   "text": "Jin",
+   "start": 121.7,
+   "end": 121.89
+  },
+  {
+   "text": "dynasty",
+   "start": 121.89,
+   "end": 122.33
+  },
+  {
+   "text": "of",
+   "start": 122.33,
+   "end": 122.45
+  },
+  {
+   "text": "northern",
+   "start": 122.45,
+   "end": 122.95
+  },
+  {
+   "text": "China.",
+   "start": 122.95,
+   "end": 123.5
+  },
+  {
+   "text": "The",
+   "start": 123.5,
+   "end": 123.94
+  },
+  {
+   "text": "Mongols",
+   "start": 123.94,
+   "end": 124.13
+  },
+  {
+   "text": "had",
+   "start": 124.13,
+   "end": 124.32
+  },
+  {
+   "text": "no",
+   "start": 124.32,
+   "end": 124.44
+  },
+  {
+   "text": "experience",
+   "start": 124.44,
+   "end": 125.11
+  },
+  {
+   "text": "with",
+   "start": 125.11,
+   "end": 125.32
+  },
+  {
+   "text": "walled",
+   "start": 125.32,
+   "end": 125.69
+  },
+  {
+   "text": "cities.",
+   "start": 125.69,
+   "end": 126.3
+  },
+  {
+   "text": "So",
+   "start": 126.3,
+   "end": 126.42
+  },
+  {
+   "text": "they",
+   "start": 126.42,
+   "end": 127.01
+  },
+  {
+   "text": "learned,",
+   "start": 127.01,
+   "end": 127.2
+  },
+  {
+   "text": "using",
+   "start": 127.2,
+   "end": 127.5
+  },
+  {
+   "text": "captured",
+   "start": 127.5,
+   "end": 128.03
+  },
+  {
+   "text": "Chinese",
+   "start": 128.03,
+   "end": 128.46
+  },
+  {
+   "text": "engineers",
+   "start": 128.46,
+   "end": 128.94
+  },
+  {
+   "text": "to",
+   "start": 128.94,
+   "end": 129.06
+  },
+  {
+   "text": "build",
+   "start": 129.06,
+   "end": 129.38
+  },
+  {
+   "text": "siege",
+   "start": 129.38,
+   "end": 129.66
+  },
+  {
+   "text": "weapons.",
+   "start": 129.66,
+   "end": 130.3
+  },
+  {
+   "text": "In",
+   "start": 130.3,
+   "end": 130.44
+  },
+  {
+   "text": "1215,",
+   "start": 130.44,
+   "end": 131.45
+  },
+  {
+   "text": "they",
+   "start": 131.45,
+   "end": 131.72
+  },
+  {
+   "text": "captured",
+   "start": 131.72,
+   "end": 132.29
+  },
+  {
+   "text": "the",
+   "start": 132.29,
+   "end": 132.5
+  },
+  {
+   "text": "Jin",
+   "start": 132.5,
+   "end": 132.71
+  },
+  {
+   "text": "capital,",
+   "start": 132.71,
+   "end": 133.34
+  },
+  {
+   "text": "Zhongdu,",
+   "start": 133.34,
+   "end": 133.98
+  },
+  {
+   "text": "near",
+   "start": 133.98,
+   "end": 134.25
+  },
+  {
+   "text": "modern",
+   "start": 134.25,
+   "end": 134.69
+  },
+  {
+   "text": "Beijing.",
+   "start": 134.69,
+   "end": 135.5
+  },
+  {
+   "text": "In",
+   "start": 135.5,
+   "end": 135.63
+  },
+  {
+   "text": "the",
+   "start": 135.63,
+   "end": 136.02
+  },
+  {
+   "text": "west",
+   "start": 136.02,
+   "end": 136.14
+  },
+  {
+   "text": "lay",
+   "start": 136.14,
+   "end": 136.35
+  },
+  {
+   "text": "the",
+   "start": 136.35,
+   "end": 136.64
+  },
+  {
+   "text": "Khwarazmian",
+   "start": 136.64,
+   "end": 137.33
+  },
+  {
+   "text": "Empire,",
+   "start": 137.33,
+   "end": 137.9
+  },
+  {
+   "text": "a",
+   "start": 137.9,
+   "end": 137.97
+  },
+  {
+   "text": "rich",
+   "start": 137.97,
+   "end": 138.42
+  },
+  {
+   "text": "Muslim",
+   "start": 138.42,
+   "end": 138.69
+  },
+  {
+   "text": "state",
+   "start": 138.69,
+   "end": 139.05
+  },
+  {
+   "text": "in",
+   "start": 139.05,
+   "end": 139.19
+  },
+  {
+   "text": "Central",
+   "start": 139.19,
+   "end": 139.71
+  },
+  {
+   "text": "Asia.",
+   "start": 139.71,
+   "end": 140.3
+  },
+  {
+   "text": "Genghis",
+   "start": 140.3,
+   "end": 140.88
+  },
+  {
+   "text": "sent",
+   "start": 140.88,
+   "end": 140.97
+  },
+  {
+   "text": "a",
+   "start": 140.97,
+   "end": 141.03
+  },
+  {
+   "text": "trade",
+   "start": 141.03,
+   "end": 141.36
+  },
+  {
+   "text": "caravan",
+   "start": 141.36,
+   "end": 141.8
+  },
+  {
+   "text": "there.",
+   "start": 141.8,
+   "end": 142.3
+  },
+  {
+   "text": "But",
+   "start": 142.76,
+   "end": 142.84
+  },
+  {
+   "text": "the",
+   "start": 142.84,
+   "end": 142.98
+  },
+  {
+   "text": "governor",
+   "start": 142.98,
+   "end": 143.36
+  },
+  {
+   "text": "of",
+   "start": 143.36,
+   "end": 143.47
+  },
+  {
+   "text": "Otrar",
+   "start": 143.47,
+   "end": 143.76
+  },
+  {
+   "text": "had",
+   "start": 143.76,
+   "end": 143.9
+  },
+  {
+   "text": "the",
+   "start": 143.9,
+   "end": 144.06
+  },
+  {
+   "text": "merchants",
+   "start": 144.06,
+   "end": 144.58
+  },
+  {
+   "text": "killed.",
+   "start": 144.58,
+   "end": 145.1
+  },
+  {
+   "text": "Genghis",
+   "start": 145.1,
+   "end": 145.9
+  },
+  {
+   "text": "sent",
+   "start": 145.9,
+   "end": 146.03
+  },
+  {
+   "text": "envoys",
+   "start": 146.03,
+   "end": 146.53
+  },
+  {
+   "text": "to",
+   "start": 146.53,
+   "end": 146.7
+  },
+  {
+   "text": "demand",
+   "start": 146.7,
+   "end": 147.21
+  },
+  {
+   "text": "justice.",
+   "start": 147.21,
+   "end": 148.1
+  },
+  {
+   "text": "The",
+   "start": 148.1,
+   "end": 148.54
+  },
+  {
+   "text": "Shah",
+   "start": 148.54,
+   "end": 148.64
+  },
+  {
+   "text": "had",
+   "start": 148.64,
+   "end": 148.73
+  },
+  {
+   "text": "one",
+   "start": 148.73,
+   "end": 148.92
+  },
+  {
+   "text": "of",
+   "start": 148.92,
+   "end": 149.04
+  },
+  {
+   "text": "them",
+   "start": 149.04,
+   "end": 149.29
+  },
+  {
+   "text": "executed",
+   "start": 149.29,
+   "end": 149.79
+  },
+  {
+   "text": "and",
+   "start": 149.79,
+   "end": 149.98
+  },
+  {
+   "text": "sent",
+   "start": 149.98,
+   "end": 150.23
+  },
+  {
+   "text": "the",
+   "start": 150.23,
+   "end": 150.42
+  },
+  {
+   "text": "others",
+   "start": 150.42,
+   "end": 150.79
+  },
+  {
+   "text": "back",
+   "start": 150.79,
+   "end": 151.04
+  },
+  {
+   "text": "humiliated.",
+   "start": 151.04,
+   "end": 151.9
+  },
+  {
+   "text": "It",
+   "start": 151.9,
+   "end": 152.03
+  },
+  {
+   "text": "was",
+   "start": 152.03,
+   "end": 152.34
+  },
+  {
+   "text": "a",
+   "start": 152.34,
+   "end": 152.42
+  },
+  {
+   "text": "fatal",
+   "start": 152.42,
+   "end": 152.78
+  },
+  {
+   "text": "mistake.",
+   "start": 152.78,
+   "end": 153.5
+  },
+  {
+   "text": "In",
+   "start": 153.5,
+   "end": 153.96
+  },
+  {
+   "text": "1219,",
+   "start": 153.96,
+   "end": 154.69
+  },
+  {
+   "text": "the",
+   "start": 154.69,
+   "end": 154.85
+  },
+  {
+   "text": "Mongols",
+   "start": 154.85,
+   "end": 155.34
+  },
+  {
+   "text": "invaded.",
+   "start": 155.34,
+   "end": 156.1
+  },
+  {
+   "text": "Within",
+   "start": 156.1,
+   "end": 156.56
+  },
+  {
+   "text": "three",
+   "start": 156.56,
+   "end": 156.94
+  },
+  {
+   "text": "years,",
+   "start": 156.94,
+   "end": 157.49
+  },
+  {
+   "text": "Otrar,",
+   "start": 157.49,
+   "end": 158.09
+  },
+  {
+   "text": "Bukhara,",
+   "start": 158.09,
+   "end": 158.86
+  },
+  {
+   "text": "Samarkand,",
+   "start": 158.86,
+   "end": 159.81
+  },
+  {
+   "text": "and",
+   "start": 159.81,
+   "end": 160.15
+  },
+  {
+   "text": "Merv",
+   "start": 160.15,
+   "end": 160.41
+  },
+  {
+   "text": "had",
+   "start": 160.41,
+   "end": 160.66
+  },
+  {
+   "text": "all",
+   "start": 160.66,
+   "end": 161.08
+  },
+  {
+   "text": "fallen.",
+   "start": 161.08,
+   "end": 161.8
+  },
+  {
+   "text": "Cities",
+   "start": 161.8,
+   "end": 162.27
+  },
+  {
+   "text": "that",
+   "start": 162.27,
+   "end": 162.33
+  },
+  {
+   "text": "resisted",
+   "start": 162.33,
+   "end": 162.76
+  },
+  {
+   "text": "were",
+   "start": 162.76,
+   "end": 163.04
+  },
+  {
+   "text": "destroyed",
+   "start": 163.04,
+   "end": 163.45
+  },
+  {
+   "text": "and",
+   "start": 163.45,
+   "end": 163.61
+  },
+  {
+   "text": "their",
+   "start": 163.61,
+   "end": 163.88
+  },
+  {
+   "text": "people",
+   "start": 163.88,
+   "end": 164.2
+  },
+  {
+   "text": "massacred.",
+   "start": 164.2,
+   "end": 164.9
+  },
+  {
+   "text": "Cities",
+   "start": 164.9,
+   "end": 165.45
+  },
+  {
+   "text": "that",
+   "start": 165.45,
+   "end": 165.5
+  },
+  {
+   "text": "surrendered",
+   "start": 165.5,
+   "end": 166.17
+  },
+  {
+   "text": "were",
+   "start": 166.17,
+   "end": 166.4
+  },
+  {
+   "text": "usually",
+   "start": 166.4,
+   "end": 166.83
+  },
+  {
+   "text": "spared.",
+   "start": 166.83,
+   "end": 167.4
+  },
+  {
+   "text": "Word",
+   "start": 167.4,
+   "end": 167.91
+  },
+  {
+   "text": "spread",
+   "start": 167.91,
+   "end": 168.28
+  },
+  {
+   "text": "fast.",
+   "start": 168.28,
+   "end": 168.9
+  },
+  {
+   "text": "Meanwhile,",
+   "start": 169.43,
+   "end": 169.92
+  },
+  {
+   "text": "two",
+   "start": 169.92,
+   "end": 170.11
+  },
+  {
+   "text": "generals,",
+   "start": 170.11,
+   "end": 170.77
+  },
+  {
+   "text": "Jeba",
+   "start": 170.77,
+   "end": 171.01
+  },
+  {
+   "text": "and",
+   "start": 171.01,
+   "end": 171.28
+  },
+  {
+   "text": "Subutai,",
+   "start": 171.28,
+   "end": 171.78
+  },
+  {
+   "text": "rode",
+   "start": 171.78,
+   "end": 172.12
+  },
+  {
+   "text": "all",
+   "start": 172.12,
+   "end": 172.23
+  },
+  {
+   "text": "the",
+   "start": 172.23,
+   "end": 172.46
+  },
+  {
+   "text": "way",
+   "start": 172.46,
+   "end": 172.61
+  },
+  {
+   "text": "around",
+   "start": 172.61,
+   "end": 173
+  },
+  {
+   "text": "the",
+   "start": 173,
+   "end": 173.19
+  },
+  {
+   "text": "Caspian",
+   "start": 173.19,
+   "end": 173.64
+  },
+  {
+   "text": "Sea,",
+   "start": 173.64,
+   "end": 174.1
+  },
+  {
+   "text": "defeating",
+   "start": 174.1,
+   "end": 174.72
+  },
+  {
+   "text": "Georgian",
+   "start": 174.72,
+   "end": 175.19
+  },
+  {
+   "text": "and",
+   "start": 175.19,
+   "end": 175.38
+  },
+  {
+   "text": "Rus",
+   "start": 175.38,
+   "end": 175.57
+  },
+  {
+   "text": "armies",
+   "start": 175.57,
+   "end": 175.95
+  },
+  {
+   "text": "on",
+   "start": 175.95,
+   "end": 176.08
+  },
+  {
+   "text": "the",
+   "start": 176.08,
+   "end": 176.27
+  },
+  {
+   "text": "way.",
+   "start": 176.27,
+   "end": 176.7
+  },
+  {
+   "text": "In",
+   "start": 176.7,
+   "end": 177.23
+  },
+  {
+   "text": "1227,",
+   "start": 177.23,
+   "end": 177.79
+  },
+  {
+   "text": "Genghis",
+   "start": 177.79,
+   "end": 178.25
+  },
+  {
+   "text": "Khan",
+   "start": 178.25,
+   "end": 178.52
+  },
+  {
+   "text": "died",
+   "start": 178.52,
+   "end": 178.79
+  },
+  {
+   "text": "during",
+   "start": 178.79,
+   "end": 179.2
+  },
+  {
+   "text": "a",
+   "start": 179.2,
+   "end": 179.27
+  },
+  {
+   "text": "campaign",
+   "start": 179.27,
+   "end": 179.85
+  },
+  {
+   "text": "in",
+   "start": 179.85,
+   "end": 179.96
+  },
+  {
+   "text": "western",
+   "start": 179.96,
+   "end": 180.44
+  },
+  {
+   "text": "China.",
+   "start": 180.44,
+   "end": 181.1
+  },
+  {
+   "text": "To",
+   "start": 181.1,
+   "end": 181.55
+  },
+  {
+   "text": "this",
+   "start": 181.55,
+   "end": 181.58
+  },
+  {
+   "text": "day,",
+   "start": 181.58,
+   "end": 181.91
+  },
+  {
+   "text": "nobody",
+   "start": 181.91,
+   "end": 182.63
+  },
+  {
+   "text": "knows",
+   "start": 182.63,
+   "end": 182.72
+  },
+  {
+   "text": "where",
+   "start": 182.72,
+   "end": 183.09
+  },
+  {
+   "text": "he",
+   "start": 183.09,
+   "end": 183.24
+  },
+  {
+   "text": "is",
+   "start": 183.24,
+   "end": 183.39
+  },
+  {
+   "text": "buried.",
+   "start": 183.39,
+   "end": 184.1
+  },
+  {
+   "text": "His",
+   "start": 184.1,
+   "end": 184.86
+  },
+  {
+   "text": "son",
+   "start": 184.86,
+   "end": 184.86
+  },
+  {
+   "text": "Ogedei",
+   "start": 184.86,
+   "end": 185.78
+  },
+  {
+   "text": "became",
+   "start": 185.78,
+   "end": 186.35
+  },
+  {
+   "text": "the",
+   "start": 186.35,
+   "end": 186.72
+  },
+  {
+   "text": "Great",
+   "start": 186.72,
+   "end": 187.36
+  },
+  {
+   "text": "Khan",
+   "start": 187.36,
+   "end": 187.9
+  },
+  {
+   "text": "and",
+   "start": 187.9,
+   "end": 188.14
+  },
+  {
+   "text": "built",
+   "start": 188.14,
+   "end": 188.4
+  },
+  {
+   "text": "a",
+   "start": 188.4,
+   "end": 188.5
+  },
+  {
+   "text": "capital",
+   "start": 188.5,
+   "end": 188.9
+  },
+  {
+   "text": "at",
+   "start": 188.9,
+   "end": 189.02
+  },
+  {
+   "text": "Karakoram.",
+   "start": 189.02,
+   "end": 189.8
+  },
+  {
+   "text": "In",
+   "start": 189.8,
+   "end": 190.38
+  },
+  {
+   "text": "1234,",
+   "start": 190.38,
+   "end": 190.96
+  },
+  {
+   "text": "the",
+   "start": 190.96,
+   "end": 191.18
+  },
+  {
+   "text": "Jin",
+   "start": 191.18,
+   "end": 191.4
+  },
+  {
+   "text": "dynasty",
+   "start": 191.4,
+   "end": 191.92
+  },
+  {
+   "text": "was",
+   "start": 191.92,
+   "end": 192.14
+  },
+  {
+   "text": "finally",
+   "start": 192.14,
+   "end": 192.66
+  },
+  {
+   "text": "destroyed.",
+   "start": 192.66,
+   "end": 193.6
+  },
+  {
+   "text": "Then",
+   "start": 193.6,
+   "end": 193.8
+  },
+  {
+   "text": "the",
+   "start": 193.8,
+   "end": 194.42
+  },
+  {
+   "text": "Mongols",
+   "start": 194.42,
+   "end": 194.72
+  },
+  {
+   "text": "looked",
+   "start": 194.72,
+   "end": 195.19
+  },
+  {
+   "text": "west.",
+   "start": 195.19,
+   "end": 195.8
+  },
+  {
+   "text": "Between",
+   "start": 196.31,
+   "end": 196.48
+  },
+  {
+   "text": "1237",
+   "start": 196.48,
+   "end": 197.14
+  },
+  {
+   "text": "and",
+   "start": 197.14,
+   "end": 197.3
+  },
+  {
+   "text": "1241,",
+   "start": 197.3,
+   "end": 198.07
+  },
+  {
+   "text": "they",
+   "start": 198.07,
+   "end": 198.29
+  },
+  {
+   "text": "swept",
+   "start": 198.29,
+   "end": 198.66
+  },
+  {
+   "text": "through",
+   "start": 198.66,
+   "end": 198.94
+  },
+  {
+   "text": "the",
+   "start": 198.94,
+   "end": 199.1
+  },
+  {
+   "text": "Russian",
+   "start": 199.1,
+   "end": 199.48
+  },
+  {
+   "text": "principalities,",
+   "start": 199.48,
+   "end": 200.4
+  },
+  {
+   "text": "burned",
+   "start": 200.4,
+   "end": 200.76
+  },
+  {
+   "text": "Kiev,",
+   "start": 200.76,
+   "end": 201.12
+  },
+  {
+   "text": "and",
+   "start": 201.12,
+   "end": 201.3
+  },
+  {
+   "text": "crushed",
+   "start": 201.3,
+   "end": 201.72
+  },
+  {
+   "text": "armies",
+   "start": 201.72,
+   "end": 202.08
+  },
+  {
+   "text": "in",
+   "start": 202.08,
+   "end": 202.2
+  },
+  {
+   "text": "Poland",
+   "start": 202.2,
+   "end": 202.56
+  },
+  {
+   "text": "and",
+   "start": 202.56,
+   "end": 202.73
+  },
+  {
+   "text": "Hungary.",
+   "start": 202.73,
+   "end": 203.4
+  },
+  {
+   "text": "European",
+   "start": 203.4,
+   "end": 204.15
+  },
+  {
+   "text": "knights",
+   "start": 204.15,
+   "end": 204.51
+  },
+  {
+   "text": "had",
+   "start": 204.51,
+   "end": 204.73
+  },
+  {
+   "text": "never",
+   "start": 204.73,
+   "end": 205.1
+  },
+  {
+   "text": "faced",
+   "start": 205.1,
+   "end": 205.47
+  },
+  {
+   "text": "anything",
+   "start": 205.47,
+   "end": 206.06
+  },
+  {
+   "text": "like",
+   "start": 206.06,
+   "end": 206.35
+  },
+  {
+   "text": "this.",
+   "start": 206.35,
+   "end": 206.9
+  },
+  {
+   "text": "Mongol",
+   "start": 206.9,
+   "end": 207.39
+  },
+  {
+   "text": "riders",
+   "start": 207.39,
+   "end": 207.68
+  },
+  {
+   "text": "would",
+   "start": 207.68,
+   "end": 208
+  },
+  {
+   "text": "pretend",
+   "start": 208,
+   "end": 208.45
+  },
+  {
+   "text": "to",
+   "start": 208.45,
+   "end": 208.58
+  },
+  {
+   "text": "retreat,",
+   "start": 208.58,
+   "end": 209.51
+  },
+  {
+   "text": "then",
+   "start": 209.51,
+   "end": 209.6
+  },
+  {
+   "text": "turn",
+   "start": 209.6,
+   "end": 209.82
+  },
+  {
+   "text": "around",
+   "start": 209.82,
+   "end": 210.3
+  },
+  {
+   "text": "and",
+   "start": 210.3,
+   "end": 210.5
+  },
+  {
+   "text": "surround",
+   "start": 210.5,
+   "end": 210.9
+  },
+  {
+   "text": "their",
+   "start": 210.9,
+   "end": 211.17
+  },
+  {
+   "text": "pursuers.",
+   "start": 211.17,
+   "end": 211.8
+  },
+  {
+   "text": "Europe",
+   "start": 211.8,
+   "end": 212.39
+  },
+  {
+   "text": "seemed",
+   "start": 212.39,
+   "end": 212.8
+  },
+  {
+   "text": "open,",
+   "start": 212.8,
+   "end": 213.28
+  },
+  {
+   "text": "but",
+   "start": 213.28,
+   "end": 213.68
+  },
+  {
+   "text": "in",
+   "start": 213.68,
+   "end": 213.77
+  },
+  {
+   "text": "late",
+   "start": 213.77,
+   "end": 213.99
+  },
+  {
+   "text": "1241,",
+   "start": 213.99,
+   "end": 215.1
+  },
+  {
+   "text": "news",
+   "start": 215.1,
+   "end": 215.41
+  },
+  {
+   "text": "came",
+   "start": 215.41,
+   "end": 215.71
+  },
+  {
+   "text": "that",
+   "start": 215.71,
+   "end": 216.03
+  },
+  {
+   "text": "Ogedei",
+   "start": 216.03,
+   "end": 216.47
+  },
+  {
+   "text": "had",
+   "start": 216.47,
+   "end": 216.71
+  },
+  {
+   "text": "died.",
+   "start": 216.71,
+   "end": 217.3
+  },
+  {
+   "text": "The",
+   "start": 217.3,
+   "end": 218.1
+  },
+  {
+   "text": "Mongol",
+   "start": 218.1,
+   "end": 218.19
+  },
+  {
+   "text": "leaders",
+   "start": 218.19,
+   "end": 218.87
+  },
+  {
+   "text": "turned",
+   "start": 218.87,
+   "end": 219.47
+  },
+  {
+   "text": "back",
+   "start": 219.47,
+   "end": 219.86
+  },
+  {
+   "text": "east,",
+   "start": 219.86,
+   "end": 220.63
+  },
+  {
+   "text": "and",
+   "start": 220.63,
+   "end": 220.82
+  },
+  {
+   "text": "they",
+   "start": 220.82,
+   "end": 220.9
+  },
+  {
+   "text": "never",
+   "start": 220.9,
+   "end": 221.24
+  },
+  {
+   "text": "returned",
+   "start": 221.24,
+   "end": 221.78
+  },
+  {
+   "text": "in",
+   "start": 221.78,
+   "end": 221.92
+  },
+  {
+   "text": "full",
+   "start": 221.92,
+   "end": 222.19
+  },
+  {
+   "text": "force.",
+   "start": 222.19,
+   "end": 222.8
+  },
+  {
+   "text": "In",
+   "start": 223.91,
+   "end": 223.96
+  },
+  {
+   "text": "the",
+   "start": 223.96,
+   "end": 224.08
+  },
+  {
+   "text": "Middle",
+   "start": 224.08,
+   "end": 224.43
+  },
+  {
+   "text": "East,",
+   "start": 224.43,
+   "end": 224.77
+  },
+  {
+   "text": "Genghis",
+   "start": 224.77,
+   "end": 225.18
+  },
+  {
+   "text": "Khan's",
+   "start": 225.18,
+   "end": 225.52
+  },
+  {
+   "text": "grandson,",
+   "start": 225.52,
+   "end": 226.07
+  },
+  {
+   "text": "Hulagu,",
+   "start": 226.07,
+   "end": 226.6
+  },
+  {
+   "text": "attacked",
+   "start": 226.6,
+   "end": 227.12
+  },
+  {
+   "text": "Baghdad",
+   "start": 227.12,
+   "end": 227.57
+  },
+  {
+   "text": "in",
+   "start": 227.57,
+   "end": 227.7
+  },
+  {
+   "text": "1258.",
+   "start": 227.7,
+   "end": 228.7
+  },
+  {
+   "text": "One",
+   "start": 228.7,
+   "end": 229.01
+  },
+  {
+   "text": "of",
+   "start": 229.01,
+   "end": 229.07
+  },
+  {
+   "text": "the",
+   "start": 229.07,
+   "end": 229.2
+  },
+  {
+   "text": "greatest",
+   "start": 229.2,
+   "end": 229.7
+  },
+  {
+   "text": "cities",
+   "start": 229.7,
+   "end": 230.07
+  },
+  {
+   "text": "in",
+   "start": 230.07,
+   "end": 230.2
+  },
+  {
+   "text": "the",
+   "start": 230.2,
+   "end": 230.39
+  },
+  {
+   "text": "world",
+   "start": 230.39,
+   "end": 230.7
+  },
+  {
+   "text": "was",
+   "start": 230.7,
+   "end": 230.88
+  },
+  {
+   "text": "sacked,",
+   "start": 230.88,
+   "end": 231.44
+  },
+  {
+   "text": "and",
+   "start": 231.44,
+   "end": 231.58
+  },
+  {
+   "text": "the",
+   "start": 231.58,
+   "end": 231.75
+  },
+  {
+   "text": "last",
+   "start": 231.75,
+   "end": 231.97
+  },
+  {
+   "text": "Abbasid",
+   "start": 231.97,
+   "end": 232.39
+  },
+  {
+   "text": "caliph",
+   "start": 232.39,
+   "end": 232.76
+  },
+  {
+   "text": "was",
+   "start": 232.76,
+   "end": 232.86
+  },
+  {
+   "text": "killed.",
+   "start": 232.86,
+   "end": 233.4
+  },
+  {
+   "text": "According",
+   "start": 233.4,
+   "end": 234.06
+  },
+  {
+   "text": "to",
+   "start": 234.06,
+   "end": 234.2
+  },
+  {
+   "text": "legend,",
+   "start": 234.2,
+   "end": 234.8
+  },
+  {
+   "text": "so",
+   "start": 234.8,
+   "end": 235.01
+  },
+  {
+   "text": "many",
+   "start": 235.01,
+   "end": 235.14
+  },
+  {
+   "text": "books",
+   "start": 235.14,
+   "end": 235.42
+  },
+  {
+   "text": "were",
+   "start": 235.42,
+   "end": 235.69
+  },
+  {
+   "text": "thrown",
+   "start": 235.69,
+   "end": 236.01
+  },
+  {
+   "text": "into",
+   "start": 236.01,
+   "end": 236.24
+  },
+  {
+   "text": "the",
+   "start": 236.24,
+   "end": 236.42
+  },
+  {
+   "text": "Tigris",
+   "start": 236.42,
+   "end": 236.79
+  },
+  {
+   "text": "that",
+   "start": 236.79,
+   "end": 237.1
+  },
+  {
+   "text": "the",
+   "start": 237.1,
+   "end": 237.26
+  },
+  {
+   "text": "river",
+   "start": 237.26,
+   "end": 237.59
+  },
+  {
+   "text": "ran",
+   "start": 237.59,
+   "end": 237.79
+  },
+  {
+   "text": "black",
+   "start": 237.79,
+   "end": 238.11
+  },
+  {
+   "text": "with",
+   "start": 238.11,
+   "end": 238.38
+  },
+  {
+   "text": "ink.",
+   "start": 238.38,
+   "end": 238.8
+  },
+  {
+   "text": "But",
+   "start": 238.8,
+   "end": 239.16
+  },
+  {
+   "text": "in",
+   "start": 239.16,
+   "end": 239.26
+  },
+  {
+   "text": "1260,",
+   "start": 239.26,
+   "end": 240.17
+  },
+  {
+   "text": "the",
+   "start": 240.17,
+   "end": 240.57
+  },
+  {
+   "text": "Egyptian",
+   "start": 240.57,
+   "end": 240.99
+  },
+  {
+   "text": "Mamluks",
+   "start": 240.99,
+   "end": 241.49
+  },
+  {
+   "text": "defeated",
+   "start": 241.49,
+   "end": 242.08
+  },
+  {
+   "text": "a",
+   "start": 242.08,
+   "end": 242.15
+  },
+  {
+   "text": "Mongol",
+   "start": 242.15,
+   "end": 242.59
+  },
+  {
+   "text": "army",
+   "start": 242.59,
+   "end": 242.88
+  },
+  {
+   "text": "at",
+   "start": 242.88,
+   "end": 243.02
+  },
+  {
+   "text": "Ain",
+   "start": 243.02,
+   "end": 243.24
+  },
+  {
+   "text": "Jalut.",
+   "start": 243.24,
+   "end": 243.9
+  },
+  {
+   "text": "For",
+   "start": 243.9,
+   "end": 244.28
+  },
+  {
+   "text": "the",
+   "start": 244.28,
+   "end": 244.29
+  },
+  {
+   "text": "first",
+   "start": 244.29,
+   "end": 244.6
+  },
+  {
+   "text": "time,",
+   "start": 244.6,
+   "end": 244.97
+  },
+  {
+   "text": "the",
+   "start": 244.97,
+   "end": 245.17
+  },
+  {
+   "text": "Mongol",
+   "start": 245.17,
+   "end": 245.54
+  },
+  {
+   "text": "advance",
+   "start": 245.54,
+   "end": 245.98
+  },
+  {
+   "text": "had",
+   "start": 245.98,
+   "end": 246.17
+  },
+  {
+   "text": "been",
+   "start": 246.17,
+   "end": 246.44
+  },
+  {
+   "text": "stopped.",
+   "start": 246.44,
+   "end": 247.1
+  },
+  {
+   "text": "By",
+   "start": 247.1,
+   "end": 247.61
+  },
+  {
+   "text": "then,",
+   "start": 247.61,
+   "end": 247.78
+  },
+  {
+   "text": "the",
+   "start": 247.78,
+   "end": 248.34
+  },
+  {
+   "text": "empire",
+   "start": 248.34,
+   "end": 248.56
+  },
+  {
+   "text": "was",
+   "start": 248.56,
+   "end": 248.82
+  },
+  {
+   "text": "too",
+   "start": 248.82,
+   "end": 249.08
+  },
+  {
+   "text": "big",
+   "start": 249.08,
+   "end": 249.28
+  },
+  {
+   "text": "to",
+   "start": 249.28,
+   "end": 249.51
+  },
+  {
+   "text": "rule",
+   "start": 249.51,
+   "end": 249.9
+  },
+  {
+   "text": "from",
+   "start": 249.9,
+   "end": 250.19
+  },
+  {
+   "text": "one",
+   "start": 250.19,
+   "end": 250.44
+  },
+  {
+   "text": "place.",
+   "start": 250.44,
+   "end": 251.2
+  },
+  {
+   "text": "After",
+   "start": 251.46,
+   "end": 251.68
+  },
+  {
+   "text": "a",
+   "start": 251.68,
+   "end": 251.73
+  },
+  {
+   "text": "civil",
+   "start": 251.73,
+   "end": 252.03
+  },
+  {
+   "text": "war",
+   "start": 252.03,
+   "end": 252.18
+  },
+  {
+   "text": "between",
+   "start": 252.18,
+   "end": 252.58
+  },
+  {
+   "text": "Genghis",
+   "start": 252.58,
+   "end": 252.97
+  },
+  {
+   "text": "Khan's",
+   "start": 252.97,
+   "end": 253.31
+  },
+  {
+   "text": "grandsons,",
+   "start": 253.31,
+   "end": 254.05
+  },
+  {
+   "text": "it",
+   "start": 254.05,
+   "end": 254.22
+  },
+  {
+   "text": "broke",
+   "start": 254.22,
+   "end": 254.48
+  },
+  {
+   "text": "into",
+   "start": 254.48,
+   "end": 254.76
+  },
+  {
+   "text": "four",
+   "start": 254.76,
+   "end": 255.04
+  },
+  {
+   "text": "parts",
+   "start": 255.04,
+   "end": 255.4
+  },
+  {
+   "text": "–",
+   "start": 255.4,
+   "end": 255.4
+  },
+  {
+   "text": "the",
+   "start": 255.4,
+   "end": 255.87
+  },
+  {
+   "text": "Golden",
+   "start": 255.87,
+   "end": 256.18
+  },
+  {
+   "text": "Horde,",
+   "start": 256.18,
+   "end": 256.94
+  },
+  {
+   "text": "the",
+   "start": 256.94,
+   "end": 256.99
+  },
+  {
+   "text": "Chagatai",
+   "start": 256.99,
+   "end": 257.49
+  },
+  {
+   "text": "Khanadi,",
+   "start": 257.49,
+   "end": 258.33
+  },
+  {
+   "text": "the",
+   "start": 258.33,
+   "end": 258.4
+  },
+  {
+   "text": "Ilkhanadi,",
+   "start": 258.4,
+   "end": 259.4
+  },
+  {
+   "text": "and",
+   "start": 259.4,
+   "end": 259.49
+  },
+  {
+   "text": "the",
+   "start": 259.49,
+   "end": 259.6
+  },
+  {
+   "text": "Yuan",
+   "start": 259.6,
+   "end": 259.86
+  },
+  {
+   "text": "dynasty",
+   "start": 259.86,
+   "end": 260.27
+  },
+  {
+   "text": "in",
+   "start": 260.27,
+   "end": 260.45
+  },
+  {
+   "text": "China.",
+   "start": 260.45,
+   "end": 261
+  },
+  {
+   "text": "The",
+   "start": 261,
+   "end": 261.49
+  },
+  {
+   "text": "Yuan",
+   "start": 261.49,
+   "end": 261.56
+  },
+  {
+   "text": "was",
+   "start": 261.56,
+   "end": 261.8
+  },
+  {
+   "text": "ruled",
+   "start": 261.8,
+   "end": 262.19
+  },
+  {
+   "text": "by",
+   "start": 262.19,
+   "end": 262.35
+  },
+  {
+   "text": "Kublai",
+   "start": 262.35,
+   "end": 262.81
+  },
+  {
+   "text": "Khan.",
+   "start": 262.81,
+   "end": 263.4
+  },
+  {
+   "text": "In",
+   "start": 263.4,
+   "end": 263.81
+  },
+  {
+   "text": "1279,",
+   "start": 263.81,
+   "end": 264.53
+  },
+  {
+   "text": "he",
+   "start": 264.53,
+   "end": 264.67
+  },
+  {
+   "text": "completed",
+   "start": 264.67,
+   "end": 265.35
+  },
+  {
+   "text": "the",
+   "start": 265.35,
+   "end": 265.52
+  },
+  {
+   "text": "conquest",
+   "start": 265.52,
+   "end": 266.09
+  },
+  {
+   "text": "of",
+   "start": 266.09,
+   "end": 266.23
+  },
+  {
+   "text": "southern",
+   "start": 266.23,
+   "end": 266.8
+  },
+  {
+   "text": "China,",
+   "start": 266.8,
+   "end": 267.2
+  },
+  {
+   "text": "and",
+   "start": 267.2,
+   "end": 267.55
+  },
+  {
+   "text": "for",
+   "start": 267.55,
+   "end": 267.62
+  },
+  {
+   "text": "the",
+   "start": 267.62,
+   "end": 267.83
+  },
+  {
+   "text": "first",
+   "start": 267.83,
+   "end": 268.18
+  },
+  {
+   "text": "time,",
+   "start": 268.18,
+   "end": 268.6
+  },
+  {
+   "text": "all",
+   "start": 268.6,
+   "end": 268.81
+  },
+  {
+   "text": "of",
+   "start": 268.81,
+   "end": 268.95
+  },
+  {
+   "text": "China",
+   "start": 268.95,
+   "end": 269.3
+  },
+  {
+   "text": "was",
+   "start": 269.3,
+   "end": 269.5
+  },
+  {
+   "text": "under",
+   "start": 269.5,
+   "end": 269.86
+  },
+  {
+   "text": "Mongol",
+   "start": 269.86,
+   "end": 270.28
+  },
+  {
+   "text": "rule.",
+   "start": 270.28,
+   "end": 270.8
+  },
+  {
+   "text": "He",
+   "start": 270.8,
+   "end": 271.37
+  },
+  {
+   "text": "also",
+   "start": 271.37,
+   "end": 271.76
+  },
+  {
+   "text": "tried",
+   "start": 271.76,
+   "end": 271.85
+  },
+  {
+   "text": "to",
+   "start": 271.85,
+   "end": 272.07
+  },
+  {
+   "text": "invade",
+   "start": 272.07,
+   "end": 272.62
+  },
+  {
+   "text": "Japan",
+   "start": 272.62,
+   "end": 273.1
+  },
+  {
+   "text": "–",
+   "start": 273.1,
+   "end": 273.42
+  },
+  {
+   "text": "twice.",
+   "start": 273.42,
+   "end": 274.2
+  },
+  {
+   "text": "Both",
+   "start": 274.2,
+   "end": 274.79
+  },
+  {
+   "text": "attempts",
+   "start": 274.79,
+   "end": 275.1
+  },
+  {
+   "text": "failed.",
+   "start": 275.1,
+   "end": 275.8
+  },
+  {
+   "text": "The",
+   "start": 275.8,
+   "end": 276.2
+  },
+  {
+   "text": "second",
+   "start": 276.2,
+   "end": 276.41
+  },
+  {
+   "text": "fleet",
+   "start": 276.41,
+   "end": 276.75
+  },
+  {
+   "text": "was",
+   "start": 276.75,
+   "end": 276.95
+  },
+  {
+   "text": "destroyed",
+   "start": 276.95,
+   "end": 277.56
+  },
+  {
+   "text": "by",
+   "start": 277.56,
+   "end": 277.69
+  },
+  {
+   "text": "a",
+   "start": 277.69,
+   "end": 277.79
+  },
+  {
+   "text": "typhoon",
+   "start": 277.79,
+   "end": 278.22
+  },
+  {
+   "text": "the",
+   "start": 278.22,
+   "end": 278.42
+  },
+  {
+   "text": "Japanese",
+   "start": 278.42,
+   "end": 279
+  },
+  {
+   "text": "called",
+   "start": 279,
+   "end": 279.38
+  },
+  {
+   "text": "Kamikaze",
+   "start": 279.38,
+   "end": 279.99
+  },
+  {
+   "text": "–",
+   "start": 279.99,
+   "end": 280
+  },
+  {
+   "text": "the",
+   "start": 280.4,
+   "end": 280.58
+  },
+  {
+   "text": "Divine",
+   "start": 280.58,
+   "end": 280.95
+  },
+  {
+   "text": "Wind.",
+   "start": 280.95,
+   "end": 281.4
+  },
+  {
+   "text": "Despite",
+   "start": 281.4,
+   "end": 281.88
+  },
+  {
+   "text": "all",
+   "start": 281.88,
+   "end": 282.08
+  },
+  {
+   "text": "the",
+   "start": 282.08,
+   "end": 282.29
+  },
+  {
+   "text": "violence,",
+   "start": 282.29,
+   "end": 283.12
+  },
+  {
+   "text": "Mongol",
+   "start": 283.12,
+   "end": 283.38
+  },
+  {
+   "text": "rule",
+   "start": 283.38,
+   "end": 283.63
+  },
+  {
+   "text": "made",
+   "start": 283.63,
+   "end": 283.88
+  },
+  {
+   "text": "the",
+   "start": 283.88,
+   "end": 284.1
+  },
+  {
+   "text": "Silk",
+   "start": 284.1,
+   "end": 284.44
+  },
+  {
+   "text": "Road",
+   "start": 284.44,
+   "end": 284.57
+  },
+  {
+   "text": "safer",
+   "start": 284.57,
+   "end": 284.88
+  },
+  {
+   "text": "than",
+   "start": 284.88,
+   "end": 285.13
+  },
+  {
+   "text": "ever.",
+   "start": 285.13,
+   "end": 285.6
+  },
+  {
+   "text": "Merchants,",
+   "start": 285.6,
+   "end": 286.67
+  },
+  {
+   "text": "ideas,",
+   "start": 286.67,
+   "end": 287.03
+  },
+  {
+   "text": "and",
+   "start": 287.03,
+   "end": 287.2
+  },
+  {
+   "text": "travelers",
+   "start": 287.2,
+   "end": 287.77
+  },
+  {
+   "text": "like",
+   "start": 287.77,
+   "end": 288.02
+  },
+  {
+   "text": "Marco",
+   "start": 288.02,
+   "end": 288.33
+  },
+  {
+   "text": "Polo",
+   "start": 288.33,
+   "end": 288.6
+  },
+  {
+   "text": "crossed",
+   "start": 288.6,
+   "end": 289.01
+  },
+  {
+   "text": "from",
+   "start": 289.01,
+   "end": 289.24
+  },
+  {
+   "text": "Europe",
+   "start": 289.24,
+   "end": 289.64
+  },
+  {
+   "text": "to",
+   "start": 289.64,
+   "end": 289.74
+  },
+  {
+   "text": "China.",
+   "start": 289.74,
+   "end": 290.2
+  },
+  {
+   "text": "But",
+   "start": 290.2,
+   "end": 290.38
+  },
+  {
+   "text": "the",
+   "start": 290.38,
+   "end": 290.68
+  },
+  {
+   "text": "same",
+   "start": 290.68,
+   "end": 290.8
+  },
+  {
+   "text": "routes",
+   "start": 290.8,
+   "end": 291.17
+  },
+  {
+   "text": "also",
+   "start": 291.17,
+   "end": 291.41
+  },
+  {
+   "text": "carried",
+   "start": 291.41,
+   "end": 291.84
+  },
+  {
+   "text": "something",
+   "start": 291.84,
+   "end": 292.39
+  },
+  {
+   "text": "deadly.",
+   "start": 292.39,
+   "end": 292.8
+  },
+  {
+   "text": "In",
+   "start": 292.8,
+   "end": 293.15
+  },
+  {
+   "text": "the",
+   "start": 293.15,
+   "end": 293.2
+  },
+  {
+   "text": "1340s,",
+   "start": 293.2,
+   "end": 294.19
+  },
+  {
+   "text": "the",
+   "start": 294.19,
+   "end": 294.39
+  },
+  {
+   "text": "Black",
+   "start": 294.39,
+   "end": 294.69
+  },
+  {
+   "text": "Death",
+   "start": 294.69,
+   "end": 295.02
+  },
+  {
+   "text": "spread",
+   "start": 295.02,
+   "end": 295.39
+  },
+  {
+   "text": "from",
+   "start": 295.39,
+   "end": 295.64
+  },
+  {
+   "text": "Central",
+   "start": 295.64,
+   "end": 296.07
+  },
+  {
+   "text": "Asia",
+   "start": 296.07,
+   "end": 296.33
+  },
+  {
+   "text": "to",
+   "start": 296.33,
+   "end": 296.45
+  },
+  {
+   "text": "the",
+   "start": 296.45,
+   "end": 296.64
+  },
+  {
+   "text": "Black",
+   "start": 296.64,
+   "end": 296.95
+  },
+  {
+   "text": "Sea.",
+   "start": 296.95,
+   "end": 297.2
+  },
+  {
+   "text": "And",
+   "start": 297.2,
+   "end": 297.63
+  },
+  {
+   "text": "from",
+   "start": 297.63,
+   "end": 297.82
+  },
+  {
+   "text": "there,",
+   "start": 297.82,
+   "end": 298.58
+  },
+  {
+   "text": "to",
+   "start": 298.58,
+   "end": 298.71
+  },
+  {
+   "text": "Europe.",
+   "start": 298.71,
+   "end": 299.4
+  },
+  {
+   "text": "One",
+   "start": 299.4,
+   "end": 299.9
+  },
+  {
+   "text": "by",
+   "start": 299.9,
+   "end": 299.9
+  },
+  {
+   "text": "one,",
+   "start": 299.9,
+   "end": 300.7
+  },
+  {
+   "text": "the",
+   "start": 300.7,
+   "end": 300.83
+  },
+  {
+   "text": "Khanates",
+   "start": 300.83,
+   "end": 301.6
+  },
+  {
+   "text": "fell",
+   "start": 301.6,
+   "end": 301.94
+  },
+  {
+   "text": "apart.",
+   "start": 301.94,
+   "end": 302.8
+  },
+  {
+   "text": "The",
+   "start": 302.8,
+   "end": 303.18
+  },
+  {
+   "text": "Ilkhanate",
+   "start": 303.18,
+   "end": 303.71
+  },
+  {
+   "text": "collapsed",
+   "start": 303.71,
+   "end": 304.45
+  },
+  {
+   "text": "in",
+   "start": 304.45,
+   "end": 304.57
+  },
+  {
+   "text": "1335.",
+   "start": 304.57,
+   "end": 305.8
+  },
+  {
+   "text": "In",
+   "start": 305.8,
+   "end": 306.26
+  },
+  {
+   "text": "1368,",
+   "start": 306.26,
+   "end": 306.93
+  },
+  {
+   "text": "the",
+   "start": 306.93,
+   "end": 307.15
+  },
+  {
+   "text": "Yuan",
+   "start": 307.15,
+   "end": 307.56
+  },
+  {
+   "text": "were",
+   "start": 307.56,
+   "end": 307.73
+  },
+  {
+   "text": "driven",
+   "start": 307.73,
+   "end": 308.17
+  },
+  {
+   "text": "out",
+   "start": 308.17,
+   "end": 308.37
+  },
+  {
+   "text": "of",
+   "start": 308.37,
+   "end": 308.51
+  },
+  {
+   "text": "China",
+   "start": 308.51,
+   "end": 308.87
+  },
+  {
+   "text": "by",
+   "start": 308.87,
+   "end": 309.01
+  },
+  {
+   "text": "the",
+   "start": 309.01,
+   "end": 309.22
+  },
+  {
+   "text": "Ming.",
+   "start": 309.22,
+   "end": 309.8
+  },
+  {
+   "text": "The",
+   "start": 310.27,
+   "end": 310.42
+  },
+  {
+   "text": "Golden",
+   "start": 310.42,
+   "end": 310.73
+  },
+  {
+   "text": "Horde",
+   "start": 310.73,
+   "end": 311.02
+  },
+  {
+   "text": "held",
+   "start": 311.02,
+   "end": 311.26
+  },
+  {
+   "text": "on",
+   "start": 311.26,
+   "end": 311.38
+  },
+  {
+   "text": "the",
+   "start": 311.38,
+   "end": 311.55
+  },
+  {
+   "text": "longest",
+   "start": 311.55,
+   "end": 311.99
+  },
+  {
+   "text": "until",
+   "start": 311.99,
+   "end": 312.3
+  },
+  {
+   "text": "its",
+   "start": 312.3,
+   "end": 312.48
+  },
+  {
+   "text": "grip",
+   "start": 312.48,
+   "end": 312.72
+  },
+  {
+   "text": "on",
+   "start": 312.72,
+   "end": 312.86
+  },
+  {
+   "text": "Moscow",
+   "start": 312.86,
+   "end": 313.21
+  },
+  {
+   "text": "ended",
+   "start": 313.21,
+   "end": 313.51
+  },
+  {
+   "text": "in",
+   "start": 313.51,
+   "end": 313.63
+  },
+  {
+   "text": "1480.",
+   "start": 313.63,
+   "end": 314.6
+  },
+  {
+   "text": "The",
+   "start": 314.6,
+   "end": 315.24
+  },
+  {
+   "text": "empire",
+   "start": 315.24,
+   "end": 315.54
+  },
+  {
+   "text": "was",
+   "start": 315.54,
+   "end": 315.85
+  },
+  {
+   "text": "gone.",
+   "start": 315.85,
+   "end": 316.6
+  },
+  {
+   "text": "But",
+   "start": 316.6,
+   "end": 317
+  },
+  {
+   "text": "it",
+   "start": 317,
+   "end": 317.03
+  },
+  {
+   "text": "had",
+   "start": 317.03,
+   "end": 317.24
+  },
+  {
+   "text": "reshaped",
+   "start": 317.24,
+   "end": 317.95
+  },
+  {
+   "text": "the",
+   "start": 317.95,
+   "end": 318.12
+  },
+  {
+   "text": "map",
+   "start": 318.12,
+   "end": 318.36
+  },
+  {
+   "text": "of",
+   "start": 318.36,
+   "end": 318.52
+  },
+  {
+   "text": "Asia",
+   "start": 318.52,
+   "end": 318.84
+  },
+  {
+   "text": "and",
+   "start": 318.84,
+   "end": 319.08
+  },
+  {
+   "text": "Europe",
+   "start": 319.08,
+   "end": 319.6
+  },
+  {
+   "text": "and",
+   "start": 319.6,
+   "end": 319.91
+  },
+  {
+   "text": "the",
+   "start": 319.91,
+   "end": 319.92
+  },
+  {
+   "text": "countries",
+   "start": 319.92,
+   "end": 320.4
+  },
+  {
+   "text": "that",
+   "start": 320.4,
+   "end": 320.51
+  },
+  {
+   "text": "rose",
+   "start": 320.51,
+   "end": 320.62
+  },
+  {
+   "text": "from",
+   "start": 320.62,
+   "end": 320.93
+  },
+  {
+   "text": "its",
+   "start": 320.93,
+   "end": 321.18
+  },
+  {
+   "text": "ruins",
+   "start": 321.18,
+   "end": 321.71
+  },
+  {
+   "text": "from",
+   "start": 321.71,
+   "end": 321.88
+  },
+  {
+   "text": "Russia",
+   "start": 321.88,
+   "end": 322.3
+  },
+  {
+   "text": "to",
+   "start": 322.3,
+   "end": 322.44
+  },
+  {
+   "text": "China.",
+   "start": 322.44,
+   "end": 322.8
+  },
+  {
+   "text": "And",
+   "start": 322.8,
+   "end": 323.2
+  },
+  {
+   "text": "it",
+   "start": 323.2,
+   "end": 323.23
+  },
+  {
+   "text": "all",
+   "start": 323.23,
+   "end": 323.44
+  },
+  {
+   "text": "started",
+   "start": 323.44,
+   "end": 323.99
+  },
+  {
+   "text": "with",
+   "start": 323.99,
+   "end": 324
+  },
+  {
+   "text": "a",
+   "start": 324,
+   "end": 324.48
+  },
+  {
+   "text": "boy",
+   "start": 324.48,
+   "end": 324.55
+  },
+  {
+   "text": "on",
+   "start": 324.55,
+   "end": 324.69
+  },
+  {
+   "text": "the",
+   "start": 324.69,
+   "end": 324.9
+  },
+  {
+   "text": "steppe",
+   "start": 324.9,
+   "end": 325.32
+  },
+  {
+   "text": "who",
+   "start": 325.32,
+   "end": 325.53
+  },
+  {
+   "text": "refused",
+   "start": 325.53,
+   "end": 326
+  },
+  {
+   "text": "to",
+   "start": 326,
+   "end": 326.14
+  },
+  {
+   "text": "give",
+   "start": 326.14,
+   "end": 326.41
+  },
+  {
+   "text": "up.",
+   "start": 326.41,
+   "end": 326.8
+  }
+ ]
+}

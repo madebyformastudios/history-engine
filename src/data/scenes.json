@@ -1,0 +1,3918 @@
+{
+ "meta": {
+  "id": "MongolEmpire",
+  "title": "The Mongol Empire in 5 Minutes",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "audio/voiceover.mp3",
+  "transitionFrames": 10,
+  "duration": 328.771,
+  "durationInFrames": 9863,
+  "voiceEnd": 326.8,
+  "audioDuration": 327.271,
+  "fadeOut": {
+   "start": 327.271,
+   "end": 328.771
+  }
+ },
+ "overlay": {
+  "dust": 0.55,
+  "parchment": 0.22,
+  "grain": 0.07,
+  "vignette": 0.42
+ },
+ "map": {
+  "extent": [
+   [
+    8,
+    6
+   ],
+   [
+    146,
+    64
+   ]
+  ],
+  "rotate": [
+   -78,
+   0
+  ],
+  "parallels": [
+   28,
+   56
+  ]
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "part": "HOOK",
+   "assets": [
+    "MAP-01"
+   ],
+   "type": "map",
+   "motion": "Map of Eurasia. Mongol territory explodes outward from Mongolia to its peak extent in about 4 seconds, then holds.",
+   "map": {
+    "id": "MAP-01",
+    "camera": [
+     {
+      "at": 0,
+      "center": [
+       74,
+       45
+      ],
+      "zoom": 1.4
+     },
+     {
+      "at": 10.215,
+      "center": [
+       74,
+       45
+      ],
+      "zoom": 1.5
+     }
+    ],
+    "states": [
+     {
+      "at": 0,
+      "layers": []
+     },
+     {
+      "at": 0.4,
+      "duration": 4,
+      "mode": "grow",
+      "origin": [
+       104,
+       47.5
+      ],
+      "layers": [
+       {
+        "territory": "yuan_1279",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "chagatai_1279",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "ilkhanate_1279",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "golden_1279",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "rus_vassals_1279",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "markers": [
+     {
+      "id": "korea",
+      "label": "Korea",
+      "lonlat": [
+       127.6,
+       37.4
+      ],
+      "at": 8.25,
+      "kind": "dot",
+      "pulse": true,
+      "labelSide": "bottom"
+     },
+     {
+      "id": "hungary",
+      "label": "Hungary",
+      "lonlat": [
+       19.5,
+       47.3
+      ],
+      "at": 9.37,
+      "kind": "dot",
+      "pulse": true,
+      "labelSide": "bottom"
+     }
+    ]
+   },
+   "start": 0,
+   "end": 10.215,
+   "startFrame": 0,
+   "endFrame": 306,
+   "vo": "In less than a century, a few nomadic tribes from the Mongolian steppe built the largest connected land empire in history. At its height, it stretched from Korea all the way to Hungary.",
+   "cues": [
+    {
+     "word": "Korea",
+     "action": "pulse label KOREA on the east edge",
+     "t": 8.25,
+     "frame": 248,
+     "matched": "Korea",
+     "exact": true
+    },
+    {
+     "word": "Hungary",
+     "action": "pulse label HUNGARY on the west edge",
+     "t": 9.37,
+     "frame": 281,
+     "matched": "Hungary.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "part": "HOOK",
+   "assets": [
+    "IMG 001"
+   ],
+   "type": "image",
+   "image": "images/001.jpg",
+   "motion": "Slow push in on the boy.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.45,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.22,
+     "x": 0.33,
+     "y": 0.45
+    }
+   },
+   "start": 10.215,
+   "end": 13.724,
+   "startFrame": 306,
+   "endFrame": 412,
+   "vo": "And it all began with a boy who had nothing.",
+   "cues": []
+  },
+  {
+   "id": "S03",
+   "part": "HOOK",
+   "assets": [
+    "IMG 002"
+   ],
+   "type": "image",
+   "image": "images/002.jpg",
+   "motion": "Slow pan left to right across the steppe. Title card.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.42,
+     "x": 0.36,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.42,
+     "x": 0.62,
+     "y": 0.45
+    },
+    "matte": {
+     "y": 0.664,
+     "color": "#9A8649",
+     "colorBottom": "#7F7140"
+    }
+   },
+   "titles": [
+    {
+     "text": "THE MONGOL EMPIRE",
+     "at": 14.86,
+     "style": "title"
+    }
+   ],
+   "start": 13.724,
+   "end": 17.077,
+   "startFrame": 412,
+   "endFrame": 512,
+   "vo": "This is the story of the Mongol Empire.",
+   "cues": [
+    {
+     "word": "Mongol",
+     "action": "title \"THE MONGOL EMPIRE\" fades in, centered, serif, with a thin line underneath",
+     "t": 14.86,
+     "frame": 446,
+     "matched": "Mongol",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "part": "TEMUJIN",
+   "assets": [
+    "MAP-02"
+   ],
+   "type": "map",
+   "motion": "Zoom into Mongolia. Tribe zones fade in one by one.",
+   "date": {
+    "text": "1162 AD",
+    "at": 17.377
+   },
+   "map": {
+    "id": "MAP-02",
+    "meridian": 104,
+    "camera": [
+     {
+      "at": 17.077,
+      "center": [
+       98,
+       45
+      ],
+      "zoom": 2
+     },
+     {
+      "at": 20.277,
+      "center": [
+       103,
+       48.3
+      ],
+      "zoom": 5.2
+     },
+     {
+      "at": 28.01,
+      "center": [
+       103,
+       48.3
+      ],
+      "zoom": 5.45
+     }
+    ],
+    "states": [
+     {
+      "at": 17.077,
+      "layers": []
+     },
+     {
+      "at": 24.34,
+      "duration": 0.7,
+      "layers": [
+       {
+        "territory": "tribe_tatars",
+        "fill": "olive",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 24.79,
+      "duration": 0.7,
+      "layers": [
+       {
+        "territory": "tribe_tatars",
+        "fill": "olive",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 25.24,
+      "duration": 0.7,
+      "layers": [
+       {
+        "territory": "tribe_tatars",
+        "fill": "olive",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "ochre",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 25.69,
+      "duration": 0.7,
+      "layers": [
+       {
+        "territory": "tribe_tatars",
+        "fill": "olive",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "ochre",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_naimans",
+        "fill": "#8A6A4C",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 26.14,
+      "duration": 0.7,
+      "layers": [
+       {
+        "territory": "tribe_tatars",
+        "fill": "olive",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "ochre",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_naimans",
+        "fill": "#8A6A4C",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_mongols",
+        "fill": "terracotta",
+        "opacity": 0.8
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "onon",
+      "style": "river",
+      "path": [
+       [
+        108.6,
+        48.75
+       ],
+       [
+        109.6,
+        48.95
+       ],
+       [
+        110.6,
+        49.2
+       ],
+       [
+        111.4,
+        49.6
+       ],
+       [
+        112.4,
+        50.1
+       ],
+       [
+        113.4,
+        50.45
+       ],
+       [
+        114.4,
+        50.95
+       ],
+       [
+        115.2,
+        51.4
+       ]
+      ],
+      "at": 18.277,
+      "duration": 1.6
+     }
+    ],
+    "markers": [
+     {
+      "id": "temujin",
+      "label": "Onon",
+      "lonlat": [
+       110.9,
+       49.35
+      ],
+      "at": 19.24,
+      "kind": "dot",
+      "pulse": true,
+      "labelSide": "top"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Tatars",
+      "lonlat": [
+       117.6,
+       47.2
+      ],
+      "at": 24.54,
+      "size": 34
+     },
+     {
+      "text": "Merkits",
+      "lonlat": [
+       105,
+       51.4
+      ],
+      "at": 24.99,
+      "size": 34
+     },
+     {
+      "text": "Keraites",
+      "lonlat": [
+       103.4,
+       47.2
+      ],
+      "at": 25.44,
+      "size": 34
+     },
+     {
+      "text": "Naimans",
+      "lonlat": [
+       92,
+       47.8
+      ],
+      "at": 25.89,
+      "size": 34
+     },
+     {
+      "text": "Mongols",
+      "lonlat": [
+       111.3,
+       47.7
+      ],
+      "at": 26.34,
+      "size": 34
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "LAKE BAIKAL",
+      "lonlat": [
+       106.5,
+       54.6
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 17.077,
+   "end": 28.01,
+   "startFrame": 512,
+   "endFrame": 840,
+   "vo": "Around 1162, a boy named Temujin was born on the steppe of what is now Mongolia. The steppe was divided between rival tribes, who raided and fought each other constantly.",
+   "cues": [
+    {
+     "word": "Temujin",
+     "action": "small pulsing dot at the Onon river",
+     "t": 19.24,
+     "frame": 577,
+     "matched": "Temujin",
+     "exact": true
+    },
+    {
+     "word": "rival",
+     "action": "tribe zones appear: Tatars, Merkits, Keraites, Naimans, Mongols",
+     "t": 24.34,
+     "frame": 730,
+     "matched": "rival",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 003"
+   ],
+   "type": "image",
+   "image": "images/003.jpg",
+   "motion": "Slow push in on the father at the fire.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.55,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.28,
+     "x": 0.63,
+     "y": 0.4
+    }
+   },
+   "start": 28.01,
+   "end": 33.038,
+   "startFrame": 840,
+   "endFrame": 991,
+   "vo": "When Temujin was about nine, his father was poisoned by the Tatars, a rival tribe.",
+   "cues": []
+  },
+  {
+   "id": "S06",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 004"
+   ],
+   "type": "image",
+   "image": "images/004.jpg",
+   "motion": "Slow zoom out, making the family feel small and alone.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.4,
+     "x": 0.26,
+     "y": 0.6
+    },
+    "to": {
+     "scale": 1.03,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "start": 33.038,
+   "end": 38.689,
+   "startFrame": 991,
+   "endFrame": 1161,
+   "vo": "His own clan abandoned the family. They survived by fishing, hunting small animals and digging up roots.",
+   "cues": []
+  },
+  {
+   "id": "S07",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 005"
+   ],
+   "type": "image",
+   "image": "images/005.jpg",
+   "motion": "Slow push in. Subtle dark vignette.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.55,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.28,
+     "x": 0.6,
+     "y": 0.56
+    }
+   },
+   "effects": {
+    "vignette": 0.7
+   },
+   "start": 38.689,
+   "end": 45.276,
+   "startFrame": 1161,
+   "endFrame": 1358,
+   "vo": "As a teenager, Temujin was captured by a rival clan and locked in a heavy wooden collar. One night, he escaped.",
+   "cues": []
+  },
+  {
+   "id": "S08",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 006"
+   ],
+   "type": "image",
+   "image": "images/006.jpg",
+   "motion": "Slow pan right.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.22,
+     "x": 0.4,
+     "y": 0.48
+    },
+    "to": {
+     "scale": 1.22,
+     "x": 0.6,
+     "y": 0.48
+    }
+   },
+   "start": 45.276,
+   "end": 50.819,
+   "startFrame": 1358,
+   "endFrame": 1525,
+   "vo": "He married a young woman named Borte. But soon after the wedding, she was kidnapped by the Merkit tribe.",
+   "cues": []
+  },
+  {
+   "id": "S09",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 007"
+   ],
+   "type": "image",
+   "image": "images/007.jpg",
+   "motion": "Fast-ish push in, dust overlay.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.47,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.45,
+     "x": 0.42,
+     "y": 0.62
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "start": 50.819,
+   "end": 59.099,
+   "startFrame": 1525,
+   "endFrame": 1773,
+   "vo": "Temujin gathered allies, including his blood brother Jamukha, and rescued her. It was his first great victory, and people began to follow him.",
+   "cues": []
+  },
+  {
+   "id": "S10",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 008"
+   ],
+   "type": "image",
+   "image": "images/008.jpg",
+   "motion": "Slow zoom in toward the center gap between the two riders.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.05,
+     "x": 0.5,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.38,
+     "x": 0.5,
+     "y": 0.6
+    }
+   },
+   "start": 59.099,
+   "end": 65.696,
+   "startFrame": 1773,
+   "endFrame": 1971,
+   "vo": "But Jamukha became his greatest rival. For twenty years, Temujin fought tribe after tribe for control of the steppe.",
+   "cues": []
+  },
+  {
+   "id": "S11",
+   "part": "TEMUJIN",
+   "assets": [
+    "MAP-02"
+   ],
+   "type": "map",
+   "motion": "Same map as S04. Tribe zones turn Mongol color one by one.",
+   "map": {
+    "id": "MAP-02",
+    "meridian": 104,
+    "camera": [
+     {
+      "at": 65.696,
+      "center": [
+       103,
+       48.3
+      ],
+      "zoom": 5.45
+     },
+     {
+      "at": 73.243,
+      "center": [
+       104,
+       48.3
+      ],
+      "zoom": 5
+     }
+    ],
+    "states": [
+     {
+      "at": 65.696,
+      "layers": [
+       {
+        "territory": "tribe_mongols",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_tatars",
+        "fill": "olive",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "ochre",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_naimans",
+        "fill": "#8A6A4C",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 66.32,
+      "duration": 0.9,
+      "layers": [
+       {
+        "territory": "tribe_mongols",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_tatars",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "ochre",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_naimans",
+        "fill": "#8A6A4C",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 67.284,
+      "duration": 0.9,
+      "layers": [
+       {
+        "territory": "tribe_mongols",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_tatars",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_naimans",
+        "fill": "#8A6A4C",
+        "opacity": 0.8
+       }
+      ]
+     },
+     {
+      "at": 68.318,
+      "duration": 0.9,
+      "layers": [
+       {
+        "territory": "tribe_mongols",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_tatars",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_merkits",
+        "fill": "#5E6B5A",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_keraites",
+        "fill": "terracotta",
+        "opacity": 0.8
+       },
+       {
+        "territory": "tribe_naimans",
+        "fill": "terracotta",
+        "opacity": 0.8
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "onon",
+      "style": "river",
+      "path": [
+       [
+        108.6,
+        48.75
+       ],
+       [
+        109.6,
+        48.95
+       ],
+       [
+        110.6,
+        49.2
+       ],
+       [
+        111.4,
+        49.6
+       ],
+       [
+        112.4,
+        50.1
+       ],
+       [
+        113.4,
+        50.45
+       ],
+       [
+        114.4,
+        50.95
+       ],
+       [
+        115.2,
+        51.4
+       ]
+      ],
+      "at": 60.696,
+      "duration": 0.1
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Mongols",
+      "lonlat": [
+       111.3,
+       47.7
+      ],
+      "at": 60.696,
+      "size": 34
+     },
+     {
+      "text": "Tatars",
+      "lonlat": [
+       117.6,
+       47.2
+      ],
+      "at": 60.696,
+      "size": 34
+     },
+     {
+      "text": "Merkits",
+      "lonlat": [
+       105,
+       51.4
+      ],
+      "at": 60.696,
+      "size": 34
+     },
+     {
+      "text": "Keraites",
+      "lonlat": [
+       103.4,
+       47.2
+      ],
+      "at": 60.696,
+      "size": 34
+     },
+     {
+      "text": "Naimans",
+      "lonlat": [
+       92,
+       47.8
+      ],
+      "at": 60.696,
+      "size": 34
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "LAKE BAIKAL",
+      "lonlat": [
+       106.5,
+       54.6
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 65.696,
+   "end": 73.243,
+   "startFrame": 1971,
+   "endFrame": 2197,
+   "vo": "He crushed the Tatars, the Keraites and the Naimans. In the end, Jamukha was betrayed by his own men and executed.",
+   "cues": [
+    {
+     "word": "Tatars",
+     "action": "Tatar zone absorbed",
+     "t": 66.32,
+     "frame": 1990,
+     "matched": "Tatars,",
+     "exact": true
+    },
+    {
+     "word": "Keraites",
+     "action": "Keraite zone absorbed",
+     "t": 67.284,
+     "frame": 2019,
+     "matched": "Keraites",
+     "exact": true
+    },
+    {
+     "word": "Naimans",
+     "action": "Naiman zone absorbed",
+     "t": 68.318,
+     "frame": 2050,
+     "matched": "Naimans.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "part": "TEMUJIN",
+   "assets": [
+    "IMG 009"
+   ],
+   "type": "image",
+   "image": "images/009.jpg",
+   "motion": "Slow zoom out to reveal the crowd.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.6,
+     "x": 0.74,
+     "y": 0.42
+    },
+    "to": {
+     "scale": 1.03,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "1206",
+    "at": 73.543
+   },
+   "titles": [
+    {
+     "text": "GENGHIS KHAN",
+     "at": 77.489,
+     "style": "name"
+    }
+   ],
+   "start": 73.243,
+   "end": 82.015,
+   "startFrame": 2197,
+   "endFrame": 2460,
+   "vo": "In 1206, a great assembly of the tribes gave him a new title: Genghis Khan. For the first time, the steppe was united.",
+   "cues": [
+    {
+     "word": "Genghis",
+     "action": "label \"GENGHIS KHAN\" fades in",
+     "t": 77.489,
+     "frame": 2325,
+     "matched": "Genghis",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "part": "THE MACHINE",
+   "assets": [
+    "GFX-01"
+   ],
+   "type": "gfx",
+   "gfx": "decimal-army",
+   "motion": "Rider icons in a grid: 10, then zoom out and multiply to 100, 1,000, 10,000. Number counts along with unit names.",
+   "steps": [
+    {
+     "at": 86.81,
+     "value": 10,
+     "unit": "ARBAN"
+    },
+    {
+     "at": 87.34,
+     "value": 100,
+     "unit": "JAGUN"
+    },
+    {
+     "at": 88.171,
+     "value": 1000,
+     "unit": "MINGGHAN"
+    },
+    {
+     "at": 89.11,
+     "value": 10000,
+     "unit": "TUMEN"
+    }
+   ],
+   "start": 82.015,
+   "end": 90,
+   "startFrame": 2460,
+   "endFrame": 2700,
+   "vo": "Genghis rebuilt Mongol society around the army. Men were organized in units of ten, a hundred, a thousand and ten thousand.",
+   "cues": [
+    {
+     "word": "ten,",
+     "action": "10 (ARBAN)",
+     "t": 86.81,
+     "frame": 2604,
+     "matched": "ten,",
+     "exact": true
+    },
+    {
+     "word": "hundred,",
+     "action": "100 (JAGUN)",
+     "t": 87.34,
+     "frame": 2620,
+     "matched": "hundred,",
+     "exact": true
+    },
+    {
+     "word": "thousand",
+     "action": "1,000 (MINGGHAN)",
+     "t": 88.171,
+     "frame": 2645,
+     "matched": "thousand",
+     "exact": true
+    },
+    {
+     "word": "ten thousand",
+     "action": "10,000 (TUMEN)",
+     "t": 89.11,
+     "frame": 2673,
+     "matched": "ten thousand.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "part": "THE MACHINE",
+   "assets": [
+    "IMG 010"
+   ],
+   "type": "image",
+   "image": "images/010.jpg",
+   "motion": "Slow pan left.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.22,
+     "x": 0.6,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.22,
+     "x": 0.4,
+     "y": 0.5
+    }
+   },
+   "start": 90,
+   "end": 97,
+   "startFrame": 2700,
+   "endFrame": 2910,
+   "vo": "Old tribal loyalties were broken up on purpose. Commanders were promoted for loyalty and skill, not for noble birth.",
+   "cues": []
+  },
+  {
+   "id": "S15",
+   "part": "THE MACHINE",
+   "assets": [
+    "IMG 011"
+   ],
+   "type": "image",
+   "image": "images/011.jpg",
+   "motion": "Slow push in. (Optional motion-blur streak not used.)",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.56,
+     "y": 0.42
+    }
+   },
+   "start": 97,
+   "end": 105.9,
+   "startFrame": 2910,
+   "endFrame": 3177,
+   "vo": "He introduced a code of law called the Yassa, and a network of relay stations, where riders swapped horses so messages could cross the empire at incredible speed.",
+   "cues": []
+  },
+  {
+   "id": "S16",
+   "part": "THE MACHINE",
+   "assets": [
+    "BG 002",
+    "CUT 012"
+   ],
+   "type": "parallax",
+   "motion": "Background 002 pans slowly left, cutout horse archer 012 gallops from left to right across the frame with a small vertical bounce.",
+   "background": {
+    "src": "images/002.jpg",
+    "from": {
+     "scale": 1.6,
+     "x": 0.6,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.6,
+     "x": 0.4,
+     "y": 0.5
+    },
+    "matte": {
+     "y": 0.664,
+     "color": "#9A8649",
+     "colorBottom": "#7F7140"
+    }
+   },
+   "sprites": [
+    {
+     "src": "images/012.png",
+     "start": 106.1,
+     "end": 116.389,
+     "height": 520,
+     "bottom": 120,
+     "from": -30,
+     "to": 104,
+     "bob": 16,
+     "strideHz": 2.4
+    }
+   ],
+   "start": 105.9,
+   "end": 116.189,
+   "startFrame": 3177,
+   "endFrame": 3486,
+   "vo": "Every Mongol warrior was a horse archer, trained from childhood. Each rider brought several spare horses, so an army could cover huge distances without stopping.",
+   "cues": []
+  },
+  {
+   "id": "S17",
+   "part": "CONQUEST",
+   "assets": [
+    "MAP-03"
+   ],
+   "type": "map",
+   "motion": "China campaigns: arrow into Western Xia (turns tributary), then arrows into Jin.",
+   "year": [
+    {
+     "at": 116.389,
+     "value": 1206
+    },
+    {
+     "at": 118.31,
+     "value": 1206
+    },
+    {
+     "at": 119.68,
+     "value": 1209
+    },
+    {
+     "at": 121.7,
+     "value": 1211
+    }
+   ],
+   "map": {
+    "id": "MAP-03",
+    "meridian": 108,
+    "camera": [
+     {
+      "at": 116.189,
+      "center": [
+       108,
+       37.6
+      ],
+      "zoom": 3.25
+     },
+     {
+      "at": 123.5,
+      "center": [
+       109.5,
+       37.2
+      ],
+      "zoom": 3.45
+     }
+    ],
+    "states": [
+     {
+      "at": 116.189,
+      "layers": [
+       {
+        "territory": "song_1210",
+        "fill": "#8E8D62",
+        "opacity": 0.6
+       },
+       {
+        "territory": "mongol_1206",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "xixia_1200",
+        "fill": "olive"
+       },
+       {
+        "territory": "jin_1210",
+        "fill": "olive"
+       }
+      ]
+     },
+     {
+      "at": 119.21,
+      "duration": 1,
+      "layers": [
+       {
+        "territory": "song_1210",
+        "fill": "#8E8D62",
+        "opacity": 0.6
+       },
+       {
+        "territory": "mongol_1206",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "xixia_1200",
+        "fill": "tributary"
+       },
+       {
+        "territory": "jin_1210",
+        "fill": "olive"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "xia",
+      "style": "arrow",
+      "path": [
+       [
+        104,
+        45.6
+       ],
+       [
+        102.4,
+        42.6
+       ],
+       [
+        104.6,
+        39.4
+       ]
+      ],
+      "at": 118.31,
+      "duration": 1.1
+     },
+     {
+      "id": "jin1",
+      "style": "arrow",
+      "path": [
+       [
+        111,
+        44.8
+       ],
+       [
+        113.2,
+        42
+       ],
+       [
+        114.8,
+        39.6
+       ]
+      ],
+      "at": 121.7,
+      "duration": 1.1
+     },
+     {
+      "id": "jin2",
+      "style": "arrow",
+      "path": [
+       [
+        116.5,
+        46.6
+       ],
+       [
+        119.2,
+        44
+       ],
+       [
+        120.2,
+        41.6
+       ]
+      ],
+      "at": 122,
+      "duration": 1.1
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Mongols",
+      "lonlat": [
+       104,
+       47
+      ],
+      "at": 116.489,
+      "size": 36
+     },
+     {
+      "text": "Western Xia",
+      "lonlat": [
+       101.5,
+       39.6
+      ],
+      "at": 116.689,
+      "size": 30
+     },
+     {
+      "text": "Jin",
+      "lonlat": [
+       116.5,
+       37
+      ],
+      "at": 116.889,
+      "size": 40
+     },
+     {
+      "text": "Song",
+      "lonlat": [
+       112,
+       28.5
+      ],
+      "at": 117.089,
+      "size": 36
+     }
+    ]
+   },
+   "start": 116.189,
+   "end": 123.5,
+   "startFrame": 3486,
+   "endFrame": 3705,
+   "vo": "First, he turned south. The Tangut kingdom of Western Xia submitted in 1209. Then he invaded the Jin dynasty of northern China.",
+   "cues": [
+    {
+     "word": "Western",
+     "action": "arrow into Western Xia, zone turns tributary color",
+     "t": 118.31,
+     "frame": 3549,
+     "matched": "Western",
+     "exact": true
+    },
+    {
+     "word": "Jin",
+     "action": "arrows into Jin territory",
+     "t": 121.7,
+     "frame": 3651,
+     "matched": "Jin",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "part": "CONQUEST",
+   "assets": [
+    "IMG 013"
+   ],
+   "type": "image",
+   "image": "images/013.jpg",
+   "motion": "Slow push in toward the siege engine.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.34,
+     "x": 0.5,
+     "y": 0.64
+    }
+   },
+   "start": 123.5,
+   "end": 130.3,
+   "startFrame": 3705,
+   "endFrame": 3909,
+   "vo": "The Mongols had no experience with walled cities. So they learned, using captured Chinese engineers to build siege weapons.",
+   "cues": []
+  },
+  {
+   "id": "S19",
+   "part": "CONQUEST",
+   "assets": [
+    "IMG 014"
+   ],
+   "type": "image",
+   "image": "images/014.jpg",
+   "motion": "Slow zoom out, flickering orange glow overlay.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.38,
+     "x": 0.5,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.06,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "fire": 1
+   },
+   "date": {
+    "text": "1215",
+    "at": 130.6
+   },
+   "start": 130.3,
+   "end": 135.5,
+   "startFrame": 3909,
+   "endFrame": 4065,
+   "vo": "In 1215, they captured the Jin capital Zhongdu, near modern Beijing.",
+   "cues": []
+  },
+  {
+   "id": "S20",
+   "part": "CONQUEST",
+   "assets": [
+    "MAP-04"
+   ],
+   "type": "map",
+   "motion": "Khwarazm part 1: Khwarazmian territory highlights, caravan route to Otrar, red flash on Otrar.",
+   "year": [
+    {
+     "at": 135.7,
+     "value": 1218
+    }
+   ],
+   "map": {
+    "id": "MAP-04",
+    "meridian": 72,
+    "camera": [
+     {
+      "at": 135.5,
+      "center": [
+       83,
+       43
+      ],
+      "zoom": 3.3
+     },
+     {
+      "at": 142.67,
+      "center": [
+       83,
+       43
+      ],
+      "zoom": 3.4
+     },
+     {
+      "at": 144.27,
+      "center": [
+       68.5,
+       41.2
+      ],
+      "zoom": 4.6
+     },
+     {
+      "at": 145.865,
+      "center": [
+       68,
+       41
+      ],
+      "zoom": 4.75
+     }
+    ],
+    "states": [
+     {
+      "at": 135.5,
+      "layers": [
+       {
+        "territory": "mongol_1218",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "khwarazm_1218",
+        "fill": "parchmentDark"
+       }
+      ]
+     },
+     {
+      "at": 136.64,
+      "duration": 0.9,
+      "layers": [
+       {
+        "territory": "mongol_1218",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "khwarazm_1218",
+        "fill": "olive",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "caravan",
+      "style": "route",
+      "path": [
+       [
+        101,
+        46.5
+       ],
+       [
+        93,
+        45
+       ],
+       [
+        84,
+        44.6
+       ],
+       [
+        76,
+        43.8
+       ],
+       [
+        68.5,
+        42.95
+       ]
+      ],
+      "at": 141.36,
+      "smooth": true,
+      "dots": {
+       "at": 141.36,
+       "count": 1,
+       "period": 2.11,
+       "loop": false
+      },
+      "duration": 2.11
+     }
+    ],
+    "markers": [
+     {
+      "id": "otrar",
+      "label": "Otrar",
+      "lonlat": [
+       68.3,
+       42.85
+      ],
+      "at": 136,
+      "flashAt": 143.47
+     },
+     {
+      "id": "bukhara",
+      "label": "Bukhara",
+      "lonlat": [
+       64.42,
+       39.77
+      ],
+      "labelSide": "left",
+      "at": 136.15
+     },
+     {
+      "id": "samarkand",
+      "label": "Samarkand",
+      "lonlat": [
+       66.97,
+       39.65
+      ],
+      "labelSide": "bottom",
+      "at": 136.3
+     },
+     {
+      "id": "urgench",
+      "label": "Urgench",
+      "lonlat": [
+       59.15,
+       42.33
+      ],
+      "labelSide": "left",
+      "at": 136.45
+     },
+     {
+      "id": "merv",
+      "label": "Merv",
+      "lonlat": [
+       61.83,
+       37.66
+      ],
+      "labelSide": "left",
+      "at": 136.6
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Khwarazmian Empire",
+      "lonlat": [
+       60,
+       34.5
+      ],
+      "at": 136.84,
+      "size": 38
+     },
+     {
+      "text": "Mongols",
+      "lonlat": [
+       96,
+       47
+      ],
+      "at": 135.8,
+      "size": 36
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "CASPIAN SEA",
+      "lonlat": [
+       51,
+       42
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 135.5,
+   "end": 145.865,
+   "startFrame": 4065,
+   "endFrame": 4376,
+   "vo": "In the west lay the Khwarazmian Empire, a rich Muslim state in Central Asia. Genghis sent a trade caravan there, but the governor of Otrar had the merchants killed.",
+   "cues": [
+    {
+     "word": "Khwarazmian",
+     "action": "Khwarazmian territory highlights",
+     "t": 136.64,
+     "frame": 4099,
+     "matched": "Khwarazmian",
+     "exact": true
+    },
+    {
+     "word": "caravan",
+     "action": "dotted line from Mongolia to Otrar with a moving caravan dot",
+     "t": 141.36,
+     "frame": 4241,
+     "matched": "caravan",
+     "exact": true
+    },
+    {
+     "word": "Otrar",
+     "action": "red flash on Otrar",
+     "t": 143.47,
+     "frame": 4304,
+     "matched": "Otrar",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "part": "CONQUEST",
+   "assets": [
+    "IMG 015"
+   ],
+   "type": "image",
+   "image": "images/015.jpg",
+   "motion": "Slow push in on the Shah.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.55,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.34,
+     "x": 0.78,
+     "y": 0.45
+    }
+   },
+   "start": 145.865,
+   "end": 151.9,
+   "startFrame": 4376,
+   "endFrame": 4557,
+   "vo": "Genghis sent envoys to demand justice. The Shah had one of them executed and sent the others back humiliated.",
+   "cues": []
+  },
+  {
+   "id": "S22",
+   "part": "CONQUEST",
+   "assets": [
+    "MAP-04"
+   ],
+   "type": "map",
+   "motion": "Khwarazm part 2: three arrows sweep into Khwarazm; each named city gets a cross mark.",
+   "year": [
+    {
+     "at": 152.1,
+     "value": 1219
+    },
+    {
+     "at": 157.49,
+     "value": 1219
+    },
+    {
+     "at": 160.162,
+     "value": 1221
+    }
+   ],
+   "map": {
+    "id": "MAP-04",
+    "meridian": 72,
+    "camera": [
+     {
+      "at": 151.9,
+      "center": [
+       65.5,
+       40.6
+      ],
+      "zoom": 4.9
+     },
+     {
+      "at": 161.8,
+      "center": [
+       65.5,
+       40.6
+      ],
+      "zoom": 5.2
+     }
+    ],
+    "states": [
+     {
+      "at": 151.9,
+      "layers": [
+       {
+        "territory": "mongol_1218",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "khwarazm_1218",
+        "fill": "olive",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "inv1",
+      "style": "arrow",
+      "path": [
+       [
+        79,
+        46.6
+       ],
+       [
+        73.5,
+        45
+       ],
+       [
+        69.2,
+        43.4
+       ]
+      ],
+      "at": 155.34,
+      "duration": 1
+     },
+     {
+      "id": "inv2",
+      "style": "arrow",
+      "path": [
+       [
+        82,
+        43.2
+       ],
+       [
+        74,
+        41.4
+       ],
+       [
+        67.8,
+        40
+       ]
+      ],
+      "at": 155.59,
+      "duration": 1.1
+     },
+     {
+      "id": "inv3",
+      "style": "arrow",
+      "path": [
+       [
+        74.5,
+        48
+       ],
+       [
+        66,
+        45.6
+       ],
+       [
+        60.2,
+        43
+       ]
+      ],
+      "at": 155.84,
+      "duration": 1.2
+     }
+    ],
+    "markers": [
+     {
+      "id": "otrar",
+      "label": "Otrar",
+      "lonlat": [
+       68.3,
+       42.85
+      ],
+      "at": 146.9,
+      "crossAt": 157.49
+     },
+     {
+      "id": "bukhara",
+      "label": "Bukhara",
+      "lonlat": [
+       64.42,
+       39.77
+      ],
+      "labelSide": "left",
+      "at": 146.9,
+      "crossAt": 158.09
+     },
+     {
+      "id": "samarkand",
+      "label": "Samarkand",
+      "lonlat": [
+       66.97,
+       39.65
+      ],
+      "labelSide": "bottom",
+      "at": 146.9,
+      "crossAt": 158.86
+     },
+     {
+      "id": "urgench",
+      "label": "Urgench",
+      "lonlat": [
+       59.15,
+       42.33
+      ],
+      "labelSide": "left",
+      "at": 146.9
+     },
+     {
+      "id": "merv",
+      "label": "Merv",
+      "lonlat": [
+       61.83,
+       37.66
+      ],
+      "labelSide": "left",
+      "at": 146.9,
+      "crossAt": 160.162
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Khwarazmian Empire",
+      "lonlat": [
+       59.5,
+       34.5
+      ],
+      "at": 146.9,
+      "size": 38
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "CASPIAN SEA",
+      "lonlat": [
+       51,
+       42
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 151.9,
+   "end": 161.8,
+   "startFrame": 4557,
+   "endFrame": 4854,
+   "vo": "It was a fatal mistake. In 1219, the Mongols invaded. Within three years, Otrar, Bukhara, Samarkand and Merv had fallen.",
+   "cues": [
+    {
+     "word": "invaded",
+     "action": "three arrows sweep into Khwarazm",
+     "t": 155.34,
+     "frame": 4660,
+     "matched": "invaded.",
+     "exact": true
+    },
+    {
+     "word": "Otrar",
+     "action": "Otrar gets a cross mark",
+     "t": 157.49,
+     "frame": 4725,
+     "matched": "Otrar,",
+     "exact": true
+    },
+    {
+     "word": "Bukhara",
+     "action": "Bukhara gets a cross mark",
+     "t": 158.09,
+     "frame": 4743,
+     "matched": "Bukhara,",
+     "exact": true
+    },
+    {
+     "word": "Samarkand",
+     "action": "Samarkand gets a cross mark",
+     "t": 158.86,
+     "frame": 4766,
+     "matched": "Samarkand",
+     "exact": true
+    },
+    {
+     "word": "Merv",
+     "action": "Merv gets a cross mark",
+     "t": 160.162,
+     "frame": 4805,
+     "matched": "Merv",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "part": "CONQUEST",
+   "assets": [
+    "IMG 016"
+   ],
+   "type": "image",
+   "image": "images/016.jpg",
+   "motion": "Slow zoom out, smoke overlay.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.36,
+     "x": 0.4,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "smoke": 0.8
+   },
+   "start": 161.8,
+   "end": 169.43,
+   "startFrame": 4854,
+   "endFrame": 5083,
+   "vo": "Cities that resisted were destroyed and their people massacred. Cities that surrendered were usually spared. Word spread fast.",
+   "cues": []
+  },
+  {
+   "id": "S24",
+   "part": "CONQUEST",
+   "assets": [
+    "MAP-05"
+   ],
+   "type": "map",
+   "motion": "Great Raid: dashed route from south of the Caspian through Persia, the Caucasus and the steppe north of the Black Sea, looping around the Caspian.",
+   "year": [
+    {
+     "at": 169.63,
+     "value": 1220
+    },
+    {
+     "at": 170.77,
+     "value": 1220
+    },
+    {
+     "at": 175.38,
+     "value": 1223
+    }
+   ],
+   "map": {
+    "id": "MAP-05",
+    "meridian": 46,
+    "camera": [
+     {
+      "at": 169.43,
+      "center": [
+       46.5,
+       42
+      ],
+      "zoom": 4.5
+     },
+     {
+      "at": 176.7,
+      "center": [
+       46.5,
+       42.4
+      ],
+      "zoom": 4.7
+     }
+    ],
+    "states": [
+     {
+      "at": 169.43,
+      "layers": [
+       {
+        "territory": "georgia_1200",
+        "fill": "olive"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "raid1",
+      "style": "route",
+      "path": [
+       [
+        53.5,
+        36.2
+       ],
+       [
+        51.4,
+        35.7
+       ],
+       [
+        48.5,
+        34.9
+       ],
+       [
+        46.3,
+        38.1
+       ],
+       [
+        44.9,
+        41.6
+       ]
+      ],
+      "at": 170.77,
+      "duration": 3.95
+     },
+     {
+      "id": "raid2",
+      "style": "route",
+      "path": [
+       [
+        44.9,
+        41.6
+       ],
+       [
+        47.2,
+        41.9
+       ],
+       [
+        48.3,
+        42.2
+       ],
+       [
+        46.6,
+        44.6
+       ],
+       [
+        42.5,
+        46.2
+       ],
+       [
+        37.7,
+        47.4
+       ]
+      ],
+      "at": 174.72,
+      "duration": 0.66
+     },
+     {
+      "id": "raid3",
+      "style": "route",
+      "path": [
+       [
+        37.7,
+        47.4
+       ],
+       [
+        41.5,
+        48.9
+       ],
+       [
+        45.5,
+        50.6
+       ],
+       [
+        49.8,
+        51.2
+       ],
+       [
+        53.2,
+        49.6
+       ],
+       [
+        56,
+        47.6
+       ]
+      ],
+      "at": 175.38,
+      "duration": 1.12
+     },
+     {
+      "id": "kalka",
+      "style": "river",
+      "path": [
+       [
+        38.3,
+        48.3
+       ],
+       [
+        37.9,
+        47.8
+       ],
+       [
+        37.6,
+        47.2
+       ]
+      ],
+      "at": 169.83,
+      "duration": 0.8
+     }
+    ],
+    "markers": [
+     {
+      "id": "georgia",
+      "label": "Georgia",
+      "lonlat": [
+       44.9,
+       41.6
+      ],
+      "at": 174.72,
+      "kind": "dot",
+      "battleAt": 174.72,
+      "labelSide": "left"
+     },
+     {
+      "id": "kalka",
+      "label": "Kalka River",
+      "lonlat": [
+       37.7,
+       47.4
+      ],
+      "at": 175.38,
+      "kind": "dot",
+      "battleAt": 175.38,
+      "labelSide": "bottom"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Persia",
+      "lonlat": [
+       52.5,
+       35.2
+      ],
+      "at": 169.83,
+      "size": 30,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "CASPIAN SEA",
+      "lonlat": [
+       50.8,
+       42.3
+      ],
+      "size": 26
+     },
+     {
+      "text": "BLACK SEA",
+      "lonlat": [
+       34.5,
+       43.3
+      ],
+      "size": 26
+     }
+    ]
+   },
+   "start": 169.43,
+   "end": 176.7,
+   "startFrame": 5083,
+   "endFrame": 5301,
+   "vo": "Meanwhile, two generals, Jebe and Subutai, rode all the way around the Caspian Sea, defeating Georgian and Rus armies on the way.",
+   "cues": [
+    {
+     "word": "Jebe",
+     "action": "animated dashed route starts south of the Caspian and loops around it",
+     "t": 170.77,
+     "frame": 5123,
+     "matched": "Jebe",
+     "exact": true
+    },
+    {
+     "word": "Georgian",
+     "action": "battle icon in Georgia",
+     "t": 174.72,
+     "frame": 5242,
+     "matched": "Georgian",
+     "exact": true
+    },
+    {
+     "word": "Rus",
+     "action": "battle icon at the Kalka river",
+     "t": 175.38,
+     "frame": 5261,
+     "matched": "Rus",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "part": "CONQUEST",
+   "assets": [
+    "IMG 017"
+   ],
+   "type": "image",
+   "image": "images/017.jpg",
+   "motion": "Very slow push in, slight desaturation.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.58
+    },
+    "to": {
+     "scale": 1.16,
+     "x": 0.5,
+     "y": 0.64
+    },
+    "desaturate": [
+     0.95,
+     0.6
+    ]
+   },
+   "date": {
+    "text": "1227",
+    "at": 177
+   },
+   "start": 176.7,
+   "end": 184.1,
+   "startFrame": 5301,
+   "endFrame": 5523,
+   "vo": "In 1227, Genghis Khan died during a campaign in western China. To this day, nobody knows where he is buried.",
+   "cues": []
+  },
+  {
+   "id": "S26",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "IMG 018"
+   ],
+   "type": "image",
+   "image": "images/018.jpg",
+   "motion": "Slow pan right across the city.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.24,
+     "x": 0.4,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.24,
+     "x": 0.62,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "1234",
+    "at": 184.4
+   },
+   "start": 184.1,
+   "end": 193.6,
+   "startFrame": 5523,
+   "endFrame": 5808,
+   "vo": "His son Ogedei became the Great Khan and built a capital at Karakorum. In 1234, the Jin dynasty was finally destroyed.",
+   "cues": []
+  },
+  {
+   "id": "S27",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "MAP-06"
+   ],
+   "type": "map",
+   "motion": "Europe campaign: arrows through Ryazan and Vladimir, Kyiv flashes, arrows to Legnica and Mohi with battle icons.",
+   "year": [
+    {
+     "at": 193.8,
+     "value": 1237
+    },
+    {
+     "at": 199.1,
+     "value": 1237
+    },
+    {
+     "at": 200.76,
+     "value": 1240
+    },
+    {
+     "at": 202.73,
+     "value": 1241
+    }
+   ],
+   "map": {
+    "id": "MAP-06",
+    "meridian": 31,
+    "camera": [
+     {
+      "at": 193.6,
+      "center": [
+       33,
+       51.8
+      ],
+      "zoom": 4.9
+     },
+     {
+      "at": 203.4,
+      "center": [
+       30,
+       51.3
+      ],
+      "zoom": 5.1
+     }
+    ],
+    "states": [
+     {
+      "at": 193.6,
+      "layers": [
+       {
+        "territory": "golden_1279",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "rus_1200",
+        "fill": "olive"
+       },
+       {
+        "territory": "poland_1200",
+        "fill": "olive"
+       },
+       {
+        "territory": "hungary_1200",
+        "fill": "olive"
+       }
+      ]
+     },
+     {
+      "at": 201.36,
+      "duration": 1.4,
+      "layers": [
+       {
+        "territory": "golden_1279",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "rus_1200",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "poland_1200",
+        "fill": "olive"
+       },
+       {
+        "territory": "hungary_1200",
+        "fill": "olive"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "ryazan",
+      "style": "arrow",
+      "path": [
+       [
+        49.5,
+        52.6
+       ],
+       [
+        44.5,
+        53.6
+       ],
+       [
+        40.4,
+        54.6
+       ],
+       [
+        40.3,
+        55.9
+       ]
+      ],
+      "at": 199.1,
+      "duration": 1.3
+     },
+     {
+      "id": "kyiv",
+      "style": "arrow",
+      "path": [
+       [
+        40,
+        49.5
+       ],
+       [
+        35,
+        50.4
+       ],
+       [
+        31.2,
+        50.5
+       ]
+      ],
+      "at": 199.6,
+      "duration": 1.16
+     },
+     {
+      "id": "legnica",
+      "style": "arrow",
+      "path": [
+       [
+        29.6,
+        50.6
+       ],
+       [
+        23.5,
+        51.6
+       ],
+       [
+        16.8,
+        51.3
+       ]
+      ],
+      "at": 201.8,
+      "duration": 0.9
+     },
+     {
+      "id": "mohi",
+      "style": "arrow",
+      "path": [
+       [
+        29.5,
+        49.6
+       ],
+       [
+        25,
+        49.4
+       ],
+       [
+        21.4,
+        48.3
+       ]
+      ],
+      "at": 202.33,
+      "duration": 0.9
+     }
+    ],
+    "markers": [
+     {
+      "id": "ryazan",
+      "label": "Ryazan",
+      "lonlat": [
+       40.1,
+       54.4
+      ],
+      "at": 194,
+      "labelSide": "right"
+     },
+     {
+      "id": "vladimir",
+      "label": "Vladimir",
+      "lonlat": [
+       40.4,
+       56.13
+      ],
+      "at": 194.15,
+      "labelSide": "right"
+     },
+     {
+      "id": "kyiv",
+      "label": "Kyiv",
+      "lonlat": [
+       30.52,
+       50.45
+      ],
+      "at": 194.3,
+      "flashAt": 200.76,
+      "crossAt": 200.96,
+      "labelSide": "bottom"
+     },
+     {
+      "id": "legnica",
+      "label": "Legnica",
+      "lonlat": [
+       16.16,
+       51.21
+      ],
+      "at": 194.45,
+      "battleAt": 202.7,
+      "labelSide": "bottom"
+     },
+     {
+      "id": "mohi",
+      "label": "Mohi",
+      "lonlat": [
+       20.95,
+       47.95
+      ],
+      "at": 194.6,
+      "battleAt": 203.23,
+      "labelSide": "right"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Poland",
+      "lonlat": [
+       20,
+       53.4
+      ],
+      "at": 194.1,
+      "size": 30
+     },
+     {
+      "text": "Hungary",
+      "lonlat": [
+       18.8,
+       46.4
+      ],
+      "at": 194.2,
+      "size": 30
+     },
+     {
+      "text": "Rus",
+      "lonlat": [
+       36,
+       55.2
+      ],
+      "at": 194.3,
+      "size": 34
+     }
+    ]
+   },
+   "start": 193.6,
+   "end": 203.4,
+   "startFrame": 5808,
+   "endFrame": 6102,
+   "vo": "Then the Mongols looked west. Between 1237 and 1241, they swept through the Russian principalities, burned Kyiv, and crushed armies in Poland and Hungary.",
+   "cues": [
+    {
+     "word": "Russian",
+     "action": "arrows through Ryazan and Vladimir",
+     "t": 199.1,
+     "frame": 5973,
+     "matched": "Russian",
+     "exact": true
+    },
+    {
+     "word": "Kyiv",
+     "action": "Kyiv flashes, cross mark",
+     "t": 200.76,
+     "frame": 6023,
+     "matched": "Kyiv,",
+     "exact": true
+    },
+    {
+     "word": "Poland",
+     "action": "arrow to Legnica, battle icon",
+     "t": 202.2,
+     "frame": 6066,
+     "matched": "Poland",
+     "exact": true
+    },
+    {
+     "word": "Hungary",
+     "action": "arrow to Mohi, battle icon",
+     "t": 202.73,
+     "frame": 6082,
+     "matched": "Hungary.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "IMG 019"
+   ],
+   "type": "image",
+   "image": "images/019.jpg",
+   "motion": "Slow push in, dust overlay.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.46,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "start": 203.4,
+   "end": 211.8,
+   "startFrame": 6102,
+   "endFrame": 6354,
+   "vo": "European knights had never faced anything like this. Mongol riders would pretend to retreat, then turn around and surround their pursuers.",
+   "cues": []
+  },
+  {
+   "id": "S29",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "IMG 020"
+   ],
+   "type": "image",
+   "image": "images/020.jpg",
+   "motion": "Slow zoom out.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.36,
+     "x": 0.45,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "start": 211.8,
+   "end": 223.931,
+   "startFrame": 6354,
+   "endFrame": 6718,
+   "vo": "Europe seemed open. But in late 1241, news came that Ogedei had died. The Mongol leaders turned back east, and they never returned in full force.",
+   "cues": []
+  },
+  {
+   "id": "S30",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "MAP-07"
+   ],
+   "type": "map",
+   "motion": "Middle East: arrow from Persia toward Baghdad, Baghdad flashes red.",
+   "year": [
+    {
+     "at": 224.131,
+     "value": 1258
+    }
+   ],
+   "map": {
+    "id": "MAP-07",
+    "meridian": 42,
+    "camera": [
+     {
+      "at": 223.931,
+      "center": [
+       41.5,
+       32.6
+      ],
+      "zoom": 6
+     },
+     {
+      "at": 233.89,
+      "center": [
+       42,
+       32.8
+      ],
+      "zoom": 6.25
+     }
+    ],
+    "states": [
+     {
+      "at": 223.931,
+      "layers": [
+       {
+        "territory": "ilkhanate_1279",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "abbasid_1258",
+        "fill": "#9C8A55"
+       },
+       {
+        "territory": "mamluk_1279",
+        "fill": "olive"
+       }
+      ]
+     },
+     {
+      "at": 228.12,
+      "duration": 1.4,
+      "layers": [
+       {
+        "territory": "ilkhanate_1279",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "abbasid_1258",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "mamluk_1279",
+        "fill": "olive"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "hulegu",
+      "style": "arrow",
+      "path": [
+       [
+        51.5,
+        35.4
+       ],
+       [
+        48.4,
+        34.8
+       ],
+       [
+        45.2,
+        33.6
+       ]
+      ],
+      "at": 226.07,
+      "duration": 1.05
+     }
+    ],
+    "markers": [
+     {
+      "id": "baghdad",
+      "label": "Baghdad",
+      "lonlat": [
+       44.36,
+       33.31
+      ],
+      "at": 224.331,
+      "flashAt": 227.12,
+      "labelSide": "bottom"
+     },
+     {
+      "id": "ainjalut",
+      "label": "Ain Jalut",
+      "lonlat": [
+       35.35,
+       32.55
+      ],
+      "at": 224.531,
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Mongols",
+      "lonlat": [
+       52.5,
+       33
+      ],
+      "at": 224.231,
+      "size": 34
+     },
+     {
+      "text": "Mamluks",
+      "lonlat": [
+       30.5,
+       27.8
+      ],
+      "at": 224.431,
+      "size": 34
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       29.5,
+       34
+      ],
+      "size": 22
+     },
+     {
+      "text": "PERSIAN GULF",
+      "lonlat": [
+       51,
+       27.3
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 223.931,
+   "end": 233.89,
+   "startFrame": 6718,
+   "endFrame": 7017,
+   "vo": "In the Middle East, Genghis's grandson Hulegu attacked Baghdad in 1258. One of the greatest cities in the world was sacked, and the last Abbasid caliph was killed.",
+   "cues": [
+    {
+     "word": "Hulegu",
+     "action": "arrow from Persia toward Baghdad",
+     "t": 226.07,
+     "frame": 6782,
+     "matched": "Hulegu",
+     "exact": true
+    },
+    {
+     "word": "Baghdad",
+     "action": "Baghdad flashes red",
+     "t": 227.12,
+     "frame": 6814,
+     "matched": "Baghdad",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "IMG 021"
+   ],
+   "type": "image",
+   "image": "images/021.jpg",
+   "motion": "Slow push in toward the river, smoke overlay.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.4,
+     "y": 0.64
+    }
+   },
+   "effects": {
+    "smoke": 0.6
+   },
+   "start": 233.89,
+   "end": 239.227,
+   "startFrame": 7017,
+   "endFrame": 7177,
+   "vo": "According to legend, so many books were thrown into the Tigris that the river ran black with ink.",
+   "cues": []
+  },
+  {
+   "id": "S32",
+   "part": "SONS AND GRANDSONS",
+   "assets": [
+    "IMG 022"
+   ],
+   "type": "image",
+   "image": "images/022.jpg",
+   "motion": "Slow push in.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.26,
+     "x": 0.42,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "1260",
+    "at": 239.527
+   },
+   "start": 239.227,
+   "end": 248.31,
+   "startFrame": 7177,
+   "endFrame": 7449,
+   "vo": "But in 1260, the Egyptian Mamluks defeated a Mongol army at Ain Jalut. For the first time, the Mongol advance had been stopped.",
+   "cues": []
+  },
+  {
+   "id": "S33",
+   "part": "SPLIT AND PEAK",
+   "assets": [
+    "MAP-08"
+   ],
+   "type": "map",
+   "motion": "Four khanates: the empire splits into four colored zones with dividing lines, each labelled on cue.",
+   "map": {
+    "id": "MAP-08",
+    "camera": [
+     {
+      "at": 248.31,
+      "center": [
+       74,
+       45
+      ],
+      "zoom": 1.45
+     },
+     {
+      "at": 261.455,
+      "center": [
+       74,
+       45
+      ],
+      "zoom": 1.52
+     }
+    ],
+    "states": [
+     {
+      "at": 248.31,
+      "layers": [
+       {
+        "territory": "golden_1300",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "chagatai_1300",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "ilkhanate_1300",
+        "fill": "terracotta",
+        "opacity": 0.9
+       },
+       {
+        "territory": "yuan_1300",
+        "fill": "terracotta",
+        "opacity": 0.9
+       }
+      ]
+     },
+     {
+      "at": 254.76,
+      "duration": 1.1,
+      "layers": [
+       {
+        "territory": "golden_1300",
+        "fill": "gold",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "chagatai_1300",
+        "fill": "olive",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "ilkhanate_1300",
+        "fill": "deepRed",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "yuan_1300",
+        "fill": "terracotta",
+        "opacity": 0.92,
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Golden Horde",
+      "lonlat": [
+       56,
+       51.5
+      ],
+      "at": 255.933,
+      "size": 34
+     },
+     {
+      "text": "Chagatai Khanate",
+      "lonlat": [
+       76,
+       42.2
+      ],
+      "at": 257.04,
+      "size": 34
+     },
+     {
+      "text": "Ilkhanate",
+      "lonlat": [
+       53,
+       32.5
+      ],
+      "at": 258.461,
+      "size": 34
+     },
+     {
+      "text": "Yuan Dynasty",
+      "lonlat": [
+       110,
+       33
+      ],
+      "at": 259.659,
+      "size": 34
+     }
+    ]
+   },
+   "start": 248.31,
+   "end": 261.455,
+   "startFrame": 7449,
+   "endFrame": 7844,
+   "vo": "By then, the empire was too big to rule from one place. After a civil war between Genghis's grandsons, it broke into four parts: the Golden Horde, the Chagatai Khanate, the Ilkhanate, and the Yuan dynasty in China.",
+   "cues": [
+    {
+     "word": "four",
+     "action": "empire splits into four colored zones with dividing lines",
+     "t": 254.76,
+     "frame": 7643,
+     "matched": "four",
+     "exact": true
+    },
+    {
+     "word": "Golden",
+     "action": "label GOLDEN HORDE",
+     "t": 255.933,
+     "frame": 7678,
+     "matched": "Golden",
+     "exact": true
+    },
+    {
+     "word": "Chagatai",
+     "action": "label CHAGATAI KHANATE",
+     "t": 257.04,
+     "frame": 7711,
+     "matched": "Chagatai",
+     "exact": true
+    },
+    {
+     "word": "Ilkhanate",
+     "action": "label ILKHANATE",
+     "t": 258.461,
+     "frame": 7754,
+     "matched": "Ilkhanate,",
+     "exact": true
+    },
+    {
+     "word": "Yuan",
+     "action": "label YUAN DYNASTY",
+     "t": 259.659,
+     "frame": 7790,
+     "matched": "Yuan",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "part": "SPLIT AND PEAK",
+   "assets": [
+    "IMG 023"
+   ],
+   "type": "image",
+   "image": "images/023.jpg",
+   "motion": "Slow push in on Kublai.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.5,
+     "y": 0.38
+    }
+   },
+   "date": {
+    "text": "1279",
+    "at": 261.755
+   },
+   "titles": [
+    {
+     "text": "KUBLAI KHAN",
+     "at": 262.35,
+     "style": "name"
+    }
+   ],
+   "start": 261.455,
+   "end": 270.8,
+   "startFrame": 7844,
+   "endFrame": 8124,
+   "vo": "The Yuan was ruled by Kublai Khan. In 1279, he completed the conquest of southern China, and for the first time all of China was under Mongol rule.",
+   "cues": [
+    {
+     "word": "Kublai",
+     "action": "label \"KUBLAI KHAN\"",
+     "t": 262.35,
+     "frame": 7871,
+     "matched": "Kublai",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "part": "SPLIT AND PEAK",
+   "assets": [
+    "IMG 024"
+   ],
+   "type": "image",
+   "image": "images/024.jpg",
+   "motion": "Slow zoom out, rain and lightning flash overlay.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.36,
+     "x": 0.58,
+     "y": 0.42
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "rain": 1,
+    "lightning": [
+     271.4,
+     275.1,
+     277.79
+    ]
+   },
+   "start": 270.8,
+   "end": 281.4,
+   "startFrame": 8124,
+   "endFrame": 8442,
+   "vo": "He also tried to invade Japan, twice. Both attempts failed. The second fleet was destroyed by a typhoon the Japanese called kamikaze, the divine wind.",
+   "cues": []
+  },
+  {
+   "id": "S36",
+   "part": "SPLIT AND PEAK",
+   "assets": [
+    "MAP-09"
+   ],
+   "type": "map",
+   "motion": "Silk Road: glowing ochre trade routes draw in, caravan dots move along them, dashed Marco Polo route Venice to Beijing (Khanbaliq).",
+   "map": {
+    "id": "MAP-09",
+    "camera": [
+     {
+      "at": 281.4,
+      "center": [
+       66,
+       42
+      ],
+      "zoom": 1.3
+     },
+     {
+      "at": 290.649,
+      "center": [
+       66,
+       42
+      ],
+      "zoom": 1.36
+     }
+    ],
+    "states": [
+     {
+      "at": 281.4,
+      "layers": [
+       {
+        "territory": "golden_1300",
+        "fill": "terracotta",
+        "opacity": 0.45
+       },
+       {
+        "territory": "chagatai_1300",
+        "fill": "terracotta",
+        "opacity": 0.45
+       },
+       {
+        "territory": "ilkhanate_1300",
+        "fill": "terracotta",
+        "opacity": 0.45
+       },
+       {
+        "territory": "yuan_1300",
+        "fill": "terracotta",
+        "opacity": 0.45
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "silk-south",
+      "style": "trade",
+      "at": 284.1,
+      "duration": 2.2,
+      "path": [
+       [
+        28.98,
+        41.01
+       ],
+       [
+        39.7,
+        41
+       ],
+       [
+        46.3,
+        38.1
+       ],
+       [
+        54,
+        36.6
+       ],
+       [
+        61.8,
+        37.6
+       ],
+       [
+        64.4,
+        39.8
+       ],
+       [
+        67,
+        39.65
+       ],
+       [
+        76,
+        39.5
+       ],
+       [
+        87,
+        41.8
+       ],
+       [
+        94.7,
+        40.1
+       ],
+       [
+        103.8,
+        36.1
+       ],
+       [
+        108.9,
+        34.3
+       ]
+      ],
+      "dots": {
+       "at": 285.929,
+       "count": 4,
+       "period": 14
+      }
+     },
+     {
+      "id": "silk-steppe",
+      "style": "trade",
+      "at": 284.45,
+      "duration": 2.2,
+      "path": [
+       [
+        35.4,
+        45
+       ],
+       [
+        47.9,
+        46.8
+       ],
+       [
+        53.5,
+        45
+       ],
+       [
+        59.15,
+        42.3
+       ],
+       [
+        68.3,
+        42.85
+       ],
+       [
+        80.9,
+        43.9
+       ],
+       [
+        92,
+        45.5
+       ],
+       [
+        102.8,
+        47.2
+       ],
+       [
+        111,
+        43.5
+       ],
+       [
+        116.4,
+        39.9
+       ]
+      ],
+      "dots": {
+       "at": 286.229,
+       "count": 4,
+       "period": 15
+      }
+     },
+     {
+      "id": "silk-gulf",
+      "style": "trade",
+      "at": 284.8,
+      "duration": 1.6,
+      "path": [
+       [
+        44.36,
+        33.31
+       ],
+       [
+        48.5,
+        34.8
+       ],
+       [
+        54,
+        36.6
+       ]
+      ],
+      "dots": {
+       "at": 286.529,
+       "count": 2,
+       "period": 7
+      }
+     },
+     {
+      "id": "marco",
+      "style": "route",
+      "at": 288.02,
+      "path": [
+       [
+        12.33,
+        45.44
+       ],
+       [
+        19,
+        37.5
+       ],
+       [
+        29,
+        34
+       ],
+       [
+        35.1,
+        32.9
+       ],
+       [
+        35.8,
+        36.8
+       ],
+       [
+        40.5,
+        38.5
+       ],
+       [
+        46.3,
+        38.1
+       ],
+       [
+        52.5,
+        32
+       ],
+       [
+        56.45,
+        27.1
+       ],
+       [
+        57.1,
+        30.3
+       ],
+       [
+        62,
+        34.5
+       ],
+       [
+        66.9,
+        36.76
+       ],
+       [
+        72,
+        37.5
+       ],
+       [
+        76,
+        39.5
+       ],
+       [
+        79.9,
+        37.1
+       ],
+       [
+        88,
+        39
+       ],
+       [
+        94.7,
+        40.1
+       ],
+       [
+        104,
+        39.5
+       ],
+       [
+        110,
+        41.2
+       ],
+       [
+        116.2,
+        42.36
+       ],
+       [
+        116.4,
+        39.9
+       ]
+      ],
+      "duration": 2.429
+     }
+    ],
+    "markers": [
+     {
+      "id": "venice",
+      "label": "Venice",
+      "lonlat": [
+       12.33,
+       45.44
+      ],
+      "at": 288.02,
+      "kind": "city",
+      "labelSide": "top"
+     },
+     {
+      "id": "khanbaliq",
+      "label": "Khanbaliq (Beijing)",
+      "lonlat": [
+       116.4,
+       39.9
+      ],
+      "at": 288.22,
+      "kind": "city",
+      "labelSide": "bottom"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Silk Road",
+      "lonlat": [
+       70,
+       46.5
+      ],
+      "at": 284.9,
+      "size": 40,
+      "tone": "dark"
+     }
+    ]
+   },
+   "start": 281.4,
+   "end": 290.649,
+   "startFrame": 8442,
+   "endFrame": 8719,
+   "vo": "Despite all the violence, Mongol rule made the Silk Road safer than ever. Merchants, ideas and travelers like Marco Polo crossed from Europe to China.",
+   "cues": [
+    {
+     "word": "Silk",
+     "action": "trade routes draw in as glowing ochre lines",
+     "t": 284.1,
+     "frame": 8523,
+     "matched": "Silk",
+     "exact": true
+    },
+    {
+     "word": "Merchants",
+     "action": "small caravan dots move along the routes",
+     "t": 285.929,
+     "frame": 8578,
+     "matched": "Merchants,",
+     "exact": true
+    },
+    {
+     "word": "Marco",
+     "action": "dashed route from Venice to Beijing (Khanbaliq)",
+     "t": 288.02,
+     "frame": 8641,
+     "matched": "Marco",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "part": "SPLIT AND PEAK",
+   "assets": [
+    "IMG 025"
+   ],
+   "type": "image",
+   "image": "images/025.jpg",
+   "motion": "Slow push in, slight desaturation over the scene.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.45,
+     "y": 0.6
+    },
+    "desaturate": [
+     0.95,
+     0.55
+    ]
+   },
+   "start": 290.649,
+   "end": 300.768,
+   "startFrame": 8719,
+   "endFrame": 9023,
+   "vo": "But the same routes also carried something deadly. In the 1340s, the Black Death spread from Central Asia to the Black Sea, and from there to Europe.",
+   "cues": []
+  },
+  {
+   "id": "S38",
+   "part": "DECLINE AND LEGACY",
+   "assets": [
+    "MAP-10"
+   ],
+   "type": "map",
+   "motion": "Decline: starts from the MAP-08 state; Ilkhanate fades, Yuan fades and MING appears, Golden Horde shrinks and fades.",
+   "year": [
+    {
+     "at": 303.2,
+     "value": 1335
+    },
+    {
+     "at": 307.15,
+     "value": 1368
+    },
+    {
+     "at": 310.42,
+     "value": 1480
+    }
+   ],
+   "map": {
+    "id": "MAP-10",
+    "camera": [
+     {
+      "at": 300.768,
+      "center": [
+       74,
+       45
+      ],
+      "zoom": 1.52
+     },
+     {
+      "at": 314.6,
+      "center": [
+       74,
+       45
+      ],
+      "zoom": 1.45
+     }
+    ],
+    "states": [
+     {
+      "at": 300.768,
+      "layers": [
+       {
+        "territory": "golden_1300",
+        "fill": "gold",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "chagatai_1300",
+        "fill": "olive",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "ilkhanate_1300",
+        "fill": "deepRed",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "yuan_1300",
+        "fill": "terracotta",
+        "opacity": 0.92,
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 303.2,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "golden_1300",
+        "fill": "gold",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "chagatai_1300",
+        "fill": "olive",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "yuan_1300",
+        "fill": "terracotta",
+        "opacity": 0.92,
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 307.15,
+      "duration": 1.4,
+      "layers": [
+       {
+        "territory": "golden_1300",
+        "fill": "gold",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "chagatai_1300",
+        "fill": "olive",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "ming_1492",
+        "fill": "olive",
+        "opacity": 0.85
+       }
+      ]
+     },
+     {
+      "at": 310.42,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "chagatai_1300",
+        "fill": "olive",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "golden_1492",
+        "fill": "gold",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "ming_1492",
+        "fill": "olive",
+        "opacity": 0.85
+       }
+      ]
+     },
+     {
+      "at": 312.22,
+      "duration": 1.4,
+      "layers": [
+       {
+        "territory": "chagatai_1300",
+        "fill": "olive",
+        "opacity": 0.92,
+        "outline": 1
+       },
+       {
+        "territory": "ming_1492",
+        "fill": "olive",
+        "opacity": 0.85
+       }
+      ]
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Golden Horde",
+      "lonlat": [
+       56,
+       51.5
+      ],
+      "at": 295.768,
+      "size": 34,
+      "hideAt": 312.22
+     },
+     {
+      "text": "Chagatai Khanate",
+      "lonlat": [
+       76,
+       42.2
+      ],
+      "at": 295.768,
+      "size": 34
+     },
+     {
+      "text": "Ilkhanate",
+      "lonlat": [
+       53,
+       32.5
+      ],
+      "at": 295.768,
+      "size": 34,
+      "hideAt": 303.2
+     },
+     {
+      "text": "Yuan Dynasty",
+      "lonlat": [
+       110,
+       33
+      ],
+      "at": 295.768,
+      "size": 34,
+      "hideAt": 307.15
+     },
+     {
+      "text": "Ming",
+      "lonlat": [
+       111,
+       31
+      ],
+      "at": 307.55,
+      "size": 44
+     }
+    ]
+   },
+   "start": 300.768,
+   "end": 314.6,
+   "startFrame": 9023,
+   "endFrame": 9438,
+   "vo": "One by one, the khanates fell apart. The Ilkhanate collapsed in 1335. In 1368, the Yuan were driven out of China by the Ming. The Golden Horde held on the longest, until its grip on Moscow ended in 1480.",
+   "cues": [
+    {
+     "word": "Ilkhanate",
+     "action": "Ilkhanate zone fades out",
+     "t": 303.2,
+     "frame": 9096,
+     "matched": "Ilkhanate",
+     "exact": true
+    },
+    {
+     "word": "Yuan",
+     "action": "Yuan zone fades, \"MING\" label appears",
+     "t": 307.15,
+     "frame": 9215,
+     "matched": "Yuan",
+     "exact": true
+    },
+    {
+     "word": "Golden",
+     "action": "Golden Horde zone shrinks and fades",
+     "t": 310.42,
+     "frame": 9313,
+     "matched": "Golden",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "part": "DECLINE AND LEGACY",
+   "assets": [
+    "IMG 026"
+   ],
+   "type": "image",
+   "image": "images/026.jpg",
+   "motion": "Slow zoom out on the lone rider.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.38,
+     "x": 0.6,
+     "y": 0.56
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "start": 314.6,
+   "end": 322.8,
+   "startFrame": 9438,
+   "endFrame": 9684,
+   "vo": "The empire was gone. But it had reshaped the map of Asia and Europe, and the countries that rose from its ruins, from Russia to China.",
+   "cues": []
+  },
+  {
+   "id": "S40",
+   "part": "DECLINE AND LEGACY",
+   "assets": [
+    "IMG 001"
+   ],
+   "type": "image",
+   "image": "images/001.jpg",
+   "motion": "Slow push in, then fade to black over the final 1.5 seconds after the VO ends (bookend reuse of 001).",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.28,
+     "x": 0.33,
+     "y": 0.42
+    }
+   },
+   "start": 322.8,
+   "end": 328.771,
+   "startFrame": 9684,
+   "endFrame": 9863,
+   "vo": "And it all started with a boy on the steppe who refused to give up.",
+   "cues": []
+  }
+ ]
+}

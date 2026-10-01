@@ -16,6 +16,8 @@ const arg = (k, d) => {
 };
 const len = parseInt(arg("frames", "120"), 10);
 const scale = parseFloat(arg("scale", "1"));
+const only = arg("variants", ""); // e.g. --variants=baseline,all
+const tag = arg("tag", "");
 const concurrency = os.cpus().length;
 
 const { meta, scenes } = JSON.parse(fs.readFileSync("src/data/scenes.json", "utf8"));
@@ -43,6 +45,11 @@ const variants = [
   { name: "all effects off", off: ["all"] },
 ];
 
+if (only) {
+  const keys = only.split(",");
+  for (let i = variants.length - 1; i >= 0; i--)
+    if (!keys.some((k) => variants[i].name.startsWith(k))) variants.splice(i, 1);
+}
 fs.mkdirSync("out/bench", { recursive: true });
 console.log(`CPU: ${os.cpus()[0]?.model} x${concurrency}, ${Math.round(os.totalmem() / 1e9)} GB RAM`);
 console.log("Bundling...");
@@ -61,7 +68,7 @@ for (const v of variants) {
       codec: "h264",
       inputProps,
       frameRange: seg.range,
-      outputLocation: `out/bench/${v.name.replace(/[^a-z0-9]+/gi, "-")}-${seg.name}.mp4`,
+      outputLocation: `out/bench/${tag}${v.name.replace(/[^a-z0-9]+/gi, "-")}-${seg.name}.mp4`,
       muted: true,
       scale,
       concurrency,
@@ -89,6 +96,6 @@ for (const { v, times } of rows) {
   const fps = (len * segments.length) / tot;
   md += `| ${v.name} | ${times.map((t) => t.toFixed(1) + "s").join(" | ")} | ${tot.toFixed(1)}s | ${fps.toFixed(1)} | ${((1 - tot / base) * 100).toFixed(0)}% faster | ${(totalFrames / fps / 60).toFixed(1)} min |\n`;
 }
-fs.writeFileSync("out/bench/results.md", md);
+fs.writeFileSync(`out/bench/${tag}results.md`, md);
 if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
 console.log("\n" + md);

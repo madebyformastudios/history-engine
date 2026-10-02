@@ -44,6 +44,8 @@ export const Captions: React.FC = () => {
   const { fps } = useVideoConfig();
   const t = frame / fps;
   const page = pages.find((p) => t >= p.start - 0.05 && t < p.end);
+  // fades shrink on very short pages (a lone last word) so the keyframes stay increasing
+  const fade = page ? Math.min(0.12, (page.end - page.start) / 2 - 0.001) : 0.12;
 
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
@@ -57,7 +59,7 @@ export const Captions: React.FC = () => {
             bottom: 62,
             width: 1440,
             transform: `translateX(-50%) translateY(${interpolate(t, [page.start - 0.05, page.start + 0.15], [10, 0], { easing: theme.ease.out, extrapolateLeft: "clamp", extrapolateRight: "clamp" })}px)`,
-            opacity: interpolate(t, [page.start - 0.05, page.start + 0.12, page.end - 0.12, page.end], [0, 1, 1, 0], {
+            opacity: interpolate(t, [page.start - 0.05, page.start + fade, page.end - fade, page.end], [0, 1, 1, 0], {
               extrapolateLeft: "clamp",
               extrapolateRight: "clamp",
             }),

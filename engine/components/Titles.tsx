@@ -1,16 +1,19 @@
 import { AbsoluteFill, interpolate, spring } from "remotion";
 import type { TextLabel } from "../config";
-import { useSceneTime } from "../timing";
+import { ramp, useSceneTime } from "../timing";
 import { theme } from "../theme";
+
+/** 1 until `hideAt`, then fades to 0 over half a second (no hideAt: stays). */
+const fadeOut = (t: number, hideAt?: number) => (hideAt === undefined ? 1 : 1 - ramp(t, hideAt, 0.5, theme.ease.in));
 
 const SHADOW = `0 3px 22px ${theme.colors.shadow}, 0 1px 3px rgba(0,0,0,0.55)`;
 
 /** Centred serif title with a thin rule that draws out underneath it. */
-const TitleCard: React.FC<{ text: string; at: number }> = ({ text, at }) => {
+const TitleCard: React.FC<{ text: string; at: number; hideAt?: number }> = ({ text, at, hideAt }) => {
   const { t, fps } = useSceneTime();
   if (t < at) return null;
   const f = (t - at) * fps;
-  const p = spring({ frame: f, fps, config: theme.spring.soft });
+  const p = spring({ frame: f, fps, config: theme.spring.soft }) * fadeOut(t, hideAt);
   const rule = spring({ frame: f - 10, fps, config: theme.spring.smooth });
   const breathe = 1 + Math.sin(t * 0.9) * 0.004;
   return (
@@ -65,11 +68,11 @@ const TitleCard: React.FC<{ text: string; at: number }> = ({ text, at }) => {
 };
 
 /** Lower-left name card ("GENGHIS KHAN"), sits above the caption band. */
-const NameCard: React.FC<{ text: string; at: number }> = ({ text, at }) => {
+const NameCard: React.FC<{ text: string; at: number; hideAt?: number }> = ({ text, at, hideAt }) => {
   const { t, fps } = useSceneTime();
   if (t < at) return null;
   const f = (t - at) * fps;
-  const p = spring({ frame: f, fps, config: theme.spring.smooth });
+  const p = spring({ frame: f, fps, config: theme.spring.smooth }) * fadeOut(t, hideAt);
   const rule = spring({ frame: f - 6, fps, config: theme.spring.smooth });
   return (
     <div style={{ position: "absolute", left: 96, bottom: 250, pointerEvents: "none" }}>
@@ -114,7 +117,7 @@ const NameCard: React.FC<{ text: string; at: number }> = ({ text, at }) => {
 export const Titles: React.FC<{ titles: TextLabel[] }> = ({ titles }) => (
   <>
     {titles.map((l) =>
-      l.style === "title" ? <TitleCard key={l.text} text={l.text} at={l.at} /> : <NameCard key={l.text} text={l.text} at={l.at} />,
+      l.style === "title" ? <TitleCard key={l.text} {...l} /> : <NameCard key={l.text} {...l} />,
     )}
   </>
 );

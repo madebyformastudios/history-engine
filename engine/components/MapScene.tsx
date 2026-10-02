@@ -260,7 +260,8 @@ const LINE_STYLE = {
 
 const MapLine: React.FC<{ line: LineConfig; t: number; toScreen: (ll: LonLat) => Pt }> = ({ line, t, toScreen }) => {
   const draw = ramp(t, line.at, line.duration ?? 1.4, theme.ease.inOut);
-  if (draw <= 0) return null;
+  const shown = line.hideAt !== undefined ? 1 - ramp(t, line.hideAt, 0.6, theme.ease.in) : 1;
+  if (draw <= 0 || shown <= 0) return null;
   const base = line.path.map(toScreen);
   const pts = line.smooth === false ? base : smoothPolyline(base);
   const part = partialPolyline(pts, draw);
@@ -286,7 +287,7 @@ const MapLine: React.FC<{ line: LineConfig; t: number; toScreen: (ll: LonLat) =>
   const dots = line.dots && t >= line.dots.at ? line.dots : null;
 
   return (
-    <g>
+    <g opacity={shown < 1 ? shown : undefined}>
       {glow > 0 && <path d={d} fill="none" stroke={theme.colors.ochre} strokeOpacity={glow * 0.5} strokeWidth={22} strokeLinecap="round" strokeLinejoin="round" style={{ filter: isOff("blur") ? undefined : "blur(6px)" }} />}
       <path d={d} fill="none" stroke={st.under} strokeOpacity={line.style === "arrow" ? 0.85 : 0.75} strokeWidth={st.underWidth} strokeLinecap="round" strokeLinejoin="round" />
       <path d={d} fill="none" stroke={st.color} strokeWidth={st.width} strokeDasharray={st.dash} strokeDashoffset={dashOffset} strokeLinecap="round" strokeLinejoin="round" />

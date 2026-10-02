@@ -28,7 +28,7 @@ export type Effects = {
   vignette?: number; // extra dark vignette
 };
 
-export type TextLabel = { text: string; at: number; style: "title" | "name" };
+export type TextLabel = { text: string; at: number; style: "title" | "name"; hideAt?: number };
 
 export type SpriteConfig = {
   src: string;
@@ -65,6 +65,7 @@ export type LineConfig = {
   style: "river" | "arrow" | "route" | "trade" | "divider";
   smooth?: boolean;
   dots?: { at: number; count: number; period: number; loop?: boolean }; // caravans moving along the line
+  hideAt?: number; // fades the line out (arrow pulled back, route abandoned)
 };
 export type RegionLabel = { text: string; lonlat: LonLat; at: number; size?: number; tone?: "light" | "dark"; hideAt?: number };
 

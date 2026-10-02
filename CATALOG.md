@@ -41,6 +41,7 @@ Has a soft drop shadow.
 |---|---|
 | `titles: [{ text, at, style: "title" }]` | Centred serif title with a line that draws out under it (video title card) |
 | `titles: [{ text, at, style: "name" }]` | Lower-left name card, e.g. "GENGHIS KHAN" |
+| `titles: [{ ..., hideAt }]` | Fades the title or name card out (use it to show two name cards one after the other) |
 | `year: [{ at, value }, ...]` | Top-left year plaque. One key = static, several = counts between them. Negative = BC, no year 0 |
 | `yearEra` | Override the era text ("AD", "BC") |
 | `date: { text, at }` | Top-left plaque with free text |
@@ -65,7 +66,7 @@ One projection per video (`map` in the spec: `extent`, `rotate`, `parallels`). E
 | `camera: [{ at, center: [lon, lat], zoom }]` | Camera keyframes, eased. Zoom 1.4 = Eurasia, ~5 = one region |
 | `states: [{ at, layers, mode, duration, origin }]` | Territory layers over time. `mode: "grow"` reveals radially from `origin`, `"fade"` crossfades. Layers: `{ territory, fill, opacity, outline }` |
 | `markers: [{ id, label, lonlat, at, kind, pulse, crossAt, flashAt, battleAt, labelSide }]` | Cities and dots. `crossAt` = cross mark (city falls), `flashAt` = red flash (sacked), `battleAt` = crossed swords |
-| `lines: [{ id, path, at, duration, style, smooth, dots }]` | Animated lines. Styles: `arrow` (army move), `route` (dashed journey), `trade` (glowing route), `river`, `divider` (border split). `dots` = caravans moving along it |
+| `lines: [{ id, path, at, duration, style, smooth, dots, hideAt }]` | Animated lines. Styles: `arrow` (army move), `route` (dashed journey), `trade` (glowing route), `river`, `divider` (border split). `dots` = caravans moving along it. `hideAt` fades the line out (arrow pulled back, route abandoned) |
 | `regionLabels: [{ text, lonlat, at, size, tone, hideAt }]` | Large spaced labels for states and regions |
 | `seaLabels: [{ text, lonlat, size }]` | Italic sea names |
 
@@ -75,7 +76,9 @@ Render cost: maps are the slowest scenes (about 6x slower than image scenes). Se
 ### Territory library (`engine/maps-data/territories.json`)
 
 Shared by all videos. Built by `npm run maps` from `scripts/fetch-maps.mjs`
-(historical-basemaps by aourednik + hand-made polygons). Add new territories there, never per video.
+(historical-basemaps by aourednik, modern borders from Natural Earth 50m, and hand-made polygons).
+Add new territories there, never per video. Nile territories are corridors along one shared Nile course
+(`NILE` in the script), so valley zones follow the river. Land is clipped to 40°S..82°N, 40°W..185°E.
 
 | Territory | Source | Accuracy |
 |---|---|---|
@@ -109,3 +112,27 @@ Shared by all videos. Built by `npm run maps` from `scripts/fetch-maps.mjs`
 | `mongol_1218` | handmade:mongol_1206 + handmade:kara_khitai_1218 | hand-made estimate |
 | `khwarazm_1218` | handmade:khwarazm_1218 | hand-made estimate |
 | `abbasid_1258` | handmade:abbasid_1258 | hand-made estimate |
+| `nile_valley` | handmade: Nile corridor 22°N to the delta + delta + Faiyum | hand-made estimate (width exaggerated) |
+| `upper_egypt_3200bc` | handmade: valley Aswan to Memphis + Faiyum | hand-made estimate |
+| `lower_egypt_3200bc` | handmade: delta | hand-made estimate |
+| `egypt_old_kingdom`, `egypt_heartland` | upper + lower Egypt (valley + delta, Aswan to the sea) | hand-made estimate |
+| `fip_delta_west`, `fip_delta_east`, `fip_herakleopolis`, `fip_hermopolis`, `fip_asyut`, `fip_thebes`, `fip_elephantine` | handmade: Egypt split ~2150 BC | hand-made estimate |
+| `egypt_middle_kingdom` | upper + lower Egypt + Lower Nubia to Semna | hand-made estimate |
+| `hyksos_1650bc` | handmade: delta, valley to Cusae, north Sinai | hand-made estimate |
+| `egypt_theban_1650bc` | handmade: valley Cusae to Aswan | hand-made estimate |
+| `egypt_levant_1450bc` | handmade: Canaan and Syria to the Euphrates bend | hand-made estimate |
+| `egypt_nubia_1450bc` | handmade: Nile corridor Aswan to the 4th cataract | hand-made estimate |
+| `egypt_1274bc` | Egypt + Nubia + Levant to just south of Kadesh | hand-made estimate |
+| `hittite_1274bc` | world_bc1500 Hittites + handmade northern Syria | dataset (coarse) + hand-made |
+| `kush_750bc` | world_bc700 | dataset (coarse) |
+| `kush_25th_dynasty` | world_bc700 Kush + Nubia + Egypt | dataset (coarse) + hand-made |
+| `achaemenid_500bc` | world_bc500 | dataset (coarse) |
+| `ptolemaic_200bc`, `seleucid_200bc`, `macedon_200bc` | world_bc200 | dataset (coarse) |
+| `roman_bc1` | world_bc1 | dataset (coarse) |
+| `eastern_roman_600`, `sasanian_600`, `hejaz_600` | world_600 | dataset (coarse) |
+| `mamluk_1492`, `ottoman_1492` | world_1492 | dataset (coarse) |
+| `ottoman_1530` | world_1530 | dataset (coarse) |
+| `egypt_1811`, `ottoman_1815` | world_1815 | dataset (coarse) |
+| `sudan_1820s`, `hejaz_1818`, `syria_1831` | handmade: Muhammad Ali's conquests | hand-made estimate |
+| `sinai_1967`, `gaza_1967` | handmade: Suez Canal to the Rafah-Taba line; Gaza Strip | hand-made estimate |
+| `egypt_modern`, `israel_modern`, `syria_modern`, `sudan_modern`, `south_sudan_modern`, `ethiopia_modern` | Natural Earth 50m (`{ country }` source) | modern borders |

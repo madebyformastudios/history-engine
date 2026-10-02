@@ -109,3 +109,12 @@ Shared by all videos. Built by `npm run maps` from `scripts/fetch-maps.mjs`
 | `mongol_1218` | handmade:mongol_1206 + handmade:kara_khitai_1218 | hand-made estimate |
 | `khwarazm_1218` | handmade:khwarazm_1218 | hand-made estimate |
 | `abbasid_1258` | handmade:abbasid_1258 | hand-made estimate |
+
+## Planned, not built yet
+
+Build these once, generically, then move them up into the catalog.
+
+| Option | What it will do |
+|---|---|
+| `cta: { at: "@subscribe", duration }` (any scene) | Animated subscribe overlay in the lower part of the frame: channel logo, a Subscribe button that gets clicked by a cursor and turns into Subscribed, and a bell. Plays while the spoken CTA runs. Uses `branding/profile.png` |
+| `shots: [{ at: "@word", from, to }]` (image scenes) | Several camera moves on one image with a hard cut or a quick push between them, so a long paragraph on one image still changes picture every few seconds |

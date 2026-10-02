@@ -11,6 +11,9 @@ The scene-by-scene runbook. Single source of truth: every scene, every asset, ev
 - `MOTION`: how the asset moves. `CUES`: moments anchored to a spoken word, `@"Otrar"`.
 - `LABEL`: on-screen text (year, name).
 - Reuse an asset in another scene only when the runbook says so.
+- Pacing: no shot longer than 8 seconds. Split long VO over several shots (another image, a map beat, or a new
+  camera move on another part of the same image). Shots within one scene: `SHOTS:` lines with a cue word each.
+- CTA: one spoken subscribe line after the hook (0:45 to 1:30), with `CTA: subscribe overlay` on that scene.
 
 ## Pronunciation (script_elevenlabs.txt)
 

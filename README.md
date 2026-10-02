@@ -27,4 +27,4 @@ On the free plan this is about as fast as a local Mac, but it keeps your compute
 | Folder | Title |
 |---|---|
 | `mongol-empire` | The Mongol Empire in 5 Minutes |
-| `egypt` | The ENTIRE History of Egypt (about 15 min, in production) |
+| `egypt` | The ENTIRE History of Egypt in 14 Minutes (in production) |

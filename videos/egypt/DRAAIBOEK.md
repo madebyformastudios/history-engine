@@ -1,4 +1,4 @@
-# DRAAIBOEK: The ENTIRE History of Egypt
+# DRAAIBOEK: The ENTIRE History of Egypt in 14 Minutes
 
 The scene-by-scene runbook. Single source of truth: every scene, every asset, every cue.
 
@@ -36,7 +36,7 @@ Map colors for this video: Egypt = terracotta, rivals and invaders = olive or de
 | Acre | Akko |
 | Champollion | Shampolyon |
 
-The voiceover was recorded in six parts (see the PART headings below); there may be short pauses between parts.
+The voiceover (public/audio/voiceover.mp3, 14:10) was recorded in six parts and joined with a pause of about 1.8 s between parts, at 2:39, 5:07, 7:13, 9:29 and 11:04.
 
 ---
 

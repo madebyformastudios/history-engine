@@ -11,11 +11,12 @@ videos/<slug>/     one video: DRAAIBOEK.md, script.txt, scene-spec.mjs, data/, p
 videos/_template/  copied by `npm run new <slug>`
 scripts/           pipeline scripts (all take the video via VIDEO, set by `npm run <task> <slug>`)
 CATALOG.md         everything the engine can already do. READ IT FIRST.
+STYLE.md           how videos look and move (camera, transitions, captions, infographics, maps). Follow it.
 ```
 
 ## Golden rule: reuse first
 
-1. Read `CATALOG.md` before writing any code.
+1. Read `CATALOG.md` and `STYLE.md` before writing any code.
 2. If the catalog covers what the runbook asks, only write `videos/<slug>/scene-spec.mjs`. Do not touch `engine/`.
 3. If something truly does not fit, build it in `engine/` as a generic, configurable component (no topic-specific
    names or hard-coded content), expose it through scene-spec options, and add it to `CATALOG.md` in the same commit.
@@ -31,11 +32,11 @@ These apply to every new video unless Jairo says otherwise.
 1. **Grammar and spelling.** Before a script goes to ElevenLabs, check `script.txt` and `script_elevenlabs.txt`
    sentence by sentence for grammar, spelling, punctuation and missing words (a careful proofread, plus a
    grammar tool if available). Fix every issue in both files and list what was changed. No em or en dashes.
-2. **Pacing: the picture changes at least every 6 to 8 seconds.** No shot may stay on screen longer than
-   8 seconds. A long VO paragraph becomes several shots: a second image, a map beat, or a new camera move on a
-   different part of the same image (a cut, not one slow zoom). Maps keep moving: camera moves, labels, arrows
-   and territory changes land on cue words. Plan this in DRAAIBOEK.md (one row per shot) and count the images
-   needed from it. Target for a 15-minute video: about 110 to 150 shots.
+2. **Pacing: something changes at least every 6 to 8 seconds.** A long VO paragraph becomes several beats:
+   a second image, a map beat, an infographic, or a camera glide (`kenBurns.path`) to another detail of the same
+   image. Never cut from an image back to the same image (no jump cuts; the validator blocks it). Maps keep
+   moving: camera moves, labels, arrows and territory changes land on cue words. Plan this in DRAAIBOEK.md
+   (one row per beat) and count the images needed from it. Target for a 15-minute video: about 110 to 150 beats.
 3. **Call to action.** Every video has one short spoken CTA (about 5 seconds), written into the script at a natural
    break right after the first big payoff, usually the end of the first chapter (roughly 2 to 4 minutes in), never
    in the first minute. Example: "If you like seeing history move on the map, subscribe, it helps the channel more
@@ -68,6 +69,13 @@ These apply to every new video unless Jairo says otherwise.
    really disagree (death tolls, who started what), say so and give the range. Death tolls, coups, massacres,
    assassinations and wars are named plainly.
 
+7. **Look and motion follow STYLE.md.** Kinetic captions, depth parallax on illustrations, a transition plan
+   (fade by default, one or two accent transitions), and infographics where they add context (STYLE.md says which
+   graphic for which content). Every number on screen has a source line; contested numbers show the range.
+8. **Maps must be accurate.** Borders from Cliopatria where it has the state (credit it in the description),
+   real rivers on, army lines over land along real routes. Check every map still by eye and fix every
+   "over water" warning from the validator (or mark real sea crossings `overWater`).
+
 ## Making a new video
 
 1. `npm run new <slug>`
@@ -75,9 +83,10 @@ These apply to every new video unless Jairo says otherwise.
 3. Images in `videos/<slug>/public/images/NNN.jpg` (cutouts `NNN.png`, RGBA), voiceover in `public/audio/voiceover.mp3`.
    Check every image by eye against its prompt number; Flow downloads are sometimes numbered wrongly.
 4. Write `videos/<slug>/scene-spec.mjs` from the runbook, using only catalog options where possible.
-5. `npm run prepare-video <slug>`: transcribe, align timings, build scenes.json, validate. Fix until it passes.
-6. `npm run stills <slug>`: one still per scene (half size, one bundle). Look at them, fix what is off.
-7. Push, then render on GitHub Actions ("Render video", `scale` 0.5 for a review draft, 1 for the final).
+5. `npm run depth <slug>`: depth layers for all illustrations (commit `public/layers/`).
+6. `npm run prepare-video <slug>`: transcribe, align timings, build scenes.json, validate. Fix until it passes.
+7. `npm run stills <slug>`: one still per scene (half size, one bundle). Look at them, fix what is off.
+8. Push, then render on GitHub Actions ("Render video", `scale` 0.5 for a review draft, 1 for the final).
    Do not run full renders on the laptop. Rendered videos are never committed.
 
 ## Commands
@@ -91,13 +100,15 @@ These apply to every new video unless Jairo says otherwise.
 | `npm run draft <slug> -- --frames=a-b` | Short half-resolution check of a few scenes (full renders: GitHub Actions) |
 | `npm run render <slug>` | Local full render. Avoid: the laptop overheats. Use GitHub Actions |
 | `npm run cta-preview <slug> [S10]` | Short MP4 + stills of the CTA overlay over one scene |
+| `npm run depth <slug> [001 002 ...]` | Depth layers for parallax (`public/layers/`, commit them). Needs `pip install -r scripts/requirements.txt` |
+| `npm run demo <slug>` | Every engine feature on this video's images: stills + short MP4 in `checks/` |
 | `npm run bench <slug> [--variants=baseline]` | Render-cost benchmark per effect |
 | `npm run maps` | Rebuild the shared territory library |
 | `npm run typecheck` | TypeScript check |
 
 ## What is not committed
 
-`out/` (rendered videos), `**/checks/`, `node_modules/`, `whisper.cpp/` (installed on first transcribe), `engine/maps-data/raw/`.
+`out/` (rendered videos), `**/checks/`, `node_modules/`, `whisper.cpp/` (installed on first transcribe), `engine/maps-data/raw/` (map sources, downloaded by `npm run maps`), `models/` (depth model, downloaded by `npm run depth`).
 
 ## Known costs and planned improvements
 
@@ -107,9 +118,10 @@ Measured with the benchmark on the Mongol video (2-core machine):
 - Maps: ~1 fps vs ~6 fps for image scenes. The coastline (28k points) is drawn several times per frame with
   `vector-effect: non-scaling-stroke` and live clip paths. Planned, with no visible change:
   only draw what is inside the camera view, scale stroke widths manually instead of non-scaling-stroke.
-- Map accuracy: many territories are coarse dataset polygons or hand-made estimates (see CATALOG.md).
-  Planned: borders per year, following real rivers and mountain ranges, with a source per territory.
+- Map accuracy: Cliopatria borders per year are in the library (see CATALOG.md); older videos still use the
+  coarse historical-basemaps polygons. Not built yet: shaded terrain relief under the maps.
 - GitHub Actions: the repo is public, so rendering is free on 4-core Linux runners, 20 chunks in parallel.
   The 16-minute Iran video (207 shots, 29 maps) rendered in 19 minutes, far faster than the Mac. It is the
   standard way to render. A macOS runner can be picked (`runner` input) but only 5 run at once, so Linux is faster.
-- The standing-requirement features are built: `cta` (subscribe overlay) and `shots` (multi-shot scenes), see CATALOG.md.
+- Built and in CATALOG.md: `cta` (subscribe overlay), `shots` (multi-shot scenes), camera `path`, `transition`,
+  kinetic captions, depth parallax, infographics, annotations, Cliopatria borders, real rivers.

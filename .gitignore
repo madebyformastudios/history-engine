@@ -6,3 +6,4 @@ engine/maps-data/raw/
 whisper.cpp/
 *.mp4
 .DS_Store
+models/

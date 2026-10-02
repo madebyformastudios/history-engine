@@ -8,8 +8,20 @@ import { keyframes, ramp, useSceneTime } from "../timing";
 import { color, theme } from "../theme";
 import territoriesJson from "../maps-data/territories.json";
 import landJson from "../maps-data/land.json";
+import riversJson from "../maps-data/rivers.json";
 
 const territories = territoriesJson as unknown as Record<string, GeoPermissibleObjects>;
+type River = { name: string; rank: number; lines: LonLat[][] };
+const rivers = riversJson as unknown as Record<string, River>;
+/** The longest single line of a river (Natural Earth splits rivers into pieces), optionally a part of it. */
+export const riverPath = (name: string, part?: [number, number]): LonLat[] => {
+  const r = rivers[name];
+  if (!r) return [];
+  const longest = r.lines.reduce((a, b) => (b.length > a.length ? b : a), [] as LonLat[]);
+  if (!part) return longest;
+  const n = longest.length;
+  return longest.slice(Math.floor(part[0] * (n - 1)), Math.ceil(part[1] * (n - 1)) + 1);
+};
 const land = landJson as unknown as GeoPermissibleObjects;
 
 type Pt = [number, number];
@@ -139,11 +151,18 @@ export const MapScene: React.FC<{ settings: MapSettings; spec: MapSpec; sceneId:
     return { projection, path: geoPath(projection) };
   }, [settings, width, height, spec.meridian]);
 
+  // only the territories this map uses (the library holds every video's territories)
+  const used = useMemo(() => [...new Set(states.flatMap((st) => st.layers.map((l) => l.territory)))], [states]);
   const paths = useMemo(() => {
     const out: Record<string, string> = {};
-    for (const [k, f] of Object.entries(territories)) out[k] = path(f) ?? "";
+    for (const k of used) if (territories[k]) out[k] = path(territories[k]) ?? "";
     return { land: path(land) ?? "", ...out };
-  }, [path]);
+  }, [path, used]);
+  const riverPaths = useMemo(() => {
+    if (!spec.rivers) return "";
+    const names = spec.rivers === true ? Object.keys(rivers).filter((n) => rivers[n].rank <= 7) : spec.rivers;
+    return names.map((n) => (rivers[n]?.lines ?? []).map((l) => path({ type: "LineString", coordinates: l }) ?? "").join("")).join("");
+  }, [path, spec.rivers]);
 
   // Camera
   const lon = keyframes(t, camera, (k) => k.center[0], theme.ease.gentle);
@@ -221,6 +240,7 @@ export const MapScene: React.FC<{ settings: MapSettings; spec: MapSpec; sceneId:
               </g>
             ))}
           </g>
+          {riverPaths && <path d={riverPaths} fill="none" stroke={theme.colors.river} strokeOpacity={0.7} strokeWidth={1.8} vectorEffect="non-scaling-stroke" strokeLinejoin="round" strokeLinecap="round" />}
           {/* redraw the coastline on top so territory edges sit inside it */}
           <path d={paths.land} fill="none" stroke={theme.colors.ink} strokeOpacity={0.45} strokeWidth={1.1} vectorEffect="non-scaling-stroke" />
         </g>
@@ -261,7 +281,7 @@ const LINE_STYLE = {
 const MapLine: React.FC<{ line: LineConfig; t: number; toScreen: (ll: LonLat) => Pt }> = ({ line, t, toScreen }) => {
   const draw = ramp(t, line.at, line.duration ?? 1.4, theme.ease.inOut);
   if (draw <= 0) return null;
-  const base = line.path.map(toScreen);
+  const base = (line.river ? riverPath(line.river, line.riverPart) : line.path).map(toScreen);
   const pts = line.smooth === false ? base : smoothPolyline(base);
   const part = partialPolyline(pts, draw);
   const st = LINE_STYLE[line.style];

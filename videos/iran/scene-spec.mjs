@@ -333,6 +333,7 @@ export const meta = {
   height: 1080,
   audio: "audio/voiceover.mp3",
   transitionFrames: 10,
+  legacyCuts: true, // made before the no-jump-cut rule; new videos use camera paths instead
 };
 
 export const overlay = { dust: 0.45, parchment: 0.22, grain: 0.07, vignette: 0.42 };

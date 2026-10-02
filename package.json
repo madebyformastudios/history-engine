@@ -18,7 +18,9 @@
     "maps": "node scripts/fetch-maps.mjs",
     "cutout": "node scripts/remove-white-bg.mjs",
     "typecheck": "tsc --noEmit -p .",
-    "cta-preview": "node scripts/v.mjs cta-preview"
+    "cta-preview": "node scripts/v.mjs cta-preview",
+    "depth": "node scripts/v.mjs depth",
+    "demo": "node scripts/v.mjs demo"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.532",

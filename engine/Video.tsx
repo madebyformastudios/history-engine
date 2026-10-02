@@ -2,7 +2,7 @@ import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
 import { config, sceneWindow } from "./config";
 import { SceneWindow } from "./timing";
 import { SceneRenderer } from "./SceneRenderer";
-import { CrossfadeIn, FadeToBlack } from "./components/Transitions";
+import { FadeToBlack, TransitionIn } from "./components/Transitions";
 import { Captions } from "./components/Caption";
 import { isOff } from "./perf";
 import { CtaOverlay } from "./components/Cta";
@@ -23,9 +23,9 @@ export const Video: React.FC = () => {
         return (
           <Sequence key={scene.id} name={`${scene.id} ${scene.assets.join(" + ")}`} from={win.from} durationInFrames={win.durationInFrames}>
             <SceneWindow.Provider value={win}>
-              <CrossfadeIn frames={meta.transitionFrames} enabled={i > 0}>
+              <TransitionIn spec={scene.transition ?? meta.transition} frames={meta.transitionFrames} enabled={i > 0}>
                 <SceneRenderer scene={scene} />
-              </CrossfadeIn>
+              </TransitionIn>
             </SceneWindow.Provider>
           </Sequence>
         );

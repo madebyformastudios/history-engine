@@ -1,6 +1,6 @@
 import { AbsoluteFill, Img, interpolate, staticFile, useVideoConfig } from "remotion";
 import type { Cam, KenBurnsConfig } from "../config";
-import { useSceneTime } from "../timing";
+import { keyframes, useSceneTime } from "../timing";
 import { theme } from "../theme";
 
 /** Keeps the focus point far enough from the edges that the frame never shows past the image. */
@@ -24,23 +24,36 @@ export const lerpCam = (from: Cam, to: Cam, p: number): Cam => {
   return { scale, x: from.x + (to.x - from.x) * e, y: from.y + (to.y - from.y) * e };
 };
 
+/** Camera for a still at absolute time `t` (path keyframes) or progress `p` (from → to). */
+export const cameraAt = ({ from, to, path }: Pick<KenBurnsConfig, "from" | "to" | "path">, t: number, p: number): Cam =>
+  path && path.length
+    ? {
+        // zoom interpolated in log space, like lerpCam, so push-ins feel constant-speed
+        scale: Math.exp(keyframes(t, path, (k) => Math.log(k.scale), theme.ease.gentle)),
+        x: keyframes(t, path, (k) => k.x, theme.ease.gentle),
+        y: keyframes(t, path, (k) => k.y, theme.ease.gentle),
+      }
+    : lerpCam(from, to, p);
+
 /**
  * Slow camera move over a still for the length of its scene (from → to).
  * Optional matte paints the area below an image row (art that stops short of the frame),
  * optional desaturate ramps saturation from [0] to [1] (1 = untouched).
  */
-export const KenBurns: React.FC<{ src: string; progress?: number } & KenBurnsConfig> = ({
+export const KenBurns: React.FC<{ src: string; progress?: number; children?: React.ReactNode } & KenBurnsConfig> = ({
   src,
   from,
   to,
+  path,
   matte,
   desaturate,
   progress: override,
+  children,
 }) => {
-  const { progress } = useSceneTime();
+  const { progress, t } = useSceneTime();
   const { width, height } = useVideoConfig();
   const p = override ?? progress;
-  const cam = lerpCam(from, to, p);
+  const cam = cameraAt({ from, to, path }, t, p);
   const sat = desaturate ? desaturate[0] + (desaturate[1] - desaturate[0]) * p : 1;
   return (
     <AbsoluteFill style={{ overflow: "hidden", filter: sat < 1 ? `saturate(${sat})` : undefined }}>
@@ -65,6 +78,8 @@ export const KenBurns: React.FC<{ src: string; progress?: number } & KenBurnsCon
             }}
           />
         )}
+        {/* annotations and other layers that must stick to the image (move with the camera) */}
+        {children}
       </div>
     </AbsoluteFill>
   );

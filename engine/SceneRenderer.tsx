@@ -1,6 +1,9 @@
 import { AbsoluteFill, Sequence, interpolate, useCurrentFrame } from "remotion";
 import { useContext } from "react";
 import { SceneWindow } from "./timing";
+import { TransitionIn } from "./components/Transitions";
+import { Annotations, GraphicView, Graphics } from "./components/Infographics";
+import { DepthImage } from "./components/DepthImage";
 import { config, sec, type Effects, type Scene, type Shot } from "./config";
 import { KenBurns } from "./components/KenBurns";
 import { Parallax } from "./components/Parallax";
@@ -9,6 +12,8 @@ import { DecimalArmy } from "./components/DecimalArmy";
 import { DateLabel, YearCounter } from "./components/YearCounter";
 import { Dust, FireGlow, Lightning, Rain, Smoke, Vignette } from "./components/Overlay";
 import { Titles } from "./components/Titles";
+
+const DEFAULT_KB = { from: { scale: 1.05, x: 0.5, y: 0.5 }, to: { scale: 1.15, x: 0.5, y: 0.5 } };
 
 const EffectLayers: React.FC<{ fx: Effects }> = ({ fx }) => (
   <>
@@ -28,6 +33,16 @@ const FadeIn: React.FC<{ frames: number; children: React.ReactNode }> = ({ frame
   return <AbsoluteFill style={{ opacity: o }}>{children}</AbsoluteFill>;
 };
 
+/** A shot comes in with its own transition, or with the original linear fade (keeps older videos identical). */
+const ShotIn: React.FC<{ shot: Shot; frames: number; enabled: boolean; children: React.ReactNode }> = ({ shot, frames, enabled, children }) =>
+  shot.transition ? (
+    <TransitionIn spec={shot.transition} frames={frames} enabled={enabled}>
+      {children}
+    </TransitionIn>
+  ) : (
+    <FadeIn frames={enabled ? frames : 0}>{children}</FadeIn>
+  );
+
 /**
  * Several shots inside one scene (one VO paragraph): each shot is an image with its own camera
  * move, or a map, starting on its cue. Shots after the first fade in over `fade` frames.
@@ -40,21 +55,31 @@ const Shots: React.FC<{ sceneId: string; shots: Shot[]; fade: number }> = ({ sce
       {shots.map((shot, i) => {
         const start = i === 0 ? win.from : Math.max(win.from, sec(shot.at));
         const next = i < shots.length - 1 ? Math.max(start + 1, sec(shots[i + 1].at)) : end;
-        const nextFade = i < shots.length - 1 ? (shots[i + 1].fade ?? fade) : 0;
+        const nextFade = i < shots.length - 1 ? (shots[i + 1].transition?.frames ?? shots[i + 1].fade ?? fade) : 0;
         const until = Math.min(end, next + nextFade);
         // the camera move runs over the visible part of the shot (start .. next), not the overlap
         const moveWin = { from: start, durationInFrames: Math.max(1, next - start) };
         return (
           <Sequence key={i} from={start - win.from} durationInFrames={Math.max(1, until - start)} layout="none">
             <SceneWindow.Provider value={moveWin}>
-              <FadeIn frames={i === 0 ? 0 : (shot.fade ?? fade)}>
-                {shot.map ? (
+              <ShotIn shot={shot} frames={shot.fade ?? fade} enabled={i > 0}>
+                {shot.graphic ? (
+                  <GraphicView g={{ ...shot.graphic, layout: shot.graphic.layout ?? "full" }} />
+                ) : shot.map ? (
                   <MapScene sceneId={`${sceneId}-${i}`} settings={config.map} spec={shot.map} />
                 ) : shot.image ? (
-                  <KenBurns src={shot.image} {...(shot.kenBurns ?? { from: { scale: 1.05, x: 0.5, y: 0.5 }, to: { scale: 1.15, x: 0.5, y: 0.5 } })} />
+                  shot.depth ? (
+                    <DepthImage src={shot.image} strength={shot.depth} {...(shot.kenBurns ?? DEFAULT_KB)}>
+                      {shot.annotations ? <Annotations items={shot.annotations} /> : null}
+                    </DepthImage>
+                  ) : (
+                    <KenBurns src={shot.image} {...(shot.kenBurns ?? DEFAULT_KB)}>
+                      {shot.annotations ? <Annotations items={shot.annotations} /> : null}
+                    </KenBurns>
+                  )
                 ) : null}
                 {shot.effects ? <EffectLayers fx={shot.effects} /> : null}
-              </FadeIn>
+              </ShotIn>
             </SceneWindow.Provider>
           </Sequence>
         );
@@ -68,7 +93,16 @@ export const SceneRenderer: React.FC<{ scene: Scene }> = ({ scene }) => {
   const fx = scene.effects ?? {};
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
-      {scene.type === "image" && <KenBurns src={scene.image} {...scene.kenBurns} />}
+      {scene.type === "image" &&
+        (scene.depth ? (
+          <DepthImage src={scene.image} strength={scene.depth} {...scene.kenBurns}>
+            {scene.annotations ? <Annotations items={scene.annotations} /> : null}
+          </DepthImage>
+        ) : (
+          <KenBurns src={scene.image} {...scene.kenBurns}>
+            {scene.annotations ? <Annotations items={scene.annotations} /> : null}
+          </KenBurns>
+        ))}
       {scene.type === "parallax" && <Parallax background={scene.background} sprites={scene.sprites} />}
       {scene.type === "map" && <MapScene sceneId={scene.id} settings={config.map} spec={scene.map} />}
       {scene.type === "gfx" && <DecimalArmy sceneId={scene.id} steps={scene.steps} />}
@@ -81,6 +115,7 @@ export const SceneRenderer: React.FC<{ scene: Scene }> = ({ scene }) => {
       {fx.lightning ? <Lightning at={fx.lightning} /> : null}
       {fx.vignette ? <Vignette strength={fx.vignette} /> : null}
 
+      {scene.graphics && <Graphics items={scene.graphics} />}
       {scene.titles && <Titles titles={scene.titles} />}
       {scene.year && <YearCounter keys={scene.year} era={scene.yearEra} />}
       {scene.date && <DateLabel text={scene.date.text} at={scene.date.at} />}

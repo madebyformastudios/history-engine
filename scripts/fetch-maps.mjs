@@ -8,6 +8,7 @@ import path from "node:path";
 import { createRequire } from "node:module";
 import { feature } from "topojson-client";
 import { geoArea, geoCentroid } from "d3-geo";
+import { execFileSync } from "node:child_process";
 
 const require = createRequire(import.meta.url);
 const BASE = "https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson";
@@ -62,8 +63,12 @@ const HANDMADE = {
 };
 
 // id -> list of sources merged into one MultiPolygon.
-//   { file, names: [feature NAME...], centroidIn?: [minLon,minLat,maxLon,maxLat] }  (dataset)
+//   { clio: "Polity name", year }                                                 (Cliopatria, preferred: borders per year)
+//   { file, names: [feature NAME...], centroidIn?: [minLon,minLat,maxLon,maxLat] }  (historical-basemaps, coarse)
 //   { handmade: key }                                                             (HANDMADE)
+// Cliopatria (Seshat Global History Databank, CC BY 4.0) has borders per year for ~1600 polities from 3400 BC
+// to 2024; names as in its "Name" field (e.g. "Achaemenid Empire", "Sasanian Empire", "Qajar Dynasty").
+// Credit in the video description: "Borders: Cliopatria, Seshat Global History Databank (CC BY 4.0)".
 const MAP_KEYFRAMES = {
   // Peak extent (MAP-01): the four khanates in 1279, Rus vassal principalities with the Golden Horde.
   yuan_1279: [{ file: "world_1279", names: ["Great Khanate"] }],
@@ -146,12 +151,86 @@ const MAP_KEYFRAMES = {
   sphere_britain_1907: [{ handmade: "sphere_britain_1907" }],
 };
 
+
+// ---- Cliopatria territories: [id, polity name, year]. Add rows here for new videos. ----
+const CLIO = [
+  // Iran video
+  ["clio_elam_-1200", "Elam", -1200],
+  ["clio_media_-585", "Median Kingdom", -585],
+  ["clio_lydia_-560", "Lydia", -560],
+  ["clio_neobabylon_-560", "Neo-Babylonian Empire", -560],
+  ["clio_achaemenid_-550", "Achaemenid Empire", -550],
+  ["clio_achaemenid_-539", "Achaemenid Empire", -539],
+  ["clio_achaemenid_-500", "Achaemenid Empire", -500],
+  ["clio_macedon_-323", "Macedonian Empire", -323],
+  ["clio_seleucid_-300", "Seleucid Empire", -300],
+  ["clio_seleucid_-200", "Seleucid Empire", -200],
+  ["clio_parthian_-238", "Parthian Empire", -238],
+  ["clio_parthian_-100", "Parthian Empire", -100],
+  ["clio_parthian_-53", "Parthian Empire", -53],
+  ["clio_roman_-53", "Roman Republic", -53],
+  ["clio_roman_117", "Roman Empire", 117],
+  ["clio_sasanian_260", "Sasanian Empire", 260],
+  ["clio_sasanian_600", "Sasanian Empire", 600],
+  ["clio_sasanian_620", "Sasanian Empire", 620],
+  ["clio_byzantine_600", "Eastern Roman Empire", 600],
+  ["clio_rashidun_655", "Rashidun Caliphate", 655],
+  ["clio_abbasid_800", "Abbasid Caliphate", 800],
+  ["clio_seljuk_1090", "Great Seljuk Empire", 1090],
+  ["clio_ilkhanate_1300", "Ilkhanate", 1300],
+  ["clio_timurid_1400", "Timurid Empire", 1400],
+  ["clio_safavid_1510", "Safavid Dynasty", 1510],
+  ["clio_safavid_1630", "Safavid Dynasty", 1630],
+  ["clio_ottoman_1630", "Ottoman Empire", 1630],
+  ["clio_afsharid_1740", "Afsharid Iran", 1740],
+  ["clio_qajar_1800", "Qajar Dynasty", 1800],
+  ["clio_qajar_1830", "Qajar Dynasty", 1830],
+  ["clio_pahlavi_1941", "Pahlavi Dynasty", 1941],
+  ["clio_iran_2020", "Islamic Republic of Iran", 2020],
+];
+for (const [id, name, year] of CLIO) MAP_KEYFRAMES[id] = [{ clio: name, year }];
+
 const round = (n) => Math.round(n * 100) / 100;
 const roundCoords = (c) => (typeof c[0] === "number" ? [round(c[0]), round(c[1])] : c.map(roundCoords));
 const inBox = ([x, y], [x0, y0, x1, y1]) => x >= x0 && x <= x1 && y >= y0 && y <= y1;
 
 // d3-geo wants clockwise exterior rings; fix rings that would cover "the rest of the globe".
 const fixWinding = (poly) => (geoArea({ type: "Polygon", coordinates: poly }) > 2 * Math.PI ? poly.map((r) => [...r].reverse()) : poly);
+
+// Ramer-Douglas-Peucker on one ring (degrees). Cliopatria polygons are very detailed; 0.02 degrees (~2 km)
+// is invisible at our zoom levels and keeps territories.json small.
+const SIMPLIFY = 0.02;
+function rdp(pts, eps) {
+  if (pts.length < 4) return pts;
+  const [a, b] = [pts[0], pts[pts.length - 1]];
+  let max = 0, idx = 0;
+  for (let i = 1; i < pts.length - 1; i++) {
+    const p = pts[i];
+    const dx = b[0] - a[0], dy = b[1] - a[1];
+    // closed ring (a == b): distance to a; otherwise distance to the line a-b
+    const d = dx === 0 && dy === 0 ? Math.hypot(p[0] - a[0], p[1] - a[1]) : Math.abs(dy * p[0] - dx * p[1] + b[0] * a[1] - b[1] * a[0]) / Math.hypot(dx, dy);
+    if (d > max) { max = d; idx = i; }
+  }
+  if (max <= eps) return [a, b];
+  return [...rdp(pts.slice(0, idx + 1), eps).slice(0, -1), ...rdp(pts.slice(idx), eps)];
+}
+const simplifyPoly = (poly) => poly.map((ring) => rdp(ring, SIMPLIFY)).filter((r) => r.length >= 4);
+
+let clioData = null;
+async function loadClio() {
+  if (clioData) return clioData;
+  const p = path.join(RAW_DIR, "cliopatria_polities_only.geojson");
+  if (!fs.existsSync(p)) {
+    fs.mkdirSync(RAW_DIR, { recursive: true });
+    const zip = path.join(RAW_DIR, "cliopatria.geojson.zip");
+    const res = await fetch("https://raw.githubusercontent.com/Seshat-Global-History-Databank/cliopatria/main/cliopatria.geojson.zip");
+    if (!res.ok) throw new Error(`fetch cliopatria: ${res.status}`);
+    fs.writeFileSync(zip, Buffer.from(await res.arrayBuffer()));
+    execFileSync("unzip", ["-o", "-q", zip, "-d", RAW_DIR]);
+  }
+  clioData = JSON.parse(fs.readFileSync(p, "utf8"));
+  return clioData;
+}
 
 async function load(file) {
   const p = path.join(RAW_DIR, `${file}.geojson`);
@@ -169,6 +248,21 @@ for (const [id, sources] of Object.entries(MAP_KEYFRAMES)) {
   const polys = [];
   const used = [];
   for (const src of sources) {
+    if (src.clio) {
+      const gj = await loadClio();
+      const hits = gj.features.filter((f) => f.properties.Name === src.clio && f.properties.FromYear <= src.year && src.year <= f.properties.ToYear);
+      if (!hits.length) throw new Error(`Cliopatria has no "${src.clio}" in ${src.year}`);
+      for (const f of hits) {
+        const g = f.geometry;
+        const list = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
+        for (const p of list) {
+          const sp = simplifyPoly(p);
+          if (sp.length) polys.push(fixWinding(sp));
+        }
+      }
+      used.push(`cliopatria:${src.clio}@${src.year}`);
+      continue;
+    }
     if (src.handmade) {
       polys.push(...HANDMADE[src.handmade].map((p) => fixWinding([p])));
       used.push(`handmade:${src.handmade}`);
@@ -221,6 +315,32 @@ function clipRing(ring, [x0, y0, x1, y1]) {
   }
   return pts.length >= 3 ? [...pts, pts[0]] : null;
 }
+// --- Rivers: Natural Earth 10m river centerlines, inside LAND_CLIP, simplified. Used by <MapScene>
+//     (`rivers: true` draws them; a line with `river: "Tigris"` follows the real river).
+{
+  const p = path.join(RAW_DIR, "ne_10m_rivers.geojson");
+  if (!fs.existsSync(p)) {
+    const res = await fetch("https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson");
+    if (!res.ok) throw new Error(`fetch rivers: ${res.status}`);
+    fs.writeFileSync(p, await res.text());
+  }
+  const gj = JSON.parse(fs.readFileSync(p, "utf8"));
+  const [x0, y0, x1, y1] = LAND_CLIP;
+  const byName = {};
+  for (const f of gj.features) {
+    const name = f.properties.name_en || f.properties.name;
+    if (!name || f.properties.featurecla !== "River" || f.properties.scalerank > 9) continue;
+    const g = f.geometry;
+    const lines = g.type === "LineString" ? [g.coordinates] : g.coordinates;
+    for (const l of lines) {
+      if (!l.some(([x, y]) => x >= x0 && x <= x1 && y >= y0 && y <= y1)) continue;
+      (byName[name] ??= { name, rank: f.properties.scalerank, lines: [] }).lines.push(roundCoords(rdp(l, 0.01)));
+    }
+  }
+  fs.writeFileSync("engine/maps-data/rivers.json", JSON.stringify(byName));
+  console.log(`rivers: ${Object.keys(byName).length} named rivers`);
+}
+
 const topo = require("world-atlas/land-50m.json");
 const landFc = feature(topo, topo.objects.land);
 const landPolys = [];

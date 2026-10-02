@@ -8,12 +8,14 @@
 // Usage: node scripts/validate.ts   (Node ≥ 23 runs TypeScript directly)
 import fs from "node:fs";
 import path from "node:path";
+import { geoContains } from "d3-geo";
 
 const VIDEO = process.env.VIDEO;
 if (!VIDEO) throw new Error("No video selected. Use `npm run validate <slug>`.");
 const V = (...p: string[]) => path.join("videos", VIDEO, ...p);
 
 type Cue = { word: string; t: number; frame: number; exact: boolean };
+type MapLike = { id: string; states: { layers: { territory: string }[] }[]; lines?: { id: string; path: [number, number][]; style: string; river?: string; overWater?: boolean }[] };
 type Scene = {
   id: string;
   assets: string[];
@@ -25,8 +27,8 @@ type Scene = {
   image?: string;
   background?: { src: string };
   sprites?: { src: string }[];
-  map?: { id: string; states: { layers: { territory: string }[] }[] };
-  shots?: { at: number; image?: string; map?: { id: string; states: { layers: { territory: string }[] }[] } }[];
+  map?: MapLike;
+  shots?: { at: number; image?: string; graphic?: object; depth?: number; kenBurns?: { path?: unknown[] }; map?: MapLike }[];
   cues: Cue[];
 };
 
@@ -174,6 +176,30 @@ for (const s of scenes) {
     if (c.frame < s.startFrame || c.frame >= s.endFrame) fail(`${s.id}: cue @"${c.word}" at frame ${c.frame} is outside the scene`);
     if (!c.exact) warnings.push(`${s.id}: cue @"${c.word}" resolved to the closest match`);
   }
+}
+
+// ---------- 7. shots: no cuts back to the same image, no picture held longer than 8 s ----------
+const fps = data.meta.fps;
+for (const s of scenes) (s.shots ?? []).forEach((sh, i, arr) => {
+  if (i > 0 && sh.image && sh.image === arr[i - 1].image && !data.meta.legacyCuts)
+    fail(`${s.id}: shots ${i} and ${i + 1} both show ${sh.image} (a jump cut). Use one shot with a camera \`path\` instead`);
+  const end = i < arr.length - 1 ? arr[i + 1].at : s.end;
+  const start = i === 0 ? s.start : sh.at;
+  const beats = Math.max(1, (sh.kenBurns?.path?.length ?? 1) - 0);
+  if ((end - start) / beats > 8.5 && !sh.graphic && !sh.map) warnings.push(`${s.id}: shot ${i + 1} holds ${(end - start).toFixed(1)} s without a new picture or camera beat`);
+});
+
+// ---------- 8. map lines over water (arrows and routes should follow land, rivers, passes) ----------
+const land = JSON.parse(fs.readFileSync("engine/maps-data/land.json", "utf8"));
+for (const s of scenes) for (const m of [s.map, ...(s.shots ?? []).map((sh) => sh.map)]) for (const l of m?.lines ?? []) {
+  if (l.overWater || l.river || !["arrow", "route"].includes(l.style) || !l.path || l.path.length < 2) continue;
+  let water = 0, n = 0;
+  for (let i = 0; i < l.path.length - 1; i++) for (let k = 0; k < 12; k++) {
+    const f = k / 12, a = l.path[i], b = l.path[i + 1];
+    n++;
+    if (!geoContains(land, [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f])) water++;
+  }
+  if (water / n > 0.15) warnings.push(`${s.id} ${m!.id}: line "${l.id}" runs ${Math.round((100 * water) / n)}% over water. Follow land, or set overWater: true if that is real (sea crossing, missile)`);
 }
 
 // ---------- report ----------

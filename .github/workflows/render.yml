@@ -16,6 +16,9 @@ on:
       scale:
         description: "Render scale (1 = 1920x1080 final, 0.5 = fast draft)"
         default: "1"
+      runner:
+        description: "Machine type: ubuntu-latest (4 cores, up to 20 at once) or macos-latest (M1, max 5 at once)"
+        default: "ubuntu-latest"
       off:
         description: "Effects to switch off, comma separated (parchment,grain,dust,grade,vignette,mapShadow,blur). Empty = all on"
         default: ""
@@ -53,7 +56,7 @@ jobs:
 
   render:
     needs: plan
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
     timeout-minutes: 60
     strategy:
       fail-fast: true

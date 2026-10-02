@@ -46,6 +46,21 @@ These apply to every new video unless Jairo says otherwise.
    `npm run stills` and short `npm run draft -- --frames=a-b` checks. Full drafts and the final render go through
    the GitHub Actions workflow "Render video" (push first, then run it with the video folder name); the MP4 is
    downloaded from the run's artifacts.
+5. **Real photos, here and there.** Where real photos exist of the subject (artifacts, ruins, buildings,
+   manuscripts, archive photos of people and events), use some of them between the illustrations, at moments
+   where "this really exists" adds weight. Rules:
+   - Only images that are free to use: public domain or a free licence (CC0, CC BY, CC BY-SA), mostly from
+     Wikimedia Commons, museum open-access collections (Met, British Museum, Rijksmuseum, Library of Congress)
+     or government archives. Never press-agency or stock photos, screenshots from other videos, or anything
+     without a clear licence: that risks copyright claims and strikes.
+   - Download the largest version (if the cloud workspace cannot reach the site, download it on Jairo's
+     laptop through the linked computer, or give him the list of links), save as `public/images/photo-NN.jpg`, and record every photo in
+     `videos/<slug>/PHOTOS.md` (file, what it shows, source URL, author, licence). CC BY and CC BY-SA photos get
+     a credit line in the YouTube description (the upload checklist pulls them from PHOTOS.md).
+   - Show them with the same Ken Burns moves and overlays as the illustrations so they sit in the parchment style.
+     Use them as accents (roughly 1 in 8 to 10 shots), not instead of the illustrations.
+   - Check each photo by eye: it must really show what the narration says (right building, right person, right
+     period). If unsure, leave it out.
 
 ## Making a new video
 

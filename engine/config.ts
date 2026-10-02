@@ -26,7 +26,20 @@ export type CamKey = Cam & { at: number };
  * Camera on a still. Either one move `from` → `to` over the shot, or a `path` of keyframes:
  * the camera glides from detail to detail without a cut (use this instead of cutting back to the same image).
  */
-export type KenBurnsConfig = { from: Cam; to: Cam; path?: CamKey[]; matte?: Matte; desaturate?: [number, number] };
+export type CameraMove = "hold" | "pushIn" | "pullOut" | "driftLeft" | "driftRight" | "rise" | "sink";
+export type KenBurnsConfig = {
+  /** explicit move (old style) ... */
+  from?: Cam;
+  to?: Cam;
+  /** ... or a named move around a focus point (STYLE.md: vary them, never the same move twice in a row) */
+  move?: CameraMove;
+  focus?: [number, number];
+  /** 0.5 = half as much movement, 2 = twice as much */
+  amount?: number;
+  path?: CamKey[];
+  matte?: Matte;
+  desaturate?: [number, number];
+};
 
 export type Effects = {
   dust?: number;
@@ -118,7 +131,7 @@ type SceneBase = {
   graphics?: Graphic[]; // infographic overlays on top of the scene
 };
 
-export type ImageScene = SceneBase & { type: "image"; image: string; kenBurns: KenBurnsConfig; annotations?: Annotation[]; depth?: number };
+export type ImageScene = SceneBase & { type: "image"; image: string; kenBurns: KenBurnsConfig; annotations?: Annotation[] };
 export type ParallaxScene = SceneBase & {
   type: "parallax";
   background: { src: string } & KenBurnsConfig;
@@ -128,7 +141,7 @@ export type MapScene = SceneBase & { type: "map"; map: MapSpec };
 export type GfxScene = SceneBase & { type: "gfx"; gfx: "decimal-army"; steps: DecimalStep[] };
 /** One shot inside a multi-shot scene: an image with its own camera move, or a map. Starts at `at` (absolute s). */
 export type Shot = { at: number; image?: string; kenBurns?: KenBurnsConfig; map?: MapSpec; effects?: Effects; fade?: number /* frames, overrides shotFade; 0 = hard cut */; transition?: TransitionSpec;
-  graphic?: Graphic /* full-frame infographic shot */; annotations?: Annotation[] /* on the image, move with the camera */; depth?: number /* depth parallax strength, needs `npm run depth` */ };
+  graphic?: Graphic /* full-frame infographic shot */; annotations?: Annotation[] /* on the image, move with the camera */ };
 export type ShotsScene = SceneBase & { type: "shots"; shots: Shot[]; shotFade?: number };
 export type Scene = ImageScene | ParallaxScene | MapScene | GfxScene | ShotsScene;
 

@@ -17,6 +17,7 @@ See every new feature on screen: `npm run demo <slug>` (engine/FeatureDemo.tsx).
 | `gfx` | Coded motion graphic. Available: `decimal-army` (10 / 100 / 1,000 / 10,000 grid) | `gfx`, `steps` |
 
 ### Ken Burns (`kenBurns`, also used by `parallax.background`)
+- `move` + `focus: [x, y]` + `amount`: named gentle moves (`hold`, `pushIn`, `pullOut`, `driftLeft`, `driftRight`, `rise`, `sink`) instead of `from`/`to`. Vary them (STYLE.md).
 - `path: [{ at, scale, x, y }, ...]`: camera keyframes; the camera glides from detail to detail without a cut. Use this instead of two shots on the same image (the validator blocks those).
 - `from` / `to`: `{ scale, x, y }`. `scale` 1 = fit, `x`/`y` 0..1 = point of the image in the centre.
 - `matte: { y, color, colorBottom? }`: paints ground colour below row `y` for images whose art stops short (see 002 in the Mongol video).
@@ -26,12 +27,6 @@ See every new feature on screen: `npm run demo <slug>` (engine/FeatureDemo.tsx).
 ### Sprites (`parallax.sprites[]`, cutouts must be RGBA PNG)
 `src`, `start`, `end`, `height` (px), `bottom` (px from bottom), `from` / `to` (left edge, % of width), `bob` (px bounce per stride), `strideHz`.
 Has a soft drop shadow.
-
-### Depth parallax (`depth` on an image scene or image shot)
-`depth: 0.6` to `1` (subtle to normal). Needs layers: `npm run depth <slug>` (all images) or `npm run depth <slug> 012 013`.
-It estimates depth (Depth Anything V2, ONNX, CPU), cuts out the figures and objects that stand in front and paints
-them out of the background (`public/layers/NNN_0.webp`, `NNN_1.webp`, commit them). `NNN_depth.png` shows the split.
-Works on any illustration; skip it on images with text or flat diagrams. Python deps: `pip install -r scripts/requirements.txt`.
 
 ## Transitions (`transition: { type, frames?, direction?, origin? }`)
 

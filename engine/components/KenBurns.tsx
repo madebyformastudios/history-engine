@@ -24,16 +24,39 @@ export const lerpCam = (from: Cam, to: Cam, p: number): Cam => {
   return { scale, x: from.x + (to.x - from.x) * e, y: from.y + (to.y - from.y) * e };
 };
 
-/** Camera for a still at absolute time `t` (path keyframes) or progress `p` (from → to). */
-export const cameraAt = ({ from, to, path }: Pick<KenBurnsConfig, "from" | "to" | "path">, t: number, p: number): Cam =>
-  path && path.length
+/**
+ * Named camera moves around a focus point. Small and slow on purpose: the picture should breathe,
+ * not slide. `hold` barely moves (for strong images and while graphics are on screen).
+ */
+export const presetMove = (move: NonNullable<KenBurnsConfig["move"]>, focus: [number, number] = [0.5, 0.5], amount = 1): { from: Cam; to: Cam } => {
+  const [x, y] = focus;
+  const a = amount;
+  switch (move) {
+    case "hold": return { from: { scale: 1.06, x, y }, to: { scale: 1.06 + 0.03 * a, x, y } };
+    case "pushIn": return { from: { scale: 1.06, x: 0.5 + (x - 0.5) * 0.3, y: 0.5 + (y - 0.5) * 0.3 }, to: { scale: 1.06 + 0.14 * a, x, y } };
+    case "pullOut": return { from: { scale: 1.06 + 0.14 * a, x, y }, to: { scale: 1.06, x: 0.5 + (x - 0.5) * 0.3, y: 0.5 + (y - 0.5) * 0.3 } };
+    case "driftLeft": return { from: { scale: 1.14, x: x + 0.035 * a, y }, to: { scale: 1.15, x: x - 0.035 * a, y } };
+    case "driftRight": return { from: { scale: 1.14, x: x - 0.035 * a, y }, to: { scale: 1.15, x: x + 0.035 * a, y } };
+    case "rise": return { from: { scale: 1.14, x, y: y + 0.03 * a }, to: { scale: 1.15, x, y: y - 0.03 * a } };
+    case "sink": return { from: { scale: 1.14, x, y: y - 0.03 * a }, to: { scale: 1.15, x, y: y + 0.03 * a } };
+  }
+};
+
+/** Camera for a still at absolute time `t` (path keyframes) or progress `p` (from → to, or a named move). */
+export const cameraAt = ({ from, to, path, move, focus, amount }: Pick<KenBurnsConfig, "from" | "to" | "path" | "move" | "focus" | "amount">, t: number, p: number): Cam => {
+  if (!path?.length && (move || !from || !to)) {
+    const m = presetMove(move ?? "hold", focus, amount);
+    return lerpCam(m.from, m.to, p);
+  }
+  return path && path.length
     ? {
         // zoom interpolated in log space, like lerpCam, so push-ins feel constant-speed
         scale: Math.exp(keyframes(t, path, (k) => Math.log(k.scale), theme.ease.gentle)),
         x: keyframes(t, path, (k) => k.x, theme.ease.gentle),
         y: keyframes(t, path, (k) => k.y, theme.ease.gentle),
       }
-    : lerpCam(from, to, p);
+    : lerpCam(from!, to!, p);
+};
 
 /**
  * Slow camera move over a still for the length of its scene (from → to).
@@ -45,6 +68,9 @@ export const KenBurns: React.FC<{ src: string; progress?: number; children?: Rea
   from,
   to,
   path,
+  move,
+  focus,
+  amount,
   matte,
   desaturate,
   progress: override,
@@ -53,7 +79,7 @@ export const KenBurns: React.FC<{ src: string; progress?: number; children?: Rea
   const { progress, t } = useSceneTime();
   const { width, height } = useVideoConfig();
   const p = override ?? progress;
-  const cam = cameraAt({ from, to, path }, t, p);
+  const cam = cameraAt({ from, to, path, move, focus, amount }, t, p);
   const sat = desaturate ? desaturate[0] + (desaturate[1] - desaturate[0]) * p : 1;
   return (
     <AbsoluteFill style={{ overflow: "hidden", filter: sat < 1 ? `saturate(${sat})` : undefined }}>

@@ -3,7 +3,6 @@ import { useContext } from "react";
 import { SceneWindow } from "./timing";
 import { TransitionIn } from "./components/Transitions";
 import { Annotations, GraphicView, Graphics } from "./components/Infographics";
-import { DepthImage } from "./components/DepthImage";
 import { config, sec, type Effects, type Scene, type Shot } from "./config";
 import { KenBurns } from "./components/KenBurns";
 import { Parallax } from "./components/Parallax";
@@ -68,15 +67,9 @@ const Shots: React.FC<{ sceneId: string; shots: Shot[]; fade: number }> = ({ sce
                 ) : shot.map ? (
                   <MapScene sceneId={`${sceneId}-${i}`} settings={config.map} spec={shot.map} />
                 ) : shot.image ? (
-                  shot.depth ? (
-                    <DepthImage src={shot.image} strength={shot.depth} {...(shot.kenBurns ?? DEFAULT_KB)}>
-                      {shot.annotations ? <Annotations items={shot.annotations} /> : null}
-                    </DepthImage>
-                  ) : (
-                    <KenBurns src={shot.image} {...(shot.kenBurns ?? DEFAULT_KB)}>
-                      {shot.annotations ? <Annotations items={shot.annotations} /> : null}
-                    </KenBurns>
-                  )
+                  <KenBurns src={shot.image} {...(shot.kenBurns ?? DEFAULT_KB)}>
+                    {shot.annotations ? <Annotations items={shot.annotations} /> : null}
+                  </KenBurns>
                 ) : null}
                 {shot.effects ? <EffectLayers fx={shot.effects} /> : null}
               </ShotIn>
@@ -93,16 +86,11 @@ export const SceneRenderer: React.FC<{ scene: Scene }> = ({ scene }) => {
   const fx = scene.effects ?? {};
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#000" }}>
-      {scene.type === "image" &&
-        (scene.depth ? (
-          <DepthImage src={scene.image} strength={scene.depth} {...scene.kenBurns}>
-            {scene.annotations ? <Annotations items={scene.annotations} /> : null}
-          </DepthImage>
-        ) : (
-          <KenBurns src={scene.image} {...scene.kenBurns}>
-            {scene.annotations ? <Annotations items={scene.annotations} /> : null}
-          </KenBurns>
-        ))}
+      {scene.type === "image" && (
+        <KenBurns src={scene.image} {...scene.kenBurns}>
+          {scene.annotations ? <Annotations items={scene.annotations} /> : null}
+        </KenBurns>
+      )}
       {scene.type === "parallax" && <Parallax background={scene.background} sprites={scene.sprites} />}
       {scene.type === "map" && <MapScene sceneId={scene.id} settings={config.map} spec={scene.map} />}
       {scene.type === "gfx" && <DecimalArmy sceneId={scene.id} steps={scene.steps} />}

@@ -16,7 +16,6 @@ npm run studio mongol-empire     # preview
 npm run draft mongol-empire      # fast half-resolution render
 npm run render mongol-empire     # final render to out/mongol-empire.mp4
 npm run new viking-age           # start a new video
-npm run depth mongol-empire      # depth layers for parallax (pip install -r scripts/requirements.txt)
 npm run demo mongol-empire       # every engine feature on this video's images
 ```
 

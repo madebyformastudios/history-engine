@@ -21,10 +21,12 @@ change this file first (with Jairo), then build.
   (no visible acceleration). Pop-ins use a quick spring.
 - **Durations:** elements appear in 0.3 to 0.6 s; graphics build in 1 to 2 s; nothing important appears faster
   than the viewer can read it.
-- **Camera:** one calm move per picture. To show another detail of the same picture, glide there with a
+- **Camera:** one calm move per picture, chosen from the named moves (`move`: hold, pushIn, pullOut, driftLeft,
+  driftRight, rise, sink) and never the same move twice in a row. Many pictures should barely move (`hold`). To show another detail of the same picture, glide there with a
   camera `path` (no cut). Never cut from an image back to the same image (the validator blocks it).
-- **Depth:** illustrations get depth parallax (`depth: 0.6` to `1`) unless the picture has text or a flat layout.
-  Keep it subtle; it should feel like depth, not like a cut-out sliding around.
+- **Parallax:** only with layers made separately (a background plate plus cut-out figures generated on their own,
+  see the `parallax` scene type). Never fake depth by cutting up a single flat image: it looks like a cut-out
+  sliding over a smudge.
 - **Pacing:** something changes at least every 6 to 8 seconds: a new picture, a map beat, a graphic,
   or a camera glide to a new detail.
 

@@ -3,7 +3,6 @@ import { config } from "./config";
 import type { MapSpec } from "./config";
 import { SceneWindow } from "./timing";
 import { KenBurns } from "./components/KenBurns";
-import { DepthImage } from "./components/DepthImage";
 import { MapScene } from "./components/MapScene";
 import { TransitionIn, type TransitionType } from "./components/Transitions";
 import { Annotations, GraphicView, type Graphic } from "./components/Infographics";
@@ -27,7 +26,7 @@ const Win: React.FC<{ from: number; len: number; children: React.ReactNode }> = 
 const IMG = ["images/001.jpg", "images/002.jpg", "images/003.jpg"];
 const kb = { from: { scale: 1.1, x: 0.45, y: 0.5 }, to: { scale: 1.25, x: 0.55, y: 0.5 } };
 
-export const DEMO_SECONDS = 2 + 4 * 2.5 + 6 + 5 + 7 * 3.5 + 7;
+export const DEMO_SECONDS = 2 + 4 * 2.5 + 6 + 7 * 3.5 + 7;
 
 export const FeatureDemo: React.FC = () => {
   let t = 0;
@@ -65,8 +64,6 @@ export const FeatureDemo: React.FC = () => {
       />
     </KenBurns>
   ));
-  // 3. depth parallax (needs `npm run depth <slug> 001`)
-  add(5, () => <DepthImage src={IMG[0]} strength={1} from={{ scale: 1.12, x: 0.42, y: 0.5 }} to={{ scale: 1.3, x: 0.58, y: 0.5 }} />);
   // 4. infographics
   const g = (x: Partial<Graphic> & { kind: Graphic["kind"] }, f: number) => ({ at: f / S + 0.2, layout: "full", ...x }) as Graphic;
   const graphics: ((f: number) => Graphic)[] = [

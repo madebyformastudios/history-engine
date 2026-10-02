@@ -69,7 +69,7 @@ These apply to every new video unless Jairo says otherwise.
    really disagree (death tolls, who started what), say so and give the range. Death tolls, coups, massacres,
    assassinations and wars are named plainly.
 
-7. **Look and motion follow STYLE.md.** Kinetic captions, depth parallax on illustrations, a transition plan
+7. **Look and motion follow STYLE.md.** Kinetic captions, varied camera moves (STYLE.md), a transition plan
    (fade by default, one or two accent transitions), and infographics where they add context (STYLE.md says which
    graphic for which content). Every number on screen has a source line; contested numbers show the range.
 8. **Maps must be accurate.** Borders from Cliopatria where it has the state (credit it in the description),
@@ -83,10 +83,9 @@ These apply to every new video unless Jairo says otherwise.
 3. Images in `videos/<slug>/public/images/NNN.jpg` (cutouts `NNN.png`, RGBA), voiceover in `public/audio/voiceover.mp3`.
    Check every image by eye against its prompt number; Flow downloads are sometimes numbered wrongly.
 4. Write `videos/<slug>/scene-spec.mjs` from the runbook, using only catalog options where possible.
-5. `npm run depth <slug>`: depth layers for all illustrations (commit `public/layers/`).
-6. `npm run prepare-video <slug>`: transcribe, align timings, build scenes.json, validate. Fix until it passes.
-7. `npm run stills <slug>`: one still per scene (half size, one bundle). Look at them, fix what is off.
-8. Push, then render on GitHub Actions ("Render video", `scale` 0.5 for a review draft, 1 for the final).
+5. `npm run prepare-video <slug>`: transcribe, align timings, build scenes.json, validate. Fix until it passes.
+6. `npm run stills <slug>`: one still per scene (half size, one bundle). Look at them, fix what is off.
+7. Push, then render on GitHub Actions ("Render video", `scale` 0.5 for a review draft, 1 for the final).
    Do not run full renders on the laptop. Rendered videos are never committed.
 
 ## Commands
@@ -100,7 +99,6 @@ These apply to every new video unless Jairo says otherwise.
 | `npm run draft <slug> -- --frames=a-b` | Short half-resolution check of a few scenes (full renders: GitHub Actions) |
 | `npm run render <slug>` | Local full render. Avoid: the laptop overheats. Use GitHub Actions |
 | `npm run cta-preview <slug> [S10]` | Short MP4 + stills of the CTA overlay over one scene |
-| `npm run depth <slug> [001 002 ...]` | Depth layers for parallax (`public/layers/`, commit them). Needs `pip install -r scripts/requirements.txt` |
 | `npm run demo <slug>` | Every engine feature on this video's images: stills + short MP4 in `checks/` |
 | `npm run bench <slug> [--variants=baseline]` | Render-cost benchmark per effect |
 | `npm run maps` | Rebuild the shared territory library |
@@ -108,7 +106,7 @@ These apply to every new video unless Jairo says otherwise.
 
 ## What is not committed
 
-`out/` (rendered videos), `**/checks/`, `node_modules/`, `whisper.cpp/` (installed on first transcribe), `engine/maps-data/raw/` (map sources, downloaded by `npm run maps`), `models/` (depth model, downloaded by `npm run depth`).
+`out/` (rendered videos), `**/checks/`, `node_modules/`, `whisper.cpp/` (installed on first transcribe), `engine/maps-data/raw/` (map sources, downloaded by `npm run maps`).
 
 ## Known costs and planned improvements
 
@@ -124,4 +122,4 @@ Measured with the benchmark on the Mongol video (2-core machine):
   The 16-minute Iran video (207 shots, 29 maps) rendered in 19 minutes, far faster than the Mac. It is the
   standard way to render. A macOS runner can be picked (`runner` input) but only 5 run at once, so Linux is faster.
 - Built and in CATALOG.md: `cta` (subscribe overlay), `shots` (multi-shot scenes), camera `path`, `transition`,
-  kinetic captions, depth parallax, infographics, annotations, Cliopatria borders, real rivers.
+  kinetic captions, camera presets, infographics, annotations, Cliopatria borders, real rivers.

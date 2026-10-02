@@ -28,7 +28,7 @@ type Scene = {
   background?: { src: string };
   sprites?: { src: string }[];
   map?: MapLike;
-  shots?: { at: number; image?: string; graphic?: object; depth?: number; kenBurns?: { path?: unknown[] }; map?: MapLike }[];
+  shots?: { at: number; image?: string; graphic?: object; kenBurns?: { path?: unknown[] }; map?: MapLike }[];
   cues: Cue[];
 };
 

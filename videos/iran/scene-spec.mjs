@@ -43,13 +43,13 @@ const GULF = { center: [53, 28], zoom: 2.6 };
 const MAPS = {
   "MAP-01": (t) => ({
     camera: [{ at: t, center: [48, 30], zoom: 1.35 }, { at: o(t, 6), ...WORLD }],
-    states: [{ at: t, layers: [] }, { at: o(t, 0.3), duration: 2.2, mode: "grow", origin: P.persepolis, layers: [L("achaemenid_bc500", TERRA)] }],
+    states: [{ at: t, layers: [] }, { at: o(t, 0.3), duration: 2.2, mode: "grow", origin: P.persepolis, layers: [L("clio_achaemenid_-500", TERRA)] }],
     markers: [city("persepolis1", "Persepolis", P.persepolis, o(t, 1.4))],
     regionLabels: [{ text: "ACHAEMENID EMPIRE", lonlat: [52, 35.5], at: o(t, 1.6), size: 40, tone: "dark" }],
   }),
   "MAP-02": (t) => ({
     camera: [{ at: t, ...WORLD, zoom: 1.2 }, { at: o(t, 6), ...IRAN }],
-    states: [{ at: t, layers: [L("iran_2010", TERRA, 0.35)] }],
+    states: [{ at: t, layers: [L("clio_iran_2020", TERRA, 0.35)] }],
     regionLabels: [
       { text: "ZAGROS", lonlat: [48.5, 33], at: o(t, 0.8), size: 26, tone: "dark" },
       { text: "ALBORZ", lonlat: [52.5, 36.4], at: o(t, 1.4), size: 26, tone: "dark" },
@@ -63,7 +63,7 @@ const MAPS = {
   }),
   "MAP-03": (t) => ({
     camera: [{ at: t, center: [50, 34], zoom: 2.4 }, { at: o(t, 8), center: [50, 33], zoom: 2.7 }],
-    states: [{ at: t, layers: [L("elam_bc1000", OCHRE)] }],
+    states: [{ at: t, layers: [L("clio_elam_-1200", OCHRE)] }],
     markers: [city("susa3", "Susa", P.susa, o(t, 0.4))],
     lines: [
       { id: "mig1", style: "arrow", path: [[62, 41], [58, 38.5], [52, 36.5], [48.5, 35]], at: o(t, 0.6), duration: 2.4, smooth: true },
@@ -78,8 +78,8 @@ const MAPS = {
   "MAP-04": (t) => ({
     camera: [{ at: t, center: [46, 35], zoom: 2.2 }, { at: o(t, 6), center: [48, 34], zoom: 2.1 }],
     states: [
-      { at: t, layers: [L("babylonia_bc550", MUTED, 0.6), L("lydia_bc560", MUTED, 0.6)] },
-      { at: o(t, 0.4), duration: 1.6, mode: "grow", origin: P.ecbatana, layers: [L("babylonia_bc550", MUTED, 0.6), L("lydia_bc560", MUTED, 0.6), L("media_bc585", OLIVE), L("persis_bc559", TERRA, 0.75)] },
+      { at: t, layers: [L("clio_neobabylon_-560", MUTED, 0.6), L("clio_lydia_-560", MUTED, 0.6)] },
+      { at: o(t, 0.4), duration: 1.6, mode: "grow", origin: P.ecbatana, layers: [L("clio_neobabylon_-560", MUTED, 0.6), L("clio_lydia_-560", MUTED, 0.6), L("clio_media_-585", OLIVE), L("persis_bc559", TERRA, 0.75)] },
     ],
     markers: [city("ecb4", "Ecbatana", P.ecbatana, o(t, 0.8)), city("nin4", "Nineveh", P.nineveh, t, { crossAt: o(t, 0.2), labelSide: "left" })],
     regionLabels: [{ text: "MEDIA", lonlat: [52, 36.6], at: o(t, 1), size: 36, tone: "dark" }, { text: "PERSIS", lonlat: [53, 29], at: o(t, 1.4), size: 24, tone: "dark" }],
@@ -87,32 +87,32 @@ const MAPS = {
   "MAP-05": (t) => ({
     camera: [{ at: t, center: [48, 34], zoom: 2.3 }, { at: o(t, 7), center: [44, 36], zoom: 1.5 }],
     states: [
-      { at: t, layers: [L("media_bc585", OLIVE), L("lydia_bc560", MUTED, 0.6), L("babylonia_bc550", MUTED, 0.6), L("persis_bc559", TERRA)] },
-      { at: o(t, 0.2), duration: 1.4, mode: "grow", origin: P.ecbatana, layers: [L("lydia_bc560", MUTED, 0.6), L("babylonia_bc550", MUTED, 0.6), L("persis_bc559", TERRA), L("media_bc585", TERRA)] },
-      { at: "@Lydia", duration: 1.2, mode: "grow", origin: P.sardis, layers: [L("babylonia_bc550", MUTED, 0.6), L("persis_bc559", TERRA), L("media_bc585", TERRA), L("lydia_bc560", TERRA)] },
-      { at: "@Central", duration: 1.6, mode: "grow", origin: P.pasargadae, layers: [L("babylonia_bc550", MUTED, 0.6), L("achaemenid_bc500", TERRA)] },
+      { at: t, layers: [L("clio_media_-585", OLIVE), L("clio_lydia_-560", MUTED, 0.6), L("clio_neobabylon_-560", MUTED, 0.6), L("persis_bc559", TERRA)] },
+      { at: o(t, 0.2), duration: 1.4, mode: "grow", origin: P.ecbatana, layers: [L("clio_lydia_-560", MUTED, 0.6), L("clio_neobabylon_-560", MUTED, 0.6), L("persis_bc559", TERRA), L("clio_media_-585", TERRA)] },
+      { at: "@Lydia", duration: 1.2, mode: "grow", origin: P.sardis, layers: [L("clio_neobabylon_-560", MUTED, 0.6), L("persis_bc559", TERRA), L("clio_media_-585", TERRA), L("clio_lydia_-560", TERRA)] },
+      { at: "@Central", duration: 1.6, mode: "grow", origin: P.pasargadae, layers: [L("clio_neobabylon_-560", MUTED, 0.6), L("clio_achaemenid_-500", TERRA)] },
     ],
     markers: [city("pas5", "Pasargadae", P.pasargadae, t), city("sar5", "Sardis", P.sardis, "@Lydia", { battleAt: "@Lydia" })],
   }),
   "MAP-06": (t) => ({
     camera: [{ at: t, center: [40, 31], zoom: 1.8 }, { at: o(t, 5), center: [36, 30], zoom: 2.1 }],
     states: [
-      { at: t, layers: [L("persis_bc559", TERRA), L("media_bc585", TERRA), L("lydia_bc560", TERRA), L("babylonia_bc550", TERRA)] },
-      { at: "@Egypt", duration: 1.4, mode: "grow", origin: P.memphis, layers: [L("persis_bc559", TERRA), L("media_bc585", TERRA), L("lydia_bc560", TERRA), L("babylonia_bc550", TERRA), L("achaemenid_bc500", TERRA)] },
+      { at: t, layers: [L("persis_bc559", TERRA), L("clio_media_-585", TERRA), L("clio_lydia_-560", TERRA), L("clio_neobabylon_-560", TERRA)] },
+      { at: "@Egypt", duration: 1.4, mode: "grow", origin: P.memphis, layers: [L("persis_bc559", TERRA), L("clio_media_-585", TERRA), L("clio_lydia_-560", TERRA), L("clio_neobabylon_-560", TERRA), L("clio_achaemenid_-500", TERRA)] },
     ],
     lines: [{ id: "camb", style: "arrow", path: [[44.4, 32.5], [38, 32.5], [34.5, 31], [31.3, 30]], at: o(t, 0.2), duration: 1.4, smooth: true }],
     markers: [city("mem6", "Memphis", P.memphis, o(t, 1.2), { battleAt: "@Egypt" })],
   }),
   "MAP-07": (t) => ({
     camera: [{ at: t, ...WORLD, zoom: 1.15 }, { at: o(t, 8), center: [42, 34], zoom: 1.6 }],
-    states: [{ at: t, layers: [L("achaemenid_bc500", TERRA, 0.75)] }],
+    states: [{ at: t, layers: [L("clio_achaemenid_-500", TERRA, 0.75)] }],
     lines: [{ id: "royalroad", style: "trade", path: [P.sardis, [32.5, 39], [37, 38.6], [40.2, 37.9], [43.2, 36.4], [45.5, 34.6], [47.4, 33.4], P.susa], at: "@royal", duration: 3, smooth: true, dots: { at: o("@royal", 2.5), count: 3, period: 6, loop: true } }],
     markers: [city("sar7", "Sardis", P.sardis, o(t, 0.3)), city("sus7", "Susa", P.susa, o(t, 0.3)), city("per7", "Persepolis", P.persepolis, o(t, 0.6))],
     regionLabels: [{ text: "SATRAPIES", lonlat: [55, 37], at: "@satrapies", size: 30, tone: "dark" }],
   }),
   "MAP-08": (t) => ({
     camera: [{ at: t, ...GREECE, zoom: 3 }, { at: o(t, 6), ...GREECE }],
-    states: [{ at: t, layers: [L("greek_bc500", OLIVE), L("achaemenid_bc500", TERRA)] }],
+    states: [{ at: t, layers: [L("greek_bc500", OLIVE), L("clio_achaemenid_-500", TERRA)] }],
     markers: [
       city("ath8", "Athens", P.athens, o(t, 0.3), { labelSide: "bottom" }),
       dot("mar8", "Marathon", P.marathon, "@Marathon", { battleAt: "@Marathon" }),
@@ -120,12 +120,13 @@ const MAPS = {
       dot("sal8", "Salamis", P.salamis, "@Salamis", { battleAt: "@Salamis", labelSide: "left" }),
       dot("pla8", "Plataea", P.plataea, "@beaten", { battleAt: "@beaten", labelSide: "top" }),
     ],
-    lines: [{ id: "xerx", style: "arrow", path: [[28, 40.5], [26.2, 40.9], [24, 40.5], [22.8, 39.5], [22.6, 38.9]], at: "@Xerxes", duration: 2.2, smooth: true }],
+    // Sardis, Abydos, bridge over the Hellespont, Thrace coast road, Therme, Tempe, Thermopylae
+    lines: [{ id: "xerx", style: "arrow", path: [[28, 38.5], [27.2, 39.6], [26.4, 40.2], [26.6, 40.6], [25.5, 40.95], [24.4, 40.95], [23, 40.65], [22.45, 39.9], [22.4, 39.3], [22.55, 38.8]], at: "@Xerxes", duration: 2.2, smooth: true, overWater: true }],
   }),
   "MAP-09": (t) => ({
     camera: [{ at: t, center: [38, 35], zoom: 1.5 }, { at: o(t, 7), center: [45, 33], zoom: 1.4 }],
-    states: [{ at: t, layers: [L("achaemenid_bc500", TERRA)] }, { at: "@Persepolis", duration: 1.6, mode: "grow", origin: P.granicus, layers: [L("alexander_bc323", OLIVE)] }],
-    lines: [{ id: "alex", style: "route", path: [[26.5, 40.3], P.granicus, [32, 38.5], P.issus, [35, 33], [31, 30.6], [35.5, 33.5], [40, 36.5], P.gaugamela, P.babylon, P.susa, P.persepolis], at: "@crossed", duration: 6, smooth: true }],
+    states: [{ at: t, layers: [L("clio_achaemenid_-500", TERRA)] }, { at: "@Persepolis", duration: 1.6, mode: "grow", origin: P.granicus, layers: [L("clio_macedon_-323", OLIVE)] }],
+    lines: [{ id: "alex", style: "route", path: [[26.5, 40.3], P.granicus, [32, 38.5], P.issus, [35, 33], [31, 30.6], [35.5, 33.5], [40, 36.5], P.gaugamela, P.babylon, P.susa, P.persepolis], at: "@crossed", duration: 6, smooth: true, overWater: true /* Hellespont crossing, coastal stretches */ }],
     markers: [
       dot("iss9", "Issus", P.issus, "@Issus", { battleAt: "@Issus", labelSide: "left" }),
       dot("gau9", "Gaugamela", P.gaugamela, "@Gaugamela", { battleAt: "@Gaugamela" }),
@@ -134,42 +135,42 @@ const MAPS = {
   }),
   "MAP-10": (t) => ({
     camera: [{ at: t, ...WORLD, zoom: 1.3 }, { at: o(t, 4), center: [50, 33], zoom: 1.6 }],
-    states: [{ at: t, layers: [L("alexander_bc323", OLIVE)] }, { at: o(t, 0.4), duration: 1.4, layers: [L("seleucid_bc300", OCHRE)] }],
+    states: [{ at: t, layers: [L("clio_macedon_-323", OLIVE)] }, { at: o(t, 0.4), duration: 1.4, layers: [L("clio_seleucid_-300", OCHRE)] }],
     regionLabels: [{ text: "SELEUCID EMPIRE", lonlat: [52, 33.5], at: o(t, 1), size: 34, tone: "dark" }],
   }),
   "MAP-11": (t) => ({
     camera: [{ at: t, center: [55, 35], zoom: 2 }, { at: o(t, 7), center: [50, 34], zoom: 1.6 }],
     states: [
-      { at: t, layers: [L("seleucid_bc200", OCHRE, 0.7), L("parthia_bc200", TERRA)] },
-      { at: o(t, 0.5), duration: 2.2, mode: "grow", origin: [58, 37.5], layers: [L("parthian_bc1", TERRA)] },
+      { at: t, layers: [L("clio_seleucid_-200", OCHRE, 0.7), L("clio_parthian_-238", TERRA)] },
+      { at: o(t, 0.5), duration: 2.2, mode: "grow", origin: [58, 37.5], layers: [L("clio_parthian_-53", TERRA)] },
     ],
     markers: [city("cte11", "Ctesiphon", P.ctesiphon, "@Ctesiphon", { pulse: true, labelSide: "left" })],
     regionLabels: [{ text: "PARTHIA", lonlat: [56, 36], at: t, size: 34, tone: "dark" }],
   }),
   "MAP-12": (t) => ({
     camera: [{ at: t, center: [41, 35], zoom: 2 }, { at: o(t, 6), center: [40, 36], zoom: 2.6 }],
-    states: [{ at: t, layers: [L("roman_bc100", OLIVE), L("parthian_bc1", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_roman_-53", OLIVE), L("clio_parthian_-53", TERRA)] }],
     lines: [{ id: "crassus", style: "arrow", path: [[36.2, 36.2], [37.5, 36.6], [39, 36.85]], at: o(t, 0.4), duration: 2, smooth: true }],
     markers: [dot("car12", "Carrhae", P.carrhae, o(t, 1.2), { battleAt: o(t, 2.2), labelSide: "bottom" })],
     regionLabels: [{ text: "ROME", lonlat: [34, 37.5], at: t, size: 30, tone: "dark" }, { text: "PARTHIA", lonlat: [46, 34.5], at: t, size: 30, tone: "dark" }],
   }),
   "MAP-13": (t) => ({
     camera: [{ at: t, center: [40, 35], zoom: 1.8 }, { at: o(t, 6), center: [42, 34.5], zoom: 2.2 }],
-    states: [{ at: t, layers: [L("roman_bc1", OLIVE), L("parthian_bc1", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_roman_117", OLIVE), L("clio_parthian_-53", TERRA)] }],
     markers: [city("cte13", "Ctesiphon", P.ctesiphon, t, { flashAt: o(t, 2), labelSide: "bottom" })],
     regionLabels: [{ text: "ARMENIA", lonlat: [44.5, 40.2], at: "@Armenia", size: 24, tone: "dark" }],
   }),
   "MAP-14": (t) => ({
     camera: [{ at: t, center: [48, 33], zoom: 1.5 }, { at: o(t, 5), center: [50, 33], zoom: 1.7 }],
-    states: [{ at: t, layers: [L("roman_bc1", OLIVE, 0.6)] }, { at: o(t, 0.2), duration: 1.6, mode: "grow", origin: P.persepolis, layers: [L("roman_bc1", OLIVE, 0.6), L("sasanian_500", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_roman_117", OLIVE, 0.6)] }, { at: o(t, 0.2), duration: 1.6, mode: "grow", origin: P.persepolis, layers: [L("clio_roman_117", OLIVE, 0.6), L("clio_sasanian_260", TERRA)] }],
     markers: [dot("ede14", "Edessa", P.edessa, o(t, 0.8), { battleAt: o(t, 1) }), city("naq14", "Naqsh-e Rostam", P.naqsh, o(t, 1.2), { labelSide: "bottom" })],
     regionLabels: [{ text: "SASANIAN EMPIRE", lonlat: [55, 34], at: o(t, 1.4), size: 34, tone: "dark" }],
   }),
   "MAP-15": (t) => ({
     camera: [{ at: t, center: [40, 34], zoom: 1.5 }, { at: o(t, 8), center: [38, 35], zoom: 1.6 }],
     states: [
-      { at: t, layers: [L("byzantine_600", OLIVE), L("sasanian_600", TERRA)] },
-      { at: "@Jerusalem", duration: 1.2, mode: "grow", origin: P.jerusalem, layers: [L("byzantine_600", OLIVE), L("sasanian_600", TERRA), L("babylonia_bc550", TERRA, 0.7)] },
+      { at: t, layers: [L("clio_byzantine_600", OLIVE), L("clio_sasanian_600", TERRA)] },
+      { at: "@Jerusalem", duration: 1.6, mode: "grow", origin: P.jerusalem, layers: [L("clio_byzantine_600", OLIVE), L("clio_sasanian_620", TERRA)] },
     ],
     markers: [
       city("jer15", "Jerusalem", P.jerusalem, "@Jerusalem", { flashAt: "@Jerusalem", labelSide: "left" }),
@@ -184,7 +185,7 @@ const MAPS = {
   }),
   "MAP-16": (t) => ({
     camera: [{ at: t, center: [46, 31], zoom: 1.8 }, { at: o(t, 9), center: [53, 34], zoom: 1.7 }],
-    states: [{ at: t, layers: [L("sasanian_600", TERRA)] }, { at: "@Nahavand", duration: 3, mode: "grow", origin: P.qadisiyyah, layers: [L("abbasid_800", OLIVE)] }],
+    states: [{ at: t, layers: [L("clio_sasanian_600", TERRA)] }, { at: "@Nahavand", duration: 3, mode: "grow", origin: P.qadisiyyah, layers: [L("clio_rashidun_655", OLIVE)] }],
     lines: [
       { id: "ar1", style: "arrow", path: [[42, 28.5], [43.5, 30.5], P.qadisiyyah], at: o(t, 0.2), duration: 1.4, smooth: true },
       { id: "ar2", style: "arrow", path: [P.ctesiphon, [46.5, 33.8], P.nahavand], at: "@Ctesiphon", duration: 1.4, smooth: true },
@@ -199,13 +200,13 @@ const MAPS = {
   }),
   "MAP-17": (t) => ({
     camera: [{ at: t, center: [48, 32], zoom: 1.4 }, { at: o(t, 6), center: [46, 33.5], zoom: 2.4 }],
-    states: [{ at: t, layers: [L("abbasid_800", OLIVE)] }],
+    states: [{ at: t, layers: [L("clio_abbasid_800", OLIVE)] }],
     markers: [city("bag17", "Baghdad", P.baghdad, "@Baghdad", { pulse: true, labelSide: "left" }), dot("cte17", "Ctesiphon (ruins)", P.ctesiphon, "@Baghdad", { labelSide: "bottom" })],
     regionLabels: [{ text: "KHORASAN", lonlat: [60, 36.5], at: "@Khorasan", size: 30, tone: "dark" }],
   }),
   "MAP-18": (t) => ({
     camera: [{ at: t, center: [50, 35], zoom: 1.5 }, { at: o(t, 5), center: [47, 35], zoom: 1.6 }],
-    states: [{ at: t, layers: [] }, { at: o(t, 0.2), duration: 2, mode: "grow", origin: P.merv, layers: [L("seljuk_1100", OCHRE)] }],
+    states: [{ at: t, layers: [] }, { at: o(t, 0.2), duration: 2, mode: "grow", origin: P.merv, layers: [L("clio_seljuk_1090", OCHRE)] }],
     markers: [city("isf18", "Isfahan", P.isfahan, o(t, 1)), city("bag18", "Baghdad", P.baghdad, "@Baghdad", { labelSide: "left" })],
     regionLabels: [{ text: "SELJUK EMPIRE", lonlat: [52, 37.5], at: o(t, 1.2), size: 32, tone: "dark" }],
   }),
@@ -225,36 +226,36 @@ const MAPS = {
   }),
   "MAP-20": (t) => ({
     camera: [{ at: t, center: [50, 36], zoom: 1.35 }, { at: o(t, 6), center: [48, 36], zoom: 1.5 }],
-    states: [{ at: t, layers: [] }, { at: o(t, 0.2), duration: 1.8, mode: "grow", origin: P.tabriz, layers: [L("ilkhanate_1300", TERRA)] }],
+    states: [{ at: t, layers: [] }, { at: o(t, 0.2), duration: 1.8, mode: "grow", origin: P.tabriz, layers: [L("clio_ilkhanate_1300", TERRA)] }],
     markers: [city("tab20", "Tabriz", P.tabriz, o(t, 0.6), { pulse: true })],
     regionLabels: [{ text: "ILKHANATE", lonlat: [55, 34], at: o(t, 1), size: 34, tone: "dark" }],
   }),
   "MAP-21": (t) => ({
     camera: [{ at: t, center: [50, 34], zoom: 1.6 }, { at: o(t, 6), center: [48, 35], zoom: 1.7 }],
-    states: [{ at: t, layers: [] }, { at: o(t, 0.2), duration: 1.8, mode: "grow", origin: P.tabriz, layers: [L("safavid_1530", TERRA)] }],
+    states: [{ at: t, layers: [] }, { at: o(t, 0.2), duration: 1.8, mode: "grow", origin: P.tabriz, layers: [L("clio_safavid_1510", TERRA)] }],
     markers: [city("tab21", "Tabriz", P.tabriz, o(t, 0.4))],
     regionLabels: [{ text: "SAFAVID IRAN", lonlat: [54, 33], at: o(t, 1), size: 34, tone: "dark" }],
   }),
   "MAP-21b": (t) => ({
     camera: [{ at: t, center: [44, 36], zoom: 2 }, { at: o(t, 5), center: [45, 35.5], zoom: 2.3 }],
-    states: [{ at: t, layers: [L("ottoman_1650", OLIVE), L("safavid_1650", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_ottoman_1630", OLIVE), L("clio_safavid_1630", TERRA)] }],
     markers: [dot("cha21", "Chaldiran", P.chaldiran, t, { battleAt: o(t, 0.3), labelSide: "left" })],
     regionLabels: [{ text: "OTTOMAN EMPIRE", lonlat: [36, 38.5], at: t, size: 28, tone: "dark" }, { text: "BORDER OF 1639", lonlat: [44.5, 33.4], at: o(t, 0.8), size: 18, tone: "dark" }],
   }),
   "MAP-22": (t) => ({
     camera: [{ at: t, center: [66, 30.5], zoom: 1.5 }, { at: o(t, 5), center: [68, 30], zoom: 1.6 }],
-    states: [{ at: t, layers: [L("persia_1783", TERRA), L("afghanistan_1783", TERRA, 0.65)] }],
+    states: [{ at: t, layers: [L("clio_afsharid_1740", TERRA)] }],
     lines: [{ id: "nader", style: "arrow", path: [P.isfahan, P.kandahar, [69.17, 34.53], [72, 33.6], [74.5, 31.5], [76.98, 29.69], P.delhi], at: o(t, 0.1), duration: 1.8, smooth: true }],
     markers: [city("del22", "Delhi", P.delhi, o(t, 1.6), { flashAt: o(t, 1.9), labelSide: "left" })],
   }),
   "MAP-23": (t) => ({
     camera: [{ at: t, center: [46, 39], zoom: 2.6 }, { at: o(t, 6), center: [46.5, 39.5], zoom: 3.2 }],
     states: [
-      { at: t, layers: [L("russia_1815", OLIVE, 0.75), L("persia_1815", TERRA), L("caucasus_lost_1828", TERRA)] },
-      { at: o(t, 0.6), duration: 2.2, layers: [L("russia_1815", OLIVE, 0.75), L("persia_1815", TERRA), L("caucasus_lost_1828", OLIVE, 0.75)] },
+      { at: t, layers: [L("russia_1815", OLIVE, 0.75), L("clio_qajar_1800", TERRA)] },
+      { at: o(t, 0.6), duration: 2.2, layers: [L("russia_1815", OLIVE, 0.75), L("clio_qajar_1830", TERRA)] },
     ],
     markers: [city("tif23", "Tiflis", P.tiflis, t), city("eri23", "Erivan", P.erivan, o(t, 0.3)), city("bak23", "Baku", P.baku, o(t, 0.3))],
-    lines: [{ id: "aras", style: "river", path: [[43.5, 40.1], [44.6, 39.7], [45.4, 39.3], [46.5, 38.9], [47.5, 39.3], [48.3, 39.7], [48.9, 39.9]], at: "@Aras", duration: 1.4, smooth: true }],
+    lines: [{ id: "aras", style: "river", river: "Aras", path: [], at: "@Aras", duration: 1.4 }],
     regionLabels: [{ text: "RUSSIAN EMPIRE", lonlat: [45, 43.4], at: o(t, 0.3), size: 26, tone: "dark" }, { text: "ARAS", lonlat: [46.2, 38.6], at: "@Aras", size: 18, tone: "dark" }],
   }),
   "MAP-24": (t) => ({
@@ -265,7 +266,7 @@ const MAPS = {
   }),
   "MAP-25": (t) => ({
     camera: [{ at: t, ...IRAN, zoom: 1.9 }, { at: o(t, 5), ...IRAN, zoom: 2.1 }],
-    states: [{ at: t, layers: [L("iran_1938", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_pahlavi_1941", TERRA)] }],
     lines: [
       { id: "sov", style: "arrow", path: [[47, 41.5], [47.5, 39], [49, 37], [51.2, 35.8]], at: o(t, 0.2), duration: 2, smooth: true },
       { id: "sov2", style: "arrow", path: [[58.5, 39], [57.5, 37.5], [54, 36.3]], at: o(t, 0.4), duration: 2, smooth: true },
@@ -276,7 +277,7 @@ const MAPS = {
   }),
   "MAP-26": (t) => ({
     camera: [{ at: t, center: [48, 32], zoom: 2.4 }, { at: o(t, 7), center: [50, 29], zoom: 2.2 }],
-    states: [{ at: t, layers: [L("iraq_2010", OLIVE), L("iran_2010", TERRA)] }],
+    states: [{ at: t, layers: [L("iraq_2010", OLIVE), L("clio_iran_2020", TERRA)] }],
     lines: [
       { id: "irq", style: "arrow", path: [[47, 31], [48.2, 31.1], [48.8, 31.4]], at: o(t, 0.2), duration: 1.6, smooth: true },
       { id: "irq2", style: "arrow", path: [[47.5, 30.4], [48.2, 30.45]], at: o(t, 0.4), duration: 1.2 },
@@ -286,7 +287,7 @@ const MAPS = {
   }),
   "MAP-27": (t) => ({
     camera: [{ at: t, center: [45, 30], zoom: 1.5 }, { at: o(t, 6), center: [44, 29], zoom: 1.6 }],
-    states: [{ at: t, layers: [L("iran_2010", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_iran_2020", TERRA)] }],
     lines: [
       { id: "al1", style: "trade", path: [P.tehran, [44, 34], P.damascus, P.beirut], at: o(t, 0.3), duration: 2, smooth: true },
       { id: "al2", style: "trade", path: [P.tehran, [48, 30], [46, 22], P.sanaa], at: o(t, 0.8), duration: 2, smooth: true },
@@ -295,7 +296,7 @@ const MAPS = {
   }),
   "MAP-28": (t) => ({
     camera: [{ at: t, ...IRAN, zoom: 2.1 }, { at: o(t, 6), center: [51.5, 34], zoom: 3.2 }],
-    states: [{ at: t, layers: [L("iran_2010", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_iran_2020", TERRA)] }],
     markers: [
       dot("for28", "Fordow", P.fordow, "@Fordow", { flashAt: "@Fordow" }),
       dot("nat28", "Natanz", P.natanz, "@Natanz", { flashAt: "@Natanz" }),
@@ -305,24 +306,24 @@ const MAPS = {
   }),
   "MAP-29": (t) => ({
     camera: [{ at: t, ...IRAN, zoom: 2 }, { at: o(t, 6), ...IRAN, zoom: 2.2 }],
-    states: [{ at: t, layers: [L("iran_2010", TERRA)] }],
+    states: [{ at: t, layers: [L("clio_iran_2020", TERRA)] }],
     markers: [city("teh29", "Tehran", P.tehran, t, { flashAt: o(t, 0.3) }), city("min29", "Minab", P.minab, "@Minab", { flashAt: "@Minab", labelSide: "bottom" })],
   }),
   "MAP-29b": (t) => ({
     camera: [{ at: t, center: [47, 29], zoom: 1.6 }, { at: o(t, 5), ...GULF }],
-    states: [{ at: t, layers: [L("iran_2010", TERRA), L("israel_2010", OLIVE), L("saudi_2010", MUTED, 0.6), L("gulf_2010", MUTED, 0.6)] }],
+    states: [{ at: t, layers: [L("clio_iran_2020", TERRA), L("israel_2010", OLIVE), L("saudi_2010", MUTED, 0.6), L("gulf_2010", MUTED, 0.6)] }],
     lines: [
-      { id: "mis1", style: "arrow", path: [P.tehran, [44, 34.5], P.telaviv], at: o(t, 0.2), duration: 1.4, smooth: true },
-      { id: "mis2", style: "arrow", path: [[52, 29], P.doha], at: o(t, 0.5), duration: 1 },
-      { id: "mis3", style: "arrow", path: [[54.5, 27.8], P.dubai], at: o(t, 0.7), duration: 1 },
-      { id: "mis4", style: "arrow", path: [[49, 30], P.riyadh], at: o(t, 0.9), duration: 1.2 },
+      { id: "mis1", style: "arrow", overWater: true, path: [P.tehran, [44, 34.5], P.telaviv], at: o(t, 0.2), duration: 1.4, smooth: true },
+      { id: "mis2", style: "arrow", overWater: true, path: [[52, 29], P.doha], at: o(t, 0.5), duration: 1 },
+      { id: "mis3", style: "arrow", overWater: true, path: [[54.5, 27.8], P.dubai], at: o(t, 0.7), duration: 1 },
+      { id: "mis4", style: "arrow", overWater: true, path: [[49, 30], P.riyadh], at: o(t, 0.9), duration: 1.2 },
     ],
     markers: [dot("hor29", "Strait of Hormuz", [56.4, 26.6], "@Strait", { crossAt: o("@Strait", 0.3), labelSide: "bottom" })],
   }),
 };
 
 /** A map shot: map `id` built at base time `t`. */
-const M = (id, t) => ({ map: { id, ...MAPS[id](t) } });
+const M = (id, t) => ({ map: { id, rivers: true, ...MAPS[id](t) } });
 const kb = (from, to, extra = {}) => ({ from: { scale: from[0], x: from[1], y: from[2] }, to: { scale: to[0], x: to[1], y: to[2] }, ...extra });
 
 export const meta = {
@@ -333,6 +334,8 @@ export const meta = {
   height: 1080,
   audio: "audio/voiceover.mp3",
   transitionFrames: 10,
+  transition: { type: "fade" },
+  captions: { style: "kinetic" },
 };
 
 export const overlay = { dust: 0.45, parchment: 0.22, grain: 0.07, vignette: 0.42 };
@@ -347,9 +350,9 @@ export const scenes = [
     motion: "start: IMG 001, slow push toward the throne | @Egypt: MAP-01, empire flashes on, camera pulls out | @Today: IMG 078, slow pan across Tehran",
     titles: [{ text: "IRAN", at: "@Iran", style: "title" }],
     shots: [
-      { at: "^", image: "images/001.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]) },
+      { at: "^", image: "images/001.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]), depth: 0.8 },
       { at: "@Egypt", ...M("MAP-01", "@Egypt") },
-      { at: "@Today", image: "images/078.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]) },
+      { at: "@Today", image: "images/078.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]), depth: 0.8 },
     ],
   },
   {
@@ -357,19 +360,16 @@ export const scenes = [
     motion: "start: MAP-02, relief map, mountains and deserts labelled | @between: IMG 002, slow pan across the plateau | @army: IMG 002, new camera move on another part of the image",
     shots: [
       { at: "^", ...M("MAP-02", "^") },
-      { at: "@between", image: "images/002.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@army", image: "images/002.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.6, 0.5]), fade: 0 },
+      { at: "@between", image: "images/002.jpg", kenBurns: { ...kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]), path: [{ at: "@between", scale: 1.28, x: 0.4, y: 0.5 }, { at: "@army", scale: 1.434, x: 0.5, y: 0.5 }, { at: "$", scale: 1.434, x: 0.6, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
     id: "S03", part: "BEFORE PERSIA", assets: ["IMG 003", "IMG 004", "PHOTO-01"], type: "shots",
     motion: "start: IMG 003, push in on the scribes | @capital: IMG 003, new camera move on another part of the image | @people: IMG 003, new camera move on another part of the image | @Hammurabi's: IMG 004, pan following the stone | @stone: PHOTO-01, slow tilt up the stele",
     shots: [
-      { at: "^", image: "images/003.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.163, 0.527, 0.483]) },
-      { at: "@capital", image: "images/003.jpg", kenBurns: kb([1.303, 0.527, 0.483], [1.351, 0.553, 0.467]), fade: 0 },
-      { at: "@people", image: "images/003.jpg", kenBurns: kb([1.496, 0.553, 0.467], [1.55, 0.58, 0.45]), fade: 0 },
-      { at: "@Hammurabi's", image: "images/004.jpg", kenBurns: kb([1.28, 0.4, 0.55], [1.28, 0.6, 0.55]) },
-      { at: "@stone", image: "images/photo-01.jpg", kenBurns: kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.4]) },
+      { at: "^", image: "images/003.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@capital", scale: 1.303, x: 0.527, y: 0.483 }, { at: "@people", scale: 1.496, x: 0.553, y: 0.467 }, { at: "@Hammurabi's", scale: 1.55, x: 0.58, y: 0.45 }] }, depth: 0.8 },
+      { at: "@Hammurabi's", image: "images/004.jpg", kenBurns: kb([1.28, 0.4, 0.55], [1.28, 0.6, 0.55]), depth: 0.8 },
+      { at: "@stone", image: "images/photo-01.jpg", kenBurns: kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.4]), annotations: [{ type: "circle", at: "@stone+0.3", x: 0.5, y: 0.2, r: 0.07, label: "the law code" }] },
     ],
   },
   {
@@ -377,8 +377,7 @@ export const scenes = [
     motion: "start: MAP-03, arrows of migrating peoples | @Medes: IMG 005, slow pan across the caravan | @southwest: IMG 005, new camera move on another part of the image",
     shots: [
       { at: "^", ...M("MAP-03", "^") },
-      { at: "@Medes", image: "images/005.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@southwest", image: "images/005.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.4, 0.5]), fade: 0 },
+      { at: "@Medes", image: "images/005.jpg", kenBurns: { ...kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), path: [{ at: "@Medes", scale: 1.28, x: 0.6, y: 0.5 }, { at: "@southwest", scale: 1.434, x: 0.5, y: 0.5 }, { at: "$", scale: 1.434, x: 0.4, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -386,8 +385,7 @@ export const scenes = [
     motion: "start: IMG 006, slow push into the burning gate | @capital: IMG 006, new camera move on another part of the image | @strongest: MAP-04, Media fills in, Persis as vassal",
     year: [{ at: "^+0.3", value: -612 }],
     shots: [
-      { at: "^", image: "images/006.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.5, 0.475]) },
-      { at: "@capital", image: "images/006.jpg", kenBurns: kb([1.327, 0.5, 0.475], [1.4, 0.5, 0.45]), fade: 0 },
+      { at: "^", image: "images/006.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@capital", scale: 1.327, x: 0.5, y: 0.475 }, { at: "@strongest", scale: 1.4, x: 0.5, y: 0.45 }] }, depth: 0.8 },
       { at: "@strongest", ...M("MAP-04", "@strongest") },
     ],
   },
@@ -397,9 +395,8 @@ export const scenes = [
     year: [{ at: "^+0.3", value: -550 }],
     titles: [{ text: "CYRUS THE GREAT", at: "@Cyrus", style: "name" }],
     shots: [
-      { at: "^", image: "images/007.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]) },
+      { at: "^", image: "images/007.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]), depth: 0.8 },
       { at: "@Within", ...M("MAP-05", "@Within") },
-      { at: "@Turkey", ...M("MAP-05", "@Turkey") },
     ],
   },
   {
@@ -407,13 +404,10 @@ export const scenes = [
     motion: "start: IMG 008, pan along the gate | @cylinder: PHOTO-02, slow push | @chosen: PHOTO-02, new camera move on another part of the image | @Jews: IMG 009, pan with the exiles | @called: IMG 009, new camera move on another part of the image | @propaganda: IMG 008, second move: crowds detail | @real: IMG 008, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: -539 }],
     shots: [
-      { at: "^", image: "images/008.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]) },
-      { at: "@cylinder", image: "images/photo-02.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.135, 0.5, 0.475]) },
-      { at: "@chosen", image: "images/photo-02.jpg", kenBurns: kb([1.271, 0.5, 0.475], [1.4, 0.5, 0.45]), fade: 0 },
-      { at: "@Jews", image: "images/009.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@called", image: "images/009.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.6, 0.5]), fade: 0 },
-      { at: "@propaganda", image: "images/008.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.5]) },
-      { at: "@real", image: "images/008.jpg", kenBurns: kb([1.327, 0.46, 0.5], [1.4, 0.42, 0.5]), fade: 0 },
+      { at: "^", image: "images/008.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]), depth: 0.8 },
+      { at: "@cylinder", image: "images/photo-02.jpg", kenBurns: { ...kb([1.02, 0.5, 0.5], [1.25, 0.5, 0.45]), path: [{ at: "@cylinder", scale: 1.02, x: 0.5, y: 0.5 }, { at: "@chosen", scale: 1.271, x: 0.5, y: 0.475 }, { at: "@Jews", scale: 1.4, x: 0.5, y: 0.45 }] } },
+      { at: "@Jews", image: "images/009.jpg", kenBurns: { ...kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]), path: [{ at: "@Jews", scale: 1.28, x: 0.4, y: 0.5 }, { at: "@called", scale: 1.434, x: 0.5, y: 0.5 }, { at: "@propaganda", scale: 1.434, x: 0.6, y: 0.5 }] }, depth: 0.8 },
+      { at: "@propaganda", image: "images/008.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]), path: [{ at: "@propaganda", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@real", scale: 1.327, x: 0.46, y: 0.5 }, { at: "$", scale: 1.4, x: 0.42, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -421,17 +415,18 @@ export const scenes = [
     motion: "start: IMG 010, CTA: subscribe overlay. Slow push on the tomb",
     cta: { at: "@subscribe", duration: 5.5 },
     shots: [
-      { at: "^", image: "images/010.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]) },
+      { at: "^", image: "images/010.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]), depth: 0.8 },
     ],
   },
   // ---------------- PART: THE FIRST WORLD EMPIRE ----------------
   {
     id: "S09", part: "THE FIRST WORLD EMPIRE", assets: ["PHOTO-03", "MAP-06"], type: "shots",
     motion: "start: PHOTO-03, slow push | @nomads: PHOTO-03, new camera move on another part of the image | @Cambyses: MAP-06, arrow into Egypt",
+    graphics: [{ kind: "timeline", layout: "lower", at: "^+0.2", until: "^+5.5", from: -3200, to: 2026, eras: [{ from: -3200, to: -640, label: "Elam" }, { from: -550, to: -330, label: "Achaemenid", color: "terracotta" }, { from: -247, to: 224, label: "Parthian", color: "olive" }, { from: 224, to: 651, label: "Sasanian", color: "terracotta" }, { from: 651, to: 1040, label: "Caliphates", color: "ochre" }, { from: 1040, to: 1501, label: "Turks, Mongols", color: "olive" }, { from: 1501, to: 1736, label: "Safavid", color: "terracotta" }, { from: 1789, to: 1925, label: "Qajar", color: "ochre" }, { from: 1925, to: 2026, label: "Modern", color: "deepRed" }], now: [{ at: "^+0.8", year: -3200 }, { at: "^+2.6", year: -530 }] }],
+    transition: { type: "whip", direction: "left" },
     year: [{ at: "^+0.3", value: -530 }],
     shots: [
-      { at: "^", image: "images/photo-03.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.135, 0.54, 0.5]) },
-      { at: "@nomads", image: "images/photo-03.jpg", kenBurns: kb([1.271, 0.54, 0.5], [1.4, 0.58, 0.5]), fade: 0 },
+      { at: "^", image: "images/photo-03.jpg", kenBurns: { ...kb([1.02, 0.5, 0.5], [1.25, 0.58, 0.5]), path: [{ at: "^", scale: 1.02, x: 0.5, y: 0.5 }, { at: "@nomads", scale: 1.271, x: 0.54, y: 0.5 }, { at: "@Cambyses", scale: 1.4, x: 0.58, y: 0.5 }] } },
       { at: "@Cambyses", ...M("MAP-06", "@Cambyses") },
     ],
   },
@@ -441,9 +436,7 @@ export const scenes = [
     year: [{ at: "^+0.3", value: -522 }],
     titles: [{ text: "DARIUS I", at: "@Darius", style: "name" }],
     shots: [
-      { at: "^", image: "images/011.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.533, 0.5]) },
-      { at: "@killed", image: "images/011.jpg", kenBurns: kb([1.434, 0.533, 0.5], [1.434, 0.467, 0.5]), fade: 0 },
-      { at: "@usurper", image: "images/011.jpg", kenBurns: kb([1.587, 0.467, 0.5], [1.587, 0.4, 0.5]), fade: 0 },
+      { at: "^", image: "images/011.jpg", kenBurns: { ...kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.5 }, { at: "@killed", scale: 1.434, x: 0.533, y: 0.5 }, { at: "@usurper", scale: 1.587, x: 0.467, y: 0.5 }, { at: "@Behistun", scale: 1.587, x: 0.4, y: 0.5 }] }, depth: 0.8 },
       { at: "@Behistun", image: "images/photo-04.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]) },
     ],
   },
@@ -452,16 +445,14 @@ export const scenes = [
     motion: "start: MAP-07, satrapies appear, Royal Road draws Sardis to Susa | @River: MAP-07, camera moves to the next area | @tribute: MAP-07, camera moves to the next area | @Relay: IMG 012, quick push on the rider",
     shots: [
       { at: "^", ...M("MAP-07", "^") },
-      { at: "@River", ...M("MAP-07", "@River") },
-      { at: "@tribute", ...M("MAP-07", "@tribute") },
-      { at: "@Relay", image: "images/012.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]) },
+      { at: "@Relay", image: "images/012.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), depth: 0.8 },
     ],
   },
   {
     id: "S12", part: "THE FIRST WORLD EMPIRE", assets: ["IMG 013", "PHOTO-05"], type: "shots",
     motion: "start: IMG 013, pan across the workers | @tablets: PHOTO-05, slow push on the ruins",
     shots: [
-      { at: "^", image: "images/013.jpg", kenBurns: kb([1.4, 0.4, 0.62], [1.4, 0.6, 0.62]) },
+      { at: "^", image: "images/013.jpg", kenBurns: kb([1.4, 0.4, 0.62], [1.4, 0.6, 0.62]), depth: 0.8 },
       { at: "@tablets", image: "images/photo-05.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.25, 0.5, 0.45]) },
     ],
   },
@@ -471,18 +462,15 @@ export const scenes = [
     year: [{ at: "^+0.3", value: -490 }],
     shots: [
       { at: "^", ...M("MAP-08", "^") },
-      { at: "@rebel", ...M("MAP-08", "@rebel") },
-      { at: "@Marathon", image: "images/014.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]) },
-      { at: "@Xerxes", image: "images/015.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.5, 0.475]) },
-      { at: "@fleet", image: "images/015.jpg", kenBurns: kb([1.327, 0.5, 0.475], [1.4, 0.5, 0.45]), fade: 0 },
+      { at: "@Marathon", image: "images/014.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), depth: 0.8 },
+      { at: "@Xerxes", image: "images/015.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.45]), path: [{ at: "@Xerxes", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@fleet", scale: 1.327, x: 0.5, y: 0.475 }, { at: "$", scale: 1.4, x: 0.5, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
     id: "S14", part: "THE FIRST WORLD EMPIRE", assets: ["IMG 015"], type: "shots",
     motion: "start: IMG 015, second move: sinking ships detail | @lost: IMG 015, new camera move on another part of the image",
     shots: [
-      { at: "^", image: "images/015.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.475]) },
-      { at: "@lost", image: "images/015.jpg", kenBurns: kb([1.327, 0.46, 0.475], [1.4, 0.42, 0.45]), fade: 0 },
+      { at: "^", image: "images/015.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@lost", scale: 1.327, x: 0.46, y: 0.475 }, { at: "$", scale: 1.4, x: 0.42, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
@@ -492,10 +480,8 @@ export const scenes = [
     titles: [{ text: "ALEXANDER THE GREAT", at: "@Alexander", style: "name" }],
     shots: [
       { at: "^", ...M("MAP-09", "^") },
-      { at: "@Asia", ...M("MAP-09", "@Asia") },
-      { at: "@Gaugamela", image: "images/016.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.475]) },
-      { at: "@murdered", image: "images/016.jpg", kenBurns: kb([1.327, 0.54, 0.475], [1.4, 0.58, 0.45]), fade: 0 },
-      { at: "@Persepolis", image: "images/017.jpg", kenBurns: kb([1.3, 0.58, 0.55], [1.12, 0.5, 0.5]) },
+      { at: "@Gaugamela", image: "images/016.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), path: [{ at: "@Gaugamela", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@murdered", scale: 1.327, x: 0.54, y: 0.475 }, { at: "@Persepolis", scale: 1.4, x: 0.58, y: 0.45 }] }, depth: 0.8 },
+      { at: "@Persepolis", image: "images/017.jpg", kenBurns: kb([1.3, 0.58, 0.55], [1.12, 0.5, 0.5]), depth: 0.8 },
     ],
   },
   {
@@ -503,14 +489,14 @@ export const scenes = [
     motion: "start: IMG 018, slow push on the couple | @named: IMG 018, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: -323 }],
     shots: [
-      { at: "^", image: "images/018.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.475]) },
-      { at: "@named", image: "images/018.jpg", kenBurns: kb([1.327, 0.54, 0.475], [1.4, 0.58, 0.45]), fade: 0 },
+      { at: "^", image: "images/018.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@named", scale: 1.327, x: 0.54, y: 0.475 }, { at: "$", scale: 1.4, x: 0.58, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   // ---------------- PART: ROME'S RIVAL ----------------
   {
     id: "S17", part: "ROME'S RIVAL", assets: ["MAP-10"], type: "shots",
     motion: "start: MAP-10, Seleucid realm fills in",
+    transition: { type: "whip", direction: "left" },
     shots: [
       { at: "^", ...M("MAP-10", "^") },
     ],
@@ -520,22 +506,19 @@ export const scenes = [
     motion: "start: IMG 019, pan with the riders | @province: IMG 019, new camera move on another part of the image | @successors: MAP-11, Parthia grows, Ctesiphon marker | @Mesopotamia: MAP-11, camera moves to the next area",
     year: [{ at: "^+0.3", value: -238 }],
     shots: [
-      { at: "^", image: "images/019.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.5, 0.45]) },
-      { at: "@province", image: "images/019.jpg", kenBurns: kb([1.434, 0.5, 0.45], [1.434, 0.4, 0.45]), fade: 0 },
+      { at: "^", image: "images/019.jpg", kenBurns: { ...kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.45 }, { at: "@province", scale: 1.434, x: 0.5, y: 0.45 }, { at: "@successors", scale: 1.434, x: 0.4, y: 0.45 }] }, depth: 0.8 },
       { at: "@successors", ...M("MAP-11", "@successors") },
-      { at: "@Mesopotamia", ...M("MAP-11", "@Mesopotamia") },
     ],
   },
   {
     id: "S19", part: "ROME'S RIVAL", assets: ["MAP-12", "IMG 020", "IMG 021"], type: "shots",
     motion: "start: MAP-12, Crassus's route to Carrhae | @Roman: MAP-12, camera moves to the next area | @Carrhae: IMG 020, slow push into the square | @killed: IMG 020, new camera move on another part of the image | @Plutarch: IMG 021, slow push on the actor",
+    graphics: [{ kind: "compare", layout: "right", title: "Carrhae, 53 BC", at: "@About", until: "$-0.2", unit: "Romans", items: [{ label: "Killed", value: 20000, color: "deepRed" }, { label: "Captured", value: 10000, color: "olive" }], source: "Plutarch" }],
     year: [{ at: "^+0.3", value: -53 }],
     shots: [
       { at: "^", ...M("MAP-12", "^") },
-      { at: "@Roman", ...M("MAP-12", "@Roman") },
-      { at: "@Carrhae", image: "images/020.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.475]) },
-      { at: "@killed", image: "images/020.jpg", kenBurns: kb([1.327, 0.54, 0.475], [1.4, 0.58, 0.45]), fade: 0 },
-      { at: "@Plutarch", image: "images/021.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]) },
+      { at: "@Carrhae", image: "images/020.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), path: [{ at: "@Carrhae", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@killed", scale: 1.327, x: 0.54, y: 0.475 }, { at: "@Plutarch", scale: 1.4, x: 0.58, y: 0.45 }] }, depth: 0.8 },
+      { at: "@Plutarch", image: "images/021.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), depth: 0.8 },
     ],
   },
   {
@@ -543,7 +526,7 @@ export const scenes = [
     motion: "start: MAP-13, frontier, Ctesiphon sack markers | @sacked: IMG 022, pan across the looting",
     shots: [
       { at: "^", ...M("MAP-13", "^") },
-      { at: "@sacked", image: "images/022.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]) },
+      { at: "@sacked", image: "images/022.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]), depth: 0.8 },
     ],
   },
   {
@@ -551,9 +534,8 @@ export const scenes = [
     motion: "start: IMG 023, push in on the crowning | @founded: IMG 023, new camera move on another part of the image | @Zoroastrianism: IMG 024, slow push on the flame",
     year: [{ at: "^+0.3", value: 224 }],
     shots: [
-      { at: "^", image: "images/023.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.5]) },
-      { at: "@founded", image: "images/023.jpg", kenBurns: kb([1.327, 0.54, 0.5], [1.4, 0.58, 0.5]), fade: 0 },
-      { at: "@Zoroastrianism", image: "images/024.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]) },
+      { at: "^", image: "images/023.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.5]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@founded", scale: 1.327, x: 0.54, y: 0.5 }, { at: "@Zoroastrianism", scale: 1.4, x: 0.58, y: 0.5 }] }, depth: 0.8 },
+      { at: "@Zoroastrianism", image: "images/024.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), depth: 0.8 },
     ],
   },
   {
@@ -562,9 +544,8 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 260 }],
     titles: [{ text: "SHAPUR I", at: "@Shapur", style: "name" }],
     shots: [
-      { at: "^", image: "images/025.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.475]) },
-      { at: "@Roman", image: "images/025.jpg", kenBurns: kb([1.327, 0.46, 0.475], [1.4, 0.42, 0.45]), fade: 0 },
-      { at: "@carved", image: "images/photo-06.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]) },
+      { at: "^", image: "images/025.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@Roman", scale: 1.327, x: 0.46, y: 0.475 }, { at: "@carved", scale: 1.4, x: 0.42, y: 0.45 }] }, depth: 0.8 },
+      { at: "@carved", image: "images/photo-06.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]), annotations: [{ type: "arrow", at: "@carved+0.4", from: [0.12, 0.25], to: [0.24, 0.55], label: "Valerian" }] },
       { at: "@still", ...M("MAP-14", "@still") },
     ],
   },
@@ -572,8 +553,7 @@ export const scenes = [
     id: "S23", part: "ROME'S RIVAL", assets: ["IMG 026"], type: "shots",
     motion: "start: IMG 026, pan from the scholars to the chess game | @books: IMG 026, new camera move on another part of the image",
     shots: [
-      { at: "^", image: "images/026.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.5, 0.45]) },
-      { at: "@books", image: "images/026.jpg", kenBurns: kb([1.434, 0.5, 0.45], [1.434, 0.4, 0.45]), fade: 0 },
+      { at: "^", image: "images/026.jpg", kenBurns: { ...kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.45 }, { at: "@books", scale: 1.434, x: 0.5, y: 0.45 }, { at: "$", scale: 1.434, x: 0.4, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
@@ -582,9 +562,8 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 602 }],
     shots: [
       { at: "^", ...M("MAP-15", "^") },
-      { at: "@armies", ...M("MAP-15", "@armies") },
-      { at: "@Constantinople", image: "images/027.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]) },
-      { at: "@Heraclius", image: "images/028.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]) },
+      { at: "@Constantinople", image: "images/027.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]), depth: 0.8 },
+      { at: "@Heraclius", image: "images/028.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]), depth: 0.8 },
     ],
   },
   {
@@ -592,28 +571,26 @@ export const scenes = [
     motion: "start: IMG 029, very slow push on the empty throne | @than: IMG 029, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 628 }],
     shots: [
-      { at: "^", image: "images/029.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.5, 0.475]) },
-      { at: "@than", image: "images/029.jpg", kenBurns: kb([1.327, 0.5, 0.475], [1.4, 0.5, 0.45]), fade: 0 },
+      { at: "^", image: "images/029.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@than", scale: 1.327, x: 0.5, y: 0.475 }, { at: "$", scale: 1.4, x: 0.5, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   // ---------------- PART: CONQUERED, NEVER ERASED ----------------
   {
     id: "S26", part: "CONQUERED, NEVER ERASED", assets: ["MAP-16", "IMG 030", "IMG 031"], type: "shots",
     motion: "start: MAP-16, Arab arrows on cue | @al-Qadisiyyah: IMG 030, pan across the battle | @Yazdegerd: IMG 031, slow push on the lone rider | @than: IMG 031, new camera move on another part of the image",
+    transition: { type: "whip", direction: "left" },
     year: [{ at: "^+0.3", value: 636 }],
     shots: [
       { at: "^", ...M("MAP-16", "^") },
-      { at: "@al-Qadisiyyah", image: "images/030.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]) },
-      { at: "@Yazdegerd", image: "images/031.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.475]) },
-      { at: "@than", image: "images/031.jpg", kenBurns: kb([1.327, 0.46, 0.475], [1.4, 0.42, 0.45]), fade: 0 },
+      { at: "@al-Qadisiyyah", image: "images/030.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]), depth: 0.8 },
+      { at: "@Yazdegerd", image: "images/031.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), path: [{ at: "@Yazdegerd", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@than", scale: 1.327, x: 0.46, y: 0.475 }, { at: "$", scale: 1.4, x: 0.42, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
     id: "S27", part: "CONQUERED, NEVER ERASED", assets: ["IMG 032"], type: "shots",
     motion: "start: IMG 032, slow pan along the beach | @Christian: IMG 032, new camera move on another part of the image",
     shots: [
-      { at: "^", image: "images/032.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.5, 0.45]) },
-      { at: "@Christian", image: "images/032.jpg", kenBurns: kb([1.434, 0.5, 0.45], [1.434, 0.4, 0.45]), fade: 0 },
+      { at: "^", image: "images/032.jpg", kenBurns: { ...kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.45 }, { at: "@Christian", scale: 1.434, x: 0.5, y: 0.45 }, { at: "$", scale: 1.434, x: 0.4, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
@@ -622,17 +599,14 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 750 }],
     shots: [
       { at: "^", ...M("MAP-17", "^") },
-      { at: "@administration", ...M("MAP-17", "@administration") },
-      { at: "@brought", ...M("MAP-17", "@brought") },
-      { at: "@Baghdad", image: "images/033.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.55]) },
+      { at: "@Baghdad", image: "images/033.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.55]), depth: 0.8 },
     ],
   },
   {
     id: "S29", part: "CONQUERED, NEVER ERASED", assets: ["IMG 034"], type: "shots",
     motion: "start: IMG 034, pan across the scholars | @algorithm: IMG 034, new camera move on another part of the image",
     shots: [
-      { at: "^", image: "images/034.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@algorithm", image: "images/034.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.6, 0.5]), fade: 0 },
+      { at: "^", image: "images/034.jpg", kenBurns: { ...kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]), path: [{ at: "^", scale: 1.28, x: 0.4, y: 0.5 }, { at: "@algorithm", scale: 1.434, x: 0.5, y: 0.5 }, { at: "$", scale: 1.434, x: 0.6, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -641,9 +615,8 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1010 }],
     titles: [{ text: "FERDOWSI", at: "@Ferdowsi", style: "name" }],
     shots: [
-      { at: "^", image: "images/035.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]) },
-      { at: "@Shahnameh", image: "images/photo-07.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.5, 0.55]) },
-      { at: "@first", image: "images/photo-07.jpg", kenBurns: kb([1.434, 0.5, 0.55], [1.434, 0.4, 0.55]), fade: 0 },
+      { at: "^", image: "images/035.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), depth: 0.8 },
+      { at: "@Shahnameh", image: "images/photo-07.jpg", kenBurns: { ...kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]), path: [{ at: "@Shahnameh", scale: 1.28, x: 0.6, y: 0.55 }, { at: "@first", scale: 1.434, x: 0.5, y: 0.55 }, { at: "$", scale: 1.434, x: 0.4, y: 0.55 }] } },
     ],
   },
   {
@@ -651,7 +624,7 @@ export const scenes = [
     motion: "start: MAP-18, Seljuk empire fills in | @sultans: IMG 036, pan with the riders",
     shots: [
       { at: "^", ...M("MAP-18", "^") },
-      { at: "@sultans", image: "images/036.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]) },
+      { at: "@sultans", image: "images/036.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]), depth: 0.8 },
     ],
   },
   {
@@ -660,9 +633,8 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1219 }],
     shots: [
       { at: "^", ...M("MAP-19", "^") },
-      { at: "@Shah", ...M("MAP-19", "@Shah") },
-      { at: "@Nishapur", image: "images/037.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]) },
-      { at: "@Baghdad", image: "images/038.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]) },
+      { at: "@Nishapur", image: "images/037.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), depth: 0.8 },
+      { at: "@Baghdad", image: "images/038.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), depth: 0.8 },
     ],
   },
   {
@@ -671,7 +643,7 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1295 }],
     shots: [
       { at: "^", ...M("MAP-20", "^") },
-      { at: "@Persian", image: "images/039.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]) },
+      { at: "@Persian", image: "images/039.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), depth: 0.8 },
     ],
   },
   {
@@ -679,20 +651,19 @@ export const scenes = [
     motion: "start: IMG 040, slow push toward the towers | @against: IMG 040, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 1387 }],
     shots: [
-      { at: "^", image: "images/040.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.5, 0.475]) },
-      { at: "@against", image: "images/040.jpg", kenBurns: kb([1.327, 0.5, 0.475], [1.4, 0.5, 0.45]), fade: 0 },
+      { at: "^", image: "images/040.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@against", scale: 1.327, x: 0.5, y: 0.475 }, { at: "$", scale: 1.4, x: 0.5, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   // ---------------- PART: SHAHS, SHIA AND SHRINKING BORDERS ----------------
   {
     id: "S35", part: "SHAHS, SHIA AND SHRINKING BORDERS", assets: ["IMG 041", "MAP-21"], type: "shots",
     motion: "start: IMG 041, push in on Ismail | @Safavid: MAP-21, Safavid Iran c. 1510 | @time: MAP-21, camera moves to the next area",
+    transition: { type: "whip", direction: "left" },
     year: [{ at: "^+0.3", value: 1501 }],
     titles: [{ text: "SHAH ISMAIL I", at: "@Ismail", style: "name" }],
     shots: [
-      { at: "^", image: "images/041.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]) },
+      { at: "^", image: "images/041.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), depth: 0.8 },
       { at: "@Safavid", ...M("MAP-21", "@Safavid") },
-      { at: "@time", ...M("MAP-21", "@time") },
     ],
   },
   {
@@ -700,8 +671,7 @@ export const scenes = [
     motion: "start: IMG 042, pan across the cannon line | @crushed: IMG 042, new camera move on another part of the image | @border: MAP-21, second state: border of 1639",
     year: [{ at: "^+0.3", value: 1514 }],
     shots: [
-      { at: "^", image: "images/042.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@crushed", image: "images/042.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.4, 0.5]), fade: 0 },
+      { at: "^", image: "images/042.jpg", kenBurns: { ...kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.5 }, { at: "@crushed", scale: 1.434, x: 0.5, y: 0.5 }, { at: "@border", scale: 1.434, x: 0.4, y: 0.5 }] }, depth: 0.8 },
       { at: "@border", ...M("MAP-21b", "@border") },
     ],
   },
@@ -711,18 +681,16 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1587 }],
     titles: [{ text: "SHAH ABBAS I", at: "@Abbas", style: "name" }],
     shots: [
-      { at: "^", image: "images/043.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.5, 0.55]) },
-      { at: "@army", image: "images/043.jpg", kenBurns: kb([1.434, 0.5, 0.55], [1.434, 0.4, 0.55]), fade: 0 },
-      { at: "@Hormuz", image: "images/044.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]) },
-      { at: "@ruthless", image: "images/043.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.55]) },
+      { at: "^", image: "images/043.jpg", kenBurns: { ...kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.55 }, { at: "@army", scale: 1.434, x: 0.5, y: 0.55 }, { at: "@Hormuz", scale: 1.434, x: 0.4, y: 0.55 }] }, depth: 0.8 },
+      { at: "@Hormuz", image: "images/044.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), depth: 0.8 },
+      { at: "@ruthless", image: "images/043.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.55]), depth: 0.8 },
     ],
   },
   {
     id: "S38", part: "SHAHS, SHIA AND SHRINKING BORDERS", assets: ["IMG 045", "PHOTO-08"], type: "shots",
     motion: "start: IMG 045, slow aerial pan | @largest: IMG 045, new camera move on another part of the image | @half: PHOTO-08, slow push",
     shots: [
-      { at: "^", image: "images/045.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@largest", image: "images/045.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.6, 0.5]), fade: 0 },
+      { at: "^", image: "images/045.jpg", kenBurns: { ...kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]), path: [{ at: "^", scale: 1.28, x: 0.4, y: 0.5 }, { at: "@largest", scale: 1.434, x: 0.5, y: 0.5 }, { at: "@half", scale: 1.434, x: 0.6, y: 0.5 }] }, depth: 0.8 },
       { at: "@half", image: "images/photo-08.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.25, 0.42, 0.55]) },
     ],
   },
@@ -732,13 +700,10 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1722 }],
     titles: [{ text: "NADER SHAH", at: "@Nader", style: "name" }],
     shots: [
-      { at: "^", image: "images/046.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.5, 0.475]) },
-      { at: "@until", image: "images/046.jpg", kenBurns: kb([1.327, 0.5, 0.475], [1.4, 0.5, 0.45]), fade: 0 },
-      { at: "@Nader", image: "images/047.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]) },
+      { at: "^", image: "images/046.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@until", scale: 1.327, x: 0.5, y: 0.475 }, { at: "@Nader", scale: 1.4, x: 0.5, y: 0.45 }] }, depth: 0.8 },
+      { at: "@Nader", image: "images/047.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]), depth: 0.8 },
       { at: "@India", ...M("MAP-22", "@India") },
-      { at: "@thousands", ...M("MAP-22", "@thousands") },
-      { at: "@Peacock", image: "images/048.jpg", kenBurns: kb([1.28, 0.4, 0.55], [1.28, 0.5, 0.55]) },
-      { at: "@among", image: "images/048.jpg", kenBurns: kb([1.434, 0.5, 0.55], [1.434, 0.6, 0.55]), fade: 0 },
+      { at: "@Peacock", image: "images/048.jpg", kenBurns: { ...kb([1.28, 0.4, 0.55], [1.28, 0.6, 0.55]), path: [{ at: "@Peacock", scale: 1.28, x: 0.4, y: 0.55 }, { at: "@among", scale: 1.434, x: 0.5, y: 0.55 }, { at: "$", scale: 1.434, x: 0.6, y: 0.55 }] }, depth: 0.8 },
     ],
   },
   {
@@ -746,11 +711,9 @@ export const scenes = [
     motion: "start: IMG 049, slow push on the shah | @over: IMG 049, new camera move on another part of the image | @Russia: IMG 050, pan with the soldiers | @treaties: MAP-23, Caucasus peels off, Aras highlighted | @that: MAP-23, camera moves to the next area",
     year: [{ at: "^+0.3", value: 1813 }],
     shots: [
-      { at: "^", image: "images/049.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.525]) },
-      { at: "@over", image: "images/049.jpg", kenBurns: kb([1.327, 0.54, 0.525], [1.4, 0.58, 0.55]), fade: 0 },
-      { at: "@Russia", image: "images/050.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]) },
+      { at: "^", image: "images/049.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@over", scale: 1.327, x: 0.54, y: 0.525 }, { at: "@Russia", scale: 1.4, x: 0.58, y: 0.55 }] }, depth: 0.8 },
+      { at: "@Russia", image: "images/050.jpg", kenBurns: kb([1.28, 0.4, 0.5], [1.28, 0.6, 0.5]), depth: 0.8 },
       { at: "@treaties", ...M("MAP-23", "@treaties") },
-      { at: "@that", ...M("MAP-23", "@that") },
     ],
   },
   {
@@ -758,8 +721,7 @@ export const scenes = [
     motion: "start: IMG 051, slow push on the crowd | @control: IMG 051, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 1891 }],
     shots: [
-      { at: "^", image: "images/051.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.5, 0.5]) },
-      { at: "@control", image: "images/051.jpg", kenBurns: kb([1.327, 0.5, 0.5], [1.4, 0.5, 0.5]), fade: 0 },
+      { at: "^", image: "images/051.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@control", scale: 1.327, x: 0.5, y: 0.5 }, { at: "$", scale: 1.4, x: 0.5, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -767,18 +729,18 @@ export const scenes = [
     motion: "start: IMG 052, pan across the crowd | @Iran's: IMG 052, new camera move on another part of the image | @spheres: MAP-24, Russian and British zones fill in | @shelled: IMG 053, push on the cannons",
     year: [{ at: "^+0.3", value: 1906 }],
     shots: [
-      { at: "^", image: "images/052.jpg", kenBurns: kb([1.28, 0.6, 0.55], [1.28, 0.5, 0.55]) },
-      { at: "@Iran's", image: "images/052.jpg", kenBurns: kb([1.434, 0.5, 0.55], [1.434, 0.4, 0.55]), fade: 0 },
+      { at: "^", image: "images/052.jpg", kenBurns: { ...kb([1.28, 0.6, 0.55], [1.28, 0.4, 0.55]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.55 }, { at: "@Iran's", scale: 1.434, x: 0.5, y: 0.55 }, { at: "@spheres", scale: 1.434, x: 0.4, y: 0.55 }] }, depth: 0.8 },
       { at: "@spheres", ...M("MAP-24", "@spheres") },
-      { at: "@shelled", image: "images/053.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]) },
+      { at: "@shelled", image: "images/053.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), depth: 0.8 },
     ],
   },
   {
     id: "S43", part: "SHAHS, SHIA AND SHRINKING BORDERS", assets: ["IMG 054", "PHOTO-09"], type: "shots",
     motion: "start: IMG 054, tilt up the gusher | @Anglo-Persian: PHOTO-09, slow push",
+    graphics: [{ kind: "percent", layout: "right", at: "@share", until: "$", value: 16, label: "Iran's share of the profits", restLabel: "84% to the Anglo-Persian Oil Company", source: "D'Arcy concession, 1901" }],
     year: [{ at: "^+0.3", value: 1908 }],
     shots: [
-      { at: "^", image: "images/054.jpg", kenBurns: kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.4]) },
+      { at: "^", image: "images/054.jpg", kenBurns: kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.4]), depth: 0.8 },
       { at: "@Anglo-Persian", image: "images/photo-09.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.25, 0.5, 0.45]) },
     ],
   },
@@ -787,19 +749,18 @@ export const scenes = [
     motion: "start: IMG 055, very slow push | @soil: IMG 055, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 1917 }],
     shots: [
-      { at: "^", image: "images/055.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.525]) },
-      { at: "@soil", image: "images/055.jpg", kenBurns: kb([1.327, 0.54, 0.525], [1.4, 0.58, 0.55]), fade: 0 },
+      { at: "^", image: "images/055.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@soil", scale: 1.327, x: 0.54, y: 0.525 }, { at: "$", scale: 1.4, x: 0.58, y: 0.55 }] }, depth: 0.8 },
     ],
   },
   // ---------------- PART: OIL, REVOLUTION AND THE ISLAMIC REPUBLIC ----------------
   {
     id: "S45", part: "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC", assets: ["IMG 056"], type: "shots",
     motion: "start: IMG 056, push in on Reza Khan | @encouragement: IMG 056, new camera move on another part of the image",
+    transition: { type: "whip", direction: "left" },
     year: [{ at: "^+0.3", value: 1921 }],
     titles: [{ text: "REZA KHAN", at: "@Reza", style: "name" }],
     shots: [
-      { at: "^", image: "images/056.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.5]) },
-      { at: "@encouragement", image: "images/056.jpg", kenBurns: kb([1.327, 0.46, 0.5], [1.4, 0.42, 0.5]), fade: 0 },
+      { at: "^", image: "images/056.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@encouragement", scale: 1.327, x: 0.46, y: 0.5 }, { at: "$", scale: 1.4, x: 0.42, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -807,9 +768,8 @@ export const scenes = [
     motion: "start: IMG 057, pan with the train | @stop: IMG 057, new camera move on another part of the image | @veil: IMG 058, slow push",
     year: [{ at: "^+0.3", value: 1935 }],
     shots: [
-      { at: "^", image: "images/057.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.5, 0.45]) },
-      { at: "@stop", image: "images/057.jpg", kenBurns: kb([1.434, 0.5, 0.45], [1.434, 0.4, 0.45]), fade: 0 },
-      { at: "@veil", image: "images/058.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]) },
+      { at: "^", image: "images/057.jpg", kenBurns: { ...kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.45 }, { at: "@stop", scale: 1.434, x: 0.5, y: 0.45 }, { at: "@veil", scale: 1.434, x: 0.4, y: 0.45 }] }, depth: 0.8 },
+      { at: "@veil", image: "images/058.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), depth: 0.8 },
     ],
   },
   {
@@ -818,8 +778,7 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1941 }],
     shots: [
       { at: "^", ...M("MAP-25", "^") },
-      { at: "@secure", ...M("MAP-25", "@secure") },
-      { at: "@abdicate", image: "images/059.jpg", kenBurns: kb([1.28, 0.4, 0.55], [1.28, 0.6, 0.55]) },
+      { at: "@abdicate", image: "images/059.jpg", kenBurns: kb([1.28, 0.4, 0.55], [1.28, 0.6, 0.55]), depth: 0.8 },
     ],
   },
   {
@@ -828,10 +787,8 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 1951 }],
     titles: [{ text: "MOHAMMAD MOSADDEGH", at: "@Mosaddegh", style: "name" }],
     shots: [
-      { at: "^", image: "images/photo-10.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.135, 0.5, 0.525]) },
-      { at: "@Iran's", image: "images/photo-10.jpg", kenBurns: kb([1.271, 0.5, 0.525], [1.4, 0.5, 0.55]), fade: 0 },
-      { at: "@coup", image: "images/060.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.5, 0.5]) },
-      { at: "@crowds", image: "images/060.jpg", kenBurns: kb([1.434, 0.5, 0.5], [1.434, 0.4, 0.5]), fade: 0 },
+      { at: "^", image: "images/photo-10.jpg", kenBurns: { ...kb([1.02, 0.5, 0.5], [1.25, 0.5, 0.55]), path: [{ at: "^", scale: 1.02, x: 0.5, y: 0.5 }, { at: "@Iran's", scale: 1.271, x: 0.5, y: 0.525 }, { at: "@coup", scale: 1.4, x: 0.5, y: 0.55 }] } },
+      { at: "@coup", image: "images/060.jpg", kenBurns: { ...kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), path: [{ at: "@coup", scale: 1.28, x: 0.6, y: 0.5 }, { at: "@crowds", scale: 1.434, x: 0.5, y: 0.5 }, { at: "@documents", scale: 1.434, x: 0.4, y: 0.5 }] }, depth: 0.8 },
       { at: "@documents", image: "images/photo-11.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.25, 0.58, 0.45]) },
       { at: "@prison", image: "images/photo-10.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.25, 0.58, 0.45]) },
     ],
@@ -841,10 +798,9 @@ export const scenes = [
     motion: "start: IMG 061, pan across the boulevard | @vote: IMG 061, new camera move on another part of the image | @SAVAK: IMG 062, slow push | @Khomeini: IMG 063, slow push on the tapes",
     titles: [{ text: "RUHOLLAH KHOMEINI", at: "@Khomeini", style: "name" }],
     shots: [
-      { at: "^", image: "images/061.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.5, 0.45]) },
-      { at: "@vote", image: "images/061.jpg", kenBurns: kb([1.434, 0.5, 0.45], [1.434, 0.4, 0.45]), fade: 0 },
-      { at: "@SAVAK", image: "images/062.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]) },
-      { at: "@Khomeini", image: "images/063.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.5]) },
+      { at: "^", image: "images/061.jpg", kenBurns: { ...kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), path: [{ at: "^", scale: 1.28, x: 0.6, y: 0.45 }, { at: "@vote", scale: 1.434, x: 0.5, y: 0.45 }, { at: "@SAVAK", scale: 1.434, x: 0.4, y: 0.45 }] }, depth: 0.8 },
+      { at: "@SAVAK", image: "images/062.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), depth: 0.8 },
+      { at: "@Khomeini", image: "images/063.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.5]), depth: 0.8 },
     ],
   },
   {
@@ -852,11 +808,8 @@ export const scenes = [
     motion: "start: PHOTO-12, slow push, low zoom | @down: PHOTO-12, new camera move on another part of the image | @Khomeini: IMG 064, slow pull out over the crowd | @after: IMG 064, new camera move on another part of the image | @constitution: IMG 064, second move: banners detail",
     year: [{ at: "^+0.3", value: 1978 }],
     shots: [
-      { at: "^", image: "images/photo-12.jpg", kenBurns: kb([1.0, 0.5, 0.5], [1.04, 0.5, 0.49]) },
-      { at: "@down", image: "images/photo-12.jpg", kenBurns: kb([1.04, 0.5, 0.49], [1.08, 0.5, 0.48]), fade: 0 },
-      { at: "@Khomeini", image: "images/064.jpg", kenBurns: kb([1.3, 0.42, 0.55], [1.24, 0.447, 0.533]) },
-      { at: "@after", image: "images/064.jpg", kenBurns: kb([1.389, 0.447, 0.533], [1.322, 0.473, 0.517]), fade: 0 },
-      { at: "@constitution", image: "images/064.jpg", kenBurns: kb([1.463, 0.473, 0.517], [1.389, 0.5, 0.5]), fade: 0 },
+      { at: "^", image: "images/photo-12.jpg", kenBurns: { ...kb([1.0, 0.5, 0.5], [1.08, 0.5, 0.48]), path: [{ at: "^", scale: 1.0, x: 0.5, y: 0.5 }, { at: "@down", scale: 1.04, x: 0.5, y: 0.49 }, { at: "@Khomeini", scale: 1.08, x: 0.5, y: 0.48 }] } },
+      { at: "@Khomeini", image: "images/064.jpg", kenBurns: { ...kb([1.3, 0.42, 0.55], [1.12, 0.5, 0.5]), path: [{ at: "@Khomeini", scale: 1.3, x: 0.42, y: 0.55 }, { at: "@after", scale: 1.389, x: 0.447, y: 0.533 }, { at: "@constitution", scale: 1.463, x: 0.473, y: 0.517 }, { at: "$", scale: 1.389, x: 0.5, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -864,31 +817,28 @@ export const scenes = [
     motion: "start: IMG 065, push in on the gates | @followers: IMG 065, new camera move on another part of the image | @compulsory: IMG 065, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 1979 }],
     shots: [
-      { at: "^", image: "images/065.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.163, 0.5, 0.5]) },
-      { at: "@followers", image: "images/065.jpg", kenBurns: kb([1.303, 0.5, 0.5], [1.351, 0.5, 0.5]), fade: 0 },
-      { at: "@compulsory", image: "images/065.jpg", kenBurns: kb([1.496, 0.5, 0.5], [1.55, 0.5, 0.5]), fade: 0 },
+      { at: "^", image: "images/065.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.5]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@followers", scale: 1.303, x: 0.5, y: 0.5 }, { at: "@compulsory", scale: 1.496, x: 0.5, y: 0.5 }, { at: "$", scale: 1.55, x: 0.5, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
     id: "S52", part: "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC", assets: ["MAP-26", "IMG 066", "PHOTO-13", "IMG 067"], type: "shots",
     motion: "start: MAP-26, Iraqi invasion arrows, then Iranian counterattack | @carry: MAP-26, camera moves to the next area | @mustard: IMG 066, slow pan along the trench | @backed: PHOTO-13, slow push | @Vincennes: IMG 067, slow tilt up from ship to plane | @crew: IMG 067, new camera move on another part of the image",
+    graphics: [{ kind: "relations", layout: "right", title: "Who backed whom", at: "@backed", until: "@July", center: { label: "Iraq", color: "olive" }, nodes: [{ label: "United States", edge: "backed", dir: "in" }, { label: "Soviet Union", edge: "backed", dir: "in" }, { label: "France", edge: "backed", dir: "in" }, { label: "Arab states", edge: "backed", dir: "in" }] }],
     year: [{ at: "^+0.3", value: 1980 }],
     shots: [
       { at: "^", ...M("MAP-26", "^") },
-      { at: "@carry", ...M("MAP-26", "@carry") },
-      { at: "@mustard", image: "images/066.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]) },
+      { at: "@mustard", image: "images/066.jpg", kenBurns: kb([1.28, 0.6, 0.5], [1.28, 0.4, 0.5]), depth: 0.8 },
       { at: "@backed", image: "images/photo-13.jpg", kenBurns: kb([1.0, 0.5, 0.5], [1.08, 0.5, 0.48]) },
-      { at: "@Vincennes", image: "images/067.jpg", kenBurns: kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.51]) },
-      { at: "@crew", image: "images/067.jpg", kenBurns: kb([1.4, 0.5, 0.51], [1.4, 0.5, 0.4]), fade: 0 },
+      { at: "@Vincennes", image: "images/067.jpg", kenBurns: { ...kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.4]), path: [{ at: "@Vincennes", scale: 1.25, x: 0.5, y: 0.62 }, { at: "@crew", scale: 1.4, x: 0.5, y: 0.51 }, { at: "$", scale: 1.4, x: 0.5, y: 0.4 }] }, depth: 0.8 },
     ],
   },
   {
     id: "S53", part: "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC", assets: ["IMG 068"], type: "shots",
     motion: "start: IMG 068, very slow push down the corridor | @Khomeini's: IMG 068, new camera move on another part of the image",
+    graphics: [{ kind: "stat", layout: "right", at: "@estimate", until: "$", value: 2800, label: "political prisoners executed, 1988", range: { low: 2800, high: 5000, lowLabel: "low estimate", highLabel: "high estimate" }, source: "Amnesty International, Human Rights Watch" }],
     year: [{ at: "^+0.3", value: 1988 }],
     shots: [
-      { at: "^", image: "images/068.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.525]) },
-      { at: "@Khomeini's", image: "images/068.jpg", kenBurns: kb([1.327, 0.46, 0.525], [1.4, 0.42, 0.55]), fade: 0 },
+      { at: "^", image: "images/068.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.55]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@Khomeini's", scale: 1.327, x: 0.46, y: 0.525 }, { at: "$", scale: 1.4, x: 0.42, y: 0.55 }] }, depth: 0.8 },
     ],
   },
   {
@@ -896,8 +846,7 @@ export const scenes = [
     motion: "start: IMG 069, pan across the crowd | @millions: IMG 069, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 1989 }],
     shots: [
-      { at: "^", image: "images/069.jpg", kenBurns: kb([1.28, 0.4, 0.45], [1.28, 0.5, 0.45]) },
-      { at: "@millions", image: "images/069.jpg", kenBurns: kb([1.434, 0.5, 0.45], [1.434, 0.6, 0.45]), fade: 0 },
+      { at: "^", image: "images/069.jpg", kenBurns: { ...kb([1.28, 0.4, 0.45], [1.28, 0.6, 0.45]), path: [{ at: "^", scale: 1.28, x: 0.4, y: 0.45 }, { at: "@millions", scale: 1.434, x: 0.5, y: 0.45 }, { at: "$", scale: 1.434, x: 0.6, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
@@ -905,10 +854,7 @@ export const scenes = [
     motion: "start: MAP-27, lines to allies light up | @Lebanon: MAP-27, camera moves to the next area | @Stuxnet: IMG 070, slow push on the screen | @several: IMG 070, new camera move on another part of the image | @deal: IMG 070, new camera move on another part of the image",
     shots: [
       { at: "^", ...M("MAP-27", "^") },
-      { at: "@Lebanon", ...M("MAP-27", "@Lebanon") },
-      { at: "@Stuxnet", image: "images/070.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.163, 0.473, 0.5]) },
-      { at: "@several", image: "images/070.jpg", kenBurns: kb([1.303, 0.473, 0.5], [1.351, 0.447, 0.5]), fade: 0 },
-      { at: "@deal", image: "images/070.jpg", kenBurns: kb([1.496, 0.447, 0.5], [1.55, 0.42, 0.5]), fade: 0 },
+      { at: "@Stuxnet", image: "images/070.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.5]), path: [{ at: "@Stuxnet", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@several", scale: 1.303, x: 0.473, y: 0.5 }, { at: "@deal", scale: 1.496, x: 0.447, y: 0.5 }, { at: "$", scale: 1.55, x: 0.42, y: 0.5 }] }, depth: 0.8 },
     ],
   },
   {
@@ -916,9 +862,7 @@ export const scenes = [
     motion: "start: IMG 071, slow tilt up to the plane | @missiles: IMG 071, new camera move on another part of the image | @airliner: IMG 071, new camera move on another part of the image",
     year: [{ at: "^+0.3", value: 2020 }],
     shots: [
-      { at: "^", image: "images/071.jpg", kenBurns: kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.547]) },
-      { at: "@missiles", image: "images/071.jpg", kenBurns: kb([1.4, 0.5, 0.547], [1.4, 0.5, 0.473]), fade: 0 },
-      { at: "@airliner", image: "images/071.jpg", kenBurns: kb([1.55, 0.5, 0.473], [1.55, 0.5, 0.4]), fade: 0 },
+      { at: "^", image: "images/071.jpg", kenBurns: { ...kb([1.25, 0.5, 0.62], [1.25, 0.5, 0.4]), path: [{ at: "^", scale: 1.25, x: 0.5, y: 0.62 }, { at: "@missiles", scale: 1.4, x: 0.5, y: 0.547 }, { at: "@airliner", scale: 1.55, x: 0.5, y: 0.473 }, { at: "$", scale: 1.55, x: 0.5, y: 0.4 }] }, depth: 0.8 },
     ],
   },
   {
@@ -927,8 +871,7 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 2022 }],
     shots: [
       { at: "^", image: "images/photo-14.jpg", kenBurns: kb([1.02, 0.5, 0.5], [1.25, 0.42, 0.45]) },
-      { at: "@Woman", image: "images/072.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.475]) },
-      { at: "@that", image: "images/072.jpg", kenBurns: kb([1.327, 0.54, 0.475], [1.4, 0.58, 0.45]), fade: 0 },
+      { at: "@Woman", image: "images/072.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), path: [{ at: "@Woman", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@that", scale: 1.327, x: 0.54, y: 0.475 }, { at: "$", scale: 1.4, x: 0.58, y: 0.45 }] }, depth: 0.8 },
     ],
   },
   {
@@ -937,17 +880,16 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 2025 }],
     shots: [
       { at: "^", ...M("MAP-28", "^") },
-      { at: "@Fordow", image: "images/073.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]) },
+      { at: "@Fordow", image: "images/073.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), depth: 0.8 },
     ],
   },
   {
     id: "S59", part: "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC", assets: ["IMG 074"], type: "shots",
     motion: "start: IMG 074, slow push down the street | @security: IMG 074, new camera move on another part of the image | @Human: IMG 074, new camera move on another part of the image",
+    graphics: [{ kind: "stat", layout: "right", at: "@government", until: "$", value: 7007, label: "deaths verified by HRANA", range: { low: 3117, high: 30000, lowLabel: "government figure", highLabel: "other estimates (30,000+)" }, source: "Iranian government, HRANA, Time, The Guardian" }],
     year: [{ at: "^+0.3", value: 2025 }],
     shots: [
-      { at: "^", image: "images/074.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.163, 0.473, 0.517]) },
-      { at: "@security", image: "images/074.jpg", kenBurns: kb([1.303, 0.473, 0.517], [1.351, 0.447, 0.533]), fade: 0 },
-      { at: "@Human", image: "images/074.jpg", kenBurns: kb([1.496, 0.447, 0.533], [1.55, 0.42, 0.55]), fade: 0 },
+      { at: "^", image: "images/074.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.55]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@security", scale: 1.303, x: 0.473, y: 0.517 }, { at: "@Human", scale: 1.496, x: 0.447, y: 0.533 }, { at: "$", scale: 1.55, x: 0.42, y: 0.55 }] }, depth: 0.8 },
     ],
   },
   {
@@ -955,12 +897,10 @@ export const scenes = [
     motion: "start: IMG 075, slow pull out over the skyline | @goal: IMG 075, new camera move on another part of the image | @Khamenei: MAP-29, Tehran strike flash, then Minab | @school: IMG 076, very slow push | @preliminary: IMG 076, new camera move on another part of the image | @Assembly: IMG 075, second move: smoke over the city",
     year: [{ at: "^+0.3", value: 2026 }],
     shots: [
-      { at: "^", image: "images/075.jpg", kenBurns: kb([1.3, 0.5, 0.45], [1.21, 0.5, 0.475]) },
-      { at: "@goal", image: "images/075.jpg", kenBurns: kb([1.355, 0.5, 0.475], [1.254, 0.5, 0.5]), fade: 0 },
+      { at: "^", image: "images/075.jpg", kenBurns: { ...kb([1.3, 0.5, 0.45], [1.12, 0.5, 0.5]), path: [{ at: "^", scale: 1.3, x: 0.5, y: 0.45 }, { at: "@goal", scale: 1.355, x: 0.5, y: 0.475 }, { at: "@Khamenei", scale: 1.254, x: 0.5, y: 0.5 }] }, depth: 0.8 },
       { at: "@Khamenei", ...M("MAP-29", "@Khamenei") },
-      { at: "@school", image: "images/076.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.54, 0.475]) },
-      { at: "@preliminary", image: "images/076.jpg", kenBurns: kb([1.327, 0.54, 0.475], [1.4, 0.58, 0.45]), fade: 0 },
-      { at: "@Assembly", image: "images/075.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.55]) },
+      { at: "@school", image: "images/076.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.45]), path: [{ at: "@school", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@preliminary", scale: 1.327, x: 0.54, y: 0.475 }, { at: "@Assembly", scale: 1.4, x: 0.58, y: 0.45 }] }, depth: 0.8 },
+      { at: "@Assembly", image: "images/075.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.5, 0.55]), depth: 0.8 },
     ],
   },
   {
@@ -969,17 +909,17 @@ export const scenes = [
     year: [{ at: "^+0.3", value: 2026 }],
     shots: [
       { at: "^", ...M("MAP-29b", "^") },
-      { at: "@Strait", image: "images/077.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]) },
+      { at: "@Strait", image: "images/077.jpg", kenBurns: kb([1.28, 0.6, 0.45], [1.28, 0.4, 0.45]), depth: 0.8 },
     ],
   },
   {
     id: "S62", part: "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC", assets: ["IMG 078", "IMG 079", "IMG 010"], type: "shots",
     motion: "start: IMG 078, slow push on Tehran | @Arabs: IMG 078, new camera move on another part of the image | @Ferdowsi's: IMG 079, slow push on the book | @tomb: IMG 010, callback: slow pull out from the tomb",
+    graphics: [{ kind: "chain", layout: "lower", title: "Conquered, never erased", at: "@conquered", until: "@Ferdowsi's", nodes: [{ label: "Greeks", sub: "330 BC" }, { label: "Arabs", sub: "651" }, { label: "Turks", sub: "1040" }, { label: "Mongols", sub: "1219" }] }],
     shots: [
-      { at: "^", image: "images/078.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.185, 0.46, 0.475]) },
-      { at: "@Arabs", image: "images/078.jpg", kenBurns: kb([1.327, 0.46, 0.475], [1.4, 0.42, 0.45]), fade: 0 },
-      { at: "@Ferdowsi's", image: "images/079.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]) },
-      { at: "@tomb", image: "images/010.jpg", kenBurns: kb([1.3, 0.5, 0.55], [1.12, 0.5, 0.5]) },
+      { at: "^", image: "images/078.jpg", kenBurns: { ...kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), path: [{ at: "^", scale: 1.12, x: 0.5, y: 0.5 }, { at: "@Arabs", scale: 1.327, x: 0.46, y: 0.475 }, { at: "@Ferdowsi's", scale: 1.4, x: 0.42, y: 0.45 }] }, depth: 0.8 },
+      { at: "@Ferdowsi's", image: "images/079.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.42, 0.45]), depth: 0.8 },
+      { at: "@tomb", image: "images/010.jpg", kenBurns: kb([1.3, 0.5, 0.55], [1.12, 0.5, 0.5]), depth: 0.8 },
     ],
   },
   {
@@ -987,7 +927,7 @@ export const scenes = [
     motion: "start: IMG 078, end screen. CTA overlay at the end",
     cta: { at: "@subscribe", duration: 5.5 },
     shots: [
-      { at: "^", image: "images/078.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]) },
+      { at: "^", image: "images/078.jpg", kenBurns: kb([1.12, 0.5, 0.5], [1.25, 0.58, 0.55]), depth: 0.8 },
     ],
   },
 ];

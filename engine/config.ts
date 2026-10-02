@@ -4,6 +4,8 @@
 // every scene and cue also carries its resolved frame.
 import raw from "@video/data/scenes.json";
 import type { CtaConfig } from "./components/Cta";
+import type { TransitionSpec } from "./components/Transitions";
+import type { Annotation, Graphic } from "./components/Infographics";
 
 export type LonLat = [number, number];
 
@@ -18,7 +20,13 @@ export type Cam = { scale: number; x: number; y: number };
 /** Paints a flat color below image row `y` (0..1), for images whose art stops short of the frame. */
 export type Matte = { y: number; color: string; colorBottom?: string };
 
-export type KenBurnsConfig = { from: Cam; to: Cam; matte?: Matte; desaturate?: [number, number] };
+/** A camera keyframe at absolute time `at` (s). */
+export type CamKey = Cam & { at: number };
+/**
+ * Camera on a still. Either one move `from` → `to` over the shot, or a `path` of keyframes:
+ * the camera glides from detail to detail without a cut (use this instead of cutting back to the same image).
+ */
+export type KenBurnsConfig = { from: Cam; to: Cam; path?: CamKey[]; matte?: Matte; desaturate?: [number, number] };
 
 export type Effects = {
   dust?: number;
@@ -61,6 +69,11 @@ export type MarkerConfig = {
 export type LineConfig = {
   id: string;
   path: LonLat[];
+  /** follow a real river (Natural Earth name, e.g. "Tigris"); `path` can then be empty. `riverPart`: [from, to] 0..1 */
+  river?: string;
+  riverPart?: [number, number];
+  /** arrow/route deliberately crosses water (sea crossing, missile): silences the validator warning */
+  overWater?: boolean;
   at: number;
   duration?: number;
   style: "river" | "arrow" | "route" | "trade" | "divider";
@@ -78,6 +91,8 @@ export type MapSpec = {
   lines?: LineConfig[];
   regionLabels?: RegionLabel[];
   seaLabels?: { text: string; lonlat: LonLat; size?: number }[];
+  /** draw real rivers: true = all named rivers in view (faint), or a list of names */
+  rivers?: boolean | string[];
 };
 
 export type DecimalStep = { at: number; value: number; unit: string };
@@ -99,9 +114,11 @@ type SceneBase = {
   date?: { text: string; at: number };
   titles?: TextLabel[];
   cta?: CtaConfig; // subscribe overlay, rendered on top of everything (see Video.tsx)
+  transition?: TransitionSpec; // how this scene comes in (default: meta.transition, else crossfade)
+  graphics?: Graphic[]; // infographic overlays on top of the scene
 };
 
-export type ImageScene = SceneBase & { type: "image"; image: string; kenBurns: KenBurnsConfig };
+export type ImageScene = SceneBase & { type: "image"; image: string; kenBurns: KenBurnsConfig; annotations?: Annotation[]; depth?: number };
 export type ParallaxScene = SceneBase & {
   type: "parallax";
   background: { src: string } & KenBurnsConfig;
@@ -110,7 +127,8 @@ export type ParallaxScene = SceneBase & {
 export type MapScene = SceneBase & { type: "map"; map: MapSpec };
 export type GfxScene = SceneBase & { type: "gfx"; gfx: "decimal-army"; steps: DecimalStep[] };
 /** One shot inside a multi-shot scene: an image with its own camera move, or a map. Starts at `at` (absolute s). */
-export type Shot = { at: number; image?: string; kenBurns?: KenBurnsConfig; map?: MapSpec; effects?: Effects; fade?: number /* frames, overrides shotFade; 0 = hard cut */ };
+export type Shot = { at: number; image?: string; kenBurns?: KenBurnsConfig; map?: MapSpec; effects?: Effects; fade?: number /* frames, overrides shotFade; 0 = hard cut */; transition?: TransitionSpec;
+  graphic?: Graphic /* full-frame infographic shot */; annotations?: Annotation[] /* on the image, move with the camera */; depth?: number /* depth parallax strength, needs `npm run depth` */ };
 export type ShotsScene = SceneBase & { type: "shots"; shots: Shot[]; shotFade?: number };
 export type Scene = ImageScene | ParallaxScene | MapScene | GfxScene | ShotsScene;
 
@@ -132,6 +150,8 @@ export type VideoConfig = {
     audio: string;
     voiceEnd: number;
     transitionFrames: number;
+    transition?: TransitionSpec;
+    captions?: { style?: "classic" | "kinetic" | "off"; size?: number; highlight?: boolean };
     fadeOut: { start: number; end: number };
   };
   overlay: { dust: number; parchment: number; grain: number; vignette: number };

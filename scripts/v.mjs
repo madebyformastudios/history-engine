@@ -29,6 +29,7 @@ const tasks = {
   stills: () => node("scripts/stills.mjs", rest),
   bench: () => node("scripts/bench.mjs", rest),
   "cta-preview": () => node("scripts/cta-preview.mjs", rest),
+  depth: () => run("python3", ["scripts/depth.py", ...rest]),
   // transcription + timings + scenes + validation in one go
   prepare: () => {
     tasks.transcribe();

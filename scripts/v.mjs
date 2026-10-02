@@ -28,6 +28,7 @@ const tasks = {
   validate: () => run("node", ["--experimental-strip-types", "scripts/validate.ts", ...rest]),
   stills: () => node("scripts/stills.mjs", rest),
   bench: () => node("scripts/bench.mjs", rest),
+  "cta-preview": () => node("scripts/cta-preview.mjs", rest),
   // transcription + timings + scenes + validation in one go
   prepare: () => {
     tasks.transcribe();

@@ -110,11 +110,18 @@ Shared by all videos. Built by `npm run maps` from `scripts/fetch-maps.mjs`
 | `khwarazm_1218` | handmade:khwarazm_1218 | hand-made estimate |
 | `abbasid_1258` | handmade:abbasid_1258 | hand-made estimate |
 
+## CTA subscribe overlay
+
+| Option | What it does |
+|---|---|
+| `cta: { at: "@subscribe", duration: 5.5, position: "bottom-left" }` (any scene) | Animated subscribe card: channel logo, name and tagline, a red Subscribe button that a cursor clicks (turns into Subscribed with a check), then the bell gets clicked and rings. Slides in and out. Drawn on top of the whole video (not cut by scene changes), above the captions. `position`: bottom-left (default), bottom-right, top-left, top-right. Branding comes from `engine/brand.ts` (`branding/profile.png`). Cost: negligible (no blur) |
+
+Check how it looks over any scene: `npm run cta-preview <slug> [S10] [--position=bottom-right]` writes `checks/cta-preview.mp4` and stills (about 200 frames, fine on the laptop).
+
 ## Planned, not built yet
 
 Build these once, generically, then move them up into the catalog.
 
 | Option | What it will do |
 |---|---|
-| `cta: { at: "@subscribe", duration }` (any scene) | Animated subscribe overlay in the lower part of the frame: channel logo, a Subscribe button that gets clicked by a cursor and turns into Subscribed, and a bell. Plays while the spoken CTA runs. Uses `branding/profile.png` |
 | `shots: [{ at: "@word", from, to }]` (image scenes) | Several camera moves on one image with a hard cut or a quick push between them, so a long paragraph on one image still changes picture every few seconds |

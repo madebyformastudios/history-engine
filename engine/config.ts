@@ -3,6 +3,7 @@
 // All `at` / `start` / `end` times are ABSOLUTE seconds on the voiceover timeline;
 // every scene and cue also carries its resolved frame.
 import raw from "@video/data/scenes.json";
+import type { CtaConfig } from "./components/Cta";
 
 export type LonLat = [number, number];
 
@@ -97,6 +98,7 @@ type SceneBase = {
   yearEra?: string;
   date?: { text: string; at: number };
   titles?: TextLabel[];
+  cta?: CtaConfig; // subscribe overlay, rendered on top of everything (see Video.tsx)
 };
 
 export type ImageScene = SceneBase & { type: "image"; image: string; kenBurns: KenBurnsConfig };

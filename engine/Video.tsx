@@ -5,11 +5,12 @@ import { SceneRenderer } from "./SceneRenderer";
 import { CrossfadeIn, FadeToBlack } from "./components/Transitions";
 import { Captions } from "./components/Caption";
 import { isOff } from "./perf";
+import { CtaOverlay } from "./components/Cta";
 import { Dust, Grade, Grain, Parchment, Vignette } from "./components/Overlay";
 
 /**
  * Layer stack (bottom → top): scenes (crossfaded) → grade → parchment → dust →
- * vignette → captions → grain → fade to black. Everything is driven by src/data/scenes.json.
+ * vignette → captions → CTA overlay → grain → fade to black. Everything is driven by src/data/scenes.json.
  */
 export const Video: React.FC = () => {
   const { meta, overlay, scenes } = config;
@@ -35,6 +36,7 @@ export const Video: React.FC = () => {
       {!isOff("dust") && <Dust amount={overlay.dust} />}
       {!isOff("vignette") && <Vignette strength={overlay.vignette} />}
       <Captions />
+      {scenes.map((scene) => (scene.cta ? <CtaOverlay key={`cta-${scene.id}`} {...scene.cta} /> : null))}
       {!isOff("grain") && <Grain opacity={overlay.grain} />}
       <FadeToBlack start={meta.fadeOut.start} end={meta.fadeOut.end} />
     </AbsoluteFill>

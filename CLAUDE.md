@@ -69,6 +69,7 @@ These apply to every new video unless Jairo says otherwise.
 | `npm run stills <slug> [S04@0.5 ...]` | Check stills into `videos/<slug>/checks/` (not committed) |
 | `npm run draft <slug> -- --frames=a-b` | Short half-resolution check of a few scenes (full renders: GitHub Actions) |
 | `npm run render <slug>` | Local full render. Avoid: the laptop overheats. Use GitHub Actions |
+| `npm run cta-preview <slug> [S10]` | Short MP4 + stills of the CTA overlay over one scene |
 | `npm run bench <slug> [--variants=baseline]` | Render-cost benchmark per effect |
 | `npm run maps` | Rebuild the shared territory library |
 | `npm run typecheck` | TypeScript check |
@@ -89,5 +90,5 @@ Measured with the benchmark on the Mongol video (2-core machine):
   Planned: borders per year, following real rivers and mountain ranges, with a source per territory.
 - GitHub Actions rendering is about as fast as the local Mac on the free plan (2-core runners, ~5 parallel jobs),
   but keeps the laptop cool. It is the standard way to render.
-- Planned engine features for the standing requirements: the `cta` subscribe overlay and multi-shot image scenes
-  (`shots`: several camera moves with cuts on one image). Build them once, add them to CATALOG.md.
+- Planned engine feature for the standing requirements: multi-shot image scenes
+  (`shots`: several camera moves with cuts on one image). Build it once, add it to CATALOG.md. (`cta` is built.)

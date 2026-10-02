@@ -1,0 +1,9567 @@
+{
+ "meta": {
+  "id": "IranHistory",
+  "title": "The ENTIRE History of Iran in 16 Minutes",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "audio/voiceover.mp3",
+  "transitionFrames": 10,
+  "duration": 954.839,
+  "durationInFrames": 28645,
+  "voiceEnd": 953.18,
+  "audioDuration": 953.339,
+  "fadeOut": {
+   "start": 953.339,
+   "end": 954.839
+  }
+ },
+ "overlay": {
+  "dust": 0.45,
+  "parchment": 0.22,
+  "grain": 0.07,
+  "vignette": 0.42
+ },
+ "map": {
+  "extent": [
+   [
+    16,
+    12
+   ],
+   [
+    78,
+    48
+   ]
+  ],
+  "rotate": [
+   -47,
+   0
+  ],
+  "parallels": [
+   25,
+   42
+  ]
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "IMG 001",
+    "MAP-01",
+    "IMG 078"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 001, slow push toward the throne | @Egypt: MAP-01, empire flashes on, camera pulls out | @Today: IMG 078, slow pan across Tehran",
+   "titles": [
+    {
+     "text": "IRAN",
+     "at": 10.442,
+     "style": "title"
+    }
+   ],
+   "shots": [
+    {
+     "at": 0,
+     "image": "images/001.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 5.24,
+     "map": {
+      "id": "MAP-01",
+      "camera": [
+       {
+        "at": 5.24,
+        "center": [
+         48,
+         30
+        ],
+        "zoom": 1.35
+       },
+       {
+        "at": 11.24,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1
+       }
+      ],
+      "states": [
+       {
+        "at": 5.24,
+        "layers": []
+       },
+       {
+        "at": 5.54,
+        "duration": 2.2,
+        "mode": "grow",
+        "origin": [
+         52.89,
+         29.93
+        ],
+        "layers": [
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "persepolis1",
+        "label": "Persepolis",
+        "lonlat": [
+         52.89,
+         29.93
+        ],
+        "at": 6.64,
+        "kind": "city"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ACHAEMENID EMPIRE",
+        "lonlat": [
+         52,
+         35.5
+        ],
+        "at": 6.84,
+        "size": 40,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 8.56,
+     "image": "images/078.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 0,
+   "end": 10.68,
+   "startFrame": 0,
+   "endFrame": 320,
+   "vo": "Twenty-five centuries ago, a Persian king ruled the largest empire the world had yet seen, from Egypt to India. The country it grew out of is still on the map. Today we call it Iran.",
+   "cues": []
+  },
+  {
+   "id": "S02",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "MAP-02",
+    "IMG 002"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-02, relief map, mountains and deserts labelled | @between: IMG 002, slow pan across the plateau | @army: IMG 002, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 10.68,
+     "map": {
+      "id": "MAP-02",
+      "camera": [
+       {
+        "at": 10.68,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1.2
+       },
+       {
+        "at": 16.68,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2.2
+       }
+      ],
+      "states": [
+       {
+        "at": 10.68,
+        "layers": [
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.35
+         }
+        ]
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ZAGROS",
+        "lonlat": [
+         48.5,
+         33
+        ],
+        "at": 11.48,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "ALBORZ",
+        "lonlat": [
+         52.5,
+         36.4
+        ],
+        "at": 12.08,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "DASHT-E KAVIR",
+        "lonlat": [
+         54.8,
+         34.4
+        ],
+        "at": 12.68,
+        "size": 22,
+        "tone": "dark"
+       },
+       {
+        "text": "DASHT-E LUT",
+        "lonlat": [
+         58.5,
+         30.5
+        ],
+        "at": 13.28,
+        "size": 22,
+        "tone": "dark"
+       },
+       {
+        "text": "MESOPOTAMIA",
+        "lonlat": [
+         44,
+         32.4
+        ],
+        "at": 13.88,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "CENTRAL ASIA",
+        "lonlat": [
+         63,
+         40.5
+        ],
+        "at": 14.28,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "INDIA",
+        "lonlat": [
+         71,
+         27.5
+        ],
+        "at": 14.68,
+        "size": 26,
+        "tone": "dark"
+       }
+      ],
+      "seaLabels": [
+       {
+        "text": "CASPIAN SEA",
+        "lonlat": [
+         51,
+         41.5
+        ],
+        "size": 20
+       },
+       {
+        "text": "PERSIAN GULF",
+        "lonlat": [
+         51.5,
+         27.2
+        ],
+        "size": 20
+       }
+      ]
+     }
+    },
+    {
+     "at": 15.32,
+     "image": "images/002.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 19,
+     "image": "images/002.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 10.68,
+   "end": 21.687,
+   "startFrame": 320,
+   "endFrame": 651,
+   "vo": "Iran is a high plateau walled in by mountains, with salt deserts in the middle. It lies between Mesopotamia, Central Asia and India, so almost every army in this part of the world has crossed it.",
+   "cues": []
+  },
+  {
+   "id": "S03",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "IMG 003",
+    "IMG 004",
+    "PHOTO-01"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 003, push in on the scribes | @capital: IMG 003, new camera move on another part of the image | @people: IMG 003, new camera move on another part of the image | @Hammurabi's: IMG 004, pan following the stone | @stone: PHOTO-01, slow tilt up the stele",
+   "shots": [
+    {
+     "at": 21.687,
+     "image": "images/003.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 26.16,
+     "image": "images/003.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 30.75,
+     "image": "images/003.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 35,
+     "image": "images/004.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 39.35,
+     "image": "images/photo-01.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.66
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.36
+      }
+     }
+    }
+   ],
+   "start": 21.687,
+   "end": 41.2,
+   "startFrame": 651,
+   "endFrame": 1236,
+   "vo": "The first great civilization here was Elam, in the southwest. Susa, later its capital, was first settled around 4200 BC, and by about 3100 BC people there were writing. In the 12th century BC, an Elamite king carried Hammurabi's law code home from Babylonia as loot. That is why the stone was found in Iran.",
+   "cues": []
+  },
+  {
+   "id": "S04",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "MAP-03",
+    "IMG 005"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-03, arrows of migrating peoples | @Medes: IMG 005, slow pan across the caravan | @southwest: IMG 005, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 41.2,
+     "map": {
+      "id": "MAP-03",
+      "camera": [
+       {
+        "at": 41.2,
+        "center": [
+         50,
+         34
+        ],
+        "zoom": 2.4
+       },
+       {
+        "at": 49.2,
+        "center": [
+         50,
+         33
+        ],
+        "zoom": 2.7
+       }
+      ],
+      "states": [
+       {
+        "at": 41.2,
+        "layers": [
+         {
+          "territory": "elam_bc1000",
+          "fill": "ochre",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "susa3",
+        "label": "Susa",
+        "lonlat": [
+         48.25,
+         32.19
+        ],
+        "at": 41.6,
+        "kind": "city"
+       }
+      ],
+      "lines": [
+       {
+        "id": "mig1",
+        "style": "arrow",
+        "path": [
+         [
+          62,
+          41
+         ],
+         [
+          58,
+          38.5
+         ],
+         [
+          52,
+          36.5
+         ],
+         [
+          48.5,
+          35
+         ]
+        ],
+        "at": 41.8,
+        "duration": 2.4,
+        "smooth": true
+       },
+       {
+        "id": "mig2",
+        "style": "arrow",
+        "path": [
+         [
+          64,
+          39
+         ],
+         [
+          60,
+          34
+         ],
+         [
+          56,
+          31.5
+         ],
+         [
+          53,
+          30
+         ]
+        ],
+        "at": 42.4,
+        "duration": 2.4,
+        "smooth": true
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ELAM",
+        "lonlat": [
+         49.5,
+         31.2
+        ],
+        "at": 41.5,
+        "size": 30,
+        "tone": "dark"
+       },
+       {
+        "text": "MEDES",
+        "lonlat": [
+         48.2,
+         35.6
+        ],
+        "at": 46.92,
+        "size": 32,
+        "tone": "dark"
+       },
+       {
+        "text": "PERSIS",
+        "lonlat": [
+         53,
+         29.2
+        ],
+        "at": 48.6,
+        "size": 32,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 46.92,
+     "image": "images/005.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 49.62,
+     "image": "images/005.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 41.2,
+   "end": 54.52,
+   "startFrame": 1236,
+   "endFrame": 1636,
+   "vo": "Sometime in the second millennium BC, new peoples arrived on the plateau, speaking Iranian languages. The Medes settled in the northwest. The Persians settled in the southwest, in a region the Greeks called Persis. That name became Persia.",
+   "cues": []
+  },
+  {
+   "id": "S05",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "IMG 006",
+    "MAP-04"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 006, slow push into the burning gate | @capital: IMG 006, new camera move on another part of the image | @strongest: MAP-04, Media fills in, Persis as vassal",
+   "year": [
+    {
+     "at": 54.82,
+     "value": -612
+    }
+   ],
+   "shots": [
+    {
+     "at": 54.52,
+     "image": "images/006.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 57.4,
+     "image": "images/006.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.46
+      }
+     }
+    },
+    {
+     "at": 59.96,
+     "map": {
+      "id": "MAP-04",
+      "camera": [
+       {
+        "at": 59.96,
+        "center": [
+         46,
+         35
+        ],
+        "zoom": 2.2
+       },
+       {
+        "at": 65.96,
+        "center": [
+         48,
+         34
+        ],
+        "zoom": 2.1
+       }
+      ],
+      "states": [
+       {
+        "at": 59.96,
+        "layers": [
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         }
+        ]
+       },
+       {
+        "at": 60.36,
+        "duration": 1.6,
+        "mode": "grow",
+        "origin": [
+         48.5,
+         34.8
+        ],
+        "layers": [
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.75
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "ecb4",
+        "label": "Ecbatana",
+        "lonlat": [
+         48.5,
+         34.8
+        ],
+        "at": 60.76,
+        "kind": "city"
+       },
+       {
+        "id": "nin4",
+        "label": "Nineveh",
+        "lonlat": [
+         43.15,
+         36.36
+        ],
+        "at": 59.96,
+        "kind": "city",
+        "crossAt": 60.16,
+        "labelSide": "left"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "MEDIA",
+        "lonlat": [
+         52,
+         36.6
+        ],
+        "at": 60.96,
+        "size": 36,
+        "tone": "dark"
+       },
+       {
+        "text": "PERSIS",
+        "lonlat": [
+         53,
+         29
+        ],
+        "at": 61.36,
+        "size": 24,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 54.52,
+   "end": 63.591,
+   "startFrame": 1636,
+   "endFrame": 1908,
+   "vo": "In 612 BC the Medes helped destroy Nineveh, the capital of Assyria. For a few decades they were the strongest power in Iran, and the Persians were their vassals.",
+   "cues": []
+  },
+  {
+   "id": "S06",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "IMG 007",
+    "MAP-05"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 007, push in on Cyrus | @Within: MAP-05, conquests grow one by one on cue | @Turkey: MAP-05, camera moves to the next area",
+   "year": [
+    {
+     "at": 63.891,
+     "value": -550
+    }
+   ],
+   "titles": [
+    {
+     "text": "CYRUS THE GREAT",
+     "at": 66.3,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 63.591,
+     "image": "images/007.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 70,
+     "map": {
+      "id": "MAP-05",
+      "camera": [
+       {
+        "at": 70,
+        "center": [
+         48,
+         34
+        ],
+        "zoom": 2.3
+       },
+       {
+        "at": 77,
+        "center": [
+         44,
+         36
+        ],
+        "zoom": 1.5
+       }
+      ],
+      "states": [
+       {
+        "at": 70,
+        "layers": [
+         {
+          "territory": "media_bc585",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 70.2,
+        "duration": 1.4,
+        "mode": "grow",
+        "origin": [
+         48.5,
+         34.8
+        ],
+        "layers": [
+         {
+          "territory": "lydia_bc560",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 71.6,
+        "duration": 1.2,
+        "mode": "grow",
+        "origin": [
+         28.04,
+         38.49
+        ],
+        "layers": [
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 75.23,
+        "duration": 1.6,
+        "mode": "grow",
+        "origin": [
+         53.17,
+         30.2
+        ],
+        "layers": [
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "pas5",
+        "label": "Pasargadae",
+        "lonlat": [
+         53.17,
+         30.2
+        ],
+        "at": 70,
+        "kind": "city"
+       },
+       {
+        "id": "sar5",
+        "label": "Sardis",
+        "lonlat": [
+         28.04,
+         38.49
+        ],
+        "at": 71.6,
+        "kind": "city",
+        "battleAt": 71.6
+       }
+      ]
+     }
+    },
+    {
+     "at": 72.41,
+     "map": {
+      "id": "MAP-05",
+      "camera": [
+       {
+        "at": 72.41,
+        "center": [
+         48,
+         34
+        ],
+        "zoom": 2.3
+       },
+       {
+        "at": 79.41,
+        "center": [
+         44,
+         36
+        ],
+        "zoom": 1.5
+       }
+      ],
+      "states": [
+       {
+        "at": 72.41,
+        "layers": [
+         {
+          "territory": "media_bc585",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 72.61,
+        "duration": 1.4,
+        "mode": "grow",
+        "origin": [
+         48.5,
+         34.8
+        ],
+        "layers": [
+         {
+          "territory": "lydia_bc560",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 71.6,
+        "duration": 1.2,
+        "mode": "grow",
+        "origin": [
+         28.04,
+         38.49
+        ],
+        "layers": [
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 75.23,
+        "duration": 1.6,
+        "mode": "grow",
+        "origin": [
+         53.17,
+         30.2
+        ],
+        "layers": [
+         {
+          "territory": "babylonia_bc550",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "pas5",
+        "label": "Pasargadae",
+        "lonlat": [
+         53.17,
+         30.2
+        ],
+        "at": 72.41,
+        "kind": "city"
+       },
+       {
+        "id": "sar5",
+        "label": "Sardis",
+        "lonlat": [
+         28.04,
+         38.49
+        ],
+        "at": 71.6,
+        "kind": "city",
+        "battleAt": 71.6
+       }
+      ]
+     }
+    }
+   ],
+   "start": 63.591,
+   "end": 76.52,
+   "startFrame": 1908,
+   "endFrame": 2296,
+   "vo": "Then, around 550 BC, a Persian king named Cyrus rebelled against the Medes and took their capital. Within eleven years he had conquered Lydia in what is now Turkey, the Greek cities on its coast, and much of Central Asia.",
+   "cues": []
+  },
+  {
+   "id": "S07",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "IMG 008",
+    "PHOTO-02",
+    "IMG 009"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 008, pan along the gate | @cylinder: PHOTO-02, slow push | @chosen: PHOTO-02, new camera move on another part of the image | @Jews: IMG 009, pan with the exiles | @called: IMG 009, new camera move on another part of the image | @propaganda: IMG 008, second move: crowds detail | @real: IMG 008, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 76.82,
+     "value": -539
+    }
+   ],
+   "shots": [
+    {
+     "at": 76.52,
+     "image": "images/008.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 79.73,
+     "image": "images/photo-02.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 82.46,
+     "image": "images/photo-02.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 86.59,
+     "image": "images/009.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 91.48,
+     "image": "images/009.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 95.37,
+     "image": "images/008.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 98.96,
+     "image": "images/008.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 76.52,
+   "end": 102.323,
+   "startFrame": 2296,
+   "endFrame": 3070,
+   "vo": "In 539 BC he took Babylon. On a clay cylinder, Cyrus presented himself as a liberator chosen by Babylon's own god. He let deported peoples go home, including the Jews, who returned to Jerusalem to rebuild their temple. The Cyrus Cylinder is sometimes called the first charter of human rights. Most historians see it as royal propaganda in an old Mesopotamian tradition. But the policy was real, and Cyrus was remembered as a just king.",
+   "cues": []
+  },
+  {
+   "id": "S08",
+   "part": "BEFORE PERSIA",
+   "assets": [
+    "IMG 010"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 010, CTA: subscribe overlay. Slow push on the tomb",
+   "cta": {
+    "at": 104.29,
+    "duration": 5.5
+   },
+   "shots": [
+    {
+     "at": 102.323,
+     "image": "images/010.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 102.323,
+   "end": 107.92,
+   "startFrame": 3070,
+   "endFrame": 3238,
+   "vo": "If you like seeing history move on the map, subscribe. It helps the channel more than you think.",
+   "cues": []
+  },
+  {
+   "id": "S09",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "PHOTO-03",
+    "MAP-06"
+   ],
+   "type": "shots",
+   "motion": "start: PHOTO-03, slow push | @nomads: PHOTO-03, new camera move on another part of the image | @Cambyses: MAP-06, arrow into Egypt",
+   "year": [
+    {
+     "at": 108.22,
+     "value": -530
+    }
+   ],
+   "shots": [
+    {
+     "at": 107.92,
+     "image": "images/photo-03.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 111.91,
+     "image": "images/photo-03.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 116.18,
+     "map": {
+      "id": "MAP-06",
+      "camera": [
+       {
+        "at": 116.18,
+        "center": [
+         40,
+         31
+        ],
+        "zoom": 1.8
+       },
+       {
+        "at": 121.18,
+        "center": [
+         36,
+         30
+        ],
+        "zoom": 2.1
+       }
+      ],
+      "states": [
+       {
+        "at": 116.18,
+        "layers": [
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 118.12,
+        "duration": 1.4,
+        "mode": "grow",
+        "origin": [
+         31.25,
+         29.85
+        ],
+        "layers": [
+         {
+          "territory": "persis_bc559",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "media_bc585",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "lydia_bc560",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "camb",
+        "style": "arrow",
+        "path": [
+         [
+          44.4,
+          32.5
+         ],
+         [
+          38,
+          32.5
+         ],
+         [
+          34.5,
+          31
+         ],
+         [
+          31.3,
+          30
+         ]
+        ],
+        "at": 116.38,
+        "duration": 1.4,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "mem6",
+        "label": "Memphis",
+        "lonlat": [
+         31.25,
+         29.85
+        ],
+        "at": 117.38,
+        "kind": "city",
+        "battleAt": 118.12
+       }
+      ]
+     }
+    }
+   ],
+   "start": 107.92,
+   "end": 120.362,
+   "startFrame": 3238,
+   "endFrame": 3611,
+   "vo": "Cyrus died in 530 BC, according to Herodotus, in battle against nomads in Central Asia. His tomb still stands at Pasargadae. His son Cambyses II conquered Egypt in 525 BC.",
+   "cues": []
+  },
+  {
+   "id": "S10",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "IMG 011",
+    "PHOTO-04"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 011, start on Darius, pan up to the cliff | @killed: IMG 011, new camera move on another part of the image | @usurper: IMG 011, new camera move on another part of the image | @Behistun: PHOTO-04, slow pan over the relief",
+   "year": [
+    {
+     "at": 120.662,
+     "value": -522
+    }
+   ],
+   "titles": [
+    {
+     "text": "DARIUS I",
+     "at": 122.88,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 120.362,
+     "image": "images/011.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 125.23,
+     "image": "images/011.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 129.93,
+     "image": "images/011.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 133.28,
+     "image": "images/photo-04.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 120.362,
+   "end": 139.72,
+   "startFrame": 3611,
+   "endFrame": 4192,
+   "vo": "In 522 BC, a distant relative named Darius took the throne. He claimed he had killed an impostor posing as the king's brother. Many historians suspect Darius himself was the usurper. Either way, he carved his version of events into a cliff at Behistun in three languages. Centuries later, that inscription helped scholars decode cuneiform.",
+   "cues": []
+  },
+  {
+   "id": "S11",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "MAP-07",
+    "IMG 012"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-07, satrapies appear, Royal Road draws Sardis to Susa | @River: MAP-07, camera moves to the next area | @tribute: MAP-07, camera moves to the next area | @Relay: IMG 012, quick push on the rider",
+   "shots": [
+    {
+     "at": 139.72,
+     "map": {
+      "id": "MAP-07",
+      "camera": [
+       {
+        "at": 139.72,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1.15
+       },
+       {
+        "at": 147.72,
+        "center": [
+         42,
+         34
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 139.72,
+        "layers": [
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.75
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "royalroad",
+        "style": "trade",
+        "path": [
+         [
+          28.04,
+          38.49
+         ],
+         [
+          32.5,
+          39
+         ],
+         [
+          37,
+          38.6
+         ],
+         [
+          40.2,
+          37.9
+         ],
+         [
+          43.2,
+          36.4
+         ],
+         [
+          45.5,
+          34.6
+         ],
+         [
+          47.4,
+          33.4
+         ],
+         [
+          48.25,
+          32.19
+         ]
+        ],
+        "at": 149.31,
+        "duration": 3,
+        "smooth": true,
+        "dots": {
+         "at": 151.81,
+         "count": 3,
+         "period": 6,
+         "loop": true
+        }
+       }
+      ],
+      "markers": [
+       {
+        "id": "sar7",
+        "label": "Sardis",
+        "lonlat": [
+         28.04,
+         38.49
+        ],
+        "at": 140.02,
+        "kind": "city"
+       },
+       {
+        "id": "sus7",
+        "label": "Susa",
+        "lonlat": [
+         48.25,
+         32.19
+        ],
+        "at": 140.02,
+        "kind": "city"
+       },
+       {
+        "id": "per7",
+        "label": "Persepolis",
+        "lonlat": [
+         52.89,
+         29.93
+        ],
+        "at": 140.32,
+        "kind": "city"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SATRAPIES",
+        "lonlat": [
+         55,
+         37
+        ],
+        "at": 147.04,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 143.58,
+     "map": {
+      "id": "MAP-07",
+      "camera": [
+       {
+        "at": 143.58,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1.15
+       },
+       {
+        "at": 151.58,
+        "center": [
+         42,
+         34
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 143.58,
+        "layers": [
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.75
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "royalroad",
+        "style": "trade",
+        "path": [
+         [
+          28.04,
+          38.49
+         ],
+         [
+          32.5,
+          39
+         ],
+         [
+          37,
+          38.6
+         ],
+         [
+          40.2,
+          37.9
+         ],
+         [
+          43.2,
+          36.4
+         ],
+         [
+          45.5,
+          34.6
+         ],
+         [
+          47.4,
+          33.4
+         ],
+         [
+          48.25,
+          32.19
+         ]
+        ],
+        "at": 149.31,
+        "duration": 3,
+        "smooth": true,
+        "dots": {
+         "at": 151.81,
+         "count": 3,
+         "period": 6,
+         "loop": true
+        }
+       }
+      ],
+      "markers": [
+       {
+        "id": "sar7",
+        "label": "Sardis",
+        "lonlat": [
+         28.04,
+         38.49
+        ],
+        "at": 143.88,
+        "kind": "city"
+       },
+       {
+        "id": "sus7",
+        "label": "Susa",
+        "lonlat": [
+         48.25,
+         32.19
+        ],
+        "at": 143.88,
+        "kind": "city"
+       },
+       {
+        "id": "per7",
+        "label": "Persepolis",
+        "lonlat": [
+         52.89,
+         29.93
+        ],
+        "at": 144.18,
+        "kind": "city"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SATRAPIES",
+        "lonlat": [
+         55,
+         37
+        ],
+        "at": 147.04,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 148.23,
+     "map": {
+      "id": "MAP-07",
+      "camera": [
+       {
+        "at": 148.23,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1.15
+       },
+       {
+        "at": 156.23,
+        "center": [
+         42,
+         34
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 148.23,
+        "layers": [
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.75
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "royalroad",
+        "style": "trade",
+        "path": [
+         [
+          28.04,
+          38.49
+         ],
+         [
+          32.5,
+          39
+         ],
+         [
+          37,
+          38.6
+         ],
+         [
+          40.2,
+          37.9
+         ],
+         [
+          43.2,
+          36.4
+         ],
+         [
+          45.5,
+          34.6
+         ],
+         [
+          47.4,
+          33.4
+         ],
+         [
+          48.25,
+          32.19
+         ]
+        ],
+        "at": 149.31,
+        "duration": 3,
+        "smooth": true,
+        "dots": {
+         "at": 151.81,
+         "count": 3,
+         "period": 6,
+         "loop": true
+        }
+       }
+      ],
+      "markers": [
+       {
+        "id": "sar7",
+        "label": "Sardis",
+        "lonlat": [
+         28.04,
+         38.49
+        ],
+        "at": 148.53,
+        "kind": "city"
+       },
+       {
+        "id": "sus7",
+        "label": "Susa",
+        "lonlat": [
+         48.25,
+         32.19
+        ],
+        "at": 148.53,
+        "kind": "city"
+       },
+       {
+        "id": "per7",
+        "label": "Persepolis",
+        "lonlat": [
+         52.89,
+         29.93
+        ],
+        "at": 148.83,
+        "kind": "city"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SATRAPIES",
+        "lonlat": [
+         55,
+         37
+        ],
+        "at": 147.04,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 153.88,
+     "image": "images/012.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 139.72,
+   "end": 157.644,
+   "startFrame": 4192,
+   "endFrame": 4729,
+   "vo": "Under Darius, the Achaemenid Empire reached from Egypt and the Balkans to the Indus River in modern Pakistan. He divided it into provinces called satrapies, each paying tribute, and built a royal road of about 2,700 kilometers from Sardis to Susa. Relay riders could carry a message along it in about nine days.",
+   "cues": []
+  },
+  {
+   "id": "S12",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "IMG 013",
+    "PHOTO-05"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 013, pan across the workers | @tablets: PHOTO-05, slow push on the ruins",
+   "shots": [
+    {
+     "at": 157.644,
+     "image": "images/013.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.4,
+       "x": 0.33,
+       "y": 0.62
+      },
+      "to": {
+       "scale": 1.4,
+       "x": 0.67,
+       "y": 0.62
+      }
+     }
+    },
+    {
+     "at": 160.06,
+     "image": "images/photo-05.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 157.644,
+   "end": 164.703,
+   "startFrame": 4729,
+   "endFrame": 4941,
+   "vo": "He also began building Persepolis. Clay tablets found there record the rations paid to its workers, men and women alike.",
+   "cues": []
+  },
+  {
+   "id": "S13",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "MAP-08",
+    "IMG 014",
+    "IMG 015"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-08, Greece close-up, battle markers on cue | @rebel: MAP-08, camera moves to the next area | @Marathon: IMG 014, fast pan with the charge | @Xerxes: IMG 015, push in from Xerxes to the battle | @fleet: IMG 015, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 165.003,
+     "value": -490
+    }
+   ],
+   "shots": [
+    {
+     "at": 164.703,
+     "map": {
+      "id": "MAP-08",
+      "camera": [
+       {
+        "at": 164.703,
+        "center": [
+         25.5,
+         38.5
+        ],
+        "zoom": 3
+       },
+       {
+        "at": 170.703,
+        "center": [
+         25.5,
+         38.5
+        ],
+        "zoom": 4.2
+       }
+      ],
+      "states": [
+       {
+        "at": 164.703,
+        "layers": [
+         {
+          "territory": "greek_bc500",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "ath8",
+        "label": "Athens",
+        "lonlat": [
+         23.73,
+         37.98
+        ],
+        "at": 165.003,
+        "kind": "city",
+        "labelSide": "bottom"
+       },
+       {
+        "id": "mar8",
+        "label": "Marathon",
+        "lonlat": [
+         23.97,
+         38.15
+        ],
+        "at": 172.3,
+        "kind": "dot",
+        "battleAt": 172.3
+       },
+       {
+        "id": "the8",
+        "label": "Thermopylae",
+        "lonlat": [
+         22.54,
+         38.8
+        ],
+        "at": 178.26,
+        "kind": "dot",
+        "battleAt": 178.26,
+        "labelSide": "left"
+       },
+       {
+        "id": "sal8",
+        "label": "Salamis",
+        "lonlat": [
+         23.48,
+         37.95
+        ],
+        "at": 181.36,
+        "kind": "dot",
+        "battleAt": 181.36,
+        "labelSide": "left"
+       },
+       {
+        "id": "pla8",
+        "label": "Plataea",
+        "lonlat": [
+         23.27,
+         38.21
+        ],
+        "at": 182.85,
+        "kind": "dot",
+        "battleAt": 182.85,
+        "labelSide": "top"
+       }
+      ],
+      "lines": [
+       {
+        "id": "xerx",
+        "style": "arrow",
+        "path": [
+         [
+          28,
+          40.5
+         ],
+         [
+          26.2,
+          40.9
+         ],
+         [
+          24,
+          40.5
+         ],
+         [
+          22.8,
+          39.5
+         ],
+         [
+          22.6,
+          38.9
+         ]
+        ],
+        "at": 175.42,
+        "duration": 2.2,
+        "smooth": true
+       }
+      ]
+     }
+    },
+    {
+     "at": 168.83,
+     "map": {
+      "id": "MAP-08",
+      "camera": [
+       {
+        "at": 168.83,
+        "center": [
+         25.5,
+         38.5
+        ],
+        "zoom": 3
+       },
+       {
+        "at": 174.83,
+        "center": [
+         25.5,
+         38.5
+        ],
+        "zoom": 4.2
+       }
+      ],
+      "states": [
+       {
+        "at": 168.83,
+        "layers": [
+         {
+          "territory": "greek_bc500",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "ath8",
+        "label": "Athens",
+        "lonlat": [
+         23.73,
+         37.98
+        ],
+        "at": 169.13,
+        "kind": "city",
+        "labelSide": "bottom"
+       },
+       {
+        "id": "mar8",
+        "label": "Marathon",
+        "lonlat": [
+         23.97,
+         38.15
+        ],
+        "at": 172.3,
+        "kind": "dot",
+        "battleAt": 172.3
+       },
+       {
+        "id": "the8",
+        "label": "Thermopylae",
+        "lonlat": [
+         22.54,
+         38.8
+        ],
+        "at": 178.26,
+        "kind": "dot",
+        "battleAt": 178.26,
+        "labelSide": "left"
+       },
+       {
+        "id": "sal8",
+        "label": "Salamis",
+        "lonlat": [
+         23.48,
+         37.95
+        ],
+        "at": 181.36,
+        "kind": "dot",
+        "battleAt": 181.36,
+        "labelSide": "left"
+       },
+       {
+        "id": "pla8",
+        "label": "Plataea",
+        "lonlat": [
+         23.27,
+         38.21
+        ],
+        "at": 182.85,
+        "kind": "dot",
+        "battleAt": 182.85,
+        "labelSide": "top"
+       }
+      ],
+      "lines": [
+       {
+        "id": "xerx",
+        "style": "arrow",
+        "path": [
+         [
+          28,
+          40.5
+         ],
+         [
+          26.2,
+          40.9
+         ],
+         [
+          24,
+          40.5
+         ],
+         [
+          22.8,
+          39.5
+         ],
+         [
+          22.6,
+          38.9
+         ]
+        ],
+        "at": 175.42,
+        "duration": 2.2,
+        "smooth": true
+       }
+      ]
+     }
+    },
+    {
+     "at": 172.3,
+     "image": "images/014.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 175.42,
+     "image": "images/015.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 180.3,
+     "image": "images/015.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 164.703,
+   "end": 185.28,
+   "startFrame": 4941,
+   "endFrame": 5558,
+   "vo": "The Greeks saw Persia very differently. Athens had helped the Greek cities of Ionia rebel, so Darius sent an army to punish it. That army lost at Marathon in 490 BC. Ten years later his son Xerxes invaded Greece with a huge force. He won at Thermopylae and burned Athens, but his fleet was crushed at Salamis, and his army was beaten at Plataea the next year.",
+   "cues": []
+  },
+  {
+   "id": "S14",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "IMG 015"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 015, second move: sinking ships detail | @lost: IMG 015, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 185.28,
+     "image": "images/015.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 188.01,
+     "image": "images/015.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 185.28,
+   "end": 193.08,
+   "startFrame": 5558,
+   "endFrame": 5792,
+   "vo": "Greek writers made it a story of survival. Persia lost its foothold in Greece, but the empire lasted another 150 years.",
+   "cues": []
+  },
+  {
+   "id": "S15",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "MAP-09",
+    "IMG 016",
+    "IMG 017"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-09, Alexander's route draws on cue | @Asia: MAP-09, camera moves to the next area | @Gaugamela: IMG 016, push toward the chariot | @murdered: IMG 016, new camera move on another part of the image | @Persepolis: IMG 017, slow pull out from the flames",
+   "year": [
+    {
+     "at": 193.38,
+     "value": -334
+    }
+   ],
+   "titles": [
+    {
+     "text": "ALEXANDER THE GREAT",
+     "at": 193.62,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 193.08,
+     "map": {
+      "id": "MAP-09",
+      "camera": [
+       {
+        "at": 193.08,
+        "center": [
+         38,
+         35
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 200.08,
+        "center": [
+         45,
+         33
+        ],
+        "zoom": 1.4
+       }
+      ],
+      "states": [
+       {
+        "at": 193.08,
+        "layers": [
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 206.58,
+        "duration": 1.6,
+        "mode": "grow",
+        "origin": [
+         27.3,
+         40.3
+        ],
+        "layers": [
+         {
+          "territory": "alexander_bc323",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "alex",
+        "style": "route",
+        "path": [
+         [
+          26.5,
+          40.3
+         ],
+         [
+          27.3,
+          40.3
+         ],
+         [
+          32,
+          38.5
+         ],
+         [
+          36.2,
+          36.84
+         ],
+         [
+          35,
+          33
+         ],
+         [
+          31,
+          30.6
+         ],
+         [
+          35.5,
+          33.5
+         ],
+         [
+          40,
+          36.5
+         ],
+         [
+          43.4,
+          36.4
+         ],
+         [
+          44.42,
+          32.54
+         ],
+         [
+          48.25,
+          32.19
+         ],
+         [
+          52.89,
+          29.93
+         ]
+        ],
+        "at": 195.32,
+        "duration": 6,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "iss9",
+        "label": "Issus",
+        "lonlat": [
+         36.2,
+         36.84
+        ],
+        "at": 198.9,
+        "kind": "dot",
+        "battleAt": 198.9,
+        "labelSide": "left"
+       },
+       {
+        "id": "gau9",
+        "label": "Gaugamela",
+        "lonlat": [
+         43.4,
+         36.4
+        ],
+        "at": 200.18,
+        "kind": "dot",
+        "battleAt": 200.18
+       },
+       {
+        "id": "per9",
+        "label": "Persepolis",
+        "lonlat": [
+         52.89,
+         29.93
+        ],
+        "at": 206.58,
+        "kind": "city",
+        "flashAt": 206.58
+       }
+      ]
+     }
+    },
+    {
+     "at": 196.16,
+     "map": {
+      "id": "MAP-09",
+      "camera": [
+       {
+        "at": 196.16,
+        "center": [
+         38,
+         35
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 203.16,
+        "center": [
+         45,
+         33
+        ],
+        "zoom": 1.4
+       }
+      ],
+      "states": [
+       {
+        "at": 196.16,
+        "layers": [
+         {
+          "territory": "achaemenid_bc500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 206.58,
+        "duration": 1.6,
+        "mode": "grow",
+        "origin": [
+         27.3,
+         40.3
+        ],
+        "layers": [
+         {
+          "territory": "alexander_bc323",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "alex",
+        "style": "route",
+        "path": [
+         [
+          26.5,
+          40.3
+         ],
+         [
+          27.3,
+          40.3
+         ],
+         [
+          32,
+          38.5
+         ],
+         [
+          36.2,
+          36.84
+         ],
+         [
+          35,
+          33
+         ],
+         [
+          31,
+          30.6
+         ],
+         [
+          35.5,
+          33.5
+         ],
+         [
+          40,
+          36.5
+         ],
+         [
+          43.4,
+          36.4
+         ],
+         [
+          44.42,
+          32.54
+         ],
+         [
+          48.25,
+          32.19
+         ],
+         [
+          52.89,
+          29.93
+         ]
+        ],
+        "at": 195.32,
+        "duration": 6,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "iss9",
+        "label": "Issus",
+        "lonlat": [
+         36.2,
+         36.84
+        ],
+        "at": 198.9,
+        "kind": "dot",
+        "battleAt": 198.9,
+        "labelSide": "left"
+       },
+       {
+        "id": "gau9",
+        "label": "Gaugamela",
+        "lonlat": [
+         43.4,
+         36.4
+        ],
+        "at": 200.18,
+        "kind": "dot",
+        "battleAt": 200.18
+       },
+       {
+        "id": "per9",
+        "label": "Persepolis",
+        "lonlat": [
+         52.89,
+         29.93
+        ],
+        "at": 206.58,
+        "kind": "city",
+        "flashAt": 206.58
+       }
+      ]
+     }
+    },
+    {
+     "at": 200.18,
+     "image": "images/016.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 203.5,
+     "image": "images/016.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 206.58,
+     "image": "images/017.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.32,
+       "x": 0.62,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 193.08,
+   "end": 213.28,
+   "startFrame": 5792,
+   "endFrame": 6398,
+   "vo": "Then came Alexander of Macedon. He crossed into Asia in 334 BC and beat Darius III at Issus and then at Gaugamela in 331 BC. Darius fled east and was murdered by one of his own governors. In 330 BC Persepolis burned. Ancient writers disagree on whether it was a drunken accident or revenge for Athens.",
+   "cues": []
+  },
+  {
+   "id": "S16",
+   "part": "THE FIRST WORLD EMPIRE",
+   "assets": [
+    "IMG 018"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 018, slow push on the couple | @named: IMG 018, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 213.58,
+     "value": -323
+    }
+   ],
+   "shots": [
+    {
+     "at": 213.28,
+     "image": "images/018.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 217.24,
+     "image": "images/018.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.46
+      }
+     }
+    }
+   ],
+   "start": 213.28,
+   "end": 222.72,
+   "startFrame": 6398,
+   "endFrame": 6682,
+   "vo": "Alexander kept Persian officials, wore Persian clothes and married a Bactrian princess named Roxana. He died in Babylon in 323 BC, at thirty-two.",
+   "cues": []
+  },
+  {
+   "id": "S17",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "MAP-10"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-10, Seleucid realm fills in",
+   "shots": [
+    {
+     "at": 222.72,
+     "map": {
+      "id": "MAP-10",
+      "camera": [
+       {
+        "at": 222.72,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1.3
+       },
+       {
+        "at": 226.72,
+        "center": [
+         50,
+         33
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 222.72,
+        "layers": [
+         {
+          "territory": "alexander_bc323",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 223.12,
+        "duration": 1.4,
+        "layers": [
+         {
+          "territory": "seleucid_bc300",
+          "fill": "ochre",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SELEUCID EMPIRE",
+        "lonlat": [
+         52,
+         33.5
+        ],
+        "at": 223.72,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 222.72,
+   "end": 226.48,
+   "startFrame": 6682,
+   "endFrame": 6794,
+   "vo": "After Alexander, his general Seleucus took most of Iran.",
+   "cues": []
+  },
+  {
+   "id": "S18",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "IMG 019",
+    "MAP-11"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 019, pan with the riders | @province: IMG 019, new camera move on another part of the image | @successors: MAP-11, Parthia grows, Ctesiphon marker | @Mesopotamia: MAP-11, camera moves to the next area",
+   "year": [
+    {
+     "at": 226.78,
+     "value": -238
+    }
+   ],
+   "shots": [
+    {
+     "at": 226.48,
+     "image": "images/019.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 230.06,
+     "image": "images/019.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 233.65,
+     "map": {
+      "id": "MAP-11",
+      "camera": [
+       {
+        "at": 233.65,
+        "center": [
+         55,
+         35
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 240.65,
+        "center": [
+         50,
+         34
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 233.65,
+        "layers": [
+         {
+          "territory": "seleucid_bc200",
+          "fill": "ochre",
+          "opacity": 0.7
+         },
+         {
+          "territory": "parthia_bc200",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 234.15,
+        "duration": 2.2,
+        "mode": "grow",
+        "origin": [
+         58,
+         37.5
+        ],
+        "layers": [
+         {
+          "territory": "parthian_bc1",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "cte11",
+        "label": "Ctesiphon",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 238.69,
+        "kind": "city",
+        "pulse": true,
+        "labelSide": "left"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "PARTHIA",
+        "lonlat": [
+         56,
+         36
+        ],
+        "at": 233.65,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 236.81,
+     "map": {
+      "id": "MAP-11",
+      "camera": [
+       {
+        "at": 236.81,
+        "center": [
+         55,
+         35
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 243.81,
+        "center": [
+         50,
+         34
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 236.81,
+        "layers": [
+         {
+          "territory": "seleucid_bc200",
+          "fill": "ochre",
+          "opacity": 0.7
+         },
+         {
+          "territory": "parthia_bc200",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 237.31,
+        "duration": 2.2,
+        "mode": "grow",
+        "origin": [
+         58,
+         37.5
+        ],
+        "layers": [
+         {
+          "territory": "parthian_bc1",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "cte11",
+        "label": "Ctesiphon",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 238.69,
+        "kind": "city",
+        "pulse": true,
+        "labelSide": "left"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "PARTHIA",
+        "lonlat": [
+         56,
+         36
+        ],
+        "at": 236.81,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 226.48,
+   "end": 240.88,
+   "startFrame": 6794,
+   "endFrame": 7226,
+   "vo": "Around 238 BC, a nomad chief named Arsaces seized the province of Parthia, southeast of the Caspian Sea. His successors, the Parthians, took the whole Iranian plateau and Mesopotamia, and later ruled from Ctesiphon on the Tigris River.",
+   "cues": []
+  },
+  {
+   "id": "S19",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "MAP-12",
+    "IMG 020",
+    "IMG 021"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-12, Crassus's route to Carrhae | @Roman: MAP-12, camera moves to the next area | @Carrhae: IMG 020, slow push into the square | @killed: IMG 020, new camera move on another part of the image | @Plutarch: IMG 021, slow push on the actor",
+   "year": [
+    {
+     "at": 241.18,
+     "value": -53
+    }
+   ],
+   "shots": [
+    {
+     "at": 240.88,
+     "map": {
+      "id": "MAP-12",
+      "camera": [
+       {
+        "at": 240.88,
+        "center": [
+         41,
+         35
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 246.88,
+        "center": [
+         40,
+         36
+        ],
+        "zoom": 2.6
+       }
+      ],
+      "states": [
+       {
+        "at": 240.88,
+        "layers": [
+         {
+          "territory": "roman_bc100",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "parthian_bc1",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "crassus",
+        "style": "arrow",
+        "path": [
+         [
+          36.2,
+          36.2
+         ],
+         [
+          37.5,
+          36.6
+         ],
+         [
+          39,
+          36.85
+         ]
+        ],
+        "at": 241.28,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "car12",
+        "label": "Carrhae",
+        "lonlat": [
+         39.03,
+         36.87
+        ],
+        "at": 242.08,
+        "kind": "dot",
+        "battleAt": 243.08,
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ROME",
+        "lonlat": [
+         34,
+         37.5
+        ],
+        "at": 240.88,
+        "size": 30,
+        "tone": "dark"
+       },
+       {
+        "text": "PARTHIA",
+        "lonlat": [
+         46,
+         34.5
+        ],
+        "at": 240.88,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 243.57,
+     "map": {
+      "id": "MAP-12",
+      "camera": [
+       {
+        "at": 243.57,
+        "center": [
+         41,
+         35
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 249.57,
+        "center": [
+         40,
+         36
+        ],
+        "zoom": 2.6
+       }
+      ],
+      "states": [
+       {
+        "at": 243.57,
+        "layers": [
+         {
+          "territory": "roman_bc100",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "parthian_bc1",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "crassus",
+        "style": "arrow",
+        "path": [
+         [
+          36.2,
+          36.2
+         ],
+         [
+          37.5,
+          36.6
+         ],
+         [
+          39,
+          36.85
+         ]
+        ],
+        "at": 243.97,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "car12",
+        "label": "Carrhae",
+        "lonlat": [
+         39.03,
+         36.87
+        ],
+        "at": 244.77,
+        "kind": "dot",
+        "battleAt": 245.77,
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ROME",
+        "lonlat": [
+         34,
+         37.5
+        ],
+        "at": 243.57,
+        "size": 30,
+        "tone": "dark"
+       },
+       {
+        "text": "PARTHIA",
+        "lonlat": [
+         46,
+         34.5
+        ],
+        "at": 243.57,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 247.81,
+     "image": "images/020.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 252.75,
+     "image": "images/020.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 256.68,
+     "image": "images/021.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 240.88,
+   "end": 260.92,
+   "startFrame": 7226,
+   "endFrame": 7828,
+   "vo": "Their weapon was the horse archer. In 53 BC the Roman general Crassus, the richest man in Rome, invaded Mesopotamia. At Carrhae, Parthian archers shot his legions to pieces. About 20,000 Romans were killed and 10,000 captured. Crassus died during a parley, and according to Plutarch his head was used as a prop in a Greek play at the Parthian court.",
+   "cues": []
+  },
+  {
+   "id": "S20",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "MAP-13",
+    "IMG 022"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-13, frontier, Ctesiphon sack markers | @sacked: IMG 022, pan across the looting",
+   "shots": [
+    {
+     "at": 260.92,
+     "map": {
+      "id": "MAP-13",
+      "camera": [
+       {
+        "at": 260.92,
+        "center": [
+         40,
+         35
+        ],
+        "zoom": 1.8
+       },
+       {
+        "at": 266.92,
+        "center": [
+         42,
+         34.5
+        ],
+        "zoom": 2.2
+       }
+      ],
+      "states": [
+       {
+        "at": 260.92,
+        "layers": [
+         {
+          "territory": "roman_bc1",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "parthian_bc1",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "cte13",
+        "label": "Ctesiphon",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 260.92,
+        "kind": "city",
+        "flashAt": 262.92,
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ARMENIA",
+        "lonlat": [
+         44.5,
+         40.2
+        ],
+        "at": 264.08,
+        "size": 24,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 266.49,
+     "image": "images/022.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 260.92,
+   "end": 270.011,
+   "startFrame": 7828,
+   "endFrame": 8100,
+   "vo": "For the next three centuries, Rome and Parthia fought over Armenia and Mesopotamia. Roman armies sacked Ctesiphon three times, but never held the plateau.",
+   "cues": []
+  },
+  {
+   "id": "S21",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "IMG 023",
+    "IMG 024"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 023, push in on the crowning | @founded: IMG 023, new camera move on another part of the image | @Zoroastrianism: IMG 024, slow push on the flame",
+   "year": [
+    {
+     "at": 270.311,
+     "value": 224
+    }
+   ],
+   "shots": [
+    {
+     "at": 270.011,
+     "image": "images/023.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 276.1,
+     "image": "images/023.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 281.85,
+     "image": "images/024.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 270.011,
+   "end": 286.178,
+   "startFrame": 8100,
+   "endFrame": 8585,
+   "vo": "In 224 AD, a local ruler of Persis named Ardashir killed the last Parthian king in battle and founded a new dynasty, the Sasanians. They saw themselves as heirs of Cyrus and Darius, and made Zoroastrianism, Iran's ancient religion, the faith of the state.",
+   "cues": []
+  },
+  {
+   "id": "S22",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "IMG 025",
+    "PHOTO-06",
+    "MAP-14"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 025, slow push on Valerian kneeling | @Roman: IMG 025, new camera move on another part of the image | @carved: PHOTO-06, slow pan across the relief | @still: MAP-14, Sasanian empire with Edessa and Naqsh-e Rostam",
+   "year": [
+    {
+     "at": 286.478,
+     "value": 260
+    }
+   ],
+   "titles": [
+    {
+     "text": "SHAPUR I",
+     "at": 286.56,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 286.178,
+     "image": "images/025.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 291.68,
+     "image": "images/025.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 297.59,
+     "image": "images/photo-06.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 302.52,
+     "map": {
+      "id": "MAP-14",
+      "camera": [
+       {
+        "at": 302.52,
+        "center": [
+         48,
+         33
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 307.52,
+        "center": [
+         50,
+         33
+        ],
+        "zoom": 1.7
+       }
+      ],
+      "states": [
+       {
+        "at": 302.52,
+        "layers": [
+         {
+          "territory": "roman_bc1",
+          "fill": "olive",
+          "opacity": 0.6
+         }
+        ]
+       },
+       {
+        "at": 302.72,
+        "duration": 1.6,
+        "mode": "grow",
+        "origin": [
+         52.89,
+         29.93
+        ],
+        "layers": [
+         {
+          "territory": "roman_bc1",
+          "fill": "olive",
+          "opacity": 0.6
+         },
+         {
+          "territory": "sasanian_500",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "ede14",
+        "label": "Edessa",
+        "lonlat": [
+         38.79,
+         37.15
+        ],
+        "at": 303.32,
+        "kind": "dot",
+        "battleAt": 303.52
+       },
+       {
+        "id": "naq14",
+        "label": "Naqsh-e Rostam",
+        "lonlat": [
+         52.87,
+         29.99
+        ],
+        "at": 303.72,
+        "kind": "city",
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SASANIAN EMPIRE",
+        "lonlat": [
+         55,
+         34
+        ],
+        "at": 303.92,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 286.178,
+   "end": 303.778,
+   "startFrame": 8585,
+   "endFrame": 9113,
+   "vo": "His son Shapur I did something no enemy of Rome had ever done. In 260 he defeated the Roman army near Edessa and captured the emperor Valerian alive. Valerian died a prisoner. Shapur had the scene carved into a cliff at Naqsh-e Rostam, next to the tombs of the Achaemenid kings. It is still there.",
+   "cues": []
+  },
+  {
+   "id": "S23",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "IMG 026"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 026, pan from the scholars to the chess game | @books: IMG 026, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 303.778,
+     "image": "images/026.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 308.67,
+     "image": "images/026.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.46
+      }
+     }
+    }
+   ],
+   "start": 303.778,
+   "end": 315,
+   "startFrame": 9113,
+   "endFrame": 9450,
+   "vo": "The Sasanians ruled for more than four hundred years. Under Khosrow I, in the 6th century, books were translated from Greek and Sanskrit, and according to tradition, chess arrived from India.",
+   "cues": []
+  },
+  {
+   "id": "S24",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "MAP-15",
+    "IMG 027",
+    "IMG 028"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-15, conquests 614, 619, 626 on cue | @armies: MAP-15, camera moves to the next area | @Constantinople: IMG 027, slow push toward the walls | @Heraclius: IMG 028, pan with the cavalry",
+   "year": [
+    {
+     "at": 315.3,
+     "value": 602
+    }
+   ],
+   "shots": [
+    {
+     "at": 315,
+     "map": {
+      "id": "MAP-15",
+      "camera": [
+       {
+        "at": 315,
+        "center": [
+         40,
+         34
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 323,
+        "center": [
+         38,
+         35
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 315,
+        "layers": [
+         {
+          "territory": "byzantine_600",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "sasanian_600",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 321.02,
+        "duration": 1.2,
+        "mode": "grow",
+        "origin": [
+         35.23,
+         31.78
+        ],
+        "layers": [
+         {
+          "territory": "byzantine_600",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "sasanian_600",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "terracotta",
+          "opacity": 0.7
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "jer15",
+        "label": "Jerusalem",
+        "lonlat": [
+         35.23,
+         31.78
+        ],
+        "at": 321.02,
+        "kind": "city",
+        "flashAt": 321.02,
+        "labelSide": "left"
+       },
+       {
+        "id": "ale15",
+        "label": "Alexandria",
+        "lonlat": [
+         29.92,
+         31.2
+        ],
+        "at": 322.49,
+        "kind": "city",
+        "flashAt": 322.49,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "con15",
+        "label": "Constantinople",
+        "lonlat": [
+         28.98,
+         41.01
+        ],
+        "at": 325.37,
+        "kind": "city",
+        "pulse": true
+       }
+      ],
+      "lines": [
+       {
+        "id": "kh1",
+        "style": "arrow",
+        "path": [
+         [
+          44,
+          33
+         ],
+         [
+          38,
+          34
+         ],
+         [
+          35.3,
+          31.9
+         ]
+        ],
+        "at": 321.02,
+        "duration": 1.4,
+        "smooth": true
+       },
+       {
+        "id": "kh2",
+        "style": "arrow",
+        "path": [
+         [
+          35,
+          31.5
+         ],
+         [
+          33,
+          30.8
+         ],
+         [
+          30.5,
+          30.8
+         ]
+        ],
+        "at": 322.49,
+        "duration": 1.2,
+        "smooth": true
+       },
+       {
+        "id": "kh3",
+        "style": "arrow",
+        "path": [
+         [
+          41,
+          38
+         ],
+         [
+          36,
+          39.5
+         ],
+         [
+          32,
+          40.4
+         ],
+         [
+          29.4,
+          40.9
+         ]
+        ],
+        "at": 325.37,
+        "duration": 1.6,
+        "smooth": true
+       }
+      ]
+     }
+    },
+    {
+     "at": 319.75,
+     "map": {
+      "id": "MAP-15",
+      "camera": [
+       {
+        "at": 319.75,
+        "center": [
+         40,
+         34
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 327.75,
+        "center": [
+         38,
+         35
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 319.75,
+        "layers": [
+         {
+          "territory": "byzantine_600",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "sasanian_600",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 321.02,
+        "duration": 1.2,
+        "mode": "grow",
+        "origin": [
+         35.23,
+         31.78
+        ],
+        "layers": [
+         {
+          "territory": "byzantine_600",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "sasanian_600",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "babylonia_bc550",
+          "fill": "terracotta",
+          "opacity": 0.7
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "jer15",
+        "label": "Jerusalem",
+        "lonlat": [
+         35.23,
+         31.78
+        ],
+        "at": 321.02,
+        "kind": "city",
+        "flashAt": 321.02,
+        "labelSide": "left"
+       },
+       {
+        "id": "ale15",
+        "label": "Alexandria",
+        "lonlat": [
+         29.92,
+         31.2
+        ],
+        "at": 322.49,
+        "kind": "city",
+        "flashAt": 322.49,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "con15",
+        "label": "Constantinople",
+        "lonlat": [
+         28.98,
+         41.01
+        ],
+        "at": 325.37,
+        "kind": "city",
+        "pulse": true
+       }
+      ],
+      "lines": [
+       {
+        "id": "kh1",
+        "style": "arrow",
+        "path": [
+         [
+          44,
+          33
+         ],
+         [
+          38,
+          34
+         ],
+         [
+          35.3,
+          31.9
+         ]
+        ],
+        "at": 321.02,
+        "duration": 1.4,
+        "smooth": true
+       },
+       {
+        "id": "kh2",
+        "style": "arrow",
+        "path": [
+         [
+          35,
+          31.5
+         ],
+         [
+          33,
+          30.8
+         ],
+         [
+          30.5,
+          30.8
+         ]
+        ],
+        "at": 322.49,
+        "duration": 1.2,
+        "smooth": true
+       },
+       {
+        "id": "kh3",
+        "style": "arrow",
+        "path": [
+         [
+          41,
+          38
+         ],
+         [
+          36,
+          39.5
+         ],
+         [
+          32,
+          40.4
+         ],
+         [
+          29.4,
+          40.9
+         ]
+        ],
+        "at": 325.37,
+        "duration": 1.6,
+        "smooth": true
+       }
+      ]
+     }
+    },
+    {
+     "at": 325.37,
+     "image": "images/027.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 327.87,
+     "image": "images/028.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 315,
+   "end": 335.394,
+   "startFrame": 9450,
+   "endFrame": 10062,
+   "vo": "Then came the last great war with the Byzantine Empire. Starting in 602, the armies of Khosrow II took Jerusalem, conquered Egypt, and in 626 stood across the water from Constantinople. But the Byzantine emperor Heraclius struck back deep into Mesopotamia. In 628, Khosrow was overthrown and executed by his own son.",
+   "cues": []
+  },
+  {
+   "id": "S25",
+   "part": "ROME'S RIVAL",
+   "assets": [
+    "IMG 029"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 029, very slow push on the empty throne | @than: IMG 029, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 335.694,
+     "value": 628
+    }
+   ],
+   "shots": [
+    {
+     "at": 335.394,
+     "image": "images/029.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 339.88,
+     "image": "images/029.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 335.394,
+   "end": 345.58,
+   "startFrame": 10062,
+   "endFrame": 10367,
+   "vo": "In the next four years, Persia went through a rapid series of rulers, by some counts more than ten. Both empires had bled each other dry, just as a new power was rising in Arabia.",
+   "cues": []
+  },
+  {
+   "id": "S26",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "MAP-16",
+    "IMG 030",
+    "IMG 031"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-16, Arab arrows on cue | @al-Qadisiyyah: IMG 030, pan across the battle | @Yazdegerd: IMG 031, slow push on the lone rider | @than: IMG 031, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 345.88,
+     "value": 636
+    }
+   ],
+   "shots": [
+    {
+     "at": 345.58,
+     "map": {
+      "id": "MAP-16",
+      "camera": [
+       {
+        "at": 345.58,
+        "center": [
+         46,
+         31
+        ],
+        "zoom": 1.8
+       },
+       {
+        "at": 354.58,
+        "center": [
+         53,
+         34
+        ],
+        "zoom": 1.7
+       }
+      ],
+      "states": [
+       {
+        "at": 345.58,
+        "layers": [
+         {
+          "territory": "sasanian_600",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 355.44,
+        "duration": 3,
+        "mode": "grow",
+        "origin": [
+         44.3,
+         31.7
+        ],
+        "layers": [
+         {
+          "territory": "abbasid_800",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "ar1",
+        "style": "arrow",
+        "path": [
+         [
+          42,
+          28.5
+         ],
+         [
+          43.5,
+          30.5
+         ],
+         [
+          44.3,
+          31.7
+         ]
+        ],
+        "at": 345.78,
+        "duration": 1.4,
+        "smooth": true
+       },
+       {
+        "id": "ar2",
+        "style": "arrow",
+        "path": [
+         [
+          44.58,
+          33.09
+         ],
+         [
+          46.5,
+          33.8
+         ],
+         [
+          48.37,
+          34.19
+         ]
+        ],
+        "at": 352.55,
+        "duration": 1.4,
+        "smooth": true
+       },
+       {
+        "id": "ar3",
+        "style": "arrow",
+        "path": [
+         [
+          48.37,
+          34.19
+         ],
+         [
+          53,
+          35.5
+         ],
+         [
+          58,
+          36.3
+         ],
+         [
+          61.83,
+          37.66
+         ]
+        ],
+        "at": 362.55,
+        "duration": 1.6,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "qad16",
+        "label": "al-Qadisiyyah",
+        "lonlat": [
+         44.3,
+         31.7
+        ],
+        "at": 350.28,
+        "kind": "dot",
+        "battleAt": 350.28,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "cte16",
+        "label": "Ctesiphon",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 352.55,
+        "kind": "city",
+        "crossAt": 352.95,
+        "labelSide": "left"
+       },
+       {
+        "id": "nah16",
+        "label": "Nahavand",
+        "lonlat": [
+         48.37,
+         34.19
+        ],
+        "at": 355.44,
+        "kind": "dot",
+        "battleAt": 355.44
+       },
+       {
+        "id": "mer16",
+        "label": "Merv",
+        "lonlat": [
+         61.83,
+         37.66
+        ],
+        "at": 362.55,
+        "kind": "city"
+       }
+      ]
+     }
+    },
+    {
+     "at": 350.28,
+     "image": "images/030.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 358.64,
+     "image": "images/031.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 363.48,
+     "image": "images/031.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 345.58,
+   "end": 367.165,
+   "startFrame": 10367,
+   "endFrame": 11015,
+   "vo": "The Arab armies of the new Muslim state attacked Persia in the 630s. They won at al-Qadisiyyah around 636, took Ctesiphon, and broke the last Sasanian army at Nahavand in 642. The last shah, Yazdegerd III, fled east. In 651 he was killed near Merv. More than a thousand years of empires ruled from Iran had ended.",
+   "cues": []
+  },
+  {
+   "id": "S27",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "IMG 032"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 032, slow pan along the beach | @Christian: IMG 032, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 367.165,
+     "image": "images/032.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 372.77,
+     "image": "images/032.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 367.165,
+   "end": 378.612,
+   "startFrame": 11015,
+   "endFrame": 11358,
+   "vo": "Iran became Muslim slowly. For two or three centuries much of the population stayed Zoroastrian, Christian or Jewish. Some Zoroastrians left for India, where their descendants are known as the Parsis.",
+   "cues": []
+  },
+  {
+   "id": "S28",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "MAP-17",
+    "IMG 033"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-17, Khorasan pulse, Baghdad and Ctesiphon 35 km | @administration: MAP-17, camera moves to the next area | @brought: MAP-17, camera moves to the next area | @Baghdad: IMG 033, slow aerial push",
+   "year": [
+    {
+     "at": 378.912,
+     "value": 750
+    }
+   ],
+   "shots": [
+    {
+     "at": 378.612,
+     "map": {
+      "id": "MAP-17",
+      "camera": [
+       {
+        "at": 378.612,
+        "center": [
+         48,
+         32
+        ],
+        "zoom": 1.4
+       },
+       {
+        "at": 384.612,
+        "center": [
+         46,
+         33.5
+        ],
+        "zoom": 2.4
+       }
+      ],
+      "states": [
+       {
+        "at": 378.612,
+        "layers": [
+         {
+          "territory": "abbasid_800",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "bag17",
+        "label": "Baghdad",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 390.67,
+        "kind": "city",
+        "pulse": true,
+        "labelSide": "left"
+       },
+       {
+        "id": "cte17",
+        "label": "Ctesiphon (ruins)",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 390.67,
+        "kind": "dot",
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "KHORASAN",
+        "lonlat": [
+         60,
+         36.5
+        ],
+        "at": 384.87,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 382.03,
+     "map": {
+      "id": "MAP-17",
+      "camera": [
+       {
+        "at": 382.03,
+        "center": [
+         48,
+         32
+        ],
+        "zoom": 1.4
+       },
+       {
+        "at": 388.03,
+        "center": [
+         46,
+         33.5
+        ],
+        "zoom": 2.4
+       }
+      ],
+      "states": [
+       {
+        "at": 382.03,
+        "layers": [
+         {
+          "territory": "abbasid_800",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "bag17",
+        "label": "Baghdad",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 390.67,
+        "kind": "city",
+        "pulse": true,
+        "labelSide": "left"
+       },
+       {
+        "id": "cte17",
+        "label": "Ctesiphon (ruins)",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 390.67,
+        "kind": "dot",
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "KHORASAN",
+        "lonlat": [
+         60,
+         36.5
+        ],
+        "at": 384.87,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 386.35,
+     "map": {
+      "id": "MAP-17",
+      "camera": [
+       {
+        "at": 386.35,
+        "center": [
+         48,
+         32
+        ],
+        "zoom": 1.4
+       },
+       {
+        "at": 392.35,
+        "center": [
+         46,
+         33.5
+        ],
+        "zoom": 2.4
+       }
+      ],
+      "states": [
+       {
+        "at": 386.35,
+        "layers": [
+         {
+          "territory": "abbasid_800",
+          "fill": "olive",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "bag17",
+        "label": "Baghdad",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 390.67,
+        "kind": "city",
+        "pulse": true,
+        "labelSide": "left"
+       },
+       {
+        "id": "cte17",
+        "label": "Ctesiphon (ruins)",
+        "lonlat": [
+         44.58,
+         33.09
+        ],
+        "at": 390.67,
+        "kind": "dot",
+        "labelSide": "bottom"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "KHORASAN",
+        "lonlat": [
+         60,
+         36.5
+        ],
+        "at": 384.87,
+        "size": 30,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 390.67,
+     "image": "images/033.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 378.612,
+   "end": 395.04,
+   "startFrame": 11358,
+   "endFrame": 11851,
+   "vo": "But Persians did not disappear into the new empire. They ran much of its administration. In 750 a revolt that began in Khorasan, in eastern Iran, brought the Abbasid dynasty to power, and the Abbasids built their new capital, Baghdad, about thirty-five kilometers from the ruins of Ctesiphon.",
+   "cues": []
+  },
+  {
+   "id": "S29",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "IMG 034"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 034, pan across the scholars | @algorithm: IMG 034, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 395.04,
+     "image": "images/034.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 399.34,
+     "image": "images/034.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 395.04,
+   "end": 404.32,
+   "startFrame": 11851,
+   "endFrame": 12130,
+   "vo": "Persian scholars shaped the Islamic golden age. Al-Khwarizmi gave his name to the word algorithm, and Ibn Sina wrote a medical textbook used in Europe for centuries.",
+   "cues": []
+  },
+  {
+   "id": "S30",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "IMG 035",
+    "PHOTO-07"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 035, slow push on Ferdowsi | @Shahnameh: PHOTO-07, slow pan over the page | @first: PHOTO-07, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 404.62,
+     "value": 1010
+    }
+   ],
+   "titles": [
+    {
+     "text": "FERDOWSI",
+     "at": 409.27,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 404.32,
+     "image": "images/035.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 410.26,
+     "image": "images/photo-07.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 415.16,
+     "image": "images/photo-07.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 404.32,
+   "end": 420.169,
+   "startFrame": 12130,
+   "endFrame": 12605,
+   "vo": "The Persian language survived too, now written in Arabic script. Around 1010, the poet Ferdowsi finished the Shahnameh, the Book of Kings, about fifty thousand couplets telling Iran's history from the first mythical kings to the Arab conquest. Iranians still learn it at school.",
+   "cues": []
+  },
+  {
+   "id": "S31",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "MAP-18",
+    "IMG 036"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-18, Seljuk empire fills in | @sultans: IMG 036, pan with the riders",
+   "shots": [
+    {
+     "at": 420.169,
+     "map": {
+      "id": "MAP-18",
+      "camera": [
+       {
+        "at": 420.169,
+        "center": [
+         50,
+         35
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 425.169,
+        "center": [
+         47,
+         35
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 420.169,
+        "layers": []
+       },
+       {
+        "at": 420.369,
+        "duration": 2,
+        "mode": "grow",
+        "origin": [
+         61.83,
+         37.66
+        ],
+        "layers": [
+         {
+          "territory": "seljuk_1100",
+          "fill": "ochre",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "isf18",
+        "label": "Isfahan",
+        "lonlat": [
+         51.67,
+         32.65
+        ],
+        "at": 421.169,
+        "kind": "city"
+       },
+       {
+        "id": "bag18",
+        "label": "Baghdad",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 424.61,
+        "kind": "city",
+        "labelSide": "left"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SELJUK EMPIRE",
+        "lonlat": [
+         52,
+         37.5
+        ],
+        "at": 421.369,
+        "size": 32,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 426.17,
+     "image": "images/036.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 420.169,
+   "end": 429.6,
+   "startFrame": 12605,
+   "endFrame": 12888,
+   "vo": "In the 11th century, Turkish nomads called the Seljuks took over Iran and then Baghdad. They ruled as sultans, with Turkish armies and Persian ministers.",
+   "cues": []
+  },
+  {
+   "id": "S32",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "MAP-19",
+    "IMG 037",
+    "IMG 038"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-19, Mongol arrows (reuse Mongol video map) | @Shah: MAP-19, camera moves to the next area | @Nishapur: IMG 037, slow push toward the walls | @Baghdad: IMG 038, pan along the river",
+   "year": [
+    {
+     "at": 429.9,
+     "value": 1219
+    }
+   ],
+   "shots": [
+    {
+     "at": 429.6,
+     "map": {
+      "id": "MAP-19",
+      "camera": [
+       {
+        "at": 429.6,
+        "center": [
+         60,
+         38
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 447.87,
+        "center": [
+         50,
+         35
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 429.6,
+        "layers": [
+         {
+          "territory": "khwarazm_1218",
+          "fill": "ochre",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "mo1",
+        "style": "arrow",
+        "path": [
+         [
+          72,
+          44
+         ],
+         [
+          68.3,
+          42.85
+         ],
+         [
+          64.42,
+          39.77
+         ],
+         [
+          61.83,
+          37.66
+         ],
+         [
+          58.8,
+          36.21
+         ]
+        ],
+        "at": 429.9,
+        "duration": 3,
+        "smooth": true
+       },
+       {
+        "id": "mo2",
+        "style": "arrow",
+        "path": [
+         [
+          58.8,
+          36.21
+         ],
+         [
+          52,
+          35.5
+         ],
+         [
+          47,
+          34.5
+         ],
+         [
+          44.37,
+          33.31
+         ]
+        ],
+        "at": 447.87,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "otr19",
+        "label": "Otrar",
+        "lonlat": [
+         68.3,
+         42.85
+        ],
+        "at": 429.8,
+        "kind": "city",
+        "flashAt": 430.2
+       },
+       {
+        "id": "nis19",
+        "label": "Nishapur",
+        "lonlat": [
+         58.8,
+         36.21
+        ],
+        "at": 441.12,
+        "kind": "city",
+        "crossAt": 441.12,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "mer19",
+        "label": "Merv",
+        "lonlat": [
+         61.83,
+         37.66
+        ],
+        "at": 441.72,
+        "kind": "city",
+        "crossAt": 441.72
+       },
+       {
+        "id": "bag19",
+        "label": "Baghdad",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 447.87,
+        "kind": "city",
+        "flashAt": 449.47,
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 435.454,
+     "map": {
+      "id": "MAP-19",
+      "camera": [
+       {
+        "at": 435.454,
+        "center": [
+         60,
+         38
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 447.87,
+        "center": [
+         50,
+         35
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 435.454,
+        "layers": [
+         {
+          "territory": "khwarazm_1218",
+          "fill": "ochre",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "mo1",
+        "style": "arrow",
+        "path": [
+         [
+          72,
+          44
+         ],
+         [
+          68.3,
+          42.85
+         ],
+         [
+          64.42,
+          39.77
+         ],
+         [
+          61.83,
+          37.66
+         ],
+         [
+          58.8,
+          36.21
+         ]
+        ],
+        "at": 435.754,
+        "duration": 3,
+        "smooth": true
+       },
+       {
+        "id": "mo2",
+        "style": "arrow",
+        "path": [
+         [
+          58.8,
+          36.21
+         ],
+         [
+          52,
+          35.5
+         ],
+         [
+          47,
+          34.5
+         ],
+         [
+          44.37,
+          33.31
+         ]
+        ],
+        "at": 447.87,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "otr19",
+        "label": "Otrar",
+        "lonlat": [
+         68.3,
+         42.85
+        ],
+        "at": 435.654,
+        "kind": "city",
+        "flashAt": 436.054
+       },
+       {
+        "id": "nis19",
+        "label": "Nishapur",
+        "lonlat": [
+         58.8,
+         36.21
+        ],
+        "at": 441.12,
+        "kind": "city",
+        "crossAt": 441.12,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "mer19",
+        "label": "Merv",
+        "lonlat": [
+         61.83,
+         37.66
+        ],
+        "at": 441.72,
+        "kind": "city",
+        "crossAt": 441.72
+       },
+       {
+        "id": "bag19",
+        "label": "Baghdad",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 447.87,
+        "kind": "city",
+        "flashAt": 449.47,
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 441.12,
+     "image": "images/037.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 447.87,
+     "image": "images/038.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 429.6,
+   "end": 450.76,
+   "startFrame": 12888,
+   "endFrame": 13523,
+   "vo": "Then the Mongols arrived. In 1219, after a Khwarazmian governor massacred a Mongol caravan and the Shah executed one of Genghis Khan's envoys, Mongol armies swept into eastern Iran. Cities like Nishapur and Merv were destroyed and their people massacred. In 1258, Genghis Khan's grandson Hulagu sacked Baghdad and ended the Abbasid caliphate.",
+   "cues": []
+  },
+  {
+   "id": "S33",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "MAP-20",
+    "IMG 039"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-20, Ilkhanate fills in, Tabriz | @Persian: IMG 039, slow push on the painters",
+   "year": [
+    {
+     "at": 451.06,
+     "value": 1295
+    }
+   ],
+   "shots": [
+    {
+     "at": 450.76,
+     "map": {
+      "id": "MAP-20",
+      "camera": [
+       {
+        "at": 450.76,
+        "center": [
+         50,
+         36
+        ],
+        "zoom": 1.35
+       },
+       {
+        "at": 456.76,
+        "center": [
+         48,
+         36
+        ],
+        "zoom": 1.5
+       }
+      ],
+      "states": [
+       {
+        "at": 450.76,
+        "layers": []
+       },
+       {
+        "at": 450.96,
+        "duration": 1.8,
+        "mode": "grow",
+        "origin": [
+         46.29,
+         38.08
+        ],
+        "layers": [
+         {
+          "territory": "ilkhanate_1300",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "tab20",
+        "label": "Tabriz",
+        "lonlat": [
+         46.29,
+         38.08
+        ],
+        "at": 451.36,
+        "kind": "city",
+        "pulse": true
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "ILKHANATE",
+        "lonlat": [
+         55,
+         34
+        ],
+        "at": 451.76,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 457.39,
+     "image": "images/039.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 450.76,
+   "end": 462.64,
+   "startFrame": 13523,
+   "endFrame": 13879,
+   "vo": "Hulagu's descendants, the Ilkhans, ruled from Iran. In 1295 the Ilkhan Ghazan converted to Islam, and Persian became the language of a court that stretched from Anatolia to Afghanistan.",
+   "cues": []
+  },
+  {
+   "id": "S34",
+   "part": "CONQUERED, NEVER ERASED",
+   "assets": [
+    "IMG 040"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 040, slow push toward the towers | @against: IMG 040, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 462.94,
+     "value": 1387
+    }
+   ],
+   "shots": [
+    {
+     "at": 462.64,
+     "image": "images/040.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 468.3,
+     "image": "images/040.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 462.64,
+   "end": 474.08,
+   "startFrame": 13879,
+   "endFrame": 14222,
+   "vo": "After the Ilkhanate collapsed in 1335, Timur came. In 1387 the city of Isfahan rebelled against him, and chroniclers wrote that his soldiers built towers from about seventy thousand heads.",
+   "cues": []
+  },
+  {
+   "id": "S35",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 041",
+    "MAP-21"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 041, push in on Ismail | @Safavid: MAP-21, Safavid Iran c. 1510 | @time: MAP-21, camera moves to the next area",
+   "year": [
+    {
+     "at": 474.38,
+     "value": 1501
+    }
+   ],
+   "titles": [
+    {
+     "text": "SHAH ISMAIL I",
+     "at": 476.47,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 474.08,
+     "image": "images/041.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 480.53,
+     "map": {
+      "id": "MAP-21",
+      "camera": [
+       {
+        "at": 480.53,
+        "center": [
+         50,
+         34
+        ],
+        "zoom": 1.6
+       },
+       {
+        "at": 486.53,
+        "center": [
+         48,
+         35
+        ],
+        "zoom": 1.7
+       }
+      ],
+      "states": [
+       {
+        "at": 480.53,
+        "layers": []
+       },
+       {
+        "at": 480.73,
+        "duration": 1.8,
+        "mode": "grow",
+        "origin": [
+         46.29,
+         38.08
+        ],
+        "layers": [
+         {
+          "territory": "safavid_1530",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "tab21",
+        "label": "Tabriz",
+        "lonlat": [
+         46.29,
+         38.08
+        ],
+        "at": 480.93,
+        "kind": "city"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SAFAVID IRAN",
+        "lonlat": [
+         54,
+         33
+        ],
+        "at": 481.53,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 486.45,
+     "map": {
+      "id": "MAP-21",
+      "camera": [
+       {
+        "at": 486.45,
+        "center": [
+         50,
+         34
+        ],
+        "zoom": 1.6
+       },
+       {
+        "at": 492.45,
+        "center": [
+         48,
+         35
+        ],
+        "zoom": 1.7
+       }
+      ],
+      "states": [
+       {
+        "at": 486.45,
+        "layers": []
+       },
+       {
+        "at": 486.65,
+        "duration": 1.8,
+        "mode": "grow",
+        "origin": [
+         46.29,
+         38.08
+        ],
+        "layers": [
+         {
+          "territory": "safavid_1530",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "tab21",
+        "label": "Tabriz",
+        "lonlat": [
+         46.29,
+         38.08
+        ],
+        "at": 486.85,
+        "kind": "city"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "SAFAVID IRAN",
+        "lonlat": [
+         54,
+         33
+        ],
+        "at": 487.45,
+        "size": 34,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 474.08,
+   "end": 491.465,
+   "startFrame": 14222,
+   "endFrame": 14744,
+   "vo": "In 1501, a fourteen-year-old named Ismail took the city of Tabriz and crowned himself shah. He founded the Safavid dynasty and made Twelver Shia Islam the religion of the state. Most Iranians were Sunni at the time, and conversion was often forced. It is the reason Iran is a Shia country today.",
+   "cues": []
+  },
+  {
+   "id": "S36",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 042",
+    "MAP-21"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 042, pan across the cannon line | @crushed: IMG 042, new camera move on another part of the image | @border: MAP-21, second state: border of 1639",
+   "year": [
+    {
+     "at": 491.765,
+     "value": 1514
+    }
+   ],
+   "shots": [
+    {
+     "at": 491.465,
+     "image": "images/042.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 497.75,
+     "image": "images/042.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.46
+      }
+     }
+    },
+    {
+     "at": 504.01,
+     "map": {
+      "id": "MAP-21b",
+      "camera": [
+       {
+        "at": 504.01,
+        "center": [
+         44,
+         36
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 509.01,
+        "center": [
+         45,
+         35.5
+        ],
+        "zoom": 2.3
+       }
+      ],
+      "states": [
+       {
+        "at": 504.01,
+        "layers": [
+         {
+          "territory": "ottoman_1650",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "safavid_1650",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "cha21",
+        "label": "Chaldiran",
+        "lonlat": [
+         44,
+         39.1
+        ],
+        "at": 504.01,
+        "kind": "dot",
+        "battleAt": 504.31,
+        "labelSide": "left"
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "OTTOMAN EMPIRE",
+        "lonlat": [
+         36,
+         38.5
+        ],
+        "at": 504.01,
+        "size": 28,
+        "tone": "dark"
+       },
+       {
+        "text": "BORDER OF 1639",
+        "lonlat": [
+         44.5,
+         33.4
+        ],
+        "at": 504.81,
+        "size": 18,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 491.465,
+   "end": 509.235,
+   "startFrame": 14744,
+   "endFrame": 15277,
+   "vo": "The Safavids' great rivals were the Sunni Ottomans. In 1514, at Chaldiran, Ottoman cannons and muskets crushed Ismail's cavalry. Three years later the same Ottoman sultan, Selim I, conquered Egypt. The border they finally settled in 1639 is close to Iran's western border today.",
+   "cues": []
+  },
+  {
+   "id": "S37",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 043",
+    "IMG 044"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 043, pan across the musketeers | @army: IMG 043, new camera move on another part of the image | @Hormuz: IMG 044, push into the fortress | @ruthless: IMG 043, second move: close on Abbas's face",
+   "year": [
+    {
+     "at": 509.535,
+     "value": 1587
+    }
+   ],
+   "titles": [
+    {
+     "text": "SHAH ABBAS I",
+     "at": 511.02,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 509.235,
+     "image": "images/043.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 515.3,
+     "image": "images/043.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 520.86,
+     "image": "images/044.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 523.28,
+     "image": "images/043.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 509.235,
+   "end": 528.495,
+   "startFrame": 15277,
+   "endFrame": 15855,
+   "vo": "The greatest Safavid was Shah Abbas I, who ruled from 1587 to 1629. He built a new army with muskets, retook land from the Ottomans, and with English help drove the Portuguese out of Hormuz in 1622. He was also ruthless: he had one son killed and two others blinded because he feared plots.",
+   "cues": []
+  },
+  {
+   "id": "S38",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 045",
+    "PHOTO-08"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 045, slow aerial pan | @largest: IMG 045, new camera move on another part of the image | @half: PHOTO-08, slow push",
+   "shots": [
+    {
+     "at": 528.495,
+     "image": "images/045.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 531.11,
+     "image": "images/045.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 534.62,
+     "image": "images/photo-08.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 528.495,
+   "end": 535.842,
+   "startFrame": 15855,
+   "endFrame": 16075,
+   "vo": "Abbas moved his capital to Isfahan and built one of the largest city squares in the world. Persians called the city \"half the world\".",
+   "cues": []
+  },
+  {
+   "id": "S39",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 046",
+    "IMG 047",
+    "MAP-22",
+    "IMG 048"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 046, slow push on the queue | @until: IMG 046, new camera move on another part of the image | @Nader: IMG 047, push in on Nader | @India: MAP-22, raid route to Delhi | @thousands: MAP-22, camera moves to the next area | @Peacock: IMG 048, pan along the procession | @among: IMG 048, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 536.142,
+     "value": 1722
+    }
+   ],
+   "titles": [
+    {
+     "text": "NADER SHAH",
+     "at": 544.56,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 535.842,
+     "image": "images/046.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 540.29,
+     "image": "images/046.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 544.56,
+     "image": "images/047.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 551.53,
+     "map": {
+      "id": "MAP-22",
+      "camera": [
+       {
+        "at": 551.53,
+        "center": [
+         66,
+         30.5
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 556.53,
+        "center": [
+         68,
+         30
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 551.53,
+        "layers": [
+         {
+          "territory": "persia_1783",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "afghanistan_1783",
+          "fill": "terracotta",
+          "opacity": 0.65
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "nader",
+        "style": "arrow",
+        "path": [
+         [
+          51.67,
+          32.65
+         ],
+         [
+          65.7,
+          31.6
+         ],
+         [
+          69.17,
+          34.53
+         ],
+         [
+          72,
+          33.6
+         ],
+         [
+          74.5,
+          31.5
+         ],
+         [
+          76.98,
+          29.69
+         ],
+         [
+          77.2,
+          28.6
+         ]
+        ],
+        "at": 551.63,
+        "duration": 1.8,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "del22",
+        "label": "Delhi",
+        "lonlat": [
+         77.2,
+         28.6
+        ],
+        "at": 553.13,
+        "kind": "city",
+        "flashAt": 553.43,
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 554.47,
+     "map": {
+      "id": "MAP-22",
+      "camera": [
+       {
+        "at": 554.47,
+        "center": [
+         66,
+         30.5
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 559.47,
+        "center": [
+         68,
+         30
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 554.47,
+        "layers": [
+         {
+          "territory": "persia_1783",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "afghanistan_1783",
+          "fill": "terracotta",
+          "opacity": 0.65
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "nader",
+        "style": "arrow",
+        "path": [
+         [
+          51.67,
+          32.65
+         ],
+         [
+          65.7,
+          31.6
+         ],
+         [
+          69.17,
+          34.53
+         ],
+         [
+          72,
+          33.6
+         ],
+         [
+          74.5,
+          31.5
+         ],
+         [
+          76.98,
+          29.69
+         ],
+         [
+          77.2,
+          28.6
+         ]
+        ],
+        "at": 554.57,
+        "duration": 1.8,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "del22",
+        "label": "Delhi",
+        "lonlat": [
+         77.2,
+         28.6
+        ],
+        "at": 556.07,
+        "kind": "city",
+        "flashAt": 556.37,
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 557.11,
+     "image": "images/048.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 562.28,
+     "image": "images/048.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 535.842,
+   "end": 565.44,
+   "startFrame": 16075,
+   "endFrame": 16963,
+   "vo": "Safavid power collapsed in 1722, when Afghan rebels besieged Isfahan until the starving city surrendered. A soldier from Khorasan named Nader drove the Afghans out and crowned himself shah in 1736. In 1739 he invaded Mughal India and sacked Delhi. His troops killed tens of thousands of people in a single day, and he carried home the Peacock Throne and the Koh-i-Noor diamond, which is now among the British crown jewels. In 1747 his own officers killed him.",
+   "cues": []
+  },
+  {
+   "id": "S40",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 049",
+    "IMG 050",
+    "MAP-23"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 049, slow push on the shah | @over: IMG 049, new camera move on another part of the image | @Russia: IMG 050, pan with the soldiers | @treaties: MAP-23, Caucasus peels off, Aras highlighted | @that: MAP-23, camera moves to the next area",
+   "year": [
+    {
+     "at": 565.74,
+     "value": 1813
+    }
+   ],
+   "shots": [
+    {
+     "at": 565.44,
+     "image": "images/049.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 569.6,
+     "image": "images/049.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 575.13,
+     "image": "images/050.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 576.62,
+     "map": {
+      "id": "MAP-23",
+      "camera": [
+       {
+        "at": 576.62,
+        "center": [
+         46,
+         39
+        ],
+        "zoom": 2.6
+       },
+       {
+        "at": 582.62,
+        "center": [
+         46.5,
+         39.5
+        ],
+        "zoom": 3.2
+       }
+      ],
+      "states": [
+       {
+        "at": 576.62,
+        "layers": [
+         {
+          "territory": "russia_1815",
+          "fill": "olive",
+          "opacity": 0.75
+         },
+         {
+          "territory": "persia_1815",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "caucasus_lost_1828",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 577.22,
+        "duration": 2.2,
+        "layers": [
+         {
+          "territory": "russia_1815",
+          "fill": "olive",
+          "opacity": 0.75
+         },
+         {
+          "territory": "persia_1815",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "caucasus_lost_1828",
+          "fill": "olive",
+          "opacity": 0.75
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "tif23",
+        "label": "Tiflis",
+        "lonlat": [
+         44.8,
+         41.7
+        ],
+        "at": 576.62,
+        "kind": "city"
+       },
+       {
+        "id": "eri23",
+        "label": "Erivan",
+        "lonlat": [
+         44.5,
+         40.18
+        ],
+        "at": 576.92,
+        "kind": "city"
+       },
+       {
+        "id": "bak23",
+        "label": "Baku",
+        "lonlat": [
+         49.87,
+         40.41
+        ],
+        "at": 576.92,
+        "kind": "city"
+       }
+      ],
+      "lines": [
+       {
+        "id": "aras",
+        "style": "river",
+        "path": [
+         [
+          43.5,
+          40.1
+         ],
+         [
+          44.6,
+          39.7
+         ],
+         [
+          45.4,
+          39.3
+         ],
+         [
+          46.5,
+          38.9
+         ],
+         [
+          47.5,
+          39.3
+         ],
+         [
+          48.3,
+          39.7
+         ],
+         [
+          48.9,
+          39.9
+         ]
+        ],
+        "at": 584.21,
+        "duration": 1.4,
+        "smooth": true
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "RUSSIAN EMPIRE",
+        "lonlat": [
+         45,
+         43.4
+        ],
+        "at": 576.92,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "ARAS",
+        "lonlat": [
+         46.2,
+         38.6
+        ],
+        "at": 584.21,
+        "size": 18,
+        "tone": "dark"
+       }
+      ]
+     }
+    },
+    {
+     "at": 581.75,
+     "map": {
+      "id": "MAP-23",
+      "camera": [
+       {
+        "at": 581.75,
+        "center": [
+         46,
+         39
+        ],
+        "zoom": 2.6
+       },
+       {
+        "at": 587.75,
+        "center": [
+         46.5,
+         39.5
+        ],
+        "zoom": 3.2
+       }
+      ],
+      "states": [
+       {
+        "at": 581.75,
+        "layers": [
+         {
+          "territory": "russia_1815",
+          "fill": "olive",
+          "opacity": 0.75
+         },
+         {
+          "territory": "persia_1815",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "caucasus_lost_1828",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       },
+       {
+        "at": 582.35,
+        "duration": 2.2,
+        "layers": [
+         {
+          "territory": "russia_1815",
+          "fill": "olive",
+          "opacity": 0.75
+         },
+         {
+          "territory": "persia_1815",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "caucasus_lost_1828",
+          "fill": "olive",
+          "opacity": 0.75
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "tif23",
+        "label": "Tiflis",
+        "lonlat": [
+         44.8,
+         41.7
+        ],
+        "at": 581.75,
+        "kind": "city"
+       },
+       {
+        "id": "eri23",
+        "label": "Erivan",
+        "lonlat": [
+         44.5,
+         40.18
+        ],
+        "at": 582.05,
+        "kind": "city"
+       },
+       {
+        "id": "bak23",
+        "label": "Baku",
+        "lonlat": [
+         49.87,
+         40.41
+        ],
+        "at": 582.05,
+        "kind": "city"
+       }
+      ],
+      "lines": [
+       {
+        "id": "aras",
+        "style": "river",
+        "path": [
+         [
+          43.5,
+          40.1
+         ],
+         [
+          44.6,
+          39.7
+         ],
+         [
+          45.4,
+          39.3
+         ],
+         [
+          46.5,
+          38.9
+         ],
+         [
+          47.5,
+          39.3
+         ],
+         [
+          48.3,
+          39.7
+         ],
+         [
+          48.9,
+          39.9
+         ]
+        ],
+        "at": 584.21,
+        "duration": 1.4,
+        "smooth": true
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "RUSSIAN EMPIRE",
+        "lonlat": [
+         45,
+         43.4
+        ],
+        "at": 582.05,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "ARAS",
+        "lonlat": [
+         46.2,
+         38.6
+        ],
+        "at": 584.21,
+        "size": 18,
+        "tone": "dark"
+       }
+      ]
+     }
+    }
+   ],
+   "start": 565.44,
+   "end": 586.247,
+   "startFrame": 16963,
+   "endFrame": 17587,
+   "vo": "After decades of civil war and the rule of Karim Khan Zand, the Qajar dynasty took over and made a small town called Tehran its capital. The Qajars faced a new threat: Russia. After two wars, in the treaties of 1813 and 1828, Iran lost Georgia, Dagestan, and the lands that are now Armenia and Azerbaijan. The Aras River became the border.",
+   "cues": []
+  },
+  {
+   "id": "S41",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 051"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 051, slow push on the crowd | @control: IMG 051, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 586.547,
+     "value": 1891
+    }
+   ],
+   "shots": [
+    {
+     "at": 586.247,
+     "image": "images/051.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 592.1,
+     "image": "images/051.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.46
+      }
+     }
+    }
+   ],
+   "start": 586.247,
+   "end": 598.52,
+   "startFrame": 17587,
+   "endFrame": 17956,
+   "vo": "To pay their debts, the shahs sold concessions to foreigners. In 1891, after a British company got control of the tobacco trade, Iranians stopped smoking in a nationwide boycott, and the deal was cancelled.",
+   "cues": []
+  },
+  {
+   "id": "S42",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 052",
+    "MAP-24",
+    "IMG 053"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 052, pan across the crowd | @Iran's: IMG 052, new camera move on another part of the image | @spheres: MAP-24, Russian and British zones fill in | @shelled: IMG 053, push on the cannons",
+   "year": [
+    {
+     "at": 598.82,
+     "value": 1906
+    }
+   ],
+   "shots": [
+    {
+     "at": 598.52,
+     "image": "images/052.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 603.48,
+     "image": "images/052.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.46
+      }
+     }
+    },
+    {
+     "at": 607.74,
+     "map": {
+      "id": "MAP-24",
+      "camera": [
+       {
+        "at": 607.74,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 613.74,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2.2
+       }
+      ],
+      "states": [
+       {
+        "at": 607.74,
+        "layers": [
+         {
+          "territory": "persia_1900",
+          "fill": "terracotta",
+          "opacity": 0.5
+         }
+        ]
+       },
+       {
+        "at": 608.04,
+        "duration": 1.4,
+        "layers": [
+         {
+          "territory": "persia_1900",
+          "fill": "terracotta",
+          "opacity": 0.5
+         },
+         {
+          "territory": "sphere_russia_1907",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "sphere_britain_1907",
+          "fill": "deepRed",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "regionLabels": [
+       {
+        "text": "RUSSIAN ZONE",
+        "lonlat": [
+         51,
+         35.8
+        ],
+        "at": 608.54,
+        "size": 26,
+        "tone": "dark"
+       },
+       {
+        "text": "BRITISH ZONE",
+        "lonlat": [
+         59.5,
+         28.5
+        ],
+        "at": 608.94,
+        "size": 22,
+        "tone": "dark"
+       }
+      ],
+      "markers": [
+       {
+        "id": "mis24",
+        "label": "Masjed Soleyman",
+        "lonlat": [
+         49.3,
+         31.94
+        ],
+        "at": 609.74,
+        "kind": "dot",
+        "pulse": true,
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 613.17,
+     "image": "images/053.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 598.52,
+   "end": 615.88,
+   "startFrame": 17956,
+   "endFrame": 18476,
+   "vo": "In 1906, after protests and strikes, the shah accepted a constitution and Iran's first elected parliament. A year later, Britain and Russia divided Iran into spheres of influence without asking it. In 1908 the new shah had the parliament shelled by a Cossack brigade with Russian officers.",
+   "cues": []
+  },
+  {
+   "id": "S43",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 054",
+    "PHOTO-09"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 054, tilt up the gusher | @Anglo-Persian: PHOTO-09, slow push",
+   "year": [
+    {
+     "at": 616.18,
+     "value": 1908
+    }
+   ],
+   "shots": [
+    {
+     "at": 615.88,
+     "image": "images/054.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.66
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.36
+      }
+     }
+    },
+    {
+     "at": 619.76,
+     "image": "images/photo-09.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 615.88,
+   "end": 626.86,
+   "startFrame": 18476,
+   "endFrame": 18806,
+   "vo": "That same year, a British company struck oil at Masjed Soleyman. The Anglo-Persian Oil Company, later known as BP, took most of the profits. Iran's share was 16 percent.",
+   "cues": []
+  },
+  {
+   "id": "S44",
+   "part": "SHAHS, SHIA AND SHRINKING BORDERS",
+   "assets": [
+    "IMG 055"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 055, very slow push | @soil: IMG 055, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 627.16,
+     "value": 1917
+    }
+   ],
+   "shots": [
+    {
+     "at": 626.86,
+     "image": "images/055.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 631.53,
+     "image": "images/055.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 626.86,
+   "end": 636.88,
+   "startFrame": 18806,
+   "endFrame": 19106,
+   "vo": "During the First World War, Iran was neutral, but Russian, British and Ottoman armies fought on its soil anyway. A famine followed that killed around two million people by most estimates.",
+   "cues": []
+  },
+  {
+   "id": "S45",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 056"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 056, push in on Reza Khan | @encouragement: IMG 056, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 637.18,
+     "value": 1921
+    }
+   ],
+   "titles": [
+    {
+     "text": "REZA KHAN",
+     "at": 639.1,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 636.88,
+     "image": "images/056.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 641.498,
+     "image": "images/056.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 636.88,
+   "end": 648.36,
+   "startFrame": 19106,
+   "endFrame": 19451,
+   "vo": "In 1921, a Cossack officer named Reza Khan seized Tehran in a coup, with encouragement from British officers. In 1925 he made himself shah and founded the Pahlavi dynasty.",
+   "cues": []
+  },
+  {
+   "id": "S46",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 057",
+    "IMG 058"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 057, pan with the train | @stop: IMG 057, new camera move on another part of the image | @veil: IMG 058, slow push",
+   "year": [
+    {
+     "at": 648.66,
+     "value": 1935
+    }
+   ],
+   "shots": [
+    {
+     "at": 648.36,
+     "image": "images/057.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 653.47,
+     "image": "images/057.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 658.72,
+     "image": "images/058.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 648.36,
+   "end": 662.499,
+   "startFrame": 19451,
+   "endFrame": 19875,
+   "vo": "Reza Shah built a railway and a modern army. In 1935 he asked foreign governments to stop saying Persia and use the country's own name, Iran. In 1936 he banned the veil, and police pulled headscarves off women in the street.",
+   "cues": []
+  },
+  {
+   "id": "S47",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "MAP-25",
+    "IMG 059"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-25, Soviet and British arrows | @secure: MAP-25, camera moves to the next area | @abdicate: IMG 059, slow pan",
+   "year": [
+    {
+     "at": 662.799,
+     "value": 1941
+    }
+   ],
+   "shots": [
+    {
+     "at": 662.499,
+     "map": {
+      "id": "MAP-25",
+      "camera": [
+       {
+        "at": 662.499,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 1.9
+       },
+       {
+        "at": 667.499,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2.1
+       }
+      ],
+      "states": [
+       {
+        "at": 662.499,
+        "layers": [
+         {
+          "territory": "iran_1938",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "sov",
+        "style": "arrow",
+        "path": [
+         [
+          47,
+          41.5
+         ],
+         [
+          47.5,
+          39
+         ],
+         [
+          49,
+          37
+         ],
+         [
+          51.2,
+          35.8
+         ]
+        ],
+        "at": 662.699,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "sov2",
+        "style": "arrow",
+        "path": [
+         [
+          58.5,
+          39
+         ],
+         [
+          57.5,
+          37.5
+         ],
+         [
+          54,
+          36.3
+         ]
+        ],
+        "at": 662.899,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "brit",
+        "style": "arrow",
+        "path": [
+         [
+          47.5,
+          30.3
+         ],
+         [
+          48.5,
+          31.5
+         ],
+         [
+          49.5,
+          33.5
+         ]
+        ],
+        "at": 663.099,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "brit2",
+        "style": "arrow",
+        "path": [
+         [
+          45.6,
+          34
+         ],
+         [
+          47,
+          34.3
+         ],
+         [
+          48.5,
+          34.7
+         ]
+        ],
+        "at": 663.299,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "teh25",
+        "label": "Tehran",
+        "lonlat": [
+         51.39,
+         35.69
+        ],
+        "at": 662.499,
+        "kind": "city"
+       }
+      ]
+     }
+    },
+    {
+     "at": 665.5,
+     "map": {
+      "id": "MAP-25",
+      "camera": [
+       {
+        "at": 665.5,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 1.9
+       },
+       {
+        "at": 670.5,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2.1
+       }
+      ],
+      "states": [
+       {
+        "at": 665.5,
+        "layers": [
+         {
+          "territory": "iran_1938",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "sov",
+        "style": "arrow",
+        "path": [
+         [
+          47,
+          41.5
+         ],
+         [
+          47.5,
+          39
+         ],
+         [
+          49,
+          37
+         ],
+         [
+          51.2,
+          35.8
+         ]
+        ],
+        "at": 665.7,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "sov2",
+        "style": "arrow",
+        "path": [
+         [
+          58.5,
+          39
+         ],
+         [
+          57.5,
+          37.5
+         ],
+         [
+          54,
+          36.3
+         ]
+        ],
+        "at": 665.9,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "brit",
+        "style": "arrow",
+        "path": [
+         [
+          47.5,
+          30.3
+         ],
+         [
+          48.5,
+          31.5
+         ],
+         [
+          49.5,
+          33.5
+         ]
+        ],
+        "at": 666.1,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "brit2",
+        "style": "arrow",
+        "path": [
+         [
+          45.6,
+          34
+         ],
+         [
+          47,
+          34.3
+         ],
+         [
+          48.5,
+          34.7
+         ]
+        ],
+        "at": 666.3,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "teh25",
+        "label": "Tehran",
+        "lonlat": [
+         51.39,
+         35.69
+        ],
+        "at": 665.5,
+        "kind": "city"
+       }
+      ]
+     }
+    },
+    {
+     "at": 669.71,
+     "image": "images/059.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 662.499,
+   "end": 672.6,
+   "startFrame": 19875,
+   "endFrame": 20178,
+   "vo": "In 1941, Britain and the Soviet Union invaded Iran to secure its oil and a supply route to the Soviets. They forced Reza Shah to abdicate in favor of his son, Mohammad Reza.",
+   "cues": []
+  },
+  {
+   "id": "S48",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "PHOTO-10",
+    "IMG 060",
+    "PHOTO-11"
+   ],
+   "type": "shots",
+   "motion": "start: PHOTO-10, slow push | @Iran's: PHOTO-10, new camera move on another part of the image | @coup: IMG 060, pan along the tanks | @crowds: IMG 060, new camera move on another part of the image | @documents: PHOTO-11, slow push | @prison: PHOTO-10, second move: close on the face",
+   "year": [
+    {
+     "at": 672.9,
+     "value": 1951
+    }
+   ],
+   "titles": [
+    {
+     "text": "MOHAMMAD MOSADDEGH",
+     "at": 676.49,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 672.6,
+     "image": "images/photo-10.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 677.95,
+     "image": "images/photo-10.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 683.047,
+     "image": "images/060.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 686.66,
+     "image": "images/060.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.46
+      }
+     }
+    },
+    {
+     "at": 691.62,
+     "image": "images/photo-11.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 695.15,
+     "image": "images/photo-10.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.46
+      }
+     }
+    }
+   ],
+   "start": 672.6,
+   "end": 698.517,
+   "startFrame": 20178,
+   "endFrame": 20956,
+   "vo": "In 1951, the prime minister chosen by parliament, Mohammad Mosaddegh, nationalized Iran's oil. Britain answered with a blockade. On 19 August 1953, a coup organized by the CIA and British intelligence, using paid crowds and loyal army units, overthrew him. In 2013, the CIA released documents confirming its role. Mosaddegh served three years in prison and spent the rest of his life under house arrest.",
+   "cues": []
+  },
+  {
+   "id": "S49",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 061",
+    "IMG 062",
+    "IMG 063"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 061, pan across the boulevard | @vote: IMG 061, new camera move on another part of the image | @SAVAK: IMG 062, slow push | @Khomeini: IMG 063, slow push on the tapes",
+   "titles": [
+    {
+     "text": "RUHOLLAH KHOMEINI",
+     "at": 709.61,
+     "style": "name"
+    }
+   ],
+   "shots": [
+    {
+     "at": 698.517,
+     "image": "images/061.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 702.343,
+     "image": "images/061.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 706.63,
+     "image": "images/062.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 709.61,
+     "image": "images/063.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 698.517,
+   "end": 714.64,
+   "startFrame": 20956,
+   "endFrame": 21439,
+   "vo": "The Shah now ruled with growing power. His reforms gave women the vote, and the oil boom of the 1970s made Tehran rich. His secret police, SAVAK, tortured opponents. A cleric named Ruhollah Khomeini, exiled since 1964, became the voice of the opposition.",
+   "cues": []
+  },
+  {
+   "id": "S50",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "PHOTO-12",
+    "IMG 064"
+   ],
+   "type": "shots",
+   "motion": "start: PHOTO-12, slow push, low zoom | @down: PHOTO-12, new camera move on another part of the image | @Khomeini: IMG 064, slow pull out over the crowd | @after: IMG 064, new camera move on another part of the image | @constitution: IMG 064, second move: banners detail",
+   "year": [
+    {
+     "at": 714.94,
+     "value": 1978
+    }
+   ],
+   "shots": [
+    {
+     "at": 714.64,
+     "image": "images/photo-12.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.08,
+       "x": 0.5,
+       "y": 0.48
+      }
+     }
+    },
+    {
+     "at": 718.19,
+     "image": "images/photo-12.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.08,
+       "x": 0.48,
+       "y": 0.48
+      }
+     }
+    },
+    {
+     "at": 723.24,
+     "image": "images/064.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.32,
+       "x": 0.38,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 726.87,
+     "image": "images/064.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.46
+      }
+     }
+    },
+    {
+     "at": 731.24,
+     "image": "images/064.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 714.64,
+   "end": 735,
+   "startFrame": 21439,
+   "endFrame": 22050,
+   "vo": "In 1978, strikes and huge protests shut the country down. In January 1979, the Shah left Iran. On 1 February, Khomeini returned to a crowd of millions. On 1 April, after a referendum, Iran became an Islamic Republic. In December, a new constitution placed a Supreme Leader above the elected government.",
+   "cues": []
+  },
+  {
+   "id": "S51",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 065"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 065, push in on the gates | @followers: IMG 065, new camera move on another part of the image | @compulsory: IMG 065, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 735.3,
+     "value": 1979
+    }
+   ],
+   "shots": [
+    {
+     "at": 735,
+     "image": "images/065.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 740.41,
+     "image": "images/065.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 744.81,
+     "image": "images/065.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 735,
+   "end": 753.76,
+   "startFrame": 22050,
+   "endFrame": 22613,
+   "vo": "The revolution had been made by leftists, liberals and Islamists together. Within a few years, Khomeini's followers had crushed the others, executed officials of the old regime and made the veil compulsory. In November 1979, students seized the US embassy and held 52 Americans hostage for 444 days.",
+   "cues": []
+  },
+  {
+   "id": "S52",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "MAP-26",
+    "IMG 066",
+    "PHOTO-13",
+    "IMG 067"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-26, Iraqi invasion arrows, then Iranian counterattack | @carry: MAP-26, camera moves to the next area | @mustard: IMG 066, slow pan along the trench | @backed: PHOTO-13, slow push | @Vincennes: IMG 067, slow tilt up from ship to plane | @crew: IMG 067, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 754.06,
+     "value": 1980
+    }
+   ],
+   "shots": [
+    {
+     "at": 753.76,
+     "map": {
+      "id": "MAP-26",
+      "camera": [
+       {
+        "at": 753.76,
+        "center": [
+         48,
+         32
+        ],
+        "zoom": 2.4
+       },
+       {
+        "at": 760.76,
+        "center": [
+         50,
+         29
+        ],
+        "zoom": 2.2
+       }
+      ],
+      "states": [
+       {
+        "at": 753.76,
+        "layers": [
+         {
+          "territory": "iraq_2010",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "irq",
+        "style": "arrow",
+        "path": [
+         [
+          47,
+          31
+         ],
+         [
+          48.2,
+          31.1
+         ],
+         [
+          48.8,
+          31.4
+         ]
+        ],
+        "at": 753.96,
+        "duration": 1.6,
+        "smooth": true
+       },
+       {
+        "id": "irq2",
+        "style": "arrow",
+        "path": [
+         [
+          47.5,
+          30.4
+         ],
+         [
+          48.2,
+          30.45
+         ]
+        ],
+        "at": 754.16,
+        "duration": 1.2
+       },
+       {
+        "id": "irn",
+        "style": "arrow",
+        "path": [
+         [
+          48.4,
+          30.6
+         ],
+         [
+          47.6,
+          30.5
+         ]
+        ],
+        "at": 757.32,
+        "duration": 1.4
+       }
+      ],
+      "markers": [
+       {
+        "id": "kho26",
+        "label": "Khorramshahr",
+        "lonlat": [
+         48.18,
+         30.44
+        ],
+        "at": 754.16,
+        "kind": "city",
+        "battleAt": 754.76,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "bas26",
+        "label": "Basra",
+        "lonlat": [
+         47.8,
+         30.5
+        ],
+        "at": 754.16,
+        "kind": "city",
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 760.51,
+     "map": {
+      "id": "MAP-26",
+      "camera": [
+       {
+        "at": 760.51,
+        "center": [
+         48,
+         32
+        ],
+        "zoom": 2.4
+       },
+       {
+        "at": 767.51,
+        "center": [
+         50,
+         29
+        ],
+        "zoom": 2.2
+       }
+      ],
+      "states": [
+       {
+        "at": 760.51,
+        "layers": [
+         {
+          "territory": "iraq_2010",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "irq",
+        "style": "arrow",
+        "path": [
+         [
+          47,
+          31
+         ],
+         [
+          48.2,
+          31.1
+         ],
+         [
+          48.8,
+          31.4
+         ]
+        ],
+        "at": 760.71,
+        "duration": 1.6,
+        "smooth": true
+       },
+       {
+        "id": "irq2",
+        "style": "arrow",
+        "path": [
+         [
+          47.5,
+          30.4
+         ],
+         [
+          48.2,
+          30.45
+         ]
+        ],
+        "at": 760.91,
+        "duration": 1.2
+       },
+       {
+        "id": "irn",
+        "style": "arrow",
+        "path": [
+         [
+          48.4,
+          30.6
+         ],
+         [
+          47.6,
+          30.5
+         ]
+        ],
+        "at": 757.32,
+        "duration": 1.4
+       }
+      ],
+      "markers": [
+       {
+        "id": "kho26",
+        "label": "Khorramshahr",
+        "lonlat": [
+         48.18,
+         30.44
+        ],
+        "at": 760.91,
+        "kind": "city",
+        "battleAt": 761.51,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "bas26",
+        "label": "Basra",
+        "lonlat": [
+         47.8,
+         30.5
+        ],
+        "at": 760.91,
+        "kind": "city",
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 767.06,
+     "image": "images/066.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 772.47,
+     "image": "images/photo-13.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.08,
+       "x": 0.48,
+       "y": 0.48
+      }
+     }
+    },
+    {
+     "at": 778.51,
+     "image": "images/067.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.66
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.36
+      }
+     }
+    },
+    {
+     "at": 784.53,
+     "image": "images/067.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 753.76,
+   "end": 790.24,
+   "startFrame": 22613,
+   "endFrame": 23707,
+   "vo": "In September 1980, Saddam Hussein's Iraq invaded. By 1982 Iran had pushed the Iraqis out, then chose to carry the war into Iraq, sending waves of young volunteers, some of them teenagers, against Iraqi lines. Iraq used mustard gas and nerve agents. The United States, the Soviet Union, France and most Arab states backed Iraq. Syria, Libya and North Korea supplied Iran. In July 1988, the American warship Vincennes shot down an Iranian passenger jet over the Gulf, killing all 290 people on board. The crew said they mistook it for a fighter. The United States expressed regret and later paid compensation.",
+   "cues": []
+  },
+  {
+   "id": "S53",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 068"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 068, very slow push down the corridor | @Khomeini's: IMG 068, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 790.54,
+     "value": 1988
+    }
+   ],
+   "shots": [
+    {
+     "at": 790.24,
+     "image": "images/068.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 795.01,
+     "image": "images/068.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 790.24,
+   "end": 803.58,
+   "startFrame": 23707,
+   "endFrame": 24107,
+   "vo": "The war ended in August 1988 with about half a million dead. That same summer, on Khomeini's order, the regime executed thousands of political prisoners. Human rights groups estimate between 2,800 and 5,000.",
+   "cues": []
+  },
+  {
+   "id": "S54",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 069"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 069, pan across the crowd | @millions: IMG 069, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 803.88,
+     "value": 1989
+    }
+   ],
+   "shots": [
+    {
+     "at": 803.58,
+     "image": "images/069.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 808.75,
+     "image": "images/069.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.46
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.46
+      }
+     }
+    }
+   ],
+   "start": 803.58,
+   "end": 813.42,
+   "startFrame": 24107,
+   "endFrame": 24403,
+   "vo": "Khomeini died in 1989, and Ali Khamenei became Supreme Leader. In 2009, millions protested a disputed presidential election and were beaten back.",
+   "cues": []
+  },
+  {
+   "id": "S55",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "MAP-27",
+    "IMG 070"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-27, lines to allies light up | @Lebanon: MAP-27, camera moves to the next area | @Stuxnet: IMG 070, slow push on the screen | @several: IMG 070, new camera move on another part of the image | @deal: IMG 070, new camera move on another part of the image",
+   "shots": [
+    {
+     "at": 813.42,
+     "map": {
+      "id": "MAP-27",
+      "camera": [
+       {
+        "at": 813.42,
+        "center": [
+         45,
+         30
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 819.42,
+        "center": [
+         44,
+         29
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 813.42,
+        "layers": [
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "al1",
+        "style": "trade",
+        "path": [
+         [
+          51.39,
+          35.69
+         ],
+         [
+          44,
+          34
+         ],
+         [
+          36.3,
+          33.51
+         ],
+         [
+          35.5,
+          33.89
+         ]
+        ],
+        "at": 813.72,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "al2",
+        "style": "trade",
+        "path": [
+         [
+          51.39,
+          35.69
+         ],
+         [
+          48,
+          30
+         ],
+         [
+          46,
+          22
+         ],
+         [
+          44.2,
+          15.35
+         ]
+        ],
+        "at": 814.22,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "teh27",
+        "label": "Tehran",
+        "lonlat": [
+         51.39,
+         35.69
+        ],
+        "at": 813.42,
+        "kind": "city"
+       },
+       {
+        "id": "bei27",
+        "label": "Hezbollah",
+        "lonlat": [
+         35.5,
+         33.89
+        ],
+        "at": 815.42,
+        "kind": "dot",
+        "labelSide": "left"
+       },
+       {
+        "id": "dam27",
+        "label": "Syria",
+        "lonlat": [
+         36.3,
+         33.51
+        ],
+        "at": 815.22,
+        "kind": "dot",
+        "labelSide": "bottom"
+       },
+       {
+        "id": "bag27",
+        "label": "Iraqi militias",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 814.82,
+        "kind": "dot"
+       },
+       {
+        "id": "san27",
+        "label": "Houthis",
+        "lonlat": [
+         44.2,
+         15.35
+        ],
+        "at": 816.02,
+        "kind": "dot",
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 816.06,
+     "map": {
+      "id": "MAP-27",
+      "camera": [
+       {
+        "at": 816.06,
+        "center": [
+         45,
+         30
+        ],
+        "zoom": 1.5
+       },
+       {
+        "at": 822.06,
+        "center": [
+         44,
+         29
+        ],
+        "zoom": 1.6
+       }
+      ],
+      "states": [
+       {
+        "at": 816.06,
+        "layers": [
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "al1",
+        "style": "trade",
+        "path": [
+         [
+          51.39,
+          35.69
+         ],
+         [
+          44,
+          34
+         ],
+         [
+          36.3,
+          33.51
+         ],
+         [
+          35.5,
+          33.89
+         ]
+        ],
+        "at": 816.36,
+        "duration": 2,
+        "smooth": true
+       },
+       {
+        "id": "al2",
+        "style": "trade",
+        "path": [
+         [
+          51.39,
+          35.69
+         ],
+         [
+          48,
+          30
+         ],
+         [
+          46,
+          22
+         ],
+         [
+          44.2,
+          15.35
+         ]
+        ],
+        "at": 816.86,
+        "duration": 2,
+        "smooth": true
+       }
+      ],
+      "markers": [
+       {
+        "id": "teh27",
+        "label": "Tehran",
+        "lonlat": [
+         51.39,
+         35.69
+        ],
+        "at": 816.06,
+        "kind": "city"
+       },
+       {
+        "id": "bei27",
+        "label": "Hezbollah",
+        "lonlat": [
+         35.5,
+         33.89
+        ],
+        "at": 818.06,
+        "kind": "dot",
+        "labelSide": "left"
+       },
+       {
+        "id": "dam27",
+        "label": "Syria",
+        "lonlat": [
+         36.3,
+         33.51
+        ],
+        "at": 817.86,
+        "kind": "dot",
+        "labelSide": "bottom"
+       },
+       {
+        "id": "bag27",
+        "label": "Iraqi militias",
+        "lonlat": [
+         44.37,
+         33.31
+        ],
+        "at": 817.46,
+        "kind": "dot"
+       },
+       {
+        "id": "san27",
+        "label": "Houthis",
+        "lonlat": [
+         44.2,
+         15.35
+        ],
+        "at": 818.66,
+        "kind": "dot",
+        "labelSide": "left"
+       }
+      ]
+     }
+    },
+    {
+     "at": 820.2,
+     "image": "images/070.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 824.82,
+     "image": "images/070.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 829.28,
+     "image": "images/070.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 813.42,
+   "end": 835.08,
+   "startFrame": 24403,
+   "endFrame": 25052,
+   "vo": "Iran built up a nuclear program and armed allies from Lebanon to Yemen, and faced international sanctions. A computer worm called Stuxnet, widely attributed to the United States and Israel, damaged its centrifuges, and several nuclear scientists were assassinated in attacks attributed to Israel. A deal in 2015 lifted some sanctions, until the United States walked out in 2018.",
+   "cues": []
+  },
+  {
+   "id": "S56",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 071"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 071, slow tilt up to the plane | @missiles: IMG 071, new camera move on another part of the image | @airliner: IMG 071, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 835.38,
+     "value": 2020
+    }
+   ],
+   "shots": [
+    {
+     "at": 835.08,
+     "image": "images/071.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.66
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.5,
+       "y": 0.36
+      }
+     }
+    },
+    {
+     "at": 841.42,
+     "image": "images/071.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.68,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.65,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 846.01,
+     "image": "images/071.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 835.08,
+   "end": 853.14,
+   "startFrame": 25052,
+   "endFrame": 25594,
+   "vo": "In January 2020, an American drone killed the general Qassem Soleimani in Baghdad. Days later, Iran fired missiles at US bases in Iraq, and that night its air defenses shot down a Ukrainian airliner leaving Tehran, killing all 176 people on board. Iran first denied it, then admitted the mistake.",
+   "cues": []
+  },
+  {
+   "id": "S57",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "PHOTO-14",
+    "IMG 072"
+   ],
+   "type": "shots",
+   "motion": "start: PHOTO-14, slow push | @Woman: IMG 072, slow push on the women | @that: IMG 072, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 853.44,
+     "value": 2022
+    }
+   ],
+   "shots": [
+    {
+     "at": 853.14,
+     "image": "images/photo-14.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.02,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 855.14,
+     "image": "images/072.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 860.73,
+     "image": "images/072.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 853.14,
+   "end": 866.72,
+   "startFrame": 25594,
+   "endFrame": 26002,
+   "vo": "In 2022, a 22-year-old woman named Mahsa Amini died after being arrested by the morality police for her headscarf. The protests that followed, under the slogan \"Woman, Life, Freedom\", were put down with more than five hundred deaths.",
+   "cues": []
+  },
+  {
+   "id": "S58",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "MAP-28",
+    "IMG 073"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-28, strike flashes on cue | @Fordow: IMG 073, slow pan with the bombers",
+   "year": [
+    {
+     "at": 867.02,
+     "value": 2025
+    }
+   ],
+   "shots": [
+    {
+     "at": 866.72,
+     "map": {
+      "id": "MAP-28",
+      "camera": [
+       {
+        "at": 866.72,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2.1
+       },
+       {
+        "at": 872.72,
+        "center": [
+         51.5,
+         34
+        ],
+        "zoom": 3.2
+       }
+      ],
+      "states": [
+       {
+        "at": 866.72,
+        "layers": [
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "for28",
+        "label": "Fordow",
+        "lonlat": [
+         50.99,
+         34.88
+        ],
+        "at": 872.98,
+        "kind": "dot",
+        "flashAt": 872.98
+       },
+       {
+        "id": "nat28",
+        "label": "Natanz",
+        "lonlat": [
+         51.92,
+         33.72
+        ],
+        "at": 873.59,
+        "kind": "dot",
+        "flashAt": 873.59
+       },
+       {
+        "id": "isf28",
+        "label": "Isfahan",
+        "lonlat": [
+         51.67,
+         32.65
+        ],
+        "at": 874.32,
+        "kind": "city",
+        "flashAt": 874.32,
+        "labelSide": "bottom"
+       },
+       {
+        "id": "teh28",
+        "label": "Tehran",
+        "lonlat": [
+         51.39,
+         35.69
+        ],
+        "at": 867.02,
+        "kind": "city",
+        "flashAt": 867.32
+       }
+      ]
+     }
+    },
+    {
+     "at": 872.98,
+     "image": "images/073.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 866.72,
+   "end": 877.42,
+   "startFrame": 26002,
+   "endFrame": 26323,
+   "vo": "In June 2025, Israel attacked Iran's nuclear and military sites, and the United States joined in by bombing Fordow, Natanz and Isfahan. The war lasted twelve days.",
+   "cues": []
+  },
+  {
+   "id": "S59",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 074"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 074, slow push down the street | @security: IMG 074, new camera move on another part of the image | @Human: IMG 074, new camera move on another part of the image",
+   "year": [
+    {
+     "at": 877.72,
+     "value": 2025
+    }
+   ],
+   "shots": [
+    {
+     "at": 877.42,
+     "image": "images/074.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.58
+      }
+     }
+    },
+    {
+     "at": 883.49,
+     "image": "images/074.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 888.68,
+     "image": "images/074.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 877.42,
+   "end": 894.28,
+   "startFrame": 26323,
+   "endFrame": 26828,
+   "vo": "In late December 2025, protests over a collapsing currency spread across the country. In January, security forces opened fire on the crowds. The government admits about three thousand dead. Human rights groups have verified about seven thousand, and other estimates run above thirty thousand.",
+   "cues": []
+  },
+  {
+   "id": "S60",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 075",
+    "MAP-29",
+    "IMG 076"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 075, slow pull out over the skyline | @goal: IMG 075, new camera move on another part of the image | @Khamenei: MAP-29, Tehran strike flash, then Minab | @school: IMG 076, very slow push | @preliminary: IMG 076, new camera move on another part of the image | @Assembly: IMG 075, second move: smoke over the city",
+   "year": [
+    {
+     "at": 894.58,
+     "value": 2026
+    }
+   ],
+   "shots": [
+    {
+     "at": 894.28,
+     "image": "images/075.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.32,
+       "x": 0.5,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 900,
+     "image": "images/075.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.32,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.35,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 905.74,
+     "map": {
+      "id": "MAP-29",
+      "camera": [
+       {
+        "at": 905.74,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2
+       },
+       {
+        "at": 911.74,
+        "center": [
+         54,
+         32.5
+        ],
+        "zoom": 2.2
+       }
+      ],
+      "states": [
+       {
+        "at": 905.74,
+        "layers": [
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         }
+        ]
+       }
+      ],
+      "markers": [
+       {
+        "id": "teh29",
+        "label": "Tehran",
+        "lonlat": [
+         51.39,
+         35.69
+        ],
+        "at": 905.74,
+        "kind": "city",
+        "flashAt": 906.04
+       },
+       {
+        "id": "min29",
+        "label": "Minab",
+        "lonlat": [
+         57.08,
+         27.15
+        ],
+        "at": 909.06,
+        "kind": "city",
+        "flashAt": 909.06,
+        "labelSide": "bottom"
+       }
+      ]
+     }
+    },
+    {
+     "at": 908.6,
+     "image": "images/076.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 912.93,
+     "image": "images/076.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    },
+    {
+     "at": 917.2,
+     "image": "images/075.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.62,
+       "y": 0.54
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.59,
+       "y": 0.54
+      }
+     }
+    }
+   ],
+   "start": 894.28,
+   "end": 922.16,
+   "startFrame": 26828,
+   "endFrame": 27665,
+   "vo": "On 28 February 2026, the United States and Israel launched a new war, with the stated goal of regime change. On the first day, an Israeli airstrike, backed by the United States, killed Ali Khamenei in Tehran. Another hit an elementary school in Minab and killed about 120 children. The US military's own preliminary investigation pointed to an American strike. About a week later, the Assembly of Experts chose Khamenei's son Mojtaba as the new Supreme Leader.",
+   "cues": []
+  },
+  {
+   "id": "S61",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "MAP-29",
+    "IMG 077"
+   ],
+   "type": "shots",
+   "motion": "start: MAP-29, second state: missile arcs and Hormuz closed | @Strait: IMG 077, slow pan across the tankers",
+   "year": [
+    {
+     "at": 922.46,
+     "value": 2026
+    }
+   ],
+   "shots": [
+    {
+     "at": 922.16,
+     "map": {
+      "id": "MAP-29b",
+      "camera": [
+       {
+        "at": 922.16,
+        "center": [
+         47,
+         29
+        ],
+        "zoom": 1.6
+       },
+       {
+        "at": 927.16,
+        "center": [
+         53,
+         28
+        ],
+        "zoom": 2.6
+       }
+      ],
+      "states": [
+       {
+        "at": 922.16,
+        "layers": [
+         {
+          "territory": "iran_2010",
+          "fill": "terracotta",
+          "opacity": 0.8
+         },
+         {
+          "territory": "israel_2010",
+          "fill": "olive",
+          "opacity": 0.8
+         },
+         {
+          "territory": "saudi_2010",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         },
+         {
+          "territory": "gulf_2010",
+          "fill": "#A8946C",
+          "opacity": 0.6
+         }
+        ]
+       }
+      ],
+      "lines": [
+       {
+        "id": "mis1",
+        "style": "arrow",
+        "path": [
+         [
+          51.39,
+          35.69
+         ],
+         [
+          44,
+          34.5
+         ],
+         [
+          34.78,
+          32.08
+         ]
+        ],
+        "at": 922.36,
+        "duration": 1.4,
+        "smooth": true
+       },
+       {
+        "id": "mis2",
+        "style": "arrow",
+        "path": [
+         [
+          52,
+          29
+         ],
+         [
+          51.53,
+          25.29
+         ]
+        ],
+        "at": 922.66,
+        "duration": 1
+       },
+       {
+        "id": "mis3",
+        "style": "arrow",
+        "path": [
+         [
+          54.5,
+          27.8
+         ],
+         [
+          55.3,
+          25.27
+         ]
+        ],
+        "at": 922.86,
+        "duration": 1
+       },
+       {
+        "id": "mis4",
+        "style": "arrow",
+        "path": [
+         [
+          49,
+          30
+         ],
+         [
+          46.7,
+          24.7
+         ]
+        ],
+        "at": 923.06,
+        "duration": 1.2
+       }
+      ],
+      "markers": [
+       {
+        "id": "hor29",
+        "label": "Strait of Hormuz",
+        "lonlat": [
+         56.4,
+         26.6
+        ],
+        "at": 926.75,
+        "kind": "dot",
+        "crossAt": 927.05,
+        "labelSide": "bottom"
+       }
+      ]
+     }
+    },
+    {
+     "at": 926.75,
+     "image": "images/077.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.35,
+       "x": 0.67,
+       "y": 0.42
+      },
+      "to": {
+       "scale": 1.35,
+       "x": 0.33,
+       "y": 0.42
+      }
+     }
+    }
+   ],
+   "start": 922.16,
+   "end": 933.658,
+   "startFrame": 27665,
+   "endFrame": 28010,
+   "vo": "Iran fired missiles at Israel and at Gulf states hosting American bases, and declared the Strait of Hormuz closed. Ceasefires came and collapsed, and in September 2026 American strikes resumed.",
+   "cues": []
+  },
+  {
+   "id": "S62",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 078",
+    "IMG 079",
+    "IMG 010"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 078, slow push on Tehran | @Arabs: IMG 078, new camera move on another part of the image | @Ferdowsi's: IMG 079, slow push on the book | @tomb: IMG 010, callback: slow pull out from the tomb",
+   "shots": [
+    {
+     "at": 933.658,
+     "image": "images/078.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 937.84,
+     "image": "images/078.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.42,
+       "x": 0.38,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.55,
+       "x": 0.41,
+       "y": 0.5
+      }
+     }
+    },
+    {
+     "at": 942.8,
+     "image": "images/079.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.38,
+       "y": 0.42
+      }
+     }
+    },
+    {
+     "at": 946.21,
+     "image": "images/010.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.32,
+       "x": 0.5,
+       "y": 0.58
+      },
+      "to": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      }
+     }
+    }
+   ],
+   "start": 933.658,
+   "end": 948.88,
+   "startFrame": 28010,
+   "endFrame": 28466,
+   "vo": "Iran today has more than ninety million people. It has been conquered by Greeks, Arabs, Turks and Mongols, and every time, the language and the idea of Iran survived. Ferdowsi's Book of Kings is still read in its schools, and Cyrus's tomb still stands at Pasargadae.",
+   "cues": []
+  },
+  {
+   "id": "S63",
+   "part": "OIL, REVOLUTION AND THE ISLAMIC REPUBLIC",
+   "assets": [
+    "IMG 078"
+   ],
+   "type": "shots",
+   "motion": "start: IMG 078, end screen. CTA overlay at the end",
+   "cta": {
+    "at": 949.79,
+    "duration": 5.5
+   },
+   "shots": [
+    {
+     "at": 948.88,
+     "image": "images/078.jpg",
+     "kenBurns": {
+      "from": {
+       "scale": 1.12,
+       "x": 0.5,
+       "y": 0.5
+      },
+      "to": {
+       "scale": 1.3,
+       "x": 0.62,
+       "y": 0.58
+      }
+     }
+    }
+   ],
+   "start": 948.88,
+   "end": 954.839,
+   "startFrame": 28466,
+   "endFrame": 28645,
+   "vo": "If you enjoyed this, subscribe, and tell me in the comments which country I should map next.",
+   "cues": []
+  }
+ ]
+}

@@ -12,6 +12,7 @@ Full working example of every option: `videos/mongol-empire/scene-spec.mjs`.
 | `image` | A still image with a camera move (Ken Burns) | `image`, `kenBurns` |
 | `parallax` | Background image + transparent cutout(s) moving across it | `background` (image + Ken Burns), `sprites` |
 | `map` | Animated historical map | `map` (see Maps) |
+| `shots` | Several shots in one scene (one VO paragraph), each starting on a cue word: an image with its own camera move, or a map. Shots after the first fade in over `shotFade` frames (default 6, 0 = hard cut). Use this to change the picture every 5 to 8 seconds | `shots: [{ at, image, kenBurns } or { at, map }]`, `shotFade` |
 | `gfx` | Coded motion graphic. Available: `decimal-army` (10 / 100 / 1,000 / 10,000 grid) | `gfx`, `steps` |
 
 ### Ken Burns (`kenBurns`, also used by `parallax.background`)
@@ -109,6 +110,47 @@ Shared by all videos. Built by `npm run maps` from `scripts/fetch-maps.mjs`
 | `mongol_1218` | handmade:mongol_1206 + handmade:kara_khitai_1218 | hand-made estimate |
 | `khwarazm_1218` | handmade:khwarazm_1218 | hand-made estimate |
 | `abbasid_1258` | handmade:abbasid_1258 | hand-made estimate |
+| `elam_bc1000` | world_bc1000 | dataset (coarse) |
+| `achaemenid_bc500` | world_bc500 | dataset (coarse) |
+| `greek_bc500` | world_bc500 | dataset (coarse) |
+| `alexander_bc323` | world_bc323 | dataset (coarse) |
+| `seleucid_bc300` | world_bc300 | dataset (coarse) |
+| `seleucid_bc200` | world_bc200 | dataset (coarse) |
+| `parthia_bc200` | world_bc200 | dataset (coarse) |
+| `parthia_bc100` | world_bc100 | dataset (coarse) |
+| `roman_bc100` | world_bc100 | dataset (coarse) |
+| `parthian_bc1` | world_bc1 | dataset (coarse) |
+| `roman_bc1` | world_bc1 | dataset (coarse) |
+| `parthian_200` | world_200 | dataset (coarse) |
+| `sasanian_500` | world_500 | dataset (coarse) |
+| `sasanian_600` | world_600 | dataset (coarse) |
+| `byzantine_600` | world_600 | dataset (coarse) |
+| `abbasid_800` | world_800 | dataset (coarse) |
+| `seljuk_1100` | world_1100 | dataset (coarse) |
+| `safavid_1530` | world_1530 | dataset (coarse) |
+| `safavid_1650` | world_1650 | dataset (coarse) |
+| `ottoman_1650` | world_1650 | dataset (coarse) |
+| `persia_1783` | world_1783 | dataset (coarse) |
+| `afghanistan_1783` | world_1783 | dataset (coarse) |
+| `persia_1815` | world_1815 | dataset (coarse) |
+| `russia_1815` | world_1815 | dataset (coarse) |
+| `persia_1900` | world_1900 | dataset (coarse) |
+| `iran_1938` | world_1938 | dataset (coarse) |
+| `iran_2010` | world_2010 | dataset (coarse) |
+| `iraq_2010` | world_2010 | dataset (coarse) |
+| `israel_2010` | world_2010 | dataset (coarse) |
+| `lebanon_2010` | world_2010 | dataset (coarse) |
+| `syria_2010` | world_2010 | dataset (coarse) |
+| `yemen_2010` | world_2010 | dataset (coarse) |
+| `saudi_2010` | world_2010 | dataset (coarse) |
+| `gulf_2010` | world_2010 | dataset (coarse) |
+| `media_bc585` | handmade:media_bc585 | hand-made estimate |
+| `persis_bc559` | handmade:persis_bc559 | hand-made estimate |
+| `lydia_bc560` | handmade:lydia_bc560 | hand-made estimate |
+| `babylonia_bc550` | handmade:babylonia_bc550 | hand-made estimate |
+| `caucasus_lost_1828` | handmade:caucasus_lost_1828 | hand-made estimate |
+| `sphere_russia_1907` | handmade:sphere_russia_1907 | hand-made estimate |
+| `sphere_britain_1907` | handmade:sphere_britain_1907 | hand-made estimate |
 
 ## CTA subscribe overlay
 
@@ -117,11 +159,3 @@ Shared by all videos. Built by `npm run maps` from `scripts/fetch-maps.mjs`
 | `cta: { at: "@subscribe", duration: 5.5, position: "bottom-left" }` (any scene) | Animated subscribe card: channel logo, name and tagline, a red Subscribe button that a cursor clicks (turns into Subscribed with a check), then the bell gets clicked and rings. Slides in and out. Drawn on top of the whole video (not cut by scene changes), above the captions. `position`: bottom-left (default), bottom-right, top-left, top-right. Branding comes from `engine/brand.ts` (`branding/profile.png`). Cost: negligible (no blur) |
 
 Check how it looks over any scene: `npm run cta-preview <slug> [S10] [--position=bottom-right]` writes `checks/cta-preview.mp4` and stills (about 200 frames, fine on the laptop).
-
-## Planned, not built yet
-
-Build these once, generically, then move them up into the catalog.
-
-| Option | What it will do |
-|---|---|
-| `shots: [{ at: "@word", from, to }]` (image scenes) | Several camera moves on one image with a hard cut or a quick push between them, so a long paragraph on one image still changes picture every few seconds |

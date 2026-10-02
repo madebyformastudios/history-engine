@@ -26,6 +26,7 @@ type Scene = {
   background?: { src: string };
   sprites?: { src: string }[];
   map?: { id: string; states: { layers: { territory: string }[] }[] };
+  shots?: { at: number; image?: string; map?: { id: string; states: { layers: { territory: string }[] }[] } }[];
   cues: Cue[];
 };
 
@@ -61,9 +62,11 @@ for (const line of runbook.slice(clStart).split("\n")) {
   const m = line.match(/^\|\s*(\d{3}|GFX-\d{2})\s*\|[^|]*\|\s*([^|]+)\|/);
   if (m) checklist.push({ asset: m[1], scenes: [...m[2].matchAll(/S\d{2}/g)].map((x) => x[0]) });
 }
-// "MAP-01 to MAP-10 | see scenes": take the map scenes from the scene headers
+// "MAP-01 to MAP-10 | see scenes": take the map scenes from the scene headers.
+// A runbook without an asset checklist (shot-list runbooks) takes every asset from the scene headers.
 const mapUse: Record<string, string[]> = {};
-for (const s of rbScenes) for (const a of s.assets) if (a.startsWith("MAP-")) (mapUse[a] ??= []).push(s.id);
+const fromHeaders = (a: string) => a.startsWith("MAP-") || clStart < 0;
+for (const s of rbScenes) for (const a of s.assets) if (fromHeaders(a)) (mapUse[a.replace(/^IMG /, "")] ??= []).push(s.id);
 for (const [asset, sc] of Object.entries(mapUse)) checklist.push({ asset, scenes: sc });
 
 // ---------- 1. scene list, order, assets ----------
@@ -78,7 +81,12 @@ const paragraphs = fs.readFileSync(V("script.txt"), "utf8").split(/\n\s*\n/).fil
 if (paragraphs.length !== rbScenes.length) fail(`script.txt has ${paragraphs.length} paragraphs, runbook ${rbScenes.length} scenes`);
 
 // ---------- what each built scene actually puts on screen ----------
-const imageNo = (src: string) => path.basename(src).match(/^(\d{3})\./)?.[1];
+const imageNo = (src: string) => {
+  const b = path.basename(src);
+  const photo = b.match(/^photo-(\d{2})\./);
+  return photo ? `PHOTO-${photo[1]}` : b.match(/^(\d{3})\./)?.[1];
+};
+const mapId = (id: string) => id.replace(/[a-z]$/, ""); // MAP-21b = second state of MAP-21
 const usedBy = (s: Scene): string[] => {
   const used: string[] = [];
   if (s.image) used.push(imageNo(s.image)!);
@@ -86,11 +94,16 @@ const usedBy = (s: Scene): string[] => {
   for (const sp of s.sprites ?? []) used.push(imageNo(sp.src)!);
   if (s.map) used.push(s.map.id);
   if (s.type === "gfx") used.push("GFX-01");
+  for (const sh of s.shots ?? []) {
+    const a = sh.image ? imageNo(sh.image)! : sh.map ? mapId(sh.map.id) : undefined;
+    if (a && !used.includes(a)) used.push(a);
+  }
   return used;
 };
 // the declared assets must match what is rendered
 for (const s of scenes) {
   const declared = s.assets.map((a) => a.replace(/^(IMG|BG|CUT) /, ""));
+  if (s.shots) declared.splice(0, declared.length, ...[...new Set(declared)]);
   const rendered = usedBy(s);
   if (JSON.stringify([...declared].sort()) !== JSON.stringify([...rendered].sort()))
     fail(`${s.id}: declares [${declared}] but renders [${rendered}]`);
@@ -112,6 +125,7 @@ const mustExist = new Set<string>([V("public", data.meta.audio)]);
 const sprites = new Set<string>();
 for (const s of scenes) {
   if (s.image) mustExist.add(V("public", s.image));
+  for (const sh of s.shots ?? []) if (sh.image) mustExist.add(V("public", sh.image));
   if (s.background) mustExist.add(V("public", s.background.src));
   for (const sp of s.sprites ?? []) {
     mustExist.add(V("public", sp.src));
@@ -124,8 +138,13 @@ for (const c of checklist) {
   if (n && !fs.existsSync(V(`public/images/${n}.jpg`)) && !fs.existsSync(V(`public/images/${n}.png`))) fail(`public/images/${n}.jpg missing`);
 }
 for (const f of mustExist) if (!fs.existsSync(f)) fail(`missing file ${f}`);
-for (const s of scenes) for (const st of s.map?.states ?? []) for (const l of st.layers)
+for (const s of scenes) for (const m of [s.map, ...(s.shots ?? []).map((sh) => sh.map)]) for (const st of m?.states ?? []) for (const l of st.layers)
   if (!territories[l.territory]) fail(`${s.id}: territory "${l.territory}" not in engine/maps-data/territories.json`);
+// shots: inside their scene, in order
+for (const s of scenes) (s.shots ?? []).forEach((sh, i, arr) => {
+  if (i > 0 && (sh.at < s.start - 0.05 || sh.at >= s.end)) fail(`${s.id}: shot ${i + 1} starts at ${sh.at}s, outside the scene (${s.start}–${s.end})`);
+  if (i > 0 && sh.at <= arr[i - 1].at) fail(`${s.id}: shot ${i + 1} does not start after shot ${i}`);
+});
 // cutouts (sprites) must really be transparent PNGs
 for (const f of sprites) {
   if (!fs.existsSync(f)) continue;

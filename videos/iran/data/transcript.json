@@ -1,0 +1,13241 @@
+{
+ "source": "videos/iran/public/audio/voiceover.mp3",
+ "model": "base.en",
+ "words": [
+  {
+   "text": "25",
+   "start": 0.02,
+   "end": 0.46
+  },
+  {
+   "text": "centuries",
+   "start": 0.46,
+   "end": 1.16
+  },
+  {
+   "text": "ago,",
+   "start": 1.16,
+   "end": 1.59
+  },
+  {
+   "text": "a",
+   "start": 1.59,
+   "end": 1.62
+  },
+  {
+   "text": "Persian",
+   "start": 1.62,
+   "end": 2.07
+  },
+  {
+   "text": "king",
+   "start": 2.07,
+   "end": 2.31
+  },
+  {
+   "text": "ruled",
+   "start": 2.31,
+   "end": 2.64
+  },
+  {
+   "text": "the",
+   "start": 2.64,
+   "end": 2.8
+  },
+  {
+   "text": "largest",
+   "start": 2.8,
+   "end": 3.2
+  },
+  {
+   "text": "empire",
+   "start": 3.2,
+   "end": 3.64
+  },
+  {
+   "text": "the",
+   "start": 3.64,
+   "end": 3.72
+  },
+  {
+   "text": "world",
+   "start": 3.72,
+   "end": 4
+  },
+  {
+   "text": "had",
+   "start": 4,
+   "end": 4.12
+  },
+  {
+   "text": "yet",
+   "start": 4.12,
+   "end": 4.31
+  },
+  {
+   "text": "seen.",
+   "start": 4.31,
+   "end": 5
+  },
+  {
+   "text": "From",
+   "start": 5,
+   "end": 5.24
+  },
+  {
+   "text": "Egypt",
+   "start": 5.24,
+   "end": 5.55
+  },
+  {
+   "text": "to",
+   "start": 5.55,
+   "end": 5.67
+  },
+  {
+   "text": "India,",
+   "start": 5.67,
+   "end": 6.18
+  },
+  {
+   "text": "the",
+   "start": 6.18,
+   "end": 6.28
+  },
+  {
+   "text": "country",
+   "start": 6.28,
+   "end": 6.71
+  },
+  {
+   "text": "it",
+   "start": 6.71,
+   "end": 6.83
+  },
+  {
+   "text": "grew",
+   "start": 6.83,
+   "end": 7.07
+  },
+  {
+   "text": "out",
+   "start": 7.07,
+   "end": 7.26
+  },
+  {
+   "text": "of",
+   "start": 7.26,
+   "end": 7.37
+  },
+  {
+   "text": "is",
+   "start": 7.37,
+   "end": 7.5
+  },
+  {
+   "text": "still",
+   "start": 7.5,
+   "end": 7.8
+  },
+  {
+   "text": "on",
+   "start": 7.8,
+   "end": 7.92
+  },
+  {
+   "text": "the",
+   "start": 7.92,
+   "end": 8.15
+  },
+  {
+   "text": "map.",
+   "start": 8.15,
+   "end": 8.56
+  },
+  {
+   "text": "Today",
+   "start": 8.56,
+   "end": 9.09
+  },
+  {
+   "text": "we",
+   "start": 9.09,
+   "end": 9.29
+  },
+  {
+   "text": "call",
+   "start": 9.29,
+   "end": 9.92
+  },
+  {
+   "text": "it",
+   "start": 9.92,
+   "end": 10.34
+  },
+  {
+   "text": "Iran.",
+   "start": 10.34,
+   "end": 10.68
+  },
+  {
+   "text": "Iran",
+   "start": 10.68,
+   "end": 10.91
+  },
+  {
+   "text": "is",
+   "start": 10.91,
+   "end": 11.04
+  },
+  {
+   "text": "a",
+   "start": 11.04,
+   "end": 11.1
+  },
+  {
+   "text": "high",
+   "start": 11.1,
+   "end": 11.34
+  },
+  {
+   "text": "plateau",
+   "start": 11.34,
+   "end": 11.77
+  },
+  {
+   "text": "walled",
+   "start": 11.77,
+   "end": 12.13
+  },
+  {
+   "text": "in",
+   "start": 12.13,
+   "end": 12.25
+  },
+  {
+   "text": "by",
+   "start": 12.25,
+   "end": 12.37
+  },
+  {
+   "text": "mountains,",
+   "start": 12.37,
+   "end": 13.14
+  },
+  {
+   "text": "with",
+   "start": 13.14,
+   "end": 13.28
+  },
+  {
+   "text": "salt",
+   "start": 13.28,
+   "end": 13.57
+  },
+  {
+   "text": "deserts",
+   "start": 13.57,
+   "end": 13.95
+  },
+  {
+   "text": "in",
+   "start": 13.95,
+   "end": 14.07
+  },
+  {
+   "text": "the",
+   "start": 14.07,
+   "end": 14.24
+  },
+  {
+   "text": "middle.",
+   "start": 14.24,
+   "end": 14.88
+  },
+  {
+   "text": "It",
+   "start": 14.88,
+   "end": 15.02
+  },
+  {
+   "text": "lies",
+   "start": 15.02,
+   "end": 15.32
+  },
+  {
+   "text": "between",
+   "start": 15.32,
+   "end": 15.8
+  },
+  {
+   "text": "Mesopotamia,",
+   "start": 15.8,
+   "end": 16.7
+  },
+  {
+   "text": "Central",
+   "start": 16.7,
+   "end": 17.19
+  },
+  {
+   "text": "Asia,",
+   "start": 17.19,
+   "end": 17.61
+  },
+  {
+   "text": "and",
+   "start": 17.61,
+   "end": 17.82
+  },
+  {
+   "text": "India,",
+   "start": 17.82,
+   "end": 18.32
+  },
+  {
+   "text": "so",
+   "start": 18.32,
+   "end": 18.42
+  },
+  {
+   "text": "almost",
+   "start": 18.42,
+   "end": 18.77
+  },
+  {
+   "text": "every",
+   "start": 18.77,
+   "end": 19
+  },
+  {
+   "text": "army",
+   "start": 19,
+   "end": 19.21
+  },
+  {
+   "text": "in",
+   "start": 19.21,
+   "end": 19.31
+  },
+  {
+   "text": "this",
+   "start": 19.31,
+   "end": 19.55
+  },
+  {
+   "text": "part",
+   "start": 19.55,
+   "end": 19.8
+  },
+  {
+   "text": "of",
+   "start": 19.8,
+   "end": 19.95
+  },
+  {
+   "text": "the",
+   "start": 19.95,
+   "end": 20.17
+  },
+  {
+   "text": "world",
+   "start": 20.17,
+   "end": 20.54
+  },
+  {
+   "text": "has",
+   "start": 20.54,
+   "end": 20.76
+  },
+  {
+   "text": "crossed",
+   "start": 20.76,
+   "end": 21.28
+  },
+  {
+   "text": "it.",
+   "start": 21.28,
+   "end": 21.68
+  },
+  {
+   "text": "The",
+   "start": 21.68,
+   "end": 21.87
+  },
+  {
+   "text": "first",
+   "start": 21.87,
+   "end": 22.2
+  },
+  {
+   "text": "great",
+   "start": 22.2,
+   "end": 22.53
+  },
+  {
+   "text": "civilization",
+   "start": 22.53,
+   "end": 23.32
+  },
+  {
+   "text": "here",
+   "start": 23.32,
+   "end": 23.58
+  },
+  {
+   "text": "was",
+   "start": 23.58,
+   "end": 23.77
+  },
+  {
+   "text": "Elam",
+   "start": 23.77,
+   "end": 24.02
+  },
+  {
+   "text": "in",
+   "start": 24.02,
+   "end": 24.15
+  },
+  {
+   "text": "the",
+   "start": 24.15,
+   "end": 24.34
+  },
+  {
+   "text": "southwest.",
+   "start": 24.34,
+   "end": 25.2
+  },
+  {
+   "text": "Sousa,",
+   "start": 25.2,
+   "end": 25.63
+  },
+  {
+   "text": "later",
+   "start": 25.63,
+   "end": 25.94
+  },
+  {
+   "text": "its",
+   "start": 25.94,
+   "end": 26.16
+  },
+  {
+   "text": "capital,",
+   "start": 26.16,
+   "end": 26.69
+  },
+  {
+   "text": "was",
+   "start": 26.69,
+   "end": 26.88
+  },
+  {
+   "text": "first",
+   "start": 26.88,
+   "end": 27.19
+  },
+  {
+   "text": "settled",
+   "start": 27.19,
+   "end": 27.72
+  },
+  {
+   "text": "around",
+   "start": 27.72,
+   "end": 28.01
+  },
+  {
+   "text": "4,200",
+   "start": 28.01,
+   "end": 28.89
+  },
+  {
+   "text": "BC,",
+   "start": 28.89,
+   "end": 29.21
+  },
+  {
+   "text": "and",
+   "start": 29.21,
+   "end": 29.32
+  },
+  {
+   "text": "by",
+   "start": 29.32,
+   "end": 29.44
+  },
+  {
+   "text": "about",
+   "start": 29.44,
+   "end": 29.84
+  },
+  {
+   "text": "3,100",
+   "start": 29.84,
+   "end": 30.63
+  },
+  {
+   "text": "BC",
+   "start": 30.63,
+   "end": 30.75
+  },
+  {
+   "text": "people",
+   "start": 30.75,
+   "end": 31.24
+  },
+  {
+   "text": "there",
+   "start": 31.24,
+   "end": 31.53
+  },
+  {
+   "text": "were",
+   "start": 31.53,
+   "end": 31.76
+  },
+  {
+   "text": "writing.",
+   "start": 31.76,
+   "end": 32.36
+  },
+  {
+   "text": "In",
+   "start": 32.36,
+   "end": 32.5
+  },
+  {
+   "text": "the",
+   "start": 32.5,
+   "end": 32.66
+  },
+  {
+   "text": "12th",
+   "start": 32.66,
+   "end": 33.14
+  },
+  {
+   "text": "century",
+   "start": 33.14,
+   "end": 33.56
+  },
+  {
+   "text": "BC,",
+   "start": 33.56,
+   "end": 33.92
+  },
+  {
+   "text": "an",
+   "start": 33.92,
+   "end": 33.96
+  },
+  {
+   "text": "Elamite",
+   "start": 33.96,
+   "end": 34.34
+  },
+  {
+   "text": "king",
+   "start": 34.34,
+   "end": 34.6
+  },
+  {
+   "text": "carried",
+   "start": 34.6,
+   "end": 35
+  },
+  {
+   "text": "Hammurabi's",
+   "start": 35,
+   "end": 35.66
+  },
+  {
+   "text": "law",
+   "start": 35.66,
+   "end": 35.84
+  },
+  {
+   "text": "code",
+   "start": 35.84,
+   "end": 36.08
+  },
+  {
+   "text": "home",
+   "start": 36.08,
+   "end": 36.32
+  },
+  {
+   "text": "from",
+   "start": 36.32,
+   "end": 36.56
+  },
+  {
+   "text": "Babylonia",
+   "start": 36.56,
+   "end": 37.2
+  },
+  {
+   "text": "as",
+   "start": 37.2,
+   "end": 37.45
+  },
+  {
+   "text": "loot.",
+   "start": 37.45,
+   "end": 38.36
+  },
+  {
+   "text": "That",
+   "start": 38.36,
+   "end": 38.69
+  },
+  {
+   "text": "is",
+   "start": 38.69,
+   "end": 38.92
+  },
+  {
+   "text": "why",
+   "start": 38.92,
+   "end": 39.1
+  },
+  {
+   "text": "the",
+   "start": 39.1,
+   "end": 39.35
+  },
+  {
+   "text": "stone",
+   "start": 39.35,
+   "end": 39.76
+  },
+  {
+   "text": "was",
+   "start": 39.76,
+   "end": 40.01
+  },
+  {
+   "text": "found",
+   "start": 40.01,
+   "end": 40.42
+  },
+  {
+   "text": "in",
+   "start": 40.42,
+   "end": 40.88
+  },
+  {
+   "text": "Iran.",
+   "start": 40.88,
+   "end": 41.2
+  },
+  {
+   "text": "Sometime",
+   "start": 41.2,
+   "end": 41.64
+  },
+  {
+   "text": "in",
+   "start": 41.64,
+   "end": 41.76
+  },
+  {
+   "text": "the",
+   "start": 41.76,
+   "end": 41.93
+  },
+  {
+   "text": "2nd",
+   "start": 41.93,
+   "end": 42.21
+  },
+  {
+   "text": "millennium",
+   "start": 42.21,
+   "end": 42.78
+  },
+  {
+   "text": "BC,",
+   "start": 42.78,
+   "end": 43.05
+  },
+  {
+   "text": "new",
+   "start": 43.05,
+   "end": 43.17
+  },
+  {
+   "text": "peoples",
+   "start": 43.17,
+   "end": 43.57
+  },
+  {
+   "text": "arrived",
+   "start": 43.57,
+   "end": 43.97
+  },
+  {
+   "text": "on",
+   "start": 43.97,
+   "end": 44.08
+  },
+  {
+   "text": "the",
+   "start": 44.08,
+   "end": 44.25
+  },
+  {
+   "text": "plateau,",
+   "start": 44.25,
+   "end": 44.94
+  },
+  {
+   "text": "speaking",
+   "start": 44.94,
+   "end": 45.22
+  },
+  {
+   "text": "Iranian",
+   "start": 45.22,
+   "end": 45.72
+  },
+  {
+   "text": "languages.",
+   "start": 45.72,
+   "end": 46.76
+  },
+  {
+   "text": "The",
+   "start": 46.76,
+   "end": 46.92
+  },
+  {
+   "text": "meads",
+   "start": 46.92,
+   "end": 47.18
+  },
+  {
+   "text": "settled",
+   "start": 47.18,
+   "end": 47.56
+  },
+  {
+   "text": "in",
+   "start": 47.56,
+   "end": 47.66
+  },
+  {
+   "text": "the",
+   "start": 47.66,
+   "end": 47.83
+  },
+  {
+   "text": "northwest,",
+   "start": 47.83,
+   "end": 48.48
+  },
+  {
+   "text": "the",
+   "start": 48.48,
+   "end": 48.6
+  },
+  {
+   "text": "Persians",
+   "start": 48.6,
+   "end": 49.04
+  },
+  {
+   "text": "settled",
+   "start": 49.04,
+   "end": 49.36
+  },
+  {
+   "text": "in",
+   "start": 49.36,
+   "end": 49.47
+  },
+  {
+   "text": "the",
+   "start": 49.47,
+   "end": 49.62
+  },
+  {
+   "text": "southwest,",
+   "start": 49.62,
+   "end": 50.36
+  },
+  {
+   "text": "and",
+   "start": 50.36,
+   "end": 50.4
+  },
+  {
+   "text": "a",
+   "start": 50.4,
+   "end": 50.41
+  },
+  {
+   "text": "region",
+   "start": 50.41,
+   "end": 50.84
+  },
+  {
+   "text": "the",
+   "start": 50.84,
+   "end": 50.92
+  },
+  {
+   "text": "Greeks",
+   "start": 50.92,
+   "end": 51.38
+  },
+  {
+   "text": "called",
+   "start": 51.38,
+   "end": 51.84
+  },
+  {
+   "text": "Persis.",
+   "start": 51.84,
+   "end": 52.56
+  },
+  {
+   "text": "That",
+   "start": 52.56,
+   "end": 52.9
+  },
+  {
+   "text": "name",
+   "start": 52.9,
+   "end": 53.23
+  },
+  {
+   "text": "became",
+   "start": 53.23,
+   "end": 54.26
+  },
+  {
+   "text": "Persia.",
+   "start": 54.26,
+   "end": 54.52
+  },
+  {
+   "text": "In",
+   "start": 54.52,
+   "end": 54.64
+  },
+  {
+   "text": "612",
+   "start": 54.64,
+   "end": 55.21
+  },
+  {
+   "text": "BC",
+   "start": 55.21,
+   "end": 55.33
+  },
+  {
+   "text": "the",
+   "start": 55.33,
+   "end": 55.52
+  },
+  {
+   "text": "meads",
+   "start": 55.52,
+   "end": 55.83
+  },
+  {
+   "text": "helped",
+   "start": 55.83,
+   "end": 56.21
+  },
+  {
+   "text": "destroy",
+   "start": 56.21,
+   "end": 56.65
+  },
+  {
+   "text": "Nineveh,",
+   "start": 56.65,
+   "end": 57.24
+  },
+  {
+   "text": "the",
+   "start": 57.24,
+   "end": 57.4
+  },
+  {
+   "text": "capital",
+   "start": 57.4,
+   "end": 57.84
+  },
+  {
+   "text": "of",
+   "start": 57.84,
+   "end": 57.96
+  },
+  {
+   "text": "Assyria.",
+   "start": 57.96,
+   "end": 58.68
+  },
+  {
+   "text": "For",
+   "start": 58.68,
+   "end": 58.84
+  },
+  {
+   "text": "a",
+   "start": 58.84,
+   "end": 58.88
+  },
+  {
+   "text": "few",
+   "start": 58.88,
+   "end": 59.03
+  },
+  {
+   "text": "decades",
+   "start": 59.03,
+   "end": 59.39
+  },
+  {
+   "text": "they",
+   "start": 59.39,
+   "end": 59.6
+  },
+  {
+   "text": "were",
+   "start": 59.6,
+   "end": 59.82
+  },
+  {
+   "text": "the",
+   "start": 59.82,
+   "end": 59.96
+  },
+  {
+   "text": "strongest",
+   "start": 59.96,
+   "end": 60.43
+  },
+  {
+   "text": "power",
+   "start": 60.43,
+   "end": 60.69
+  },
+  {
+   "text": "in",
+   "start": 60.69,
+   "end": 60.79
+  },
+  {
+   "text": "Iran,",
+   "start": 60.79,
+   "end": 61.1
+  },
+  {
+   "text": "and",
+   "start": 61.1,
+   "end": 61.32
+  },
+  {
+   "text": "the",
+   "start": 61.32,
+   "end": 61.4
+  },
+  {
+   "text": "Persians",
+   "start": 61.4,
+   "end": 61.81
+  },
+  {
+   "text": "were",
+   "start": 61.81,
+   "end": 62.02
+  },
+  {
+   "text": "their",
+   "start": 62.02,
+   "end": 62.36
+  },
+  {
+   "text": "vassals.",
+   "start": 62.36,
+   "end": 63.36
+  },
+  {
+   "text": "Then,",
+   "start": 63.36,
+   "end": 63.78
+  },
+  {
+   "text": "around",
+   "start": 63.78,
+   "end": 64.2
+  },
+  {
+   "text": "550",
+   "start": 64.2,
+   "end": 64.83
+  },
+  {
+   "text": "BC,",
+   "start": 64.83,
+   "end": 65.11
+  },
+  {
+   "text": "a",
+   "start": 65.11,
+   "end": 65.18
+  },
+  {
+   "text": "Persian",
+   "start": 65.18,
+   "end": 65.74
+  },
+  {
+   "text": "king",
+   "start": 65.74,
+   "end": 65.95
+  },
+  {
+   "text": "named",
+   "start": 65.95,
+   "end": 66.3
+  },
+  {
+   "text": "Cyrus",
+   "start": 66.3,
+   "end": 66.65
+  },
+  {
+   "text": "rebelled",
+   "start": 66.65,
+   "end": 67.23
+  },
+  {
+   "text": "against",
+   "start": 67.23,
+   "end": 67.7
+  },
+  {
+   "text": "the",
+   "start": 67.7,
+   "end": 67.91
+  },
+  {
+   "text": "meads",
+   "start": 67.91,
+   "end": 68.25
+  },
+  {
+   "text": "and",
+   "start": 68.25,
+   "end": 68.56
+  },
+  {
+   "text": "took",
+   "start": 68.56,
+   "end": 68.88
+  },
+  {
+   "text": "their",
+   "start": 68.88,
+   "end": 69
+  },
+  {
+   "text": "capital.",
+   "start": 69,
+   "end": 70
+  },
+  {
+   "text": "Within",
+   "start": 70,
+   "end": 70.31
+  },
+  {
+   "text": "11",
+   "start": 70.31,
+   "end": 70.66
+  },
+  {
+   "text": "years",
+   "start": 70.66,
+   "end": 70.89
+  },
+  {
+   "text": "he",
+   "start": 70.89,
+   "end": 70.98
+  },
+  {
+   "text": "had",
+   "start": 70.98,
+   "end": 71.13
+  },
+  {
+   "text": "conquered",
+   "start": 71.13,
+   "end": 71.6
+  },
+  {
+   "text": "Lydia",
+   "start": 71.6,
+   "end": 71.86
+  },
+  {
+   "text": "in",
+   "start": 71.86,
+   "end": 71.96
+  },
+  {
+   "text": "what",
+   "start": 71.96,
+   "end": 72.16
+  },
+  {
+   "text": "is",
+   "start": 72.16,
+   "end": 72.28
+  },
+  {
+   "text": "now",
+   "start": 72.28,
+   "end": 72.41
+  },
+  {
+   "text": "Turkey,",
+   "start": 72.41,
+   "end": 72.84
+  },
+  {
+   "text": "the",
+   "start": 72.84,
+   "end": 72.97
+  },
+  {
+   "text": "Greek",
+   "start": 72.97,
+   "end": 73.25
+  },
+  {
+   "text": "cities",
+   "start": 73.25,
+   "end": 73.54
+  },
+  {
+   "text": "on",
+   "start": 73.54,
+   "end": 73.72
+  },
+  {
+   "text": "its",
+   "start": 73.72,
+   "end": 73.84
+  },
+  {
+   "text": "coast,",
+   "start": 73.84,
+   "end": 74.52
+  },
+  {
+   "text": "and",
+   "start": 74.52,
+   "end": 74.71
+  },
+  {
+   "text": "much",
+   "start": 74.71,
+   "end": 75.06
+  },
+  {
+   "text": "of",
+   "start": 75.06,
+   "end": 75.23
+  },
+  {
+   "text": "Central",
+   "start": 75.23,
+   "end": 75.85
+  },
+  {
+   "text": "Asia.",
+   "start": 75.85,
+   "end": 76.52
+  },
+  {
+   "text": "In",
+   "start": 76.52,
+   "end": 76.71
+  },
+  {
+   "text": "539",
+   "start": 76.71,
+   "end": 77.55
+  },
+  {
+   "text": "BC",
+   "start": 77.55,
+   "end": 77.74
+  },
+  {
+   "text": "he",
+   "start": 77.74,
+   "end": 77.93
+  },
+  {
+   "text": "took",
+   "start": 77.93,
+   "end": 78.32
+  },
+  {
+   "text": "Babylon.",
+   "start": 78.32,
+   "end": 79.28
+  },
+  {
+   "text": "On",
+   "start": 79.28,
+   "end": 79.41
+  },
+  {
+   "text": "a",
+   "start": 79.41,
+   "end": 79.5
+  },
+  {
+   "text": "clay",
+   "start": 79.5,
+   "end": 79.73
+  },
+  {
+   "text": "cylinder",
+   "start": 79.73,
+   "end": 80.31
+  },
+  {
+   "text": "Cyrus",
+   "start": 80.31,
+   "end": 80.61
+  },
+  {
+   "text": "presented",
+   "start": 80.61,
+   "end": 81.21
+  },
+  {
+   "text": "himself",
+   "start": 81.21,
+   "end": 81.68
+  },
+  {
+   "text": "as",
+   "start": 81.68,
+   "end": 81.81
+  },
+  {
+   "text": "a",
+   "start": 81.81,
+   "end": 81.87
+  },
+  {
+   "text": "liberator",
+   "start": 81.87,
+   "end": 82.46
+  },
+  {
+   "text": "chosen",
+   "start": 82.46,
+   "end": 82.86
+  },
+  {
+   "text": "by",
+   "start": 82.86,
+   "end": 82.99
+  },
+  {
+   "text": "Babylon's",
+   "start": 82.99,
+   "end": 83.59
+  },
+  {
+   "text": "own",
+   "start": 83.59,
+   "end": 83.78
+  },
+  {
+   "text": "god.",
+   "start": 83.78,
+   "end": 84.28
+  },
+  {
+   "text": "He",
+   "start": 84.28,
+   "end": 84.39
+  },
+  {
+   "text": "let",
+   "start": 84.39,
+   "end": 84.56
+  },
+  {
+   "text": "deported",
+   "start": 84.56,
+   "end": 85.03
+  },
+  {
+   "text": "peoples",
+   "start": 85.03,
+   "end": 85.44
+  },
+  {
+   "text": "go",
+   "start": 85.44,
+   "end": 85.55
+  },
+  {
+   "text": "home,",
+   "start": 85.55,
+   "end": 86.07
+  },
+  {
+   "text": "including",
+   "start": 86.07,
+   "end": 86.42
+  },
+  {
+   "text": "the",
+   "start": 86.42,
+   "end": 86.59
+  },
+  {
+   "text": "Jews,",
+   "start": 86.59,
+   "end": 86.93
+  },
+  {
+   "text": "who",
+   "start": 86.93,
+   "end": 87.26
+  },
+  {
+   "text": "returned",
+   "start": 87.26,
+   "end": 87.57
+  },
+  {
+   "text": "to",
+   "start": 87.57,
+   "end": 87.69
+  },
+  {
+   "text": "Jerusalem",
+   "start": 87.69,
+   "end": 88.21
+  },
+  {
+   "text": "to",
+   "start": 88.21,
+   "end": 88.32
+  },
+  {
+   "text": "rebuild",
+   "start": 88.32,
+   "end": 88.84
+  },
+  {
+   "text": "their",
+   "start": 88.84,
+   "end": 89.23
+  },
+  {
+   "text": "temple.",
+   "start": 89.23,
+   "end": 89.84
+  },
+  {
+   "text": "The",
+   "start": 89.84,
+   "end": 90.02
+  },
+  {
+   "text": "Cyrus",
+   "start": 90.02,
+   "end": 90.37
+  },
+  {
+   "text": "cylinder",
+   "start": 90.37,
+   "end": 90.81
+  },
+  {
+   "text": "is",
+   "start": 90.81,
+   "end": 90.93
+  },
+  {
+   "text": "sometimes",
+   "start": 90.93,
+   "end": 91.48
+  },
+  {
+   "text": "called",
+   "start": 91.48,
+   "end": 91.85
+  },
+  {
+   "text": "the",
+   "start": 91.85,
+   "end": 92.1
+  },
+  {
+   "text": "first",
+   "start": 92.1,
+   "end": 92.33
+  },
+  {
+   "text": "charter",
+   "start": 92.33,
+   "end": 92.76
+  },
+  {
+   "text": "of",
+   "start": 92.76,
+   "end": 92.88
+  },
+  {
+   "text": "human",
+   "start": 92.88,
+   "end": 93.18
+  },
+  {
+   "text": "rights.",
+   "start": 93.18,
+   "end": 93.8
+  },
+  {
+   "text": "Most",
+   "start": 93.8,
+   "end": 94.04
+  },
+  {
+   "text": "historians",
+   "start": 94.04,
+   "end": 94.65
+  },
+  {
+   "text": "see",
+   "start": 94.65,
+   "end": 94.83
+  },
+  {
+   "text": "it",
+   "start": 94.83,
+   "end": 94.95
+  },
+  {
+   "text": "as",
+   "start": 94.95,
+   "end": 95.07
+  },
+  {
+   "text": "royal",
+   "start": 95.07,
+   "end": 95.37
+  },
+  {
+   "text": "propaganda",
+   "start": 95.37,
+   "end": 96.08
+  },
+  {
+   "text": "in",
+   "start": 96.08,
+   "end": 96.1
+  },
+  {
+   "text": "an",
+   "start": 96.1,
+   "end": 96.22
+  },
+  {
+   "text": "old",
+   "start": 96.22,
+   "end": 96.4
+  },
+  {
+   "text": "Mesopotamian",
+   "start": 96.4,
+   "end": 97.12
+  },
+  {
+   "text": "tradition,",
+   "start": 97.12,
+   "end": 97.86
+  },
+  {
+   "text": "but",
+   "start": 97.86,
+   "end": 98.09
+  },
+  {
+   "text": "the",
+   "start": 98.09,
+   "end": 98.24
+  },
+  {
+   "text": "policy",
+   "start": 98.24,
+   "end": 98.72
+  },
+  {
+   "text": "was",
+   "start": 98.72,
+   "end": 98.96
+  },
+  {
+   "text": "real,",
+   "start": 98.96,
+   "end": 99.47
+  },
+  {
+   "text": "and",
+   "start": 99.47,
+   "end": 99.68
+  },
+  {
+   "text": "Cyrus",
+   "start": 99.68,
+   "end": 100.08
+  },
+  {
+   "text": "was",
+   "start": 100.08,
+   "end": 100.32
+  },
+  {
+   "text": "remembered",
+   "start": 100.32,
+   "end": 101.13
+  },
+  {
+   "text": "as",
+   "start": 101.13,
+   "end": 101.29
+  },
+  {
+   "text": "a",
+   "start": 101.29,
+   "end": 101.37
+  },
+  {
+   "text": "just",
+   "start": 101.37,
+   "end": 101.69
+  },
+  {
+   "text": "king.",
+   "start": 101.69,
+   "end": 102.32
+  },
+  {
+   "text": "If",
+   "start": 102.32,
+   "end": 102.43
+  },
+  {
+   "text": "you",
+   "start": 102.43,
+   "end": 102.59
+  },
+  {
+   "text": "like",
+   "start": 102.59,
+   "end": 102.81
+  },
+  {
+   "text": "seeing",
+   "start": 102.81,
+   "end": 103.14
+  },
+  {
+   "text": "history",
+   "start": 103.14,
+   "end": 103.51
+  },
+  {
+   "text": "move",
+   "start": 103.51,
+   "end": 103.73
+  },
+  {
+   "text": "on",
+   "start": 103.73,
+   "end": 103.84
+  },
+  {
+   "text": "the",
+   "start": 103.84,
+   "end": 104.03
+  },
+  {
+   "text": "map,",
+   "start": 104.03,
+   "end": 104.29
+  },
+  {
+   "text": "subscribe,",
+   "start": 104.29,
+   "end": 104.85
+  },
+  {
+   "text": "it",
+   "start": 104.85,
+   "end": 105.16
+  },
+  {
+   "text": "helps",
+   "start": 105.16,
+   "end": 105.23
+  },
+  {
+   "text": "the",
+   "start": 105.23,
+   "end": 105.39
+  },
+  {
+   "text": "channel",
+   "start": 105.39,
+   "end": 105.77
+  },
+  {
+   "text": "more",
+   "start": 105.77,
+   "end": 105.99
+  },
+  {
+   "text": "than",
+   "start": 105.99,
+   "end": 106.28
+  },
+  {
+   "text": "you",
+   "start": 106.28,
+   "end": 106.72
+  },
+  {
+   "text": "think.",
+   "start": 106.72,
+   "end": 107.92
+  },
+  {
+   "text": "Cyrus",
+   "start": 107.92,
+   "end": 108.25
+  },
+  {
+   "text": "died",
+   "start": 108.25,
+   "end": 108.51
+  },
+  {
+   "text": "in",
+   "start": 108.51,
+   "end": 108.64
+  },
+  {
+   "text": "530",
+   "start": 108.64,
+   "end": 109.23
+  },
+  {
+   "text": "BC,",
+   "start": 109.23,
+   "end": 109.49
+  },
+  {
+   "text": "according",
+   "start": 109.49,
+   "end": 110.08
+  },
+  {
+   "text": "to",
+   "start": 110.08,
+   "end": 110.21
+  },
+  {
+   "text": "Herodotus,",
+   "start": 110.21,
+   "end": 111.01
+  },
+  {
+   "text": "in",
+   "start": 111.01,
+   "end": 111.06
+  },
+  {
+   "text": "battle",
+   "start": 111.06,
+   "end": 111.45
+  },
+  {
+   "text": "against",
+   "start": 111.45,
+   "end": 111.91
+  },
+  {
+   "text": "nomads",
+   "start": 111.91,
+   "end": 112.29
+  },
+  {
+   "text": "in",
+   "start": 112.29,
+   "end": 112.42
+  },
+  {
+   "text": "Central",
+   "start": 112.42,
+   "end": 112.88
+  },
+  {
+   "text": "Asia.",
+   "start": 112.88,
+   "end": 113.44
+  },
+  {
+   "text": "His",
+   "start": 113.44,
+   "end": 113.62
+  },
+  {
+   "text": "tomb",
+   "start": 113.62,
+   "end": 113.91
+  },
+  {
+   "text": "still",
+   "start": 113.91,
+   "end": 114.18
+  },
+  {
+   "text": "stands",
+   "start": 114.18,
+   "end": 114.55
+  },
+  {
+   "text": "at",
+   "start": 114.55,
+   "end": 114.66
+  },
+  {
+   "text": "Pessargidae.",
+   "start": 114.66,
+   "end": 115.56
+  },
+  {
+   "text": "His",
+   "start": 115.56,
+   "end": 115.87
+  },
+  {
+   "text": "son",
+   "start": 115.87,
+   "end": 116.18
+  },
+  {
+   "text": "Cambeces",
+   "start": 116.18,
+   "end": 116.99
+  },
+  {
+   "text": "II",
+   "start": 116.99,
+   "end": 117.21
+  },
+  {
+   "text": "conquered",
+   "start": 117.21,
+   "end": 118.12
+  },
+  {
+   "text": "Egypt",
+   "start": 118.12,
+   "end": 118.64
+  },
+  {
+   "text": "in",
+   "start": 118.64,
+   "end": 118.84
+  },
+  {
+   "text": "525",
+   "start": 118.84,
+   "end": 119.77
+  },
+  {
+   "text": "BC.",
+   "start": 119.77,
+   "end": 120.36
+  },
+  {
+   "text": "In",
+   "start": 120.36,
+   "end": 120.52
+  },
+  {
+   "text": "522",
+   "start": 120.52,
+   "end": 121.13
+  },
+  {
+   "text": "BC,",
+   "start": 121.13,
+   "end": 121.43
+  },
+  {
+   "text": "a",
+   "start": 121.43,
+   "end": 121.47
+  },
+  {
+   "text": "distant",
+   "start": 121.47,
+   "end": 122.01
+  },
+  {
+   "text": "relative",
+   "start": 122.01,
+   "end": 122.57
+  },
+  {
+   "text": "named",
+   "start": 122.57,
+   "end": 122.88
+  },
+  {
+   "text": "Darius",
+   "start": 122.88,
+   "end": 123.3
+  },
+  {
+   "text": "took",
+   "start": 123.3,
+   "end": 123.66
+  },
+  {
+   "text": "the",
+   "start": 123.66,
+   "end": 123.79
+  },
+  {
+   "text": "throne.",
+   "start": 123.79,
+   "end": 124.48
+  },
+  {
+   "text": "He",
+   "start": 124.48,
+   "end": 124.62
+  },
+  {
+   "text": "claimed",
+   "start": 124.62,
+   "end": 124.95
+  },
+  {
+   "text": "he",
+   "start": 124.95,
+   "end": 125.13
+  },
+  {
+   "text": "had",
+   "start": 125.13,
+   "end": 125.21
+  },
+  {
+   "text": "killed",
+   "start": 125.21,
+   "end": 125.53
+  },
+  {
+   "text": "an",
+   "start": 125.53,
+   "end": 125.63
+  },
+  {
+   "text": "imposter",
+   "start": 125.63,
+   "end": 126.05
+  },
+  {
+   "text": "posing",
+   "start": 126.05,
+   "end": 126.37
+  },
+  {
+   "text": "as",
+   "start": 126.37,
+   "end": 126.53
+  },
+  {
+   "text": "the",
+   "start": 126.53,
+   "end": 126.63
+  },
+  {
+   "text": "king's",
+   "start": 126.63,
+   "end": 126.94
+  },
+  {
+   "text": "brother.",
+   "start": 126.94,
+   "end": 127.56
+  },
+  {
+   "text": "Many",
+   "start": 127.56,
+   "end": 127.8
+  },
+  {
+   "text": "historians",
+   "start": 127.8,
+   "end": 128.4
+  },
+  {
+   "text": "suspect",
+   "start": 128.4,
+   "end": 128.8
+  },
+  {
+   "text": "Darius",
+   "start": 128.8,
+   "end": 129.16
+  },
+  {
+   "text": "himself",
+   "start": 129.16,
+   "end": 129.59
+  },
+  {
+   "text": "was",
+   "start": 129.59,
+   "end": 129.75
+  },
+  {
+   "text": "the",
+   "start": 129.75,
+   "end": 129.93
+  },
+  {
+   "text": "usurper.",
+   "start": 129.93,
+   "end": 130.56
+  },
+  {
+   "text": "Either",
+   "start": 130.56,
+   "end": 130.89
+  },
+  {
+   "text": "way,",
+   "start": 130.89,
+   "end": 131.27
+  },
+  {
+   "text": "he",
+   "start": 131.27,
+   "end": 131.35
+  },
+  {
+   "text": "carved",
+   "start": 131.35,
+   "end": 131.6
+  },
+  {
+   "text": "his",
+   "start": 131.6,
+   "end": 131.76
+  },
+  {
+   "text": "version",
+   "start": 131.76,
+   "end": 132.15
+  },
+  {
+   "text": "of",
+   "start": 132.15,
+   "end": 132.26
+  },
+  {
+   "text": "events",
+   "start": 132.26,
+   "end": 132.6
+  },
+  {
+   "text": "into",
+   "start": 132.6,
+   "end": 132.81
+  },
+  {
+   "text": "a",
+   "start": 132.81,
+   "end": 132.91
+  },
+  {
+   "text": "cliff",
+   "start": 132.91,
+   "end": 133.18
+  },
+  {
+   "text": "at",
+   "start": 133.18,
+   "end": 133.25
+  },
+  {
+   "text": "Beyhistune",
+   "start": 133.25,
+   "end": 133.79
+  },
+  {
+   "text": "in",
+   "start": 133.79,
+   "end": 133.9
+  },
+  {
+   "text": "three",
+   "start": 133.9,
+   "end": 134.2
+  },
+  {
+   "text": "languages.",
+   "start": 134.2,
+   "end": 135.64
+  },
+  {
+   "text": "Centuries",
+   "start": 135.64,
+   "end": 136.35
+  },
+  {
+   "text": "later,",
+   "start": 136.35,
+   "end": 136.7
+  },
+  {
+   "text": "that",
+   "start": 136.7,
+   "end": 136.9
+  },
+  {
+   "text": "inscription",
+   "start": 136.9,
+   "end": 137.65
+  },
+  {
+   "text": "helped",
+   "start": 137.65,
+   "end": 137.99
+  },
+  {
+   "text": "scholars",
+   "start": 137.99,
+   "end": 138.49
+  },
+  {
+   "text": "decode",
+   "start": 138.49,
+   "end": 138.94
+  },
+  {
+   "text": "Cuneiform.",
+   "start": 138.94,
+   "end": 139.72
+  },
+  {
+   "text": "Later",
+   "start": 139.72,
+   "end": 139.99
+  },
+  {
+   "text": "Darius,",
+   "start": 139.99,
+   "end": 140.43
+  },
+  {
+   "text": "the",
+   "start": 140.43,
+   "end": 140.59
+  },
+  {
+   "text": "acumenid",
+   "start": 140.59,
+   "end": 141.03
+  },
+  {
+   "text": "empire,",
+   "start": 141.03,
+   "end": 141.57
+  },
+  {
+   "text": "reached",
+   "start": 141.57,
+   "end": 141.85
+  },
+  {
+   "text": "from",
+   "start": 141.85,
+   "end": 142.07
+  },
+  {
+   "text": "Egypt",
+   "start": 142.07,
+   "end": 142.34
+  },
+  {
+   "text": "and",
+   "start": 142.34,
+   "end": 142.5
+  },
+  {
+   "text": "the",
+   "start": 142.5,
+   "end": 142.66
+  },
+  {
+   "text": "Balkans",
+   "start": 142.66,
+   "end": 143.04
+  },
+  {
+   "text": "to",
+   "start": 143.04,
+   "end": 143.16
+  },
+  {
+   "text": "the",
+   "start": 143.16,
+   "end": 143.31
+  },
+  {
+   "text": "Indus",
+   "start": 143.31,
+   "end": 143.58
+  },
+  {
+   "text": "River",
+   "start": 143.58,
+   "end": 143.92
+  },
+  {
+   "text": "in",
+   "start": 143.92,
+   "end": 144.06
+  },
+  {
+   "text": "modern",
+   "start": 144.06,
+   "end": 144.5
+  },
+  {
+   "text": "Pakistan.",
+   "start": 144.5,
+   "end": 145.32
+  },
+  {
+   "text": "He",
+   "start": 145.32,
+   "end": 145.43
+  },
+  {
+   "text": "divided",
+   "start": 145.43,
+   "end": 145.83
+  },
+  {
+   "text": "it",
+   "start": 145.83,
+   "end": 145.94
+  },
+  {
+   "text": "into",
+   "start": 145.94,
+   "end": 146.17
+  },
+  {
+   "text": "provinces",
+   "start": 146.17,
+   "end": 146.69
+  },
+  {
+   "text": "called",
+   "start": 146.69,
+   "end": 147.04
+  },
+  {
+   "text": "Seitrapes,",
+   "start": 147.04,
+   "end": 147.76
+  },
+  {
+   "text": "each",
+   "start": 147.76,
+   "end": 147.89
+  },
+  {
+   "text": "paying",
+   "start": 147.89,
+   "end": 148.23
+  },
+  {
+   "text": "tribute,",
+   "start": 148.23,
+   "end": 148.9
+  },
+  {
+   "text": "and",
+   "start": 148.9,
+   "end": 148.91
+  },
+  {
+   "text": "built",
+   "start": 148.91,
+   "end": 149.21
+  },
+  {
+   "text": "a",
+   "start": 149.21,
+   "end": 149.25
+  },
+  {
+   "text": "royal",
+   "start": 149.25,
+   "end": 149.54
+  },
+  {
+   "text": "road",
+   "start": 149.54,
+   "end": 149.88
+  },
+  {
+   "text": "of",
+   "start": 149.88,
+   "end": 150.03
+  },
+  {
+   "text": "about",
+   "start": 150.03,
+   "end": 150.42
+  },
+  {
+   "text": "2,700",
+   "start": 150.42,
+   "end": 151.5
+  },
+  {
+   "text": "kilometers",
+   "start": 151.5,
+   "end": 152.28
+  },
+  {
+   "text": "from",
+   "start": 152.28,
+   "end": 152.58
+  },
+  {
+   "text": "Sardis",
+   "start": 152.58,
+   "end": 153.05
+  },
+  {
+   "text": "to",
+   "start": 153.05,
+   "end": 153.19
+  },
+  {
+   "text": "Sousa.",
+   "start": 153.19,
+   "end": 153.88
+  },
+  {
+   "text": "Relay",
+   "start": 153.88,
+   "end": 154.21
+  },
+  {
+   "text": "riders",
+   "start": 154.21,
+   "end": 154.65
+  },
+  {
+   "text": "could",
+   "start": 154.65,
+   "end": 154.96
+  },
+  {
+   "text": "carry",
+   "start": 154.96,
+   "end": 155.3
+  },
+  {
+   "text": "a",
+   "start": 155.3,
+   "end": 155.36
+  },
+  {
+   "text": "message",
+   "start": 155.36,
+   "end": 155.84
+  },
+  {
+   "text": "along",
+   "start": 155.84,
+   "end": 156.18
+  },
+  {
+   "text": "it",
+   "start": 156.18,
+   "end": 156.31
+  },
+  {
+   "text": "in",
+   "start": 156.31,
+   "end": 156.44
+  },
+  {
+   "text": "about",
+   "start": 156.44,
+   "end": 156.77
+  },
+  {
+   "text": "nine",
+   "start": 156.77,
+   "end": 157.05
+  },
+  {
+   "text": "days.",
+   "start": 157.05,
+   "end": 157.6
+  },
+  {
+   "text": "He",
+   "start": 157.6,
+   "end": 157.73
+  },
+  {
+   "text": "also",
+   "start": 157.73,
+   "end": 158
+  },
+  {
+   "text": "began",
+   "start": 158,
+   "end": 158.34
+  },
+  {
+   "text": "building",
+   "start": 158.34,
+   "end": 158.9
+  },
+  {
+   "text": "Persepolis.",
+   "start": 158.9,
+   "end": 159.8
+  },
+  {
+   "text": "Clay",
+   "start": 159.8,
+   "end": 160.06
+  },
+  {
+   "text": "tablets",
+   "start": 160.06,
+   "end": 160.52
+  },
+  {
+   "text": "found",
+   "start": 160.52,
+   "end": 160.84
+  },
+  {
+   "text": "there",
+   "start": 160.84,
+   "end": 161.16
+  },
+  {
+   "text": "record",
+   "start": 161.16,
+   "end": 161.54
+  },
+  {
+   "text": "the",
+   "start": 161.54,
+   "end": 161.79
+  },
+  {
+   "text": "rations",
+   "start": 161.79,
+   "end": 162.19
+  },
+  {
+   "text": "paid",
+   "start": 162.19,
+   "end": 162.45
+  },
+  {
+   "text": "to",
+   "start": 162.45,
+   "end": 162.58
+  },
+  {
+   "text": "its",
+   "start": 162.58,
+   "end": 162.87
+  },
+  {
+   "text": "workers,",
+   "start": 162.87,
+   "end": 163.36
+  },
+  {
+   "text": "men",
+   "start": 163.36,
+   "end": 163.55
+  },
+  {
+   "text": "and",
+   "start": 163.55,
+   "end": 163.73
+  },
+  {
+   "text": "women",
+   "start": 163.73,
+   "end": 164.06
+  },
+  {
+   "text": "alike.",
+   "start": 164.06,
+   "end": 164.68
+  },
+  {
+   "text": "The",
+   "start": 164.68,
+   "end": 164.84
+  },
+  {
+   "text": "Greeks",
+   "start": 164.84,
+   "end": 165.17
+  },
+  {
+   "text": "saw",
+   "start": 165.17,
+   "end": 165.33
+  },
+  {
+   "text": "Persia",
+   "start": 165.33,
+   "end": 165.66
+  },
+  {
+   "text": "very",
+   "start": 165.66,
+   "end": 165.87
+  },
+  {
+   "text": "differently.",
+   "start": 165.87,
+   "end": 166.68
+  },
+  {
+   "text": "Athens",
+   "start": 166.68,
+   "end": 167.05
+  },
+  {
+   "text": "had",
+   "start": 167.05,
+   "end": 167.22
+  },
+  {
+   "text": "helped",
+   "start": 167.22,
+   "end": 167.58
+  },
+  {
+   "text": "the",
+   "start": 167.58,
+   "end": 167.76
+  },
+  {
+   "text": "Greek",
+   "start": 167.76,
+   "end": 168.06
+  },
+  {
+   "text": "cities",
+   "start": 168.06,
+   "end": 168.42
+  },
+  {
+   "text": "of",
+   "start": 168.42,
+   "end": 168.54
+  },
+  {
+   "text": "Ionia",
+   "start": 168.54,
+   "end": 168.83
+  },
+  {
+   "text": "rebel,",
+   "start": 168.83,
+   "end": 169.26
+  },
+  {
+   "text": "so",
+   "start": 169.26,
+   "end": 169.38
+  },
+  {
+   "text": "Darius",
+   "start": 169.38,
+   "end": 169.75
+  },
+  {
+   "text": "sent",
+   "start": 169.75,
+   "end": 169.98
+  },
+  {
+   "text": "an",
+   "start": 169.98,
+   "end": 170.1
+  },
+  {
+   "text": "army",
+   "start": 170.1,
+   "end": 170.34
+  },
+  {
+   "text": "to",
+   "start": 170.34,
+   "end": 170.46
+  },
+  {
+   "text": "punish",
+   "start": 170.46,
+   "end": 170.94
+  },
+  {
+   "text": "it.",
+   "start": 170.94,
+   "end": 171.24
+  },
+  {
+   "text": "That",
+   "start": 171.24,
+   "end": 171.52
+  },
+  {
+   "text": "army",
+   "start": 171.52,
+   "end": 171.86
+  },
+  {
+   "text": "lost",
+   "start": 171.86,
+   "end": 172.11
+  },
+  {
+   "text": "at",
+   "start": 172.11,
+   "end": 172.3
+  },
+  {
+   "text": "Marathon",
+   "start": 172.3,
+   "end": 172.84
+  },
+  {
+   "text": "in",
+   "start": 172.84,
+   "end": 172.98
+  },
+  {
+   "text": "490",
+   "start": 172.98,
+   "end": 173.64
+  },
+  {
+   "text": "BC.",
+   "start": 173.64,
+   "end": 174.08
+  },
+  {
+   "text": "Ten",
+   "start": 174.08,
+   "end": 174.27
+  },
+  {
+   "text": "years",
+   "start": 174.27,
+   "end": 174.59
+  },
+  {
+   "text": "later,",
+   "start": 174.59,
+   "end": 175.04
+  },
+  {
+   "text": "his",
+   "start": 175.04,
+   "end": 175.27
+  },
+  {
+   "text": "son",
+   "start": 175.27,
+   "end": 175.42
+  },
+  {
+   "text": "Xerxes",
+   "start": 175.42,
+   "end": 175.8
+  },
+  {
+   "text": "invaded",
+   "start": 175.8,
+   "end": 176.26
+  },
+  {
+   "text": "Greece",
+   "start": 176.26,
+   "end": 176.64
+  },
+  {
+   "text": "with",
+   "start": 176.64,
+   "end": 176.9
+  },
+  {
+   "text": "a",
+   "start": 176.9,
+   "end": 176.96
+  },
+  {
+   "text": "huge",
+   "start": 176.96,
+   "end": 177.21
+  },
+  {
+   "text": "force.",
+   "start": 177.21,
+   "end": 177.8
+  },
+  {
+   "text": "He",
+   "start": 177.8,
+   "end": 177.92
+  },
+  {
+   "text": "won",
+   "start": 177.92,
+   "end": 178.16
+  },
+  {
+   "text": "it",
+   "start": 178.16,
+   "end": 178.23
+  },
+  {
+   "text": "thermopoly",
+   "start": 178.23,
+   "end": 178.99
+  },
+  {
+   "text": "and",
+   "start": 178.99,
+   "end": 179.04
+  },
+  {
+   "text": "burned",
+   "start": 179.04,
+   "end": 179.42
+  },
+  {
+   "text": "Athens,",
+   "start": 179.42,
+   "end": 179.92
+  },
+  {
+   "text": "but",
+   "start": 179.92,
+   "end": 180.2
+  },
+  {
+   "text": "his",
+   "start": 180.2,
+   "end": 180.3
+  },
+  {
+   "text": "fleet",
+   "start": 180.3,
+   "end": 180.61
+  },
+  {
+   "text": "was",
+   "start": 180.61,
+   "end": 180.8
+  },
+  {
+   "text": "crushed",
+   "start": 180.8,
+   "end": 181.24
+  },
+  {
+   "text": "at",
+   "start": 181.24,
+   "end": 181.36
+  },
+  {
+   "text": "Salamis",
+   "start": 181.36,
+   "end": 181.79
+  },
+  {
+   "text": "and",
+   "start": 181.79,
+   "end": 182.12
+  },
+  {
+   "text": "his",
+   "start": 182.12,
+   "end": 182.28
+  },
+  {
+   "text": "army",
+   "start": 182.28,
+   "end": 182.6
+  },
+  {
+   "text": "was",
+   "start": 182.6,
+   "end": 182.85
+  },
+  {
+   "text": "beaten",
+   "start": 182.85,
+   "end": 183.36
+  },
+  {
+   "text": "at",
+   "start": 183.36,
+   "end": 183.53
+  },
+  {
+   "text": "Platea",
+   "start": 183.53,
+   "end": 184.03
+  },
+  {
+   "text": "the",
+   "start": 184.03,
+   "end": 184.28
+  },
+  {
+   "text": "next",
+   "start": 184.28,
+   "end": 184.62
+  },
+  {
+   "text": "year.",
+   "start": 184.62,
+   "end": 185.28
+  },
+  {
+   "text": "Greek",
+   "start": 185.28,
+   "end": 185.58
+  },
+  {
+   "text": "writers",
+   "start": 185.58,
+   "end": 186.01
+  },
+  {
+   "text": "made",
+   "start": 186.01,
+   "end": 186.25
+  },
+  {
+   "text": "it",
+   "start": 186.25,
+   "end": 186.37
+  },
+  {
+   "text": "a",
+   "start": 186.37,
+   "end": 186.43
+  },
+  {
+   "text": "story",
+   "start": 186.43,
+   "end": 186.73
+  },
+  {
+   "text": "of",
+   "start": 186.73,
+   "end": 186.85
+  },
+  {
+   "text": "survival.",
+   "start": 186.85,
+   "end": 187.56
+  },
+  {
+   "text": "Persia",
+   "start": 187.56,
+   "end": 188.01
+  },
+  {
+   "text": "lost",
+   "start": 188.01,
+   "end": 188.37
+  },
+  {
+   "text": "its",
+   "start": 188.37,
+   "end": 188.53
+  },
+  {
+   "text": "foothold",
+   "start": 188.53,
+   "end": 189.23
+  },
+  {
+   "text": "in",
+   "start": 189.23,
+   "end": 189.38
+  },
+  {
+   "text": "Greece,",
+   "start": 189.38,
+   "end": 189.88
+  },
+  {
+   "text": "but",
+   "start": 189.88,
+   "end": 190.1
+  },
+  {
+   "text": "the",
+   "start": 190.1,
+   "end": 190.32
+  },
+  {
+   "text": "empire",
+   "start": 190.32,
+   "end": 190.77
+  },
+  {
+   "text": "lasted",
+   "start": 190.77,
+   "end": 191.22
+  },
+  {
+   "text": "another",
+   "start": 191.22,
+   "end": 191.74
+  },
+  {
+   "text": "150",
+   "start": 191.74,
+   "end": 192.79
+  },
+  {
+   "text": "years.",
+   "start": 192.79,
+   "end": 193.08
+  },
+  {
+   "text": "One",
+   "start": 193.08,
+   "end": 193.31
+  },
+  {
+   "text": "came",
+   "start": 193.31,
+   "end": 193.62
+  },
+  {
+   "text": "Alexander",
+   "start": 193.62,
+   "end": 194.33
+  },
+  {
+   "text": "of",
+   "start": 194.33,
+   "end": 194.47
+  },
+  {
+   "text": "Macedon,",
+   "start": 194.47,
+   "end": 195.16
+  },
+  {
+   "text": "he",
+   "start": 195.16,
+   "end": 195.32
+  },
+  {
+   "text": "crossed",
+   "start": 195.32,
+   "end": 195.85
+  },
+  {
+   "text": "into",
+   "start": 195.85,
+   "end": 196.16
+  },
+  {
+   "text": "Asia",
+   "start": 196.16,
+   "end": 196.47
+  },
+  {
+   "text": "in",
+   "start": 196.47,
+   "end": 196.67
+  },
+  {
+   "text": "334",
+   "start": 196.67,
+   "end": 197.32
+  },
+  {
+   "text": "BC",
+   "start": 197.32,
+   "end": 197.57
+  },
+  {
+   "text": "and",
+   "start": 197.57,
+   "end": 197.74
+  },
+  {
+   "text": "beat",
+   "start": 197.74,
+   "end": 198.01
+  },
+  {
+   "text": "Darius",
+   "start": 198.01,
+   "end": 198.53
+  },
+  {
+   "text": "III",
+   "start": 198.53,
+   "end": 198.8
+  },
+  {
+   "text": "at",
+   "start": 198.8,
+   "end": 198.88
+  },
+  {
+   "text": "Isis",
+   "start": 198.88,
+   "end": 199.28
+  },
+  {
+   "text": "and",
+   "start": 199.28,
+   "end": 199.58
+  },
+  {
+   "text": "then",
+   "start": 199.58,
+   "end": 199.98
+  },
+  {
+   "text": "at",
+   "start": 199.98,
+   "end": 200.18
+  },
+  {
+   "text": "Gomila",
+   "start": 200.18,
+   "end": 200.78
+  },
+  {
+   "text": "in",
+   "start": 200.78,
+   "end": 200.98
+  },
+  {
+   "text": "331",
+   "start": 200.98,
+   "end": 202.09
+  },
+  {
+   "text": "BC.",
+   "start": 202.09,
+   "end": 202.44
+  },
+  {
+   "text": "Darius",
+   "start": 202.44,
+   "end": 202.76
+  },
+  {
+   "text": "fled",
+   "start": 202.76,
+   "end": 202.97
+  },
+  {
+   "text": "east",
+   "start": 202.97,
+   "end": 203.18
+  },
+  {
+   "text": "and",
+   "start": 203.18,
+   "end": 203.34
+  },
+  {
+   "text": "was",
+   "start": 203.34,
+   "end": 203.5
+  },
+  {
+   "text": "murdered",
+   "start": 203.5,
+   "end": 203.92
+  },
+  {
+   "text": "by",
+   "start": 203.92,
+   "end": 204.02
+  },
+  {
+   "text": "one",
+   "start": 204.02,
+   "end": 204.18
+  },
+  {
+   "text": "of",
+   "start": 204.18,
+   "end": 204.28
+  },
+  {
+   "text": "his",
+   "start": 204.28,
+   "end": 204.44
+  },
+  {
+   "text": "own",
+   "start": 204.44,
+   "end": 204.6
+  },
+  {
+   "text": "governors.",
+   "start": 204.6,
+   "end": 205.28
+  },
+  {
+   "text": "In",
+   "start": 205.28,
+   "end": 205.45
+  },
+  {
+   "text": "330",
+   "start": 205.45,
+   "end": 206.24
+  },
+  {
+   "text": "BC,",
+   "start": 206.24,
+   "end": 206.58
+  },
+  {
+   "text": "Persepolis",
+   "start": 206.58,
+   "end": 207.44
+  },
+  {
+   "text": "burned.",
+   "start": 207.44,
+   "end": 208.28
+  },
+  {
+   "text": "Ancient",
+   "start": 208.28,
+   "end": 208.75
+  },
+  {
+   "text": "writers",
+   "start": 208.75,
+   "end": 209.22
+  },
+  {
+   "text": "disagree",
+   "start": 209.22,
+   "end": 209.76
+  },
+  {
+   "text": "on",
+   "start": 209.76,
+   "end": 209.91
+  },
+  {
+   "text": "whether",
+   "start": 209.91,
+   "end": 210.39
+  },
+  {
+   "text": "it",
+   "start": 210.39,
+   "end": 210.49
+  },
+  {
+   "text": "was",
+   "start": 210.49,
+   "end": 210.75
+  },
+  {
+   "text": "a",
+   "start": 210.75,
+   "end": 210.84
+  },
+  {
+   "text": "drunken",
+   "start": 210.84,
+   "end": 211.22
+  },
+  {
+   "text": "accident",
+   "start": 211.22,
+   "end": 211.75
+  },
+  {
+   "text": "or",
+   "start": 211.75,
+   "end": 211.89
+  },
+  {
+   "text": "revenge",
+   "start": 211.89,
+   "end": 212.36
+  },
+  {
+   "text": "for",
+   "start": 212.36,
+   "end": 212.81
+  },
+  {
+   "text": "Athens.",
+   "start": 212.81,
+   "end": 213.28
+  },
+  {
+   "text": "Alexander",
+   "start": 213.28,
+   "end": 213.74
+  },
+  {
+   "text": "kept",
+   "start": 213.74,
+   "end": 213.94
+  },
+  {
+   "text": "Persian",
+   "start": 213.94,
+   "end": 214.3
+  },
+  {
+   "text": "officials,",
+   "start": 214.3,
+   "end": 214.86
+  },
+  {
+   "text": "wore",
+   "start": 214.86,
+   "end": 215.09
+  },
+  {
+   "text": "Persian",
+   "start": 215.09,
+   "end": 215.42
+  },
+  {
+   "text": "clothes",
+   "start": 215.42,
+   "end": 215.78
+  },
+  {
+   "text": "and",
+   "start": 215.78,
+   "end": 215.93
+  },
+  {
+   "text": "married",
+   "start": 215.93,
+   "end": 216.29
+  },
+  {
+   "text": "a",
+   "start": 216.29,
+   "end": 216.35
+  },
+  {
+   "text": "Bactrian",
+   "start": 216.35,
+   "end": 216.74
+  },
+  {
+   "text": "princess",
+   "start": 216.74,
+   "end": 217.24
+  },
+  {
+   "text": "named",
+   "start": 217.24,
+   "end": 217.52
+  },
+  {
+   "text": "Roxana.",
+   "start": 217.52,
+   "end": 218.52
+  },
+  {
+   "text": "He",
+   "start": 218.52,
+   "end": 218.73
+  },
+  {
+   "text": "died",
+   "start": 218.73,
+   "end": 219.16
+  },
+  {
+   "text": "in",
+   "start": 219.16,
+   "end": 219.37
+  },
+  {
+   "text": "Babylon",
+   "start": 219.37,
+   "end": 220.12
+  },
+  {
+   "text": "in",
+   "start": 220.12,
+   "end": 220.33
+  },
+  {
+   "text": "323",
+   "start": 220.33,
+   "end": 221.29
+  },
+  {
+   "text": "BC",
+   "start": 221.29,
+   "end": 221.5
+  },
+  {
+   "text": "at",
+   "start": 221.5,
+   "end": 221.71
+  },
+  {
+   "text": "32.",
+   "start": 221.71,
+   "end": 222.72
+  },
+  {
+   "text": "After",
+   "start": 222.72,
+   "end": 223.1
+  },
+  {
+   "text": "Alexander,",
+   "start": 223.1,
+   "end": 223.96
+  },
+  {
+   "text": "his",
+   "start": 223.96,
+   "end": 224.17
+  },
+  {
+   "text": "general",
+   "start": 224.17,
+   "end": 224.72
+  },
+  {
+   "text": "Selechus",
+   "start": 224.72,
+   "end": 225.28
+  },
+  {
+   "text": "took",
+   "start": 225.28,
+   "end": 225.84
+  },
+  {
+   "text": "most",
+   "start": 225.84,
+   "end": 225.84
+  },
+  {
+   "text": "of",
+   "start": 225.84,
+   "end": 226.21
+  },
+  {
+   "text": "Iran.",
+   "start": 226.21,
+   "end": 226.48
+  },
+  {
+   "text": "Around",
+   "start": 226.48,
+   "end": 226.9
+  },
+  {
+   "text": "238",
+   "start": 226.9,
+   "end": 227.54
+  },
+  {
+   "text": "BC,",
+   "start": 227.54,
+   "end": 227.89
+  },
+  {
+   "text": "a",
+   "start": 227.89,
+   "end": 227.94
+  },
+  {
+   "text": "nomad",
+   "start": 227.94,
+   "end": 228.24
+  },
+  {
+   "text": "chief",
+   "start": 228.24,
+   "end": 228.59
+  },
+  {
+   "text": "named",
+   "start": 228.59,
+   "end": 228.94
+  },
+  {
+   "text": "Arca",
+   "start": 228.94,
+   "end": 229.22
+  },
+  {
+   "text": "C's",
+   "start": 229.22,
+   "end": 229.43
+  },
+  {
+   "text": "seized",
+   "start": 229.43,
+   "end": 229.93
+  },
+  {
+   "text": "the",
+   "start": 229.93,
+   "end": 230.06
+  },
+  {
+   "text": "province",
+   "start": 230.06,
+   "end": 230.63
+  },
+  {
+   "text": "of",
+   "start": 230.63,
+   "end": 230.77
+  },
+  {
+   "text": "Parthia,",
+   "start": 230.77,
+   "end": 231.65
+  },
+  {
+   "text": "southeast",
+   "start": 231.65,
+   "end": 232.12
+  },
+  {
+   "text": "of",
+   "start": 232.12,
+   "end": 232.3
+  },
+  {
+   "text": "the",
+   "start": 232.3,
+   "end": 232.49
+  },
+  {
+   "text": "Caspian",
+   "start": 232.49,
+   "end": 233
+  },
+  {
+   "text": "Sea.",
+   "start": 233,
+   "end": 233.48
+  },
+  {
+   "text": "His",
+   "start": 233.48,
+   "end": 233.65
+  },
+  {
+   "text": "successors,",
+   "start": 233.65,
+   "end": 234.34
+  },
+  {
+   "text": "the",
+   "start": 234.34,
+   "end": 234.53
+  },
+  {
+   "text": "Parthians,",
+   "start": 234.53,
+   "end": 235.13
+  },
+  {
+   "text": "took",
+   "start": 235.13,
+   "end": 235.38
+  },
+  {
+   "text": "the",
+   "start": 235.38,
+   "end": 235.53
+  },
+  {
+   "text": "whole",
+   "start": 235.53,
+   "end": 235.82
+  },
+  {
+   "text": "Iranian",
+   "start": 235.82,
+   "end": 236.25
+  },
+  {
+   "text": "plateau",
+   "start": 236.25,
+   "end": 236.64
+  },
+  {
+   "text": "and",
+   "start": 236.64,
+   "end": 236.81
+  },
+  {
+   "text": "Mesopotamia",
+   "start": 236.81,
+   "end": 237.44
+  },
+  {
+   "text": "and",
+   "start": 237.44,
+   "end": 237.68
+  },
+  {
+   "text": "later",
+   "start": 237.68,
+   "end": 238
+  },
+  {
+   "text": "ruled",
+   "start": 238,
+   "end": 238.38
+  },
+  {
+   "text": "from",
+   "start": 238.38,
+   "end": 238.69
+  },
+  {
+   "text": "Tessiphon",
+   "start": 238.69,
+   "end": 239.37
+  },
+  {
+   "text": "on",
+   "start": 239.37,
+   "end": 239.52
+  },
+  {
+   "text": "the",
+   "start": 239.52,
+   "end": 239.75
+  },
+  {
+   "text": "Tigris",
+   "start": 239.75,
+   "end": 240.21
+  },
+  {
+   "text": "River.",
+   "start": 240.21,
+   "end": 240.88
+  },
+  {
+   "text": "Their",
+   "start": 240.88,
+   "end": 241.15
+  },
+  {
+   "text": "weapon",
+   "start": 241.15,
+   "end": 241.48
+  },
+  {
+   "text": "was",
+   "start": 241.48,
+   "end": 241.64
+  },
+  {
+   "text": "the",
+   "start": 241.64,
+   "end": 241.8
+  },
+  {
+   "text": "horse",
+   "start": 241.8,
+   "end": 242.07
+  },
+  {
+   "text": "archer.",
+   "start": 242.07,
+   "end": 242.6
+  },
+  {
+   "text": "In",
+   "start": 242.6,
+   "end": 242.73
+  },
+  {
+   "text": "53",
+   "start": 242.73,
+   "end": 243.12
+  },
+  {
+   "text": "BC,",
+   "start": 243.12,
+   "end": 243.43
+  },
+  {
+   "text": "the",
+   "start": 243.43,
+   "end": 243.57
+  },
+  {
+   "text": "Roman",
+   "start": 243.57,
+   "end": 243.89
+  },
+  {
+   "text": "general",
+   "start": 243.89,
+   "end": 244.34
+  },
+  {
+   "text": "Crassus,",
+   "start": 244.34,
+   "end": 244.92
+  },
+  {
+   "text": "the",
+   "start": 244.92,
+   "end": 245.11
+  },
+  {
+   "text": "richest",
+   "start": 245.11,
+   "end": 245.56
+  },
+  {
+   "text": "man",
+   "start": 245.56,
+   "end": 245.75
+  },
+  {
+   "text": "in",
+   "start": 245.75,
+   "end": 245.88
+  },
+  {
+   "text": "Rome,",
+   "start": 245.88,
+   "end": 246.27
+  },
+  {
+   "text": "invaded",
+   "start": 246.27,
+   "end": 246.72
+  },
+  {
+   "text": "Mesopotamia.",
+   "start": 246.72,
+   "end": 247.68
+  },
+  {
+   "text": "At",
+   "start": 247.68,
+   "end": 247.81
+  },
+  {
+   "text": "Kari,",
+   "start": 247.81,
+   "end": 248.34
+  },
+  {
+   "text": "Parthian",
+   "start": 248.34,
+   "end": 248.73
+  },
+  {
+   "text": "archers",
+   "start": 248.73,
+   "end": 249.2
+  },
+  {
+   "text": "shot",
+   "start": 249.2,
+   "end": 249.47
+  },
+  {
+   "text": "his",
+   "start": 249.47,
+   "end": 249.67
+  },
+  {
+   "text": "legions",
+   "start": 249.67,
+   "end": 250.14
+  },
+  {
+   "text": "to",
+   "start": 250.14,
+   "end": 250.27
+  },
+  {
+   "text": "pieces.",
+   "start": 250.27,
+   "end": 250.96
+  },
+  {
+   "text": "About",
+   "start": 251.01,
+   "end": 251.21
+  },
+  {
+   "text": "20,000",
+   "start": 251.21,
+   "end": 252.07
+  },
+  {
+   "text": "Romans",
+   "start": 252.07,
+   "end": 252.37
+  },
+  {
+   "text": "were",
+   "start": 252.37,
+   "end": 252.75
+  },
+  {
+   "text": "killed",
+   "start": 252.75,
+   "end": 252.89
+  },
+  {
+   "text": "and",
+   "start": 252.89,
+   "end": 253.02
+  },
+  {
+   "text": "10,000",
+   "start": 253.02,
+   "end": 253.87
+  },
+  {
+   "text": "captured.",
+   "start": 253.87,
+   "end": 254.52
+  },
+  {
+   "text": "Crassus",
+   "start": 254.52,
+   "end": 254.88
+  },
+  {
+   "text": "died",
+   "start": 254.88,
+   "end": 255.09
+  },
+  {
+   "text": "during",
+   "start": 255.09,
+   "end": 255.42
+  },
+  {
+   "text": "a",
+   "start": 255.42,
+   "end": 255.46
+  },
+  {
+   "text": "parley,",
+   "start": 255.46,
+   "end": 256.04
+  },
+  {
+   "text": "and",
+   "start": 256.04,
+   "end": 256.07
+  },
+  {
+   "text": "according",
+   "start": 256.07,
+   "end": 256.53
+  },
+  {
+   "text": "to",
+   "start": 256.53,
+   "end": 256.68
+  },
+  {
+   "text": "Plutarch,",
+   "start": 256.68,
+   "end": 257.21
+  },
+  {
+   "text": "his",
+   "start": 257.21,
+   "end": 257.3
+  },
+  {
+   "text": "head",
+   "start": 257.3,
+   "end": 257.51
+  },
+  {
+   "text": "was",
+   "start": 257.51,
+   "end": 257.67
+  },
+  {
+   "text": "used",
+   "start": 257.67,
+   "end": 257.89
+  },
+  {
+   "text": "as",
+   "start": 257.89,
+   "end": 257.98
+  },
+  {
+   "text": "a",
+   "start": 257.98,
+   "end": 258.03
+  },
+  {
+   "text": "prop",
+   "start": 258.03,
+   "end": 258.42
+  },
+  {
+   "text": "in",
+   "start": 258.42,
+   "end": 258.52
+  },
+  {
+   "text": "a",
+   "start": 258.52,
+   "end": 258.59
+  },
+  {
+   "text": "Greek",
+   "start": 258.59,
+   "end": 258.97
+  },
+  {
+   "text": "play",
+   "start": 258.97,
+   "end": 259.27
+  },
+  {
+   "text": "at",
+   "start": 259.27,
+   "end": 259.42
+  },
+  {
+   "text": "the",
+   "start": 259.42,
+   "end": 259.65
+  },
+  {
+   "text": "Parthian",
+   "start": 259.65,
+   "end": 260.64
+  },
+  {
+   "text": "court.",
+   "start": 260.64,
+   "end": 260.92
+  },
+  {
+   "text": "For",
+   "start": 260.92,
+   "end": 261.12
+  },
+  {
+   "text": "the",
+   "start": 261.12,
+   "end": 261.36
+  },
+  {
+   "text": "next",
+   "start": 261.36,
+   "end": 261.65
+  },
+  {
+   "text": "three",
+   "start": 261.65,
+   "end": 261.91
+  },
+  {
+   "text": "centuries,",
+   "start": 261.91,
+   "end": 262.63
+  },
+  {
+   "text": "Roman",
+   "start": 262.63,
+   "end": 262.96
+  },
+  {
+   "text": "Parthia",
+   "start": 262.96,
+   "end": 263.42
+  },
+  {
+   "text": "fought",
+   "start": 263.42,
+   "end": 263.82
+  },
+  {
+   "text": "over",
+   "start": 263.82,
+   "end": 264.08
+  },
+  {
+   "text": "Armenia",
+   "start": 264.08,
+   "end": 264.54
+  },
+  {
+   "text": "and",
+   "start": 264.54,
+   "end": 264.74
+  },
+  {
+   "text": "Mesopotamia.",
+   "start": 264.74,
+   "end": 265.72
+  },
+  {
+   "text": "Roman",
+   "start": 265.72,
+   "end": 266.05
+  },
+  {
+   "text": "armies",
+   "start": 266.05,
+   "end": 266.49
+  },
+  {
+   "text": "sacked",
+   "start": 266.49,
+   "end": 266.85
+  },
+  {
+   "text": "Tessiphon",
+   "start": 266.85,
+   "end": 267.44
+  },
+  {
+   "text": "three",
+   "start": 267.44,
+   "end": 267.89
+  },
+  {
+   "text": "times,",
+   "start": 267.89,
+   "end": 268.23
+  },
+  {
+   "text": "but",
+   "start": 268.23,
+   "end": 268.43
+  },
+  {
+   "text": "never",
+   "start": 268.43,
+   "end": 268.76
+  },
+  {
+   "text": "held",
+   "start": 268.76,
+   "end": 269.03
+  },
+  {
+   "text": "the",
+   "start": 269.03,
+   "end": 269.7
+  },
+  {
+   "text": "plateau.",
+   "start": 269.7,
+   "end": 270
+  },
+  {
+   "text": "In",
+   "start": 270,
+   "end": 270.17
+  },
+  {
+   "text": "224",
+   "start": 270.17,
+   "end": 270.78
+  },
+  {
+   "text": "AD,",
+   "start": 270.78,
+   "end": 271.06
+  },
+  {
+   "text": "a",
+   "start": 271.06,
+   "end": 271.13
+  },
+  {
+   "text": "local",
+   "start": 271.13,
+   "end": 271.49
+  },
+  {
+   "text": "ruler",
+   "start": 271.49,
+   "end": 271.83
+  },
+  {
+   "text": "of",
+   "start": 271.83,
+   "end": 271.97
+  },
+  {
+   "text": "Persis",
+   "start": 271.97,
+   "end": 272.4
+  },
+  {
+   "text": "named",
+   "start": 272.4,
+   "end": 272.74
+  },
+  {
+   "text": "Artashir",
+   "start": 272.74,
+   "end": 273.29
+  },
+  {
+   "text": "killed",
+   "start": 273.29,
+   "end": 273.82
+  },
+  {
+   "text": "the",
+   "start": 273.82,
+   "end": 274.03
+  },
+  {
+   "text": "last",
+   "start": 274.03,
+   "end": 274.22
+  },
+  {
+   "text": "Parthian",
+   "start": 274.22,
+   "end": 274.78
+  },
+  {
+   "text": "king",
+   "start": 274.78,
+   "end": 275.06
+  },
+  {
+   "text": "in",
+   "start": 275.06,
+   "end": 275.32
+  },
+  {
+   "text": "battle",
+   "start": 275.32,
+   "end": 276
+  },
+  {
+   "text": "and",
+   "start": 276,
+   "end": 276.08
+  },
+  {
+   "text": "founded",
+   "start": 276.08,
+   "end": 276.55
+  },
+  {
+   "text": "a",
+   "start": 276.55,
+   "end": 276.61
+  },
+  {
+   "text": "new",
+   "start": 276.61,
+   "end": 276.81
+  },
+  {
+   "text": "dynasty,",
+   "start": 276.81,
+   "end": 277.55
+  },
+  {
+   "text": "the",
+   "start": 277.55,
+   "end": 277.61
+  },
+  {
+   "text": "Sassanians,",
+   "start": 277.61,
+   "end": 278.65
+  },
+  {
+   "text": "they",
+   "start": 278.65,
+   "end": 278.65
+  },
+  {
+   "text": "saw",
+   "start": 278.65,
+   "end": 278.85
+  },
+  {
+   "text": "themselves",
+   "start": 278.85,
+   "end": 279.54
+  },
+  {
+   "text": "as",
+   "start": 279.54,
+   "end": 279.65
+  },
+  {
+   "text": "heirs",
+   "start": 279.65,
+   "end": 279.98
+  },
+  {
+   "text": "of",
+   "start": 279.98,
+   "end": 280.11
+  },
+  {
+   "text": "Cyrus",
+   "start": 280.11,
+   "end": 280.44
+  },
+  {
+   "text": "and",
+   "start": 280.44,
+   "end": 280.64
+  },
+  {
+   "text": "Darius,",
+   "start": 280.64,
+   "end": 281.36
+  },
+  {
+   "text": "and",
+   "start": 281.36,
+   "end": 281.57
+  },
+  {
+   "text": "made",
+   "start": 281.57,
+   "end": 281.85
+  },
+  {
+   "text": "Zoroastrianism,",
+   "start": 281.85,
+   "end": 282.97
+  },
+  {
+   "text": "Iran's",
+   "start": 282.97,
+   "end": 283.39
+  },
+  {
+   "text": "ancient",
+   "start": 283.39,
+   "end": 283.88
+  },
+  {
+   "text": "religion,",
+   "start": 283.88,
+   "end": 284.58
+  },
+  {
+   "text": "the",
+   "start": 284.58,
+   "end": 284.79
+  },
+  {
+   "text": "Faith",
+   "start": 284.79,
+   "end": 285.14
+  },
+  {
+   "text": "of",
+   "start": 285.14,
+   "end": 285.49
+  },
+  {
+   "text": "the",
+   "start": 285.49,
+   "end": 285.49
+  },
+  {
+   "text": "State.",
+   "start": 285.49,
+   "end": 286.1
+  },
+  {
+   "text": "His",
+   "start": 286.1,
+   "end": 286.33
+  },
+  {
+   "text": "son",
+   "start": 286.33,
+   "end": 286.56
+  },
+  {
+   "text": "Shapur",
+   "start": 286.56,
+   "end": 287.03
+  },
+  {
+   "text": "I",
+   "start": 287.03,
+   "end": 287.08
+  },
+  {
+   "text": "did",
+   "start": 287.08,
+   "end": 287.32
+  },
+  {
+   "text": "something",
+   "start": 287.32,
+   "end": 288
+  },
+  {
+   "text": "no",
+   "start": 288,
+   "end": 288.15
+  },
+  {
+   "text": "enemy",
+   "start": 288.15,
+   "end": 288.53
+  },
+  {
+   "text": "of",
+   "start": 288.53,
+   "end": 288.68
+  },
+  {
+   "text": "Rome",
+   "start": 288.68,
+   "end": 288.98
+  },
+  {
+   "text": "had",
+   "start": 288.98,
+   "end": 289.21
+  },
+  {
+   "text": "ever",
+   "start": 289.21,
+   "end": 289.51
+  },
+  {
+   "text": "done.",
+   "start": 289.51,
+   "end": 290.12
+  },
+  {
+   "text": "In",
+   "start": 290.12,
+   "end": 290.24
+  },
+  {
+   "text": "260,",
+   "start": 290.24,
+   "end": 290.97
+  },
+  {
+   "text": "he",
+   "start": 290.97,
+   "end": 291.02
+  },
+  {
+   "text": "defeated",
+   "start": 291.02,
+   "end": 291.5
+  },
+  {
+   "text": "the",
+   "start": 291.5,
+   "end": 291.68
+  },
+  {
+   "text": "Roman",
+   "start": 291.68,
+   "end": 291.98
+  },
+  {
+   "text": "army",
+   "start": 291.98,
+   "end": 292.22
+  },
+  {
+   "text": "near",
+   "start": 292.22,
+   "end": 292.46
+  },
+  {
+   "text": "Odessa",
+   "start": 292.46,
+   "end": 292.96
+  },
+  {
+   "text": "and",
+   "start": 292.96,
+   "end": 293
+  },
+  {
+   "text": "captured",
+   "start": 293,
+   "end": 293.48
+  },
+  {
+   "text": "the",
+   "start": 293.48,
+   "end": 293.66
+  },
+  {
+   "text": "emperor",
+   "start": 293.66,
+   "end": 294.08
+  },
+  {
+   "text": "Valerian",
+   "start": 294.08,
+   "end": 294.56
+  },
+  {
+   "text": "alive.",
+   "start": 294.56,
+   "end": 295.12
+  },
+  {
+   "text": "Valerian",
+   "start": 295.12,
+   "end": 295.58
+  },
+  {
+   "text": "died",
+   "start": 295.58,
+   "end": 295.82
+  },
+  {
+   "text": "a",
+   "start": 295.82,
+   "end": 295.95
+  },
+  {
+   "text": "prisoner.",
+   "start": 295.95,
+   "end": 296.56
+  },
+  {
+   "text": "Shapur",
+   "start": 296.56,
+   "end": 296.92
+  },
+  {
+   "text": "had",
+   "start": 296.92,
+   "end": 297.1
+  },
+  {
+   "text": "the",
+   "start": 297.1,
+   "end": 297.28
+  },
+  {
+   "text": "scene",
+   "start": 297.28,
+   "end": 297.59
+  },
+  {
+   "text": "carved",
+   "start": 297.59,
+   "end": 297.96
+  },
+  {
+   "text": "into",
+   "start": 297.96,
+   "end": 298.24
+  },
+  {
+   "text": "a",
+   "start": 298.24,
+   "end": 298.26
+  },
+  {
+   "text": "cliff",
+   "start": 298.26,
+   "end": 298.57
+  },
+  {
+   "text": "at",
+   "start": 298.57,
+   "end": 298.69
+  },
+  {
+   "text": "Naxi-Rostum,",
+   "start": 298.69,
+   "end": 299.47
+  },
+  {
+   "text": "next",
+   "start": 299.47,
+   "end": 299.74
+  },
+  {
+   "text": "to",
+   "start": 299.74,
+   "end": 299.83
+  },
+  {
+   "text": "the",
+   "start": 299.83,
+   "end": 300.01
+  },
+  {
+   "text": "tombs",
+   "start": 300.01,
+   "end": 300.31
+  },
+  {
+   "text": "of",
+   "start": 300.31,
+   "end": 300.43
+  },
+  {
+   "text": "the",
+   "start": 300.43,
+   "end": 300.61
+  },
+  {
+   "text": "Aquamanid",
+   "start": 300.61,
+   "end": 301.28
+  },
+  {
+   "text": "kings.",
+   "start": 301.28,
+   "end": 302.16
+  },
+  {
+   "text": "It",
+   "start": 302.16,
+   "end": 302.39
+  },
+  {
+   "text": "is",
+   "start": 302.39,
+   "end": 302.52
+  },
+  {
+   "text": "still",
+   "start": 302.52,
+   "end": 303.46
+  },
+  {
+   "text": "there.",
+   "start": 303.46,
+   "end": 303.76
+  },
+  {
+   "text": "The",
+   "start": 303.76,
+   "end": 303.95
+  },
+  {
+   "text": "Sassanians",
+   "start": 303.95,
+   "end": 304.57
+  },
+  {
+   "text": "ruled",
+   "start": 304.57,
+   "end": 304.88
+  },
+  {
+   "text": "for",
+   "start": 304.88,
+   "end": 305.07
+  },
+  {
+   "text": "more",
+   "start": 305.07,
+   "end": 305.32
+  },
+  {
+   "text": "than",
+   "start": 305.32,
+   "end": 305.57
+  },
+  {
+   "text": "400",
+   "start": 305.57,
+   "end": 306.14
+  },
+  {
+   "text": "years.",
+   "start": 306.14,
+   "end": 306.68
+  },
+  {
+   "text": "Under",
+   "start": 306.68,
+   "end": 307.02
+  },
+  {
+   "text": "Kosro",
+   "start": 307.02,
+   "end": 307.41
+  },
+  {
+   "text": "I",
+   "start": 307.41,
+   "end": 307.44
+  },
+  {
+   "text": "in",
+   "start": 307.44,
+   "end": 307.54
+  },
+  {
+   "text": "the",
+   "start": 307.54,
+   "end": 307.74
+  },
+  {
+   "text": "6th",
+   "start": 307.74,
+   "end": 308.06
+  },
+  {
+   "text": "century,",
+   "start": 308.06,
+   "end": 308.67
+  },
+  {
+   "text": "books",
+   "start": 308.67,
+   "end": 309.11
+  },
+  {
+   "text": "were",
+   "start": 309.11,
+   "end": 309.29
+  },
+  {
+   "text": "translated",
+   "start": 309.29,
+   "end": 310.02
+  },
+  {
+   "text": "from",
+   "start": 310.02,
+   "end": 310.23
+  },
+  {
+   "text": "Greek",
+   "start": 310.23,
+   "end": 310.57
+  },
+  {
+   "text": "and",
+   "start": 310.57,
+   "end": 310.77
+  },
+  {
+   "text": "Sanskrit,",
+   "start": 310.77,
+   "end": 311.52
+  },
+  {
+   "text": "and",
+   "start": 311.52,
+   "end": 311.56
+  },
+  {
+   "text": "according",
+   "start": 311.56,
+   "end": 311.84
+  },
+  {
+   "text": "to",
+   "start": 311.84,
+   "end": 312.01
+  },
+  {
+   "text": "tradition,",
+   "start": 312.01,
+   "end": 312.94
+  },
+  {
+   "text": "chess",
+   "start": 312.94,
+   "end": 313.36
+  },
+  {
+   "text": "arrived",
+   "start": 313.36,
+   "end": 313.95
+  },
+  {
+   "text": "from",
+   "start": 313.95,
+   "end": 314.71
+  },
+  {
+   "text": "India.",
+   "start": 314.71,
+   "end": 315
+  },
+  {
+   "text": "Then",
+   "start": 315,
+   "end": 315.25
+  },
+  {
+   "text": "came",
+   "start": 315.25,
+   "end": 315.5
+  },
+  {
+   "text": "the",
+   "start": 315.5,
+   "end": 315.69
+  },
+  {
+   "text": "last",
+   "start": 315.69,
+   "end": 315.94
+  },
+  {
+   "text": "great",
+   "start": 315.94,
+   "end": 316.25
+  },
+  {
+   "text": "war",
+   "start": 316.25,
+   "end": 316.44
+  },
+  {
+   "text": "with",
+   "start": 316.44,
+   "end": 316.69
+  },
+  {
+   "text": "the",
+   "start": 316.69,
+   "end": 316.88
+  },
+  {
+   "text": "Byzantine",
+   "start": 316.88,
+   "end": 317.44
+  },
+  {
+   "text": "Empire.",
+   "start": 317.44,
+   "end": 318.04
+  },
+  {
+   "text": "Starting",
+   "start": 318.04,
+   "end": 318.6
+  },
+  {
+   "text": "in",
+   "start": 318.6,
+   "end": 318.74
+  },
+  {
+   "text": "602,",
+   "start": 318.74,
+   "end": 319.49
+  },
+  {
+   "text": "the",
+   "start": 319.49,
+   "end": 319.75
+  },
+  {
+   "text": "armies",
+   "start": 319.75,
+   "end": 320.12
+  },
+  {
+   "text": "of",
+   "start": 320.12,
+   "end": 320.26
+  },
+  {
+   "text": "Kosro",
+   "start": 320.26,
+   "end": 320.6
+  },
+  {
+   "text": "II",
+   "start": 320.6,
+   "end": 320.74
+  },
+  {
+   "text": "took",
+   "start": 320.74,
+   "end": 321.02
+  },
+  {
+   "text": "Jerusalem,",
+   "start": 321.02,
+   "end": 321.78
+  },
+  {
+   "text": "conquered",
+   "start": 321.78,
+   "end": 322.49
+  },
+  {
+   "text": "Egypt,",
+   "start": 322.49,
+   "end": 322.89
+  },
+  {
+   "text": "and",
+   "start": 322.89,
+   "end": 323.12
+  },
+  {
+   "text": "in",
+   "start": 323.12,
+   "end": 323.24
+  },
+  {
+   "text": "626",
+   "start": 323.24,
+   "end": 323.86
+  },
+  {
+   "text": "stood",
+   "start": 323.86,
+   "end": 324.28
+  },
+  {
+   "text": "across",
+   "start": 324.28,
+   "end": 324.65
+  },
+  {
+   "text": "the",
+   "start": 324.65,
+   "end": 324.83
+  },
+  {
+   "text": "water",
+   "start": 324.83,
+   "end": 325.13
+  },
+  {
+   "text": "from",
+   "start": 325.13,
+   "end": 325.37
+  },
+  {
+   "text": "Constantinople.",
+   "start": 325.37,
+   "end": 326.44
+  },
+  {
+   "text": "But",
+   "start": 326.44,
+   "end": 326.63
+  },
+  {
+   "text": "the",
+   "start": 326.63,
+   "end": 326.87
+  },
+  {
+   "text": "Byzantine",
+   "start": 326.87,
+   "end": 327.41
+  },
+  {
+   "text": "emperor",
+   "start": 327.41,
+   "end": 327.87
+  },
+  {
+   "text": "Heraclius",
+   "start": 327.87,
+   "end": 328.44
+  },
+  {
+   "text": "struck",
+   "start": 328.44,
+   "end": 328.87
+  },
+  {
+   "text": "back",
+   "start": 328.87,
+   "end": 329.09
+  },
+  {
+   "text": "deep",
+   "start": 329.09,
+   "end": 329.36
+  },
+  {
+   "text": "into",
+   "start": 329.36,
+   "end": 329.63
+  },
+  {
+   "text": "Mesopotamia.",
+   "start": 329.63,
+   "end": 330.6
+  },
+  {
+   "text": "In",
+   "start": 330.6,
+   "end": 330.76
+  },
+  {
+   "text": "628,",
+   "start": 330.76,
+   "end": 331.68
+  },
+  {
+   "text": "Kosro",
+   "start": 331.68,
+   "end": 332.08
+  },
+  {
+   "text": "was",
+   "start": 332.08,
+   "end": 332.33
+  },
+  {
+   "text": "overthrown",
+   "start": 332.33,
+   "end": 333.16
+  },
+  {
+   "text": "and",
+   "start": 333.16,
+   "end": 333.41
+  },
+  {
+   "text": "executed",
+   "start": 333.41,
+   "end": 334.08
+  },
+  {
+   "text": "by",
+   "start": 334.08,
+   "end": 334.23
+  },
+  {
+   "text": "his",
+   "start": 334.23,
+   "end": 334.74
+  },
+  {
+   "text": "own",
+   "start": 334.74,
+   "end": 334.74
+  },
+  {
+   "text": "son.",
+   "start": 334.74,
+   "end": 335.3
+  },
+  {
+   "text": "In",
+   "start": 335.3,
+   "end": 335.41
+  },
+  {
+   "text": "the",
+   "start": 335.41,
+   "end": 335.58
+  },
+  {
+   "text": "next",
+   "start": 335.58,
+   "end": 335.81
+  },
+  {
+   "text": "four",
+   "start": 335.81,
+   "end": 336.04
+  },
+  {
+   "text": "years,",
+   "start": 336.04,
+   "end": 336.58
+  },
+  {
+   "text": "Persia",
+   "start": 336.58,
+   "end": 336.79
+  },
+  {
+   "text": "went",
+   "start": 336.79,
+   "end": 337.08
+  },
+  {
+   "text": "through",
+   "start": 337.08,
+   "end": 337.43
+  },
+  {
+   "text": "a",
+   "start": 337.43,
+   "end": 337.51
+  },
+  {
+   "text": "rapid",
+   "start": 337.51,
+   "end": 337.78
+  },
+  {
+   "text": "series",
+   "start": 337.78,
+   "end": 338.13
+  },
+  {
+   "text": "of",
+   "start": 338.13,
+   "end": 338.24
+  },
+  {
+   "text": "rulers.",
+   "start": 338.24,
+   "end": 338.88
+  },
+  {
+   "text": "By",
+   "start": 338.88,
+   "end": 339.01
+  },
+  {
+   "text": "some",
+   "start": 339.01,
+   "end": 339.25
+  },
+  {
+   "text": "counts",
+   "start": 339.25,
+   "end": 339.63
+  },
+  {
+   "text": "more",
+   "start": 339.63,
+   "end": 339.88
+  },
+  {
+   "text": "than",
+   "start": 339.88,
+   "end": 340.13
+  },
+  {
+   "text": "ten,",
+   "start": 340.13,
+   "end": 340.56
+  },
+  {
+   "text": "both",
+   "start": 340.56,
+   "end": 340.71
+  },
+  {
+   "text": "empires",
+   "start": 340.71,
+   "end": 341.14
+  },
+  {
+   "text": "had",
+   "start": 341.14,
+   "end": 341.33
+  },
+  {
+   "text": "bled",
+   "start": 341.33,
+   "end": 341.57
+  },
+  {
+   "text": "each",
+   "start": 341.57,
+   "end": 341.82
+  },
+  {
+   "text": "other",
+   "start": 341.82,
+   "end": 342.14
+  },
+  {
+   "text": "dry,",
+   "start": 342.14,
+   "end": 342.64
+  },
+  {
+   "text": "just",
+   "start": 342.64,
+   "end": 342.7
+  },
+  {
+   "text": "as",
+   "start": 342.7,
+   "end": 342.86
+  },
+  {
+   "text": "a",
+   "start": 342.86,
+   "end": 342.88
+  },
+  {
+   "text": "new",
+   "start": 342.88,
+   "end": 343.07
+  },
+  {
+   "text": "power",
+   "start": 343.07,
+   "end": 343.52
+  },
+  {
+   "text": "was",
+   "start": 343.52,
+   "end": 343.82
+  },
+  {
+   "text": "rising",
+   "start": 343.82,
+   "end": 344.43
+  },
+  {
+   "text": "in",
+   "start": 344.43,
+   "end": 344.63
+  },
+  {
+   "text": "Arabia.",
+   "start": 344.63,
+   "end": 345.58
+  },
+  {
+   "text": "The",
+   "start": 345.58,
+   "end": 345.77
+  },
+  {
+   "text": "Arab",
+   "start": 345.77,
+   "end": 346.02
+  },
+  {
+   "text": "armies",
+   "start": 346.02,
+   "end": 346.4
+  },
+  {
+   "text": "of",
+   "start": 346.4,
+   "end": 346.52
+  },
+  {
+   "text": "the",
+   "start": 346.52,
+   "end": 346.71
+  },
+  {
+   "text": "new",
+   "start": 346.71,
+   "end": 346.89
+  },
+  {
+   "text": "Muslim",
+   "start": 346.89,
+   "end": 347.28
+  },
+  {
+   "text": "state",
+   "start": 347.28,
+   "end": 347.63
+  },
+  {
+   "text": "attacked",
+   "start": 347.63,
+   "end": 348.11
+  },
+  {
+   "text": "Persia",
+   "start": 348.11,
+   "end": 348.49
+  },
+  {
+   "text": "in",
+   "start": 348.49,
+   "end": 348.61
+  },
+  {
+   "text": "the",
+   "start": 348.61,
+   "end": 348.82
+  },
+  {
+   "text": "630s.",
+   "start": 348.82,
+   "end": 349.68
+  },
+  {
+   "text": "They",
+   "start": 349.68,
+   "end": 349.95
+  },
+  {
+   "text": "won",
+   "start": 349.95,
+   "end": 350.15
+  },
+  {
+   "text": "at",
+   "start": 350.15,
+   "end": 350.28
+  },
+  {
+   "text": "Al-Kadesia,",
+   "start": 350.28,
+   "end": 351.06
+  },
+  {
+   "text": "around",
+   "start": 351.06,
+   "end": 351.47
+  },
+  {
+   "text": "636,",
+   "start": 351.47,
+   "end": 352.45
+  },
+  {
+   "text": "took",
+   "start": 352.45,
+   "end": 352.48
+  },
+  {
+   "text": "Tessiphon,",
+   "start": 352.48,
+   "end": 353.2
+  },
+  {
+   "text": "and",
+   "start": 353.2,
+   "end": 353.52
+  },
+  {
+   "text": "broke",
+   "start": 353.52,
+   "end": 353.74
+  },
+  {
+   "text": "the",
+   "start": 353.74,
+   "end": 353.94
+  },
+  {
+   "text": "last",
+   "start": 353.94,
+   "end": 354.22
+  },
+  {
+   "text": "Sassanian",
+   "start": 354.22,
+   "end": 354.82
+  },
+  {
+   "text": "army",
+   "start": 354.82,
+   "end": 355.24
+  },
+  {
+   "text": "at",
+   "start": 355.24,
+   "end": 355.44
+  },
+  {
+   "text": "Nahavand",
+   "start": 355.44,
+   "end": 356.22
+  },
+  {
+   "text": "in",
+   "start": 356.22,
+   "end": 356.42
+  },
+  {
+   "text": "642.",
+   "start": 356.42,
+   "end": 357.64
+  },
+  {
+   "text": "The",
+   "start": 357.64,
+   "end": 357.87
+  },
+  {
+   "text": "last",
+   "start": 357.87,
+   "end": 358.18
+  },
+  {
+   "text": "Shah,",
+   "start": 358.18,
+   "end": 358.64
+  },
+  {
+   "text": "Yazdagurd",
+   "start": 358.64,
+   "end": 359.32
+  },
+  {
+   "text": "III,",
+   "start": 359.32,
+   "end": 359.73
+  },
+  {
+   "text": "fled",
+   "start": 359.73,
+   "end": 360.01
+  },
+  {
+   "text": "east.",
+   "start": 360.01,
+   "end": 360.64
+  },
+  {
+   "text": "In",
+   "start": 360.64,
+   "end": 360.78
+  },
+  {
+   "text": "651,",
+   "start": 360.78,
+   "end": 361.56
+  },
+  {
+   "text": "he",
+   "start": 361.56,
+   "end": 361.7
+  },
+  {
+   "text": "was",
+   "start": 361.7,
+   "end": 361.91
+  },
+  {
+   "text": "killed",
+   "start": 361.91,
+   "end": 362.33
+  },
+  {
+   "text": "near",
+   "start": 362.33,
+   "end": 362.55
+  },
+  {
+   "text": "Merv.",
+   "start": 362.55,
+   "end": 363.16
+  },
+  {
+   "text": "More",
+   "start": 363.16,
+   "end": 363.48
+  },
+  {
+   "text": "than",
+   "start": 363.48,
+   "end": 363.72
+  },
+  {
+   "text": "a",
+   "start": 363.72,
+   "end": 363.79
+  },
+  {
+   "text": "thousand",
+   "start": 363.79,
+   "end": 364.37
+  },
+  {
+   "text": "years",
+   "start": 364.37,
+   "end": 364.71
+  },
+  {
+   "text": "of",
+   "start": 364.71,
+   "end": 364.85
+  },
+  {
+   "text": "empires",
+   "start": 364.85,
+   "end": 365.35
+  },
+  {
+   "text": "ruled",
+   "start": 365.35,
+   "end": 365.8
+  },
+  {
+   "text": "from",
+   "start": 365.8,
+   "end": 365.98
+  },
+  {
+   "text": "Iran",
+   "start": 365.98,
+   "end": 366.26
+  },
+  {
+   "text": "had",
+   "start": 366.26,
+   "end": 366.82
+  },
+  {
+   "text": "ended.",
+   "start": 366.82,
+   "end": 367.12
+  },
+  {
+   "text": "Iran",
+   "start": 367.12,
+   "end": 367.41
+  },
+  {
+   "text": "became",
+   "start": 367.41,
+   "end": 367.85
+  },
+  {
+   "text": "Muslim",
+   "start": 367.85,
+   "end": 368.29
+  },
+  {
+   "text": "slowly.",
+   "start": 368.29,
+   "end": 368.98
+  },
+  {
+   "text": "For",
+   "start": 368.98,
+   "end": 369.16
+  },
+  {
+   "text": "two",
+   "start": 369.16,
+   "end": 369.41
+  },
+  {
+   "text": "or",
+   "start": 369.41,
+   "end": 369.46
+  },
+  {
+   "text": "three",
+   "start": 369.46,
+   "end": 369.77
+  },
+  {
+   "text": "centuries,",
+   "start": 369.77,
+   "end": 370.43
+  },
+  {
+   "text": "much",
+   "start": 370.43,
+   "end": 370.69
+  },
+  {
+   "text": "of",
+   "start": 370.69,
+   "end": 370.79
+  },
+  {
+   "text": "the",
+   "start": 370.79,
+   "end": 370.97
+  },
+  {
+   "text": "population",
+   "start": 370.97,
+   "end": 371.58
+  },
+  {
+   "text": "stayed",
+   "start": 371.58,
+   "end": 371.95
+  },
+  {
+   "text": "Zoroastrian,",
+   "start": 371.95,
+   "end": 372.77
+  },
+  {
+   "text": "Christian",
+   "start": 372.77,
+   "end": 373.28
+  },
+  {
+   "text": "or",
+   "start": 373.28,
+   "end": 373.4
+  },
+  {
+   "text": "Jewish.",
+   "start": 373.4,
+   "end": 374.04
+  },
+  {
+   "text": "Some",
+   "start": 374.04,
+   "end": 374.28
+  },
+  {
+   "text": "Zoroastrians",
+   "start": 374.28,
+   "end": 375
+  },
+  {
+   "text": "left",
+   "start": 375,
+   "end": 375.24
+  },
+  {
+   "text": "for",
+   "start": 375.24,
+   "end": 375.42
+  },
+  {
+   "text": "India,",
+   "start": 375.42,
+   "end": 375.84
+  },
+  {
+   "text": "where",
+   "start": 375.84,
+   "end": 376.14
+  },
+  {
+   "text": "their",
+   "start": 376.14,
+   "end": 376.44
+  },
+  {
+   "text": "descendants",
+   "start": 376.44,
+   "end": 377.12
+  },
+  {
+   "text": "are",
+   "start": 377.12,
+   "end": 377.29
+  },
+  {
+   "text": "known",
+   "start": 377.29,
+   "end": 377.59
+  },
+  {
+   "text": "as",
+   "start": 377.59,
+   "end": 377.89
+  },
+  {
+   "text": "the",
+   "start": 377.89,
+   "end": 377.89
+  },
+  {
+   "text": "Parsis.",
+   "start": 377.89,
+   "end": 378.52
+  },
+  {
+   "text": "But",
+   "start": 378.52,
+   "end": 378.69
+  },
+  {
+   "text": "Persians",
+   "start": 378.69,
+   "end": 379.15
+  },
+  {
+   "text": "did",
+   "start": 379.15,
+   "end": 379.32
+  },
+  {
+   "text": "not",
+   "start": 379.32,
+   "end": 379.49
+  },
+  {
+   "text": "disappear",
+   "start": 379.49,
+   "end": 380
+  },
+  {
+   "text": "into",
+   "start": 380,
+   "end": 380.23
+  },
+  {
+   "text": "the",
+   "start": 380.23,
+   "end": 380.4
+  },
+  {
+   "text": "new",
+   "start": 380.4,
+   "end": 380.57
+  },
+  {
+   "text": "empire.",
+   "start": 380.57,
+   "end": 381.12
+  },
+  {
+   "text": "They",
+   "start": 381.12,
+   "end": 381.35
+  },
+  {
+   "text": "ran",
+   "start": 381.35,
+   "end": 381.52
+  },
+  {
+   "text": "much",
+   "start": 381.52,
+   "end": 381.75
+  },
+  {
+   "text": "of",
+   "start": 381.75,
+   "end": 381.86
+  },
+  {
+   "text": "its",
+   "start": 381.86,
+   "end": 382.03
+  },
+  {
+   "text": "administration.",
+   "start": 382.03,
+   "end": 383.08
+  },
+  {
+   "text": "In",
+   "start": 383.08,
+   "end": 383.18
+  },
+  {
+   "text": "750,",
+   "start": 383.18,
+   "end": 383.83
+  },
+  {
+   "text": "a",
+   "start": 383.83,
+   "end": 383.89
+  },
+  {
+   "text": "revolt",
+   "start": 383.89,
+   "end": 384.24
+  },
+  {
+   "text": "that",
+   "start": 384.24,
+   "end": 384.47
+  },
+  {
+   "text": "began",
+   "start": 384.47,
+   "end": 384.76
+  },
+  {
+   "text": "in",
+   "start": 384.76,
+   "end": 384.87
+  },
+  {
+   "text": "Coruscant,",
+   "start": 384.87,
+   "end": 385.58
+  },
+  {
+   "text": "in",
+   "start": 385.58,
+   "end": 385.6
+  },
+  {
+   "text": "eastern",
+   "start": 385.6,
+   "end": 386.01
+  },
+  {
+   "text": "Iran,",
+   "start": 386.01,
+   "end": 386.35
+  },
+  {
+   "text": "brought",
+   "start": 386.35,
+   "end": 386.82
+  },
+  {
+   "text": "the",
+   "start": 386.82,
+   "end": 387
+  },
+  {
+   "text": "Abbasid",
+   "start": 387,
+   "end": 387.33
+  },
+  {
+   "text": "dynasty",
+   "start": 387.33,
+   "end": 387.92
+  },
+  {
+   "text": "to",
+   "start": 387.92,
+   "end": 388.06
+  },
+  {
+   "text": "power,",
+   "start": 388.06,
+   "end": 388.65
+  },
+  {
+   "text": "and",
+   "start": 388.65,
+   "end": 388.72
+  },
+  {
+   "text": "the",
+   "start": 388.72,
+   "end": 388.83
+  },
+  {
+   "text": "Abbasids",
+   "start": 388.83,
+   "end": 389.32
+  },
+  {
+   "text": "built",
+   "start": 389.32,
+   "end": 389.63
+  },
+  {
+   "text": "their",
+   "start": 389.63,
+   "end": 389.97
+  },
+  {
+   "text": "new",
+   "start": 389.97,
+   "end": 390.12
+  },
+  {
+   "text": "capital,",
+   "start": 390.12,
+   "end": 390.67
+  },
+  {
+   "text": "Baghdad,",
+   "start": 390.67,
+   "end": 391.37
+  },
+  {
+   "text": "about",
+   "start": 391.37,
+   "end": 391.53
+  },
+  {
+   "text": "35",
+   "start": 391.53,
+   "end": 391.9
+  },
+  {
+   "text": "kilometers",
+   "start": 391.9,
+   "end": 392.52
+  },
+  {
+   "text": "from",
+   "start": 392.52,
+   "end": 392.84
+  },
+  {
+   "text": "the",
+   "start": 392.84,
+   "end": 393.14
+  },
+  {
+   "text": "ruins",
+   "start": 393.14,
+   "end": 393.67
+  },
+  {
+   "text": "of",
+   "start": 393.67,
+   "end": 393.84
+  },
+  {
+   "text": "Tessiphon.",
+   "start": 393.84,
+   "end": 395.04
+  },
+  {
+   "text": "Persian",
+   "start": 395.04,
+   "end": 395.43
+  },
+  {
+   "text": "scholars",
+   "start": 395.43,
+   "end": 395.95
+  },
+  {
+   "text": "shaped",
+   "start": 395.95,
+   "end": 396.22
+  },
+  {
+   "text": "the",
+   "start": 396.22,
+   "end": 396.39
+  },
+  {
+   "text": "Islamic",
+   "start": 396.39,
+   "end": 396.78
+  },
+  {
+   "text": "Golden",
+   "start": 396.78,
+   "end": 397.12
+  },
+  {
+   "text": "Age.",
+   "start": 397.12,
+   "end": 397.48
+  },
+  {
+   "text": "Al-Kwadizmi",
+   "start": 397.48,
+   "end": 398.14
+  },
+  {
+   "text": "gave",
+   "start": 398.14,
+   "end": 398.38
+  },
+  {
+   "text": "his",
+   "start": 398.38,
+   "end": 398.56
+  },
+  {
+   "text": "name",
+   "start": 398.56,
+   "end": 398.8
+  },
+  {
+   "text": "to",
+   "start": 398.8,
+   "end": 398.92
+  },
+  {
+   "text": "the",
+   "start": 398.92,
+   "end": 399.1
+  },
+  {
+   "text": "word",
+   "start": 399.1,
+   "end": 399.34
+  },
+  {
+   "text": "algorithm,",
+   "start": 399.34,
+   "end": 400.15
+  },
+  {
+   "text": "and",
+   "start": 400.15,
+   "end": 400.19
+  },
+  {
+   "text": "Ibn",
+   "start": 400.19,
+   "end": 400.37
+  },
+  {
+   "text": "Sina",
+   "start": 400.37,
+   "end": 400.62
+  },
+  {
+   "text": "wrote",
+   "start": 400.62,
+   "end": 400.91
+  },
+  {
+   "text": "a",
+   "start": 400.91,
+   "end": 400.97
+  },
+  {
+   "text": "medical",
+   "start": 400.97,
+   "end": 401.39
+  },
+  {
+   "text": "textbook",
+   "start": 401.39,
+   "end": 402.03
+  },
+  {
+   "text": "used",
+   "start": 402.03,
+   "end": 402.28
+  },
+  {
+   "text": "in",
+   "start": 402.28,
+   "end": 402.45
+  },
+  {
+   "text": "Europe",
+   "start": 402.45,
+   "end": 402.98
+  },
+  {
+   "text": "for",
+   "start": 402.98,
+   "end": 403.24
+  },
+  {
+   "text": "centuries.",
+   "start": 403.24,
+   "end": 404.32
+  },
+  {
+   "text": "The",
+   "start": 404.32,
+   "end": 404.5
+  },
+  {
+   "text": "Persian",
+   "start": 404.5,
+   "end": 404.93
+  },
+  {
+   "text": "language",
+   "start": 404.93,
+   "end": 405.43
+  },
+  {
+   "text": "survived",
+   "start": 405.43,
+   "end": 406.11
+  },
+  {
+   "text": "too,",
+   "start": 406.11,
+   "end": 406.23
+  },
+  {
+   "text": "now",
+   "start": 406.23,
+   "end": 406.41
+  },
+  {
+   "text": "written",
+   "start": 406.41,
+   "end": 406.84
+  },
+  {
+   "text": "in",
+   "start": 406.84,
+   "end": 406.96
+  },
+  {
+   "text": "Arabic",
+   "start": 406.96,
+   "end": 407.33
+  },
+  {
+   "text": "script.",
+   "start": 407.33,
+   "end": 407.96
+  },
+  {
+   "text": "In",
+   "start": 407.96,
+   "end": 408.07
+  },
+  {
+   "text": "1010,",
+   "start": 408.07,
+   "end": 408.86
+  },
+  {
+   "text": "the",
+   "start": 408.86,
+   "end": 409.03
+  },
+  {
+   "text": "poet",
+   "start": 409.03,
+   "end": 409.27
+  },
+  {
+   "text": "Furtosi",
+   "start": 409.27,
+   "end": 409.64
+  },
+  {
+   "text": "finished",
+   "start": 409.64,
+   "end": 410.13
+  },
+  {
+   "text": "the",
+   "start": 410.13,
+   "end": 410.26
+  },
+  {
+   "text": "Shanname,",
+   "start": 410.26,
+   "end": 410.99
+  },
+  {
+   "text": "the",
+   "start": 410.99,
+   "end": 411.06
+  },
+  {
+   "text": "Book",
+   "start": 411.06,
+   "end": 411.21
+  },
+  {
+   "text": "of",
+   "start": 411.21,
+   "end": 411.32
+  },
+  {
+   "text": "Kings,",
+   "start": 411.32,
+   "end": 411.71
+  },
+  {
+   "text": "about",
+   "start": 411.71,
+   "end": 412.14
+  },
+  {
+   "text": "50,000",
+   "start": 412.14,
+   "end": 412.95
+  },
+  {
+   "text": "couplets",
+   "start": 412.95,
+   "end": 413.48
+  },
+  {
+   "text": "telling",
+   "start": 413.48,
+   "end": 413.8
+  },
+  {
+   "text": "Iran's",
+   "start": 413.8,
+   "end": 414.2
+  },
+  {
+   "text": "history",
+   "start": 414.2,
+   "end": 414.68
+  },
+  {
+   "text": "from",
+   "start": 414.68,
+   "end": 414.97
+  },
+  {
+   "text": "the",
+   "start": 414.97,
+   "end": 415.16
+  },
+  {
+   "text": "first",
+   "start": 415.16,
+   "end": 415.48
+  },
+  {
+   "text": "mythical",
+   "start": 415.48,
+   "end": 416.02
+  },
+  {
+   "text": "kings",
+   "start": 416.02,
+   "end": 416.36
+  },
+  {
+   "text": "to",
+   "start": 416.36,
+   "end": 416.49
+  },
+  {
+   "text": "the",
+   "start": 416.49,
+   "end": 416.69
+  },
+  {
+   "text": "Arab",
+   "start": 416.69,
+   "end": 416.96
+  },
+  {
+   "text": "conquest.",
+   "start": 416.96,
+   "end": 417.76
+  },
+  {
+   "text": "Iranian",
+   "start": 417.76,
+   "end": 418.26
+  },
+  {
+   "text": "still",
+   "start": 418.26,
+   "end": 418.62
+  },
+  {
+   "text": "learned",
+   "start": 418.62,
+   "end": 419.12
+  },
+  {
+   "text": "it",
+   "start": 419.12,
+   "end": 419.4
+  },
+  {
+   "text": "at",
+   "start": 419.4,
+   "end": 419.83
+  },
+  {
+   "text": "school.",
+   "start": 419.83,
+   "end": 420.08
+  },
+  {
+   "text": "In",
+   "start": 420.08,
+   "end": 420.21
+  },
+  {
+   "text": "the",
+   "start": 420.21,
+   "end": 420.4
+  },
+  {
+   "text": "11th",
+   "start": 420.4,
+   "end": 420.9
+  },
+  {
+   "text": "century,",
+   "start": 420.9,
+   "end": 421.47
+  },
+  {
+   "text": "Turkish",
+   "start": 421.47,
+   "end": 421.92
+  },
+  {
+   "text": "nomads",
+   "start": 421.92,
+   "end": 422.3
+  },
+  {
+   "text": "called",
+   "start": 422.3,
+   "end": 422.67
+  },
+  {
+   "text": "the",
+   "start": 422.67,
+   "end": 422.87
+  },
+  {
+   "text": "Seljuks",
+   "start": 422.87,
+   "end": 423.3
+  },
+  {
+   "text": "took",
+   "start": 423.3,
+   "end": 423.55
+  },
+  {
+   "text": "over",
+   "start": 423.55,
+   "end": 423.8
+  },
+  {
+   "text": "Iran,",
+   "start": 423.8,
+   "end": 424.26
+  },
+  {
+   "text": "and",
+   "start": 424.26,
+   "end": 424.36
+  },
+  {
+   "text": "then",
+   "start": 424.36,
+   "end": 424.61
+  },
+  {
+   "text": "Baghdad.",
+   "start": 424.61,
+   "end": 425.4
+  },
+  {
+   "text": "They",
+   "start": 425.4,
+   "end": 425.68
+  },
+  {
+   "text": "ruled",
+   "start": 425.68,
+   "end": 426.03
+  },
+  {
+   "text": "as",
+   "start": 426.03,
+   "end": 426.17
+  },
+  {
+   "text": "sultans,",
+   "start": 426.17,
+   "end": 426.83
+  },
+  {
+   "text": "with",
+   "start": 426.83,
+   "end": 427.08
+  },
+  {
+   "text": "Turkish",
+   "start": 427.08,
+   "end": 427.57
+  },
+  {
+   "text": "armies",
+   "start": 427.57,
+   "end": 427.99
+  },
+  {
+   "text": "and",
+   "start": 427.99,
+   "end": 428.2
+  },
+  {
+   "text": "Persian",
+   "start": 428.2,
+   "end": 429.33
+  },
+  {
+   "text": "ministers.",
+   "start": 429.33,
+   "end": 429.6
+  },
+  {
+   "text": "Then",
+   "start": 429.6,
+   "end": 429.84
+  },
+  {
+   "text": "the",
+   "start": 429.84,
+   "end": 430.02
+  },
+  {
+   "text": "Mongols",
+   "start": 430.02,
+   "end": 430.44
+  },
+  {
+   "text": "arrived.",
+   "start": 430.44,
+   "end": 431.08
+  },
+  {
+   "text": "In",
+   "start": 431.08,
+   "end": 431.23
+  },
+  {
+   "text": "1219,",
+   "start": 431.23,
+   "end": 432.23
+  },
+  {
+   "text": "after",
+   "start": 432.23,
+   "end": 432.39
+  },
+  {
+   "text": "a",
+   "start": 432.39,
+   "end": 432.43
+  },
+  {
+   "text": "Khurazmian",
+   "start": 432.43,
+   "end": 433.03
+  },
+  {
+   "text": "governor",
+   "start": 433.03,
+   "end": 433.52
+  },
+  {
+   "text": "massacred",
+   "start": 433.52,
+   "end": 434.07
+  },
+  {
+   "text": "a",
+   "start": 434.07,
+   "end": 434.13
+  },
+  {
+   "text": "Mongol",
+   "start": 434.13,
+   "end": 434.53
+  },
+  {
+   "text": "caravan,",
+   "start": 434.53,
+   "end": 435.23
+  },
+  {
+   "text": "and",
+   "start": 435.23,
+   "end": 435.29
+  },
+  {
+   "text": "the",
+   "start": 435.29,
+   "end": 435.41
+  },
+  {
+   "text": "Shah",
+   "start": 435.41,
+   "end": 435.65
+  },
+  {
+   "text": "executed",
+   "start": 435.65,
+   "end": 436.14
+  },
+  {
+   "text": "one",
+   "start": 436.14,
+   "end": 436.44
+  },
+  {
+   "text": "of",
+   "start": 436.44,
+   "end": 436.58
+  },
+  {
+   "text": "Genghis",
+   "start": 436.58,
+   "end": 437.07
+  },
+  {
+   "text": "Khan's",
+   "start": 437.07,
+   "end": 437.49
+  },
+  {
+   "text": "envoys,",
+   "start": 437.49,
+   "end": 438.05
+  },
+  {
+   "text": "Mongol",
+   "start": 438.05,
+   "end": 438.47
+  },
+  {
+   "text": "armies",
+   "start": 438.47,
+   "end": 438.89
+  },
+  {
+   "text": "swept",
+   "start": 438.89,
+   "end": 439.24
+  },
+  {
+   "text": "into",
+   "start": 439.24,
+   "end": 439.52
+  },
+  {
+   "text": "eastern",
+   "start": 439.52,
+   "end": 440.28
+  },
+  {
+   "text": "Iran.",
+   "start": 440.28,
+   "end": 440.52
+  },
+  {
+   "text": "Cities",
+   "start": 440.52,
+   "end": 440.87
+  },
+  {
+   "text": "like",
+   "start": 440.87,
+   "end": 441.12
+  },
+  {
+   "text": "Nishapur",
+   "start": 441.12,
+   "end": 441.55
+  },
+  {
+   "text": "and",
+   "start": 441.55,
+   "end": 441.72
+  },
+  {
+   "text": "Merv",
+   "start": 441.72,
+   "end": 441.94
+  },
+  {
+   "text": "were",
+   "start": 441.94,
+   "end": 442.17
+  },
+  {
+   "text": "destroyed,",
+   "start": 442.17,
+   "end": 442.88
+  },
+  {
+   "text": "and",
+   "start": 442.88,
+   "end": 442.97
+  },
+  {
+   "text": "their",
+   "start": 442.97,
+   "end": 443.28
+  },
+  {
+   "text": "people",
+   "start": 443.28,
+   "end": 443.61
+  },
+  {
+   "text": "massacred.",
+   "start": 443.61,
+   "end": 444.4
+  },
+  {
+   "text": "In",
+   "start": 444.4,
+   "end": 444.54
+  },
+  {
+   "text": "1258,",
+   "start": 444.54,
+   "end": 445.54
+  },
+  {
+   "text": "Genghis",
+   "start": 445.54,
+   "end": 446.03
+  },
+  {
+   "text": "Khan's",
+   "start": 446.03,
+   "end": 446.45
+  },
+  {
+   "text": "grandson",
+   "start": 446.45,
+   "end": 447.02
+  },
+  {
+   "text": "Hulagu",
+   "start": 447.02,
+   "end": 447.44
+  },
+  {
+   "text": "sacked",
+   "start": 447.44,
+   "end": 447.87
+  },
+  {
+   "text": "Baghdad,",
+   "start": 447.87,
+   "end": 448.54
+  },
+  {
+   "text": "and",
+   "start": 448.54,
+   "end": 448.72
+  },
+  {
+   "text": "ended",
+   "start": 448.72,
+   "end": 449.08
+  },
+  {
+   "text": "the",
+   "start": 449.08,
+   "end": 449.28
+  },
+  {
+   "text": "Abbasid",
+   "start": 449.28,
+   "end": 449.79
+  },
+  {
+   "text": "Caliphate.",
+   "start": 449.79,
+   "end": 450.76
+  },
+  {
+   "text": "Hulago's",
+   "start": 450.76,
+   "end": 451.28
+  },
+  {
+   "text": "descendants,",
+   "start": 451.28,
+   "end": 452.16
+  },
+  {
+   "text": "the",
+   "start": 452.16,
+   "end": 452.35
+  },
+  {
+   "text": "Ilkans,",
+   "start": 452.35,
+   "end": 452.88
+  },
+  {
+   "text": "ruled",
+   "start": 452.88,
+   "end": 453.22
+  },
+  {
+   "text": "from",
+   "start": 453.22,
+   "end": 453.49
+  },
+  {
+   "text": "Iran.",
+   "start": 453.49,
+   "end": 454.04
+  },
+  {
+   "text": "In",
+   "start": 454.04,
+   "end": 454.19
+  },
+  {
+   "text": "1295,",
+   "start": 454.19,
+   "end": 455.04
+  },
+  {
+   "text": "the",
+   "start": 455.04,
+   "end": 455.23
+  },
+  {
+   "text": "Ilkangazan",
+   "start": 455.23,
+   "end": 455.84
+  },
+  {
+   "text": "converted",
+   "start": 455.84,
+   "end": 456.41
+  },
+  {
+   "text": "to",
+   "start": 456.41,
+   "end": 456.55
+  },
+  {
+   "text": "Islam,",
+   "start": 456.55,
+   "end": 456.97
+  },
+  {
+   "text": "and",
+   "start": 456.97,
+   "end": 457.39
+  },
+  {
+   "text": "Persian",
+   "start": 457.39,
+   "end": 457.61
+  },
+  {
+   "text": "became",
+   "start": 457.61,
+   "end": 458.03
+  },
+  {
+   "text": "the",
+   "start": 458.03,
+   "end": 458.18
+  },
+  {
+   "text": "language",
+   "start": 458.18,
+   "end": 458.69
+  },
+  {
+   "text": "of",
+   "start": 458.69,
+   "end": 458.82
+  },
+  {
+   "text": "a",
+   "start": 458.82,
+   "end": 458.87
+  },
+  {
+   "text": "court",
+   "start": 458.87,
+   "end": 459.32
+  },
+  {
+   "text": "that",
+   "start": 459.32,
+   "end": 459.64
+  },
+  {
+   "text": "stretched",
+   "start": 459.64,
+   "end": 460.36
+  },
+  {
+   "text": "from",
+   "start": 460.36,
+   "end": 460.73
+  },
+  {
+   "text": "Anatolia",
+   "start": 460.73,
+   "end": 461.32
+  },
+  {
+   "text": "to",
+   "start": 461.32,
+   "end": 461.48
+  },
+  {
+   "text": "Afghanistan.",
+   "start": 461.48,
+   "end": 462.64
+  },
+  {
+   "text": "After",
+   "start": 462.64,
+   "end": 462.98
+  },
+  {
+   "text": "the",
+   "start": 462.98,
+   "end": 463.17
+  },
+  {
+   "text": "Ilkanae",
+   "start": 463.17,
+   "end": 463.66
+  },
+  {
+   "text": "collapsed",
+   "start": 463.66,
+   "end": 464.25
+  },
+  {
+   "text": "in",
+   "start": 464.25,
+   "end": 464.34
+  },
+  {
+   "text": "1335,",
+   "start": 464.34,
+   "end": 465.28
+  },
+  {
+   "text": "Timur",
+   "start": 465.28,
+   "end": 465.61
+  },
+  {
+   "text": "came.",
+   "start": 465.61,
+   "end": 466.16
+  },
+  {
+   "text": "In",
+   "start": 466.16,
+   "end": 466.27
+  },
+  {
+   "text": "1387,",
+   "start": 466.27,
+   "end": 467.01
+  },
+  {
+   "text": "the",
+   "start": 467.01,
+   "end": 467.17
+  },
+  {
+   "text": "city",
+   "start": 467.17,
+   "end": 467.38
+  },
+  {
+   "text": "of",
+   "start": 467.38,
+   "end": 467.49
+  },
+  {
+   "text": "Isfahan",
+   "start": 467.49,
+   "end": 467.86
+  },
+  {
+   "text": "rebelled",
+   "start": 467.86,
+   "end": 468.3
+  },
+  {
+   "text": "against",
+   "start": 468.3,
+   "end": 468.67
+  },
+  {
+   "text": "him,",
+   "start": 468.67,
+   "end": 468.93
+  },
+  {
+   "text": "and",
+   "start": 468.93,
+   "end": 469.36
+  },
+  {
+   "text": "chroniclers",
+   "start": 469.36,
+   "end": 469.68
+  },
+  {
+   "text": "wrote",
+   "start": 469.68,
+   "end": 469.95
+  },
+  {
+   "text": "that",
+   "start": 469.95,
+   "end": 470.16
+  },
+  {
+   "text": "his",
+   "start": 470.16,
+   "end": 470.32
+  },
+  {
+   "text": "soldiers",
+   "start": 470.32,
+   "end": 470.88
+  },
+  {
+   "text": "built",
+   "start": 470.88,
+   "end": 471.26
+  },
+  {
+   "text": "towers",
+   "start": 471.26,
+   "end": 471.67
+  },
+  {
+   "text": "from",
+   "start": 471.67,
+   "end": 471.93
+  },
+  {
+   "text": "about",
+   "start": 471.93,
+   "end": 472.28
+  },
+  {
+   "text": "70,000",
+   "start": 472.28,
+   "end": 473.47
+  },
+  {
+   "text": "heads.",
+   "start": 473.47,
+   "end": 474.08
+  },
+  {
+   "text": "In",
+   "start": 474.08,
+   "end": 474.21
+  },
+  {
+   "text": "1501,",
+   "start": 474.21,
+   "end": 475.18
+  },
+  {
+   "text": "a",
+   "start": 475.18,
+   "end": 475.26
+  },
+  {
+   "text": "14-year-old",
+   "start": 475.26,
+   "end": 476.14
+  },
+  {
+   "text": "named",
+   "start": 476.14,
+   "end": 476.47
+  },
+  {
+   "text": "Ismail",
+   "start": 476.47,
+   "end": 476.86
+  },
+  {
+   "text": "took",
+   "start": 476.86,
+   "end": 477.15
+  },
+  {
+   "text": "the",
+   "start": 477.15,
+   "end": 477.31
+  },
+  {
+   "text": "city",
+   "start": 477.31,
+   "end": 477.62
+  },
+  {
+   "text": "of",
+   "start": 477.62,
+   "end": 477.7
+  },
+  {
+   "text": "Tabriz",
+   "start": 477.7,
+   "end": 478.08
+  },
+  {
+   "text": "and",
+   "start": 478.08,
+   "end": 478.29
+  },
+  {
+   "text": "crowned",
+   "start": 478.29,
+   "end": 478.73
+  },
+  {
+   "text": "himself",
+   "start": 478.73,
+   "end": 479.19
+  },
+  {
+   "text": "Shah.",
+   "start": 479.19,
+   "end": 479.76
+  },
+  {
+   "text": "He",
+   "start": 479.76,
+   "end": 479.9
+  },
+  {
+   "text": "founded",
+   "start": 479.9,
+   "end": 480.31
+  },
+  {
+   "text": "the",
+   "start": 480.31,
+   "end": 480.53
+  },
+  {
+   "text": "Safavid",
+   "start": 480.53,
+   "end": 480.92
+  },
+  {
+   "text": "dynasty,",
+   "start": 480.92,
+   "end": 481.54
+  },
+  {
+   "text": "and",
+   "start": 481.54,
+   "end": 481.65
+  },
+  {
+   "text": "made",
+   "start": 481.65,
+   "end": 481.9
+  },
+  {
+   "text": "12",
+   "start": 481.9,
+   "end": 482.28
+  },
+  {
+   "text": "worshia",
+   "start": 482.28,
+   "end": 482.69
+  },
+  {
+   "text": "Islam,",
+   "start": 482.69,
+   "end": 483.14
+  },
+  {
+   "text": "the",
+   "start": 483.14,
+   "end": 483.31
+  },
+  {
+   "text": "religion",
+   "start": 483.31,
+   "end": 483.82
+  },
+  {
+   "text": "of",
+   "start": 483.82,
+   "end": 483.93
+  },
+  {
+   "text": "the",
+   "start": 483.93,
+   "end": 484.11
+  },
+  {
+   "text": "state.",
+   "start": 484.11,
+   "end": 484.72
+  },
+  {
+   "text": "Most",
+   "start": 484.72,
+   "end": 484.96
+  },
+  {
+   "text": "Iranians",
+   "start": 484.96,
+   "end": 485.44
+  },
+  {
+   "text": "were",
+   "start": 485.44,
+   "end": 485.68
+  },
+  {
+   "text": "Sunni",
+   "start": 485.68,
+   "end": 485.98
+  },
+  {
+   "text": "at",
+   "start": 485.98,
+   "end": 486.1
+  },
+  {
+   "text": "the",
+   "start": 486.1,
+   "end": 486.45
+  },
+  {
+   "text": "time,",
+   "start": 486.45,
+   "end": 486.64
+  },
+  {
+   "text": "and",
+   "start": 486.64,
+   "end": 486.82
+  },
+  {
+   "text": "conversion",
+   "start": 486.82,
+   "end": 487.43
+  },
+  {
+   "text": "was",
+   "start": 487.43,
+   "end": 487.61
+  },
+  {
+   "text": "often",
+   "start": 487.61,
+   "end": 487.95
+  },
+  {
+   "text": "forced.",
+   "start": 487.95,
+   "end": 488.52
+  },
+  {
+   "text": "It",
+   "start": 488.52,
+   "end": 488.67
+  },
+  {
+   "text": "is",
+   "start": 488.67,
+   "end": 488.82
+  },
+  {
+   "text": "the",
+   "start": 488.82,
+   "end": 489.04
+  },
+  {
+   "text": "reason",
+   "start": 489.04,
+   "end": 489.48
+  },
+  {
+   "text": "Iran",
+   "start": 489.48,
+   "end": 489.77
+  },
+  {
+   "text": "is",
+   "start": 489.77,
+   "end": 489.94
+  },
+  {
+   "text": "a",
+   "start": 489.94,
+   "end": 489.99
+  },
+  {
+   "text": "Shia",
+   "start": 489.99,
+   "end": 490.28
+  },
+  {
+   "text": "country",
+   "start": 490.28,
+   "end": 491.17
+  },
+  {
+   "text": "today.",
+   "start": 491.17,
+   "end": 491.44
+  },
+  {
+   "text": "The",
+   "start": 491.44,
+   "end": 491.61
+  },
+  {
+   "text": "Safavid's",
+   "start": 491.61,
+   "end": 492.12
+  },
+  {
+   "text": "great",
+   "start": 492.12,
+   "end": 492.41
+  },
+  {
+   "text": "rivals",
+   "start": 492.41,
+   "end": 492.81
+  },
+  {
+   "text": "were",
+   "start": 492.81,
+   "end": 492.99
+  },
+  {
+   "text": "the",
+   "start": 492.99,
+   "end": 493.16
+  },
+  {
+   "text": "Sunni",
+   "start": 493.16,
+   "end": 493.45
+  },
+  {
+   "text": "Ottomans.",
+   "start": 493.45,
+   "end": 494.16
+  },
+  {
+   "text": "In",
+   "start": 494.16,
+   "end": 494.31
+  },
+  {
+   "text": "1514,",
+   "start": 494.31,
+   "end": 495.37
+  },
+  {
+   "text": "at",
+   "start": 495.37,
+   "end": 495.41
+  },
+  {
+   "text": "Shalduran,",
+   "start": 495.41,
+   "end": 496.08
+  },
+  {
+   "text": "Ottoman",
+   "start": 496.08,
+   "end": 496.57
+  },
+  {
+   "text": "cannons",
+   "start": 496.57,
+   "end": 497.05
+  },
+  {
+   "text": "and",
+   "start": 497.05,
+   "end": 497.25
+  },
+  {
+   "text": "muskets",
+   "start": 497.25,
+   "end": 497.75
+  },
+  {
+   "text": "crushed",
+   "start": 497.75,
+   "end": 498.19
+  },
+  {
+   "text": "Ismail's",
+   "start": 498.19,
+   "end": 498.72
+  },
+  {
+   "text": "cavalry.",
+   "start": 498.72,
+   "end": 499.56
+  },
+  {
+   "text": "Three",
+   "start": 499.56,
+   "end": 499.91
+  },
+  {
+   "text": "years",
+   "start": 499.91,
+   "end": 500.28
+  },
+  {
+   "text": "later,",
+   "start": 500.28,
+   "end": 500.75
+  },
+  {
+   "text": "the",
+   "start": 500.75,
+   "end": 500.95
+  },
+  {
+   "text": "same",
+   "start": 500.95,
+   "end": 501.24
+  },
+  {
+   "text": "Ottoman",
+   "start": 501.24,
+   "end": 501.73
+  },
+  {
+   "text": "Sultan",
+   "start": 501.73,
+   "end": 502.15
+  },
+  {
+   "text": "Selim",
+   "start": 502.15,
+   "end": 502.51
+  },
+  {
+   "text": "I",
+   "start": 502.51,
+   "end": 502.57
+  },
+  {
+   "text": "conquered",
+   "start": 502.57,
+   "end": 503.22
+  },
+  {
+   "text": "Egypt.",
+   "start": 503.22,
+   "end": 503.8
+  },
+  {
+   "text": "The",
+   "start": 503.8,
+   "end": 504.01
+  },
+  {
+   "text": "border",
+   "start": 504.01,
+   "end": 504.43
+  },
+  {
+   "text": "they",
+   "start": 504.43,
+   "end": 504.71
+  },
+  {
+   "text": "finally",
+   "start": 504.71,
+   "end": 505.2
+  },
+  {
+   "text": "settled",
+   "start": 505.2,
+   "end": 505.73
+  },
+  {
+   "text": "in",
+   "start": 505.73,
+   "end": 505.83
+  },
+  {
+   "text": "1639",
+   "start": 505.83,
+   "end": 506.67
+  },
+  {
+   "text": "is",
+   "start": 506.67,
+   "end": 506.82
+  },
+  {
+   "text": "close",
+   "start": 506.82,
+   "end": 507.16
+  },
+  {
+   "text": "to",
+   "start": 507.16,
+   "end": 507.3
+  },
+  {
+   "text": "Iran's",
+   "start": 507.3,
+   "end": 507.72
+  },
+  {
+   "text": "western",
+   "start": 507.72,
+   "end": 508.21
+  },
+  {
+   "text": "border",
+   "start": 508.21,
+   "end": 508.63
+  },
+  {
+   "text": "today.",
+   "start": 508.63,
+   "end": 509.2
+  },
+  {
+   "text": "The",
+   "start": 509.2,
+   "end": 509.42
+  },
+  {
+   "text": "greatest",
+   "start": 509.42,
+   "end": 510
+  },
+  {
+   "text": "Safavid",
+   "start": 510,
+   "end": 510.51
+  },
+  {
+   "text": "was",
+   "start": 510.51,
+   "end": 510.73
+  },
+  {
+   "text": "Shah",
+   "start": 510.73,
+   "end": 511.02
+  },
+  {
+   "text": "Abbas",
+   "start": 511.02,
+   "end": 511.38
+  },
+  {
+   "text": "I,",
+   "start": 511.38,
+   "end": 511.7
+  },
+  {
+   "text": "who",
+   "start": 511.7,
+   "end": 511.81
+  },
+  {
+   "text": "ruled",
+   "start": 511.81,
+   "end": 512.17
+  },
+  {
+   "text": "from",
+   "start": 512.17,
+   "end": 512.49
+  },
+  {
+   "text": "1587",
+   "start": 512.49,
+   "end": 513.34
+  },
+  {
+   "text": "to",
+   "start": 513.34,
+   "end": 513.48
+  },
+  {
+   "text": "1629.",
+   "start": 513.48,
+   "end": 514.64
+  },
+  {
+   "text": "He",
+   "start": 514.64,
+   "end": 514.76
+  },
+  {
+   "text": "built",
+   "start": 514.76,
+   "end": 515.06
+  },
+  {
+   "text": "a",
+   "start": 515.06,
+   "end": 515.12
+  },
+  {
+   "text": "new",
+   "start": 515.12,
+   "end": 515.3
+  },
+  {
+   "text": "army",
+   "start": 515.3,
+   "end": 515.54
+  },
+  {
+   "text": "with",
+   "start": 515.54,
+   "end": 515.78
+  },
+  {
+   "text": "muskets,",
+   "start": 515.78,
+   "end": 516.49
+  },
+  {
+   "text": "retook",
+   "start": 516.49,
+   "end": 516.71
+  },
+  {
+   "text": "land",
+   "start": 516.71,
+   "end": 516.92
+  },
+  {
+   "text": "from",
+   "start": 516.92,
+   "end": 517.17
+  },
+  {
+   "text": "the",
+   "start": 517.17,
+   "end": 517.34
+  },
+  {
+   "text": "Ottomans,",
+   "start": 517.34,
+   "end": 518.12
+  },
+  {
+   "text": "and",
+   "start": 518.12,
+   "end": 518.17
+  },
+  {
+   "text": "with",
+   "start": 518.17,
+   "end": 518.4
+  },
+  {
+   "text": "English",
+   "start": 518.4,
+   "end": 518.8
+  },
+  {
+   "text": "help",
+   "start": 518.8,
+   "end": 519.08
+  },
+  {
+   "text": "drove",
+   "start": 519.13,
+   "end": 519.47
+  },
+  {
+   "text": "the",
+   "start": 519.47,
+   "end": 519.7
+  },
+  {
+   "text": "Portuguese",
+   "start": 519.7,
+   "end": 520.48
+  },
+  {
+   "text": "out",
+   "start": 520.48,
+   "end": 520.7
+  },
+  {
+   "text": "of",
+   "start": 520.7,
+   "end": 520.86
+  },
+  {
+   "text": "Hormuz",
+   "start": 520.86,
+   "end": 521.31
+  },
+  {
+   "text": "in",
+   "start": 521.31,
+   "end": 521.46
+  },
+  {
+   "text": "1622.",
+   "start": 521.46,
+   "end": 522.68
+  },
+  {
+   "text": "He",
+   "start": 522.68,
+   "end": 522.81
+  },
+  {
+   "text": "was",
+   "start": 522.81,
+   "end": 523.01
+  },
+  {
+   "text": "also",
+   "start": 523.01,
+   "end": 523.28
+  },
+  {
+   "text": "ruthless.",
+   "start": 523.28,
+   "end": 524.04
+  },
+  {
+   "text": "He",
+   "start": 524.04,
+   "end": 524.18
+  },
+  {
+   "text": "had",
+   "start": 524.18,
+   "end": 524.4
+  },
+  {
+   "text": "one",
+   "start": 524.4,
+   "end": 524.62
+  },
+  {
+   "text": "son",
+   "start": 524.62,
+   "end": 524.84
+  },
+  {
+   "text": "killed",
+   "start": 524.84,
+   "end": 525.28
+  },
+  {
+   "text": "and",
+   "start": 525.28,
+   "end": 525.5
+  },
+  {
+   "text": "two",
+   "start": 525.5,
+   "end": 525.72
+  },
+  {
+   "text": "others",
+   "start": 525.72,
+   "end": 526.16
+  },
+  {
+   "text": "blinded",
+   "start": 526.16,
+   "end": 526.68
+  },
+  {
+   "text": "because",
+   "start": 526.68,
+   "end": 527.21
+  },
+  {
+   "text": "he",
+   "start": 527.21,
+   "end": 527.33
+  },
+  {
+   "text": "feared",
+   "start": 527.33,
+   "end": 528.15
+  },
+  {
+   "text": "plots.",
+   "start": 528.15,
+   "end": 528.44
+  },
+  {
+   "text": "Abbas",
+   "start": 528.44,
+   "end": 528.8
+  },
+  {
+   "text": "moved",
+   "start": 528.8,
+   "end": 529.04
+  },
+  {
+   "text": "his",
+   "start": 529.04,
+   "end": 529.21
+  },
+  {
+   "text": "capital",
+   "start": 529.21,
+   "end": 529.62
+  },
+  {
+   "text": "to",
+   "start": 529.62,
+   "end": 529.74
+  },
+  {
+   "text": "Isfahan,",
+   "start": 529.74,
+   "end": 530.2
+  },
+  {
+   "text": "and",
+   "start": 530.2,
+   "end": 530.49
+  },
+  {
+   "text": "built",
+   "start": 530.49,
+   "end": 530.68
+  },
+  {
+   "text": "one",
+   "start": 530.68,
+   "end": 530.87
+  },
+  {
+   "text": "of",
+   "start": 530.87,
+   "end": 530.94
+  },
+  {
+   "text": "the",
+   "start": 530.94,
+   "end": 531.11
+  },
+  {
+   "text": "largest",
+   "start": 531.11,
+   "end": 531.51
+  },
+  {
+   "text": "city",
+   "start": 531.51,
+   "end": 531.74
+  },
+  {
+   "text": "squares",
+   "start": 531.74,
+   "end": 532.14
+  },
+  {
+   "text": "in",
+   "start": 532.14,
+   "end": 532.25
+  },
+  {
+   "text": "the",
+   "start": 532.25,
+   "end": 532.52
+  },
+  {
+   "text": "world.",
+   "start": 532.52,
+   "end": 533.04
+  },
+  {
+   "text": "Persians",
+   "start": 533.04,
+   "end": 533.64
+  },
+  {
+   "text": "called",
+   "start": 533.64,
+   "end": 534.19
+  },
+  {
+   "text": "the",
+   "start": 534.19,
+   "end": 534.32
+  },
+  {
+   "text": "city",
+   "start": 534.32,
+   "end": 534.62
+  },
+  {
+   "text": "half",
+   "start": 534.62,
+   "end": 534.91
+  },
+  {
+   "text": "the",
+   "start": 534.91,
+   "end": 535.15
+  },
+  {
+   "text": "world.",
+   "start": 535.15,
+   "end": 535.8
+  },
+  {
+   "text": "Safavid",
+   "start": 535.8,
+   "end": 536.26
+  },
+  {
+   "text": "power",
+   "start": 536.26,
+   "end": 536.58
+  },
+  {
+   "text": "collapsed",
+   "start": 536.58,
+   "end": 537.19
+  },
+  {
+   "text": "in",
+   "start": 537.19,
+   "end": 537.32
+  },
+  {
+   "text": "1722,",
+   "start": 537.32,
+   "end": 538.25
+  },
+  {
+   "text": "when",
+   "start": 538.25,
+   "end": 538.53
+  },
+  {
+   "text": "Afghan",
+   "start": 538.53,
+   "end": 538.92
+  },
+  {
+   "text": "rebels",
+   "start": 538.92,
+   "end": 539.31
+  },
+  {
+   "text": "besieged",
+   "start": 539.31,
+   "end": 539.84
+  },
+  {
+   "text": "Isfahan",
+   "start": 539.84,
+   "end": 540.29
+  },
+  {
+   "text": "until",
+   "start": 540.29,
+   "end": 540.76
+  },
+  {
+   "text": "the",
+   "start": 540.76,
+   "end": 540.82
+  },
+  {
+   "text": "starving",
+   "start": 540.82,
+   "end": 541.44
+  },
+  {
+   "text": "city",
+   "start": 541.44,
+   "end": 541.8
+  },
+  {
+   "text": "surrendered.",
+   "start": 541.8,
+   "end": 542.8
+  },
+  {
+   "text": "A",
+   "start": 542.8,
+   "end": 542.87
+  },
+  {
+   "text": "soldier",
+   "start": 542.87,
+   "end": 543.41
+  },
+  {
+   "text": "from",
+   "start": 543.41,
+   "end": 543.69
+  },
+  {
+   "text": "Khorasan",
+   "start": 543.69,
+   "end": 544.21
+  },
+  {
+   "text": "named",
+   "start": 544.21,
+   "end": 544.56
+  },
+  {
+   "text": "Nader",
+   "start": 544.56,
+   "end": 544.94
+  },
+  {
+   "text": "drove",
+   "start": 544.94,
+   "end": 545.26
+  },
+  {
+   "text": "the",
+   "start": 545.26,
+   "end": 545.49
+  },
+  {
+   "text": "Afghans",
+   "start": 545.49,
+   "end": 546.18
+  },
+  {
+   "text": "out",
+   "start": 546.18,
+   "end": 546.19
+  },
+  {
+   "text": "and",
+   "start": 546.19,
+   "end": 546.39
+  },
+  {
+   "text": "crowned",
+   "start": 546.39,
+   "end": 546.89
+  },
+  {
+   "text": "himself",
+   "start": 546.89,
+   "end": 547.39
+  },
+  {
+   "text": "Shah",
+   "start": 547.39,
+   "end": 547.67
+  },
+  {
+   "text": "in",
+   "start": 547.67,
+   "end": 547.88
+  },
+  {
+   "text": "1736.",
+   "start": 547.88,
+   "end": 549.28
+  },
+  {
+   "text": "In",
+   "start": 549.28,
+   "end": 549.42
+  },
+  {
+   "text": "1739,",
+   "start": 549.42,
+   "end": 550.5
+  },
+  {
+   "text": "he",
+   "start": 550.5,
+   "end": 550.58
+  },
+  {
+   "text": "invaded",
+   "start": 550.58,
+   "end": 551.1
+  },
+  {
+   "text": "Mughal",
+   "start": 551.1,
+   "end": 551.53
+  },
+  {
+   "text": "India",
+   "start": 551.53,
+   "end": 551.91
+  },
+  {
+   "text": "and",
+   "start": 551.91,
+   "end": 552.12
+  },
+  {
+   "text": "sacked",
+   "start": 552.12,
+   "end": 552.56
+  },
+  {
+   "text": "Delhi.",
+   "start": 552.56,
+   "end": 553.24
+  },
+  {
+   "text": "His",
+   "start": 553.24,
+   "end": 553.41
+  },
+  {
+   "text": "troops",
+   "start": 553.41,
+   "end": 553.76
+  },
+  {
+   "text": "killed",
+   "start": 553.76,
+   "end": 554.11
+  },
+  {
+   "text": "tens",
+   "start": 554.11,
+   "end": 554.37
+  },
+  {
+   "text": "of",
+   "start": 554.37,
+   "end": 554.45
+  },
+  {
+   "text": "thousands",
+   "start": 554.45,
+   "end": 555.04
+  },
+  {
+   "text": "of",
+   "start": 555.04,
+   "end": 555.09
+  },
+  {
+   "text": "people",
+   "start": 555.09,
+   "end": 555.44
+  },
+  {
+   "text": "in",
+   "start": 555.44,
+   "end": 555.55
+  },
+  {
+   "text": "a",
+   "start": 555.55,
+   "end": 555.6
+  },
+  {
+   "text": "single",
+   "start": 555.6,
+   "end": 555.95
+  },
+  {
+   "text": "day,",
+   "start": 555.95,
+   "end": 556.32
+  },
+  {
+   "text": "and",
+   "start": 556.32,
+   "end": 556.48
+  },
+  {
+   "text": "he",
+   "start": 556.48,
+   "end": 556.53
+  },
+  {
+   "text": "carried",
+   "start": 556.53,
+   "end": 556.82
+  },
+  {
+   "text": "home",
+   "start": 556.82,
+   "end": 556.99
+  },
+  {
+   "text": "the",
+   "start": 556.99,
+   "end": 557.11
+  },
+  {
+   "text": "peacock",
+   "start": 557.11,
+   "end": 557.44
+  },
+  {
+   "text": "throne",
+   "start": 557.44,
+   "end": 559.49
+  },
+  {
+   "text": "and",
+   "start": 559.49,
+   "end": 560.09
+  },
+  {
+   "text": "the",
+   "start": 560.09,
+   "end": 560.97
+  },
+  {
+   "text": "Kohanur",
+   "start": 560.97,
+   "end": 561.88
+  },
+  {
+   "text": "Diamond,",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "which",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "is",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "now",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "among",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "the",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "British",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "crown",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "jewels.",
+   "start": 561.88,
+   "end": 561.88
+  },
+  {
+   "text": "In",
+   "start": 561.88,
+   "end": 562.05
+  },
+  {
+   "text": "1747,",
+   "start": 562.05,
+   "end": 563.21
+  },
+  {
+   "text": "his",
+   "start": 563.21,
+   "end": 563.46
+  },
+  {
+   "text": "own",
+   "start": 563.46,
+   "end": 563.71
+  },
+  {
+   "text": "officers",
+   "start": 563.71,
+   "end": 564.38
+  },
+  {
+   "text": "killed",
+   "start": 564.38,
+   "end": 565.13
+  },
+  {
+   "text": "him.",
+   "start": 565.13,
+   "end": 565.44
+  },
+  {
+   "text": "After",
+   "start": 565.44,
+   "end": 565.73
+  },
+  {
+   "text": "decades",
+   "start": 565.73,
+   "end": 566.13
+  },
+  {
+   "text": "of",
+   "start": 566.13,
+   "end": 566.24
+  },
+  {
+   "text": "civil",
+   "start": 566.24,
+   "end": 566.53
+  },
+  {
+   "text": "war",
+   "start": 566.53,
+   "end": 566.7
+  },
+  {
+   "text": "and",
+   "start": 566.7,
+   "end": 566.87
+  },
+  {
+   "text": "the",
+   "start": 566.87,
+   "end": 567.04
+  },
+  {
+   "text": "rule",
+   "start": 567.04,
+   "end": 567.27
+  },
+  {
+   "text": "of",
+   "start": 567.27,
+   "end": 567.38
+  },
+  {
+   "text": "Karim",
+   "start": 567.38,
+   "end": 567.66
+  },
+  {
+   "text": "Khan's",
+   "start": 567.66,
+   "end": 568
+  },
+  {
+   "text": "land,",
+   "start": 568,
+   "end": 568.51
+  },
+  {
+   "text": "the",
+   "start": 568.51,
+   "end": 568.54
+  },
+  {
+   "text": "Khajar",
+   "start": 568.54,
+   "end": 568.84
+  },
+  {
+   "text": "dynasty",
+   "start": 568.84,
+   "end": 569.24
+  },
+  {
+   "text": "took",
+   "start": 569.24,
+   "end": 569.6
+  },
+  {
+   "text": "over",
+   "start": 569.6,
+   "end": 569.86
+  },
+  {
+   "text": "and",
+   "start": 569.86,
+   "end": 570.09
+  },
+  {
+   "text": "made",
+   "start": 570.09,
+   "end": 570.32
+  },
+  {
+   "text": "a",
+   "start": 570.32,
+   "end": 570.38
+  },
+  {
+   "text": "small",
+   "start": 570.38,
+   "end": 570.71
+  },
+  {
+   "text": "town",
+   "start": 570.71,
+   "end": 570.97
+  },
+  {
+   "text": "called",
+   "start": 570.97,
+   "end": 571.38
+  },
+  {
+   "text": "Tehran",
+   "start": 571.38,
+   "end": 571.77
+  },
+  {
+   "text": "its",
+   "start": 571.77,
+   "end": 571.97
+  },
+  {
+   "text": "capital.",
+   "start": 571.97,
+   "end": 572.68
+  },
+  {
+   "text": "The",
+   "start": 572.68,
+   "end": 572.9
+  },
+  {
+   "text": "Khajars",
+   "start": 572.9,
+   "end": 573.42
+  },
+  {
+   "text": "faced",
+   "start": 573.42,
+   "end": 573.78
+  },
+  {
+   "text": "a",
+   "start": 573.78,
+   "end": 573.86
+  },
+  {
+   "text": "new",
+   "start": 573.86,
+   "end": 574.22
+  },
+  {
+   "text": "threat,",
+   "start": 574.22,
+   "end": 575.13
+  },
+  {
+   "text": "Russia.",
+   "start": 575.13,
+   "end": 575.4
+  },
+  {
+   "text": "After",
+   "start": 575.4,
+   "end": 575.72
+  },
+  {
+   "text": "two",
+   "start": 575.72,
+   "end": 575.91
+  },
+  {
+   "text": "wars,",
+   "start": 575.91,
+   "end": 576.32
+  },
+  {
+   "text": "in",
+   "start": 576.32,
+   "end": 576.43
+  },
+  {
+   "text": "the",
+   "start": 576.43,
+   "end": 576.62
+  },
+  {
+   "text": "treaties",
+   "start": 576.62,
+   "end": 577.24
+  },
+  {
+   "text": "of",
+   "start": 577.24,
+   "end": 577.27
+  },
+  {
+   "text": "1813",
+   "start": 577.27,
+   "end": 578.05
+  },
+  {
+   "text": "and",
+   "start": 578.05,
+   "end": 578.24
+  },
+  {
+   "text": "1828,",
+   "start": 578.24,
+   "end": 579.15
+  },
+  {
+   "text": "Iran",
+   "start": 579.15,
+   "end": 579.41
+  },
+  {
+   "text": "lost",
+   "start": 579.41,
+   "end": 579.7
+  },
+  {
+   "text": "Georgia,",
+   "start": 579.7,
+   "end": 580.31
+  },
+  {
+   "text": "Dagestan,",
+   "start": 580.31,
+   "end": 580.9
+  },
+  {
+   "text": "and",
+   "start": 580.9,
+   "end": 581.26
+  },
+  {
+   "text": "the",
+   "start": 581.26,
+   "end": 581.4
+  },
+  {
+   "text": "lands",
+   "start": 581.4,
+   "end": 581.75
+  },
+  {
+   "text": "that",
+   "start": 581.75,
+   "end": 582.03
+  },
+  {
+   "text": "are",
+   "start": 582.03,
+   "end": 582.24
+  },
+  {
+   "text": "now",
+   "start": 582.24,
+   "end": 582.45
+  },
+  {
+   "text": "Armenia",
+   "start": 582.45,
+   "end": 582.94
+  },
+  {
+   "text": "and",
+   "start": 582.94,
+   "end": 583.15
+  },
+  {
+   "text": "Azerbaijan,",
+   "start": 583.15,
+   "end": 584
+  },
+  {
+   "text": "the",
+   "start": 584,
+   "end": 584.21
+  },
+  {
+   "text": "Arras",
+   "start": 584.21,
+   "end": 584.56
+  },
+  {
+   "text": "River",
+   "start": 584.56,
+   "end": 584.91
+  },
+  {
+   "text": "became",
+   "start": 584.91,
+   "end": 585.33
+  },
+  {
+   "text": "the",
+   "start": 585.33,
+   "end": 585.96
+  },
+  {
+   "text": "border.",
+   "start": 585.96,
+   "end": 586.24
+  },
+  {
+   "text": "To",
+   "start": 586.24,
+   "end": 586.36
+  },
+  {
+   "text": "pay",
+   "start": 586.36,
+   "end": 586.55
+  },
+  {
+   "text": "their",
+   "start": 586.55,
+   "end": 586.89
+  },
+  {
+   "text": "debts,",
+   "start": 586.89,
+   "end": 587.32
+  },
+  {
+   "text": "the",
+   "start": 587.32,
+   "end": 587.5
+  },
+  {
+   "text": "Shahs",
+   "start": 587.5,
+   "end": 587.81
+  },
+  {
+   "text": "sold",
+   "start": 587.81,
+   "end": 588.06
+  },
+  {
+   "text": "concessions",
+   "start": 588.06,
+   "end": 588.76
+  },
+  {
+   "text": "to",
+   "start": 588.76,
+   "end": 588.88
+  },
+  {
+   "text": "foreigners.",
+   "start": 588.88,
+   "end": 589.76
+  },
+  {
+   "text": "In",
+   "start": 589.76,
+   "end": 589.88
+  },
+  {
+   "text": "1891,",
+   "start": 589.88,
+   "end": 590.71
+  },
+  {
+   "text": "after",
+   "start": 590.71,
+   "end": 591.06
+  },
+  {
+   "text": "a",
+   "start": 591.06,
+   "end": 591.08
+  },
+  {
+   "text": "British",
+   "start": 591.08,
+   "end": 591.5
+  },
+  {
+   "text": "company",
+   "start": 591.5,
+   "end": 591.92
+  },
+  {
+   "text": "got",
+   "start": 591.92,
+   "end": 592.1
+  },
+  {
+   "text": "control",
+   "start": 592.1,
+   "end": 592.52
+  },
+  {
+   "text": "of",
+   "start": 592.52,
+   "end": 592.64
+  },
+  {
+   "text": "the",
+   "start": 592.64,
+   "end": 592.81
+  },
+  {
+   "text": "tobacco",
+   "start": 592.81,
+   "end": 593.24
+  },
+  {
+   "text": "trade,",
+   "start": 593.24,
+   "end": 593.86
+  },
+  {
+   "text": "Iranians",
+   "start": 593.86,
+   "end": 594.14
+  },
+  {
+   "text": "stopped",
+   "start": 594.14,
+   "end": 594.64
+  },
+  {
+   "text": "smoking",
+   "start": 594.64,
+   "end": 595
+  },
+  {
+   "text": "in",
+   "start": 595,
+   "end": 595.15
+  },
+  {
+   "text": "a",
+   "start": 595.15,
+   "end": 595.22
+  },
+  {
+   "text": "nationwide",
+   "start": 595.22,
+   "end": 595.99
+  },
+  {
+   "text": "boycott,",
+   "start": 595.99,
+   "end": 596.66
+  },
+  {
+   "text": "and",
+   "start": 596.66,
+   "end": 596.88
+  },
+  {
+   "text": "the",
+   "start": 596.88,
+   "end": 597.1
+  },
+  {
+   "text": "deal",
+   "start": 597.1,
+   "end": 597.4
+  },
+  {
+   "text": "was",
+   "start": 597.4,
+   "end": 597.62
+  },
+  {
+   "text": "canceled.",
+   "start": 597.62,
+   "end": 598.52
+  },
+  {
+   "text": "In",
+   "start": 598.52,
+   "end": 598.65
+  },
+  {
+   "text": "1906,",
+   "start": 598.65,
+   "end": 599.78
+  },
+  {
+   "text": "after",
+   "start": 599.78,
+   "end": 599.93
+  },
+  {
+   "text": "protests",
+   "start": 599.93,
+   "end": 600.47
+  },
+  {
+   "text": "and",
+   "start": 600.47,
+   "end": 600.67
+  },
+  {
+   "text": "strikes,",
+   "start": 600.67,
+   "end": 601.47
+  },
+  {
+   "text": "the",
+   "start": 601.47,
+   "end": 601.49
+  },
+  {
+   "text": "Shah",
+   "start": 601.49,
+   "end": 601.74
+  },
+  {
+   "text": "accepted",
+   "start": 601.74,
+   "end": 602.28
+  },
+  {
+   "text": "a",
+   "start": 602.28,
+   "end": 602.34
+  },
+  {
+   "text": "constitution,",
+   "start": 602.34,
+   "end": 603.38
+  },
+  {
+   "text": "and",
+   "start": 603.38,
+   "end": 603.48
+  },
+  {
+   "text": "Iran's",
+   "start": 603.48,
+   "end": 603.97
+  },
+  {
+   "text": "first",
+   "start": 603.97,
+   "end": 604.16
+  },
+  {
+   "text": "elected",
+   "start": 604.16,
+   "end": 604.51
+  },
+  {
+   "text": "parliament.",
+   "start": 604.51,
+   "end": 605.16
+  },
+  {
+   "text": "A",
+   "start": 605.16,
+   "end": 605.28
+  },
+  {
+   "text": "year",
+   "start": 605.28,
+   "end": 605.46
+  },
+  {
+   "text": "later,",
+   "start": 605.46,
+   "end": 606.11
+  },
+  {
+   "text": "Britain",
+   "start": 606.11,
+   "end": 606.3
+  },
+  {
+   "text": "and",
+   "start": 606.3,
+   "end": 606.48
+  },
+  {
+   "text": "Russia",
+   "start": 606.48,
+   "end": 606.84
+  },
+  {
+   "text": "divided",
+   "start": 606.84,
+   "end": 607.26
+  },
+  {
+   "text": "Iran",
+   "start": 607.26,
+   "end": 607.5
+  },
+  {
+   "text": "into",
+   "start": 607.5,
+   "end": 607.74
+  },
+  {
+   "text": "spheres",
+   "start": 607.74,
+   "end": 608.16
+  },
+  {
+   "text": "of",
+   "start": 608.16,
+   "end": 608.28
+  },
+  {
+   "text": "influence",
+   "start": 608.28,
+   "end": 608.94
+  },
+  {
+   "text": "without",
+   "start": 608.94,
+   "end": 609.24
+  },
+  {
+   "text": "asking",
+   "start": 609.24,
+   "end": 609.64
+  },
+  {
+   "text": "it.",
+   "start": 609.64,
+   "end": 610.64
+  },
+  {
+   "text": "In",
+   "start": 610.64,
+   "end": 610.76
+  },
+  {
+   "text": "1908,",
+   "start": 610.76,
+   "end": 611.61
+  },
+  {
+   "text": "the",
+   "start": 611.61,
+   "end": 611.79
+  },
+  {
+   "text": "new",
+   "start": 611.79,
+   "end": 611.97
+  },
+  {
+   "text": "Shah",
+   "start": 611.97,
+   "end": 612.21
+  },
+  {
+   "text": "had",
+   "start": 612.21,
+   "end": 612.39
+  },
+  {
+   "text": "the",
+   "start": 612.39,
+   "end": 612.57
+  },
+  {
+   "text": "parliament",
+   "start": 612.57,
+   "end": 613.17
+  },
+  {
+   "text": "shelled",
+   "start": 613.17,
+   "end": 613.59
+  },
+  {
+   "text": "by",
+   "start": 613.59,
+   "end": 613.7
+  },
+  {
+   "text": "a",
+   "start": 613.7,
+   "end": 613.83
+  },
+  {
+   "text": "Qasak",
+   "start": 613.83,
+   "end": 614.07
+  },
+  {
+   "text": "brigade",
+   "start": 614.07,
+   "end": 614.49
+  },
+  {
+   "text": "with",
+   "start": 614.49,
+   "end": 614.72
+  },
+  {
+   "text": "Russian",
+   "start": 614.72,
+   "end": 615.63
+  },
+  {
+   "text": "officers.",
+   "start": 615.63,
+   "end": 615.88
+  },
+  {
+   "text": "That",
+   "start": 615.88,
+   "end": 616.13
+  },
+  {
+   "text": "same",
+   "start": 616.13,
+   "end": 616.38
+  },
+  {
+   "text": "year,",
+   "start": 616.38,
+   "end": 616.75
+  },
+  {
+   "text": "a",
+   "start": 616.75,
+   "end": 616.81
+  },
+  {
+   "text": "British",
+   "start": 616.81,
+   "end": 617.26
+  },
+  {
+   "text": "company",
+   "start": 617.26,
+   "end": 617.72
+  },
+  {
+   "text": "struck",
+   "start": 617.72,
+   "end": 618.09
+  },
+  {
+   "text": "oil",
+   "start": 618.09,
+   "end": 618.28
+  },
+  {
+   "text": "at",
+   "start": 618.28,
+   "end": 618.4
+  },
+  {
+   "text": "Masjid",
+   "start": 618.4,
+   "end": 618.77
+  },
+  {
+   "text": "Solayman.",
+   "start": 618.77,
+   "end": 619.56
+  },
+  {
+   "text": "The",
+   "start": 619.56,
+   "end": 619.76
+  },
+  {
+   "text": "Anglo-Persian",
+   "start": 619.76,
+   "end": 620.6
+  },
+  {
+   "text": "oil",
+   "start": 620.6,
+   "end": 620.81
+  },
+  {
+   "text": "company,",
+   "start": 620.81,
+   "end": 621.4
+  },
+  {
+   "text": "later",
+   "start": 621.4,
+   "end": 621.73
+  },
+  {
+   "text": "known",
+   "start": 621.73,
+   "end": 622.06
+  },
+  {
+   "text": "as",
+   "start": 622.06,
+   "end": 622.19
+  },
+  {
+   "text": "BP,",
+   "start": 622.19,
+   "end": 622.58
+  },
+  {
+   "text": "took",
+   "start": 622.58,
+   "end": 622.73
+  },
+  {
+   "text": "most",
+   "start": 622.73,
+   "end": 623
+  },
+  {
+   "text": "of",
+   "start": 623,
+   "end": 623.1
+  },
+  {
+   "text": "the",
+   "start": 623.1,
+   "end": 623.3
+  },
+  {
+   "text": "profits.",
+   "start": 623.3,
+   "end": 624.04
+  },
+  {
+   "text": "Iran's",
+   "start": 624.04,
+   "end": 624.71
+  },
+  {
+   "text": "share",
+   "start": 624.71,
+   "end": 625.27
+  },
+  {
+   "text": "was",
+   "start": 625.27,
+   "end": 625.61
+  },
+  {
+   "text": "16%.",
+   "start": 625.61,
+   "end": 626.76
+  },
+  {
+   "text": "During",
+   "start": 626.76,
+   "end": 627.09
+  },
+  {
+   "text": "the",
+   "start": 627.09,
+   "end": 627.24
+  },
+  {
+   "text": "First",
+   "start": 627.24,
+   "end": 627.5
+  },
+  {
+   "text": "World",
+   "start": 627.5,
+   "end": 627.88
+  },
+  {
+   "text": "War,",
+   "start": 627.88,
+   "end": 628.02
+  },
+  {
+   "text": "Iran",
+   "start": 628.02,
+   "end": 628.23
+  },
+  {
+   "text": "was",
+   "start": 628.23,
+   "end": 628.39
+  },
+  {
+   "text": "neutral,",
+   "start": 628.39,
+   "end": 628.85
+  },
+  {
+   "text": "but",
+   "start": 628.85,
+   "end": 629.09
+  },
+  {
+   "text": "Russian,",
+   "start": 629.09,
+   "end": 629.49
+  },
+  {
+   "text": "British,",
+   "start": 629.49,
+   "end": 629.96
+  },
+  {
+   "text": "and",
+   "start": 629.96,
+   "end": 630.12
+  },
+  {
+   "text": "Ottoman",
+   "start": 630.12,
+   "end": 630.49
+  },
+  {
+   "text": "armies",
+   "start": 630.49,
+   "end": 630.88
+  },
+  {
+   "text": "fought",
+   "start": 630.88,
+   "end": 631.2
+  },
+  {
+   "text": "on",
+   "start": 631.2,
+   "end": 631.33
+  },
+  {
+   "text": "its",
+   "start": 631.33,
+   "end": 631.53
+  },
+  {
+   "text": "soil",
+   "start": 631.53,
+   "end": 631.8
+  },
+  {
+   "text": "anyway,",
+   "start": 631.8,
+   "end": 632.4
+  },
+  {
+   "text": "a",
+   "start": 632.4,
+   "end": 632.53
+  },
+  {
+   "text": "famine",
+   "start": 632.53,
+   "end": 632.81
+  },
+  {
+   "text": "followed",
+   "start": 632.81,
+   "end": 633.36
+  },
+  {
+   "text": "that",
+   "start": 633.36,
+   "end": 633.63
+  },
+  {
+   "text": "killed",
+   "start": 633.63,
+   "end": 634.04
+  },
+  {
+   "text": "around",
+   "start": 634.04,
+   "end": 634.45
+  },
+  {
+   "text": "2",
+   "start": 634.45,
+   "end": 634.67
+  },
+  {
+   "text": "million",
+   "start": 634.67,
+   "end": 635.13
+  },
+  {
+   "text": "people",
+   "start": 635.13,
+   "end": 635.54
+  },
+  {
+   "text": "by",
+   "start": 635.54,
+   "end": 635.67
+  },
+  {
+   "text": "most",
+   "start": 635.67,
+   "end": 635.94
+  },
+  {
+   "text": "estimates.",
+   "start": 635.94,
+   "end": 636.88
+  },
+  {
+   "text": "In",
+   "start": 636.88,
+   "end": 637.01
+  },
+  {
+   "text": "1921,",
+   "start": 637.01,
+   "end": 637.99
+  },
+  {
+   "text": "a",
+   "start": 637.99,
+   "end": 638.05
+  },
+  {
+   "text": "Qasak",
+   "start": 638.05,
+   "end": 638.31
+  },
+  {
+   "text": "officer",
+   "start": 638.31,
+   "end": 638.8
+  },
+  {
+   "text": "named",
+   "start": 638.8,
+   "end": 639.1
+  },
+  {
+   "text": "Reza",
+   "start": 639.1,
+   "end": 639.36
+  },
+  {
+   "text": "Khan",
+   "start": 639.36,
+   "end": 639.63
+  },
+  {
+   "text": "seized",
+   "start": 639.63,
+   "end": 640.04
+  },
+  {
+   "text": "Tehran",
+   "start": 640.04,
+   "end": 640.4
+  },
+  {
+   "text": "in",
+   "start": 640.4,
+   "end": 640.53
+  },
+  {
+   "text": "a",
+   "start": 640.53,
+   "end": 640.59
+  },
+  {
+   "text": "coup,",
+   "start": 640.59,
+   "end": 640.96
+  },
+  {
+   "text": "with",
+   "start": 640.96,
+   "end": 641.24
+  },
+  {
+   "text": "encouragement",
+   "start": 641.24,
+   "end": 642.2
+  },
+  {
+   "text": "from",
+   "start": 642.2,
+   "end": 642.46
+  },
+  {
+   "text": "British",
+   "start": 642.46,
+   "end": 642.91
+  },
+  {
+   "text": "officers.",
+   "start": 642.91,
+   "end": 643.64
+  },
+  {
+   "text": "In",
+   "start": 643.64,
+   "end": 643.79
+  },
+  {
+   "text": "1925,",
+   "start": 643.79,
+   "end": 644.85
+  },
+  {
+   "text": "he",
+   "start": 644.85,
+   "end": 645
+  },
+  {
+   "text": "made",
+   "start": 645,
+   "end": 645.3
+  },
+  {
+   "text": "himself",
+   "start": 645.3,
+   "end": 645.86
+  },
+  {
+   "text": "Shah",
+   "start": 645.86,
+   "end": 646.13
+  },
+  {
+   "text": "and",
+   "start": 646.13,
+   "end": 646.35
+  },
+  {
+   "text": "founded",
+   "start": 646.35,
+   "end": 646.88
+  },
+  {
+   "text": "the",
+   "start": 646.88,
+   "end": 647.09
+  },
+  {
+   "text": "Palavi",
+   "start": 647.09,
+   "end": 648.07
+  },
+  {
+   "text": "dynasty.",
+   "start": 648.07,
+   "end": 648.36
+  },
+  {
+   "text": "Reza",
+   "start": 648.36,
+   "end": 648.64
+  },
+  {
+   "text": "Shah",
+   "start": 648.64,
+   "end": 648.92
+  },
+  {
+   "text": "built",
+   "start": 648.92,
+   "end": 649.27
+  },
+  {
+   "text": "a",
+   "start": 649.27,
+   "end": 649.34
+  },
+  {
+   "text": "railway",
+   "start": 649.34,
+   "end": 649.84
+  },
+  {
+   "text": "and",
+   "start": 649.84,
+   "end": 650.05
+  },
+  {
+   "text": "a",
+   "start": 650.05,
+   "end": 650.12
+  },
+  {
+   "text": "modern",
+   "start": 650.12,
+   "end": 650.54
+  },
+  {
+   "text": "army.",
+   "start": 650.54,
+   "end": 651.08
+  },
+  {
+   "text": "In",
+   "start": 651.08,
+   "end": 651.19
+  },
+  {
+   "text": "1935,",
+   "start": 651.19,
+   "end": 651.97
+  },
+  {
+   "text": "he",
+   "start": 651.97,
+   "end": 652.08
+  },
+  {
+   "text": "asked",
+   "start": 652.08,
+   "end": 652.36
+  },
+  {
+   "text": "foreign",
+   "start": 652.36,
+   "end": 652.75
+  },
+  {
+   "text": "governments",
+   "start": 652.75,
+   "end": 653.36
+  },
+  {
+   "text": "to",
+   "start": 653.36,
+   "end": 653.47
+  },
+  {
+   "text": "stop",
+   "start": 653.47,
+   "end": 653.71
+  },
+  {
+   "text": "saying",
+   "start": 653.71,
+   "end": 654.02
+  },
+  {
+   "text": "Persia",
+   "start": 654.02,
+   "end": 654.35
+  },
+  {
+   "text": "and",
+   "start": 654.35,
+   "end": 654.62
+  },
+  {
+   "text": "use",
+   "start": 654.62,
+   "end": 654.67
+  },
+  {
+   "text": "the",
+   "start": 654.67,
+   "end": 654.83
+  },
+  {
+   "text": "country's",
+   "start": 654.83,
+   "end": 655.41
+  },
+  {
+   "text": "own",
+   "start": 655.41,
+   "end": 655.6
+  },
+  {
+   "text": "name,",
+   "start": 655.6,
+   "end": 656.21
+  },
+  {
+   "text": "Iran.",
+   "start": 656.21,
+   "end": 656.96
+  },
+  {
+   "text": "In",
+   "start": 656.96,
+   "end": 657.09
+  },
+  {
+   "text": "1936,",
+   "start": 657.09,
+   "end": 658.01
+  },
+  {
+   "text": "he",
+   "start": 658.01,
+   "end": 658.14
+  },
+  {
+   "text": "banned",
+   "start": 658.14,
+   "end": 658.53
+  },
+  {
+   "text": "the",
+   "start": 658.53,
+   "end": 658.72
+  },
+  {
+   "text": "veil,",
+   "start": 658.72,
+   "end": 659.11
+  },
+  {
+   "text": "and",
+   "start": 659.11,
+   "end": 659.3
+  },
+  {
+   "text": "police",
+   "start": 659.3,
+   "end": 659.69
+  },
+  {
+   "text": "pulled",
+   "start": 659.69,
+   "end": 660.08
+  },
+  {
+   "text": "headscarves",
+   "start": 660.08,
+   "end": 660.79
+  },
+  {
+   "text": "off",
+   "start": 660.79,
+   "end": 660.98
+  },
+  {
+   "text": "women",
+   "start": 660.98,
+   "end": 661.29
+  },
+  {
+   "text": "in",
+   "start": 661.29,
+   "end": 661.38
+  },
+  {
+   "text": "the",
+   "start": 661.38,
+   "end": 662.02
+  },
+  {
+   "text": "street.",
+   "start": 662.02,
+   "end": 662.32
+  },
+  {
+   "text": "In",
+   "start": 662.32,
+   "end": 662.44
+  },
+  {
+   "text": "1941,",
+   "start": 662.44,
+   "end": 663.28
+  },
+  {
+   "text": "Britain",
+   "start": 663.28,
+   "end": 663.71
+  },
+  {
+   "text": "and",
+   "start": 663.71,
+   "end": 663.88
+  },
+  {
+   "text": "the",
+   "start": 663.88,
+   "end": 664.08
+  },
+  {
+   "text": "Soviet",
+   "start": 664.08,
+   "end": 664.42
+  },
+  {
+   "text": "Union",
+   "start": 664.42,
+   "end": 664.72
+  },
+  {
+   "text": "invaded",
+   "start": 664.72,
+   "end": 665.14
+  },
+  {
+   "text": "Iran",
+   "start": 665.14,
+   "end": 665.38
+  },
+  {
+   "text": "to",
+   "start": 665.38,
+   "end": 665.5
+  },
+  {
+   "text": "secure",
+   "start": 665.5,
+   "end": 665.86
+  },
+  {
+   "text": "its",
+   "start": 665.86,
+   "end": 666.04
+  },
+  {
+   "text": "oil",
+   "start": 666.04,
+   "end": 666.22
+  },
+  {
+   "text": "and",
+   "start": 666.22,
+   "end": 666.4
+  },
+  {
+   "text": "a",
+   "start": 666.4,
+   "end": 666.46
+  },
+  {
+   "text": "supply",
+   "start": 666.46,
+   "end": 666.82
+  },
+  {
+   "text": "route",
+   "start": 666.82,
+   "end": 667.16
+  },
+  {
+   "text": "to",
+   "start": 667.16,
+   "end": 667.3
+  },
+  {
+   "text": "the",
+   "start": 667.3,
+   "end": 667.52
+  },
+  {
+   "text": "Soviets.",
+   "start": 667.52,
+   "end": 668.26
+  },
+  {
+   "text": "They",
+   "start": 668.26,
+   "end": 668.55
+  },
+  {
+   "text": "forced",
+   "start": 668.55,
+   "end": 668.99
+  },
+  {
+   "text": "Reza",
+   "start": 668.99,
+   "end": 669.3
+  },
+  {
+   "text": "Shah",
+   "start": 669.3,
+   "end": 669.56
+  },
+  {
+   "text": "to",
+   "start": 669.56,
+   "end": 669.71
+  },
+  {
+   "text": "abdicate",
+   "start": 669.71,
+   "end": 670.27
+  },
+  {
+   "text": "in",
+   "start": 670.27,
+   "end": 670.41
+  },
+  {
+   "text": "favor",
+   "start": 670.41,
+   "end": 670.77
+  },
+  {
+   "text": "of",
+   "start": 670.77,
+   "end": 670.91
+  },
+  {
+   "text": "his",
+   "start": 670.91,
+   "end": 671.13
+  },
+  {
+   "text": "son,",
+   "start": 671.13,
+   "end": 671.49
+  },
+  {
+   "text": "Mohamed",
+   "start": 671.49,
+   "end": 672
+  },
+  {
+   "text": "Reza.",
+   "start": 672,
+   "end": 672.6
+  },
+  {
+   "text": "In",
+   "start": 672.6,
+   "end": 672.73
+  },
+  {
+   "text": "1951,",
+   "start": 672.73,
+   "end": 673.65
+  },
+  {
+   "text": "the",
+   "start": 673.65,
+   "end": 673.97
+  },
+  {
+   "text": "prime",
+   "start": 673.97,
+   "end": 674.18
+  },
+  {
+   "text": "minister",
+   "start": 674.18,
+   "end": 674.71
+  },
+  {
+   "text": "chosen",
+   "start": 674.71,
+   "end": 675.11
+  },
+  {
+   "text": "by",
+   "start": 675.11,
+   "end": 675.24
+  },
+  {
+   "text": "parliament,",
+   "start": 675.24,
+   "end": 676.03
+  },
+  {
+   "text": "Mohamed",
+   "start": 676.03,
+   "end": 676.49
+  },
+  {
+   "text": "Masjideg,",
+   "start": 676.49,
+   "end": 677.29
+  },
+  {
+   "text": "nationalized",
+   "start": 677.29,
+   "end": 677.95
+  },
+  {
+   "text": "Iran's",
+   "start": 677.95,
+   "end": 678.39
+  },
+  {
+   "text": "oil.",
+   "start": 678.39,
+   "end": 679.16
+  },
+  {
+   "text": "Britain",
+   "start": 679.16,
+   "end": 679.52
+  },
+  {
+   "text": "answered",
+   "start": 679.52,
+   "end": 679.93
+  },
+  {
+   "text": "with",
+   "start": 679.93,
+   "end": 680.13
+  },
+  {
+   "text": "a",
+   "start": 680.13,
+   "end": 680.18
+  },
+  {
+   "text": "blockade.",
+   "start": 680.18,
+   "end": 680.76
+  },
+  {
+   "text": "On",
+   "start": 680.76,
+   "end": 680.9
+  },
+  {
+   "text": "19",
+   "start": 680.9,
+   "end": 681.32
+  },
+  {
+   "text": "August",
+   "start": 681.32,
+   "end": 681.74
+  },
+  {
+   "text": "1953,",
+   "start": 681.74,
+   "end": 682.73
+  },
+  {
+   "text": "a",
+   "start": 682.73,
+   "end": 682.8
+  },
+  {
+   "text": "coup",
+   "start": 682.8,
+   "end": 683.09
+  },
+  {
+   "text": "organized",
+   "start": 683.09,
+   "end": 683.71
+  },
+  {
+   "text": "by",
+   "start": 683.71,
+   "end": 683.85
+  },
+  {
+   "text": "the",
+   "start": 683.85,
+   "end": 684.06
+  },
+  {
+   "text": "CIA",
+   "start": 684.06,
+   "end": 684.3
+  },
+  {
+   "text": "and",
+   "start": 684.3,
+   "end": 684.48
+  },
+  {
+   "text": "British",
+   "start": 684.48,
+   "end": 684.98
+  },
+  {
+   "text": "intelligence,",
+   "start": 684.98,
+   "end": 686.14
+  },
+  {
+   "text": "using",
+   "start": 686.14,
+   "end": 686.31
+  },
+  {
+   "text": "paid",
+   "start": 686.31,
+   "end": 686.66
+  },
+  {
+   "text": "crowds",
+   "start": 686.66,
+   "end": 687.12
+  },
+  {
+   "text": "and",
+   "start": 687.12,
+   "end": 687.34
+  },
+  {
+   "text": "loyal",
+   "start": 687.34,
+   "end": 687.72
+  },
+  {
+   "text": "army",
+   "start": 687.72,
+   "end": 688.02
+  },
+  {
+   "text": "units,",
+   "start": 688.02,
+   "end": 688.55
+  },
+  {
+   "text": "overthrew",
+   "start": 688.55,
+   "end": 689.22
+  },
+  {
+   "text": "him.",
+   "start": 689.22,
+   "end": 689.72
+  },
+  {
+   "text": "In",
+   "start": 689.72,
+   "end": 689.84
+  },
+  {
+   "text": "2013,",
+   "start": 689.84,
+   "end": 690.86
+  },
+  {
+   "text": "the",
+   "start": 690.86,
+   "end": 690.92
+  },
+  {
+   "text": "CIA",
+   "start": 690.92,
+   "end": 691.11
+  },
+  {
+   "text": "released",
+   "start": 691.11,
+   "end": 691.62
+  },
+  {
+   "text": "documents",
+   "start": 691.62,
+   "end": 692.19
+  },
+  {
+   "text": "confirming",
+   "start": 692.19,
+   "end": 692.83
+  },
+  {
+   "text": "its",
+   "start": 692.83,
+   "end": 693.01
+  },
+  {
+   "text": "role.",
+   "start": 693.01,
+   "end": 693.52
+  },
+  {
+   "text": "Masjideg",
+   "start": 693.52,
+   "end": 694.01
+  },
+  {
+   "text": "served",
+   "start": 694.01,
+   "end": 694.42
+  },
+  {
+   "text": "three",
+   "start": 694.42,
+   "end": 694.71
+  },
+  {
+   "text": "years",
+   "start": 694.71,
+   "end": 695.03
+  },
+  {
+   "text": "in",
+   "start": 695.03,
+   "end": 695.15
+  },
+  {
+   "text": "prison,",
+   "start": 695.15,
+   "end": 695.65
+  },
+  {
+   "text": "and",
+   "start": 695.65,
+   "end": 695.89
+  },
+  {
+   "text": "spent",
+   "start": 695.89,
+   "end": 696.22
+  },
+  {
+   "text": "the",
+   "start": 696.22,
+   "end": 696.35
+  },
+  {
+   "text": "rest",
+   "start": 696.35,
+   "end": 696.6
+  },
+  {
+   "text": "of",
+   "start": 696.6,
+   "end": 696.72
+  },
+  {
+   "text": "his",
+   "start": 696.72,
+   "end": 696.91
+  },
+  {
+   "text": "life",
+   "start": 696.91,
+   "end": 697.15
+  },
+  {
+   "text": "under",
+   "start": 697.15,
+   "end": 697.48
+  },
+  {
+   "text": "house",
+   "start": 697.48,
+   "end": 698.18
+  },
+  {
+   "text": "arrest.",
+   "start": 698.18,
+   "end": 698.48
+  },
+  {
+   "text": "The",
+   "start": 698.48,
+   "end": 698.67
+  },
+  {
+   "text": "Shah",
+   "start": 698.67,
+   "end": 698.93
+  },
+  {
+   "text": "now",
+   "start": 698.93,
+   "end": 699.11
+  },
+  {
+   "text": "ruled",
+   "start": 699.11,
+   "end": 699.44
+  },
+  {
+   "text": "with",
+   "start": 699.44,
+   "end": 699.7
+  },
+  {
+   "text": "growing",
+   "start": 699.7,
+   "end": 700.15
+  },
+  {
+   "text": "power.",
+   "start": 700.15,
+   "end": 700.72
+  },
+  {
+   "text": "His",
+   "start": 700.72,
+   "end": 700.96
+  },
+  {
+   "text": "reforms",
+   "start": 700.96,
+   "end": 701.35
+  },
+  {
+   "text": "gave",
+   "start": 701.35,
+   "end": 701.6
+  },
+  {
+   "text": "women",
+   "start": 701.6,
+   "end": 701.91
+  },
+  {
+   "text": "the",
+   "start": 701.91,
+   "end": 702.1
+  },
+  {
+   "text": "vote,",
+   "start": 702.1,
+   "end": 702.47
+  },
+  {
+   "text": "and",
+   "start": 702.47,
+   "end": 702.66
+  },
+  {
+   "text": "the",
+   "start": 702.66,
+   "end": 702.85
+  },
+  {
+   "text": "oil",
+   "start": 702.85,
+   "end": 703.04
+  },
+  {
+   "text": "boom",
+   "start": 703.04,
+   "end": 703.29
+  },
+  {
+   "text": "of",
+   "start": 703.29,
+   "end": 703.41
+  },
+  {
+   "text": "the",
+   "start": 703.41,
+   "end": 703.6
+  },
+  {
+   "text": "1970s",
+   "start": 703.6,
+   "end": 704.48
+  },
+  {
+   "text": "made",
+   "start": 704.48,
+   "end": 704.67
+  },
+  {
+   "text": "Tehran",
+   "start": 704.67,
+   "end": 705.05
+  },
+  {
+   "text": "rich.",
+   "start": 705.05,
+   "end": 705.56
+  },
+  {
+   "text": "His",
+   "start": 705.56,
+   "end": 705.75
+  },
+  {
+   "text": "secret",
+   "start": 705.75,
+   "end": 706.13
+  },
+  {
+   "text": "police,",
+   "start": 706.13,
+   "end": 706.63
+  },
+  {
+   "text": "Saqach,",
+   "start": 706.63,
+   "end": 707.26
+  },
+  {
+   "text": "tortured",
+   "start": 707.26,
+   "end": 707.63
+  },
+  {
+   "text": "opponents,",
+   "start": 707.63,
+   "end": 708.39
+  },
+  {
+   "text": "a",
+   "start": 708.39,
+   "end": 708.44
+  },
+  {
+   "text": "cleric",
+   "start": 708.44,
+   "end": 708.77
+  },
+  {
+   "text": "named",
+   "start": 708.77,
+   "end": 709.09
+  },
+  {
+   "text": "Roholah",
+   "start": 709.09,
+   "end": 709.61
+  },
+  {
+   "text": "Khomeini,",
+   "start": 709.61,
+   "end": 710.31
+  },
+  {
+   "text": "exiled",
+   "start": 710.31,
+   "end": 710.51
+  },
+  {
+   "text": "since",
+   "start": 710.51,
+   "end": 711
+  },
+  {
+   "text": "1964,",
+   "start": 711,
+   "end": 712.09
+  },
+  {
+   "text": "became",
+   "start": 712.09,
+   "end": 712.56
+  },
+  {
+   "text": "the",
+   "start": 712.56,
+   "end": 712.79
+  },
+  {
+   "text": "voice",
+   "start": 712.79,
+   "end": 713.18
+  },
+  {
+   "text": "of",
+   "start": 713.18,
+   "end": 713.33
+  },
+  {
+   "text": "the",
+   "start": 713.33,
+   "end": 713.56
+  },
+  {
+   "text": "opposition.",
+   "start": 713.56,
+   "end": 714.64
+  },
+  {
+   "text": "In",
+   "start": 714.64,
+   "end": 714.78
+  },
+  {
+   "text": "1978,",
+   "start": 714.78,
+   "end": 715.87
+  },
+  {
+   "text": "strikes",
+   "start": 715.87,
+   "end": 716.22
+  },
+  {
+   "text": "and",
+   "start": 716.22,
+   "end": 716.42
+  },
+  {
+   "text": "huge",
+   "start": 716.42,
+   "end": 716.69
+  },
+  {
+   "text": "protests",
+   "start": 716.69,
+   "end": 717.24
+  },
+  {
+   "text": "shut",
+   "start": 717.24,
+   "end": 717.51
+  },
+  {
+   "text": "the",
+   "start": 717.51,
+   "end": 717.71
+  },
+  {
+   "text": "country",
+   "start": 717.71,
+   "end": 718.19
+  },
+  {
+   "text": "down.",
+   "start": 718.19,
+   "end": 718.76
+  },
+  {
+   "text": "In",
+   "start": 718.76,
+   "end": 718.93
+  },
+  {
+   "text": "January",
+   "start": 718.93,
+   "end": 719.52
+  },
+  {
+   "text": "1979,",
+   "start": 719.52,
+   "end": 720.69
+  },
+  {
+   "text": "the",
+   "start": 720.69,
+   "end": 720.94
+  },
+  {
+   "text": "Shah",
+   "start": 720.94,
+   "end": 721.27
+  },
+  {
+   "text": "left",
+   "start": 721.27,
+   "end": 721.6
+  },
+  {
+   "text": "Iran.",
+   "start": 721.6,
+   "end": 722.24
+  },
+  {
+   "text": "On",
+   "start": 722.24,
+   "end": 722.46
+  },
+  {
+   "text": "1",
+   "start": 722.46,
+   "end": 722.57
+  },
+  {
+   "text": "February,",
+   "start": 722.57,
+   "end": 723.24
+  },
+  {
+   "text": "Khomeini",
+   "start": 723.24,
+   "end": 723.77
+  },
+  {
+   "text": "returned",
+   "start": 723.77,
+   "end": 724.31
+  },
+  {
+   "text": "to",
+   "start": 724.31,
+   "end": 724.45
+  },
+  {
+   "text": "a",
+   "start": 724.45,
+   "end": 724.5
+  },
+  {
+   "text": "crowd",
+   "start": 724.5,
+   "end": 724.84
+  },
+  {
+   "text": "of",
+   "start": 724.84,
+   "end": 724.97
+  },
+  {
+   "text": "millions.",
+   "start": 724.97,
+   "end": 725.8
+  },
+  {
+   "text": "On",
+   "start": 725.8,
+   "end": 725.99
+  },
+  {
+   "text": "1",
+   "start": 725.99,
+   "end": 726.17
+  },
+  {
+   "text": "April,",
+   "start": 726.17,
+   "end": 726.87
+  },
+  {
+   "text": "after",
+   "start": 726.87,
+   "end": 727.04
+  },
+  {
+   "text": "a",
+   "start": 727.04,
+   "end": 727.11
+  },
+  {
+   "text": "referendum,",
+   "start": 727.11,
+   "end": 728.07
+  },
+  {
+   "text": "Iran",
+   "start": 728.07,
+   "end": 728.27
+  },
+  {
+   "text": "became",
+   "start": 728.27,
+   "end": 728.71
+  },
+  {
+   "text": "an",
+   "start": 728.71,
+   "end": 728.85
+  },
+  {
+   "text": "Islamic",
+   "start": 728.85,
+   "end": 729.36
+  },
+  {
+   "text": "republic.",
+   "start": 729.36,
+   "end": 730.24
+  },
+  {
+   "text": "In",
+   "start": 730.24,
+   "end": 730.36
+  },
+  {
+   "text": "December,",
+   "start": 730.36,
+   "end": 730.98
+  },
+  {
+   "text": "a",
+   "start": 730.98,
+   "end": 731.04
+  },
+  {
+   "text": "new",
+   "start": 731.04,
+   "end": 731.24
+  },
+  {
+   "text": "constitution",
+   "start": 731.24,
+   "end": 731.97
+  },
+  {
+   "text": "placed",
+   "start": 731.97,
+   "end": 732.34
+  },
+  {
+   "text": "a",
+   "start": 732.34,
+   "end": 732.44
+  },
+  {
+   "text": "supreme",
+   "start": 732.44,
+   "end": 732.83
+  },
+  {
+   "text": "leader",
+   "start": 732.83,
+   "end": 733.2
+  },
+  {
+   "text": "above",
+   "start": 733.2,
+   "end": 733.51
+  },
+  {
+   "text": "the",
+   "start": 733.51,
+   "end": 733.69
+  },
+  {
+   "text": "elected",
+   "start": 733.69,
+   "end": 734.12
+  },
+  {
+   "text": "government.",
+   "start": 734.12,
+   "end": 735
+  },
+  {
+   "text": "The",
+   "start": 735,
+   "end": 735.18
+  },
+  {
+   "text": "revolution",
+   "start": 735.18,
+   "end": 735.78
+  },
+  {
+   "text": "had",
+   "start": 735.78,
+   "end": 735.96
+  },
+  {
+   "text": "been",
+   "start": 735.96,
+   "end": 736.2
+  },
+  {
+   "text": "made",
+   "start": 736.2,
+   "end": 736.43
+  },
+  {
+   "text": "by",
+   "start": 736.43,
+   "end": 736.56
+  },
+  {
+   "text": "leftists,",
+   "start": 736.56,
+   "end": 737.16
+  },
+  {
+   "text": "liberals",
+   "start": 737.16,
+   "end": 737.64
+  },
+  {
+   "text": "and",
+   "start": 737.64,
+   "end": 737.82
+  },
+  {
+   "text": "Islamists",
+   "start": 737.82,
+   "end": 738.36
+  },
+  {
+   "text": "together.",
+   "start": 738.36,
+   "end": 739.04
+  },
+  {
+   "text": "Within",
+   "start": 739.04,
+   "end": 739.35
+  },
+  {
+   "text": "a",
+   "start": 739.35,
+   "end": 739.4
+  },
+  {
+   "text": "few",
+   "start": 739.4,
+   "end": 739.55
+  },
+  {
+   "text": "years,",
+   "start": 739.55,
+   "end": 739.91
+  },
+  {
+   "text": "Khomeini's",
+   "start": 739.91,
+   "end": 740.41
+  },
+  {
+   "text": "followers",
+   "start": 740.41,
+   "end": 740.86
+  },
+  {
+   "text": "had",
+   "start": 740.86,
+   "end": 741.01
+  },
+  {
+   "text": "crushed",
+   "start": 741.01,
+   "end": 741.37
+  },
+  {
+   "text": "the",
+   "start": 741.37,
+   "end": 741.52
+  },
+  {
+   "text": "others,",
+   "start": 741.52,
+   "end": 741.97
+  },
+  {
+   "text": "executed",
+   "start": 741.97,
+   "end": 742.34
+  },
+  {
+   "text": "officials",
+   "start": 742.34,
+   "end": 742.88
+  },
+  {
+   "text": "of",
+   "start": 742.88,
+   "end": 743.01
+  },
+  {
+   "text": "the",
+   "start": 743.01,
+   "end": 743.2
+  },
+  {
+   "text": "old",
+   "start": 743.2,
+   "end": 743.39
+  },
+  {
+   "text": "regime,",
+   "start": 743.39,
+   "end": 743.99
+  },
+  {
+   "text": "and",
+   "start": 743.99,
+   "end": 744.1
+  },
+  {
+   "text": "made",
+   "start": 744.1,
+   "end": 744.36
+  },
+  {
+   "text": "the",
+   "start": 744.36,
+   "end": 744.55
+  },
+  {
+   "text": "veil",
+   "start": 744.55,
+   "end": 744.81
+  },
+  {
+   "text": "compulsory.",
+   "start": 744.81,
+   "end": 745.72
+  },
+  {
+   "text": "In",
+   "start": 745.72,
+   "end": 745.84
+  },
+  {
+   "text": "November",
+   "start": 745.84,
+   "end": 746.42
+  },
+  {
+   "text": "1979,",
+   "start": 746.42,
+   "end": 747.23
+  },
+  {
+   "text": "students",
+   "start": 747.23,
+   "end": 747.74
+  },
+  {
+   "text": "seized",
+   "start": 747.74,
+   "end": 748.12
+  },
+  {
+   "text": "the",
+   "start": 748.12,
+   "end": 748.31
+  },
+  {
+   "text": "U.S.",
+   "start": 748.31,
+   "end": 748.81
+  },
+  {
+   "text": "embassy",
+   "start": 748.81,
+   "end": 749.26
+  },
+  {
+   "text": "and",
+   "start": 749.26,
+   "end": 749.44
+  },
+  {
+   "text": "held",
+   "start": 749.44,
+   "end": 749.69
+  },
+  {
+   "text": "52",
+   "start": 749.69,
+   "end": 750.07
+  },
+  {
+   "text": "Americans",
+   "start": 750.07,
+   "end": 750.64
+  },
+  {
+   "text": "hostage",
+   "start": 750.64,
+   "end": 751.24
+  },
+  {
+   "text": "for",
+   "start": 751.24,
+   "end": 751.44
+  },
+  {
+   "text": "444",
+   "start": 751.44,
+   "end": 752.6
+  },
+  {
+   "text": "days.",
+   "start": 752.6,
+   "end": 753.76
+  },
+  {
+   "text": "In",
+   "start": 753.76,
+   "end": 753.88
+  },
+  {
+   "text": "September",
+   "start": 753.88,
+   "end": 754.47
+  },
+  {
+   "text": "1980,",
+   "start": 754.47,
+   "end": 755.33
+  },
+  {
+   "text": "Saddam",
+   "start": 755.33,
+   "end": 755.71
+  },
+  {
+   "text": "Hussein's",
+   "start": 755.71,
+   "end": 756.27
+  },
+  {
+   "text": "Iraq",
+   "start": 756.27,
+   "end": 756.52
+  },
+  {
+   "text": "invaded.",
+   "start": 756.52,
+   "end": 757.2
+  },
+  {
+   "text": "By",
+   "start": 757.2,
+   "end": 757.32
+  },
+  {
+   "text": "1982,",
+   "start": 757.32,
+   "end": 758.18
+  },
+  {
+   "text": "Iran",
+   "start": 758.18,
+   "end": 758.42
+  },
+  {
+   "text": "had",
+   "start": 758.42,
+   "end": 758.6
+  },
+  {
+   "text": "pushed",
+   "start": 758.6,
+   "end": 759.02
+  },
+  {
+   "text": "the",
+   "start": 759.02,
+   "end": 759.15
+  },
+  {
+   "text": "Iraqis",
+   "start": 759.15,
+   "end": 759.52
+  },
+  {
+   "text": "out,",
+   "start": 759.52,
+   "end": 759.82
+  },
+  {
+   "text": "then",
+   "start": 759.82,
+   "end": 760.1
+  },
+  {
+   "text": "chose",
+   "start": 760.1,
+   "end": 760.37
+  },
+  {
+   "text": "to",
+   "start": 760.37,
+   "end": 760.51
+  },
+  {
+   "text": "carry",
+   "start": 760.51,
+   "end": 760.8
+  },
+  {
+   "text": "the",
+   "start": 760.8,
+   "end": 760.98
+  },
+  {
+   "text": "war",
+   "start": 760.98,
+   "end": 761.16
+  },
+  {
+   "text": "into",
+   "start": 761.16,
+   "end": 761.4
+  },
+  {
+   "text": "Iraq,",
+   "start": 761.4,
+   "end": 761.77
+  },
+  {
+   "text": "sending",
+   "start": 761.77,
+   "end": 762.3
+  },
+  {
+   "text": "waves",
+   "start": 762.3,
+   "end": 762.61
+  },
+  {
+   "text": "of",
+   "start": 762.61,
+   "end": 762.73
+  },
+  {
+   "text": "young",
+   "start": 762.73,
+   "end": 763.04
+  },
+  {
+   "text": "volunteers,",
+   "start": 763.04,
+   "end": 763.9
+  },
+  {
+   "text": "some",
+   "start": 763.9,
+   "end": 764.04
+  },
+  {
+   "text": "of",
+   "start": 764.04,
+   "end": 764.16
+  },
+  {
+   "text": "them",
+   "start": 764.16,
+   "end": 764.41
+  },
+  {
+   "text": "teenagers,",
+   "start": 764.41,
+   "end": 765.17
+  },
+  {
+   "text": "against",
+   "start": 765.17,
+   "end": 765.54
+  },
+  {
+   "text": "Iraqi",
+   "start": 765.54,
+   "end": 765.85
+  },
+  {
+   "text": "lines.",
+   "start": 765.85,
+   "end": 766.44
+  },
+  {
+   "text": "Iraq",
+   "start": 766.44,
+   "end": 766.75
+  },
+  {
+   "text": "used",
+   "start": 766.75,
+   "end": 767.06
+  },
+  {
+   "text": "mustard",
+   "start": 767.06,
+   "end": 767.6
+  },
+  {
+   "text": "gas",
+   "start": 767.6,
+   "end": 767.83
+  },
+  {
+   "text": "and",
+   "start": 767.83,
+   "end": 768.06
+  },
+  {
+   "text": "nerve",
+   "start": 768.06,
+   "end": 768.45
+  },
+  {
+   "text": "agents.",
+   "start": 768.45,
+   "end": 769.18
+  },
+  {
+   "text": "The",
+   "start": 769.18,
+   "end": 769.36
+  },
+  {
+   "text": "United",
+   "start": 769.36,
+   "end": 769.71
+  },
+  {
+   "text": "States,",
+   "start": 769.71,
+   "end": 770.17
+  },
+  {
+   "text": "the",
+   "start": 770.17,
+   "end": 770.35
+  },
+  {
+   "text": "Soviet",
+   "start": 770.35,
+   "end": 770.7
+  },
+  {
+   "text": "Union,",
+   "start": 770.7,
+   "end": 771.11
+  },
+  {
+   "text": "France",
+   "start": 771.11,
+   "end": 771.46
+  },
+  {
+   "text": "and",
+   "start": 771.46,
+   "end": 771.68
+  },
+  {
+   "text": "most",
+   "start": 771.68,
+   "end": 771.88
+  },
+  {
+   "text": "Arab",
+   "start": 771.88,
+   "end": 772.12
+  },
+  {
+   "text": "states",
+   "start": 772.12,
+   "end": 772.47
+  },
+  {
+   "text": "backed",
+   "start": 772.47,
+   "end": 772.81
+  },
+  {
+   "text": "Iraq.",
+   "start": 772.81,
+   "end": 773.32
+  },
+  {
+   "text": "Syria,",
+   "start": 773.32,
+   "end": 773.8
+  },
+  {
+   "text": "Libya",
+   "start": 773.8,
+   "end": 774.13
+  },
+  {
+   "text": "and",
+   "start": 774.13,
+   "end": 774.33
+  },
+  {
+   "text": "North",
+   "start": 774.33,
+   "end": 774.66
+  },
+  {
+   "text": "Korea",
+   "start": 774.66,
+   "end": 775.01
+  },
+  {
+   "text": "supplied",
+   "start": 775.01,
+   "end": 775.55
+  },
+  {
+   "text": "Iran.",
+   "start": 775.55,
+   "end": 776.04
+  },
+  {
+   "text": "In",
+   "start": 776.04,
+   "end": 776.17
+  },
+  {
+   "text": "July",
+   "start": 776.17,
+   "end": 776.43
+  },
+  {
+   "text": "1988,",
+   "start": 776.43,
+   "end": 777.53
+  },
+  {
+   "text": "the",
+   "start": 777.53,
+   "end": 777.56
+  },
+  {
+   "text": "American",
+   "start": 777.56,
+   "end": 778.05
+  },
+  {
+   "text": "warship",
+   "start": 778.05,
+   "end": 778.51
+  },
+  {
+   "text": "Vinsins",
+   "start": 778.51,
+   "end": 778.94
+  },
+  {
+   "text": "shot",
+   "start": 778.94,
+   "end": 779.19
+  },
+  {
+   "text": "down",
+   "start": 779.19,
+   "end": 779.5
+  },
+  {
+   "text": "an",
+   "start": 779.5,
+   "end": 779.59
+  },
+  {
+   "text": "Iranian",
+   "start": 779.59,
+   "end": 780.04
+  },
+  {
+   "text": "passenger",
+   "start": 780.04,
+   "end": 780.62
+  },
+  {
+   "text": "jet",
+   "start": 780.62,
+   "end": 780.81
+  },
+  {
+   "text": "over",
+   "start": 780.81,
+   "end": 781.12
+  },
+  {
+   "text": "the",
+   "start": 781.12,
+   "end": 781.22
+  },
+  {
+   "text": "Gulf,",
+   "start": 781.22,
+   "end": 781.89
+  },
+  {
+   "text": "killing",
+   "start": 781.89,
+   "end": 782.2
+  },
+  {
+   "text": "all",
+   "start": 782.2,
+   "end": 782.47
+  },
+  {
+   "text": "290",
+   "start": 782.47,
+   "end": 783.13
+  },
+  {
+   "text": "people",
+   "start": 783.13,
+   "end": 783.58
+  },
+  {
+   "text": "on",
+   "start": 783.58,
+   "end": 783.73
+  },
+  {
+   "text": "board.",
+   "start": 783.73,
+   "end": 784.38
+  },
+  {
+   "text": "The",
+   "start": 784.38,
+   "end": 784.53
+  },
+  {
+   "text": "crew",
+   "start": 784.53,
+   "end": 784.74
+  },
+  {
+   "text": "said",
+   "start": 784.74,
+   "end": 784.95
+  },
+  {
+   "text": "they",
+   "start": 784.95,
+   "end": 785.19
+  },
+  {
+   "text": "mistook",
+   "start": 785.19,
+   "end": 785.52
+  },
+  {
+   "text": "it",
+   "start": 785.52,
+   "end": 785.62
+  },
+  {
+   "text": "for",
+   "start": 785.62,
+   "end": 785.77
+  },
+  {
+   "text": "a",
+   "start": 785.77,
+   "end": 785.82
+  },
+  {
+   "text": "fighter.",
+   "start": 785.82,
+   "end": 786.4
+  },
+  {
+   "text": "The",
+   "start": 786.4,
+   "end": 786.6
+  },
+  {
+   "text": "United",
+   "start": 786.6,
+   "end": 787.02
+  },
+  {
+   "text": "States",
+   "start": 787.02,
+   "end": 787.4
+  },
+  {
+   "text": "expressed",
+   "start": 787.4,
+   "end": 788.03
+  },
+  {
+   "text": "regret",
+   "start": 788.03,
+   "end": 788.45
+  },
+  {
+   "text": "and",
+   "start": 788.45,
+   "end": 788.63
+  },
+  {
+   "text": "later",
+   "start": 788.63,
+   "end": 788.93
+  },
+  {
+   "text": "paid",
+   "start": 788.93,
+   "end": 789.19
+  },
+  {
+   "text": "compensation.",
+   "start": 789.19,
+   "end": 790.24
+  },
+  {
+   "text": "The",
+   "start": 790.24,
+   "end": 790.43
+  },
+  {
+   "text": "war",
+   "start": 790.43,
+   "end": 790.62
+  },
+  {
+   "text": "ended",
+   "start": 790.62,
+   "end": 790.93
+  },
+  {
+   "text": "in",
+   "start": 790.93,
+   "end": 791.05
+  },
+  {
+   "text": "August",
+   "start": 791.05,
+   "end": 791.43
+  },
+  {
+   "text": "1988",
+   "start": 791.43,
+   "end": 792.18
+  },
+  {
+   "text": "with",
+   "start": 792.18,
+   "end": 792.43
+  },
+  {
+   "text": "about",
+   "start": 792.43,
+   "end": 792.74
+  },
+  {
+   "text": "half",
+   "start": 792.74,
+   "end": 792.99
+  },
+  {
+   "text": "a",
+   "start": 792.99,
+   "end": 793.05
+  },
+  {
+   "text": "million",
+   "start": 793.05,
+   "end": 793.49
+  },
+  {
+   "text": "dead.",
+   "start": 793.49,
+   "end": 793.98
+  },
+  {
+   "text": "That",
+   "start": 793.98,
+   "end": 794.21
+  },
+  {
+   "text": "same",
+   "start": 794.21,
+   "end": 794.44
+  },
+  {
+   "text": "summer,",
+   "start": 794.44,
+   "end": 794.9
+  },
+  {
+   "text": "on",
+   "start": 794.9,
+   "end": 795.01
+  },
+  {
+   "text": "Khomeini's",
+   "start": 795.01,
+   "end": 795.57
+  },
+  {
+   "text": "order,",
+   "start": 795.57,
+   "end": 796.03
+  },
+  {
+   "text": "the",
+   "start": 796.03,
+   "end": 796.14
+  },
+  {
+   "text": "regime",
+   "start": 796.14,
+   "end": 796.49
+  },
+  {
+   "text": "executed",
+   "start": 796.49,
+   "end": 797.05
+  },
+  {
+   "text": "thousands",
+   "start": 797.05,
+   "end": 797.57
+  },
+  {
+   "text": "of",
+   "start": 797.57,
+   "end": 797.59
+  },
+  {
+   "text": "political",
+   "start": 797.59,
+   "end": 798.1
+  },
+  {
+   "text": "prisoners.",
+   "start": 798.1,
+   "end": 798.92
+  },
+  {
+   "text": "Human",
+   "start": 798.92,
+   "end": 799.27
+  },
+  {
+   "text": "rights",
+   "start": 799.27,
+   "end": 799.71
+  },
+  {
+   "text": "groups",
+   "start": 799.71,
+   "end": 800.11
+  },
+  {
+   "text": "estimate",
+   "start": 800.11,
+   "end": 800.67
+  },
+  {
+   "text": "between",
+   "start": 800.67,
+   "end": 801.16
+  },
+  {
+   "text": "2,800",
+   "start": 801.16,
+   "end": 802.14
+  },
+  {
+   "text": "and",
+   "start": 802.14,
+   "end": 802.35
+  },
+  {
+   "text": "5,000.",
+   "start": 802.35,
+   "end": 803.58
+  },
+  {
+   "text": "Khomeini",
+   "start": 803.58,
+   "end": 804.06
+  },
+  {
+   "text": "died",
+   "start": 804.06,
+   "end": 804.31
+  },
+  {
+   "text": "in",
+   "start": 804.31,
+   "end": 804.43
+  },
+  {
+   "text": "1989,",
+   "start": 804.43,
+   "end": 805.3
+  },
+  {
+   "text": "and",
+   "start": 805.3,
+   "end": 805.48
+  },
+  {
+   "text": "Ali",
+   "start": 805.48,
+   "end": 805.66
+  },
+  {
+   "text": "Khamenei",
+   "start": 805.66,
+   "end": 806.16
+  },
+  {
+   "text": "became",
+   "start": 806.16,
+   "end": 806.53
+  },
+  {
+   "text": "Supreme",
+   "start": 806.53,
+   "end": 806.97
+  },
+  {
+   "text": "Leader.",
+   "start": 806.97,
+   "end": 807.62
+  },
+  {
+   "text": "In",
+   "start": 807.62,
+   "end": 807.75
+  },
+  {
+   "text": "2009,",
+   "start": 807.75,
+   "end": 808.75
+  },
+  {
+   "text": "millions",
+   "start": 808.75,
+   "end": 809.25
+  },
+  {
+   "text": "protested",
+   "start": 809.25,
+   "end": 809.87
+  },
+  {
+   "text": "a",
+   "start": 809.87,
+   "end": 809.93
+  },
+  {
+   "text": "disputed",
+   "start": 809.93,
+   "end": 810.48
+  },
+  {
+   "text": "presidential",
+   "start": 810.48,
+   "end": 811.54
+  },
+  {
+   "text": "election,",
+   "start": 811.54,
+   "end": 811.98
+  },
+  {
+   "text": "and",
+   "start": 811.98,
+   "end": 812.18
+  },
+  {
+   "text": "were",
+   "start": 812.18,
+   "end": 812.38
+  },
+  {
+   "text": "beaten",
+   "start": 812.38,
+   "end": 813.13
+  },
+  {
+   "text": "back.",
+   "start": 813.13,
+   "end": 813.42
+  },
+  {
+   "text": "Iran",
+   "start": 813.42,
+   "end": 813.66
+  },
+  {
+   "text": "built",
+   "start": 813.66,
+   "end": 813.96
+  },
+  {
+   "text": "up",
+   "start": 813.96,
+   "end": 814.08
+  },
+  {
+   "text": "a",
+   "start": 814.08,
+   "end": 814.14
+  },
+  {
+   "text": "nuclear",
+   "start": 814.14,
+   "end": 814.56
+  },
+  {
+   "text": "program",
+   "start": 814.56,
+   "end": 814.98
+  },
+  {
+   "text": "and",
+   "start": 814.98,
+   "end": 815.16
+  },
+  {
+   "text": "armed",
+   "start": 815.16,
+   "end": 815.46
+  },
+  {
+   "text": "allies",
+   "start": 815.46,
+   "end": 815.84
+  },
+  {
+   "text": "from",
+   "start": 815.84,
+   "end": 816.06
+  },
+  {
+   "text": "Lebanon",
+   "start": 816.06,
+   "end": 816.48
+  },
+  {
+   "text": "to",
+   "start": 816.48,
+   "end": 816.6
+  },
+  {
+   "text": "Yemen,",
+   "start": 816.6,
+   "end": 817.12
+  },
+  {
+   "text": "and",
+   "start": 817.12,
+   "end": 817.2
+  },
+  {
+   "text": "faced",
+   "start": 817.2,
+   "end": 817.61
+  },
+  {
+   "text": "international",
+   "start": 817.61,
+   "end": 818.16
+  },
+  {
+   "text": "sanctions.",
+   "start": 818.16,
+   "end": 819.16
+  },
+  {
+   "text": "A",
+   "start": 819.16,
+   "end": 819.23
+  },
+  {
+   "text": "computer",
+   "start": 819.23,
+   "end": 819.65
+  },
+  {
+   "text": "worm",
+   "start": 819.65,
+   "end": 819.87
+  },
+  {
+   "text": "called",
+   "start": 819.87,
+   "end": 820.2
+  },
+  {
+   "text": "Stuxnet,",
+   "start": 820.2,
+   "end": 820.82
+  },
+  {
+   "text": "widely",
+   "start": 820.82,
+   "end": 821.02
+  },
+  {
+   "text": "attributed",
+   "start": 821.02,
+   "end": 821.58
+  },
+  {
+   "text": "to",
+   "start": 821.58,
+   "end": 821.68
+  },
+  {
+   "text": "the",
+   "start": 821.68,
+   "end": 821.84
+  },
+  {
+   "text": "United",
+   "start": 821.84,
+   "end": 822.19
+  },
+  {
+   "text": "States",
+   "start": 822.19,
+   "end": 822.51
+  },
+  {
+   "text": "and",
+   "start": 822.51,
+   "end": 822.66
+  },
+  {
+   "text": "Israel,",
+   "start": 822.66,
+   "end": 823.23
+  },
+  {
+   "text": "damaged",
+   "start": 823.23,
+   "end": 823.58
+  },
+  {
+   "text": "its",
+   "start": 823.58,
+   "end": 823.7
+  },
+  {
+   "text": "centrifuges,",
+   "start": 823.7,
+   "end": 824.43
+  },
+  {
+   "text": "and",
+   "start": 824.43,
+   "end": 824.82
+  },
+  {
+   "text": "several",
+   "start": 824.82,
+   "end": 825.03
+  },
+  {
+   "text": "nuclear",
+   "start": 825.03,
+   "end": 825.4
+  },
+  {
+   "text": "scientists",
+   "start": 825.4,
+   "end": 825.98
+  },
+  {
+   "text": "were",
+   "start": 825.98,
+   "end": 826.23
+  },
+  {
+   "text": "assassinated",
+   "start": 826.23,
+   "end": 826.9
+  },
+  {
+   "text": "in",
+   "start": 826.9,
+   "end": 827.01
+  },
+  {
+   "text": "attacks",
+   "start": 827.01,
+   "end": 827.41
+  },
+  {
+   "text": "attributed",
+   "start": 827.41,
+   "end": 827.99
+  },
+  {
+   "text": "to",
+   "start": 827.99,
+   "end": 828.18
+  },
+  {
+   "text": "Israel.",
+   "start": 828.18,
+   "end": 829.18
+  },
+  {
+   "text": "A",
+   "start": 829.18,
+   "end": 829.24
+  },
+  {
+   "text": "deal",
+   "start": 829.24,
+   "end": 829.51
+  },
+  {
+   "text": "in",
+   "start": 829.51,
+   "end": 829.66
+  },
+  {
+   "text": "2015",
+   "start": 829.66,
+   "end": 830.46
+  },
+  {
+   "text": "lifted",
+   "start": 830.46,
+   "end": 830.87
+  },
+  {
+   "text": "some",
+   "start": 830.87,
+   "end": 831.14
+  },
+  {
+   "text": "sanctions,",
+   "start": 831.14,
+   "end": 831.88
+  },
+  {
+   "text": "until",
+   "start": 831.88,
+   "end": 832.22
+  },
+  {
+   "text": "the",
+   "start": 832.22,
+   "end": 832.54
+  },
+  {
+   "text": "United",
+   "start": 832.54,
+   "end": 832.83
+  },
+  {
+   "text": "States",
+   "start": 832.83,
+   "end": 833.25
+  },
+  {
+   "text": "walked",
+   "start": 833.25,
+   "end": 833.65
+  },
+  {
+   "text": "out",
+   "start": 833.65,
+   "end": 833.86
+  },
+  {
+   "text": "in",
+   "start": 833.86,
+   "end": 833.98
+  },
+  {
+   "text": "2018.",
+   "start": 833.98,
+   "end": 835.08
+  },
+  {
+   "text": "In",
+   "start": 835.08,
+   "end": 835.2
+  },
+  {
+   "text": "January",
+   "start": 835.2,
+   "end": 835.63
+  },
+  {
+   "text": "2020,",
+   "start": 835.63,
+   "end": 836.55
+  },
+  {
+   "text": "an",
+   "start": 836.55,
+   "end": 836.62
+  },
+  {
+   "text": "American",
+   "start": 836.62,
+   "end": 837.12
+  },
+  {
+   "text": "drone",
+   "start": 837.12,
+   "end": 837.47
+  },
+  {
+   "text": "killed",
+   "start": 837.47,
+   "end": 837.8
+  },
+  {
+   "text": "the",
+   "start": 837.8,
+   "end": 837.98
+  },
+  {
+   "text": "General",
+   "start": 837.98,
+   "end": 838.41
+  },
+  {
+   "text": "Khasem",
+   "start": 838.41,
+   "end": 838.77
+  },
+  {
+   "text": "Soleimani",
+   "start": 838.77,
+   "end": 839.32
+  },
+  {
+   "text": "in",
+   "start": 839.32,
+   "end": 839.45
+  },
+  {
+   "text": "Baghdad.",
+   "start": 839.45,
+   "end": 840.16
+  },
+  {
+   "text": "Days",
+   "start": 840.16,
+   "end": 840.41
+  },
+  {
+   "text": "later,",
+   "start": 840.41,
+   "end": 840.86
+  },
+  {
+   "text": "Iran",
+   "start": 840.86,
+   "end": 841.1
+  },
+  {
+   "text": "fired",
+   "start": 841.1,
+   "end": 841.42
+  },
+  {
+   "text": "missiles",
+   "start": 841.42,
+   "end": 841.93
+  },
+  {
+   "text": "at",
+   "start": 841.93,
+   "end": 842.05
+  },
+  {
+   "text": "US",
+   "start": 842.05,
+   "end": 842.17
+  },
+  {
+   "text": "bases",
+   "start": 842.17,
+   "end": 842.55
+  },
+  {
+   "text": "in",
+   "start": 842.55,
+   "end": 842.61
+  },
+  {
+   "text": "Iraq,",
+   "start": 842.61,
+   "end": 842.98
+  },
+  {
+   "text": "and",
+   "start": 842.98,
+   "end": 843.41
+  },
+  {
+   "text": "that",
+   "start": 843.41,
+   "end": 843.43
+  },
+  {
+   "text": "night",
+   "start": 843.43,
+   "end": 843.74
+  },
+  {
+   "text": "its",
+   "start": 843.74,
+   "end": 843.93
+  },
+  {
+   "text": "air",
+   "start": 843.93,
+   "end": 844.12
+  },
+  {
+   "text": "defenses",
+   "start": 844.12,
+   "end": 844.76
+  },
+  {
+   "text": "shot",
+   "start": 844.76,
+   "end": 845.04
+  },
+  {
+   "text": "down",
+   "start": 845.11,
+   "end": 845.32
+  },
+  {
+   "text": "a",
+   "start": 845.32,
+   "end": 845.39
+  },
+  {
+   "text": "Ukrainian",
+   "start": 845.39,
+   "end": 846.01
+  },
+  {
+   "text": "airliner,",
+   "start": 846.01,
+   "end": 846.69
+  },
+  {
+   "text": "leaving",
+   "start": 846.69,
+   "end": 847.17
+  },
+  {
+   "text": "Tehran,",
+   "start": 847.17,
+   "end": 847.72
+  },
+  {
+   "text": "killing",
+   "start": 847.72,
+   "end": 848.2
+  },
+  {
+   "text": "all",
+   "start": 848.2,
+   "end": 848.4
+  },
+  {
+   "text": "176",
+   "start": 848.4,
+   "end": 849.05
+  },
+  {
+   "text": "people",
+   "start": 849.05,
+   "end": 849.44
+  },
+  {
+   "text": "on",
+   "start": 849.44,
+   "end": 849.58
+  },
+  {
+   "text": "board.",
+   "start": 849.58,
+   "end": 850.22
+  },
+  {
+   "text": "Iran",
+   "start": 850.22,
+   "end": 850.48
+  },
+  {
+   "text": "first",
+   "start": 850.48,
+   "end": 850.81
+  },
+  {
+   "text": "denied",
+   "start": 850.81,
+   "end": 851.33
+  },
+  {
+   "text": "it,",
+   "start": 851.33,
+   "end": 851.46
+  },
+  {
+   "text": "then",
+   "start": 851.46,
+   "end": 851.72
+  },
+  {
+   "text": "admitted",
+   "start": 851.72,
+   "end": 852.26
+  },
+  {
+   "text": "the",
+   "start": 852.26,
+   "end": 852.9
+  },
+  {
+   "text": "mistake.",
+   "start": 852.9,
+   "end": 853.14
+  },
+  {
+   "text": "In",
+   "start": 853.14,
+   "end": 853.29
+  },
+  {
+   "text": "2022,",
+   "start": 853.29,
+   "end": 854.2
+  },
+  {
+   "text": "a",
+   "start": 854.2,
+   "end": 854.42
+  },
+  {
+   "text": "22-year-old",
+   "start": 854.42,
+   "end": 855.14
+  },
+  {
+   "text": "woman",
+   "start": 855.14,
+   "end": 855.46
+  },
+  {
+   "text": "named",
+   "start": 855.46,
+   "end": 855.78
+  },
+  {
+   "text": "Masa",
+   "start": 855.78,
+   "end": 856.05
+  },
+  {
+   "text": "Amini",
+   "start": 856.05,
+   "end": 856.34
+  },
+  {
+   "text": "died",
+   "start": 856.34,
+   "end": 856.59
+  },
+  {
+   "text": "after",
+   "start": 856.59,
+   "end": 856.91
+  },
+  {
+   "text": "being",
+   "start": 856.91,
+   "end": 857.23
+  },
+  {
+   "text": "arrested",
+   "start": 857.23,
+   "end": 857.74
+  },
+  {
+   "text": "by",
+   "start": 857.74,
+   "end": 857.86
+  },
+  {
+   "text": "the",
+   "start": 857.86,
+   "end": 858.05
+  },
+  {
+   "text": "morality",
+   "start": 858.05,
+   "end": 858.66
+  },
+  {
+   "text": "police",
+   "start": 858.66,
+   "end": 859.04
+  },
+  {
+   "text": "for",
+   "start": 859.04,
+   "end": 859.23
+  },
+  {
+   "text": "her",
+   "start": 859.23,
+   "end": 859.42
+  },
+  {
+   "text": "headscarf,",
+   "start": 859.42,
+   "end": 860.1
+  },
+  {
+   "text": "the",
+   "start": 860.1,
+   "end": 860.3
+  },
+  {
+   "text": "protest",
+   "start": 860.3,
+   "end": 860.73
+  },
+  {
+   "text": "that",
+   "start": 860.73,
+   "end": 861.02
+  },
+  {
+   "text": "followed,",
+   "start": 861.02,
+   "end": 861.65
+  },
+  {
+   "text": "under",
+   "start": 861.65,
+   "end": 861.93
+  },
+  {
+   "text": "the",
+   "start": 861.93,
+   "end": 862.12
+  },
+  {
+   "text": "slogan",
+   "start": 862.12,
+   "end": 862.5
+  },
+  {
+   "text": "\"Woman",
+   "start": 862.5,
+   "end": 862.88
+  },
+  {
+   "text": "Life",
+   "start": 862.88,
+   "end": 863.2
+  },
+  {
+   "text": "Freedom,\"",
+   "start": 863.2,
+   "end": 863.86
+  },
+  {
+   "text": "were",
+   "start": 863.86,
+   "end": 864.13
+  },
+  {
+   "text": "put",
+   "start": 864.13,
+   "end": 864.33
+  },
+  {
+   "text": "down",
+   "start": 864.33,
+   "end": 864.6
+  },
+  {
+   "text": "with",
+   "start": 864.6,
+   "end": 864.87
+  },
+  {
+   "text": "more",
+   "start": 864.87,
+   "end": 865.14
+  },
+  {
+   "text": "than",
+   "start": 865.14,
+   "end": 865.4
+  },
+  {
+   "text": "500",
+   "start": 865.4,
+   "end": 866.44
+  },
+  {
+   "text": "deaths.",
+   "start": 866.44,
+   "end": 866.72
+  },
+  {
+   "text": "In",
+   "start": 866.72,
+   "end": 866.84
+  },
+  {
+   "text": "June",
+   "start": 866.84,
+   "end": 867.08
+  },
+  {
+   "text": "2025,",
+   "start": 867.08,
+   "end": 867.94
+  },
+  {
+   "text": "Israel",
+   "start": 867.94,
+   "end": 868.31
+  },
+  {
+   "text": "attacked",
+   "start": 868.31,
+   "end": 868.8
+  },
+  {
+   "text": "Iran's",
+   "start": 868.8,
+   "end": 869.16
+  },
+  {
+   "text": "nuclear",
+   "start": 869.16,
+   "end": 869.61
+  },
+  {
+   "text": "and",
+   "start": 869.61,
+   "end": 869.77
+  },
+  {
+   "text": "military",
+   "start": 869.77,
+   "end": 870.26
+  },
+  {
+   "text": "sites,",
+   "start": 870.26,
+   "end": 870.69
+  },
+  {
+   "text": "and",
+   "start": 870.69,
+   "end": 870.95
+  },
+  {
+   "text": "the",
+   "start": 870.95,
+   "end": 871.13
+  },
+  {
+   "text": "United",
+   "start": 871.13,
+   "end": 871.42
+  },
+  {
+   "text": "States",
+   "start": 871.42,
+   "end": 871.9
+  },
+  {
+   "text": "joined",
+   "start": 871.9,
+   "end": 872.2
+  },
+  {
+   "text": "in",
+   "start": 872.2,
+   "end": 872.33
+  },
+  {
+   "text": "by",
+   "start": 872.33,
+   "end": 872.46
+  },
+  {
+   "text": "bombing",
+   "start": 872.46,
+   "end": 872.98
+  },
+  {
+   "text": "Fordeaux,",
+   "start": 872.98,
+   "end": 873.59
+  },
+  {
+   "text": "Natanz,",
+   "start": 873.59,
+   "end": 874.12
+  },
+  {
+   "text": "and",
+   "start": 874.12,
+   "end": 874.32
+  },
+  {
+   "text": "Isfahan.",
+   "start": 874.32,
+   "end": 875.08
+  },
+  {
+   "text": "The",
+   "start": 875.08,
+   "end": 875.36
+  },
+  {
+   "text": "war",
+   "start": 875.36,
+   "end": 875.64
+  },
+  {
+   "text": "lasted",
+   "start": 875.64,
+   "end": 876.2
+  },
+  {
+   "text": "12",
+   "start": 876.2,
+   "end": 876.76
+  },
+  {
+   "text": "days.",
+   "start": 876.76,
+   "end": 877.42
+  },
+  {
+   "text": "In",
+   "start": 877.42,
+   "end": 877.54
+  },
+  {
+   "text": "late",
+   "start": 877.54,
+   "end": 877.8
+  },
+  {
+   "text": "December",
+   "start": 877.8,
+   "end": 878.29
+  },
+  {
+   "text": "2025,",
+   "start": 878.29,
+   "end": 879.42
+  },
+  {
+   "text": "protests",
+   "start": 879.42,
+   "end": 879.67
+  },
+  {
+   "text": "over",
+   "start": 879.67,
+   "end": 879.92
+  },
+  {
+   "text": "a",
+   "start": 879.92,
+   "end": 879.98
+  },
+  {
+   "text": "collapsing",
+   "start": 879.98,
+   "end": 880.61
+  },
+  {
+   "text": "currency",
+   "start": 880.61,
+   "end": 881.11
+  },
+  {
+   "text": "spread",
+   "start": 881.11,
+   "end": 881.49
+  },
+  {
+   "text": "across",
+   "start": 881.49,
+   "end": 881.87
+  },
+  {
+   "text": "the",
+   "start": 881.87,
+   "end": 882.06
+  },
+  {
+   "text": "country.",
+   "start": 882.06,
+   "end": 882.76
+  },
+  {
+   "text": "In",
+   "start": 882.76,
+   "end": 882.88
+  },
+  {
+   "text": "January,",
+   "start": 882.88,
+   "end": 883.49
+  },
+  {
+   "text": "security",
+   "start": 883.49,
+   "end": 883.99
+  },
+  {
+   "text": "forces",
+   "start": 883.99,
+   "end": 884.35
+  },
+  {
+   "text": "opened",
+   "start": 884.35,
+   "end": 884.72
+  },
+  {
+   "text": "fire",
+   "start": 884.72,
+   "end": 884.97
+  },
+  {
+   "text": "on",
+   "start": 884.97,
+   "end": 885.11
+  },
+  {
+   "text": "the",
+   "start": 885.11,
+   "end": 885.28
+  },
+  {
+   "text": "crowds.",
+   "start": 885.28,
+   "end": 885.92
+  },
+  {
+   "text": "The",
+   "start": 885.92,
+   "end": 886.1
+  },
+  {
+   "text": "government",
+   "start": 886.1,
+   "end": 886.71
+  },
+  {
+   "text": "admits",
+   "start": 886.71,
+   "end": 887.1
+  },
+  {
+   "text": "about",
+   "start": 887.1,
+   "end": 887.37
+  },
+  {
+   "text": "3,000",
+   "start": 887.37,
+   "end": 888.46
+  },
+  {
+   "text": "dead.",
+   "start": 888.46,
+   "end": 888.68
+  },
+  {
+   "text": "Human",
+   "start": 888.68,
+   "end": 888.97
+  },
+  {
+   "text": "rights",
+   "start": 888.97,
+   "end": 889.35
+  },
+  {
+   "text": "groups",
+   "start": 889.35,
+   "end": 889.67
+  },
+  {
+   "text": "have",
+   "start": 889.67,
+   "end": 889.9
+  },
+  {
+   "text": "verified",
+   "start": 889.9,
+   "end": 890.37
+  },
+  {
+   "text": "about",
+   "start": 890.37,
+   "end": 890.66
+  },
+  {
+   "text": "7,000,",
+   "start": 890.66,
+   "end": 891.57
+  },
+  {
+   "text": "and",
+   "start": 891.57,
+   "end": 891.74
+  },
+  {
+   "text": "other",
+   "start": 891.74,
+   "end": 892.03
+  },
+  {
+   "text": "estimates",
+   "start": 892.03,
+   "end": 892.7
+  },
+  {
+   "text": "run",
+   "start": 892.7,
+   "end": 892.73
+  },
+  {
+   "text": "above",
+   "start": 892.73,
+   "end": 893.02
+  },
+  {
+   "text": "30,000.",
+   "start": 893.02,
+   "end": 894.28
+  },
+  {
+   "text": "On",
+   "start": 894.28,
+   "end": 894.4
+  },
+  {
+   "text": "the",
+   "start": 894.4,
+   "end": 894.59
+  },
+  {
+   "text": "28th",
+   "start": 894.59,
+   "end": 895.09
+  },
+  {
+   "text": "of",
+   "start": 895.09,
+   "end": 895.21
+  },
+  {
+   "text": "February",
+   "start": 895.21,
+   "end": 895.72
+  },
+  {
+   "text": "2026,",
+   "start": 895.72,
+   "end": 896.64
+  },
+  {
+   "text": "the",
+   "start": 896.64,
+   "end": 896.84
+  },
+  {
+   "text": "United",
+   "start": 896.84,
+   "end": 897.17
+  },
+  {
+   "text": "States",
+   "start": 897.17,
+   "end": 897.55
+  },
+  {
+   "text": "and",
+   "start": 897.55,
+   "end": 897.74
+  },
+  {
+   "text": "Israel",
+   "start": 897.74,
+   "end": 898.12
+  },
+  {
+   "text": "launched",
+   "start": 898.12,
+   "end": 898.63
+  },
+  {
+   "text": "a",
+   "start": 898.63,
+   "end": 898.69
+  },
+  {
+   "text": "new",
+   "start": 898.69,
+   "end": 898.88
+  },
+  {
+   "text": "war,",
+   "start": 898.88,
+   "end": 899.18
+  },
+  {
+   "text": "with",
+   "start": 899.18,
+   "end": 899.61
+  },
+  {
+   "text": "the",
+   "start": 899.61,
+   "end": 899.64
+  },
+  {
+   "text": "stated",
+   "start": 899.64,
+   "end": 900
+  },
+  {
+   "text": "goal",
+   "start": 900,
+   "end": 900.24
+  },
+  {
+   "text": "of",
+   "start": 900.24,
+   "end": 900.35
+  },
+  {
+   "text": "regime",
+   "start": 900.35,
+   "end": 900.73
+  },
+  {
+   "text": "change,",
+   "start": 900.73,
+   "end": 901.22
+  },
+  {
+   "text": "on",
+   "start": 901.22,
+   "end": 901.5
+  },
+  {
+   "text": "the",
+   "start": 901.5,
+   "end": 901.52
+  },
+  {
+   "text": "first",
+   "start": 901.52,
+   "end": 901.83
+  },
+  {
+   "text": "day",
+   "start": 901.83,
+   "end": 902.04
+  },
+  {
+   "text": "in",
+   "start": 902.04,
+   "end": 902.13
+  },
+  {
+   "text": "Israeli",
+   "start": 902.13,
+   "end": 902.56
+  },
+  {
+   "text": "air",
+   "start": 902.56,
+   "end": 902.74
+  },
+  {
+   "text": "strike,",
+   "start": 902.74,
+   "end": 903.23
+  },
+  {
+   "text": "backed",
+   "start": 903.23,
+   "end": 903.64
+  },
+  {
+   "text": "by",
+   "start": 903.64,
+   "end": 903.72
+  },
+  {
+   "text": "the",
+   "start": 903.72,
+   "end": 903.91
+  },
+  {
+   "text": "United",
+   "start": 903.91,
+   "end": 904.36
+  },
+  {
+   "text": "States,",
+   "start": 904.36,
+   "end": 905.06
+  },
+  {
+   "text": "killed",
+   "start": 905.06,
+   "end": 905.5
+  },
+  {
+   "text": "Ali",
+   "start": 905.5,
+   "end": 905.74
+  },
+  {
+   "text": "Khamenei",
+   "start": 905.74,
+   "end": 906.38
+  },
+  {
+   "text": "in",
+   "start": 906.38,
+   "end": 906.54
+  },
+  {
+   "text": "Tehran.",
+   "start": 906.54,
+   "end": 907.32
+  },
+  {
+   "text": "Another",
+   "start": 907.32,
+   "end": 907.73
+  },
+  {
+   "text": "hit",
+   "start": 907.73,
+   "end": 907.9
+  },
+  {
+   "text": "in",
+   "start": 907.9,
+   "end": 908.01
+  },
+  {
+   "text": "elementary",
+   "start": 908.01,
+   "end": 908.6
+  },
+  {
+   "text": "school",
+   "start": 908.6,
+   "end": 908.95
+  },
+  {
+   "text": "in",
+   "start": 908.95,
+   "end": 909.06
+  },
+  {
+   "text": "Minahab,",
+   "start": 909.06,
+   "end": 909.56
+  },
+  {
+   "text": "and",
+   "start": 909.56,
+   "end": 909.73
+  },
+  {
+   "text": "killed",
+   "start": 909.73,
+   "end": 910.08
+  },
+  {
+   "text": "about",
+   "start": 910.08,
+   "end": 910.37
+  },
+  {
+   "text": "120",
+   "start": 910.37,
+   "end": 910.9
+  },
+  {
+   "text": "children.",
+   "start": 910.9,
+   "end": 911.64
+  },
+  {
+   "text": "The",
+   "start": 911.64,
+   "end": 911.8
+  },
+  {
+   "text": "U.S.",
+   "start": 911.8,
+   "end": 912.22
+  },
+  {
+   "text": "military's",
+   "start": 912.22,
+   "end": 912.77
+  },
+  {
+   "text": "own",
+   "start": 912.77,
+   "end": 912.93
+  },
+  {
+   "text": "preliminary",
+   "start": 912.93,
+   "end": 913.53
+  },
+  {
+   "text": "investigation,",
+   "start": 913.53,
+   "end": 914.37
+  },
+  {
+   "text": "pointed",
+   "start": 914.37,
+   "end": 914.76
+  },
+  {
+   "text": "to",
+   "start": 914.76,
+   "end": 914.87
+  },
+  {
+   "text": "an",
+   "start": 914.87,
+   "end": 914.98
+  },
+  {
+   "text": "American",
+   "start": 914.98,
+   "end": 915.42
+  },
+  {
+   "text": "strike.",
+   "start": 915.42,
+   "end": 916
+  },
+  {
+   "text": "About",
+   "start": 916,
+   "end": 916.3
+  },
+  {
+   "text": "a",
+   "start": 916.3,
+   "end": 916.36
+  },
+  {
+   "text": "week",
+   "start": 916.36,
+   "end": 916.6
+  },
+  {
+   "text": "later,",
+   "start": 916.6,
+   "end": 917.02
+  },
+  {
+   "text": "the",
+   "start": 917.02,
+   "end": 917.2
+  },
+  {
+   "text": "assembly",
+   "start": 917.2,
+   "end": 917.7
+  },
+  {
+   "text": "of",
+   "start": 917.7,
+   "end": 917.82
+  },
+  {
+   "text": "experts",
+   "start": 917.82,
+   "end": 918.22
+  },
+  {
+   "text": "chose",
+   "start": 918.22,
+   "end": 918.52
+  },
+  {
+   "text": "Khamenei's",
+   "start": 918.52,
+   "end": 919.12
+  },
+  {
+   "text": "son,",
+   "start": 919.12,
+   "end": 919.43
+  },
+  {
+   "text": "Motohab,",
+   "start": 919.43,
+   "end": 920.07
+  },
+  {
+   "text": "as",
+   "start": 920.07,
+   "end": 920.09
+  },
+  {
+   "text": "the",
+   "start": 920.09,
+   "end": 920.28
+  },
+  {
+   "text": "new",
+   "start": 920.28,
+   "end": 920.4
+  },
+  {
+   "text": "Supreme",
+   "start": 920.4,
+   "end": 921.16
+  },
+  {
+   "text": "Leader.",
+   "start": 921.16,
+   "end": 922.16
+  },
+  {
+   "text": "Iran",
+   "start": 922.16,
+   "end": 922.39
+  },
+  {
+   "text": "fired",
+   "start": 922.39,
+   "end": 922.68
+  },
+  {
+   "text": "missiles",
+   "start": 922.68,
+   "end": 923.14
+  },
+  {
+   "text": "at",
+   "start": 923.14,
+   "end": 923.25
+  },
+  {
+   "text": "Israel,",
+   "start": 923.25,
+   "end": 923.74
+  },
+  {
+   "text": "and",
+   "start": 923.74,
+   "end": 923.87
+  },
+  {
+   "text": "at",
+   "start": 923.87,
+   "end": 923.98
+  },
+  {
+   "text": "Gulf",
+   "start": 923.98,
+   "end": 924.21
+  },
+  {
+   "text": "states",
+   "start": 924.21,
+   "end": 924.64
+  },
+  {
+   "text": "hosting",
+   "start": 924.64,
+   "end": 924.95
+  },
+  {
+   "text": "American",
+   "start": 924.95,
+   "end": 925.41
+  },
+  {
+   "text": "bases,",
+   "start": 925.41,
+   "end": 925.98
+  },
+  {
+   "text": "and",
+   "start": 925.98,
+   "end": 926.08
+  },
+  {
+   "text": "declared",
+   "start": 926.08,
+   "end": 926.52
+  },
+  {
+   "text": "the",
+   "start": 926.52,
+   "end": 926.75
+  },
+  {
+   "text": "Strait",
+   "start": 926.75,
+   "end": 927.19
+  },
+  {
+   "text": "of",
+   "start": 927.19,
+   "end": 927.34
+  },
+  {
+   "text": "Hormuz",
+   "start": 927.34,
+   "end": 927.78
+  },
+  {
+   "text": "closed.",
+   "start": 927.78,
+   "end": 928.48
+  },
+  {
+   "text": "These",
+   "start": 928.48,
+   "end": 928.8
+  },
+  {
+   "text": "fires",
+   "start": 928.8,
+   "end": 929.12
+  },
+  {
+   "text": "came",
+   "start": 929.12,
+   "end": 929.38
+  },
+  {
+   "text": "and",
+   "start": 929.38,
+   "end": 929.57
+  },
+  {
+   "text": "collapsed,",
+   "start": 929.57,
+   "end": 930.28
+  },
+  {
+   "text": "and",
+   "start": 930.28,
+   "end": 930.49
+  },
+  {
+   "text": "in",
+   "start": 930.49,
+   "end": 930.6
+  },
+  {
+   "text": "September",
+   "start": 930.6,
+   "end": 931.18
+  },
+  {
+   "text": "2026",
+   "start": 931.18,
+   "end": 931.96
+  },
+  {
+   "text": "American",
+   "start": 931.96,
+   "end": 932.48
+  },
+  {
+   "text": "strikes",
+   "start": 932.48,
+   "end": 933.38
+  },
+  {
+   "text": "resumed.",
+   "start": 933.38,
+   "end": 933.64
+  },
+  {
+   "text": "Iran",
+   "start": 933.64,
+   "end": 933.88
+  },
+  {
+   "text": "today",
+   "start": 933.88,
+   "end": 934.19
+  },
+  {
+   "text": "has",
+   "start": 934.19,
+   "end": 934.37
+  },
+  {
+   "text": "more",
+   "start": 934.37,
+   "end": 934.61
+  },
+  {
+   "text": "than",
+   "start": 934.61,
+   "end": 934.85
+  },
+  {
+   "text": "90",
+   "start": 934.85,
+   "end": 935.22
+  },
+  {
+   "text": "million",
+   "start": 935.22,
+   "end": 935.65
+  },
+  {
+   "text": "people.",
+   "start": 935.65,
+   "end": 936.26
+  },
+  {
+   "text": "It",
+   "start": 936.26,
+   "end": 936.37
+  },
+  {
+   "text": "has",
+   "start": 936.37,
+   "end": 936.54
+  },
+  {
+   "text": "been",
+   "start": 936.54,
+   "end": 936.77
+  },
+  {
+   "text": "conquered",
+   "start": 936.77,
+   "end": 937.28
+  },
+  {
+   "text": "by",
+   "start": 937.28,
+   "end": 937.4
+  },
+  {
+   "text": "Greeks,",
+   "start": 937.4,
+   "end": 937.84
+  },
+  {
+   "text": "Arabs,",
+   "start": 937.84,
+   "end": 938.23
+  },
+  {
+   "text": "Turks,",
+   "start": 938.23,
+   "end": 938.62
+  },
+  {
+   "text": "and",
+   "start": 938.62,
+   "end": 938.79
+  },
+  {
+   "text": "Mongols,",
+   "start": 938.79,
+   "end": 939.33
+  },
+  {
+   "text": "and",
+   "start": 939.33,
+   "end": 939.47
+  },
+  {
+   "text": "every",
+   "start": 939.47,
+   "end": 939.75
+  },
+  {
+   "text": "time,",
+   "start": 939.75,
+   "end": 940.09
+  },
+  {
+   "text": "the",
+   "start": 940.09,
+   "end": 940.34
+  },
+  {
+   "text": "language",
+   "start": 940.34,
+   "end": 940.8
+  },
+  {
+   "text": "and",
+   "start": 940.8,
+   "end": 941.02
+  },
+  {
+   "text": "the",
+   "start": 941.02,
+   "end": 941.24
+  },
+  {
+   "text": "idea",
+   "start": 941.24,
+   "end": 941.53
+  },
+  {
+   "text": "of",
+   "start": 941.53,
+   "end": 941.67
+  },
+  {
+   "text": "Iran",
+   "start": 941.67,
+   "end": 941.96
+  },
+  {
+   "text": "survived.",
+   "start": 941.96,
+   "end": 942.8
+  },
+  {
+   "text": "Furtosi's",
+   "start": 942.8,
+   "end": 943.36
+  },
+  {
+   "text": "Book",
+   "start": 943.36,
+   "end": 943.64
+  },
+  {
+   "text": "of",
+   "start": 943.64,
+   "end": 943.73
+  },
+  {
+   "text": "Kings",
+   "start": 943.73,
+   "end": 944.05
+  },
+  {
+   "text": "is",
+   "start": 944.05,
+   "end": 944.2
+  },
+  {
+   "text": "still",
+   "start": 944.2,
+   "end": 944.49
+  },
+  {
+   "text": "read",
+   "start": 944.49,
+   "end": 944.76
+  },
+  {
+   "text": "in",
+   "start": 944.76,
+   "end": 944.88
+  },
+  {
+   "text": "its",
+   "start": 944.88,
+   "end": 945.05
+  },
+  {
+   "text": "schools,",
+   "start": 945.05,
+   "end": 945.62
+  },
+  {
+   "text": "and",
+   "start": 945.62,
+   "end": 945.81
+  },
+  {
+   "text": "Cyrus'",
+   "start": 945.81,
+   "end": 946.21
+  },
+  {
+   "text": "tomb",
+   "start": 946.21,
+   "end": 946.44
+  },
+  {
+   "text": "still",
+   "start": 946.44,
+   "end": 946.76
+  },
+  {
+   "text": "stands",
+   "start": 946.76,
+   "end": 947.24
+  },
+  {
+   "text": "at",
+   "start": 947.24,
+   "end": 947.45
+  },
+  {
+   "text": "Pasergidae.",
+   "start": 947.45,
+   "end": 948.88
+  },
+  {
+   "text": "If",
+   "start": 948.88,
+   "end": 948.98
+  },
+  {
+   "text": "you",
+   "start": 948.98,
+   "end": 949.13
+  },
+  {
+   "text": "enjoyed",
+   "start": 949.13,
+   "end": 949.49
+  },
+  {
+   "text": "this,",
+   "start": 949.49,
+   "end": 949.79
+  },
+  {
+   "text": "subscribe,",
+   "start": 949.79,
+   "end": 950.35
+  },
+  {
+   "text": "and",
+   "start": 950.35,
+   "end": 950.62
+  },
+  {
+   "text": "tell",
+   "start": 950.62,
+   "end": 950.7
+  },
+  {
+   "text": "me",
+   "start": 950.7,
+   "end": 950.81
+  },
+  {
+   "text": "in",
+   "start": 950.81,
+   "end": 950.9
+  },
+  {
+   "text": "the",
+   "start": 950.9,
+   "end": 951.05
+  },
+  {
+   "text": "comments",
+   "start": 951.05,
+   "end": 951.46
+  },
+  {
+   "text": "which",
+   "start": 951.46,
+   "end": 951.71
+  },
+  {
+   "text": "country",
+   "start": 951.71,
+   "end": 952.12
+  },
+  {
+   "text": "I",
+   "start": 952.12,
+   "end": 952.12
+  },
+  {
+   "text": "should",
+   "start": 952.12,
+   "end": 952.52
+  },
+  {
+   "text": "map",
+   "start": 952.52,
+   "end": 952.88
+  }
+ ]
+}

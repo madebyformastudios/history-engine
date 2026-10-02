@@ -9,7 +9,7 @@ import { downloadWhisperModel, installWhisperCpp, toCaptions, transcribe } from 
 
 const WHISPER_DIR = path.resolve("whisper.cpp");
 const WHISPER_VERSION = "1.5.5"; // last release that builds with plain `make` (no cmake needed)
-const MODEL = "medium.en";
+const MODEL = process.env.WHISPER_MODEL ?? "medium.en"; // base.en is much faster on a 2-core machine and good enough for word timings
 const AUDIO = V("public/audio/voiceover.mp3");
 const WAV = path.resolve("whisper.cpp/voiceover-16k.wav"); // whisper runs in its own cwd
 const OUT = V("data/transcript.json");

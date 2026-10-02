@@ -86,7 +86,7 @@ These apply to every new video unless Jairo says otherwise.
 |---|---|
 | `npm run new <slug>` | New video folder from the template |
 | `npm run studio <slug>` | Preview in the browser |
-| `npm run prepare-video <slug>` | transcribe + align + build + validate |
+| `npm run prepare-video <slug>` | transcribe + align + build + validate (`WHISPER_MODEL=base.en` for a fast transcription) |
 | `npm run stills <slug> [S04@0.5 ...]` | Check stills into `videos/<slug>/checks/` (not committed) |
 | `npm run draft <slug> -- --frames=a-b` | Short half-resolution check of a few scenes (full renders: GitHub Actions) |
 | `npm run render <slug>` | Local full render. Avoid: the laptop overheats. Use GitHub Actions |
@@ -111,5 +111,4 @@ Measured with the benchmark on the Mongol video (2-core machine):
   Planned: borders per year, following real rivers and mountain ranges, with a source per territory.
 - GitHub Actions rendering is about as fast as the local Mac on the free plan (2-core runners, ~5 parallel jobs),
   but keeps the laptop cool. It is the standard way to render.
-- Planned engine feature for the standing requirements: multi-shot image scenes
-  (`shots`: several camera moves with cuts on one image). Build it once, add it to CATALOG.md. (`cta` is built.)
+- The standing-requirement features are built: `cta` (subscribe overlay) and `shots` (multi-shot scenes), see CATALOG.md.

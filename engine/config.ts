@@ -109,7 +109,10 @@ export type ParallaxScene = SceneBase & {
 };
 export type MapScene = SceneBase & { type: "map"; map: MapSpec };
 export type GfxScene = SceneBase & { type: "gfx"; gfx: "decimal-army"; steps: DecimalStep[] };
-export type Scene = ImageScene | ParallaxScene | MapScene | GfxScene;
+/** One shot inside a multi-shot scene: an image with its own camera move, or a map. Starts at `at` (absolute s). */
+export type Shot = { at: number; image?: string; kenBurns?: KenBurnsConfig; map?: MapSpec; effects?: Effects };
+export type ShotsScene = SceneBase & { type: "shots"; shots: Shot[]; shotFade?: number };
+export type Scene = ImageScene | ParallaxScene | MapScene | GfxScene | ShotsScene;
 
 export type MapSettings = {
   extent: [LonLat, LonLat];

@@ -1,0 +1,12316 @@
+{
+ "source": "videos/egypt/public/audio/voiceover.mp3",
+ "model": "medium.en",
+ "words": [
+  {
+   "text": "Cleopatra",
+   "start": 0.02,
+   "end": 0.51
+  },
+  {
+   "text": "lived",
+   "start": 0.51,
+   "end": 0.85
+  },
+  {
+   "text": "closer",
+   "start": 0.85,
+   "end": 1.16
+  },
+  {
+   "text": "in",
+   "start": 1.16,
+   "end": 1.26
+  },
+  {
+   "text": "time",
+   "start": 1.26,
+   "end": 1.49
+  },
+  {
+   "text": "to",
+   "start": 1.49,
+   "end": 1.6
+  },
+  {
+   "text": "the",
+   "start": 1.6,
+   "end": 1.77
+  },
+  {
+   "text": "moon",
+   "start": 1.77,
+   "end": 2.08
+  },
+  {
+   "text": "landing",
+   "start": 2.08,
+   "end": 2.76
+  },
+  {
+   "text": "than",
+   "start": 2.76,
+   "end": 2.95
+  },
+  {
+   "text": "to",
+   "start": 2.95,
+   "end": 3.04
+  },
+  {
+   "text": "the",
+   "start": 3.04,
+   "end": 3.18
+  },
+  {
+   "text": "building",
+   "start": 3.18,
+   "end": 3.58
+  },
+  {
+   "text": "of",
+   "start": 3.58,
+   "end": 3.65
+  },
+  {
+   "text": "the",
+   "start": 3.65,
+   "end": 3.79
+  },
+  {
+   "text": "Great",
+   "start": 3.79,
+   "end": 4.02
+  },
+  {
+   "text": "Pyramid.",
+   "start": 4.02,
+   "end": 4.52
+  },
+  {
+   "text": "By",
+   "start": 4.52,
+   "end": 4.63
+  },
+  {
+   "text": "the",
+   "start": 4.63,
+   "end": 4.79
+  },
+  {
+   "text": "time",
+   "start": 4.79,
+   "end": 5.01
+  },
+  {
+   "text": "she",
+   "start": 5.01,
+   "end": 5.17
+  },
+  {
+   "text": "ruled",
+   "start": 5.17,
+   "end": 5.44
+  },
+  {
+   "text": "Egypt,",
+   "start": 5.44,
+   "end": 5.95
+  },
+  {
+   "text": "the",
+   "start": 5.95,
+   "end": 5.98
+  },
+  {
+   "text": "pyramids",
+   "start": 5.98,
+   "end": 6.48
+  },
+  {
+   "text": "were",
+   "start": 6.48,
+   "end": 6.75
+  },
+  {
+   "text": "already",
+   "start": 6.75,
+   "end": 7.23
+  },
+  {
+   "text": "about",
+   "start": 7.23,
+   "end": 7.56
+  },
+  {
+   "text": "2,500",
+   "start": 7.56,
+   "end": 8.5
+  },
+  {
+   "text": "years",
+   "start": 8.5,
+   "end": 9.07
+  },
+  {
+   "text": "old,",
+   "start": 9.07,
+   "end": 9.23
+  },
+  {
+   "text": "and",
+   "start": 9.23,
+   "end": 9.54
+  },
+  {
+   "text": "Egypt",
+   "start": 9.54,
+   "end": 9.87
+  },
+  {
+   "text": "was",
+   "start": 9.87,
+   "end": 10.11
+  },
+  {
+   "text": "older",
+   "start": 10.11,
+   "end": 10.91
+  },
+  {
+   "text": "still.",
+   "start": 10.91,
+   "end": 11.16
+  },
+  {
+   "text": "Almost",
+   "start": 11.16,
+   "end": 11.56
+  },
+  {
+   "text": "everyone",
+   "start": 11.56,
+   "end": 12.1
+  },
+  {
+   "text": "in",
+   "start": 12.1,
+   "end": 12.29
+  },
+  {
+   "text": "Egypt",
+   "start": 12.29,
+   "end": 12.56
+  },
+  {
+   "text": "lives",
+   "start": 12.56,
+   "end": 13.02
+  },
+  {
+   "text": "on",
+   "start": 13.02,
+   "end": 13.02
+  },
+  {
+   "text": "about",
+   "start": 13.02,
+   "end": 13.35
+  },
+  {
+   "text": "4%",
+   "start": 13.35,
+   "end": 13.61
+  },
+  {
+   "text": "of",
+   "start": 13.61,
+   "end": 13.74
+  },
+  {
+   "text": "its",
+   "start": 13.74,
+   "end": 13.94
+  },
+  {
+   "text": "land.",
+   "start": 13.94,
+   "end": 14.48
+  },
+  {
+   "text": "The",
+   "start": 14.48,
+   "end": 14.68
+  },
+  {
+   "text": "rest",
+   "start": 14.68,
+   "end": 14.94
+  },
+  {
+   "text": "is",
+   "start": 14.94,
+   "end": 15.07
+  },
+  {
+   "text": "desert.",
+   "start": 15.07,
+   "end": 15.68
+  },
+  {
+   "text": "That",
+   "start": 15.68,
+   "end": 15.94
+  },
+  {
+   "text": "thin",
+   "start": 15.94,
+   "end": 16.17
+  },
+  {
+   "text": "green",
+   "start": 16.17,
+   "end": 16.45
+  },
+  {
+   "text": "strip",
+   "start": 16.45,
+   "end": 16.76
+  },
+  {
+   "text": "along",
+   "start": 16.76,
+   "end": 17.06
+  },
+  {
+   "text": "the",
+   "start": 17.06,
+   "end": 17.24
+  },
+  {
+   "text": "Nile",
+   "start": 17.24,
+   "end": 17.52
+  },
+  {
+   "text": "is",
+   "start": 17.52,
+   "end": 17.64
+  },
+  {
+   "text": "where",
+   "start": 17.64,
+   "end": 17.98
+  },
+  {
+   "text": "this",
+   "start": 17.98,
+   "end": 18.18
+  },
+  {
+   "text": "story",
+   "start": 18.18,
+   "end": 18.51
+  },
+  {
+   "text": "happens.",
+   "start": 18.51,
+   "end": 19.1
+  },
+  {
+   "text": "It",
+   "start": 19.1,
+   "end": 19.22
+  },
+  {
+   "text": "runs",
+   "start": 19.22,
+   "end": 19.45
+  },
+  {
+   "text": "from",
+   "start": 19.45,
+   "end": 19.81
+  },
+  {
+   "text": "the",
+   "start": 19.81,
+   "end": 19.88
+  },
+  {
+   "text": "first",
+   "start": 19.88,
+   "end": 20.19
+  },
+  {
+   "text": "farming",
+   "start": 20.19,
+   "end": 20.62
+  },
+  {
+   "text": "villages",
+   "start": 20.62,
+   "end": 21.16
+  },
+  {
+   "text": "through",
+   "start": 21.16,
+   "end": 21.54
+  },
+  {
+   "text": "pharaohs,",
+   "start": 21.54,
+   "end": 22.06
+  },
+  {
+   "text": "Greeks,",
+   "start": 22.06,
+   "end": 22.48
+  },
+  {
+   "text": "Romans,",
+   "start": 22.48,
+   "end": 23.01
+  },
+  {
+   "text": "caliphs,",
+   "start": 23.01,
+   "end": 23.56
+  },
+  {
+   "text": "sultans,",
+   "start": 23.56,
+   "end": 24.04
+  },
+  {
+   "text": "and",
+   "start": 24.04,
+   "end": 24.27
+  },
+  {
+   "text": "kings",
+   "start": 24.27,
+   "end": 24.77
+  },
+  {
+   "text": "to",
+   "start": 24.77,
+   "end": 24.8
+  },
+  {
+   "text": "a",
+   "start": 24.8,
+   "end": 24.87
+  },
+  {
+   "text": "country",
+   "start": 24.87,
+   "end": 25.41
+  },
+  {
+   "text": "of",
+   "start": 25.41,
+   "end": 25.56
+  },
+  {
+   "text": "more",
+   "start": 25.56,
+   "end": 25.87
+  },
+  {
+   "text": "than",
+   "start": 25.87,
+   "end": 26.18
+  },
+  {
+   "text": "106",
+   "start": 26.18,
+   "end": 26.87
+  },
+  {
+   "text": "million",
+   "start": 26.87,
+   "end": 27.87
+  },
+  {
+   "text": "people.",
+   "start": 27.87,
+   "end": 28.16
+  },
+  {
+   "text": "Around",
+   "start": 28.16,
+   "end": 28.54
+  },
+  {
+   "text": "5,500",
+   "start": 28.54,
+   "end": 29.42
+  },
+  {
+   "text": "BC,",
+   "start": 29.42,
+   "end": 29.66
+  },
+  {
+   "text": "small",
+   "start": 29.66,
+   "end": 30.01
+  },
+  {
+   "text": "farming",
+   "start": 30.01,
+   "end": 30.41
+  },
+  {
+   "text": "settlements",
+   "start": 30.41,
+   "end": 31.16
+  },
+  {
+   "text": "began",
+   "start": 31.16,
+   "end": 31.45
+  },
+  {
+   "text": "to",
+   "start": 31.45,
+   "end": 31.65
+  },
+  {
+   "text": "spread",
+   "start": 31.65,
+   "end": 31.92
+  },
+  {
+   "text": "along",
+   "start": 31.92,
+   "end": 32.21
+  },
+  {
+   "text": "the",
+   "start": 32.21,
+   "end": 32.39
+  },
+  {
+   "text": "Nile.",
+   "start": 32.39,
+   "end": 32.84
+  },
+  {
+   "text": "Every",
+   "start": 32.84,
+   "end": 33.15
+  },
+  {
+   "text": "summer,",
+   "start": 33.15,
+   "end": 33.56
+  },
+  {
+   "text": "the",
+   "start": 33.56,
+   "end": 33.72
+  },
+  {
+   "text": "river",
+   "start": 33.72,
+   "end": 34
+  },
+  {
+   "text": "flooded",
+   "start": 34,
+   "end": 34.44
+  },
+  {
+   "text": "and",
+   "start": 34.44,
+   "end": 34.55
+  },
+  {
+   "text": "left",
+   "start": 34.55,
+   "end": 34.8
+  },
+  {
+   "text": "behind",
+   "start": 34.8,
+   "end": 35.19
+  },
+  {
+   "text": "a",
+   "start": 35.19,
+   "end": 35.25
+  },
+  {
+   "text": "layer",
+   "start": 35.25,
+   "end": 35.58
+  },
+  {
+   "text": "of",
+   "start": 35.58,
+   "end": 35.71
+  },
+  {
+   "text": "black",
+   "start": 35.71,
+   "end": 36.04
+  },
+  {
+   "text": "mud,",
+   "start": 36.04,
+   "end": 36.45
+  },
+  {
+   "text": "so",
+   "start": 36.45,
+   "end": 36.5
+  },
+  {
+   "text": "farmers",
+   "start": 36.5,
+   "end": 37
+  },
+  {
+   "text": "could",
+   "start": 37,
+   "end": 37.25
+  },
+  {
+   "text": "grow",
+   "start": 37.25,
+   "end": 37.45
+  },
+  {
+   "text": "wheat",
+   "start": 37.45,
+   "end": 37.7
+  },
+  {
+   "text": "and",
+   "start": 37.7,
+   "end": 37.85
+  },
+  {
+   "text": "barley",
+   "start": 37.85,
+   "end": 38.15
+  },
+  {
+   "text": "in",
+   "start": 38.15,
+   "end": 38.25
+  },
+  {
+   "text": "the",
+   "start": 38.25,
+   "end": 38.4
+  },
+  {
+   "text": "middle",
+   "start": 38.4,
+   "end": 38.7
+  },
+  {
+   "text": "of",
+   "start": 38.7,
+   "end": 38.8
+  },
+  {
+   "text": "the",
+   "start": 38.8,
+   "end": 38.95
+  },
+  {
+   "text": "desert.",
+   "start": 38.95,
+   "end": 39.48
+  },
+  {
+   "text": "The",
+   "start": 39.48,
+   "end": 39.71
+  },
+  {
+   "text": "Egyptians",
+   "start": 39.71,
+   "end": 40.42
+  },
+  {
+   "text": "called",
+   "start": 40.42,
+   "end": 40.94
+  },
+  {
+   "text": "their",
+   "start": 40.94,
+   "end": 41.27
+  },
+  {
+   "text": "land",
+   "start": 41.27,
+   "end": 41.66
+  },
+  {
+   "text": "Kmet,",
+   "start": 41.66,
+   "end": 42.04
+  },
+  {
+   "text": "the",
+   "start": 42.04,
+   "end": 42.27
+  },
+  {
+   "text": "Black",
+   "start": 42.27,
+   "end": 42.66
+  },
+  {
+   "text": "Land.",
+   "start": 42.66,
+   "end": 43.28
+  },
+  {
+   "text": "Over",
+   "start": 43.28,
+   "end": 43.52
+  },
+  {
+   "text": "time,",
+   "start": 43.52,
+   "end": 43.85
+  },
+  {
+   "text": "these",
+   "start": 43.85,
+   "end": 44.14
+  },
+  {
+   "text": "villages",
+   "start": 44.14,
+   "end": 44.6
+  },
+  {
+   "text": "grew",
+   "start": 44.6,
+   "end": 44.83
+  },
+  {
+   "text": "into",
+   "start": 44.83,
+   "end": 45.1
+  },
+  {
+   "text": "two",
+   "start": 45.1,
+   "end": 45.23
+  },
+  {
+   "text": "kingdoms--",
+   "start": 45.23,
+   "end": 45.84
+  },
+  {
+   "text": "Upper",
+   "start": 45.84,
+   "end": 46.16
+  },
+  {
+   "text": "Egypt",
+   "start": 46.16,
+   "end": 46.48
+  },
+  {
+   "text": "in",
+   "start": 46.48,
+   "end": 46.61
+  },
+  {
+   "text": "the",
+   "start": 46.61,
+   "end": 46.8
+  },
+  {
+   "text": "south,",
+   "start": 46.8,
+   "end": 47.27
+  },
+  {
+   "text": "along",
+   "start": 47.27,
+   "end": 47.57
+  },
+  {
+   "text": "the",
+   "start": 47.57,
+   "end": 47.76
+  },
+  {
+   "text": "narrow",
+   "start": 47.76,
+   "end": 48.14
+  },
+  {
+   "text": "valley,",
+   "start": 48.14,
+   "end": 48.6
+  },
+  {
+   "text": "and",
+   "start": 48.6,
+   "end": 48.79
+  },
+  {
+   "text": "Lower",
+   "start": 48.79,
+   "end": 49.11
+  },
+  {
+   "text": "Egypt",
+   "start": 49.11,
+   "end": 49.43
+  },
+  {
+   "text": "in",
+   "start": 49.43,
+   "end": 49.55
+  },
+  {
+   "text": "the",
+   "start": 49.55,
+   "end": 49.74
+  },
+  {
+   "text": "north,",
+   "start": 49.74,
+   "end": 50.18
+  },
+  {
+   "text": "in",
+   "start": 50.18,
+   "end": 50.3
+  },
+  {
+   "text": "the",
+   "start": 50.3,
+   "end": 50.49
+  },
+  {
+   "text": "wide",
+   "start": 50.49,
+   "end": 50.74
+  },
+  {
+   "text": "delta",
+   "start": 50.74,
+   "end": 51.12
+  },
+  {
+   "text": "where",
+   "start": 51.12,
+   "end": 51.46
+  },
+  {
+   "text": "the",
+   "start": 51.46,
+   "end": 51.66
+  },
+  {
+   "text": "Nile",
+   "start": 51.66,
+   "end": 51.93
+  },
+  {
+   "text": "meets",
+   "start": 51.93,
+   "end": 52.27
+  },
+  {
+   "text": "the",
+   "start": 52.27,
+   "end": 52.47
+  },
+  {
+   "text": "Mediterranean.",
+   "start": 52.47,
+   "end": 53.6
+  },
+  {
+   "text": "Around",
+   "start": 53.6,
+   "end": 54.01
+  },
+  {
+   "text": "3,100",
+   "start": 54.01,
+   "end": 54.95
+  },
+  {
+   "text": "BC,",
+   "start": 54.95,
+   "end": 55.25
+  },
+  {
+   "text": "a",
+   "start": 55.25,
+   "end": 55.39
+  },
+  {
+   "text": "king",
+   "start": 55.39,
+   "end": 55.57
+  },
+  {
+   "text": "named",
+   "start": 55.57,
+   "end": 55.88
+  },
+  {
+   "text": "Narmer",
+   "start": 55.88,
+   "end": 56.38
+  },
+  {
+   "text": "claimed",
+   "start": 56.38,
+   "end": 56.86
+  },
+  {
+   "text": "both.",
+   "start": 56.86,
+   "end": 57.36
+  },
+  {
+   "text": "He",
+   "start": 57.37,
+   "end": 57.49
+  },
+  {
+   "text": "is",
+   "start": 57.49,
+   "end": 57.62
+  },
+  {
+   "text": "shown",
+   "start": 57.62,
+   "end": 57.95
+  },
+  {
+   "text": "on",
+   "start": 57.95,
+   "end": 58.11
+  },
+  {
+   "text": "a",
+   "start": 58.11,
+   "end": 58.14
+  },
+  {
+   "text": "carved",
+   "start": 58.14,
+   "end": 58.54
+  },
+  {
+   "text": "stone",
+   "start": 58.54,
+   "end": 58.87
+  },
+  {
+   "text": "pallet,",
+   "start": 58.87,
+   "end": 59.32
+  },
+  {
+   "text": "wearing",
+   "start": 59.32,
+   "end": 59.69
+  },
+  {
+   "text": "the",
+   "start": 59.69,
+   "end": 59.95
+  },
+  {
+   "text": "white",
+   "start": 59.95,
+   "end": 60.11
+  },
+  {
+   "text": "crown",
+   "start": 60.11,
+   "end": 60.38
+  },
+  {
+   "text": "of",
+   "start": 60.38,
+   "end": 60.47
+  },
+  {
+   "text": "the",
+   "start": 60.47,
+   "end": 60.63
+  },
+  {
+   "text": "south",
+   "start": 60.63,
+   "end": 60.92
+  },
+  {
+   "text": "on",
+   "start": 60.92,
+   "end": 61.14
+  },
+  {
+   "text": "one",
+   "start": 61.14,
+   "end": 61.47
+  },
+  {
+   "text": "side",
+   "start": 61.47,
+   "end": 61.94
+  },
+  {
+   "text": "and",
+   "start": 61.94,
+   "end": 62.1
+  },
+  {
+   "text": "the",
+   "start": 62.1,
+   "end": 62.26
+  },
+  {
+   "text": "red",
+   "start": 62.26,
+   "end": 62.42
+  },
+  {
+   "text": "crown",
+   "start": 62.42,
+   "end": 62.69
+  },
+  {
+   "text": "of",
+   "start": 62.69,
+   "end": 62.79
+  },
+  {
+   "text": "the",
+   "start": 62.79,
+   "end": 62.95
+  },
+  {
+   "text": "north",
+   "start": 62.95,
+   "end": 63.22
+  },
+  {
+   "text": "on",
+   "start": 63.22,
+   "end": 63.32
+  },
+  {
+   "text": "the",
+   "start": 63.32,
+   "end": 63.48
+  },
+  {
+   "text": "other.",
+   "start": 63.48,
+   "end": 63.96
+  },
+  {
+   "text": "For",
+   "start": 63.96,
+   "end": 64.11
+  },
+  {
+   "text": "the",
+   "start": 64.11,
+   "end": 64.28
+  },
+  {
+   "text": "next",
+   "start": 64.28,
+   "end": 64.47
+  },
+  {
+   "text": "3,000",
+   "start": 64.47,
+   "end": 65.19
+  },
+  {
+   "text": "years,",
+   "start": 65.19,
+   "end": 65.58
+  },
+  {
+   "text": "every",
+   "start": 65.58,
+   "end": 65.81
+  },
+  {
+   "text": "pharaoh",
+   "start": 65.81,
+   "end": 66.24
+  },
+  {
+   "text": "would",
+   "start": 66.24,
+   "end": 66.6
+  },
+  {
+   "text": "call",
+   "start": 66.6,
+   "end": 66.91
+  },
+  {
+   "text": "himself",
+   "start": 66.91,
+   "end": 67.44
+  },
+  {
+   "text": "Lord",
+   "start": 67.44,
+   "end": 67.69
+  },
+  {
+   "text": "of",
+   "start": 67.69,
+   "end": 67.83
+  },
+  {
+   "text": "the",
+   "start": 67.83,
+   "end": 68.05
+  },
+  {
+   "text": "Two",
+   "start": 68.05,
+   "end": 68.63
+  },
+  {
+   "text": "Lands.",
+   "start": 68.63,
+   "end": 68.88
+  },
+  {
+   "text": "The",
+   "start": 68.88,
+   "end": 69.07
+  },
+  {
+   "text": "period",
+   "start": 69.07,
+   "end": 69.46
+  },
+  {
+   "text": "we",
+   "start": 69.46,
+   "end": 69.59
+  },
+  {
+   "text": "now",
+   "start": 69.59,
+   "end": 69.78
+  },
+  {
+   "text": "call",
+   "start": 69.78,
+   "end": 70.04
+  },
+  {
+   "text": "the",
+   "start": 70.04,
+   "end": 70.23
+  },
+  {
+   "text": "Old",
+   "start": 70.23,
+   "end": 70.42
+  },
+  {
+   "text": "Kingdom",
+   "start": 70.42,
+   "end": 70.94
+  },
+  {
+   "text": "began",
+   "start": 70.94,
+   "end": 71.3
+  },
+  {
+   "text": "around",
+   "start": 71.3,
+   "end": 71.77
+  },
+  {
+   "text": "2686",
+   "start": 71.77,
+   "end": 72.64
+  },
+  {
+   "text": "BC.",
+   "start": 72.64,
+   "end": 73.44
+  },
+  {
+   "text": "Its",
+   "start": 73.44,
+   "end": 73.65
+  },
+  {
+   "text": "kings",
+   "start": 73.65,
+   "end": 74.01
+  },
+  {
+   "text": "ruled",
+   "start": 74.01,
+   "end": 74.37
+  },
+  {
+   "text": "from",
+   "start": 74.37,
+   "end": 74.66
+  },
+  {
+   "text": "Memphis",
+   "start": 74.66,
+   "end": 75.16
+  },
+  {
+   "text": "near",
+   "start": 75.16,
+   "end": 75.45
+  },
+  {
+   "text": "modern",
+   "start": 75.45,
+   "end": 75.89
+  },
+  {
+   "text": "Cairo,",
+   "start": 75.89,
+   "end": 76.28
+  },
+  {
+   "text": "and",
+   "start": 76.28,
+   "end": 76.44
+  },
+  {
+   "text": "they",
+   "start": 76.44,
+   "end": 76.65
+  },
+  {
+   "text": "spent",
+   "start": 76.65,
+   "end": 76.91
+  },
+  {
+   "text": "enormous",
+   "start": 76.91,
+   "end": 77.34
+  },
+  {
+   "text": "resources",
+   "start": 77.34,
+   "end": 77.84
+  },
+  {
+   "text": "preparing",
+   "start": 77.84,
+   "end": 78.54
+  },
+  {
+   "text": "for",
+   "start": 78.54,
+   "end": 78.76
+  },
+  {
+   "text": "the",
+   "start": 78.76,
+   "end": 78.99
+  },
+  {
+   "text": "afterlife.",
+   "start": 78.99,
+   "end": 79.96
+  },
+  {
+   "text": "For",
+   "start": 79.96,
+   "end": 80.14
+  },
+  {
+   "text": "King",
+   "start": 80.14,
+   "end": 80.38
+  },
+  {
+   "text": "Djoser,",
+   "start": 80.38,
+   "end": 80.96
+  },
+  {
+   "text": "an",
+   "start": 80.96,
+   "end": 80.97
+  },
+  {
+   "text": "official",
+   "start": 80.97,
+   "end": 81.43
+  },
+  {
+   "text": "named",
+   "start": 81.43,
+   "end": 81.76
+  },
+  {
+   "text": "Imhotep",
+   "start": 81.76,
+   "end": 82.36
+  },
+  {
+   "text": "stacked",
+   "start": 82.36,
+   "end": 82.8
+  },
+  {
+   "text": "six",
+   "start": 82.8,
+   "end": 83.01
+  },
+  {
+   "text": "stone",
+   "start": 83.01,
+   "end": 83.34
+  },
+  {
+   "text": "platforms",
+   "start": 83.34,
+   "end": 83.87
+  },
+  {
+   "text": "on",
+   "start": 83.87,
+   "end": 83.99
+  },
+  {
+   "text": "top",
+   "start": 83.99,
+   "end": 84.2
+  },
+  {
+   "text": "of",
+   "start": 84.2,
+   "end": 84.31
+  },
+  {
+   "text": "each",
+   "start": 84.31,
+   "end": 84.53
+  },
+  {
+   "text": "other",
+   "start": 84.53,
+   "end": 84.81
+  },
+  {
+   "text": "at",
+   "start": 84.81,
+   "end": 84.92
+  },
+  {
+   "text": "Saqqara.",
+   "start": 84.92,
+   "end": 85.52
+  },
+  {
+   "text": "The",
+   "start": 85.52,
+   "end": 85.68
+  },
+  {
+   "text": "step",
+   "start": 85.68,
+   "end": 85.92
+  },
+  {
+   "text": "pyramid",
+   "start": 85.92,
+   "end": 86.24
+  },
+  {
+   "text": "was",
+   "start": 86.24,
+   "end": 86.43
+  },
+  {
+   "text": "the",
+   "start": 86.43,
+   "end": 86.62
+  },
+  {
+   "text": "first",
+   "start": 86.62,
+   "end": 86.87
+  },
+  {
+   "text": "large",
+   "start": 86.87,
+   "end": 87.06
+  },
+  {
+   "text": "building",
+   "start": 87.06,
+   "end": 87.52
+  },
+  {
+   "text": "in",
+   "start": 87.52,
+   "end": 87.68
+  },
+  {
+   "text": "Egypt",
+   "start": 87.68,
+   "end": 88.08
+  },
+  {
+   "text": "made",
+   "start": 88.08,
+   "end": 88.43
+  },
+  {
+   "text": "entirely",
+   "start": 88.43,
+   "end": 89.15
+  },
+  {
+   "text": "of",
+   "start": 89.15,
+   "end": 89.79
+  },
+  {
+   "text": "stone.",
+   "start": 89.79,
+   "end": 90.08
+  },
+  {
+   "text": "Within",
+   "start": 90.08,
+   "end": 90.42
+  },
+  {
+   "text": "about",
+   "start": 90.42,
+   "end": 90.7
+  },
+  {
+   "text": "a",
+   "start": 90.7,
+   "end": 90.75
+  },
+  {
+   "text": "century,",
+   "start": 90.75,
+   "end": 91.31
+  },
+  {
+   "text": "Egyptian",
+   "start": 91.31,
+   "end": 91.71
+  },
+  {
+   "text": "builders",
+   "start": 91.71,
+   "end": 92.2
+  },
+  {
+   "text": "had",
+   "start": 92.2,
+   "end": 92.38
+  },
+  {
+   "text": "learned",
+   "start": 92.38,
+   "end": 92.85
+  },
+  {
+   "text": "to",
+   "start": 92.85,
+   "end": 92.92
+  },
+  {
+   "text": "make",
+   "start": 92.92,
+   "end": 93.16
+  },
+  {
+   "text": "the",
+   "start": 93.16,
+   "end": 93.34
+  },
+  {
+   "text": "sides",
+   "start": 93.34,
+   "end": 93.64
+  },
+  {
+   "text": "smooth.",
+   "start": 93.64,
+   "end": 94.2
+  },
+  {
+   "text": "Around",
+   "start": 94.2,
+   "end": 94.65
+  },
+  {
+   "text": "2600",
+   "start": 94.65,
+   "end": 95.55
+  },
+  {
+   "text": "BC,",
+   "start": 95.55,
+   "end": 95.96
+  },
+  {
+   "text": "the",
+   "start": 95.96,
+   "end": 96.13
+  },
+  {
+   "text": "pharaoh",
+   "start": 96.13,
+   "end": 96.59
+  },
+  {
+   "text": "Khufu",
+   "start": 96.59,
+   "end": 97.04
+  },
+  {
+   "text": "built",
+   "start": 97.04,
+   "end": 97.28
+  },
+  {
+   "text": "the",
+   "start": 97.28,
+   "end": 97.46
+  },
+  {
+   "text": "Great",
+   "start": 97.46,
+   "end": 97.76
+  },
+  {
+   "text": "Pyramid",
+   "start": 97.76,
+   "end": 98.18
+  },
+  {
+   "text": "of",
+   "start": 98.18,
+   "end": 98.3
+  },
+  {
+   "text": "Giza.",
+   "start": 98.3,
+   "end": 98.74
+  },
+  {
+   "text": "It",
+   "start": 98.74,
+   "end": 98.87
+  },
+  {
+   "text": "was",
+   "start": 98.87,
+   "end": 99.06
+  },
+  {
+   "text": "146",
+   "start": 99.06,
+   "end": 99.63
+  },
+  {
+   "text": "meters",
+   "start": 99.63,
+   "end": 100.05
+  },
+  {
+   "text": "tall",
+   "start": 100.05,
+   "end": 100.28
+  },
+  {
+   "text": "and",
+   "start": 100.28,
+   "end": 100.57
+  },
+  {
+   "text": "made",
+   "start": 100.57,
+   "end": 100.73
+  },
+  {
+   "text": "of",
+   "start": 100.73,
+   "end": 100.86
+  },
+  {
+   "text": "roughly",
+   "start": 100.86,
+   "end": 101.35
+  },
+  {
+   "text": "2.3",
+   "start": 101.35,
+   "end": 102.04
+  },
+  {
+   "text": "million",
+   "start": 102.04,
+   "end": 102.41
+  },
+  {
+   "text": "stone",
+   "start": 102.41,
+   "end": 102.72
+  },
+  {
+   "text": "blocks.",
+   "start": 102.72,
+   "end": 103.6
+  },
+  {
+   "text": "For",
+   "start": 103.6,
+   "end": 103.8
+  },
+  {
+   "text": "more",
+   "start": 103.8,
+   "end": 104.16
+  },
+  {
+   "text": "than",
+   "start": 104.16,
+   "end": 104.38
+  },
+  {
+   "text": "3,700",
+   "start": 104.38,
+   "end": 105.27
+  },
+  {
+   "text": "years,",
+   "start": 105.27,
+   "end": 105.98
+  },
+  {
+   "text": "nothing",
+   "start": 105.98,
+   "end": 106.2
+  },
+  {
+   "text": "built",
+   "start": 106.2,
+   "end": 106.53
+  },
+  {
+   "text": "by",
+   "start": 106.53,
+   "end": 106.66
+  },
+  {
+   "text": "humans",
+   "start": 106.66,
+   "end": 107.12
+  },
+  {
+   "text": "was",
+   "start": 107.12,
+   "end": 107.46
+  },
+  {
+   "text": "taller.",
+   "start": 107.46,
+   "end": 108.48
+  },
+  {
+   "text": "Greek",
+   "start": 108.48,
+   "end": 108.78
+  },
+  {
+   "text": "writers",
+   "start": 108.78,
+   "end": 109.19
+  },
+  {
+   "text": "later",
+   "start": 109.19,
+   "end": 109.5
+  },
+  {
+   "text": "claimed",
+   "start": 109.5,
+   "end": 109.92
+  },
+  {
+   "text": "slaves",
+   "start": 109.92,
+   "end": 110.29
+  },
+  {
+   "text": "built",
+   "start": 110.29,
+   "end": 110.56
+  },
+  {
+   "text": "it.",
+   "start": 110.56,
+   "end": 110.92
+  },
+  {
+   "text": "Archaeologists",
+   "start": 110.92,
+   "end": 111.59
+  },
+  {
+   "text": "have",
+   "start": 111.59,
+   "end": 111.78
+  },
+  {
+   "text": "since",
+   "start": 111.78,
+   "end": 112.02
+  },
+  {
+   "text": "found",
+   "start": 112.02,
+   "end": 112.32
+  },
+  {
+   "text": "the",
+   "start": 112.32,
+   "end": 112.4
+  },
+  {
+   "text": "camps",
+   "start": 112.4,
+   "end": 112.66
+  },
+  {
+   "text": "where",
+   "start": 112.66,
+   "end": 112.89
+  },
+  {
+   "text": "the",
+   "start": 112.89,
+   "end": 113.03
+  },
+  {
+   "text": "workers",
+   "start": 113.03,
+   "end": 113.36
+  },
+  {
+   "text": "lived,",
+   "start": 113.36,
+   "end": 113.81
+  },
+  {
+   "text": "and",
+   "start": 113.81,
+   "end": 113.82
+  },
+  {
+   "text": "they",
+   "start": 113.82,
+   "end": 114.04
+  },
+  {
+   "text": "point",
+   "start": 114.06,
+   "end": 114.31
+  },
+  {
+   "text": "to",
+   "start": 114.31,
+   "end": 114.4
+  },
+  {
+   "text": "Egyptian",
+   "start": 114.4,
+   "end": 114.81
+  },
+  {
+   "text": "laborers",
+   "start": 114.81,
+   "end": 115.22
+  },
+  {
+   "text": "called",
+   "start": 115.22,
+   "end": 115.64
+  },
+  {
+   "text": "up",
+   "start": 115.64,
+   "end": 115.66
+  },
+  {
+   "text": "for",
+   "start": 115.66,
+   "end": 115.89
+  },
+  {
+   "text": "service,",
+   "start": 115.89,
+   "end": 116.48
+  },
+  {
+   "text": "probably",
+   "start": 116.48,
+   "end": 116.94
+  },
+  {
+   "text": "around",
+   "start": 116.94,
+   "end": 117.29
+  },
+  {
+   "text": "13,000",
+   "start": 117.29,
+   "end": 118.27
+  },
+  {
+   "text": "at",
+   "start": 118.27,
+   "end": 118.38
+  },
+  {
+   "text": "a",
+   "start": 118.38,
+   "end": 118.43
+  },
+  {
+   "text": "time",
+   "start": 118.43,
+   "end": 118.69
+  },
+  {
+   "text": "and",
+   "start": 118.69,
+   "end": 118.83
+  },
+  {
+   "text": "up",
+   "start": 118.83,
+   "end": 118.99
+  },
+  {
+   "text": "to",
+   "start": 118.99,
+   "end": 119.19
+  },
+  {
+   "text": "40,000",
+   "start": 119.19,
+   "end": 119.84
+  },
+  {
+   "text": "at",
+   "start": 119.84,
+   "end": 120.04
+  },
+  {
+   "text": "the",
+   "start": 120.04,
+   "end": 120.79
+  },
+  {
+   "text": "peak.",
+   "start": 120.79,
+   "end": 121.12
+  },
+  {
+   "text": "Then",
+   "start": 121.12,
+   "end": 121.39
+  },
+  {
+   "text": "the",
+   "start": 121.39,
+   "end": 121.59
+  },
+  {
+   "text": "floods",
+   "start": 121.59,
+   "end": 122
+  },
+  {
+   "text": "failed.",
+   "start": 122,
+   "end": 122.64
+  },
+  {
+   "text": "In",
+   "start": 122.64,
+   "end": 122.82
+  },
+  {
+   "text": "the",
+   "start": 122.82,
+   "end": 123
+  },
+  {
+   "text": "22nd",
+   "start": 123,
+   "end": 123.58
+  },
+  {
+   "text": "century",
+   "start": 123.58,
+   "end": 124.09
+  },
+  {
+   "text": "BC,",
+   "start": 124.09,
+   "end": 124.37
+  },
+  {
+   "text": "a",
+   "start": 124.37,
+   "end": 124.6
+  },
+  {
+   "text": "long",
+   "start": 124.6,
+   "end": 124.74
+  },
+  {
+   "text": "drought",
+   "start": 124.74,
+   "end": 125.32
+  },
+  {
+   "text": "kept",
+   "start": 125.32,
+   "end": 125.6
+  },
+  {
+   "text": "the",
+   "start": 125.6,
+   "end": 125.81
+  },
+  {
+   "text": "Nile",
+   "start": 125.81,
+   "end": 126.09
+  },
+  {
+   "text": "low",
+   "start": 126.09,
+   "end": 126.3
+  },
+  {
+   "text": "for",
+   "start": 126.3,
+   "end": 126.51
+  },
+  {
+   "text": "years.",
+   "start": 126.51,
+   "end": 127.12
+  },
+  {
+   "text": "Harvests",
+   "start": 127.12,
+   "end": 127.58
+  },
+  {
+   "text": "collapsed,",
+   "start": 127.58,
+   "end": 128.3
+  },
+  {
+   "text": "and",
+   "start": 128.3,
+   "end": 128.37
+  },
+  {
+   "text": "so",
+   "start": 128.37,
+   "end": 128.54
+  },
+  {
+   "text": "did",
+   "start": 128.54,
+   "end": 128.65
+  },
+  {
+   "text": "the",
+   "start": 128.65,
+   "end": 128.82
+  },
+  {
+   "text": "central",
+   "start": 128.82,
+   "end": 129.22
+  },
+  {
+   "text": "government.",
+   "start": 129.22,
+   "end": 130.04
+  },
+  {
+   "text": "Local",
+   "start": 130.04,
+   "end": 130.32
+  },
+  {
+   "text": "governors",
+   "start": 130.32,
+   "end": 130.82
+  },
+  {
+   "text": "took",
+   "start": 130.82,
+   "end": 131.04
+  },
+  {
+   "text": "over,",
+   "start": 131.04,
+   "end": 131.62
+  },
+  {
+   "text": "fought",
+   "start": 131.62,
+   "end": 131.7
+  },
+  {
+   "text": "each",
+   "start": 131.7,
+   "end": 131.92
+  },
+  {
+   "text": "other,",
+   "start": 131.92,
+   "end": 132.36
+  },
+  {
+   "text": "and",
+   "start": 132.36,
+   "end": 132.57
+  },
+  {
+   "text": "for",
+   "start": 132.57,
+   "end": 132.86
+  },
+  {
+   "text": "about",
+   "start": 132.86,
+   "end": 133.13
+  },
+  {
+   "text": "200",
+   "start": 133.13,
+   "end": 133.75
+  },
+  {
+   "text": "years,",
+   "start": 133.75,
+   "end": 134.23
+  },
+  {
+   "text": "Egypt",
+   "start": 134.23,
+   "end": 134.58
+  },
+  {
+   "text": "was",
+   "start": 134.58,
+   "end": 134.84
+  },
+  {
+   "text": "split",
+   "start": 134.84,
+   "end": 135.14
+  },
+  {
+   "text": "apart.",
+   "start": 135.14,
+   "end": 135.72
+  },
+  {
+   "text": "Around",
+   "start": 135.72,
+   "end": 136.21
+  },
+  {
+   "text": "2030",
+   "start": 136.21,
+   "end": 137.32
+  },
+  {
+   "text": "BC,",
+   "start": 137.32,
+   "end": 137.56
+  },
+  {
+   "text": "Mentuhotep",
+   "start": 137.56,
+   "end": 138.33
+  },
+  {
+   "text": "II,",
+   "start": 138.33,
+   "end": 138.73
+  },
+  {
+   "text": "a",
+   "start": 138.73,
+   "end": 138.75
+  },
+  {
+   "text": "ruler",
+   "start": 138.75,
+   "end": 139.23
+  },
+  {
+   "text": "from",
+   "start": 139.23,
+   "end": 139.46
+  },
+  {
+   "text": "Thebes",
+   "start": 139.46,
+   "end": 139.76
+  },
+  {
+   "text": "in",
+   "start": 139.76,
+   "end": 139.9
+  },
+  {
+   "text": "the",
+   "start": 139.9,
+   "end": 140.11
+  },
+  {
+   "text": "south,",
+   "start": 140.11,
+   "end": 140.48
+  },
+  {
+   "text": "reunited",
+   "start": 140.48,
+   "end": 141.05
+  },
+  {
+   "text": "the",
+   "start": 141.05,
+   "end": 141.22
+  },
+  {
+   "text": "country",
+   "start": 141.22,
+   "end": 141.69
+  },
+  {
+   "text": "and",
+   "start": 141.69,
+   "end": 141.89
+  },
+  {
+   "text": "began",
+   "start": 141.89,
+   "end": 142.22
+  },
+  {
+   "text": "what",
+   "start": 142.22,
+   "end": 142.49
+  },
+  {
+   "text": "we",
+   "start": 142.49,
+   "end": 142.62
+  },
+  {
+   "text": "call",
+   "start": 142.62,
+   "end": 142.89
+  },
+  {
+   "text": "the",
+   "start": 142.89,
+   "end": 143.09
+  },
+  {
+   "text": "Middle",
+   "start": 143.09,
+   "end": 143.96
+  },
+  {
+   "text": "Kingdom.",
+   "start": 143.96,
+   "end": 144.2
+  },
+  {
+   "text": "But",
+   "start": 144.2,
+   "end": 144.4
+  },
+  {
+   "text": "around",
+   "start": 144.4,
+   "end": 144.85
+  },
+  {
+   "text": "1650",
+   "start": 144.85,
+   "end": 145.6
+  },
+  {
+   "text": "BC,",
+   "start": 145.6,
+   "end": 145.86
+  },
+  {
+   "text": "foreigners",
+   "start": 145.86,
+   "end": 146.53
+  },
+  {
+   "text": "from",
+   "start": 146.53,
+   "end": 146.82
+  },
+  {
+   "text": "the",
+   "start": 146.82,
+   "end": 147
+  },
+  {
+   "text": "Levant",
+   "start": 147,
+   "end": 147.44
+  },
+  {
+   "text": "took",
+   "start": 147.44,
+   "end": 147.66
+  },
+  {
+   "text": "control",
+   "start": 147.66,
+   "end": 148.05
+  },
+  {
+   "text": "of",
+   "start": 148.05,
+   "end": 148.16
+  },
+  {
+   "text": "the",
+   "start": 148.16,
+   "end": 148.32
+  },
+  {
+   "text": "north.",
+   "start": 148.32,
+   "end": 148.8
+  },
+  {
+   "text": "The",
+   "start": 148.8,
+   "end": 148.97
+  },
+  {
+   "text": "Egyptians",
+   "start": 148.97,
+   "end": 149.49
+  },
+  {
+   "text": "called",
+   "start": 149.49,
+   "end": 149.83
+  },
+  {
+   "text": "them",
+   "start": 149.83,
+   "end": 150.06
+  },
+  {
+   "text": "the",
+   "start": 150.06,
+   "end": 150.23
+  },
+  {
+   "text": "Hyksos,",
+   "start": 150.23,
+   "end": 150.72
+  },
+  {
+   "text": "rulers",
+   "start": 150.72,
+   "end": 151.12
+  },
+  {
+   "text": "of",
+   "start": 151.12,
+   "end": 151.26
+  },
+  {
+   "text": "foreign",
+   "start": 151.26,
+   "end": 151.77
+  },
+  {
+   "text": "lands.",
+   "start": 151.77,
+   "end": 152.16
+  },
+  {
+   "text": "From",
+   "start": 152.16,
+   "end": 152.41
+  },
+  {
+   "text": "their",
+   "start": 152.41,
+   "end": 152.72
+  },
+  {
+   "text": "capital",
+   "start": 152.72,
+   "end": 153.16
+  },
+  {
+   "text": "Avaris",
+   "start": 153.16,
+   "end": 153.55
+  },
+  {
+   "text": "in",
+   "start": 153.55,
+   "end": 153.65
+  },
+  {
+   "text": "the",
+   "start": 153.65,
+   "end": 153.84
+  },
+  {
+   "text": "delta,",
+   "start": 153.84,
+   "end": 154.2
+  },
+  {
+   "text": "they",
+   "start": 154.2,
+   "end": 154.43
+  },
+  {
+   "text": "ruled",
+   "start": 154.43,
+   "end": 154.72
+  },
+  {
+   "text": "Lower",
+   "start": 154.72,
+   "end": 155.01
+  },
+  {
+   "text": "Egypt",
+   "start": 155.01,
+   "end": 155.31
+  },
+  {
+   "text": "for",
+   "start": 155.31,
+   "end": 155.47
+  },
+  {
+   "text": "about",
+   "start": 155.47,
+   "end": 155.76
+  },
+  {
+   "text": "a",
+   "start": 155.76,
+   "end": 155.81
+  },
+  {
+   "text": "century.",
+   "start": 155.81,
+   "end": 156.44
+  },
+  {
+   "text": "They",
+   "start": 156.44,
+   "end": 156.65
+  },
+  {
+   "text": "brought",
+   "start": 156.65,
+   "end": 157.02
+  },
+  {
+   "text": "horses",
+   "start": 157.02,
+   "end": 157.38
+  },
+  {
+   "text": "with",
+   "start": 157.38,
+   "end": 157.54
+  },
+  {
+   "text": "them",
+   "start": 157.54,
+   "end": 157.78
+  },
+  {
+   "text": "and",
+   "start": 157.78,
+   "end": 157.91
+  },
+  {
+   "text": "possibly",
+   "start": 157.91,
+   "end": 158.36
+  },
+  {
+   "text": "new",
+   "start": 158.36,
+   "end": 158.54
+  },
+  {
+   "text": "weapons",
+   "start": 158.54,
+   "end": 158.94
+  },
+  {
+   "text": "as",
+   "start": 158.94,
+   "end": 160.42
+  },
+  {
+   "text": "well.",
+   "start": 160.42,
+   "end": 161.18
+  },
+  {
+   "text": "Around",
+   "start": 161.18,
+   "end": 161.65
+  },
+  {
+   "text": "1550",
+   "start": 161.65,
+   "end": 162.53
+  },
+  {
+   "text": "BC,",
+   "start": 162.53,
+   "end": 162.93
+  },
+  {
+   "text": "Amos",
+   "start": 162.93,
+   "end": 163.13
+  },
+  {
+   "text": "of",
+   "start": 163.13,
+   "end": 163.28
+  },
+  {
+   "text": "Thebes",
+   "start": 163.28,
+   "end": 163.72
+  },
+  {
+   "text": "drove",
+   "start": 163.72,
+   "end": 164.08
+  },
+  {
+   "text": "the",
+   "start": 164.08,
+   "end": 164.33
+  },
+  {
+   "text": "Hyksos",
+   "start": 164.33,
+   "end": 164.76
+  },
+  {
+   "text": "out.",
+   "start": 164.76,
+   "end": 165.24
+  },
+  {
+   "text": "Egypt",
+   "start": 165.24,
+   "end": 165.53
+  },
+  {
+   "text": "now",
+   "start": 165.53,
+   "end": 165.71
+  },
+  {
+   "text": "entered",
+   "start": 165.71,
+   "end": 166.12
+  },
+  {
+   "text": "the",
+   "start": 166.12,
+   "end": 166.32
+  },
+  {
+   "text": "New",
+   "start": 166.32,
+   "end": 166.48
+  },
+  {
+   "text": "Kingdom,",
+   "start": 166.48,
+   "end": 166.92
+  },
+  {
+   "text": "and",
+   "start": 166.92,
+   "end": 167.23
+  },
+  {
+   "text": "this",
+   "start": 167.23,
+   "end": 167.31
+  },
+  {
+   "text": "time",
+   "start": 167.31,
+   "end": 167.55
+  },
+  {
+   "text": "it",
+   "start": 167.55,
+   "end": 167.64
+  },
+  {
+   "text": "pushed",
+   "start": 167.64,
+   "end": 167.98
+  },
+  {
+   "text": "far",
+   "start": 167.98,
+   "end": 168.15
+  },
+  {
+   "text": "beyond",
+   "start": 168.15,
+   "end": 168.49
+  },
+  {
+   "text": "its",
+   "start": 168.49,
+   "end": 168.66
+  },
+  {
+   "text": "deserts",
+   "start": 168.66,
+   "end": 169.1
+  },
+  {
+   "text": "and",
+   "start": 169.1,
+   "end": 169.43
+  },
+  {
+   "text": "built",
+   "start": 169.43,
+   "end": 169.84
+  },
+  {
+   "text": "an",
+   "start": 169.84,
+   "end": 170.02
+  },
+  {
+   "text": "empire.",
+   "start": 170.02,
+   "end": 170.88
+  },
+  {
+   "text": "Hatshepsut,",
+   "start": 170.88,
+   "end": 171.66
+  },
+  {
+   "text": "one",
+   "start": 171.66,
+   "end": 171.95
+  },
+  {
+   "text": "of",
+   "start": 171.95,
+   "end": 171.99
+  },
+  {
+   "text": "the",
+   "start": 171.99,
+   "end": 172.19
+  },
+  {
+   "text": "few",
+   "start": 172.19,
+   "end": 172.39
+  },
+  {
+   "text": "women",
+   "start": 172.39,
+   "end": 172.72
+  },
+  {
+   "text": "to",
+   "start": 172.72,
+   "end": 172.85
+  },
+  {
+   "text": "rule",
+   "start": 172.85,
+   "end": 173.16
+  },
+  {
+   "text": "as",
+   "start": 173.16,
+   "end": 173.34
+  },
+  {
+   "text": "pharaoh,",
+   "start": 173.34,
+   "end": 174
+  },
+  {
+   "text": "sent",
+   "start": 174,
+   "end": 174.25
+  },
+  {
+   "text": "a",
+   "start": 174.25,
+   "end": 174.31
+  },
+  {
+   "text": "trading",
+   "start": 174.31,
+   "end": 174.75
+  },
+  {
+   "text": "expedition",
+   "start": 174.75,
+   "end": 175.38
+  },
+  {
+   "text": "to",
+   "start": 175.38,
+   "end": 175.5
+  },
+  {
+   "text": "the",
+   "start": 175.5,
+   "end": 175.69
+  },
+  {
+   "text": "distant",
+   "start": 175.69,
+   "end": 176.17
+  },
+  {
+   "text": "land",
+   "start": 176.17,
+   "end": 176.38
+  },
+  {
+   "text": "of",
+   "start": 176.38,
+   "end": 176.56
+  },
+  {
+   "text": "Punt",
+   "start": 176.56,
+   "end": 176.8
+  },
+  {
+   "text": "and",
+   "start": 176.8,
+   "end": 177.04
+  },
+  {
+   "text": "filled",
+   "start": 177.04,
+   "end": 177.28
+  },
+  {
+   "text": "the",
+   "start": 177.28,
+   "end": 177.44
+  },
+  {
+   "text": "temples",
+   "start": 177.44,
+   "end": 177.82
+  },
+  {
+   "text": "at",
+   "start": 177.82,
+   "end": 177.92
+  },
+  {
+   "text": "Karnak",
+   "start": 177.92,
+   "end": 178.29
+  },
+  {
+   "text": "with",
+   "start": 178.29,
+   "end": 178.44
+  },
+  {
+   "text": "new",
+   "start": 178.44,
+   "end": 178.6
+  },
+  {
+   "text": "buildings.",
+   "start": 178.6,
+   "end": 179.32
+  },
+  {
+   "text": "Her",
+   "start": 179.32,
+   "end": 179.54
+  },
+  {
+   "text": "stepson",
+   "start": 179.54,
+   "end": 180.05
+  },
+  {
+   "text": "Thutmose",
+   "start": 180.05,
+   "end": 180.65
+  },
+  {
+   "text": "III",
+   "start": 180.65,
+   "end": 180.8
+  },
+  {
+   "text": "fought",
+   "start": 180.8,
+   "end": 181.23
+  },
+  {
+   "text": "at",
+   "start": 181.23,
+   "end": 181.37
+  },
+  {
+   "text": "least",
+   "start": 181.37,
+   "end": 181.79
+  },
+  {
+   "text": "16",
+   "start": 181.79,
+   "end": 182.16
+  },
+  {
+   "text": "campaigns",
+   "start": 182.16,
+   "end": 182.88
+  },
+  {
+   "text": "in",
+   "start": 182.88,
+   "end": 183.05
+  },
+  {
+   "text": "20",
+   "start": 183.05,
+   "end": 183.5
+  },
+  {
+   "text": "years",
+   "start": 183.5,
+   "end": 183.95
+  },
+  {
+   "text": "and",
+   "start": 183.95,
+   "end": 184.14
+  },
+  {
+   "text": "captured",
+   "start": 184.14,
+   "end": 184.82
+  },
+  {
+   "text": "some",
+   "start": 184.82,
+   "end": 185.06
+  },
+  {
+   "text": "350",
+   "start": 185.06,
+   "end": 185.77
+  },
+  {
+   "text": "cities.",
+   "start": 185.77,
+   "end": 186.52
+  },
+  {
+   "text": "At",
+   "start": 186.52,
+   "end": 186.62
+  },
+  {
+   "text": "its",
+   "start": 186.62,
+   "end": 186.79
+  },
+  {
+   "text": "height,",
+   "start": 186.79,
+   "end": 187.17
+  },
+  {
+   "text": "his",
+   "start": 187.17,
+   "end": 187.32
+  },
+  {
+   "text": "empire",
+   "start": 187.32,
+   "end": 187.62
+  },
+  {
+   "text": "reached",
+   "start": 187.62,
+   "end": 188
+  },
+  {
+   "text": "from",
+   "start": 188,
+   "end": 188.25
+  },
+  {
+   "text": "the",
+   "start": 188.25,
+   "end": 188.44
+  },
+  {
+   "text": "Euphrates",
+   "start": 188.44,
+   "end": 189
+  },
+  {
+   "text": "in",
+   "start": 189,
+   "end": 189.12
+  },
+  {
+   "text": "Syria",
+   "start": 189.12,
+   "end": 189.45
+  },
+  {
+   "text": "to",
+   "start": 189.45,
+   "end": 189.55
+  },
+  {
+   "text": "deep",
+   "start": 189.55,
+   "end": 189.84
+  },
+  {
+   "text": "into",
+   "start": 189.84,
+   "end": 190.12
+  },
+  {
+   "text": "Nubia",
+   "start": 190.12,
+   "end": 190.49
+  },
+  {
+   "text": "in",
+   "start": 190.49,
+   "end": 190.69
+  },
+  {
+   "text": "the",
+   "start": 190.69,
+   "end": 190.97
+  },
+  {
+   "text": "south.",
+   "start": 190.97,
+   "end": 191.92
+  },
+  {
+   "text": "A",
+   "start": 191.92,
+   "end": 192.04
+  },
+  {
+   "text": "few",
+   "start": 192.04,
+   "end": 192.16
+  },
+  {
+   "text": "generations",
+   "start": 192.16,
+   "end": 192.82
+  },
+  {
+   "text": "later,",
+   "start": 192.82,
+   "end": 193.28
+  },
+  {
+   "text": "Akhenaten",
+   "start": 193.28,
+   "end": 193.8
+  },
+  {
+   "text": "pushed",
+   "start": 193.8,
+   "end": 194.2
+  },
+  {
+   "text": "aside",
+   "start": 194.2,
+   "end": 194.54
+  },
+  {
+   "text": "Egypt's",
+   "start": 194.54,
+   "end": 195.01
+  },
+  {
+   "text": "many",
+   "start": 195.01,
+   "end": 195.28
+  },
+  {
+   "text": "gods",
+   "start": 195.28,
+   "end": 195.75
+  },
+  {
+   "text": "and",
+   "start": 195.75,
+   "end": 195.75
+  },
+  {
+   "text": "built",
+   "start": 195.75,
+   "end": 196.12
+  },
+  {
+   "text": "the",
+   "start": 196.12,
+   "end": 196.27
+  },
+  {
+   "text": "state",
+   "start": 196.27,
+   "end": 196.48
+  },
+  {
+   "text": "religion",
+   "start": 196.48,
+   "end": 196.88
+  },
+  {
+   "text": "around",
+   "start": 196.88,
+   "end": 197.32
+  },
+  {
+   "text": "one,",
+   "start": 197.32,
+   "end": 197.71
+  },
+  {
+   "text": "the",
+   "start": 197.71,
+   "end": 197.9
+  },
+  {
+   "text": "Adon,",
+   "start": 197.9,
+   "end": 198.46
+  },
+  {
+   "text": "the",
+   "start": 198.46,
+   "end": 198.54
+  },
+  {
+   "text": "disk",
+   "start": 198.54,
+   "end": 198.83
+  },
+  {
+   "text": "of",
+   "start": 198.83,
+   "end": 198.97
+  },
+  {
+   "text": "the",
+   "start": 198.97,
+   "end": 199.19
+  },
+  {
+   "text": "sun.",
+   "start": 199.19,
+   "end": 199.72
+  },
+  {
+   "text": "He",
+   "start": 199.72,
+   "end": 199.85
+  },
+  {
+   "text": "built",
+   "start": 199.85,
+   "end": 200.15
+  },
+  {
+   "text": "a",
+   "start": 200.15,
+   "end": 200.21
+  },
+  {
+   "text": "new",
+   "start": 200.21,
+   "end": 200.39
+  },
+  {
+   "text": "capital",
+   "start": 200.39,
+   "end": 200.82
+  },
+  {
+   "text": "in",
+   "start": 200.82,
+   "end": 200.94
+  },
+  {
+   "text": "the",
+   "start": 200.94,
+   "end": 201.12
+  },
+  {
+   "text": "desert,",
+   "start": 201.12,
+   "end": 201.54
+  },
+  {
+   "text": "and",
+   "start": 201.54,
+   "end": 201.73
+  },
+  {
+   "text": "Egyptian",
+   "start": 201.73,
+   "end": 202.25
+  },
+  {
+   "text": "art",
+   "start": 202.25,
+   "end": 202.44
+  },
+  {
+   "text": "suddenly",
+   "start": 202.44,
+   "end": 202.95
+  },
+  {
+   "text": "looked",
+   "start": 202.95,
+   "end": 203.33
+  },
+  {
+   "text": "different.",
+   "start": 203.33,
+   "end": 204.16
+  },
+  {
+   "text": "After",
+   "start": 204.16,
+   "end": 204.48
+  },
+  {
+   "text": "his",
+   "start": 204.48,
+   "end": 204.67
+  },
+  {
+   "text": "death,",
+   "start": 204.67,
+   "end": 205.14
+  },
+  {
+   "text": "the",
+   "start": 205.14,
+   "end": 205.3
+  },
+  {
+   "text": "young",
+   "start": 205.3,
+   "end": 205.64
+  },
+  {
+   "text": "Tutankhamun,",
+   "start": 205.64,
+   "end": 206.53
+  },
+  {
+   "text": "probably",
+   "start": 206.53,
+   "end": 206.9
+  },
+  {
+   "text": "his",
+   "start": 206.9,
+   "end": 207.17
+  },
+  {
+   "text": "son,",
+   "start": 207.17,
+   "end": 207.64
+  },
+  {
+   "text": "went",
+   "start": 207.64,
+   "end": 207.88
+  },
+  {
+   "text": "back",
+   "start": 207.88,
+   "end": 208.12
+  },
+  {
+   "text": "to",
+   "start": 208.12,
+   "end": 208.24
+  },
+  {
+   "text": "the",
+   "start": 208.24,
+   "end": 208.42
+  },
+  {
+   "text": "old",
+   "start": 208.42,
+   "end": 208.6
+  },
+  {
+   "text": "gods",
+   "start": 208.6,
+   "end": 208.86
+  },
+  {
+   "text": "and",
+   "start": 208.86,
+   "end": 209.02
+  },
+  {
+   "text": "the",
+   "start": 209.02,
+   "end": 209.2
+  },
+  {
+   "text": "old",
+   "start": 209.2,
+   "end": 209.38
+  },
+  {
+   "text": "capital.",
+   "start": 209.38,
+   "end": 210.06
+  },
+  {
+   "text": "Tutankhamun",
+   "start": 210.06,
+   "end": 210.75
+  },
+  {
+   "text": "died",
+   "start": 210.75,
+   "end": 211
+  },
+  {
+   "text": "at",
+   "start": 211,
+   "end": 211.12
+  },
+  {
+   "text": "about",
+   "start": 211.12,
+   "end": 211.43
+  },
+  {
+   "text": "18",
+   "start": 211.43,
+   "end": 211.98
+  },
+  {
+   "text": "and",
+   "start": 211.98,
+   "end": 212.01
+  },
+  {
+   "text": "was",
+   "start": 212.01,
+   "end": 212.27
+  },
+  {
+   "text": "buried",
+   "start": 212.27,
+   "end": 212.64
+  },
+  {
+   "text": "in",
+   "start": 212.64,
+   "end": 212.77
+  },
+  {
+   "text": "a",
+   "start": 212.77,
+   "end": 212.83
+  },
+  {
+   "text": "small",
+   "start": 212.83,
+   "end": 213.16
+  },
+  {
+   "text": "tomb",
+   "start": 213.16,
+   "end": 213.46
+  },
+  {
+   "text": "that",
+   "start": 213.46,
+   "end": 213.69
+  },
+  {
+   "text": "robbers",
+   "start": 213.69,
+   "end": 214.1
+  },
+  {
+   "text": "mostly",
+   "start": 214.1,
+   "end": 214.45
+  },
+  {
+   "text": "missed.",
+   "start": 214.45,
+   "end": 215
+  },
+  {
+   "text": "When",
+   "start": 215,
+   "end": 215.25
+  },
+  {
+   "text": "Howard",
+   "start": 215.25,
+   "end": 215.62
+  },
+  {
+   "text": "Carter",
+   "start": 215.62,
+   "end": 215.99
+  },
+  {
+   "text": "opened",
+   "start": 215.99,
+   "end": 216.39
+  },
+  {
+   "text": "it",
+   "start": 216.39,
+   "end": 216.48
+  },
+  {
+   "text": "in",
+   "start": 216.48,
+   "end": 216.6
+  },
+  {
+   "text": "1922,",
+   "start": 216.6,
+   "end": 217.4
+  },
+  {
+   "text": "he",
+   "start": 217.4,
+   "end": 217.53
+  },
+  {
+   "text": "found",
+   "start": 217.53,
+   "end": 217.86
+  },
+  {
+   "text": "more",
+   "start": 217.86,
+   "end": 218.12
+  },
+  {
+   "text": "than",
+   "start": 218.12,
+   "end": 218.42
+  },
+  {
+   "text": "5,000",
+   "start": 218.42,
+   "end": 219.31
+  },
+  {
+   "text": "objects",
+   "start": 219.31,
+   "end": 220.17
+  },
+  {
+   "text": "inside.",
+   "start": 220.17,
+   "end": 220.42
+  },
+  {
+   "text": "The",
+   "start": 220.42,
+   "end": 220.58
+  },
+  {
+   "text": "most",
+   "start": 220.58,
+   "end": 220.79
+  },
+  {
+   "text": "powerful",
+   "start": 220.79,
+   "end": 221.22
+  },
+  {
+   "text": "pharaoh",
+   "start": 221.22,
+   "end": 221.6
+  },
+  {
+   "text": "of",
+   "start": 221.6,
+   "end": 221.68
+  },
+  {
+   "text": "the",
+   "start": 221.68,
+   "end": 221.84
+  },
+  {
+   "text": "New",
+   "start": 221.84,
+   "end": 222
+  },
+  {
+   "text": "Kingdom",
+   "start": 222,
+   "end": 222.42
+  },
+  {
+   "text": "was",
+   "start": 222.42,
+   "end": 222.7
+  },
+  {
+   "text": "Rameses",
+   "start": 222.7,
+   "end": 223.34
+  },
+  {
+   "text": "II,",
+   "start": 223.34,
+   "end": 223.92
+  },
+  {
+   "text": "who",
+   "start": 223.92,
+   "end": 223.98
+  },
+  {
+   "text": "ruled",
+   "start": 223.98,
+   "end": 224.45
+  },
+  {
+   "text": "for",
+   "start": 224.45,
+   "end": 224.73
+  },
+  {
+   "text": "66",
+   "start": 224.73,
+   "end": 225.29
+  },
+  {
+   "text": "years.",
+   "start": 225.29,
+   "end": 225.82
+  },
+  {
+   "text": "In",
+   "start": 225.82,
+   "end": 225.96
+  },
+  {
+   "text": "1274",
+   "start": 225.96,
+   "end": 226.8
+  },
+  {
+   "text": "BC,",
+   "start": 226.8,
+   "end": 227.09
+  },
+  {
+   "text": "he",
+   "start": 227.09,
+   "end": 227.22
+  },
+  {
+   "text": "fought",
+   "start": 227.22,
+   "end": 227.64
+  },
+  {
+   "text": "the",
+   "start": 227.64,
+   "end": 227.91
+  },
+  {
+   "text": "Hittites",
+   "start": 227.91,
+   "end": 228.51
+  },
+  {
+   "text": "at",
+   "start": 228.51,
+   "end": 228.59
+  },
+  {
+   "text": "Kadesh",
+   "start": 228.59,
+   "end": 229
+  },
+  {
+   "text": "in",
+   "start": 229,
+   "end": 229.26
+  },
+  {
+   "text": "Syria",
+   "start": 229.26,
+   "end": 229.92
+  },
+  {
+   "text": "in",
+   "start": 229.92,
+   "end": 230.01
+  },
+  {
+   "text": "what",
+   "start": 230.01,
+   "end": 230.19
+  },
+  {
+   "text": "may",
+   "start": 230.19,
+   "end": 230.33
+  },
+  {
+   "text": "have",
+   "start": 230.33,
+   "end": 230.51
+  },
+  {
+   "text": "been",
+   "start": 230.51,
+   "end": 230.69
+  },
+  {
+   "text": "the",
+   "start": 230.69,
+   "end": 230.83
+  },
+  {
+   "text": "largest",
+   "start": 230.83,
+   "end": 231.16
+  },
+  {
+   "text": "chariot",
+   "start": 231.16,
+   "end": 231.53
+  },
+  {
+   "text": "battle",
+   "start": 231.53,
+   "end": 231.82
+  },
+  {
+   "text": "in",
+   "start": 231.82,
+   "end": 231.95
+  },
+  {
+   "text": "history.",
+   "start": 231.95,
+   "end": 232.64
+  },
+  {
+   "text": "With",
+   "start": 232.64,
+   "end": 232.87
+  },
+  {
+   "text": "5,000",
+   "start": 232.87,
+   "end": 233.67
+  },
+  {
+   "text": "to",
+   "start": 233.67,
+   "end": 233.78
+  },
+  {
+   "text": "6,000",
+   "start": 233.78,
+   "end": 234.58
+  },
+  {
+   "text": "chariots,",
+   "start": 234.58,
+   "end": 235.15
+  },
+  {
+   "text": "neither",
+   "start": 235.15,
+   "end": 235.56
+  },
+  {
+   "text": "side",
+   "start": 235.56,
+   "end": 236.14
+  },
+  {
+   "text": "really",
+   "start": 236.14,
+   "end": 236.14
+  },
+  {
+   "text": "won.",
+   "start": 236.14,
+   "end": 236.58
+  },
+  {
+   "text": "16",
+   "start": 236.58,
+   "end": 236.95
+  },
+  {
+   "text": "years",
+   "start": 236.95,
+   "end": 237.26
+  },
+  {
+   "text": "later,",
+   "start": 237.26,
+   "end": 237.75
+  },
+  {
+   "text": "Rameses",
+   "start": 237.75,
+   "end": 238.12
+  },
+  {
+   "text": "and",
+   "start": 238.12,
+   "end": 238.3
+  },
+  {
+   "text": "the",
+   "start": 238.3,
+   "end": 238.48
+  },
+  {
+   "text": "new",
+   "start": 238.48,
+   "end": 238.66
+  },
+  {
+   "text": "Hittite",
+   "start": 238.66,
+   "end": 239.17
+  },
+  {
+   "text": "king,",
+   "start": 239.17,
+   "end": 239.68
+  },
+  {
+   "text": "Hadassili",
+   "start": 239.68,
+   "end": 240.41
+  },
+  {
+   "text": "III,",
+   "start": 240.41,
+   "end": 240.66
+  },
+  {
+   "text": "signed",
+   "start": 240.66,
+   "end": 241.08
+  },
+  {
+   "text": "a",
+   "start": 241.08,
+   "end": 241.15
+  },
+  {
+   "text": "peace",
+   "start": 241.15,
+   "end": 241.49
+  },
+  {
+   "text": "treaty.",
+   "start": 241.49,
+   "end": 242.14
+  },
+  {
+   "text": "The",
+   "start": 242.14,
+   "end": 242.31
+  },
+  {
+   "text": "original",
+   "start": 242.31,
+   "end": 242.77
+  },
+  {
+   "text": "was",
+   "start": 242.77,
+   "end": 242.94
+  },
+  {
+   "text": "engraved",
+   "start": 242.94,
+   "end": 243.39
+  },
+  {
+   "text": "on",
+   "start": 243.39,
+   "end": 243.51
+  },
+  {
+   "text": "silver.",
+   "start": 243.51,
+   "end": 244.04
+  },
+  {
+   "text": "It",
+   "start": 244.04,
+   "end": 244.13
+  },
+  {
+   "text": "is",
+   "start": 244.13,
+   "end": 244.22
+  },
+  {
+   "text": "the",
+   "start": 244.22,
+   "end": 244.36
+  },
+  {
+   "text": "oldest",
+   "start": 244.36,
+   "end": 244.73
+  },
+  {
+   "text": "international",
+   "start": 244.73,
+   "end": 245.35
+  },
+  {
+   "text": "peace",
+   "start": 245.35,
+   "end": 245.59
+  },
+  {
+   "text": "treaty",
+   "start": 245.59,
+   "end": 245.9
+  },
+  {
+   "text": "known",
+   "start": 245.9,
+   "end": 246.21
+  },
+  {
+   "text": "to",
+   "start": 246.21,
+   "end": 246.33
+  },
+  {
+   "text": "historians,",
+   "start": 246.33,
+   "end": 247.18
+  },
+  {
+   "text": "and",
+   "start": 247.18,
+   "end": 247.25
+  },
+  {
+   "text": "a",
+   "start": 247.25,
+   "end": 247.31
+  },
+  {
+   "text": "replica",
+   "start": 247.31,
+   "end": 247.78
+  },
+  {
+   "text": "hangs",
+   "start": 247.78,
+   "end": 248.08
+  },
+  {
+   "text": "today",
+   "start": 248.08,
+   "end": 248.4
+  },
+  {
+   "text": "at",
+   "start": 248.4,
+   "end": 248.57
+  },
+  {
+   "text": "the",
+   "start": 248.57,
+   "end": 248.83
+  },
+  {
+   "text": "United",
+   "start": 248.83,
+   "end": 249.36
+  },
+  {
+   "text": "Nations.",
+   "start": 249.36,
+   "end": 250.28
+  },
+  {
+   "text": "Around",
+   "start": 250.28,
+   "end": 250.69
+  },
+  {
+   "text": "1177",
+   "start": 250.69,
+   "end": 251.51
+  },
+  {
+   "text": "BC,",
+   "start": 251.51,
+   "end": 251.81
+  },
+  {
+   "text": "the",
+   "start": 251.81,
+   "end": 251.97
+  },
+  {
+   "text": "eastern",
+   "start": 251.97,
+   "end": 252.44
+  },
+  {
+   "text": "Mediterranean",
+   "start": 252.44,
+   "end": 253.36
+  },
+  {
+   "text": "fell",
+   "start": 253.43,
+   "end": 253.66
+  },
+  {
+   "text": "apart",
+   "start": 253.66,
+   "end": 254.1
+  },
+  {
+   "text": "as",
+   "start": 254.1,
+   "end": 254.17
+  },
+  {
+   "text": "cities",
+   "start": 254.17,
+   "end": 254.51
+  },
+  {
+   "text": "burned",
+   "start": 254.51,
+   "end": 254.92
+  },
+  {
+   "text": "and",
+   "start": 254.92,
+   "end": 255.12
+  },
+  {
+   "text": "trade",
+   "start": 255.12,
+   "end": 255.46
+  },
+  {
+   "text": "broke",
+   "start": 255.46,
+   "end": 255.8
+  },
+  {
+   "text": "down.",
+   "start": 255.8,
+   "end": 256.3
+  },
+  {
+   "text": "Raiders",
+   "start": 256.3,
+   "end": 256.71
+  },
+  {
+   "text": "known",
+   "start": 256.71,
+   "end": 257.06
+  },
+  {
+   "text": "as",
+   "start": 257.06,
+   "end": 257.12
+  },
+  {
+   "text": "the",
+   "start": 257.12,
+   "end": 257.31
+  },
+  {
+   "text": "Sea",
+   "start": 257.31,
+   "end": 257.49
+  },
+  {
+   "text": "Peoples",
+   "start": 257.49,
+   "end": 257.9
+  },
+  {
+   "text": "attacked",
+   "start": 257.9,
+   "end": 258.37
+  },
+  {
+   "text": "Egypt.",
+   "start": 258.37,
+   "end": 258.88
+  },
+  {
+   "text": "Rameses",
+   "start": 258.88,
+   "end": 259.41
+  },
+  {
+   "text": "III",
+   "start": 259.41,
+   "end": 259.64
+  },
+  {
+   "text": "beat",
+   "start": 259.64,
+   "end": 260.02
+  },
+  {
+   "text": "them",
+   "start": 260.02,
+   "end": 260.26
+  },
+  {
+   "text": "on",
+   "start": 260.26,
+   "end": 260.41
+  },
+  {
+   "text": "land",
+   "start": 260.41,
+   "end": 260.72
+  },
+  {
+   "text": "and",
+   "start": 260.72,
+   "end": 260.96
+  },
+  {
+   "text": "at",
+   "start": 260.96,
+   "end": 261.1
+  },
+  {
+   "text": "sea,",
+   "start": 261.1,
+   "end": 261.42
+  },
+  {
+   "text": "but",
+   "start": 261.42,
+   "end": 261.57
+  },
+  {
+   "text": "Egypt",
+   "start": 261.57,
+   "end": 261.86
+  },
+  {
+   "text": "never",
+   "start": 261.86,
+   "end": 262.09
+  },
+  {
+   "text": "recovered",
+   "start": 262.09,
+   "end": 262.56
+  },
+  {
+   "text": "its",
+   "start": 262.56,
+   "end": 262.71
+  },
+  {
+   "text": "strength.",
+   "start": 262.71,
+   "end": 263.32
+  },
+  {
+   "text": "By",
+   "start": 263.32,
+   "end": 263.53
+  },
+  {
+   "text": "1069",
+   "start": 263.53,
+   "end": 264.53
+  },
+  {
+   "text": "BC,",
+   "start": 264.53,
+   "end": 265.01
+  },
+  {
+   "text": "the",
+   "start": 265.01,
+   "end": 265.13
+  },
+  {
+   "text": "New",
+   "start": 265.13,
+   "end": 265.39
+  },
+  {
+   "text": "Kingdom",
+   "start": 265.39,
+   "end": 265.99
+  },
+  {
+   "text": "was",
+   "start": 265.99,
+   "end": 266.6
+  },
+  {
+   "text": "over.",
+   "start": 266.6,
+   "end": 266.9
+  },
+  {
+   "text": "Over",
+   "start": 266.9,
+   "end": 267.15
+  },
+  {
+   "text": "the",
+   "start": 267.15,
+   "end": 267.35
+  },
+  {
+   "text": "next",
+   "start": 267.35,
+   "end": 267.58
+  },
+  {
+   "text": "seven",
+   "start": 267.58,
+   "end": 267.89
+  },
+  {
+   "text": "centuries,",
+   "start": 267.89,
+   "end": 268.57
+  },
+  {
+   "text": "Egypt",
+   "start": 268.57,
+   "end": 268.9
+  },
+  {
+   "text": "was",
+   "start": 268.9,
+   "end": 269.13
+  },
+  {
+   "text": "ruled",
+   "start": 269.13,
+   "end": 269.51
+  },
+  {
+   "text": "more",
+   "start": 269.51,
+   "end": 269.81
+  },
+  {
+   "text": "and",
+   "start": 269.81,
+   "end": 270.04
+  },
+  {
+   "text": "more",
+   "start": 270.04,
+   "end": 270.34
+  },
+  {
+   "text": "often",
+   "start": 270.34,
+   "end": 270.72
+  },
+  {
+   "text": "by",
+   "start": 270.72,
+   "end": 270.87
+  },
+  {
+   "text": "outsiders.",
+   "start": 270.87,
+   "end": 271.84
+  },
+  {
+   "text": "Libyan",
+   "start": 271.84,
+   "end": 272.19
+  },
+  {
+   "text": "dynasties",
+   "start": 272.19,
+   "end": 272.69
+  },
+  {
+   "text": "ruled",
+   "start": 272.69,
+   "end": 272.97
+  },
+  {
+   "text": "from",
+   "start": 272.97,
+   "end": 273.2
+  },
+  {
+   "text": "the",
+   "start": 273.2,
+   "end": 273.37
+  },
+  {
+   "text": "delta.",
+   "start": 273.37,
+   "end": 273.86
+  },
+  {
+   "text": "Then",
+   "start": 273.86,
+   "end": 274.19
+  },
+  {
+   "text": "the",
+   "start": 274.19,
+   "end": 274.27
+  },
+  {
+   "text": "kings",
+   "start": 274.27,
+   "end": 274.56
+  },
+  {
+   "text": "of",
+   "start": 274.56,
+   "end": 274.68
+  },
+  {
+   "text": "Kush",
+   "start": 274.68,
+   "end": 275.11
+  },
+  {
+   "text": "from",
+   "start": 275.11,
+   "end": 275.14
+  },
+  {
+   "text": "what",
+   "start": 275.14,
+   "end": 275.37
+  },
+  {
+   "text": "is",
+   "start": 275.37,
+   "end": 275.49
+  },
+  {
+   "text": "now",
+   "start": 275.49,
+   "end": 275.78
+  },
+  {
+   "text": "Sudan",
+   "start": 275.78,
+   "end": 276.22
+  },
+  {
+   "text": "marched",
+   "start": 276.22,
+   "end": 276.68
+  },
+  {
+   "text": "north.",
+   "start": 276.68,
+   "end": 277.22
+  },
+  {
+   "text": "Their",
+   "start": 277.22,
+   "end": 277.58
+  },
+  {
+   "text": "king",
+   "start": 277.58,
+   "end": 277.86
+  },
+  {
+   "text": "PA",
+   "start": 277.86,
+   "end": 278
+  },
+  {
+   "text": "conquered",
+   "start": 278,
+   "end": 278.64
+  },
+  {
+   "text": "Egypt",
+   "start": 278.64,
+   "end": 279
+  },
+  {
+   "text": "around",
+   "start": 279,
+   "end": 279.43
+  },
+  {
+   "text": "747",
+   "start": 279.43,
+   "end": 280.1
+  },
+  {
+   "text": "BC.",
+   "start": 280.1,
+   "end": 280.88
+  },
+  {
+   "text": "And",
+   "start": 280.88,
+   "end": 281.02
+  },
+  {
+   "text": "for",
+   "start": 281.02,
+   "end": 281.16
+  },
+  {
+   "text": "nearly",
+   "start": 281.16,
+   "end": 281.44
+  },
+  {
+   "text": "a",
+   "start": 281.44,
+   "end": 281.49
+  },
+  {
+   "text": "century,",
+   "start": 281.49,
+   "end": 281.92
+  },
+  {
+   "text": "these",
+   "start": 281.92,
+   "end": 282.16
+  },
+  {
+   "text": "Kushite",
+   "start": 282.16,
+   "end": 282.62
+  },
+  {
+   "text": "pharaohs",
+   "start": 282.62,
+   "end": 283.34
+  },
+  {
+   "text": "often",
+   "start": 283.34,
+   "end": 283.69
+  },
+  {
+   "text": "called",
+   "start": 283.69,
+   "end": 284.11
+  },
+  {
+   "text": "the",
+   "start": 284.11,
+   "end": 284.32
+  },
+  {
+   "text": "Black",
+   "start": 284.32,
+   "end": 284.67
+  },
+  {
+   "text": "Pharaohs",
+   "start": 284.67,
+   "end": 285.23
+  },
+  {
+   "text": "ruled",
+   "start": 285.23,
+   "end": 285.58
+  },
+  {
+   "text": "the",
+   "start": 285.58,
+   "end": 285.79
+  },
+  {
+   "text": "whole",
+   "start": 285.79,
+   "end": 286.14
+  },
+  {
+   "text": "Nile",
+   "start": 286.14,
+   "end": 286.84
+  },
+  {
+   "text": "Valley.",
+   "start": 286.84,
+   "end": 287.06
+  },
+  {
+   "text": "They",
+   "start": 287.06,
+   "end": 287.31
+  },
+  {
+   "text": "were",
+   "start": 287.31,
+   "end": 287.48
+  },
+  {
+   "text": "pushed",
+   "start": 287.48,
+   "end": 287.79
+  },
+  {
+   "text": "out",
+   "start": 287.79,
+   "end": 287.94
+  },
+  {
+   "text": "by",
+   "start": 287.94,
+   "end": 288.04
+  },
+  {
+   "text": "the",
+   "start": 288.04,
+   "end": 288.19
+  },
+  {
+   "text": "Assyrians,",
+   "start": 288.19,
+   "end": 288.8
+  },
+  {
+   "text": "the",
+   "start": 288.8,
+   "end": 288.96
+  },
+  {
+   "text": "most",
+   "start": 288.96,
+   "end": 289.23
+  },
+  {
+   "text": "feared",
+   "start": 289.23,
+   "end": 289.5
+  },
+  {
+   "text": "army",
+   "start": 289.5,
+   "end": 289.76
+  },
+  {
+   "text": "of",
+   "start": 289.76,
+   "end": 289.93
+  },
+  {
+   "text": "the",
+   "start": 289.93,
+   "end": 290.18
+  },
+  {
+   "text": "age.",
+   "start": 290.18,
+   "end": 290.7
+  },
+  {
+   "text": "In",
+   "start": 290.7,
+   "end": 290.87
+  },
+  {
+   "text": "671",
+   "start": 290.87,
+   "end": 291.62
+  },
+  {
+   "text": "BC,",
+   "start": 291.62,
+   "end": 291.95
+  },
+  {
+   "text": "the",
+   "start": 291.95,
+   "end": 292.2
+  },
+  {
+   "text": "Assyrians",
+   "start": 292.2,
+   "end": 292.95
+  },
+  {
+   "text": "took",
+   "start": 292.95,
+   "end": 293.28
+  },
+  {
+   "text": "Memphis.",
+   "start": 293.28,
+   "end": 293.92
+  },
+  {
+   "text": "And",
+   "start": 293.92,
+   "end": 294.19
+  },
+  {
+   "text": "in",
+   "start": 294.19,
+   "end": 294.37
+  },
+  {
+   "text": "663",
+   "start": 294.37,
+   "end": 295.19
+  },
+  {
+   "text": "BC,",
+   "start": 295.19,
+   "end": 295.56
+  },
+  {
+   "text": "they",
+   "start": 295.56,
+   "end": 295.91
+  },
+  {
+   "text": "sacked",
+   "start": 295.91,
+   "end": 296.46
+  },
+  {
+   "text": "Thebes.",
+   "start": 296.46,
+   "end": 297.32
+  },
+  {
+   "text": "Egypt",
+   "start": 297.32,
+   "end": 297.69
+  },
+  {
+   "text": "won",
+   "start": 297.69,
+   "end": 297.91
+  },
+  {
+   "text": "back",
+   "start": 297.91,
+   "end": 298.29
+  },
+  {
+   "text": "its",
+   "start": 298.29,
+   "end": 298.42
+  },
+  {
+   "text": "freedom",
+   "start": 298.42,
+   "end": 298.93
+  },
+  {
+   "text": "for",
+   "start": 298.93,
+   "end": 299.15
+  },
+  {
+   "text": "a",
+   "start": 299.15,
+   "end": 299.22
+  },
+  {
+   "text": "while",
+   "start": 299.22,
+   "end": 299.59
+  },
+  {
+   "text": "under",
+   "start": 299.59,
+   "end": 300.07
+  },
+  {
+   "text": "Samtik",
+   "start": 300.07,
+   "end": 300.39
+  },
+  {
+   "text": "I.",
+   "start": 300.39,
+   "end": 300.74
+  },
+  {
+   "text": "But",
+   "start": 300.74,
+   "end": 301.02
+  },
+  {
+   "text": "in",
+   "start": 301.02,
+   "end": 301.16
+  },
+  {
+   "text": "525",
+   "start": 301.16,
+   "end": 301.92
+  },
+  {
+   "text": "BC,",
+   "start": 301.92,
+   "end": 302.25
+  },
+  {
+   "text": "the",
+   "start": 302.25,
+   "end": 302.56
+  },
+  {
+   "text": "Persian",
+   "start": 302.56,
+   "end": 303.09
+  },
+  {
+   "text": "King",
+   "start": 303.09,
+   "end": 303.42
+  },
+  {
+   "text": "Cambyses",
+   "start": 303.42,
+   "end": 304.07
+  },
+  {
+   "text": "II",
+   "start": 304.07,
+   "end": 304.3
+  },
+  {
+   "text": "invaded,",
+   "start": 304.3,
+   "end": 304.98
+  },
+  {
+   "text": "and",
+   "start": 304.98,
+   "end": 305.25
+  },
+  {
+   "text": "Egypt",
+   "start": 305.25,
+   "end": 305.77
+  },
+  {
+   "text": "became",
+   "start": 305.77,
+   "end": 306.22
+  },
+  {
+   "text": "a",
+   "start": 306.22,
+   "end": 306.37
+  },
+  {
+   "text": "province",
+   "start": 306.37,
+   "end": 307.01
+  },
+  {
+   "text": "of",
+   "start": 307.01,
+   "end": 307.47
+  },
+  {
+   "text": "the",
+   "start": 307.47,
+   "end": 307.47
+  },
+  {
+   "text": "Persian",
+   "start": 307.47,
+   "end": 308.09
+  },
+  {
+   "text": "Empire.",
+   "start": 308.09,
+   "end": 308.94
+  },
+  {
+   "text": "In",
+   "start": 308.94,
+   "end": 309.15
+  },
+  {
+   "text": "332",
+   "start": 309.15,
+   "end": 309.87
+  },
+  {
+   "text": "BC,",
+   "start": 309.87,
+   "end": 310.2
+  },
+  {
+   "text": "Alexander",
+   "start": 310.2,
+   "end": 310.96
+  },
+  {
+   "text": "the",
+   "start": 310.96,
+   "end": 311.21
+  },
+  {
+   "text": "Great",
+   "start": 311.21,
+   "end": 311.63
+  },
+  {
+   "text": "arrived,",
+   "start": 311.63,
+   "end": 312.26
+  },
+  {
+   "text": "and",
+   "start": 312.26,
+   "end": 312.4
+  },
+  {
+   "text": "the",
+   "start": 312.4,
+   "end": 312.54
+  },
+  {
+   "text": "Egyptians",
+   "start": 312.54,
+   "end": 312.98
+  },
+  {
+   "text": "welcomed",
+   "start": 312.98,
+   "end": 313.37
+  },
+  {
+   "text": "him",
+   "start": 313.37,
+   "end": 313.51
+  },
+  {
+   "text": "as",
+   "start": 313.51,
+   "end": 313.6
+  },
+  {
+   "text": "a",
+   "start": 313.6,
+   "end": 313.64
+  },
+  {
+   "text": "liberator",
+   "start": 313.64,
+   "end": 314.14
+  },
+  {
+   "text": "from",
+   "start": 314.14,
+   "end": 314.38
+  },
+  {
+   "text": "Persian",
+   "start": 314.38,
+   "end": 314.81
+  },
+  {
+   "text": "rule.",
+   "start": 314.81,
+   "end": 315.26
+  },
+  {
+   "text": "On",
+   "start": 315.26,
+   "end": 315.38
+  },
+  {
+   "text": "the",
+   "start": 315.38,
+   "end": 315.56
+  },
+  {
+   "text": "coast,",
+   "start": 315.56,
+   "end": 315.99
+  },
+  {
+   "text": "he",
+   "start": 315.99,
+   "end": 316.11
+  },
+  {
+   "text": "founded",
+   "start": 316.11,
+   "end": 316.54
+  },
+  {
+   "text": "a",
+   "start": 316.54,
+   "end": 316.6
+  },
+  {
+   "text": "new",
+   "start": 316.6,
+   "end": 316.78
+  },
+  {
+   "text": "city",
+   "start": 316.78,
+   "end": 317.06
+  },
+  {
+   "text": "and",
+   "start": 317.06,
+   "end": 317.29
+  },
+  {
+   "text": "named",
+   "start": 317.29,
+   "end": 317.67
+  },
+  {
+   "text": "it",
+   "start": 317.67,
+   "end": 317.82
+  },
+  {
+   "text": "after",
+   "start": 317.82,
+   "end": 318.36
+  },
+  {
+   "text": "himself,",
+   "start": 318.36,
+   "end": 318.87
+  },
+  {
+   "text": "Alexandria.",
+   "start": 318.87,
+   "end": 319.9
+  },
+  {
+   "text": "When",
+   "start": 319.9,
+   "end": 320.17
+  },
+  {
+   "text": "Alexander",
+   "start": 320.17,
+   "end": 320.78
+  },
+  {
+   "text": "died,",
+   "start": 320.78,
+   "end": 321.28
+  },
+  {
+   "text": "one",
+   "start": 321.28,
+   "end": 321.38
+  },
+  {
+   "text": "of",
+   "start": 321.38,
+   "end": 321.51
+  },
+  {
+   "text": "his",
+   "start": 321.51,
+   "end": 321.7
+  },
+  {
+   "text": "generals,",
+   "start": 321.7,
+   "end": 322.41
+  },
+  {
+   "text": "Ptolemy,",
+   "start": 322.41,
+   "end": 323.01
+  },
+  {
+   "text": "took",
+   "start": 323.01,
+   "end": 323.25
+  },
+  {
+   "text": "Egypt.",
+   "start": 323.25,
+   "end": 323.74
+  },
+  {
+   "text": "In",
+   "start": 323.74,
+   "end": 323.95
+  },
+  {
+   "text": "305",
+   "start": 323.95,
+   "end": 324.56
+  },
+  {
+   "text": "BC,",
+   "start": 324.56,
+   "end": 324.86
+  },
+  {
+   "text": "he",
+   "start": 324.86,
+   "end": 325.01
+  },
+  {
+   "text": "declared",
+   "start": 325.01,
+   "end": 325.6
+  },
+  {
+   "text": "himself",
+   "start": 325.6,
+   "end": 326.13
+  },
+  {
+   "text": "king",
+   "start": 326.13,
+   "end": 326.46
+  },
+  {
+   "text": "and",
+   "start": 326.46,
+   "end": 326.69
+  },
+  {
+   "text": "started",
+   "start": 326.69,
+   "end": 327.13
+  },
+  {
+   "text": "the",
+   "start": 327.13,
+   "end": 327.39
+  },
+  {
+   "text": "last",
+   "start": 327.39,
+   "end": 327.59
+  },
+  {
+   "text": "dynasty",
+   "start": 327.59,
+   "end": 328.06
+  },
+  {
+   "text": "of",
+   "start": 328.06,
+   "end": 328.18
+  },
+  {
+   "text": "ancient",
+   "start": 328.18,
+   "end": 328.69
+  },
+  {
+   "text": "Egypt,",
+   "start": 328.69,
+   "end": 329.07
+  },
+  {
+   "text": "which",
+   "start": 329.07,
+   "end": 329.22
+  },
+  {
+   "text": "would",
+   "start": 329.22,
+   "end": 329.34
+  },
+  {
+   "text": "rule",
+   "start": 329.34,
+   "end": 329.65
+  },
+  {
+   "text": "for",
+   "start": 329.65,
+   "end": 329.85
+  },
+  {
+   "text": "nearly",
+   "start": 329.85,
+   "end": 330.29
+  },
+  {
+   "text": "300",
+   "start": 330.29,
+   "end": 330.94
+  },
+  {
+   "text": "years.",
+   "start": 330.94,
+   "end": 331.54
+  },
+  {
+   "text": "The",
+   "start": 331.54,
+   "end": 331.72
+  },
+  {
+   "text": "Ptolemies",
+   "start": 331.72,
+   "end": 332.26
+  },
+  {
+   "text": "were",
+   "start": 332.26,
+   "end": 332.53
+  },
+  {
+   "text": "Greek-speaking",
+   "start": 332.53,
+   "end": 333.34
+  },
+  {
+   "text": "Macedonians,",
+   "start": 333.34,
+   "end": 334.02
+  },
+  {
+   "text": "and",
+   "start": 334.02,
+   "end": 334.19
+  },
+  {
+   "text": "their",
+   "start": 334.19,
+   "end": 334.47
+  },
+  {
+   "text": "capital",
+   "start": 334.47,
+   "end": 334.86
+  },
+  {
+   "text": "Alexandria",
+   "start": 334.86,
+   "end": 335.47
+  },
+  {
+   "text": "became",
+   "start": 335.47,
+   "end": 335.78
+  },
+  {
+   "text": "one",
+   "start": 335.78,
+   "end": 335.94
+  },
+  {
+   "text": "of",
+   "start": 335.94,
+   "end": 336.04
+  },
+  {
+   "text": "the",
+   "start": 336.04,
+   "end": 336.19
+  },
+  {
+   "text": "largest",
+   "start": 336.19,
+   "end": 336.54
+  },
+  {
+   "text": "cities",
+   "start": 336.54,
+   "end": 337.01
+  },
+  {
+   "text": "of",
+   "start": 337.01,
+   "end": 337.16
+  },
+  {
+   "text": "the",
+   "start": 337.16,
+   "end": 337.39
+  },
+  {
+   "text": "ancient",
+   "start": 337.39,
+   "end": 338.32
+  },
+  {
+   "text": "world.",
+   "start": 338.32,
+   "end": 338.58
+  },
+  {
+   "text": "They",
+   "start": 338.58,
+   "end": 338.8
+  },
+  {
+   "text": "built",
+   "start": 338.8,
+   "end": 339.08
+  },
+  {
+   "text": "the",
+   "start": 339.08,
+   "end": 339.25
+  },
+  {
+   "text": "great",
+   "start": 339.25,
+   "end": 339.53
+  },
+  {
+   "text": "library",
+   "start": 339.53,
+   "end": 339.93
+  },
+  {
+   "text": "of",
+   "start": 339.93,
+   "end": 340.04
+  },
+  {
+   "text": "Alexandria",
+   "start": 340.04,
+   "end": 340.64
+  },
+  {
+   "text": "and",
+   "start": 340.64,
+   "end": 340.78
+  },
+  {
+   "text": "a",
+   "start": 340.78,
+   "end": 340.82
+  },
+  {
+   "text": "lighthouse",
+   "start": 340.82,
+   "end": 341.3
+  },
+  {
+   "text": "on",
+   "start": 341.3,
+   "end": 341.45
+  },
+  {
+   "text": "the",
+   "start": 341.45,
+   "end": 341.65
+  },
+  {
+   "text": "island",
+   "start": 341.65,
+   "end": 342.07
+  },
+  {
+   "text": "of",
+   "start": 342.07,
+   "end": 342.21
+  },
+  {
+   "text": "Pharos,",
+   "start": 342.21,
+   "end": 342.77
+  },
+  {
+   "text": "around",
+   "start": 342.77,
+   "end": 343.19
+  },
+  {
+   "text": "140",
+   "start": 343.19,
+   "end": 343.86
+  },
+  {
+   "text": "meters",
+   "start": 343.86,
+   "end": 344.18
+  },
+  {
+   "text": "tall,",
+   "start": 344.18,
+   "end": 344.84
+  },
+  {
+   "text": "counted",
+   "start": 344.84,
+   "end": 345.23
+  },
+  {
+   "text": "among",
+   "start": 345.23,
+   "end": 345.51
+  },
+  {
+   "text": "the",
+   "start": 345.51,
+   "end": 345.67
+  },
+  {
+   "text": "seven",
+   "start": 345.67,
+   "end": 345.95
+  },
+  {
+   "text": "wonders",
+   "start": 345.95,
+   "end": 346.34
+  },
+  {
+   "text": "of",
+   "start": 346.34,
+   "end": 346.45
+  },
+  {
+   "text": "the",
+   "start": 346.45,
+   "end": 346.61
+  },
+  {
+   "text": "world.",
+   "start": 346.61,
+   "end": 347.08
+  },
+  {
+   "text": "In",
+   "start": 347.08,
+   "end": 347.23
+  },
+  {
+   "text": "196",
+   "start": 347.23,
+   "end": 347.97
+  },
+  {
+   "text": "BC,",
+   "start": 347.97,
+   "end": 348.23
+  },
+  {
+   "text": "priests",
+   "start": 348.23,
+   "end": 348.79
+  },
+  {
+   "text": "issued",
+   "start": 348.79,
+   "end": 349.26
+  },
+  {
+   "text": "a",
+   "start": 349.26,
+   "end": 349.33
+  },
+  {
+   "text": "decree",
+   "start": 349.33,
+   "end": 349.89
+  },
+  {
+   "text": "for",
+   "start": 349.89,
+   "end": 350.01
+  },
+  {
+   "text": "Ptolemy",
+   "start": 350.01,
+   "end": 350.38
+  },
+  {
+   "text": "V",
+   "start": 350.38,
+   "end": 350.86
+  },
+  {
+   "text": "in",
+   "start": 350.86,
+   "end": 351.03
+  },
+  {
+   "text": "three",
+   "start": 351.03,
+   "end": 351.32
+  },
+  {
+   "text": "scripts--",
+   "start": 351.32,
+   "end": 351.94
+  },
+  {
+   "text": "hieroglyphs,",
+   "start": 351.94,
+   "end": 352.87
+  },
+  {
+   "text": "demotic,",
+   "start": 352.87,
+   "end": 353.51
+  },
+  {
+   "text": "and",
+   "start": 353.51,
+   "end": 353.72
+  },
+  {
+   "text": "Greek.",
+   "start": 353.72,
+   "end": 354.34
+  },
+  {
+   "text": "One",
+   "start": 354.34,
+   "end": 354.6
+  },
+  {
+   "text": "copy,",
+   "start": 354.6,
+   "end": 355.25
+  },
+  {
+   "text": "carved",
+   "start": 355.25,
+   "end": 355.63
+  },
+  {
+   "text": "on",
+   "start": 355.63,
+   "end": 355.82
+  },
+  {
+   "text": "a",
+   "start": 355.82,
+   "end": 355.88
+  },
+  {
+   "text": "slab",
+   "start": 355.88,
+   "end": 356.25
+  },
+  {
+   "text": "of",
+   "start": 356.25,
+   "end": 356.39
+  },
+  {
+   "text": "stone,",
+   "start": 356.39,
+   "end": 356.86
+  },
+  {
+   "text": "would",
+   "start": 356.86,
+   "end": 357.18
+  },
+  {
+   "text": "later",
+   "start": 357.18,
+   "end": 357.5
+  },
+  {
+   "text": "become",
+   "start": 357.5,
+   "end": 357.92
+  },
+  {
+   "text": "the",
+   "start": 357.92,
+   "end": 358.08
+  },
+  {
+   "text": "key",
+   "start": 358.08,
+   "end": 358.27
+  },
+  {
+   "text": "to",
+   "start": 358.27,
+   "end": 358.4
+  },
+  {
+   "text": "reading",
+   "start": 358.4,
+   "end": 358.84
+  },
+  {
+   "text": "hieroglyphs.",
+   "start": 358.84,
+   "end": 359.82
+  },
+  {
+   "text": "The",
+   "start": 359.82,
+   "end": 360.02
+  },
+  {
+   "text": "last",
+   "start": 360.02,
+   "end": 360.29
+  },
+  {
+   "text": "ruler",
+   "start": 360.29,
+   "end": 360.63
+  },
+  {
+   "text": "of",
+   "start": 360.63,
+   "end": 360.76
+  },
+  {
+   "text": "the",
+   "start": 360.76,
+   "end": 360.96
+  },
+  {
+   "text": "dynasty",
+   "start": 360.96,
+   "end": 361.44
+  },
+  {
+   "text": "was",
+   "start": 361.44,
+   "end": 361.64
+  },
+  {
+   "text": "Cleopatra",
+   "start": 361.64,
+   "end": 362.23
+  },
+  {
+   "text": "VII.",
+   "start": 362.23,
+   "end": 362.72
+  },
+  {
+   "text": "She",
+   "start": 362.72,
+   "end": 362.92
+  },
+  {
+   "text": "allied",
+   "start": 362.92,
+   "end": 363.32
+  },
+  {
+   "text": "herself",
+   "start": 363.32,
+   "end": 363.79
+  },
+  {
+   "text": "first",
+   "start": 363.79,
+   "end": 364.13
+  },
+  {
+   "text": "with",
+   "start": 364.13,
+   "end": 364.39
+  },
+  {
+   "text": "Julius",
+   "start": 364.39,
+   "end": 364.79
+  },
+  {
+   "text": "Caesar",
+   "start": 364.79,
+   "end": 365.22
+  },
+  {
+   "text": "and",
+   "start": 365.22,
+   "end": 365.39
+  },
+  {
+   "text": "then",
+   "start": 365.39,
+   "end": 365.66
+  },
+  {
+   "text": "with",
+   "start": 365.66,
+   "end": 365.89
+  },
+  {
+   "text": "Mark",
+   "start": 365.89,
+   "end": 366.08
+  },
+  {
+   "text": "Antony.",
+   "start": 366.08,
+   "end": 366.62
+  },
+  {
+   "text": "In",
+   "start": 366.62,
+   "end": 366.78
+  },
+  {
+   "text": "31",
+   "start": 366.78,
+   "end": 367.26
+  },
+  {
+   "text": "BC,",
+   "start": 367.26,
+   "end": 367.58
+  },
+  {
+   "text": "Octavian,",
+   "start": 367.58,
+   "end": 368.38
+  },
+  {
+   "text": "the",
+   "start": 368.38,
+   "end": 368.86
+  },
+  {
+   "text": "future",
+   "start": 368.86,
+   "end": 369.12
+  },
+  {
+   "text": "emperor",
+   "start": 369.12,
+   "end": 369.7
+  },
+  {
+   "text": "Augustus,",
+   "start": 369.7,
+   "end": 370.5
+  },
+  {
+   "text": "defeated",
+   "start": 370.5,
+   "end": 371.13
+  },
+  {
+   "text": "their",
+   "start": 371.13,
+   "end": 371.35
+  },
+  {
+   "text": "fleet",
+   "start": 371.35,
+   "end": 371.68
+  },
+  {
+   "text": "at",
+   "start": 371.68,
+   "end": 371.81
+  },
+  {
+   "text": "Actium.",
+   "start": 371.81,
+   "end": 372.42
+  },
+  {
+   "text": "A",
+   "start": 372.42,
+   "end": 372.48
+  },
+  {
+   "text": "year",
+   "start": 372.48,
+   "end": 372.73
+  },
+  {
+   "text": "later,",
+   "start": 372.73,
+   "end": 373.21
+  },
+  {
+   "text": "in",
+   "start": 373.21,
+   "end": 373.29
+  },
+  {
+   "text": "30",
+   "start": 373.29,
+   "end": 373.66
+  },
+  {
+   "text": "BC,",
+   "start": 373.66,
+   "end": 374.08
+  },
+  {
+   "text": "Cleopatra",
+   "start": 374.08,
+   "end": 374.54
+  },
+  {
+   "text": "died,",
+   "start": 374.54,
+   "end": 375.1
+  },
+  {
+   "text": "and",
+   "start": 375.1,
+   "end": 375.25
+  },
+  {
+   "text": "Egypt",
+   "start": 375.25,
+   "end": 375.54
+  },
+  {
+   "text": "became",
+   "start": 375.54,
+   "end": 375.82
+  },
+  {
+   "text": "the",
+   "start": 375.82,
+   "end": 375.97
+  },
+  {
+   "text": "personal",
+   "start": 375.97,
+   "end": 376.38
+  },
+  {
+   "text": "property",
+   "start": 376.38,
+   "end": 376.82
+  },
+  {
+   "text": "of",
+   "start": 376.82,
+   "end": 376.99
+  },
+  {
+   "text": "the",
+   "start": 376.99,
+   "end": 377.25
+  },
+  {
+   "text": "Roman",
+   "start": 377.25,
+   "end": 377.69
+  },
+  {
+   "text": "emperor.",
+   "start": 377.69,
+   "end": 378.58
+  },
+  {
+   "text": "Under",
+   "start": 378.58,
+   "end": 378.85
+  },
+  {
+   "text": "Rome,",
+   "start": 378.85,
+   "end": 379.22
+  },
+  {
+   "text": "Egypt",
+   "start": 379.22,
+   "end": 379.45
+  },
+  {
+   "text": "was",
+   "start": 379.45,
+   "end": 379.61
+  },
+  {
+   "text": "the",
+   "start": 379.61,
+   "end": 379.77
+  },
+  {
+   "text": "richest",
+   "start": 379.77,
+   "end": 380.21
+  },
+  {
+   "text": "province",
+   "start": 380.21,
+   "end": 380.62
+  },
+  {
+   "text": "outside",
+   "start": 380.62,
+   "end": 381.08
+  },
+  {
+   "text": "Italy.",
+   "start": 381.08,
+   "end": 381.62
+  },
+  {
+   "text": "Its",
+   "start": 381.62,
+   "end": 381.82
+  },
+  {
+   "text": "grain",
+   "start": 381.82,
+   "end": 382.23
+  },
+  {
+   "text": "fed",
+   "start": 382.23,
+   "end": 382.35
+  },
+  {
+   "text": "the",
+   "start": 382.35,
+   "end": 382.55
+  },
+  {
+   "text": "city",
+   "start": 382.55,
+   "end": 382.82
+  },
+  {
+   "text": "of",
+   "start": 382.82,
+   "end": 382.95
+  },
+  {
+   "text": "Rome,",
+   "start": 382.95,
+   "end": 383.44
+  },
+  {
+   "text": "and",
+   "start": 383.44,
+   "end": 383.55
+  },
+  {
+   "text": "Alexandria",
+   "start": 383.55,
+   "end": 384.26
+  },
+  {
+   "text": "remained",
+   "start": 384.26,
+   "end": 384.85
+  },
+  {
+   "text": "a",
+   "start": 384.85,
+   "end": 384.92
+  },
+  {
+   "text": "center",
+   "start": 384.92,
+   "end": 385.35
+  },
+  {
+   "text": "of",
+   "start": 385.35,
+   "end": 385.5
+  },
+  {
+   "text": "learning.",
+   "start": 385.5,
+   "end": 386.34
+  },
+  {
+   "text": "Christianity",
+   "start": 386.34,
+   "end": 387.04
+  },
+  {
+   "text": "reached",
+   "start": 387.04,
+   "end": 387.45
+  },
+  {
+   "text": "Egypt",
+   "start": 387.45,
+   "end": 387.74
+  },
+  {
+   "text": "early,",
+   "start": 387.74,
+   "end": 388.16
+  },
+  {
+   "text": "and",
+   "start": 388.16,
+   "end": 388.33
+  },
+  {
+   "text": "Alexandria",
+   "start": 388.33,
+   "end": 388.91
+  },
+  {
+   "text": "became",
+   "start": 388.91,
+   "end": 389.26
+  },
+  {
+   "text": "one",
+   "start": 389.26,
+   "end": 389.44
+  },
+  {
+   "text": "of",
+   "start": 389.44,
+   "end": 389.55
+  },
+  {
+   "text": "its",
+   "start": 389.55,
+   "end": 389.78
+  },
+  {
+   "text": "great",
+   "start": 389.78,
+   "end": 390
+  },
+  {
+   "text": "centers.",
+   "start": 390,
+   "end": 390.64
+  },
+  {
+   "text": "Egyptian",
+   "start": 390.64,
+   "end": 391.09
+  },
+  {
+   "text": "Christians,",
+   "start": 391.09,
+   "end": 391.76
+  },
+  {
+   "text": "known",
+   "start": 391.76,
+   "end": 392.04
+  },
+  {
+   "text": "today",
+   "start": 392.04,
+   "end": 392.32
+  },
+  {
+   "text": "as",
+   "start": 392.32,
+   "end": 392.43
+  },
+  {
+   "text": "Copts,",
+   "start": 392.43,
+   "end": 392.86
+  },
+  {
+   "text": "built",
+   "start": 392.86,
+   "end": 393.1
+  },
+  {
+   "text": "one",
+   "start": 393.1,
+   "end": 393.25
+  },
+  {
+   "text": "of",
+   "start": 393.25,
+   "end": 393.35
+  },
+  {
+   "text": "the",
+   "start": 393.35,
+   "end": 393.5
+  },
+  {
+   "text": "oldest",
+   "start": 393.5,
+   "end": 393.79
+  },
+  {
+   "text": "churches",
+   "start": 393.79,
+   "end": 394.18
+  },
+  {
+   "text": "in",
+   "start": 394.18,
+   "end": 394.28
+  },
+  {
+   "text": "the",
+   "start": 394.28,
+   "end": 394.42
+  },
+  {
+   "text": "world.",
+   "start": 394.42,
+   "end": 394.86
+  },
+  {
+   "text": "Their",
+   "start": 394.86,
+   "end": 395.17
+  },
+  {
+   "text": "language,",
+   "start": 395.17,
+   "end": 395.78
+  },
+  {
+   "text": "Coptic,",
+   "start": 395.78,
+   "end": 396.31
+  },
+  {
+   "text": "was",
+   "start": 396.31,
+   "end": 396.47
+  },
+  {
+   "text": "the",
+   "start": 396.47,
+   "end": 396.62
+  },
+  {
+   "text": "last",
+   "start": 396.62,
+   "end": 396.94
+  },
+  {
+   "text": "stage",
+   "start": 396.94,
+   "end": 397.22
+  },
+  {
+   "text": "of",
+   "start": 397.22,
+   "end": 397.36
+  },
+  {
+   "text": "the",
+   "start": 397.36,
+   "end": 397.58
+  },
+  {
+   "text": "ancient",
+   "start": 397.58,
+   "end": 398.06
+  },
+  {
+   "text": "Egyptian",
+   "start": 398.06,
+   "end": 399.18
+  },
+  {
+   "text": "language.",
+   "start": 399.18,
+   "end": 399.42
+  },
+  {
+   "text": "In",
+   "start": 399.42,
+   "end": 399.53
+  },
+  {
+   "text": "the",
+   "start": 399.53,
+   "end": 399.69
+  },
+  {
+   "text": "seventh",
+   "start": 399.69,
+   "end": 400.08
+  },
+  {
+   "text": "century,",
+   "start": 400.08,
+   "end": 400.6
+  },
+  {
+   "text": "Egypt",
+   "start": 400.6,
+   "end": 400.9
+  },
+  {
+   "text": "was",
+   "start": 400.9,
+   "end": 401.06
+  },
+  {
+   "text": "caught",
+   "start": 401.06,
+   "end": 401.44
+  },
+  {
+   "text": "between",
+   "start": 401.44,
+   "end": 401.86
+  },
+  {
+   "text": "two",
+   "start": 401.86,
+   "end": 402.04
+  },
+  {
+   "text": "exhausted",
+   "start": 402.04,
+   "end": 402.59
+  },
+  {
+   "text": "empires.",
+   "start": 402.59,
+   "end": 403.22
+  },
+  {
+   "text": "The",
+   "start": 403.22,
+   "end": 403.42
+  },
+  {
+   "text": "Persians",
+   "start": 403.42,
+   "end": 403.96
+  },
+  {
+   "text": "occupied",
+   "start": 403.96,
+   "end": 404.5
+  },
+  {
+   "text": "it",
+   "start": 404.5,
+   "end": 404.63
+  },
+  {
+   "text": "from",
+   "start": 404.63,
+   "end": 404.9
+  },
+  {
+   "text": "618",
+   "start": 404.9,
+   "end": 405.5
+  },
+  {
+   "text": "to",
+   "start": 405.5,
+   "end": 405.64
+  },
+  {
+   "text": "628.",
+   "start": 405.64,
+   "end": 406.48
+  },
+  {
+   "text": "A",
+   "start": 406.48,
+   "end": 406.55
+  },
+  {
+   "text": "decade",
+   "start": 406.55,
+   "end": 407.01
+  },
+  {
+   "text": "later,",
+   "start": 407.01,
+   "end": 407.54
+  },
+  {
+   "text": "a",
+   "start": 407.54,
+   "end": 407.66
+  },
+  {
+   "text": "new",
+   "start": 407.66,
+   "end": 407.84
+  },
+  {
+   "text": "power",
+   "start": 407.84,
+   "end": 408.22
+  },
+  {
+   "text": "arrived",
+   "start": 408.22,
+   "end": 408.75
+  },
+  {
+   "text": "from",
+   "start": 408.75,
+   "end": 409.51
+  },
+  {
+   "text": "Arabia.",
+   "start": 409.51,
+   "end": 409.78
+  },
+  {
+   "text": "In",
+   "start": 409.78,
+   "end": 409.92
+  },
+  {
+   "text": "December",
+   "start": 409.92,
+   "end": 410.49
+  },
+  {
+   "text": "639,",
+   "start": 410.49,
+   "end": 411.42
+  },
+  {
+   "text": "the",
+   "start": 411.42,
+   "end": 411.46
+  },
+  {
+   "text": "Arab",
+   "start": 411.46,
+   "end": 411.74
+  },
+  {
+   "text": "general",
+   "start": 411.74,
+   "end": 412.26
+  },
+  {
+   "text": "Amr",
+   "start": 412.26,
+   "end": 412.52
+  },
+  {
+   "text": "ibn",
+   "start": 412.52,
+   "end": 413.06
+  },
+  {
+   "text": "al-As",
+   "start": 413.06,
+   "end": 413.66
+  },
+  {
+   "text": "crossed",
+   "start": 413.66,
+   "end": 414.08
+  },
+  {
+   "text": "into",
+   "start": 414.08,
+   "end": 414.32
+  },
+  {
+   "text": "Egypt",
+   "start": 414.32,
+   "end": 414.76
+  },
+  {
+   "text": "with",
+   "start": 414.76,
+   "end": 414.86
+  },
+  {
+   "text": "about",
+   "start": 414.86,
+   "end": 415.22
+  },
+  {
+   "text": "4,000",
+   "start": 415.22,
+   "end": 416
+  },
+  {
+   "text": "men.",
+   "start": 416,
+   "end": 416.4
+  },
+  {
+   "text": "Within",
+   "start": 416.4,
+   "end": 416.72
+  },
+  {
+   "text": "three",
+   "start": 416.72,
+   "end": 416.99
+  },
+  {
+   "text": "years,",
+   "start": 416.99,
+   "end": 417.45
+  },
+  {
+   "text": "the",
+   "start": 417.45,
+   "end": 417.52
+  },
+  {
+   "text": "Byzantine",
+   "start": 417.52,
+   "end": 418
+  },
+  {
+   "text": "fortress",
+   "start": 418,
+   "end": 418.46
+  },
+  {
+   "text": "of",
+   "start": 418.46,
+   "end": 418.59
+  },
+  {
+   "text": "Babylon",
+   "start": 418.59,
+   "end": 419.07
+  },
+  {
+   "text": "and",
+   "start": 419.07,
+   "end": 419.34
+  },
+  {
+   "text": "the",
+   "start": 419.34,
+   "end": 419.47
+  },
+  {
+   "text": "city",
+   "start": 419.47,
+   "end": 419.74
+  },
+  {
+   "text": "of",
+   "start": 419.74,
+   "end": 419.87
+  },
+  {
+   "text": "Alexandria",
+   "start": 419.87,
+   "end": 420.6
+  },
+  {
+   "text": "had",
+   "start": 420.6,
+   "end": 420.78
+  },
+  {
+   "text": "both",
+   "start": 420.78,
+   "end": 420.99
+  },
+  {
+   "text": "surrendered.",
+   "start": 420.99,
+   "end": 421.8
+  },
+  {
+   "text": "Amr",
+   "start": 421.8,
+   "end": 421.99
+  },
+  {
+   "text": "built",
+   "start": 421.99,
+   "end": 422.33
+  },
+  {
+   "text": "a",
+   "start": 422.33,
+   "end": 422.39
+  },
+  {
+   "text": "new",
+   "start": 422.39,
+   "end": 422.61
+  },
+  {
+   "text": "capital",
+   "start": 422.61,
+   "end": 423.07
+  },
+  {
+   "text": "next",
+   "start": 423.07,
+   "end": 423.34
+  },
+  {
+   "text": "to",
+   "start": 423.34,
+   "end": 423.46
+  },
+  {
+   "text": "the",
+   "start": 423.46,
+   "end": 423.66
+  },
+  {
+   "text": "old",
+   "start": 423.66,
+   "end": 423.86
+  },
+  {
+   "text": "fortress",
+   "start": 423.86,
+   "end": 424.46
+  },
+  {
+   "text": "called",
+   "start": 424.46,
+   "end": 425
+  },
+  {
+   "text": "Fustat.",
+   "start": 425,
+   "end": 425.82
+  },
+  {
+   "text": "Egypt",
+   "start": 425.82,
+   "end": 426.09
+  },
+  {
+   "text": "has",
+   "start": 426.09,
+   "end": 426.25
+  },
+  {
+   "text": "been",
+   "start": 426.25,
+   "end": 426.46
+  },
+  {
+   "text": "under",
+   "start": 426.46,
+   "end": 426.82
+  },
+  {
+   "text": "Muslim",
+   "start": 426.82,
+   "end": 427.05
+  },
+  {
+   "text": "rule",
+   "start": 427.05,
+   "end": 427.26
+  },
+  {
+   "text": "ever",
+   "start": 427.26,
+   "end": 427.49
+  },
+  {
+   "text": "since.",
+   "start": 427.49,
+   "end": 428.14
+  },
+  {
+   "text": "Although",
+   "start": 428.14,
+   "end": 428.61
+  },
+  {
+   "text": "most",
+   "start": 428.61,
+   "end": 428.86
+  },
+  {
+   "text": "Egyptians",
+   "start": 428.86,
+   "end": 429.35
+  },
+  {
+   "text": "converted",
+   "start": 429.35,
+   "end": 429.87
+  },
+  {
+   "text": "to",
+   "start": 429.87,
+   "end": 429.98
+  },
+  {
+   "text": "Islam",
+   "start": 429.98,
+   "end": 430.3
+  },
+  {
+   "text": "and",
+   "start": 430.3,
+   "end": 430.57
+  },
+  {
+   "text": "switched",
+   "start": 430.57,
+   "end": 431.3
+  },
+  {
+   "text": "to",
+   "start": 431.3,
+   "end": 431.48
+  },
+  {
+   "text": "Arabic",
+   "start": 431.48,
+   "end": 432.03
+  },
+  {
+   "text": "slowly,",
+   "start": 432.03,
+   "end": 432.76
+  },
+  {
+   "text": "over",
+   "start": 432.76,
+   "end": 433.76
+  },
+  {
+   "text": "several",
+   "start": 433.76,
+   "end": 433.76
+  },
+  {
+   "text": "centuries.",
+   "start": 433.76,
+   "end": 434.9
+  },
+  {
+   "text": "In",
+   "start": 434.9,
+   "end": 435.05
+  },
+  {
+   "text": "969,",
+   "start": 435.05,
+   "end": 435.9
+  },
+  {
+   "text": "a",
+   "start": 435.9,
+   "end": 435.97
+  },
+  {
+   "text": "Shia",
+   "start": 435.97,
+   "end": 436.28
+  },
+  {
+   "text": "dynasty",
+   "start": 436.28,
+   "end": 436.83
+  },
+  {
+   "text": "from",
+   "start": 436.83,
+   "end": 437.14
+  },
+  {
+   "text": "North",
+   "start": 437.14,
+   "end": 437.57
+  },
+  {
+   "text": "Africa,",
+   "start": 437.57,
+   "end": 438.22
+  },
+  {
+   "text": "the",
+   "start": 438.22,
+   "end": 438.47
+  },
+  {
+   "text": "Fatimids,",
+   "start": 438.47,
+   "end": 439.14
+  },
+  {
+   "text": "conquered",
+   "start": 439.14,
+   "end": 439.74
+  },
+  {
+   "text": "Egypt",
+   "start": 439.74,
+   "end": 440.12
+  },
+  {
+   "text": "and",
+   "start": 440.12,
+   "end": 440.33
+  },
+  {
+   "text": "founded",
+   "start": 440.33,
+   "end": 440.74
+  },
+  {
+   "text": "a",
+   "start": 440.74,
+   "end": 440.8
+  },
+  {
+   "text": "new",
+   "start": 440.8,
+   "end": 441
+  },
+  {
+   "text": "city",
+   "start": 441,
+   "end": 441.26
+  },
+  {
+   "text": "next",
+   "start": 441.26,
+   "end": 441.59
+  },
+  {
+   "text": "to",
+   "start": 441.59,
+   "end": 441.65
+  },
+  {
+   "text": "Fustat.",
+   "start": 441.65,
+   "end": 442.3
+  },
+  {
+   "text": "They",
+   "start": 442.3,
+   "end": 442.55
+  },
+  {
+   "text": "called",
+   "start": 442.55,
+   "end": 442.96
+  },
+  {
+   "text": "it",
+   "start": 442.96,
+   "end": 443.05
+  },
+  {
+   "text": "Al-Khira,",
+   "start": 443.05,
+   "end": 443.66
+  },
+  {
+   "text": "the",
+   "start": 443.66,
+   "end": 443.89
+  },
+  {
+   "text": "victorious.",
+   "start": 443.89,
+   "end": 444.74
+  },
+  {
+   "text": "We",
+   "start": 444.74,
+   "end": 444.88
+  },
+  {
+   "text": "know",
+   "start": 444.88,
+   "end": 445.16
+  },
+  {
+   "text": "it",
+   "start": 445.16,
+   "end": 445.3
+  },
+  {
+   "text": "as",
+   "start": 445.3,
+   "end": 445.44
+  },
+  {
+   "text": "Cairo.",
+   "start": 445.44,
+   "end": 446.02
+  },
+  {
+   "text": "They",
+   "start": 446.02,
+   "end": 446.3
+  },
+  {
+   "text": "also",
+   "start": 446.3,
+   "end": 446.54
+  },
+  {
+   "text": "built",
+   "start": 446.54,
+   "end": 446.87
+  },
+  {
+   "text": "the",
+   "start": 446.87,
+   "end": 447.07
+  },
+  {
+   "text": "Al-Azhar",
+   "start": 447.07,
+   "end": 447.58
+  },
+  {
+   "text": "Mosque,",
+   "start": 447.58,
+   "end": 448.02
+  },
+  {
+   "text": "which",
+   "start": 448.02,
+   "end": 448.26
+  },
+  {
+   "text": "grew",
+   "start": 448.26,
+   "end": 448.45
+  },
+  {
+   "text": "into",
+   "start": 448.45,
+   "end": 448.64
+  },
+  {
+   "text": "one",
+   "start": 448.64,
+   "end": 448.78
+  },
+  {
+   "text": "of",
+   "start": 448.78,
+   "end": 448.87
+  },
+  {
+   "text": "the",
+   "start": 448.87,
+   "end": 449.01
+  },
+  {
+   "text": "oldest",
+   "start": 449.01,
+   "end": 449.34
+  },
+  {
+   "text": "universities",
+   "start": 449.34,
+   "end": 450.26
+  },
+  {
+   "text": "in",
+   "start": 450.26,
+   "end": 450.41
+  },
+  {
+   "text": "the",
+   "start": 450.41,
+   "end": 450.64
+  },
+  {
+   "text": "world.",
+   "start": 450.64,
+   "end": 451.26
+  },
+  {
+   "text": "The",
+   "start": 451.26,
+   "end": 451.42
+  },
+  {
+   "text": "Fatimids",
+   "start": 451.42,
+   "end": 451.84
+  },
+  {
+   "text": "were",
+   "start": 451.84,
+   "end": 452.05
+  },
+  {
+   "text": "brought",
+   "start": 452.05,
+   "end": 452.47
+  },
+  {
+   "text": "down",
+   "start": 452.47,
+   "end": 452.65
+  },
+  {
+   "text": "from",
+   "start": 452.65,
+   "end": 452.89
+  },
+  {
+   "text": "the",
+   "start": 452.89,
+   "end": 453.01
+  },
+  {
+   "text": "inside.",
+   "start": 453.01,
+   "end": 453.56
+  },
+  {
+   "text": "Their",
+   "start": 453.56,
+   "end": 453.9
+  },
+  {
+   "text": "Kurdish",
+   "start": 453.9,
+   "end": 454.38
+  },
+  {
+   "text": "vizier,",
+   "start": 454.38,
+   "end": 454.91
+  },
+  {
+   "text": "Saladin,",
+   "start": 454.91,
+   "end": 455.57
+  },
+  {
+   "text": "took",
+   "start": 455.57,
+   "end": 455.78
+  },
+  {
+   "text": "power",
+   "start": 455.78,
+   "end": 456.12
+  },
+  {
+   "text": "in",
+   "start": 456.12,
+   "end": 456.25
+  },
+  {
+   "text": "1171.",
+   "start": 456.25,
+   "end": 457.38
+  },
+  {
+   "text": "From",
+   "start": 457.4,
+   "end": 457.63
+  },
+  {
+   "text": "Egypt,",
+   "start": 457.63,
+   "end": 458.13
+  },
+  {
+   "text": "he",
+   "start": 458.13,
+   "end": 458.19
+  },
+  {
+   "text": "fought",
+   "start": 458.19,
+   "end": 458.57
+  },
+  {
+   "text": "the",
+   "start": 458.57,
+   "end": 458.76
+  },
+  {
+   "text": "Crusaders.",
+   "start": 458.76,
+   "end": 459.38
+  },
+  {
+   "text": "And",
+   "start": 459.38,
+   "end": 459.6
+  },
+  {
+   "text": "in",
+   "start": 459.6,
+   "end": 459.75
+  },
+  {
+   "text": "1187,",
+   "start": 459.75,
+   "end": 460.8
+  },
+  {
+   "text": "he",
+   "start": 460.8,
+   "end": 460.95
+  },
+  {
+   "text": "captured",
+   "start": 460.95,
+   "end": 461.54
+  },
+  {
+   "text": "Jerusalem.",
+   "start": 461.54,
+   "end": 462.46
+  },
+  {
+   "text": "Saladin's",
+   "start": 462.46,
+   "end": 463.02
+  },
+  {
+   "text": "successors",
+   "start": 463.02,
+   "end": 463.65
+  },
+  {
+   "text": "relied",
+   "start": 463.65,
+   "end": 464.03
+  },
+  {
+   "text": "on",
+   "start": 464.03,
+   "end": 464.15
+  },
+  {
+   "text": "Mamluks.",
+   "start": 464.15,
+   "end": 464.82
+  },
+  {
+   "text": "Soldiers",
+   "start": 464.82,
+   "end": 465.28
+  },
+  {
+   "text": "bought",
+   "start": 465.28,
+   "end": 465.6
+  },
+  {
+   "text": "as",
+   "start": 465.6,
+   "end": 465.7
+  },
+  {
+   "text": "slaves,",
+   "start": 465.7,
+   "end": 466.24
+  },
+  {
+   "text": "trained",
+   "start": 466.24,
+   "end": 466.56
+  },
+  {
+   "text": "from",
+   "start": 466.56,
+   "end": 466.82
+  },
+  {
+   "text": "childhood,",
+   "start": 466.82,
+   "end": 467.46
+  },
+  {
+   "text": "and",
+   "start": 467.46,
+   "end": 467.63
+  },
+  {
+   "text": "then",
+   "start": 467.63,
+   "end": 467.86
+  },
+  {
+   "text": "freed",
+   "start": 467.86,
+   "end": 468.15
+  },
+  {
+   "text": "to",
+   "start": 468.15,
+   "end": 468.26
+  },
+  {
+   "text": "serve",
+   "start": 468.26,
+   "end": 468.55
+  },
+  {
+   "text": "as",
+   "start": 468.55,
+   "end": 468.66
+  },
+  {
+   "text": "an",
+   "start": 468.66,
+   "end": 468.77
+  },
+  {
+   "text": "elite",
+   "start": 468.77,
+   "end": 469.06
+  },
+  {
+   "text": "army.",
+   "start": 469.06,
+   "end": 469.52
+  },
+  {
+   "text": "In",
+   "start": 469.52,
+   "end": 469.66
+  },
+  {
+   "text": "1250,",
+   "start": 469.66,
+   "end": 470.48
+  },
+  {
+   "text": "the",
+   "start": 470.48,
+   "end": 470.66
+  },
+  {
+   "text": "French",
+   "start": 470.66,
+   "end": 471.02
+  },
+  {
+   "text": "King",
+   "start": 471.02,
+   "end": 471.27
+  },
+  {
+   "text": "Louis",
+   "start": 471.27,
+   "end": 471.56
+  },
+  {
+   "text": "IX",
+   "start": 471.56,
+   "end": 471.7
+  },
+  {
+   "text": "invaded",
+   "start": 471.7,
+   "end": 472.23
+  },
+  {
+   "text": "Egypt",
+   "start": 472.23,
+   "end": 472.61
+  },
+  {
+   "text": "on",
+   "start": 472.61,
+   "end": 472.76
+  },
+  {
+   "text": "crusade.",
+   "start": 472.76,
+   "end": 473.54
+  },
+  {
+   "text": "The",
+   "start": 473.54,
+   "end": 473.71
+  },
+  {
+   "text": "Mamluks",
+   "start": 473.71,
+   "end": 474.1
+  },
+  {
+   "text": "defeated",
+   "start": 474.1,
+   "end": 474.56
+  },
+  {
+   "text": "his",
+   "start": 474.56,
+   "end": 474.73
+  },
+  {
+   "text": "army",
+   "start": 474.73,
+   "end": 474.96
+  },
+  {
+   "text": "and",
+   "start": 474.96,
+   "end": 475.13
+  },
+  {
+   "text": "captured",
+   "start": 475.13,
+   "end": 475.62
+  },
+  {
+   "text": "the",
+   "start": 475.62,
+   "end": 475.83
+  },
+  {
+   "text": "king",
+   "start": 475.83,
+   "end": 476.1
+  },
+  {
+   "text": "himself.",
+   "start": 476.1,
+   "end": 476.62
+  },
+  {
+   "text": "And",
+   "start": 476.62,
+   "end": 476.8
+  },
+  {
+   "text": "France",
+   "start": 476.8,
+   "end": 477.05
+  },
+  {
+   "text": "had",
+   "start": 477.05,
+   "end": 477.19
+  },
+  {
+   "text": "to",
+   "start": 477.19,
+   "end": 477.28
+  },
+  {
+   "text": "pay",
+   "start": 477.28,
+   "end": 477.42
+  },
+  {
+   "text": "a",
+   "start": 477.42,
+   "end": 477.46
+  },
+  {
+   "text": "ransom",
+   "start": 477.46,
+   "end": 477.76
+  },
+  {
+   "text": "of",
+   "start": 477.76,
+   "end": 477.84
+  },
+  {
+   "text": "800,000",
+   "start": 477.84,
+   "end": 478.88
+  },
+  {
+   "text": "bezants",
+   "start": 478.88,
+   "end": 479.26
+  },
+  {
+   "text": "to",
+   "start": 479.26,
+   "end": 479.38
+  },
+  {
+   "text": "get",
+   "start": 479.38,
+   "end": 479.56
+  },
+  {
+   "text": "him",
+   "start": 479.56,
+   "end": 479.74
+  },
+  {
+   "text": "back.",
+   "start": 479.74,
+   "end": 480.18
+  },
+  {
+   "text": "That",
+   "start": 480.18,
+   "end": 480.41
+  },
+  {
+   "text": "same",
+   "start": 480.41,
+   "end": 480.62
+  },
+  {
+   "text": "year,",
+   "start": 480.62,
+   "end": 480.95
+  },
+  {
+   "text": "they",
+   "start": 480.95,
+   "end": 481.19
+  },
+  {
+   "text": "killed",
+   "start": 481.19,
+   "end": 481.51
+  },
+  {
+   "text": "the",
+   "start": 481.51,
+   "end": 481.68
+  },
+  {
+   "text": "last",
+   "start": 481.68,
+   "end": 481.9
+  },
+  {
+   "text": "Sultan",
+   "start": 481.9,
+   "end": 482.3
+  },
+  {
+   "text": "of",
+   "start": 482.3,
+   "end": 482.42
+  },
+  {
+   "text": "Saladin's",
+   "start": 482.42,
+   "end": 482.98
+  },
+  {
+   "text": "family",
+   "start": 482.98,
+   "end": 483.38
+  },
+  {
+   "text": "and",
+   "start": 483.38,
+   "end": 483.59
+  },
+  {
+   "text": "took",
+   "start": 483.59,
+   "end": 483.87
+  },
+  {
+   "text": "the",
+   "start": 483.87,
+   "end": 484.08
+  },
+  {
+   "text": "throne",
+   "start": 484.08,
+   "end": 484.5
+  },
+  {
+   "text": "for",
+   "start": 484.5,
+   "end": 484.69
+  },
+  {
+   "text": "themselves.",
+   "start": 484.69,
+   "end": 485.66
+  },
+  {
+   "text": "10",
+   "start": 485.73,
+   "end": 486.01
+  },
+  {
+   "text": "years",
+   "start": 486.01,
+   "end": 486.3
+  },
+  {
+   "text": "later,",
+   "start": 486.3,
+   "end": 486.7
+  },
+  {
+   "text": "in",
+   "start": 486.7,
+   "end": 486.84
+  },
+  {
+   "text": "1260,",
+   "start": 486.84,
+   "end": 487.73
+  },
+  {
+   "text": "the",
+   "start": 487.73,
+   "end": 487.79
+  },
+  {
+   "text": "Mamluks",
+   "start": 487.79,
+   "end": 488.26
+  },
+  {
+   "text": "defeated",
+   "start": 488.26,
+   "end": 488.78
+  },
+  {
+   "text": "the",
+   "start": 488.78,
+   "end": 488.97
+  },
+  {
+   "text": "Mongols",
+   "start": 488.97,
+   "end": 489.42
+  },
+  {
+   "text": "at",
+   "start": 489.42,
+   "end": 489.55
+  },
+  {
+   "text": "Ain",
+   "start": 489.55,
+   "end": 489.74
+  },
+  {
+   "text": "Jalut",
+   "start": 489.74,
+   "end": 490.06
+  },
+  {
+   "text": "in",
+   "start": 490.06,
+   "end": 490.18
+  },
+  {
+   "text": "Palestine.",
+   "start": 490.18,
+   "end": 491.02
+  },
+  {
+   "text": "It",
+   "start": 491.02,
+   "end": 491.12
+  },
+  {
+   "text": "was",
+   "start": 491.12,
+   "end": 491.28
+  },
+  {
+   "text": "one",
+   "start": 491.28,
+   "end": 491.44
+  },
+  {
+   "text": "of",
+   "start": 491.44,
+   "end": 491.65
+  },
+  {
+   "text": "the",
+   "start": 491.65,
+   "end": 491.7
+  },
+  {
+   "text": "first",
+   "start": 491.7,
+   "end": 491.97
+  },
+  {
+   "text": "major",
+   "start": 491.97,
+   "end": 492.24
+  },
+  {
+   "text": "defeats",
+   "start": 492.24,
+   "end": 492.66
+  },
+  {
+   "text": "the",
+   "start": 492.66,
+   "end": 492.84
+  },
+  {
+   "text": "Mongol",
+   "start": 492.84,
+   "end": 493.19
+  },
+  {
+   "text": "armies",
+   "start": 493.19,
+   "end": 493.54
+  },
+  {
+   "text": "had",
+   "start": 493.54,
+   "end": 493.72
+  },
+  {
+   "text": "suffered.",
+   "start": 493.72,
+   "end": 494.4
+  },
+  {
+   "text": "In",
+   "start": 494.4,
+   "end": 494.59
+  },
+  {
+   "text": "1291,",
+   "start": 494.59,
+   "end": 495.4
+  },
+  {
+   "text": "they",
+   "start": 495.4,
+   "end": 495.7
+  },
+  {
+   "text": "took",
+   "start": 495.7,
+   "end": 495.9
+  },
+  {
+   "text": "Akko,",
+   "start": 495.9,
+   "end": 496.37
+  },
+  {
+   "text": "the",
+   "start": 496.37,
+   "end": 496.45
+  },
+  {
+   "text": "last",
+   "start": 496.45,
+   "end": 496.7
+  },
+  {
+   "text": "big",
+   "start": 496.7,
+   "end": 496.89
+  },
+  {
+   "text": "Crusader",
+   "start": 496.89,
+   "end": 497.5
+  },
+  {
+   "text": "stronghold",
+   "start": 497.5,
+   "end": 498.14
+  },
+  {
+   "text": "in",
+   "start": 498.14,
+   "end": 498.34
+  },
+  {
+   "text": "the",
+   "start": 498.34,
+   "end": 498.64
+  },
+  {
+   "text": "Holy",
+   "start": 498.64,
+   "end": 499.44
+  },
+  {
+   "text": "Land.",
+   "start": 499.44,
+   "end": 499.74
+  },
+  {
+   "text": "Mamluk",
+   "start": 499.74,
+   "end": 500.12
+  },
+  {
+   "text": "Cairo",
+   "start": 500.12,
+   "end": 500.37
+  },
+  {
+   "text": "was",
+   "start": 500.37,
+   "end": 500.55
+  },
+  {
+   "text": "one",
+   "start": 500.55,
+   "end": 500.73
+  },
+  {
+   "text": "of",
+   "start": 500.73,
+   "end": 500.85
+  },
+  {
+   "text": "the",
+   "start": 500.85,
+   "end": 501.03
+  },
+  {
+   "text": "great",
+   "start": 501.03,
+   "end": 501.4
+  },
+  {
+   "text": "cities",
+   "start": 501.4,
+   "end": 501.72
+  },
+  {
+   "text": "of",
+   "start": 501.72,
+   "end": 501.85
+  },
+  {
+   "text": "the",
+   "start": 501.85,
+   "end": 502.05
+  },
+  {
+   "text": "Islamic",
+   "start": 502.05,
+   "end": 502.53
+  },
+  {
+   "text": "world.",
+   "start": 502.53,
+   "end": 503.1
+  },
+  {
+   "text": "Then,",
+   "start": 503.1,
+   "end": 503.56
+  },
+  {
+   "text": "in",
+   "start": 503.56,
+   "end": 503.71
+  },
+  {
+   "text": "1347,",
+   "start": 503.71,
+   "end": 505.01
+  },
+  {
+   "text": "the",
+   "start": 505.01,
+   "end": 505.02
+  },
+  {
+   "text": "Black",
+   "start": 505.02,
+   "end": 505.45
+  },
+  {
+   "text": "Death",
+   "start": 505.45,
+   "end": 505.79
+  },
+  {
+   "text": "arrived,",
+   "start": 505.79,
+   "end": 506.38
+  },
+  {
+   "text": "and",
+   "start": 506.38,
+   "end": 506.6
+  },
+  {
+   "text": "plague",
+   "start": 506.6,
+   "end": 506.89
+  },
+  {
+   "text": "returned",
+   "start": 506.89,
+   "end": 507.35
+  },
+  {
+   "text": "again",
+   "start": 507.35,
+   "end": 507.64
+  },
+  {
+   "text": "and",
+   "start": 507.64,
+   "end": 507.82
+  },
+  {
+   "text": "again",
+   "start": 507.82,
+   "end": 508.12
+  },
+  {
+   "text": "over",
+   "start": 508.12,
+   "end": 508.43
+  },
+  {
+   "text": "the",
+   "start": 508.43,
+   "end": 508.66
+  },
+  {
+   "text": "following",
+   "start": 508.66,
+   "end": 509.33
+  },
+  {
+   "text": "decades.",
+   "start": 509.33,
+   "end": 510.16
+  },
+  {
+   "text": "In",
+   "start": 510.16,
+   "end": 510.33
+  },
+  {
+   "text": "1517,",
+   "start": 510.33,
+   "end": 511.54
+  },
+  {
+   "text": "the",
+   "start": 511.54,
+   "end": 511.77
+  },
+  {
+   "text": "Ottoman",
+   "start": 511.77,
+   "end": 512.37
+  },
+  {
+   "text": "Sultan",
+   "start": 512.37,
+   "end": 512.88
+  },
+  {
+   "text": "Selim",
+   "start": 512.88,
+   "end": 513.42
+  },
+  {
+   "text": "I",
+   "start": 513.42,
+   "end": 513.42
+  },
+  {
+   "text": "defeated",
+   "start": 513.42,
+   "end": 513.97
+  },
+  {
+   "text": "the",
+   "start": 513.97,
+   "end": 514.17
+  },
+  {
+   "text": "Mamluks",
+   "start": 514.17,
+   "end": 514.63
+  },
+  {
+   "text": "outside",
+   "start": 514.63,
+   "end": 515.11
+  },
+  {
+   "text": "Cairo",
+   "start": 515.11,
+   "end": 515.5
+  },
+  {
+   "text": "and",
+   "start": 515.5,
+   "end": 515.68
+  },
+  {
+   "text": "hanged",
+   "start": 515.68,
+   "end": 516.05
+  },
+  {
+   "text": "the",
+   "start": 516.05,
+   "end": 516.26
+  },
+  {
+   "text": "last",
+   "start": 516.26,
+   "end": 516.48
+  },
+  {
+   "text": "Mamluk",
+   "start": 516.48,
+   "end": 516.86
+  },
+  {
+   "text": "Sultan",
+   "start": 516.86,
+   "end": 517.26
+  },
+  {
+   "text": "at",
+   "start": 517.26,
+   "end": 517.37
+  },
+  {
+   "text": "one",
+   "start": 517.37,
+   "end": 517.54
+  },
+  {
+   "text": "of",
+   "start": 517.54,
+   "end": 517.65
+  },
+  {
+   "text": "the",
+   "start": 517.65,
+   "end": 517.82
+  },
+  {
+   "text": "city's",
+   "start": 517.82,
+   "end": 518.14
+  },
+  {
+   "text": "gates.",
+   "start": 518.14,
+   "end": 518.62
+  },
+  {
+   "text": "For",
+   "start": 518.62,
+   "end": 518.8
+  },
+  {
+   "text": "almost",
+   "start": 518.8,
+   "end": 519.16
+  },
+  {
+   "text": "three",
+   "start": 519.16,
+   "end": 519.45
+  },
+  {
+   "text": "centuries,",
+   "start": 519.45,
+   "end": 520.1
+  },
+  {
+   "text": "Egypt",
+   "start": 520.1,
+   "end": 520.42
+  },
+  {
+   "text": "was",
+   "start": 520.42,
+   "end": 520.64
+  },
+  {
+   "text": "a",
+   "start": 520.64,
+   "end": 520.66
+  },
+  {
+   "text": "province",
+   "start": 520.66,
+   "end": 521.16
+  },
+  {
+   "text": "of",
+   "start": 521.16,
+   "end": 521.28
+  },
+  {
+   "text": "the",
+   "start": 521.28,
+   "end": 521.46
+  },
+  {
+   "text": "Ottoman",
+   "start": 521.46,
+   "end": 521.89
+  },
+  {
+   "text": "Empire,",
+   "start": 521.89,
+   "end": 522.3
+  },
+  {
+   "text": "though",
+   "start": 522.3,
+   "end": 522.57
+  },
+  {
+   "text": "the",
+   "start": 522.57,
+   "end": 522.7
+  },
+  {
+   "text": "Mamluk",
+   "start": 522.7,
+   "end": 522.96
+  },
+  {
+   "text": "families",
+   "start": 522.96,
+   "end": 523.34
+  },
+  {
+   "text": "stayed",
+   "start": 523.34,
+   "end": 523.62
+  },
+  {
+   "text": "rich",
+   "start": 523.62,
+   "end": 523.88
+  },
+  {
+   "text": "and",
+   "start": 523.88,
+   "end": 524.03
+  },
+  {
+   "text": "powerful",
+   "start": 524.03,
+   "end": 524.46
+  },
+  {
+   "text": "underneath.",
+   "start": 524.46,
+   "end": 525.78
+  },
+  {
+   "text": "In",
+   "start": 525.78,
+   "end": 525.94
+  },
+  {
+   "text": "1798,",
+   "start": 525.94,
+   "end": 526.89
+  },
+  {
+   "text": "Napoleon",
+   "start": 526.89,
+   "end": 527.28
+  },
+  {
+   "text": "Bonaparte",
+   "start": 527.28,
+   "end": 527.92
+  },
+  {
+   "text": "landed",
+   "start": 527.92,
+   "end": 528.26
+  },
+  {
+   "text": "at",
+   "start": 528.26,
+   "end": 528.4
+  },
+  {
+   "text": "Alexandria",
+   "start": 528.4,
+   "end": 529.1
+  },
+  {
+   "text": "with",
+   "start": 529.1,
+   "end": 529.42
+  },
+  {
+   "text": "an",
+   "start": 529.42,
+   "end": 529.58
+  },
+  {
+   "text": "army",
+   "start": 529.58,
+   "end": 529.9
+  },
+  {
+   "text": "and",
+   "start": 529.9,
+   "end": 530.14
+  },
+  {
+   "text": "167",
+   "start": 530.14,
+   "end": 530.87
+  },
+  {
+   "text": "scientists",
+   "start": 530.87,
+   "end": 531.68
+  },
+  {
+   "text": "and",
+   "start": 531.68,
+   "end": 531.92
+  },
+  {
+   "text": "scholars.",
+   "start": 531.92,
+   "end": 532.86
+  },
+  {
+   "text": "On",
+   "start": 532.86,
+   "end": 532.97
+  },
+  {
+   "text": "the",
+   "start": 532.97,
+   "end": 533.14
+  },
+  {
+   "text": "21st",
+   "start": 533.14,
+   "end": 533.6
+  },
+  {
+   "text": "of",
+   "start": 533.6,
+   "end": 533.71
+  },
+  {
+   "text": "July,",
+   "start": 533.71,
+   "end": 534.05
+  },
+  {
+   "text": "he",
+   "start": 534.05,
+   "end": 534.16
+  },
+  {
+   "text": "defeated",
+   "start": 534.16,
+   "end": 534.63
+  },
+  {
+   "text": "the",
+   "start": 534.63,
+   "end": 534.8
+  },
+  {
+   "text": "Mamluks",
+   "start": 534.8,
+   "end": 535.3
+  },
+  {
+   "text": "at",
+   "start": 535.3,
+   "end": 535.4
+  },
+  {
+   "text": "the",
+   "start": 535.4,
+   "end": 535.56
+  },
+  {
+   "text": "Battle",
+   "start": 535.56,
+   "end": 535.87
+  },
+  {
+   "text": "of",
+   "start": 535.87,
+   "end": 535.97
+  },
+  {
+   "text": "the",
+   "start": 535.97,
+   "end": 536.13
+  },
+  {
+   "text": "Pyramids.",
+   "start": 536.13,
+   "end": 536.74
+  },
+  {
+   "text": "But",
+   "start": 536.74,
+   "end": 536.9
+  },
+  {
+   "text": "11",
+   "start": 536.9,
+   "end": 537.23
+  },
+  {
+   "text": "days",
+   "start": 537.23,
+   "end": 537.45
+  },
+  {
+   "text": "later,",
+   "start": 537.45,
+   "end": 537.88
+  },
+  {
+   "text": "the",
+   "start": 537.88,
+   "end": 538
+  },
+  {
+   "text": "British",
+   "start": 538,
+   "end": 538.38
+  },
+  {
+   "text": "Admiral",
+   "start": 538.38,
+   "end": 538.77
+  },
+  {
+   "text": "Nelson",
+   "start": 538.77,
+   "end": 539.14
+  },
+  {
+   "text": "destroyed",
+   "start": 539.14,
+   "end": 539.83
+  },
+  {
+   "text": "his",
+   "start": 539.83,
+   "end": 539.98
+  },
+  {
+   "text": "fleet",
+   "start": 539.98,
+   "end": 540.34
+  },
+  {
+   "text": "at",
+   "start": 540.34,
+   "end": 540.47
+  },
+  {
+   "text": "the",
+   "start": 540.47,
+   "end": 540.68
+  },
+  {
+   "text": "Battle",
+   "start": 540.68,
+   "end": 541.1
+  },
+  {
+   "text": "of",
+   "start": 541.1,
+   "end": 541.45
+  },
+  {
+   "text": "the",
+   "start": 541.45,
+   "end": 541.45
+  },
+  {
+   "text": "Nile.",
+   "start": 541.45,
+   "end": 541.96
+  },
+  {
+   "text": "The",
+   "start": 541.96,
+   "end": 542.1
+  },
+  {
+   "text": "French",
+   "start": 542.1,
+   "end": 542.38
+  },
+  {
+   "text": "were",
+   "start": 542.38,
+   "end": 542.57
+  },
+  {
+   "text": "trapped,",
+   "start": 542.57,
+   "end": 543.05
+  },
+  {
+   "text": "but",
+   "start": 543.05,
+   "end": 543.14
+  },
+  {
+   "text": "the",
+   "start": 543.14,
+   "end": 543.31
+  },
+  {
+   "text": "scholars",
+   "start": 543.31,
+   "end": 543.73
+  },
+  {
+   "text": "kept",
+   "start": 543.73,
+   "end": 543.95
+  },
+  {
+   "text": "working.",
+   "start": 543.95,
+   "end": 544.58
+  },
+  {
+   "text": "Their",
+   "start": 544.58,
+   "end": 544.83
+  },
+  {
+   "text": "survey,",
+   "start": 544.83,
+   "end": 545.43
+  },
+  {
+   "text": "published",
+   "start": 545.43,
+   "end": 545.71
+  },
+  {
+   "text": "as",
+   "start": 545.71,
+   "end": 545.78
+  },
+  {
+   "text": "the",
+   "start": 545.78,
+   "end": 545.93
+  },
+  {
+   "text": "Description",
+   "start": 545.93,
+   "end": 546.5
+  },
+  {
+   "text": "de",
+   "start": 546.5,
+   "end": 546.66
+  },
+  {
+   "text": "L'Egypte,",
+   "start": 546.66,
+   "end": 547.34
+  },
+  {
+   "text": "helped",
+   "start": 547.34,
+   "end": 547.69
+  },
+  {
+   "text": "start",
+   "start": 547.69,
+   "end": 547.98
+  },
+  {
+   "text": "the",
+   "start": 547.98,
+   "end": 548.15
+  },
+  {
+   "text": "modern",
+   "start": 548.15,
+   "end": 548.5
+  },
+  {
+   "text": "study",
+   "start": 548.5,
+   "end": 548.79
+  },
+  {
+   "text": "of",
+   "start": 548.79,
+   "end": 548.9
+  },
+  {
+   "text": "ancient",
+   "start": 548.9,
+   "end": 549.3
+  },
+  {
+   "text": "Egypt.",
+   "start": 549.3,
+   "end": 549.8
+  },
+  {
+   "text": "In",
+   "start": 549.8,
+   "end": 549.95
+  },
+  {
+   "text": "1799,",
+   "start": 549.95,
+   "end": 550.84
+  },
+  {
+   "text": "their",
+   "start": 550.84,
+   "end": 551.17
+  },
+  {
+   "text": "soldiers",
+   "start": 551.17,
+   "end": 551.77
+  },
+  {
+   "text": "dug",
+   "start": 551.77,
+   "end": 551.88
+  },
+  {
+   "text": "up",
+   "start": 551.88,
+   "end": 552.1
+  },
+  {
+   "text": "the",
+   "start": 552.1,
+   "end": 552.21
+  },
+  {
+   "text": "stone",
+   "start": 552.21,
+   "end": 552.58
+  },
+  {
+   "text": "with",
+   "start": 552.58,
+   "end": 552.88
+  },
+  {
+   "text": "the",
+   "start": 552.88,
+   "end": 553.07
+  },
+  {
+   "text": "decree",
+   "start": 553.07,
+   "end": 553.49
+  },
+  {
+   "text": "of",
+   "start": 553.49,
+   "end": 553.63
+  },
+  {
+   "text": "Ptolemy",
+   "start": 553.63,
+   "end": 554.19
+  },
+  {
+   "text": "V",
+   "start": 554.19,
+   "end": 554.22
+  },
+  {
+   "text": "near",
+   "start": 554.22,
+   "end": 554.47
+  },
+  {
+   "text": "the",
+   "start": 554.47,
+   "end": 554.68
+  },
+  {
+   "text": "town",
+   "start": 554.68,
+   "end": 554.95
+  },
+  {
+   "text": "of",
+   "start": 554.95,
+   "end": 555.1
+  },
+  {
+   "text": "Rosetta.",
+   "start": 555.1,
+   "end": 555.84
+  },
+  {
+   "text": "Napoleon",
+   "start": 555.84,
+   "end": 556.34
+  },
+  {
+   "text": "left",
+   "start": 556.34,
+   "end": 556.59
+  },
+  {
+   "text": "Egypt",
+   "start": 556.59,
+   "end": 556.9
+  },
+  {
+   "text": "the",
+   "start": 556.9,
+   "end": 557.08
+  },
+  {
+   "text": "same",
+   "start": 557.08,
+   "end": 557.33
+  },
+  {
+   "text": "year.",
+   "start": 557.33,
+   "end": 557.8
+  },
+  {
+   "text": "His",
+   "start": 557.8,
+   "end": 557.97
+  },
+  {
+   "text": "army",
+   "start": 557.97,
+   "end": 558.24
+  },
+  {
+   "text": "surrendered",
+   "start": 558.24,
+   "end": 558.85
+  },
+  {
+   "text": "in",
+   "start": 558.85,
+   "end": 558.95
+  },
+  {
+   "text": "1801,",
+   "start": 558.95,
+   "end": 559.93
+  },
+  {
+   "text": "and",
+   "start": 559.93,
+   "end": 559.96
+  },
+  {
+   "text": "the",
+   "start": 559.96,
+   "end": 560.1
+  },
+  {
+   "text": "Rosetta",
+   "start": 560.1,
+   "end": 560.54
+  },
+  {
+   "text": "stone",
+   "start": 560.54,
+   "end": 560.86
+  },
+  {
+   "text": "went",
+   "start": 560.86,
+   "end": 561.11
+  },
+  {
+   "text": "to",
+   "start": 561.11,
+   "end": 561.22
+  },
+  {
+   "text": "the",
+   "start": 561.22,
+   "end": 561.4
+  },
+  {
+   "text": "British",
+   "start": 561.4,
+   "end": 561.82
+  },
+  {
+   "text": "Museum.",
+   "start": 561.82,
+   "end": 562.38
+  },
+  {
+   "text": "In",
+   "start": 562.38,
+   "end": 562.51
+  },
+  {
+   "text": "1822,",
+   "start": 562.51,
+   "end": 563.42
+  },
+  {
+   "text": "the",
+   "start": 563.42,
+   "end": 563.72
+  },
+  {
+   "text": "French",
+   "start": 563.72,
+   "end": 564
+  },
+  {
+   "text": "scholar",
+   "start": 564,
+   "end": 564.45
+  },
+  {
+   "text": "Champollion",
+   "start": 564.45,
+   "end": 565.18
+  },
+  {
+   "text": "used",
+   "start": 565.18,
+   "end": 565.38
+  },
+  {
+   "text": "it",
+   "start": 565.38,
+   "end": 565.51
+  },
+  {
+   "text": "to",
+   "start": 565.51,
+   "end": 565.59
+  },
+  {
+   "text": "read",
+   "start": 565.59,
+   "end": 565.8
+  },
+  {
+   "text": "hieroglyphs",
+   "start": 565.8,
+   "end": 566.37
+  },
+  {
+   "text": "for",
+   "start": 566.37,
+   "end": 566.53
+  },
+  {
+   "text": "the",
+   "start": 566.53,
+   "end": 566.71
+  },
+  {
+   "text": "first",
+   "start": 566.71,
+   "end": 566.97
+  },
+  {
+   "text": "time",
+   "start": 566.97,
+   "end": 567.26
+  },
+  {
+   "text": "in",
+   "start": 567.26,
+   "end": 567.63
+  },
+  {
+   "text": "about",
+   "start": 567.63,
+   "end": 568.04
+  },
+  {
+   "text": "1,400",
+   "start": 568.04,
+   "end": 569.6
+  },
+  {
+   "text": "years.",
+   "start": 569.6,
+   "end": 570.54
+  },
+  {
+   "text": "In",
+   "start": 570.54,
+   "end": 570.66
+  },
+  {
+   "text": "the",
+   "start": 570.66,
+   "end": 570.84
+  },
+  {
+   "text": "chaos",
+   "start": 570.84,
+   "end": 571.15
+  },
+  {
+   "text": "the",
+   "start": 571.15,
+   "end": 571.33
+  },
+  {
+   "text": "French",
+   "start": 571.33,
+   "end": 571.74
+  },
+  {
+   "text": "left",
+   "start": 571.74,
+   "end": 571.95
+  },
+  {
+   "text": "behind,",
+   "start": 571.95,
+   "end": 572.48
+  },
+  {
+   "text": "an",
+   "start": 572.48,
+   "end": 572.59
+  },
+  {
+   "text": "Albanian",
+   "start": 572.59,
+   "end": 573.05
+  },
+  {
+   "text": "officer",
+   "start": 573.05,
+   "end": 573.46
+  },
+  {
+   "text": "in",
+   "start": 573.46,
+   "end": 573.57
+  },
+  {
+   "text": "the",
+   "start": 573.57,
+   "end": 573.74
+  },
+  {
+   "text": "Ottoman",
+   "start": 573.74,
+   "end": 574.15
+  },
+  {
+   "text": "army",
+   "start": 574.15,
+   "end": 574.42
+  },
+  {
+   "text": "took",
+   "start": 574.45,
+   "end": 574.67
+  },
+  {
+   "text": "control.",
+   "start": 574.67,
+   "end": 575.3
+  },
+  {
+   "text": "His",
+   "start": 575.3,
+   "end": 575.49
+  },
+  {
+   "text": "name",
+   "start": 575.49,
+   "end": 575.75
+  },
+  {
+   "text": "was",
+   "start": 575.75,
+   "end": 575.94
+  },
+  {
+   "text": "Muhammad",
+   "start": 575.94,
+   "end": 576.46
+  },
+  {
+   "text": "Ali,",
+   "start": 576.46,
+   "end": 576.8
+  },
+  {
+   "text": "and",
+   "start": 576.8,
+   "end": 576.97
+  },
+  {
+   "text": "in",
+   "start": 576.97,
+   "end": 577.1
+  },
+  {
+   "text": "1805,",
+   "start": 577.1,
+   "end": 577.99
+  },
+  {
+   "text": "he",
+   "start": 577.99,
+   "end": 578.06
+  },
+  {
+   "text": "became",
+   "start": 578.06,
+   "end": 578.56
+  },
+  {
+   "text": "governor",
+   "start": 578.56,
+   "end": 579.21
+  },
+  {
+   "text": "of",
+   "start": 579.21,
+   "end": 579.79
+  },
+  {
+   "text": "Egypt.",
+   "start": 579.79,
+   "end": 580.06
+  },
+  {
+   "text": "In",
+   "start": 580.06,
+   "end": 580.18
+  },
+  {
+   "text": "1811,",
+   "start": 580.18,
+   "end": 581.14
+  },
+  {
+   "text": "he",
+   "start": 581.14,
+   "end": 581.21
+  },
+  {
+   "text": "invited",
+   "start": 581.21,
+   "end": 581.56
+  },
+  {
+   "text": "the",
+   "start": 581.56,
+   "end": 581.74
+  },
+  {
+   "text": "Mamluk",
+   "start": 581.74,
+   "end": 582.15
+  },
+  {
+   "text": "leaders",
+   "start": 582.15,
+   "end": 582.54
+  },
+  {
+   "text": "to",
+   "start": 582.54,
+   "end": 582.73
+  },
+  {
+   "text": "a",
+   "start": 582.73,
+   "end": 582.73
+  },
+  {
+   "text": "celebration",
+   "start": 582.73,
+   "end": 583.49
+  },
+  {
+   "text": "at",
+   "start": 583.49,
+   "end": 583.58
+  },
+  {
+   "text": "the",
+   "start": 583.58,
+   "end": 583.77
+  },
+  {
+   "text": "Citadel",
+   "start": 583.77,
+   "end": 584.23
+  },
+  {
+   "text": "of",
+   "start": 584.23,
+   "end": 584.36
+  },
+  {
+   "text": "Cairo,",
+   "start": 584.36,
+   "end": 584.9
+  },
+  {
+   "text": "closed",
+   "start": 584.9,
+   "end": 585.25
+  },
+  {
+   "text": "the",
+   "start": 585.25,
+   "end": 585.44
+  },
+  {
+   "text": "gates,",
+   "start": 585.44,
+   "end": 585.78
+  },
+  {
+   "text": "and",
+   "start": 585.78,
+   "end": 585.95
+  },
+  {
+   "text": "had",
+   "start": 585.95,
+   "end": 586.12
+  },
+  {
+   "text": "them",
+   "start": 586.12,
+   "end": 586.35
+  },
+  {
+   "text": "killed.",
+   "start": 586.35,
+   "end": 586.9
+  },
+  {
+   "text": "Then",
+   "start": 586.9,
+   "end": 587.14
+  },
+  {
+   "text": "he",
+   "start": 587.14,
+   "end": 587.26
+  },
+  {
+   "text": "rebuilt",
+   "start": 587.26,
+   "end": 587.69
+  },
+  {
+   "text": "the",
+   "start": 587.69,
+   "end": 587.87
+  },
+  {
+   "text": "country",
+   "start": 587.87,
+   "end": 588.3
+  },
+  {
+   "text": "with",
+   "start": 588.3,
+   "end": 588.54
+  },
+  {
+   "text": "a",
+   "start": 588.54,
+   "end": 588.6
+  },
+  {
+   "text": "modern",
+   "start": 588.6,
+   "end": 588.96
+  },
+  {
+   "text": "army,",
+   "start": 588.96,
+   "end": 589.37
+  },
+  {
+   "text": "state",
+   "start": 589.37,
+   "end": 589.71
+  },
+  {
+   "text": "factories,",
+   "start": 589.71,
+   "end": 590.26
+  },
+  {
+   "text": "and",
+   "start": 590.26,
+   "end": 590.44
+  },
+  {
+   "text": "new",
+   "start": 590.44,
+   "end": 590.62
+  },
+  {
+   "text": "schools,",
+   "start": 590.62,
+   "end": 591.28
+  },
+  {
+   "text": "and",
+   "start": 591.28,
+   "end": 591.35
+  },
+  {
+   "text": "turned",
+   "start": 591.35,
+   "end": 591.72
+  },
+  {
+   "text": "Egypt",
+   "start": 591.72,
+   "end": 592.06
+  },
+  {
+   "text": "into",
+   "start": 592.06,
+   "end": 592.33
+  },
+  {
+   "text": "a",
+   "start": 592.33,
+   "end": 592.39
+  },
+  {
+   "text": "major",
+   "start": 592.39,
+   "end": 592.73
+  },
+  {
+   "text": "exporter",
+   "start": 592.73,
+   "end": 593.27
+  },
+  {
+   "text": "of",
+   "start": 593.27,
+   "end": 593.4
+  },
+  {
+   "text": "cotton.",
+   "start": 593.4,
+   "end": 594.06
+  },
+  {
+   "text": "His",
+   "start": 594.06,
+   "end": 594.23
+  },
+  {
+   "text": "armies",
+   "start": 594.23,
+   "end": 594.58
+  },
+  {
+   "text": "conquered",
+   "start": 594.58,
+   "end": 595.11
+  },
+  {
+   "text": "Sudan",
+   "start": 595.11,
+   "end": 595.44
+  },
+  {
+   "text": "and",
+   "start": 595.44,
+   "end": 595.6
+  },
+  {
+   "text": "parts",
+   "start": 595.6,
+   "end": 595.9
+  },
+  {
+   "text": "of",
+   "start": 595.9,
+   "end": 596.08
+  },
+  {
+   "text": "Arabia",
+   "start": 596.08,
+   "end": 596.63
+  },
+  {
+   "text": "and",
+   "start": 596.63,
+   "end": 596.9
+  },
+  {
+   "text": "Syria,",
+   "start": 596.9,
+   "end": 597.38
+  },
+  {
+   "text": "and",
+   "start": 597.38,
+   "end": 597.57
+  },
+  {
+   "text": "his",
+   "start": 597.57,
+   "end": 597.74
+  },
+  {
+   "text": "son",
+   "start": 597.74,
+   "end": 597.92
+  },
+  {
+   "text": "nearly",
+   "start": 597.92,
+   "end": 598.29
+  },
+  {
+   "text": "reached",
+   "start": 598.29,
+   "end": 598.72
+  },
+  {
+   "text": "Constantinople.",
+   "start": 598.72,
+   "end": 599.82
+  },
+  {
+   "text": "In",
+   "start": 599.82,
+   "end": 599.95
+  },
+  {
+   "text": "1840,",
+   "start": 599.95,
+   "end": 600.93
+  },
+  {
+   "text": "the",
+   "start": 600.93,
+   "end": 600.94
+  },
+  {
+   "text": "European",
+   "start": 600.94,
+   "end": 601.41
+  },
+  {
+   "text": "powers",
+   "start": 601.41,
+   "end": 601.77
+  },
+  {
+   "text": "forced",
+   "start": 601.77,
+   "end": 602.16
+  },
+  {
+   "text": "him",
+   "start": 602.16,
+   "end": 602.39
+  },
+  {
+   "text": "to",
+   "start": 602.39,
+   "end": 602.48
+  },
+  {
+   "text": "pull",
+   "start": 602.48,
+   "end": 602.74
+  },
+  {
+   "text": "back,",
+   "start": 602.74,
+   "end": 603.14
+  },
+  {
+   "text": "but",
+   "start": 603.19,
+   "end": 603.46
+  },
+  {
+   "text": "his",
+   "start": 603.46,
+   "end": 603.58
+  },
+  {
+   "text": "family",
+   "start": 603.58,
+   "end": 604.02
+  },
+  {
+   "text": "won",
+   "start": 604.02,
+   "end": 604.29
+  },
+  {
+   "text": "the",
+   "start": 604.29,
+   "end": 604.46
+  },
+  {
+   "text": "right",
+   "start": 604.46,
+   "end": 604.82
+  },
+  {
+   "text": "to",
+   "start": 604.82,
+   "end": 605
+  },
+  {
+   "text": "rule",
+   "start": 605,
+   "end": 605.25
+  },
+  {
+   "text": "Egypt.",
+   "start": 605.25,
+   "end": 605.86
+  },
+  {
+   "text": "His",
+   "start": 605.86,
+   "end": 606.03
+  },
+  {
+   "text": "grandson",
+   "start": 606.03,
+   "end": 606.49
+  },
+  {
+   "text": "Ismael",
+   "start": 606.49,
+   "end": 606.82
+  },
+  {
+   "text": "spent",
+   "start": 606.82,
+   "end": 607.11
+  },
+  {
+   "text": "heavily",
+   "start": 607.11,
+   "end": 607.56
+  },
+  {
+   "text": "to",
+   "start": 607.56,
+   "end": 607.69
+  },
+  {
+   "text": "modernize",
+   "start": 607.69,
+   "end": 608.3
+  },
+  {
+   "text": "Egypt",
+   "start": 608.3,
+   "end": 608.72
+  },
+  {
+   "text": "along",
+   "start": 608.72,
+   "end": 608.98
+  },
+  {
+   "text": "European",
+   "start": 608.98,
+   "end": 609.52
+  },
+  {
+   "text": "lines.",
+   "start": 609.52,
+   "end": 610.1
+  },
+  {
+   "text": "In",
+   "start": 610.1,
+   "end": 610.23
+  },
+  {
+   "text": "1869,",
+   "start": 610.23,
+   "end": 611.18
+  },
+  {
+   "text": "during",
+   "start": 611.18,
+   "end": 611.59
+  },
+  {
+   "text": "his",
+   "start": 611.59,
+   "end": 611.79
+  },
+  {
+   "text": "reign,",
+   "start": 611.79,
+   "end": 612.35
+  },
+  {
+   "text": "the",
+   "start": 612.35,
+   "end": 612.48
+  },
+  {
+   "text": "Suez",
+   "start": 612.48,
+   "end": 612.73
+  },
+  {
+   "text": "Canal",
+   "start": 612.73,
+   "end": 613.16
+  },
+  {
+   "text": "opened",
+   "start": 613.16,
+   "end": 613.47
+  },
+  {
+   "text": "after",
+   "start": 613.47,
+   "end": 613.78
+  },
+  {
+   "text": "10",
+   "start": 613.78,
+   "end": 614.04
+  },
+  {
+   "text": "years",
+   "start": 614.04,
+   "end": 614.3
+  },
+  {
+   "text": "of",
+   "start": 614.3,
+   "end": 614.4
+  },
+  {
+   "text": "digging.",
+   "start": 614.4,
+   "end": 614.96
+  },
+  {
+   "text": "At",
+   "start": 614.96,
+   "end": 615.08
+  },
+  {
+   "text": "193",
+   "start": 615.08,
+   "end": 615.68
+  },
+  {
+   "text": "kilometers",
+   "start": 615.68,
+   "end": 616.3
+  },
+  {
+   "text": "long,",
+   "start": 616.3,
+   "end": 616.67
+  },
+  {
+   "text": "it",
+   "start": 616.67,
+   "end": 616.93
+  },
+  {
+   "text": "connected",
+   "start": 616.93,
+   "end": 617.42
+  },
+  {
+   "text": "the",
+   "start": 617.42,
+   "end": 617.55
+  },
+  {
+   "text": "Mediterranean",
+   "start": 617.55,
+   "end": 618.12
+  },
+  {
+   "text": "to",
+   "start": 618.12,
+   "end": 618.25
+  },
+  {
+   "text": "the",
+   "start": 618.25,
+   "end": 618.44
+  },
+  {
+   "text": "Red",
+   "start": 618.44,
+   "end": 618.61
+  },
+  {
+   "text": "Sea,",
+   "start": 618.61,
+   "end": 619.08
+  },
+  {
+   "text": "so",
+   "start": 619.08,
+   "end": 619.09
+  },
+  {
+   "text": "ships",
+   "start": 619.09,
+   "end": 619.4
+  },
+  {
+   "text": "from",
+   "start": 619.4,
+   "end": 619.66
+  },
+  {
+   "text": "Europe",
+   "start": 619.66,
+   "end": 620.1
+  },
+  {
+   "text": "no",
+   "start": 620.1,
+   "end": 620.3
+  },
+  {
+   "text": "longer",
+   "start": 620.3,
+   "end": 620.6
+  },
+  {
+   "text": "had",
+   "start": 620.6,
+   "end": 620.86
+  },
+  {
+   "text": "to",
+   "start": 620.86,
+   "end": 621.03
+  },
+  {
+   "text": "sail",
+   "start": 621.03,
+   "end": 621.37
+  },
+  {
+   "text": "around",
+   "start": 621.37,
+   "end": 621.82
+  },
+  {
+   "text": "Africa.",
+   "start": 621.82,
+   "end": 622.68
+  },
+  {
+   "text": "It",
+   "start": 622.68,
+   "end": 622.81
+  },
+  {
+   "text": "also",
+   "start": 622.81,
+   "end": 623.07
+  },
+  {
+   "text": "ruined",
+   "start": 623.07,
+   "end": 623.47
+  },
+  {
+   "text": "Egypt's",
+   "start": 623.47,
+   "end": 623.93
+  },
+  {
+   "text": "finances.",
+   "start": 623.93,
+   "end": 624.7
+  },
+  {
+   "text": "In",
+   "start": 624.7,
+   "end": 624.85
+  },
+  {
+   "text": "1875,",
+   "start": 624.85,
+   "end": 626.06
+  },
+  {
+   "text": "deep",
+   "start": 626.06,
+   "end": 626.22
+  },
+  {
+   "text": "in",
+   "start": 626.22,
+   "end": 626.37
+  },
+  {
+   "text": "debt,",
+   "start": 626.37,
+   "end": 626.82
+  },
+  {
+   "text": "Ismael",
+   "start": 626.82,
+   "end": 627.37
+  },
+  {
+   "text": "sold",
+   "start": 627.37,
+   "end": 627.62
+  },
+  {
+   "text": "Egypt's",
+   "start": 627.62,
+   "end": 627.98
+  },
+  {
+   "text": "share",
+   "start": 627.98,
+   "end": 628.26
+  },
+  {
+   "text": "in",
+   "start": 628.26,
+   "end": 628.43
+  },
+  {
+   "text": "the",
+   "start": 628.43,
+   "end": 628.57
+  },
+  {
+   "text": "canal",
+   "start": 628.57,
+   "end": 628.88
+  },
+  {
+   "text": "to",
+   "start": 628.88,
+   "end": 629
+  },
+  {
+   "text": "Britain",
+   "start": 629,
+   "end": 629.49
+  },
+  {
+   "text": "for",
+   "start": 629.49,
+   "end": 629.69
+  },
+  {
+   "text": "4",
+   "start": 629.69,
+   "end": 629.82
+  },
+  {
+   "text": "million",
+   "start": 629.82,
+   "end": 630.26
+  },
+  {
+   "text": "pounds.",
+   "start": 630.26,
+   "end": 630.88
+  },
+  {
+   "text": "Seven",
+   "start": 630.89,
+   "end": 631.22
+  },
+  {
+   "text": "years",
+   "start": 631.22,
+   "end": 631.56
+  },
+  {
+   "text": "later,",
+   "start": 631.56,
+   "end": 632.08
+  },
+  {
+   "text": "after",
+   "start": 632.08,
+   "end": 632.37
+  },
+  {
+   "text": "an",
+   "start": 632.37,
+   "end": 632.5
+  },
+  {
+   "text": "army",
+   "start": 632.5,
+   "end": 632.77
+  },
+  {
+   "text": "revolt,",
+   "start": 632.77,
+   "end": 633.36
+  },
+  {
+   "text": "British",
+   "start": 633.36,
+   "end": 633.71
+  },
+  {
+   "text": "troops",
+   "start": 633.71,
+   "end": 634.01
+  },
+  {
+   "text": "invaded",
+   "start": 634.01,
+   "end": 634.36
+  },
+  {
+   "text": "and",
+   "start": 634.36,
+   "end": 634.51
+  },
+  {
+   "text": "defeated",
+   "start": 634.51,
+   "end": 634.94
+  },
+  {
+   "text": "the",
+   "start": 634.94,
+   "end": 635.1
+  },
+  {
+   "text": "Egyptian",
+   "start": 635.1,
+   "end": 635.52
+  },
+  {
+   "text": "army",
+   "start": 635.52,
+   "end": 635.74
+  },
+  {
+   "text": "at",
+   "start": 635.74,
+   "end": 635.9
+  },
+  {
+   "text": "Tell",
+   "start": 635.9,
+   "end": 636.24
+  },
+  {
+   "text": "el-Kabir.",
+   "start": 636.24,
+   "end": 637.14
+  },
+  {
+   "text": "Britain",
+   "start": 637.14,
+   "end": 637.45
+  },
+  {
+   "text": "controlled",
+   "start": 637.45,
+   "end": 637.9
+  },
+  {
+   "text": "Egypt",
+   "start": 637.9,
+   "end": 638.18
+  },
+  {
+   "text": "from",
+   "start": 638.18,
+   "end": 638.3
+  },
+  {
+   "text": "then",
+   "start": 638.3,
+   "end": 638.5
+  },
+  {
+   "text": "on,",
+   "start": 638.5,
+   "end": 638.98
+  },
+  {
+   "text": "even",
+   "start": 638.98,
+   "end": 639.2
+  },
+  {
+   "text": "though",
+   "start": 639.2,
+   "end": 639.34
+  },
+  {
+   "text": "on",
+   "start": 639.34,
+   "end": 639.48
+  },
+  {
+   "text": "paper",
+   "start": 639.48,
+   "end": 639.84
+  },
+  {
+   "text": "it",
+   "start": 639.84,
+   "end": 639.98
+  },
+  {
+   "text": "was",
+   "start": 639.98,
+   "end": 640.19
+  },
+  {
+   "text": "still",
+   "start": 640.19,
+   "end": 640.54
+  },
+  {
+   "text": "part",
+   "start": 640.54,
+   "end": 640.82
+  },
+  {
+   "text": "of",
+   "start": 640.82,
+   "end": 640.96
+  },
+  {
+   "text": "the",
+   "start": 640.96,
+   "end": 641.17
+  },
+  {
+   "text": "Ottoman",
+   "start": 641.17,
+   "end": 642.08
+  },
+  {
+   "text": "Empire.",
+   "start": 642.08,
+   "end": 642.32
+  },
+  {
+   "text": "When",
+   "start": 642.32,
+   "end": 642.54
+  },
+  {
+   "text": "the",
+   "start": 642.54,
+   "end": 642.7
+  },
+  {
+   "text": "Ottomans",
+   "start": 642.7,
+   "end": 643.13
+  },
+  {
+   "text": "joined",
+   "start": 643.13,
+   "end": 643.46
+  },
+  {
+   "text": "the",
+   "start": 643.46,
+   "end": 643.64
+  },
+  {
+   "text": "First",
+   "start": 643.64,
+   "end": 643.89
+  },
+  {
+   "text": "World",
+   "start": 643.89,
+   "end": 644.16
+  },
+  {
+   "text": "War,",
+   "start": 644.16,
+   "end": 644.48
+  },
+  {
+   "text": "Britain",
+   "start": 644.48,
+   "end": 644.89
+  },
+  {
+   "text": "made",
+   "start": 644.89,
+   "end": 645.11
+  },
+  {
+   "text": "Egypt",
+   "start": 645.11,
+   "end": 645.41
+  },
+  {
+   "text": "a",
+   "start": 645.41,
+   "end": 645.53
+  },
+  {
+   "text": "formal",
+   "start": 645.53,
+   "end": 645.81
+  },
+  {
+   "text": "protectorate.",
+   "start": 645.81,
+   "end": 646.72
+  },
+  {
+   "text": "In",
+   "start": 646.72,
+   "end": 646.84
+  },
+  {
+   "text": "1919,",
+   "start": 646.84,
+   "end": 647.74
+  },
+  {
+   "text": "the",
+   "start": 647.74,
+   "end": 647.96
+  },
+  {
+   "text": "country",
+   "start": 647.96,
+   "end": 648.37
+  },
+  {
+   "text": "rose",
+   "start": 648.37,
+   "end": 648.62
+  },
+  {
+   "text": "up",
+   "start": 648.62,
+   "end": 648.74
+  },
+  {
+   "text": "in",
+   "start": 648.74,
+   "end": 648.86
+  },
+  {
+   "text": "revolution,",
+   "start": 648.86,
+   "end": 649.56
+  },
+  {
+   "text": "and",
+   "start": 649.56,
+   "end": 649.76
+  },
+  {
+   "text": "on",
+   "start": 649.76,
+   "end": 649.92
+  },
+  {
+   "text": "the",
+   "start": 649.92,
+   "end": 650.09
+  },
+  {
+   "text": "28th",
+   "start": 650.09,
+   "end": 650.62
+  },
+  {
+   "text": "of",
+   "start": 650.62,
+   "end": 650.74
+  },
+  {
+   "text": "February,",
+   "start": 650.74,
+   "end": 651.41
+  },
+  {
+   "text": "1922,",
+   "start": 651.41,
+   "end": 652.38
+  },
+  {
+   "text": "Britain",
+   "start": 652.38,
+   "end": 652.64
+  },
+  {
+   "text": "declared",
+   "start": 652.64,
+   "end": 653.08
+  },
+  {
+   "text": "Egypt",
+   "start": 653.08,
+   "end": 653.36
+  },
+  {
+   "text": "independent",
+   "start": 653.36,
+   "end": 654.21
+  },
+  {
+   "text": "while",
+   "start": 654.21,
+   "end": 654.25
+  },
+  {
+   "text": "keeping",
+   "start": 654.25,
+   "end": 654.66
+  },
+  {
+   "text": "control",
+   "start": 654.66,
+   "end": 655.06
+  },
+  {
+   "text": "of",
+   "start": 655.06,
+   "end": 655.29
+  },
+  {
+   "text": "defense",
+   "start": 655.29,
+   "end": 655.8
+  },
+  {
+   "text": "and",
+   "start": 655.8,
+   "end": 656.04
+  },
+  {
+   "text": "the",
+   "start": 656.04,
+   "end": 656.72
+  },
+  {
+   "text": "canal.",
+   "start": 656.72,
+   "end": 657
+  },
+  {
+   "text": "That",
+   "start": 657,
+   "end": 657.24
+  },
+  {
+   "text": "same",
+   "start": 657.24,
+   "end": 657.48
+  },
+  {
+   "text": "year,",
+   "start": 657.48,
+   "end": 657.97
+  },
+  {
+   "text": "Howard",
+   "start": 657.97,
+   "end": 658.18
+  },
+  {
+   "text": "Carter",
+   "start": 658.18,
+   "end": 658.53
+  },
+  {
+   "text": "opened",
+   "start": 658.53,
+   "end": 658.92
+  },
+  {
+   "text": "the",
+   "start": 658.92,
+   "end": 659.1
+  },
+  {
+   "text": "tomb",
+   "start": 659.1,
+   "end": 659.34
+  },
+  {
+   "text": "of",
+   "start": 659.34,
+   "end": 659.51
+  },
+  {
+   "text": "Tutankhamun,",
+   "start": 659.51,
+   "end": 660.48
+  },
+  {
+   "text": "which",
+   "start": 660.48,
+   "end": 660.77
+  },
+  {
+   "text": "set",
+   "start": 660.77,
+   "end": 660.97
+  },
+  {
+   "text": "off",
+   "start": 660.97,
+   "end": 661.11
+  },
+  {
+   "text": "a",
+   "start": 661.11,
+   "end": 661.16
+  },
+  {
+   "text": "new",
+   "start": 661.16,
+   "end": 661.33
+  },
+  {
+   "text": "wave",
+   "start": 661.33,
+   "end": 661.56
+  },
+  {
+   "text": "of",
+   "start": 661.56,
+   "end": 661.71
+  },
+  {
+   "text": "fascination",
+   "start": 661.71,
+   "end": 662.36
+  },
+  {
+   "text": "with",
+   "start": 662.36,
+   "end": 662.57
+  },
+  {
+   "text": "ancient",
+   "start": 662.57,
+   "end": 662.94
+  },
+  {
+   "text": "Egypt",
+   "start": 662.94,
+   "end": 663.22
+  },
+  {
+   "text": "around",
+   "start": 663.22,
+   "end": 664.58
+  },
+  {
+   "text": "the",
+   "start": 664.58,
+   "end": 664.58
+  },
+  {
+   "text": "world.",
+   "start": 664.58,
+   "end": 665.8
+  },
+  {
+   "text": "On",
+   "start": 665.8,
+   "end": 665.95
+  },
+  {
+   "text": "the",
+   "start": 665.95,
+   "end": 666.16
+  },
+  {
+   "text": "23rd",
+   "start": 666.16,
+   "end": 666.74
+  },
+  {
+   "text": "of",
+   "start": 666.74,
+   "end": 666.88
+  },
+  {
+   "text": "July,",
+   "start": 666.88,
+   "end": 667.33
+  },
+  {
+   "text": "1952,",
+   "start": 667.33,
+   "end": 668.4
+  },
+  {
+   "text": "a",
+   "start": 668.4,
+   "end": 668.49
+  },
+  {
+   "text": "group",
+   "start": 668.49,
+   "end": 668.84
+  },
+  {
+   "text": "of",
+   "start": 668.84,
+   "end": 668.97
+  },
+  {
+   "text": "army",
+   "start": 668.97,
+   "end": 669.24
+  },
+  {
+   "text": "officers",
+   "start": 669.24,
+   "end": 669.8
+  },
+  {
+   "text": "called",
+   "start": 669.8,
+   "end": 670.22
+  },
+  {
+   "text": "the",
+   "start": 670.22,
+   "end": 670.35
+  },
+  {
+   "text": "Free",
+   "start": 670.35,
+   "end": 670.59
+  },
+  {
+   "text": "Officers",
+   "start": 670.59,
+   "end": 671.08
+  },
+  {
+   "text": "overthrew",
+   "start": 671.08,
+   "end": 671.63
+  },
+  {
+   "text": "King",
+   "start": 671.63,
+   "end": 671.87
+  },
+  {
+   "text": "Farouk.",
+   "start": 671.87,
+   "end": 672.48
+  },
+  {
+   "text": "A",
+   "start": 672.48,
+   "end": 672.53
+  },
+  {
+   "text": "year",
+   "start": 672.53,
+   "end": 672.76
+  },
+  {
+   "text": "later,",
+   "start": 672.76,
+   "end": 673.16
+  },
+  {
+   "text": "the",
+   "start": 673.16,
+   "end": 673.33
+  },
+  {
+   "text": "monarchy",
+   "start": 673.33,
+   "end": 673.8
+  },
+  {
+   "text": "was",
+   "start": 673.8,
+   "end": 673.97
+  },
+  {
+   "text": "gone.",
+   "start": 673.97,
+   "end": 674.44
+  },
+  {
+   "text": "And",
+   "start": 674.44,
+   "end": 674.63
+  },
+  {
+   "text": "in",
+   "start": 674.63,
+   "end": 674.76
+  },
+  {
+   "text": "1956,",
+   "start": 674.76,
+   "end": 675.7
+  },
+  {
+   "text": "one",
+   "start": 675.7,
+   "end": 675.86
+  },
+  {
+   "text": "of",
+   "start": 675.86,
+   "end": 675.98
+  },
+  {
+   "text": "the",
+   "start": 675.98,
+   "end": 676.18
+  },
+  {
+   "text": "officers,",
+   "start": 676.18,
+   "end": 676.83
+  },
+  {
+   "text": "Gamal",
+   "start": 676.83,
+   "end": 677.15
+  },
+  {
+   "text": "Abdel",
+   "start": 677.15,
+   "end": 677.52
+  },
+  {
+   "text": "Nasser,",
+   "start": 677.52,
+   "end": 678.12
+  },
+  {
+   "text": "became",
+   "start": 678.12,
+   "end": 678.65
+  },
+  {
+   "text": "president.",
+   "start": 678.65,
+   "end": 679.76
+  },
+  {
+   "text": "The",
+   "start": 679.76,
+   "end": 679.91
+  },
+  {
+   "text": "last",
+   "start": 679.91,
+   "end": 680.2
+  },
+  {
+   "text": "British",
+   "start": 680.2,
+   "end": 680.48
+  },
+  {
+   "text": "soldiers",
+   "start": 680.48,
+   "end": 680.88
+  },
+  {
+   "text": "had",
+   "start": 680.88,
+   "end": 681.01
+  },
+  {
+   "text": "left",
+   "start": 681.01,
+   "end": 681.25
+  },
+  {
+   "text": "the",
+   "start": 681.25,
+   "end": 681.43
+  },
+  {
+   "text": "canal",
+   "start": 681.43,
+   "end": 681.74
+  },
+  {
+   "text": "zone",
+   "start": 681.74,
+   "end": 682
+  },
+  {
+   "text": "in",
+   "start": 682,
+   "end": 682.18
+  },
+  {
+   "text": "June",
+   "start": 682.18,
+   "end": 682.52
+  },
+  {
+   "text": "1956.",
+   "start": 682.52,
+   "end": 683.88
+  },
+  {
+   "text": "A",
+   "start": 683.88,
+   "end": 683.94
+  },
+  {
+   "text": "month",
+   "start": 683.94,
+   "end": 684.26
+  },
+  {
+   "text": "later,",
+   "start": 684.26,
+   "end": 684.77
+  },
+  {
+   "text": "Nasser",
+   "start": 684.77,
+   "end": 685.12
+  },
+  {
+   "text": "nationalized",
+   "start": 685.12,
+   "end": 685.92
+  },
+  {
+   "text": "the",
+   "start": 685.92,
+   "end": 686.14
+  },
+  {
+   "text": "Suez",
+   "start": 686.14,
+   "end": 686.43
+  },
+  {
+   "text": "Canal.",
+   "start": 686.43,
+   "end": 687.06
+  },
+  {
+   "text": "Israel,",
+   "start": 687.06,
+   "end": 687.55
+  },
+  {
+   "text": "Britain,",
+   "start": 687.55,
+   "end": 688.1
+  },
+  {
+   "text": "and",
+   "start": 688.1,
+   "end": 688.24
+  },
+  {
+   "text": "France",
+   "start": 688.24,
+   "end": 688.6
+  },
+  {
+   "text": "invaded,",
+   "start": 688.6,
+   "end": 689.16
+  },
+  {
+   "text": "but",
+   "start": 689.16,
+   "end": 689.31
+  },
+  {
+   "text": "the",
+   "start": 689.31,
+   "end": 689.46
+  },
+  {
+   "text": "United",
+   "start": 689.46,
+   "end": 689.8
+  },
+  {
+   "text": "States",
+   "start": 689.8,
+   "end": 690.08
+  },
+  {
+   "text": "and",
+   "start": 690.08,
+   "end": 690.3
+  },
+  {
+   "text": "the",
+   "start": 690.3,
+   "end": 690.38
+  },
+  {
+   "text": "Soviet",
+   "start": 690.38,
+   "end": 690.69
+  },
+  {
+   "text": "Union",
+   "start": 690.69,
+   "end": 691
+  },
+  {
+   "text": "forced",
+   "start": 691,
+   "end": 691.36
+  },
+  {
+   "text": "them",
+   "start": 691.36,
+   "end": 691.6
+  },
+  {
+   "text": "to",
+   "start": 691.6,
+   "end": 691.74
+  },
+  {
+   "text": "withdraw.",
+   "start": 691.74,
+   "end": 692.4
+  },
+  {
+   "text": "And",
+   "start": 692.4,
+   "end": 692.59
+  },
+  {
+   "text": "Nasser",
+   "start": 692.59,
+   "end": 692.97
+  },
+  {
+   "text": "came",
+   "start": 692.97,
+   "end": 693.23
+  },
+  {
+   "text": "out",
+   "start": 693.23,
+   "end": 693.42
+  },
+  {
+   "text": "of",
+   "start": 693.42,
+   "end": 693.55
+  },
+  {
+   "text": "the",
+   "start": 693.55,
+   "end": 693.74
+  },
+  {
+   "text": "crisis",
+   "start": 693.74,
+   "end": 694.18
+  },
+  {
+   "text": "as",
+   "start": 694.18,
+   "end": 694.32
+  },
+  {
+   "text": "the",
+   "start": 694.32,
+   "end": 694.53
+  },
+  {
+   "text": "hero",
+   "start": 694.53,
+   "end": 694.82
+  },
+  {
+   "text": "of",
+   "start": 694.82,
+   "end": 694.96
+  },
+  {
+   "text": "the",
+   "start": 694.96,
+   "end": 695.18
+  },
+  {
+   "text": "Arab",
+   "start": 695.18,
+   "end": 695.46
+  },
+  {
+   "text": "world.",
+   "start": 695.46,
+   "end": 696.08
+  },
+  {
+   "text": "In",
+   "start": 696.08,
+   "end": 696.2
+  },
+  {
+   "text": "1958,",
+   "start": 696.2,
+   "end": 697.08
+  },
+  {
+   "text": "Egypt",
+   "start": 697.08,
+   "end": 697.49
+  },
+  {
+   "text": "even",
+   "start": 697.49,
+   "end": 697.65
+  },
+  {
+   "text": "merged",
+   "start": 697.65,
+   "end": 698.05
+  },
+  {
+   "text": "with",
+   "start": 698.05,
+   "end": 698.28
+  },
+  {
+   "text": "Syria",
+   "start": 698.28,
+   "end": 698.64
+  },
+  {
+   "text": "into",
+   "start": 698.64,
+   "end": 698.89
+  },
+  {
+   "text": "one",
+   "start": 698.89,
+   "end": 699.07
+  },
+  {
+   "text": "country,",
+   "start": 699.07,
+   "end": 699.77
+  },
+  {
+   "text": "the",
+   "start": 699.77,
+   "end": 699.8
+  },
+  {
+   "text": "United",
+   "start": 699.8,
+   "end": 700.17
+  },
+  {
+   "text": "Arab",
+   "start": 700.17,
+   "end": 700.46
+  },
+  {
+   "text": "Republic,",
+   "start": 700.46,
+   "end": 701.24
+  },
+  {
+   "text": "although",
+   "start": 701.24,
+   "end": 701.71
+  },
+  {
+   "text": "the",
+   "start": 701.71,
+   "end": 701.88
+  },
+  {
+   "text": "union",
+   "start": 701.88,
+   "end": 702.17
+  },
+  {
+   "text": "broke",
+   "start": 702.17,
+   "end": 702.46
+  },
+  {
+   "text": "up",
+   "start": 702.46,
+   "end": 702.62
+  },
+  {
+   "text": "after",
+   "start": 702.62,
+   "end": 702.86
+  },
+  {
+   "text": "three",
+   "start": 702.86,
+   "end": 703.14
+  },
+  {
+   "text": "years.",
+   "start": 703.14,
+   "end": 703.68
+  },
+  {
+   "text": "At",
+   "start": 703.68,
+   "end": 703.79
+  },
+  {
+   "text": "home,",
+   "start": 703.79,
+   "end": 704.13
+  },
+  {
+   "text": "after",
+   "start": 704.13,
+   "end": 704.42
+  },
+  {
+   "text": "the",
+   "start": 704.42,
+   "end": 704.61
+  },
+  {
+   "text": "United",
+   "start": 704.61,
+   "end": 704.94
+  },
+  {
+   "text": "States",
+   "start": 704.94,
+   "end": 705.29
+  },
+  {
+   "text": "withdrew",
+   "start": 705.29,
+   "end": 705.79
+  },
+  {
+   "text": "its",
+   "start": 705.79,
+   "end": 705.93
+  },
+  {
+   "text": "funding,",
+   "start": 705.93,
+   "end": 706.52
+  },
+  {
+   "text": "Nasser",
+   "start": 706.52,
+   "end": 706.85
+  },
+  {
+   "text": "turned",
+   "start": 706.85,
+   "end": 707.19
+  },
+  {
+   "text": "to",
+   "start": 707.19,
+   "end": 707.3
+  },
+  {
+   "text": "the",
+   "start": 707.3,
+   "end": 707.47
+  },
+  {
+   "text": "Soviet",
+   "start": 707.47,
+   "end": 707.81
+  },
+  {
+   "text": "Union",
+   "start": 707.81,
+   "end": 708.12
+  },
+  {
+   "text": "to",
+   "start": 708.12,
+   "end": 708.28
+  },
+  {
+   "text": "build",
+   "start": 708.28,
+   "end": 708.6
+  },
+  {
+   "text": "the",
+   "start": 708.6,
+   "end": 708.82
+  },
+  {
+   "text": "Eswan",
+   "start": 708.82,
+   "end": 709.17
+  },
+  {
+   "text": "High",
+   "start": 709.17,
+   "end": 709.45
+  },
+  {
+   "text": "Dam,",
+   "start": 709.45,
+   "end": 709.94
+  },
+  {
+   "text": "which",
+   "start": 709.94,
+   "end": 710.16
+  },
+  {
+   "text": "ended",
+   "start": 710.16,
+   "end": 710.42
+  },
+  {
+   "text": "the",
+   "start": 710.42,
+   "end": 710.58
+  },
+  {
+   "text": "yearly",
+   "start": 710.58,
+   "end": 710.9
+  },
+  {
+   "text": "Nile",
+   "start": 710.9,
+   "end": 711.11
+  },
+  {
+   "text": "flood",
+   "start": 711.11,
+   "end": 711.37
+  },
+  {
+   "text": "that",
+   "start": 711.37,
+   "end": 711.58
+  },
+  {
+   "text": "had",
+   "start": 711.58,
+   "end": 711.74
+  },
+  {
+   "text": "shaped",
+   "start": 711.74,
+   "end": 712.1
+  },
+  {
+   "text": "Egypt",
+   "start": 712.1,
+   "end": 712.6
+  },
+  {
+   "text": "since",
+   "start": 712.6,
+   "end": 713
+  },
+  {
+   "text": "before",
+   "start": 713,
+   "end": 713.48
+  },
+  {
+   "text": "the",
+   "start": 713.48,
+   "end": 713.72
+  },
+  {
+   "text": "pharaohs.",
+   "start": 713.72,
+   "end": 714.6
+  },
+  {
+   "text": "In",
+   "start": 714.6,
+   "end": 714.74
+  },
+  {
+   "text": "1967,",
+   "start": 714.74,
+   "end": 715.73
+  },
+  {
+   "text": "Israel",
+   "start": 715.73,
+   "end": 716.15
+  },
+  {
+   "text": "destroyed",
+   "start": 716.15,
+   "end": 716.79
+  },
+  {
+   "text": "Egypt's",
+   "start": 716.79,
+   "end": 717.28
+  },
+  {
+   "text": "air",
+   "start": 717.28,
+   "end": 717.49
+  },
+  {
+   "text": "force",
+   "start": 717.49,
+   "end": 717.88
+  },
+  {
+   "text": "in",
+   "start": 717.88,
+   "end": 718.05
+  },
+  {
+   "text": "a",
+   "start": 718.05,
+   "end": 718.06
+  },
+  {
+   "text": "few",
+   "start": 718.06,
+   "end": 718.26
+  },
+  {
+   "text": "hours",
+   "start": 718.26,
+   "end": 718.82
+  },
+  {
+   "text": "and",
+   "start": 718.82,
+   "end": 719.09
+  },
+  {
+   "text": "took",
+   "start": 719.09,
+   "end": 719.33
+  },
+  {
+   "text": "the",
+   "start": 719.33,
+   "end": 719.55
+  },
+  {
+   "text": "Sinai",
+   "start": 719.55,
+   "end": 719.92
+  },
+  {
+   "text": "Peninsula",
+   "start": 719.92,
+   "end": 720.57
+  },
+  {
+   "text": "and",
+   "start": 720.57,
+   "end": 720.79
+  },
+  {
+   "text": "Gaza",
+   "start": 720.79,
+   "end": 721.08
+  },
+  {
+   "text": "in",
+   "start": 721.08,
+   "end": 721.22
+  },
+  {
+   "text": "six",
+   "start": 721.22,
+   "end": 721.44
+  },
+  {
+   "text": "days.",
+   "start": 721.44,
+   "end": 722
+  },
+  {
+   "text": "Nasser",
+   "start": 722,
+   "end": 722.49
+  },
+  {
+   "text": "died",
+   "start": 722.49,
+   "end": 722.82
+  },
+  {
+   "text": "three",
+   "start": 722.82,
+   "end": 723.23
+  },
+  {
+   "text": "years",
+   "start": 723.23,
+   "end": 724.05
+  },
+  {
+   "text": "later.",
+   "start": 724.05,
+   "end": 724.34
+  },
+  {
+   "text": "His",
+   "start": 724.34,
+   "end": 724.53
+  },
+  {
+   "text": "successor,",
+   "start": 724.53,
+   "end": 725.24
+  },
+  {
+   "text": "Anwar",
+   "start": 725.24,
+   "end": 725.56
+  },
+  {
+   "text": "Sadat,",
+   "start": 725.56,
+   "end": 726.12
+  },
+  {
+   "text": "attacked",
+   "start": 726.12,
+   "end": 726.56
+  },
+  {
+   "text": "on",
+   "start": 726.56,
+   "end": 726.7
+  },
+  {
+   "text": "the",
+   "start": 726.7,
+   "end": 726.94
+  },
+  {
+   "text": "6th",
+   "start": 726.94,
+   "end": 727.32
+  },
+  {
+   "text": "of",
+   "start": 727.32,
+   "end": 727.47
+  },
+  {
+   "text": "October,",
+   "start": 727.47,
+   "end": 728.16
+  },
+  {
+   "text": "1973.",
+   "start": 728.16,
+   "end": 729.36
+  },
+  {
+   "text": "Egyptian",
+   "start": 729.36,
+   "end": 729.91
+  },
+  {
+   "text": "troops",
+   "start": 729.91,
+   "end": 730.32
+  },
+  {
+   "text": "crossed",
+   "start": 730.32,
+   "end": 730.8
+  },
+  {
+   "text": "the",
+   "start": 730.8,
+   "end": 731
+  },
+  {
+   "text": "Suez",
+   "start": 731,
+   "end": 731.26
+  },
+  {
+   "text": "Canal",
+   "start": 731.26,
+   "end": 731.64
+  },
+  {
+   "text": "and",
+   "start": 731.64,
+   "end": 731.79
+  },
+  {
+   "text": "broke",
+   "start": 731.79,
+   "end": 732.11
+  },
+  {
+   "text": "through",
+   "start": 732.11,
+   "end": 732.39
+  },
+  {
+   "text": "the",
+   "start": 732.39,
+   "end": 732.54
+  },
+  {
+   "text": "Israeli",
+   "start": 732.54,
+   "end": 732.89
+  },
+  {
+   "text": "defenses",
+   "start": 732.89,
+   "end": 733.29
+  },
+  {
+   "text": "on",
+   "start": 733.29,
+   "end": 733.39
+  },
+  {
+   "text": "the",
+   "start": 733.39,
+   "end": 733.54
+  },
+  {
+   "text": "other",
+   "start": 733.54,
+   "end": 733.79
+  },
+  {
+   "text": "side.",
+   "start": 733.79,
+   "end": 734.2
+  },
+  {
+   "text": "The",
+   "start": 734.2,
+   "end": 734.37
+  },
+  {
+   "text": "war",
+   "start": 734.37,
+   "end": 734.54
+  },
+  {
+   "text": "ended",
+   "start": 734.54,
+   "end": 734.83
+  },
+  {
+   "text": "without",
+   "start": 734.83,
+   "end": 735.26
+  },
+  {
+   "text": "a",
+   "start": 735.26,
+   "end": 735.29
+  },
+  {
+   "text": "clear",
+   "start": 735.29,
+   "end": 735.58
+  },
+  {
+   "text": "winner,",
+   "start": 735.58,
+   "end": 736.08
+  },
+  {
+   "text": "but",
+   "start": 736.08,
+   "end": 736.31
+  },
+  {
+   "text": "it",
+   "start": 736.31,
+   "end": 736.38
+  },
+  {
+   "text": "gave",
+   "start": 736.38,
+   "end": 736.63
+  },
+  {
+   "text": "Sadat",
+   "start": 736.63,
+   "end": 736.93
+  },
+  {
+   "text": "the",
+   "start": 736.93,
+   "end": 737.11
+  },
+  {
+   "text": "strength",
+   "start": 737.11,
+   "end": 737.61
+  },
+  {
+   "text": "to",
+   "start": 737.61,
+   "end": 737.71
+  },
+  {
+   "text": "negotiate.",
+   "start": 737.71,
+   "end": 738.52
+  },
+  {
+   "text": "In",
+   "start": 738.52,
+   "end": 738.66
+  },
+  {
+   "text": "1977,",
+   "start": 738.66,
+   "end": 739.62
+  },
+  {
+   "text": "he",
+   "start": 739.62,
+   "end": 739.77
+  },
+  {
+   "text": "flew",
+   "start": 739.77,
+   "end": 740.04
+  },
+  {
+   "text": "to",
+   "start": 740.04,
+   "end": 740.18
+  },
+  {
+   "text": "Jerusalem.",
+   "start": 740.18,
+   "end": 741.04
+  },
+  {
+   "text": "And",
+   "start": 741.04,
+   "end": 741.26
+  },
+  {
+   "text": "on",
+   "start": 741.26,
+   "end": 741.41
+  },
+  {
+   "text": "the",
+   "start": 741.41,
+   "end": 741.63
+  },
+  {
+   "text": "26th",
+   "start": 741.63,
+   "end": 742.23
+  },
+  {
+   "text": "of",
+   "start": 742.23,
+   "end": 742.38
+  },
+  {
+   "text": "March,",
+   "start": 742.38,
+   "end": 742.9
+  },
+  {
+   "text": "1979,",
+   "start": 742.9,
+   "end": 744.05
+  },
+  {
+   "text": "Egypt",
+   "start": 744.05,
+   "end": 744.36
+  },
+  {
+   "text": "became",
+   "start": 744.36,
+   "end": 744.81
+  },
+  {
+   "text": "the",
+   "start": 744.81,
+   "end": 744.87
+  },
+  {
+   "text": "first",
+   "start": 744.87,
+   "end": 745.15
+  },
+  {
+   "text": "Arab",
+   "start": 745.15,
+   "end": 745.38
+  },
+  {
+   "text": "country",
+   "start": 745.38,
+   "end": 745.77
+  },
+  {
+   "text": "to",
+   "start": 745.77,
+   "end": 745.88
+  },
+  {
+   "text": "sign",
+   "start": 745.88,
+   "end": 746.19
+  },
+  {
+   "text": "a",
+   "start": 746.19,
+   "end": 746.2
+  },
+  {
+   "text": "peace",
+   "start": 746.2,
+   "end": 746.48
+  },
+  {
+   "text": "treaty",
+   "start": 746.48,
+   "end": 746.76
+  },
+  {
+   "text": "with",
+   "start": 746.76,
+   "end": 747.02
+  },
+  {
+   "text": "Israel.",
+   "start": 747.02,
+   "end": 747.62
+  },
+  {
+   "text": "Egypt",
+   "start": 747.62,
+   "end": 747.94
+  },
+  {
+   "text": "got",
+   "start": 747.94,
+   "end": 748.13
+  },
+  {
+   "text": "the",
+   "start": 748.13,
+   "end": 748.32
+  },
+  {
+   "text": "Sinai",
+   "start": 748.32,
+   "end": 748.64
+  },
+  {
+   "text": "back.",
+   "start": 748.64,
+   "end": 749.12
+  },
+  {
+   "text": "And",
+   "start": 749.12,
+   "end": 749.37
+  },
+  {
+   "text": "Sadat",
+   "start": 749.37,
+   "end": 749.78
+  },
+  {
+   "text": "won",
+   "start": 749.78,
+   "end": 750.03
+  },
+  {
+   "text": "the",
+   "start": 750.03,
+   "end": 750.36
+  },
+  {
+   "text": "Nobel",
+   "start": 750.36,
+   "end": 750.68
+  },
+  {
+   "text": "Peace",
+   "start": 750.68,
+   "end": 751.51
+  },
+  {
+   "text": "Prize.",
+   "start": 751.51,
+   "end": 751.8
+  },
+  {
+   "text": "Much",
+   "start": 751.8,
+   "end": 752.05
+  },
+  {
+   "text": "of",
+   "start": 752.05,
+   "end": 752.17
+  },
+  {
+   "text": "the",
+   "start": 752.17,
+   "end": 752.35
+  },
+  {
+   "text": "Arab",
+   "start": 752.35,
+   "end": 752.6
+  },
+  {
+   "text": "world",
+   "start": 752.6,
+   "end": 752.91
+  },
+  {
+   "text": "saw",
+   "start": 752.91,
+   "end": 753.09
+  },
+  {
+   "text": "the",
+   "start": 753.09,
+   "end": 753.27
+  },
+  {
+   "text": "treaty",
+   "start": 753.27,
+   "end": 753.64
+  },
+  {
+   "text": "as",
+   "start": 753.64,
+   "end": 753.76
+  },
+  {
+   "text": "a",
+   "start": 753.76,
+   "end": 753.82
+  },
+  {
+   "text": "betrayal.",
+   "start": 753.82,
+   "end": 754.56
+  },
+  {
+   "text": "And",
+   "start": 754.56,
+   "end": 754.73
+  },
+  {
+   "text": "Egypt",
+   "start": 754.73,
+   "end": 755.05
+  },
+  {
+   "text": "was",
+   "start": 755.05,
+   "end": 755.19
+  },
+  {
+   "text": "suspended",
+   "start": 755.19,
+   "end": 755.78
+  },
+  {
+   "text": "from",
+   "start": 755.78,
+   "end": 755.96
+  },
+  {
+   "text": "the",
+   "start": 755.96,
+   "end": 756.12
+  },
+  {
+   "text": "Arab",
+   "start": 756.12,
+   "end": 756.35
+  },
+  {
+   "text": "League",
+   "start": 756.35,
+   "end": 756.72
+  },
+  {
+   "text": "for",
+   "start": 756.72,
+   "end": 756.87
+  },
+  {
+   "text": "10",
+   "start": 756.87,
+   "end": 757.22
+  },
+  {
+   "text": "years.",
+   "start": 757.22,
+   "end": 757.76
+  },
+  {
+   "text": "On",
+   "start": 757.76,
+   "end": 757.9
+  },
+  {
+   "text": "the",
+   "start": 757.9,
+   "end": 758.15
+  },
+  {
+   "text": "6th",
+   "start": 758.15,
+   "end": 758.52
+  },
+  {
+   "text": "of",
+   "start": 758.52,
+   "end": 758.6
+  },
+  {
+   "text": "October,",
+   "start": 758.6,
+   "end": 759.23
+  },
+  {
+   "text": "1981,",
+   "start": 759.23,
+   "end": 760.4
+  },
+  {
+   "text": "eight",
+   "start": 760.4,
+   "end": 760.6
+  },
+  {
+   "text": "years",
+   "start": 760.6,
+   "end": 760.88
+  },
+  {
+   "text": "to",
+   "start": 760.88,
+   "end": 760.99
+  },
+  {
+   "text": "the",
+   "start": 760.99,
+   "end": 761.16
+  },
+  {
+   "text": "day",
+   "start": 761.16,
+   "end": 761.33
+  },
+  {
+   "text": "after",
+   "start": 761.33,
+   "end": 761.62
+  },
+  {
+   "text": "the",
+   "start": 761.62,
+   "end": 761.79
+  },
+  {
+   "text": "crossing,",
+   "start": 761.79,
+   "end": 762.4
+  },
+  {
+   "text": "Islamist",
+   "start": 762.4,
+   "end": 762.82
+  },
+  {
+   "text": "soldiers",
+   "start": 762.82,
+   "end": 763.34
+  },
+  {
+   "text": "shot",
+   "start": 763.34,
+   "end": 763.67
+  },
+  {
+   "text": "Sadat",
+   "start": 763.67,
+   "end": 764.08
+  },
+  {
+   "text": "during",
+   "start": 764.08,
+   "end": 764.58
+  },
+  {
+   "text": "a",
+   "start": 764.58,
+   "end": 764.65
+  },
+  {
+   "text": "military",
+   "start": 764.65,
+   "end": 765.83
+  },
+  {
+   "text": "parade.",
+   "start": 765.83,
+   "end": 766.12
+  },
+  {
+   "text": "His",
+   "start": 766.12,
+   "end": 766.32
+  },
+  {
+   "text": "vice",
+   "start": 766.32,
+   "end": 766.58
+  },
+  {
+   "text": "president",
+   "start": 766.58,
+   "end": 767.23
+  },
+  {
+   "text": "Hosni",
+   "start": 767.23,
+   "end": 767.51
+  },
+  {
+   "text": "Mubarak",
+   "start": 767.51,
+   "end": 768
+  },
+  {
+   "text": "ruled",
+   "start": 768,
+   "end": 768.4
+  },
+  {
+   "text": "for",
+   "start": 768.4,
+   "end": 768.64
+  },
+  {
+   "text": "the",
+   "start": 768.64,
+   "end": 768.88
+  },
+  {
+   "text": "next",
+   "start": 768.88,
+   "end": 769.2
+  },
+  {
+   "text": "30",
+   "start": 769.2,
+   "end": 770.08
+  },
+  {
+   "text": "years.",
+   "start": 770.08,
+   "end": 770.36
+  },
+  {
+   "text": "On",
+   "start": 770.36,
+   "end": 770.48
+  },
+  {
+   "text": "the",
+   "start": 770.48,
+   "end": 770.66
+  },
+  {
+   "text": "25th",
+   "start": 770.66,
+   "end": 771.15
+  },
+  {
+   "text": "of",
+   "start": 771.15,
+   "end": 771.27
+  },
+  {
+   "text": "January,",
+   "start": 771.27,
+   "end": 771.84
+  },
+  {
+   "text": "2011,",
+   "start": 771.84,
+   "end": 772.79
+  },
+  {
+   "text": "National",
+   "start": 772.79,
+   "end": 773.17
+  },
+  {
+   "text": "Police",
+   "start": 773.17,
+   "end": 773.6
+  },
+  {
+   "text": "Day,",
+   "start": 773.6,
+   "end": 774.04
+  },
+  {
+   "text": "protesters",
+   "start": 774.04,
+   "end": 774.61
+  },
+  {
+   "text": "against",
+   "start": 774.61,
+   "end": 775.01
+  },
+  {
+   "text": "police",
+   "start": 775.01,
+   "end": 775.35
+  },
+  {
+   "text": "brutality",
+   "start": 775.35,
+   "end": 775.88
+  },
+  {
+   "text": "filled",
+   "start": 775.94,
+   "end": 776.24
+  },
+  {
+   "text": "Tahrir",
+   "start": 776.24,
+   "end": 776.6
+  },
+  {
+   "text": "Square",
+   "start": 776.6,
+   "end": 776.96
+  },
+  {
+   "text": "in",
+   "start": 776.96,
+   "end": 777.08
+  },
+  {
+   "text": "Cairo.",
+   "start": 777.08,
+   "end": 777.58
+  },
+  {
+   "text": "After",
+   "start": 777.58,
+   "end": 777.9
+  },
+  {
+   "text": "18",
+   "start": 777.9,
+   "end": 778.28
+  },
+  {
+   "text": "days",
+   "start": 778.28,
+   "end": 778.53
+  },
+  {
+   "text": "and",
+   "start": 778.53,
+   "end": 778.72
+  },
+  {
+   "text": "more",
+   "start": 778.72,
+   "end": 778.97
+  },
+  {
+   "text": "than",
+   "start": 778.97,
+   "end": 779.25
+  },
+  {
+   "text": "800",
+   "start": 779.25,
+   "end": 779.83
+  },
+  {
+   "text": "deaths,",
+   "start": 779.83,
+   "end": 780.3
+  },
+  {
+   "text": "Mubarak",
+   "start": 780.3,
+   "end": 780.75
+  },
+  {
+   "text": "resigned.",
+   "start": 780.75,
+   "end": 781.54
+  },
+  {
+   "text": "In",
+   "start": 781.54,
+   "end": 781.72
+  },
+  {
+   "text": "2012,",
+   "start": 781.72,
+   "end": 782.64
+  },
+  {
+   "text": "Egyptians",
+   "start": 782.64,
+   "end": 783.26
+  },
+  {
+   "text": "elected",
+   "start": 783.26,
+   "end": 783.75
+  },
+  {
+   "text": "Mohamed",
+   "start": 783.75,
+   "end": 784.23
+  },
+  {
+   "text": "Morsi",
+   "start": 784.23,
+   "end": 784.62
+  },
+  {
+   "text": "of",
+   "start": 784.62,
+   "end": 784.71
+  },
+  {
+   "text": "the",
+   "start": 784.71,
+   "end": 784.85
+  },
+  {
+   "text": "Muslim",
+   "start": 784.85,
+   "end": 785.14
+  },
+  {
+   "text": "Brotherhood",
+   "start": 785.14,
+   "end": 785.76
+  },
+  {
+   "text": "in",
+   "start": 785.76,
+   "end": 785.77
+  },
+  {
+   "text": "the",
+   "start": 785.77,
+   "end": 785.9
+  },
+  {
+   "text": "country's",
+   "start": 785.9,
+   "end": 786.43
+  },
+  {
+   "text": "first",
+   "start": 786.43,
+   "end": 786.79
+  },
+  {
+   "text": "free",
+   "start": 786.79,
+   "end": 786.98
+  },
+  {
+   "text": "presidential",
+   "start": 786.98,
+   "end": 787.97
+  },
+  {
+   "text": "election.",
+   "start": 787.97,
+   "end": 788.88
+  },
+  {
+   "text": "A",
+   "start": 788.88,
+   "end": 788.94
+  },
+  {
+   "text": "year",
+   "start": 788.94,
+   "end": 789.18
+  },
+  {
+   "text": "later,",
+   "start": 789.18,
+   "end": 789.62
+  },
+  {
+   "text": "after",
+   "start": 789.62,
+   "end": 789.9
+  },
+  {
+   "text": "huge",
+   "start": 789.9,
+   "end": 790.14
+  },
+  {
+   "text": "protests",
+   "start": 790.14,
+   "end": 790.62
+  },
+  {
+   "text": "against",
+   "start": 790.62,
+   "end": 791.04
+  },
+  {
+   "text": "him,",
+   "start": 791.04,
+   "end": 791.38
+  },
+  {
+   "text": "the",
+   "start": 791.38,
+   "end": 791.59
+  },
+  {
+   "text": "army",
+   "start": 791.59,
+   "end": 791.88
+  },
+  {
+   "text": "removed",
+   "start": 791.88,
+   "end": 792.37
+  },
+  {
+   "text": "Morsi.",
+   "start": 792.37,
+   "end": 792.98
+  },
+  {
+   "text": "On",
+   "start": 792.98,
+   "end": 793.1
+  },
+  {
+   "text": "the",
+   "start": 793.1,
+   "end": 793.28
+  },
+  {
+   "text": "14th",
+   "start": 793.28,
+   "end": 793.77
+  },
+  {
+   "text": "of",
+   "start": 793.77,
+   "end": 793.89
+  },
+  {
+   "text": "August,",
+   "start": 793.89,
+   "end": 794.38
+  },
+  {
+   "text": "2013,",
+   "start": 794.38,
+   "end": 795.33
+  },
+  {
+   "text": "security",
+   "start": 795.33,
+   "end": 795.8
+  },
+  {
+   "text": "forces",
+   "start": 795.8,
+   "end": 796.14
+  },
+  {
+   "text": "cleared",
+   "start": 796.14,
+   "end": 796.55
+  },
+  {
+   "text": "his",
+   "start": 796.55,
+   "end": 796.73
+  },
+  {
+   "text": "supporters",
+   "start": 796.73,
+   "end": 797.32
+  },
+  {
+   "text": "camps",
+   "start": 797.32,
+   "end": 797.62
+  },
+  {
+   "text": "in",
+   "start": 797.62,
+   "end": 797.74
+  },
+  {
+   "text": "Cairo,",
+   "start": 797.74,
+   "end": 798.18
+  },
+  {
+   "text": "and",
+   "start": 798.18,
+   "end": 798.31
+  },
+  {
+   "text": "hundreds",
+   "start": 798.31,
+   "end": 798.66
+  },
+  {
+   "text": "were",
+   "start": 798.66,
+   "end": 798.76
+  },
+  {
+   "text": "killed.",
+   "start": 798.76,
+   "end": 799.56
+  },
+  {
+   "text": "The",
+   "start": 799.56,
+   "end": 799.73
+  },
+  {
+   "text": "general",
+   "start": 799.73,
+   "end": 800.14
+  },
+  {
+   "text": "who",
+   "start": 800.14,
+   "end": 800.31
+  },
+  {
+   "text": "led",
+   "start": 800.31,
+   "end": 800.48
+  },
+  {
+   "text": "the",
+   "start": 800.48,
+   "end": 800.65
+  },
+  {
+   "text": "takeover,",
+   "start": 800.65,
+   "end": 801.26
+  },
+  {
+   "text": "Abdel",
+   "start": 801.26,
+   "end": 801.62
+  },
+  {
+   "text": "Fattah",
+   "start": 801.62,
+   "end": 801.99
+  },
+  {
+   "text": "el-Sisi,",
+   "start": 801.99,
+   "end": 802.88
+  },
+  {
+   "text": "was",
+   "start": 802.88,
+   "end": 803.09
+  },
+  {
+   "text": "elected",
+   "start": 803.09,
+   "end": 803.59
+  },
+  {
+   "text": "president",
+   "start": 803.59,
+   "end": 804.29
+  },
+  {
+   "text": "in",
+   "start": 804.29,
+   "end": 804.38
+  },
+  {
+   "text": "2014",
+   "start": 804.38,
+   "end": 805.25
+  },
+  {
+   "text": "and",
+   "start": 805.25,
+   "end": 805.46
+  },
+  {
+   "text": "is",
+   "start": 805.46,
+   "end": 805.6
+  },
+  {
+   "text": "now",
+   "start": 805.6,
+   "end": 805.81
+  },
+  {
+   "text": "in",
+   "start": 805.81,
+   "end": 805.97
+  },
+  {
+   "text": "his",
+   "start": 805.97,
+   "end": 806.15
+  },
+  {
+   "text": "third",
+   "start": 806.15,
+   "end": 806.52
+  },
+  {
+   "text": "term.",
+   "start": 806.52,
+   "end": 807.1
+  },
+  {
+   "text": "Today,",
+   "start": 807.1,
+   "end": 807.56
+  },
+  {
+   "text": "Egypt",
+   "start": 807.56,
+   "end": 807.89
+  },
+  {
+   "text": "has",
+   "start": 807.89,
+   "end": 808.09
+  },
+  {
+   "text": "more",
+   "start": 808.09,
+   "end": 808.36
+  },
+  {
+   "text": "than",
+   "start": 808.36,
+   "end": 808.62
+  },
+  {
+   "text": "106",
+   "start": 808.62,
+   "end": 809.23
+  },
+  {
+   "text": "million",
+   "start": 809.23,
+   "end": 809.73
+  },
+  {
+   "text": "people,",
+   "start": 809.73,
+   "end": 810.14
+  },
+  {
+   "text": "and",
+   "start": 810.14,
+   "end": 810.3
+  },
+  {
+   "text": "it",
+   "start": 810.3,
+   "end": 810.44
+  },
+  {
+   "text": "still",
+   "start": 810.44,
+   "end": 810.68
+  },
+  {
+   "text": "lives",
+   "start": 810.68,
+   "end": 810.96
+  },
+  {
+   "text": "from",
+   "start": 810.96,
+   "end": 811.17
+  },
+  {
+   "text": "the",
+   "start": 811.17,
+   "end": 811.32
+  },
+  {
+   "text": "river.",
+   "start": 811.32,
+   "end": 811.82
+  },
+  {
+   "text": "The",
+   "start": 811.82,
+   "end": 812.03
+  },
+  {
+   "text": "Nile",
+   "start": 812.03,
+   "end": 812.31
+  },
+  {
+   "text": "provides",
+   "start": 812.31,
+   "end": 812.87
+  },
+  {
+   "text": "about",
+   "start": 812.87,
+   "end": 813.21
+  },
+  {
+   "text": "97%",
+   "start": 813.21,
+   "end": 813.71
+  },
+  {
+   "text": "of",
+   "start": 813.71,
+   "end": 813.85
+  },
+  {
+   "text": "its",
+   "start": 813.85,
+   "end": 814.13
+  },
+  {
+   "text": "fresh",
+   "start": 814.13,
+   "end": 814.41
+  },
+  {
+   "text": "water.",
+   "start": 814.41,
+   "end": 815.02
+  },
+  {
+   "text": "In",
+   "start": 815.02,
+   "end": 815.16
+  },
+  {
+   "text": "September",
+   "start": 815.16,
+   "end": 815.78
+  },
+  {
+   "text": "2025,",
+   "start": 815.78,
+   "end": 816.78
+  },
+  {
+   "text": "Ethiopia",
+   "start": 816.78,
+   "end": 817.29
+  },
+  {
+   "text": "opened",
+   "start": 817.29,
+   "end": 817.74
+  },
+  {
+   "text": "a",
+   "start": 817.74,
+   "end": 817.82
+  },
+  {
+   "text": "giant",
+   "start": 817.82,
+   "end": 818.26
+  },
+  {
+   "text": "dam",
+   "start": 818.26,
+   "end": 818.54
+  },
+  {
+   "text": "on",
+   "start": 818.54,
+   "end": 818.67
+  },
+  {
+   "text": "the",
+   "start": 818.67,
+   "end": 818.87
+  },
+  {
+   "text": "Blue",
+   "start": 818.87,
+   "end": 819.14
+  },
+  {
+   "text": "Nile",
+   "start": 819.14,
+   "end": 819.45
+  },
+  {
+   "text": "upstream,",
+   "start": 819.45,
+   "end": 820.29
+  },
+  {
+   "text": "and",
+   "start": 820.29,
+   "end": 820.29
+  },
+  {
+   "text": "Egypt",
+   "start": 820.29,
+   "end": 820.76
+  },
+  {
+   "text": "protested",
+   "start": 820.76,
+   "end": 821.26
+  },
+  {
+   "text": "to",
+   "start": 821.26,
+   "end": 821.4
+  },
+  {
+   "text": "the",
+   "start": 821.4,
+   "end": 821.61
+  },
+  {
+   "text": "UN",
+   "start": 821.61,
+   "end": 821.74
+  },
+  {
+   "text": "Security",
+   "start": 821.74,
+   "end": 822.31
+  },
+  {
+   "text": "Council.",
+   "start": 822.31,
+   "end": 823.04
+  },
+  {
+   "text": "The",
+   "start": 823.04,
+   "end": 823.22
+  },
+  {
+   "text": "Suez",
+   "start": 823.22,
+   "end": 823.49
+  },
+  {
+   "text": "Canal,",
+   "start": 823.49,
+   "end": 823.86
+  },
+  {
+   "text": "which",
+   "start": 823.86,
+   "end": 824.16
+  },
+  {
+   "text": "carries",
+   "start": 824.16,
+   "end": 824.57
+  },
+  {
+   "text": "around",
+   "start": 824.57,
+   "end": 824.96
+  },
+  {
+   "text": "8%",
+   "start": 824.96,
+   "end": 825.5
+  },
+  {
+   "text": "of",
+   "start": 825.5,
+   "end": 825.58
+  },
+  {
+   "text": "the",
+   "start": 825.58,
+   "end": 825.7
+  },
+  {
+   "text": "world's",
+   "start": 825.7,
+   "end": 825.98
+  },
+  {
+   "text": "sea",
+   "start": 825.98,
+   "end": 826.22
+  },
+  {
+   "text": "trade,",
+   "start": 826.22,
+   "end": 826.75
+  },
+  {
+   "text": "lost",
+   "start": 826.75,
+   "end": 826.94
+  },
+  {
+   "text": "more",
+   "start": 826.94,
+   "end": 827.2
+  },
+  {
+   "text": "than",
+   "start": 827.2,
+   "end": 827.46
+  },
+  {
+   "text": "half",
+   "start": 827.46,
+   "end": 827.77
+  },
+  {
+   "text": "its",
+   "start": 827.77,
+   "end": 827.91
+  },
+  {
+   "text": "income",
+   "start": 827.91,
+   "end": 828.34
+  },
+  {
+   "text": "after",
+   "start": 828.34,
+   "end": 828.67
+  },
+  {
+   "text": "attacks",
+   "start": 828.67,
+   "end": 829.13
+  },
+  {
+   "text": "on",
+   "start": 829.13,
+   "end": 829.32
+  },
+  {
+   "text": "shipping",
+   "start": 829.32,
+   "end": 829.79
+  },
+  {
+   "text": "in",
+   "start": 829.79,
+   "end": 829.91
+  },
+  {
+   "text": "the",
+   "start": 829.91,
+   "end": 830.12
+  },
+  {
+   "text": "Red",
+   "start": 830.12,
+   "end": 830.51
+  },
+  {
+   "text": "Sea,",
+   "start": 830.51,
+   "end": 830.54
+  },
+  {
+   "text": "although",
+   "start": 830.54,
+   "end": 831.07
+  },
+  {
+   "text": "traffic",
+   "start": 831.07,
+   "end": 831.53
+  },
+  {
+   "text": "has",
+   "start": 831.53,
+   "end": 831.72
+  },
+  {
+   "text": "been",
+   "start": 831.72,
+   "end": 831.97
+  },
+  {
+   "text": "coming",
+   "start": 831.97,
+   "end": 832.37
+  },
+  {
+   "text": "back.",
+   "start": 832.37,
+   "end": 832.86
+  },
+  {
+   "text": "In",
+   "start": 832.86,
+   "end": 832.98
+  },
+  {
+   "text": "November",
+   "start": 832.98,
+   "end": 833.48
+  },
+  {
+   "text": "2025,",
+   "start": 833.48,
+   "end": 834.63
+  },
+  {
+   "text": "Egypt",
+   "start": 834.63,
+   "end": 834.66
+  },
+  {
+   "text": "opened",
+   "start": 834.66,
+   "end": 835.03
+  },
+  {
+   "text": "the",
+   "start": 835.03,
+   "end": 835.21
+  },
+  {
+   "text": "Grand",
+   "start": 835.21,
+   "end": 835.52
+  },
+  {
+   "text": "Egyptian",
+   "start": 835.52,
+   "end": 836.06
+  },
+  {
+   "text": "Museum",
+   "start": 836.06,
+   "end": 836.68
+  },
+  {
+   "text": "on",
+   "start": 836.68,
+   "end": 836.81
+  },
+  {
+   "text": "the",
+   "start": 836.81,
+   "end": 837
+  },
+  {
+   "text": "edge",
+   "start": 837,
+   "end": 837.26
+  },
+  {
+   "text": "of",
+   "start": 837.26,
+   "end": 837.39
+  },
+  {
+   "text": "Giza,",
+   "start": 837.39,
+   "end": 837.77
+  },
+  {
+   "text": "a",
+   "start": 837.77,
+   "end": 837.91
+  },
+  {
+   "text": "short",
+   "start": 837.91,
+   "end": 838.15
+  },
+  {
+   "text": "distance",
+   "start": 838.15,
+   "end": 838.7
+  },
+  {
+   "text": "from",
+   "start": 838.7,
+   "end": 838.93
+  },
+  {
+   "text": "the",
+   "start": 838.93,
+   "end": 839.12
+  },
+  {
+   "text": "pyramids.",
+   "start": 839.12,
+   "end": 839.9
+  },
+  {
+   "text": "All",
+   "start": 839.9,
+   "end": 840.19
+  },
+  {
+   "text": "5,398",
+   "start": 840.19,
+   "end": 841.38
+  },
+  {
+   "text": "objects",
+   "start": 841.38,
+   "end": 841.99
+  },
+  {
+   "text": "from",
+   "start": 841.99,
+   "end": 842.34
+  },
+  {
+   "text": "Tutankhamen's",
+   "start": 842.34,
+   "end": 843.46
+  },
+  {
+   "text": "tomb",
+   "start": 843.46,
+   "end": 843.88
+  },
+  {
+   "text": "are",
+   "start": 843.88,
+   "end": 844.07
+  },
+  {
+   "text": "now",
+   "start": 844.07,
+   "end": 844.3
+  },
+  {
+   "text": "shown",
+   "start": 844.3,
+   "end": 844.58
+  },
+  {
+   "text": "together",
+   "start": 844.58,
+   "end": 845.16
+  },
+  {
+   "text": "for",
+   "start": 845.16,
+   "end": 845.29
+  },
+  {
+   "text": "the",
+   "start": 845.29,
+   "end": 845.48
+  },
+  {
+   "text": "first",
+   "start": 845.48,
+   "end": 846.08
+  },
+  {
+   "text": "time",
+   "start": 846.08,
+   "end": 846.1
+  },
+  {
+   "text": "near",
+   "start": 846.1,
+   "end": 846.45
+  },
+  {
+   "text": "the",
+   "start": 846.45,
+   "end": 846.67
+  },
+  {
+   "text": "pyramid",
+   "start": 846.67,
+   "end": 847.24
+  },
+  {
+   "text": "Khufu,",
+   "start": 847.24,
+   "end": 847.8
+  },
+  {
+   "text": "built",
+   "start": 847.8,
+   "end": 848.21
+  },
+  {
+   "text": "more",
+   "start": 848.21,
+   "end": 848.54
+  },
+  {
+   "text": "than",
+   "start": 848.54,
+   "end": 848.87
+  },
+  {
+   "text": "4,500",
+   "start": 848.87,
+   "end": 849.89
+  },
+  {
+   "text": "years",
+   "start": 849.89,
+   "end": 849.89
+  },
+  {
+   "text": "ago.",
+   "start": 849.89,
+   "end": 850.98
+  }
+ ]
+}

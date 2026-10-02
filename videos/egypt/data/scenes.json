@@ -1,0 +1,8554 @@
+{
+ "meta": {
+  "id": "Egypt",
+  "title": "The Entire History of Egypt in 14 Minutes",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "audio/voiceover.mp3",
+  "transitionFrames": 10,
+  "duration": 851.394,
+  "durationInFrames": 25542,
+  "voiceEnd": 850.98,
+  "audioDuration": 849.894,
+  "fadeOut": {
+   "start": 849.894,
+   "end": 851.394
+  }
+ },
+ "overlay": {
+  "dust": 0.55,
+  "parchment": 0.22,
+  "grain": 0.07,
+  "vignette": 0.42
+ },
+ "map": {
+  "extent": [
+   [
+    0,
+    5
+   ],
+   [
+    70,
+    48
+   ]
+  ],
+  "rotate": [
+   -33,
+   0
+  ],
+  "parallels": [
+   20,
+   40
+  ]
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 001"
+   ],
+   "type": "image",
+   "image": "images/001.jpg",
+   "motion": "Slow push in from Cleopatra toward the pyramids behind her.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.05,
+     "x": 0.3,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.32,
+     "x": 0.45,
+     "y": 0.42
+    }
+   },
+   "start": 0,
+   "end": 11.202,
+   "startFrame": 0,
+   "endFrame": 336,
+   "vo": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid. By the time she ruled Egypt, the pyramids were already about 2,500 years old, and Egypt was older still.",
+   "cues": [
+    {
+     "word": "Moon",
+     "action": "small crescent moon icon fades in at the top right, then out (not drawn: no icon overlay in the engine yet)",
+     "t": 1.77,
+     "frame": 53,
+     "matched": "Moon",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "MAP-01"
+   ],
+   "type": "map",
+   "motion": "Map of Egypt. The desert stays pale, only the Nile valley and delta glow green.",
+   "date": {
+    "text": "106,000,000",
+    "at": 26.18
+   },
+   "map": {
+    "id": "MAP-01",
+    "meridian": 31,
+    "camera": [
+     {
+      "at": 11.202,
+      "center": [
+       30.6,
+       26.6
+      ],
+      "zoom": 3
+     },
+     {
+      "at": 28.182,
+      "center": [
+       30.8,
+       26.8
+      ],
+      "zoom": 3.25
+     }
+    ],
+    "states": [
+     {
+      "at": 11.202,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "#D8C59B",
+        "opacity": 0.7
+       }
+      ]
+     },
+     {
+      "at": 11.802,
+      "duration": 1.6,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "#D8C59B",
+        "opacity": 0.7
+       },
+       {
+        "territory": "nile_valley",
+        "fill": "#5E8A3A"
+       }
+      ]
+     },
+     {
+      "at": 13.35,
+      "duration": 0.4,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "#D8C59B",
+        "opacity": 0.7
+       },
+       {
+        "territory": "nile_valley",
+        "fill": "#8DC04F",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 13.8,
+      "duration": 0.4,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "#D8C59B",
+        "opacity": 0.7
+       },
+       {
+        "territory": "nile_valley",
+        "fill": "#5E8A3A"
+       }
+      ]
+     },
+     {
+      "at": 14.25,
+      "duration": 0.4,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "#D8C59B",
+        "opacity": 0.7
+       },
+       {
+        "territory": "nile_valley",
+        "fill": "#8DC04F",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 14.7,
+      "duration": 0.4,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "#D8C59B",
+        "opacity": 0.7
+       },
+       {
+        "territory": "nile_valley",
+        "fill": "#5E8A3A"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        31.35,
+        21.85
+       ],
+       [
+        31.62,
+        22.34
+       ],
+       [
+        32.4,
+        23.1
+       ],
+       [
+        32.85,
+        23.6
+       ],
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 11.502,
+      "duration": 1.6
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 13.102,
+      "duration": 0.6
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 13.102,
+      "duration": 0.6
+     }
+    ],
+    "markers": [
+     {
+      "id": "cairo",
+      "label": "Cairo",
+      "lonlat": [
+       31.24,
+       30.05
+      ],
+      "at": 12.402,
+      "kind": "city",
+      "labelSide": "right"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.2,
+       26.3
+      ],
+      "at": 11.602,
+      "size": 44,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       28.6,
+       32.7
+      ],
+      "size": 24
+     },
+     {
+      "text": "RED SEA",
+      "lonlat": [
+       36,
+       23.6
+      ],
+      "size": 24
+     }
+    ]
+   },
+   "start": 11.202,
+   "end": 28.182,
+   "startFrame": 336,
+   "endFrame": 845,
+   "vo": "Almost everyone in Egypt lives on about four percent of its land. The rest is desert. That thin green strip along the Nile is where this story happens. It runs from the first farming villages, through pharaohs, Greeks, Romans, caliphs, sultans and kings, to a country of more than 106 million people.",
+   "cues": [
+    {
+     "word": "four",
+     "action": "the green strip pulses",
+     "t": 13.35,
+     "frame": 401,
+     "matched": "four",
+     "exact": true
+    },
+    {
+     "word": "106",
+     "action": "counter label \"106,000,000\" appears top left",
+     "t": 26.18,
+     "frame": 785,
+     "matched": "106",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 002"
+   ],
+   "type": "image",
+   "image": "images/002.jpg",
+   "motion": "Slow pan right along the flooded fields.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.55
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "date": {
+    "text": "5500 BC",
+    "at": 28.482
+   },
+   "start": 28.182,
+   "end": 43.307,
+   "startFrame": 845,
+   "endFrame": 1299,
+   "vo": "Around 5500 BC, small farming settlements began to spread along the Nile. Every summer the river flooded and left behind a layer of black mud, so farmers could grow wheat and barley in the middle of the desert. The Egyptians called their land Kemet, the black land.",
+   "cues": []
+  },
+  {
+   "id": "S04",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "MAP-02"
+   ],
+   "type": "map",
+   "motion": "Zoom to the Nile. Two zones fade in.",
+   "map": {
+    "id": "MAP-02",
+    "meridian": 31,
+    "camera": [
+     {
+      "at": 43.307,
+      "center": [
+       31,
+       27.2
+      ],
+      "zoom": 3
+     },
+     {
+      "at": 46.307,
+      "center": [
+       31.3,
+       27.6
+      ],
+      "zoom": 3.7
+     },
+     {
+      "at": 53.6,
+      "center": [
+       31.3,
+       27.6
+      ],
+      "zoom": 3.85
+     }
+    ],
+    "states": [
+     {
+      "at": 43.307,
+      "layers": []
+     },
+     {
+      "at": 45.84,
+      "duration": 1,
+      "layers": [
+       {
+        "territory": "upper_egypt_3200bc",
+        "fill": "ochre"
+       }
+      ]
+     },
+     {
+      "at": 48.79,
+      "duration": 1,
+      "layers": [
+       {
+        "territory": "upper_egypt_3200bc",
+        "fill": "ochre"
+       },
+       {
+        "territory": "lower_egypt_3200bc",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 43.607,
+      "duration": 1.6
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 45.207,
+      "duration": 0.6
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 45.207,
+      "duration": 0.6
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Upper Egypt",
+      "lonlat": [
+       34,
+       26.4
+      ],
+      "at": 46.14,
+      "size": 36,
+      "tone": "dark"
+     },
+     {
+      "text": "Lower Egypt",
+      "lonlat": [
+       29,
+       30.6
+      ],
+      "at": 49.09,
+      "size": 36,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       30.6,
+       32.4
+      ],
+      "size": 24
+     }
+    ]
+   },
+   "start": 43.307,
+   "end": 53.6,
+   "startFrame": 1299,
+   "endFrame": 1608,
+   "vo": "Over time these villages grew into two kingdoms. Upper Egypt in the south, along the narrow valley, and Lower Egypt in the north, in the wide delta where the Nile meets the Mediterranean.",
+   "cues": [
+    {
+     "word": "Upper",
+     "action": "Upper Egypt zone (south) fades in, label UPPER EGYPT",
+     "t": 45.84,
+     "frame": 1375,
+     "matched": "Upper",
+     "exact": true
+    },
+    {
+     "word": "Lower",
+     "action": "Lower Egypt zone (delta) fades in, label LOWER EGYPT",
+     "t": 48.79,
+     "frame": 1464,
+     "matched": "Lower",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 003"
+   ],
+   "type": "image",
+   "image": "images/003.jpg",
+   "motion": "Slow push in on Narmer.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.47,
+     "y": 0.38
+    }
+   },
+   "date": {
+    "text": "3100 BC",
+    "at": 53.9
+   },
+   "titles": [
+    {
+     "text": "NARMER",
+     "at": 55.88,
+     "style": "name"
+    }
+   ],
+   "start": 53.6,
+   "end": 68.929,
+   "startFrame": 1608,
+   "endFrame": 2068,
+   "vo": "Around 3100 BC, a king named Narmer claimed both. He is shown on a carved stone palette wearing the white crown of the south on one side and the red crown of the north on the other. For the next three thousand years, every pharaoh would call himself Lord of the Two Lands.",
+   "cues": [
+    {
+     "word": "Narmer",
+     "action": "name card \"NARMER\"",
+     "t": 55.88,
+     "frame": 1676,
+     "matched": "Narmer",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "MAP-03"
+   ],
+   "type": "map",
+   "motion": "Zoom on the area around Memphis.",
+   "year": [
+    {
+     "at": 69.229,
+     "value": -2686
+    }
+   ],
+   "map": {
+    "id": "MAP-03",
+    "meridian": 31,
+    "camera": [
+     {
+      "at": 68.929,
+      "center": [
+       31.2,
+       27.6
+      ],
+      "zoom": 3.8
+     },
+     {
+      "at": 74.16,
+      "center": [
+       31.2,
+       28.2
+      ],
+      "zoom": 4.6
+     },
+     {
+      "at": 76.66,
+      "center": [
+       31.2,
+       29.9
+      ],
+      "zoom": 12
+     },
+     {
+      "at": 79.96,
+      "center": [
+       31.2,
+       29.9
+      ],
+      "zoom": 13
+     }
+    ],
+    "states": [
+     {
+      "at": 68.929,
+      "layers": [
+       {
+        "territory": "egypt_old_kingdom",
+        "fill": "terracotta",
+        "opacity": 0.85
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 63.929,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 63.929,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 63.929,
+      "duration": 0.1
+     }
+    ],
+    "markers": [
+     {
+      "id": "memphis",
+      "label": "Memphis",
+      "lonlat": [
+       31.25,
+       29.85
+      ],
+      "at": 74.66,
+      "kind": "city",
+      "pulse": true,
+      "labelSide": "right"
+     },
+     {
+      "id": "saqqara",
+      "label": "Saqqara",
+      "lonlat": [
+       31.216,
+       29.871
+      ],
+      "at": 76.26,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "giza",
+      "label": "Giza",
+      "lonlat": [
+       31.134,
+       29.979
+      ],
+      "at": 76.66,
+      "kind": "city",
+      "labelSide": "top"
+     }
+    ]
+   },
+   "start": 68.929,
+   "end": 79.96,
+   "startFrame": 2068,
+   "endFrame": 2399,
+   "vo": "The period we now call the Old Kingdom began around 2686 BC. Its kings ruled from Memphis, near modern Cairo, and they spent enormous resources preparing for the afterlife.",
+   "cues": [
+    {
+     "word": "Memphis",
+     "action": "Memphis marker pulses",
+     "t": 74.66,
+     "frame": 2240,
+     "matched": "Memphis,",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 004"
+   ],
+   "type": "image",
+   "image": "images/004.jpg",
+   "motion": "Slow push in on the Step Pyramid.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.36,
+     "y": 0.42
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "titles": [
+    {
+     "text": "IMHOTEP",
+     "at": 81.76,
+     "style": "name"
+    }
+   ],
+   "start": 79.96,
+   "end": 90.109,
+   "startFrame": 2399,
+   "endFrame": 2703,
+   "vo": "For King Djoser, an official named Imhotep stacked six stone platforms on top of each other at Saqqara. The Step Pyramid was the first large building in Egypt made entirely of stone.",
+   "cues": [
+    {
+     "word": "Imhotep",
+     "action": "name card \"IMHOTEP\"",
+     "t": 81.76,
+     "frame": 2453,
+     "matched": "Imhotep",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 005"
+   ],
+   "type": "image",
+   "image": "images/005.jpg",
+   "motion": "Slow tilt up the Great Pyramid.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.3,
+     "x": 0.6,
+     "y": 0.7
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.6,
+     "y": 0.3
+    }
+   },
+   "date": {
+    "text": "2600 BC",
+    "at": 90.409
+   },
+   "titles": [
+    {
+     "text": "146 m",
+     "at": 99.06,
+     "style": "name",
+     "hideAt": 103.78
+    },
+    {
+     "text": "3,700+ YEARS",
+     "at": 104.38,
+     "style": "name"
+    }
+   ],
+   "start": 90.109,
+   "end": 108.48,
+   "startFrame": 2703,
+   "endFrame": 3254,
+   "vo": "Within about a century, Egyptian builders had learned to make the sides smooth. Around 2600 BC, the pharaoh Khufu built the Great Pyramid of Giza. It was 146 meters tall and made of roughly 2.3 million stone blocks. For more than 3,700 years, nothing built by humans was taller.",
+   "cues": [
+    {
+     "word": "146",
+     "action": "label \"146 m\"",
+     "t": 99.06,
+     "frame": 2972,
+     "matched": "146",
+     "exact": true
+    },
+    {
+     "word": "3,700",
+     "action": "label \"3,700+ YEARS\"",
+     "t": 104.38,
+     "frame": 3131,
+     "matched": "3,700",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 006"
+   ],
+   "type": "image",
+   "image": "images/006.jpg",
+   "motion": "Slow pan left across the workers.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.55
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "start": 108.48,
+   "end": 121.172,
+   "startFrame": 3254,
+   "endFrame": 3635,
+   "vo": "Greek writers later claimed slaves built it. Archaeologists have since found the camps where the workers lived, and they point to Egyptian laborers called up for service, probably around 13,000 at a time and up to 40,000 at the peak.",
+   "cues": []
+  },
+  {
+   "id": "S10",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "IMG 007"
+   ],
+   "type": "image",
+   "image": "images/007.jpg",
+   "motion": "Slow zoom out, slight desaturation.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.35,
+     "x": 0.5,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "desaturate": [
+     1,
+     0.6
+    ]
+   },
+   "effects": {
+    "dust": 1
+   },
+   "start": 121.172,
+   "end": 135.744,
+   "startFrame": 3635,
+   "endFrame": 4072,
+   "vo": "Then the floods failed. In the 22nd century BC, a long drought kept the Nile low for years. Harvests collapsed, and so did the central government. Local governors took over, fought each other, and for about two hundred years Egypt was split apart.",
+   "cues": []
+  },
+  {
+   "id": "S11",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "MAP-04"
+   ],
+   "type": "map",
+   "motion": "Egypt split into many small zones, then one color spreads north from Thebes.",
+   "year": [
+    {
+     "at": 136.044,
+     "value": -2030
+    }
+   ],
+   "map": {
+    "id": "MAP-04",
+    "meridian": 31,
+    "camera": [
+     {
+      "at": 135.744,
+      "center": [
+       31.3,
+       27.6
+      ],
+      "zoom": 3.5
+     },
+     {
+      "at": 144.251,
+      "center": [
+       31.3,
+       27.6
+      ],
+      "zoom": 3.7
+     }
+    ],
+    "states": [
+     {
+      "at": 135.744,
+      "layers": [
+       {
+        "territory": "fip_delta_west",
+        "fill": "#8A6A4C",
+        "outline": 1
+       },
+       {
+        "territory": "fip_delta_east",
+        "fill": "olive",
+        "outline": 1
+       },
+       {
+        "territory": "fip_herakleopolis",
+        "fill": "ochre",
+        "outline": 1
+       },
+       {
+        "territory": "fip_hermopolis",
+        "fill": "#5E6B5A",
+        "outline": 1
+       },
+       {
+        "territory": "fip_asyut",
+        "fill": "#9C8A55",
+        "outline": 1
+       },
+       {
+        "territory": "fip_thebes",
+        "fill": "terracotta",
+        "outline": 1
+       },
+       {
+        "territory": "fip_elephantine",
+        "fill": "#A7794B",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 140.48,
+      "duration": 2.4,
+      "mode": "grow",
+      "origin": [
+       32.64,
+       25.7
+      ],
+      "layers": [
+       {
+        "territory": "egypt_middle_kingdom",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 130.744,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 130.744,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 130.744,
+      "duration": 0.1
+     }
+    ],
+    "markers": [
+     {
+      "id": "thebes",
+      "label": "Thebes",
+      "lonlat": [
+       32.64,
+       25.7
+      ],
+      "at": 139.46,
+      "kind": "city",
+      "pulse": true,
+      "labelSide": "right"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Middle Kingdom",
+      "lonlat": [
+       34.2,
+       28.2
+      ],
+      "at": 141.88,
+      "size": 36,
+      "tone": "dark"
+     }
+    ]
+   },
+   "start": 135.744,
+   "end": 144.251,
+   "startFrame": 4072,
+   "endFrame": 4328,
+   "vo": "Around 2030 BC, Mentuhotep II, a ruler from Thebes in the south, reunited the country and began what we call the Middle Kingdom.",
+   "cues": [
+    {
+     "word": "Thebes",
+     "action": "Thebes marker pulses",
+     "t": 139.46,
+     "frame": 4184,
+     "matched": "Thebes",
+     "exact": true
+    },
+    {
+     "word": "reunited",
+     "action": "the zones merge into one color, growing from Thebes",
+     "t": 140.48,
+     "frame": 4214,
+     "matched": "reunited",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "part": "THE FIRST KINGDOMS",
+   "assets": [
+    "MAP-05"
+   ],
+   "type": "map",
+   "motion": "Delta and Levant in view.",
+   "year": [
+    {
+     "at": 144.551,
+     "value": -1650
+    }
+   ],
+   "map": {
+    "id": "MAP-05",
+    "meridian": 32.5,
+    "camera": [
+     {
+      "at": 144.251,
+      "center": [
+       32.4,
+       30
+      ],
+      "zoom": 4.8
+     },
+     {
+      "at": 161.214,
+      "center": [
+       32.6,
+       30.3
+      ],
+      "zoom": 5.2
+     }
+    ],
+    "states": [
+     {
+      "at": 144.251,
+      "layers": [
+       {
+        "territory": "egypt_old_kingdom",
+        "fill": "terracotta",
+        "opacity": 0.85
+       }
+      ]
+     },
+     {
+      "at": 153.16,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "hyksos_1650bc",
+        "fill": "olive",
+        "outline": 1
+       },
+       {
+        "territory": "egypt_theban_1650bc",
+        "fill": "terracotta",
+        "opacity": 0.85
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 139.251,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 139.251,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 139.251,
+      "duration": 0.1
+     },
+     {
+      "id": "hyksos",
+      "style": "arrow",
+      "path": [
+       [
+        35.4,
+        32.7
+       ],
+       [
+        34.6,
+        31.5
+       ],
+       [
+        33.3,
+        31.05
+       ],
+       [
+        32.2,
+        30.85
+       ]
+      ],
+      "at": 147,
+      "duration": 6.16
+     }
+    ],
+    "markers": [
+     {
+      "id": "avaris",
+      "label": "Avaris",
+      "lonlat": [
+       31.82,
+       30.79
+      ],
+      "at": 153.16,
+      "kind": "city",
+      "labelSide": "top"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Levant",
+      "lonlat": [
+       36.1,
+       32.6
+      ],
+      "at": 144.651,
+      "size": 32,
+      "tone": "dark"
+     },
+     {
+      "text": "Hyksos",
+      "lonlat": [
+       30.2,
+       30.9
+      ],
+      "at": 153.66,
+      "size": 34
+     },
+     {
+      "text": "Thebans",
+      "lonlat": [
+       29.7,
+       28
+      ],
+      "at": 153.96,
+      "size": 30,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       31.6,
+       32.6
+      ],
+      "size": 24
+     }
+    ]
+   },
+   "start": 144.251,
+   "end": 161.214,
+   "startFrame": 4328,
+   "endFrame": 4836,
+   "vo": "But around 1650 BC, foreigners from the Levant took control of the north. The Egyptians called them the Hyksos, rulers of foreign lands. From their capital Avaris in the delta, they ruled Lower Egypt for about a century. They brought horses with them, and possibly new weapons as well.",
+   "cues": [
+    {
+     "word": "Levant",
+     "action": "arrow from the Levant into the delta",
+     "t": 147,
+     "frame": 4410,
+     "matched": "Levant",
+     "exact": true
+    },
+    {
+     "word": "Avaris",
+     "action": "Avaris marker appears, Hyksos zone over Lower Egypt",
+     "t": 153.16,
+     "frame": 4595,
+     "matched": "Avaris",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "IMG 008"
+   ],
+   "type": "image",
+   "image": "images/008.jpg",
+   "motion": "Fast push in on the charging chariots.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.45,
+     "x": 0.38,
+     "y": 0.62
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "date": {
+    "text": "1550 BC",
+    "at": 161.514
+   },
+   "start": 161.214,
+   "end": 170.88,
+   "startFrame": 4836,
+   "endFrame": 5126,
+   "vo": "Around 1550 BC, Ahmose of Thebes drove the Hyksos out. Egypt now entered the New Kingdom, and this time it pushed far beyond its deserts and built an empire.",
+   "cues": []
+  },
+  {
+   "id": "S14",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "IMG 009"
+   ],
+   "type": "image",
+   "image": "images/009.jpg",
+   "motion": "Slow pan right along the ships.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.64,
+     "y": 0.45
+    }
+   },
+   "titles": [
+    {
+     "text": "HATSHEPSUT",
+     "at": 172.39,
+     "style": "name"
+    }
+   ],
+   "start": 170.88,
+   "end": 179.32,
+   "startFrame": 5126,
+   "endFrame": 5380,
+   "vo": "Hatshepsut, one of the few women to rule as pharaoh, sent a trading expedition to the distant Land of Punt and filled the temples at Karnak with new buildings.",
+   "cues": [
+    {
+     "word": "women",
+     "action": "name card \"HATSHEPSUT\"",
+     "t": 172.39,
+     "frame": 5172,
+     "matched": "women",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "MAP-06"
+   ],
+   "type": "map",
+   "motion": "Egypt grows into its New Kingdom empire.",
+   "year": [
+    {
+     "at": 179.62,
+     "value": -1450
+    }
+   ],
+   "titles": [
+    {
+     "text": "THUTMOSE III",
+     "at": 180.05,
+     "style": "name"
+    }
+   ],
+   "map": {
+    "id": "MAP-06",
+    "meridian": 33,
+    "camera": [
+     {
+      "at": 179.32,
+      "center": [
+       32.4,
+       27.6
+      ],
+      "zoom": 2
+     },
+     {
+      "at": 191.92,
+      "center": [
+       33.4,
+       27.6
+      ],
+      "zoom": 1.8
+     }
+    ],
+    "states": [
+     {
+      "at": 179.32,
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 188.44,
+      "duration": 1.6,
+      "mode": "grow",
+      "origin": [
+       32.6,
+       31
+      ],
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "egypt_levant_1450bc",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 190.12,
+      "duration": 1.6,
+      "mode": "grow",
+      "origin": [
+       32.9,
+       24
+      ],
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "egypt_levant_1450bc",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "egypt_nubia_1450bc",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nubia",
+      "style": "river",
+      "path": [
+       [
+        32.3,
+        18.95
+       ],
+       [
+        31.83,
+        18.53
+       ],
+       [
+        31.3,
+        18.2
+       ],
+       [
+        30.95,
+        18.05
+       ],
+       [
+        30.55,
+        18.6
+       ],
+       [
+        30.48,
+        19.17
+       ],
+       [
+        30.42,
+        19.63
+       ],
+       [
+        30.33,
+        19.8
+       ],
+       [
+        30.4,
+        20.7
+       ],
+       [
+        30.95,
+        21.5
+       ],
+       [
+        31.35,
+        21.85
+       ],
+       [
+        31.62,
+        22.34
+       ],
+       [
+        32.4,
+        23.1
+       ],
+       [
+        32.85,
+        23.6
+       ],
+       [
+        32.89,
+        24.08
+       ]
+      ],
+      "at": 174.32,
+      "duration": 0.1
+     },
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 174.32,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 174.32,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 174.32,
+      "duration": 0.1
+     },
+     {
+      "id": "euphrates",
+      "style": "river",
+      "path": [
+       [
+        38.8,
+        38.4
+       ],
+       [
+        38.3,
+        37.4
+       ],
+       [
+        38,
+        36.83
+       ],
+       [
+        38.1,
+        36
+       ],
+       [
+        39,
+        35.95
+       ],
+       [
+        40.14,
+        35.33
+       ],
+       [
+        40.9,
+        34.45
+       ],
+       [
+        42.1,
+        34.1
+       ],
+       [
+        43.4,
+        33.4
+       ],
+       [
+        44.4,
+        32.5
+       ],
+       [
+        45.9,
+        31
+       ],
+       [
+        47.4,
+        31
+       ]
+      ],
+      "at": 179.62,
+      "duration": 1.4
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Euphrates",
+      "lonlat": [
+       41.8,
+       35.2
+      ],
+      "at": 188.44,
+      "size": 24,
+      "tone": "dark"
+     },
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.6,
+       27.2
+      ],
+      "at": 179.72,
+      "size": 40,
+      "tone": "dark"
+     },
+     {
+      "text": "Nubia",
+      "lonlat": [
+       34.6,
+       20.4
+      ],
+      "at": 190.52,
+      "size": 34,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       27.5,
+       33.6
+      ],
+      "size": 22
+     },
+     {
+      "text": "RED SEA",
+      "lonlat": [
+       37.4,
+       21.8
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 179.32,
+   "end": 191.92,
+   "startFrame": 5380,
+   "endFrame": 5758,
+   "vo": "Her stepson Thutmose III fought at least sixteen campaigns in twenty years and captured some 350 cities. At its height, his empire reached from the Euphrates in Syria to deep into Nubia in the south.",
+   "cues": [
+    {
+     "word": "Thutmose",
+     "action": "name label THUTMOSE III",
+     "t": 180.05,
+     "frame": 5402,
+     "matched": "Thutmose",
+     "exact": true
+    },
+    {
+     "word": "Euphrates",
+     "action": "territory grows north to the Euphrates",
+     "t": 188.44,
+     "frame": 5653,
+     "matched": "Euphrates",
+     "exact": true
+    },
+    {
+     "word": "Nubia",
+     "action": "territory grows south into Nubia",
+     "t": 190.12,
+     "frame": 5704,
+     "matched": "Nubia",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "IMG 010"
+   ],
+   "type": "image",
+   "image": "images/010.jpg",
+   "motion": "Slow push in on the sun disc with its rays.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.35,
+     "x": 0.4,
+     "y": 0.3
+    }
+   },
+   "titles": [
+    {
+     "text": "AKHENATEN",
+     "at": 193.28,
+     "style": "name"
+    }
+   ],
+   "start": 191.92,
+   "end": 204.191,
+   "startFrame": 5758,
+   "endFrame": 6126,
+   "vo": "A few generations later, Akhenaten pushed aside Egypt's many gods and built the state religion around one: the Aten, the disc of the sun. He built a new capital in the desert, and Egyptian art suddenly looked different.",
+   "cues": [
+    {
+     "word": "Akhenaten",
+     "action": "name card \"AKHENATEN\"",
+     "t": 193.28,
+     "frame": 5798,
+     "matched": "Akhenaten",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "IMG 011"
+   ],
+   "type": "image",
+   "image": "images/011.jpg",
+   "motion": "Slow push in through the doorway toward the gold.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.5,
+     "x": 0.48,
+     "y": 0.55
+    }
+   },
+   "titles": [
+    {
+     "text": "TUTANKHAMUN",
+     "at": 205.64,
+     "style": "name"
+    }
+   ],
+   "start": 204.191,
+   "end": 220.462,
+   "startFrame": 6126,
+   "endFrame": 6614,
+   "vo": "After his death, the young Tutankhamun, probably his son, went back to the old gods and the old capital. Tutankhamun died at about 18 and was buried in a small tomb that robbers mostly missed. When Howard Carter opened it in 1922, he found more than five thousand objects inside.",
+   "cues": [
+    {
+     "word": "Tutankhamun",
+     "action": "name card \"TUTANKHAMUN\"",
+     "t": 205.64,
+     "frame": 6169,
+     "matched": "Tutankhamun,",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "MAP-07"
+   ],
+   "type": "map",
+   "motion": "Egypt and the Hittite Empire face each other in the Levant.",
+   "year": [
+    {
+     "at": 220.762,
+     "value": -1274
+    }
+   ],
+   "titles": [
+    {
+     "text": "RAMESSES II",
+     "at": 222.7,
+     "style": "name",
+     "hideAt": 228.01
+    }
+   ],
+   "map": {
+    "id": "MAP-07",
+    "meridian": 34,
+    "camera": [
+     {
+      "at": 220.462,
+      "center": [
+       33.6,
+       32.4
+      ],
+      "zoom": 2.1
+     },
+     {
+      "at": 228.01,
+      "center": [
+       33.8,
+       32.6
+      ],
+      "zoom": 2.2
+     },
+     {
+      "at": 230.01,
+      "center": [
+       36,
+       34
+      ],
+      "zoom": 4.6
+     },
+     {
+      "at": 236.714,
+      "center": [
+       36,
+       34
+      ],
+      "zoom": 4.8
+     }
+    ],
+    "states": [
+     {
+      "at": 220.462,
+      "layers": [
+       {
+        "territory": "egypt_1274bc",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "hittite_1274bc",
+        "fill": "deepRed",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 215.462,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 215.462,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 215.462,
+      "duration": 0.1
+     }
+    ],
+    "markers": [
+     {
+      "id": "kadesh",
+      "label": "Kadesh",
+      "lonlat": [
+       36.52,
+       34.56
+      ],
+      "at": 221.262,
+      "kind": "city",
+      "battleAt": 228.81,
+      "labelSide": "right"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       32.4,
+       27
+      ],
+      "at": 220.862,
+      "size": 40
+     },
+     {
+      "text": "Hittites",
+      "lonlat": [
+       33.4,
+       39.2
+      ],
+      "at": 221.062,
+      "size": 40
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       28.5,
+       33.6
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 220.462,
+   "end": 236.714,
+   "startFrame": 6614,
+   "endFrame": 7101,
+   "vo": "The most powerful pharaoh of the New Kingdom was Ramesses II, who ruled for 66 years. In 1274 BC, he fought the Hittites at Kadesh in Syria, in what may have been the largest chariot battle in history, with five to six thousand chariots. Neither side really won.",
+   "cues": [
+    {
+     "word": "Ramesses",
+     "action": "name label RAMESSES II",
+     "t": 222.7,
+     "frame": 6681,
+     "matched": "Ramesses",
+     "exact": true
+    },
+    {
+     "word": "Kadesh",
+     "action": "battle icon at Kadesh",
+     "t": 228.61,
+     "frame": 6858,
+     "matched": "Kadesh",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "IMG 012"
+   ],
+   "type": "image",
+   "image": "images/012.jpg",
+   "motion": "Slow push in on the silver tablet.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.35,
+     "x": 0.5,
+     "y": 0.4
+    }
+   },
+   "date": {
+    "text": "1258 BC",
+    "at": 237.014
+   },
+   "start": 236.714,
+   "end": 250.28,
+   "startFrame": 7101,
+   "endFrame": 7508,
+   "vo": "Sixteen years later, Ramesses and the new Hittite king, Hattusili III, signed a peace treaty. The original was engraved on silver. It is the oldest international peace treaty known to historians, and a replica hangs today at the United Nations.",
+   "cues": []
+  },
+  {
+   "id": "S20",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "MAP-08"
+   ],
+   "type": "map",
+   "motion": "Eastern Mediterranean.",
+   "year": [
+    {
+     "at": 250.58,
+     "value": -1177
+    }
+   ],
+   "map": {
+    "id": "MAP-08",
+    "meridian": 29,
+    "camera": [
+     {
+      "at": 250.28,
+      "center": [
+       29.5,
+       35
+      ],
+      "zoom": 2.4
+     },
+     {
+      "at": 266.928,
+      "center": [
+       30,
+       34.4
+      ],
+      "zoom": 2.55
+     }
+    ],
+    "states": [
+     {
+      "at": 250.28,
+      "layers": [
+       {
+        "territory": "hittite_1274bc",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 255.71,
+      "duration": 1.6,
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 245.28,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 245.28,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 245.28,
+      "duration": 0.1
+     },
+     {
+      "id": "sea1",
+      "style": "arrow",
+      "path": [
+       [
+        24.6,
+        38.4
+       ],
+       [
+        26.6,
+        35.6
+       ],
+       [
+        29.4,
+        32.8
+       ],
+       [
+        30.9,
+        31.6
+       ]
+      ],
+      "at": 257.31,
+      "duration": 1.6
+     },
+     {
+      "id": "sea2",
+      "style": "arrow",
+      "path": [
+       [
+        27.4,
+        37.6
+       ],
+       [
+        31.5,
+        35.8
+       ],
+       [
+        34.4,
+        34.6
+       ],
+       [
+        34.3,
+        32.6
+       ],
+       [
+        32.4,
+        31.5
+       ]
+      ],
+      "at": 257.61,
+      "duration": 1.8
+     }
+    ],
+    "markers": [
+     {
+      "id": "mycenae",
+      "label": "Mycenae",
+      "lonlat": [
+       22.76,
+       37.73
+      ],
+      "at": 250.68,
+      "kind": "city",
+      "flashAt": 254.51,
+      "labelSide": "left"
+     },
+     {
+      "id": "knossos",
+      "label": "Knossos",
+      "lonlat": [
+       25.16,
+       35.3
+      ],
+      "at": 250.78,
+      "kind": "city",
+      "flashAt": 254.76,
+      "labelSide": "bottom"
+     },
+     {
+      "id": "hattusa",
+      "label": "Hattusa",
+      "lonlat": [
+       34.62,
+       40.02
+      ],
+      "at": 250.88,
+      "kind": "city",
+      "flashAt": 255.01,
+      "labelSide": "right"
+     },
+     {
+      "id": "ugarit",
+      "label": "Ugarit",
+      "lonlat": [
+       35.78,
+       35.6
+      ],
+      "at": 250.98,
+      "kind": "city",
+      "flashAt": 255.26,
+      "labelSide": "right"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.8,
+       28.8
+      ],
+      "at": 250.68,
+      "size": 40
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       20.5,
+       33.8
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 250.28,
+   "end": 266.928,
+   "startFrame": 7508,
+   "endFrame": 8008,
+   "vo": "Around 1177 BC, the eastern Mediterranean fell apart. As cities burned and trade broke down, raiders known as the Sea Peoples attacked Egypt. Ramesses III beat them on land and at sea, but Egypt never recovered its strength. By 1069 BC, the New Kingdom was over.",
+   "cues": [
+    {
+     "word": "burned",
+     "action": "red flashes on several coastal cities",
+     "t": 254.51,
+     "frame": 7635,
+     "matched": "burned",
+     "exact": true
+    },
+    {
+     "word": "Sea",
+     "action": "arrows of the Sea Peoples sweep toward the Nile delta",
+     "t": 257.31,
+     "frame": 7719,
+     "matched": "Sea",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "MAP-09"
+   ],
+   "type": "map",
+   "motion": "Nile valley from the delta down to Kush.",
+   "year": [
+    {
+     "at": 267.228,
+     "value": -747
+    }
+   ],
+   "map": {
+    "id": "MAP-09",
+    "meridian": 32,
+    "camera": [
+     {
+      "at": 266.928,
+      "center": [
+       31.6,
+       24.4
+      ],
+      "zoom": 2.15
+     },
+     {
+      "at": 287.11,
+      "center": [
+       31.6,
+       24.4
+      ],
+      "zoom": 2.3
+     }
+    ],
+    "states": [
+     {
+      "at": 266.928,
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 274.68,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "kush_750bc",
+        "fill": "olive",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 278,
+      "duration": 2.2,
+      "mode": "grow",
+      "origin": [
+       31.83,
+       18.53
+      ],
+      "layers": [
+       {
+        "territory": "kush_25th_dynasty",
+        "fill": "olive",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "sudan",
+      "style": "river",
+      "path": [
+       [
+        32.53,
+        15.6
+       ],
+       [
+        32.7,
+        16.3
+       ],
+       [
+        33.43,
+        16.69
+       ],
+       [
+        33.75,
+        16.94
+       ],
+       [
+        33.98,
+        17.7
+       ],
+       [
+        33.98,
+        18.02
+       ],
+       [
+        33.6,
+        19
+       ],
+       [
+        33.32,
+        19.53
+       ],
+       [
+        32.8,
+        19.3
+       ],
+       [
+        32.3,
+        18.95
+       ]
+      ],
+      "at": 261.928,
+      "duration": 0.1
+     },
+     {
+      "id": "nubia",
+      "style": "river",
+      "path": [
+       [
+        32.3,
+        18.95
+       ],
+       [
+        31.83,
+        18.53
+       ],
+       [
+        31.3,
+        18.2
+       ],
+       [
+        30.95,
+        18.05
+       ],
+       [
+        30.55,
+        18.6
+       ],
+       [
+        30.48,
+        19.17
+       ],
+       [
+        30.42,
+        19.63
+       ],
+       [
+        30.33,
+        19.8
+       ],
+       [
+        30.4,
+        20.7
+       ],
+       [
+        30.95,
+        21.5
+       ],
+       [
+        31.35,
+        21.85
+       ],
+       [
+        31.62,
+        22.34
+       ],
+       [
+        32.4,
+        23.1
+       ],
+       [
+        32.85,
+        23.6
+       ],
+       [
+        32.89,
+        24.08
+       ]
+      ],
+      "at": 261.928,
+      "duration": 0.1
+     },
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 261.928,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 261.928,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 261.928,
+      "duration": 0.1
+     }
+    ],
+    "markers": [
+     {
+      "id": "napata",
+      "label": "Napata",
+      "lonlat": [
+       31.83,
+       18.53
+      ],
+      "at": 274.98,
+      "kind": "city",
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.6,
+       27.4
+      ],
+      "at": 267.328,
+      "size": 40,
+      "tone": "dark",
+      "hideAt": 279.2
+     },
+     {
+      "text": "Kush",
+      "lonlat": [
+       35.4,
+       17.6
+      ],
+      "at": 275.08,
+      "size": 44
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "RED SEA",
+      "lonlat": [
+       37.6,
+       21.4
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 266.928,
+   "end": 287.11,
+   "startFrame": 8008,
+   "endFrame": 8613,
+   "vo": "Over the next seven centuries, Egypt was ruled more and more often by outsiders. Libyan dynasties ruled from the delta. Then the kings of Kush, from what is now Sudan, marched north. Their king Piye conquered Egypt around 747 BC, and for nearly a century these Kushite pharaohs, often called the Black Pharaohs, ruled the whole Nile valley.",
+   "cues": [
+    {
+     "word": "Kush",
+     "action": "Kush zone appears in the south",
+     "t": 274.68,
+     "frame": 8240,
+     "matched": "Kush,",
+     "exact": true
+    },
+    {
+     "word": "conquered",
+     "action": "Kush grows north over all of Egypt",
+     "t": 278,
+     "frame": 8340,
+     "matched": "conquered",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "IMG 013"
+   ],
+   "type": "image",
+   "image": "images/013.jpg",
+   "motion": "Slow zoom out on the burning temple city.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.4,
+     "x": 0.3,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "fire": 1
+   },
+   "year": [
+    {
+     "at": 287.41,
+     "value": -671
+    },
+    {
+     "at": 294.37,
+     "value": -671
+    },
+    {
+     "at": 294.87,
+     "value": -663
+    }
+   ],
+   "start": 287.11,
+   "end": 297.32,
+   "startFrame": 8613,
+   "endFrame": 8920,
+   "vo": "They were pushed out by the Assyrians, the most feared army of the age. In 671 BC the Assyrians took Memphis, and in 663 BC they sacked Thebes.",
+   "cues": []
+  },
+  {
+   "id": "S23",
+   "part": "EMPIRE AND DECLINE",
+   "assets": [
+    "MAP-10"
+   ],
+   "type": "map",
+   "motion": "Wide view of the Persian Empire.",
+   "year": [
+    {
+     "at": 297.62,
+     "value": -525
+    }
+   ],
+   "map": {
+    "id": "MAP-10",
+    "meridian": 46,
+    "camera": [
+     {
+      "at": 297.32,
+      "center": [
+       46,
+       31.5
+      ],
+      "zoom": 1.15
+     },
+     {
+      "at": 309.162,
+      "center": [
+       45,
+       31.5
+      ],
+      "zoom": 1.22
+     }
+    ],
+    "states": [
+     {
+      "at": 297.32,
+      "layers": [
+       {
+        "territory": "achaemenid_500bc",
+        "fill": "deepRed",
+        "opacity": 0.85
+       }
+      ]
+     },
+     {
+      "at": 300.07,
+      "duration": 0.8,
+      "layers": [
+       {
+        "territory": "achaemenid_500bc",
+        "fill": "deepRed",
+        "opacity": 0.85
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 304.72,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "achaemenid_500bc",
+        "fill": "deepRed",
+        "opacity": 0.85
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "deepRed",
+        "opacity": 0.85
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "cambyses",
+      "style": "arrow",
+      "path": [
+       [
+        35.8,
+        32.2
+       ],
+       [
+        34,
+        31.2
+       ],
+       [
+        32,
+        30.6
+       ]
+      ],
+      "at": 303.42,
+      "duration": 1.3
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Persian Empire",
+      "lonlat": [
+       55,
+       32
+      ],
+      "at": 297.72,
+      "size": 40
+     },
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.6,
+       27
+      ],
+      "at": 300.27,
+      "size": 36,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       25,
+       34.2
+      ],
+      "size": 20
+     },
+     {
+      "text": "PERSIAN GULF",
+      "lonlat": [
+       51.5,
+       26.6
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 297.32,
+   "end": 309.162,
+   "startFrame": 8920,
+   "endFrame": 9275,
+   "vo": "Egypt won back its freedom for a while under Psamtik I. But in 525 BC, the Persian king Cambyses II invaded, and Egypt became a province of the Persian Empire.",
+   "cues": [
+    {
+     "word": "Psamtik",
+     "action": "Egypt in its own color",
+     "t": 300.07,
+     "frame": 9002,
+     "matched": "Psamtik",
+     "exact": true
+    },
+    {
+     "word": "Cambyses",
+     "action": "arrow into Egypt, Egypt joins the Persian Empire color",
+     "t": 303.42,
+     "frame": 9103,
+     "matched": "Cambyses",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "IMG 014"
+   ],
+   "type": "image",
+   "image": "images/014.jpg",
+   "motion": "Slow push in on Alexander.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.42,
+     "y": 0.38
+    }
+   },
+   "date": {
+    "text": "332 BC",
+    "at": 309.462
+   },
+   "titles": [
+    {
+     "text": "ALEXANDRIA",
+     "at": 318.36,
+     "style": "name"
+    }
+   ],
+   "start": 309.162,
+   "end": 319.9,
+   "startFrame": 9275,
+   "endFrame": 9597,
+   "vo": "In 332 BC, Alexander the Great arrived, and the Egyptians welcomed him as a liberator from Persian rule. On the coast he founded a new city and named it after himself: Alexandria.",
+   "cues": [
+    {
+     "word": "Alexandria",
+     "action": "label \"ALEXANDRIA\"",
+     "t": 318.87,
+     "frame": 9566,
+     "matched": "Alexandria.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "MAP-11"
+   ],
+   "type": "map",
+   "motion": "The kingdoms after Alexander.",
+   "year": [
+    {
+     "at": 320.2,
+     "value": -305
+    }
+   ],
+   "map": {
+    "id": "MAP-11",
+    "meridian": 38,
+    "camera": [
+     {
+      "at": 319.9,
+      "center": [
+       38,
+       33
+      ],
+      "zoom": 1.4
+     },
+     {
+      "at": 338.609,
+      "center": [
+       37,
+       33
+      ],
+      "zoom": 1.5
+     }
+    ],
+    "states": [
+     {
+      "at": 319.9,
+      "layers": [
+       {
+        "territory": "macedon_200bc",
+        "fill": "#8A6A4C"
+       },
+       {
+        "territory": "seleucid_200bc",
+        "fill": "olive"
+       },
+       {
+        "territory": "ptolemaic_200bc",
+        "fill": "#B8A27A"
+       }
+      ]
+     },
+     {
+      "at": 322.41,
+      "duration": 1,
+      "layers": [
+       {
+        "territory": "macedon_200bc",
+        "fill": "#8A6A4C"
+       },
+       {
+        "territory": "seleucid_200bc",
+        "fill": "olive"
+       },
+       {
+        "territory": "ptolemaic_200bc",
+        "fill": "terracotta",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "markers": [
+     {
+      "id": "alexandria",
+      "label": "Alexandria",
+      "lonlat": [
+       29.92,
+       31.2
+      ],
+      "at": 334.86,
+      "kind": "city",
+      "pulse": true,
+      "labelSide": "top"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Ptolemies",
+      "lonlat": [
+       28.4,
+       26.6
+      ],
+      "at": 322.71,
+      "size": 38
+     },
+     {
+      "text": "Seleucids",
+      "lonlat": [
+       50,
+       33
+      ],
+      "at": 320.3,
+      "size": 38
+     },
+     {
+      "text": "Macedon",
+      "lonlat": [
+       22.6,
+       41.6
+      ],
+      "at": 320.5,
+      "size": 30
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       22,
+       34
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 319.9,
+   "end": 338.609,
+   "startFrame": 9597,
+   "endFrame": 10158,
+   "vo": "When Alexander died, one of his generals, Ptolemy, took Egypt. In 305 BC he declared himself king and started the last dynasty of ancient Egypt, which would rule for nearly three hundred years. The Ptolemies were Greek-speaking Macedonians, and their capital Alexandria became one of the largest cities of the ancient world.",
+   "cues": [
+    {
+     "word": "Ptolemy",
+     "action": "Ptolemaic kingdom highlights",
+     "t": 322.41,
+     "frame": 9672,
+     "matched": "Ptolemy,",
+     "exact": true
+    },
+    {
+     "word": "Alexandria",
+     "action": "Alexandria marker pulses",
+     "t": 334.86,
+     "frame": 10046,
+     "matched": "Alexandria",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "IMG 015"
+   ],
+   "type": "image",
+   "image": "images/015.jpg",
+   "motion": "Slow tilt up the lighthouse.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.3,
+     "x": 0.5,
+     "y": 0.62
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.5,
+     "y": 0.3
+    }
+   },
+   "date": {
+    "text": "196 BC",
+    "at": 349.36
+   },
+   "start": 338.609,
+   "end": 359.82,
+   "startFrame": 10158,
+   "endFrame": 10795,
+   "vo": "They built the Great Library of Alexandria and a lighthouse on the island of Pharos, around 140 meters tall, counted among the Seven Wonders of the World. In 196 BC, priests issued a decree for Ptolemy V in three scripts: hieroglyphs, Demotic and Greek. One copy, carved on a slab of stone, would later become the key to reading hieroglyphs.",
+   "cues": [
+    {
+     "word": "decree",
+     "action": "label \"196 BC\"",
+     "t": 349.36,
+     "frame": 10481,
+     "matched": "decree",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "IMG 016"
+   ],
+   "type": "image",
+   "image": "images/016.jpg",
+   "motion": "Slow zoom out over the sea battle.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.35,
+     "x": 0.5,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "smoke": 0.7
+   },
+   "date": {
+    "text": "31 BC",
+    "at": 360.12
+   },
+   "titles": [
+    {
+     "text": "CLEOPATRA VII",
+     "at": 361.64,
+     "style": "name"
+    }
+   ],
+   "start": 359.82,
+   "end": 378.58,
+   "startFrame": 10795,
+   "endFrame": 11357,
+   "vo": "The last ruler of the dynasty was Cleopatra VII. She allied herself first with Julius Caesar and then with Mark Antony. In 31 BC, Octavian, the future emperor Augustus, defeated their fleet at Actium. A year later, in 30 BC, Cleopatra died, and Egypt became the personal property of the Roman emperor.",
+   "cues": [
+    {
+     "word": "Cleopatra",
+     "action": "name card \"CLEOPATRA VII\"",
+     "t": 361.64,
+     "frame": 10849,
+     "matched": "Cleopatra",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "MAP-12"
+   ],
+   "type": "map",
+   "motion": "The Roman Empire around the Mediterranean.",
+   "year": [
+    {
+     "at": 378.88,
+     "value": 1
+    }
+   ],
+   "yearEra": "AD",
+   "map": {
+    "id": "MAP-12",
+    "meridian": 18,
+    "camera": [
+     {
+      "at": 378.58,
+      "center": [
+       19,
+       37.5
+      ],
+      "zoom": 1.3
+     },
+     {
+      "at": 386.34,
+      "center": [
+       20,
+       37
+      ],
+      "zoom": 1.4
+     }
+    ],
+    "states": [
+     {
+      "at": 378.58,
+      "layers": [
+       {
+        "territory": "roman_bc1",
+        "fill": "olive"
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "grain",
+      "style": "trade",
+      "at": 381.82,
+      "duration": 2,
+      "path": [
+       [
+        29.92,
+        31.2
+       ],
+       [
+        27.5,
+        32.6
+       ],
+       [
+        22.5,
+        35.2
+       ],
+       [
+        17.5,
+        37.2
+       ],
+       [
+        15.6,
+        38.2
+       ],
+       [
+        13.8,
+        39.6
+       ],
+       [
+        12.29,
+        41.73
+       ]
+      ],
+      "dots": {
+       "at": 382.62,
+       "count": 3,
+       "period": 7
+      }
+     }
+    ],
+    "markers": [
+     {
+      "id": "alexandria",
+      "label": "Alexandria",
+      "lonlat": [
+       29.92,
+       31.2
+      ],
+      "at": 378.98,
+      "kind": "city",
+      "labelSide": "bottom"
+     },
+     {
+      "id": "rome",
+      "label": "Rome",
+      "lonlat": [
+       12.48,
+       41.89
+      ],
+      "at": 379.18,
+      "kind": "city",
+      "labelSide": "top"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Roman Empire",
+      "lonlat": [
+       3,
+       46.2
+      ],
+      "at": 378.98,
+      "size": 40
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       18,
+       34.2
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 378.58,
+   "end": 386.34,
+   "startFrame": 11357,
+   "endFrame": 11590,
+   "vo": "Under Rome, Egypt was the richest province outside Italy. Its grain fed the city of Rome, and Alexandria remained a center of learning.",
+   "cues": [
+    {
+     "word": "grain",
+     "action": "trade line with moving ship dots from Alexandria to Rome",
+     "t": 381.82,
+     "frame": 11455,
+     "matched": "grain",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "IMG 017"
+   ],
+   "type": "image",
+   "image": "images/017.jpg",
+   "motion": "Slow push in on the monastery.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.42,
+     "y": 0.55
+    }
+   },
+   "start": 386.34,
+   "end": 399.443,
+   "startFrame": 11590,
+   "endFrame": 11983,
+   "vo": "Christianity reached Egypt early, and Alexandria became one of its great centers. Egyptian Christians, known today as Copts, built one of the oldest churches in the world. Their language, Coptic, was the last stage of the ancient Egyptian language.",
+   "cues": []
+  },
+  {
+   "id": "S30",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "MAP-13"
+   ],
+   "type": "map",
+   "motion": "Byzantine and Sasanian empires.",
+   "year": [
+    {
+     "at": 399.743,
+     "value": 618
+    },
+    {
+     "at": 404.9,
+     "value": 618
+    },
+    {
+     "at": 405.64,
+     "value": 628
+    }
+   ],
+   "yearEra": "AD",
+   "map": {
+    "id": "MAP-13",
+    "meridian": 40,
+    "camera": [
+     {
+      "at": 399.443,
+      "center": [
+       40,
+       31
+      ],
+      "zoom": 1.4
+     },
+     {
+      "at": 406.58,
+      "center": [
+       40,
+       31
+      ],
+      "zoom": 1.4
+     },
+     {
+      "at": 409.821,
+      "center": [
+       40,
+       28.5
+      ],
+      "zoom": 1.45
+     }
+    ],
+    "states": [
+     {
+      "at": 399.443,
+      "layers": [
+       {
+        "territory": "eastern_roman_600",
+        "fill": "olive"
+       },
+       {
+        "territory": "sasanian_600",
+        "fill": "deepRed"
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 403.42,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "eastern_roman_600",
+        "fill": "olive"
+       },
+       {
+        "territory": "sasanian_600",
+        "fill": "deepRed"
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "deepRed",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 407.84,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "eastern_roman_600",
+        "fill": "olive"
+       },
+       {
+        "territory": "sasanian_600",
+        "fill": "deepRed"
+       },
+       {
+        "territory": "egypt_heartland",
+        "fill": "deepRed",
+        "outline": 1
+       },
+       {
+        "territory": "hejaz_600",
+        "fill": "gold",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Eastern Roman Empire",
+      "lonlat": [
+       30,
+       39.6
+      ],
+      "at": 399.843,
+      "size": 34
+     },
+     {
+      "text": "Sasanian Empire",
+      "lonlat": [
+       53,
+       33
+      ],
+      "at": 400.043,
+      "size": 34
+     },
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.6,
+       27
+      ],
+      "at": 400.243,
+      "size": 32,
+      "tone": "dark"
+     },
+     {
+      "text": "Arabia",
+      "lonlat": [
+       43.5,
+       24
+      ],
+      "at": 408.14,
+      "size": 36,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       24,
+       34
+      ],
+      "size": 20
+     },
+     {
+      "text": "RED SEA",
+      "lonlat": [
+       38,
+       20.8
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 399.443,
+   "end": 409.821,
+   "startFrame": 11983,
+   "endFrame": 12295,
+   "vo": "In the 7th century, Egypt was caught between two exhausted empires. The Persians occupied it from 618 to 628. A decade later, a new power arrived from Arabia.",
+   "cues": [
+    {
+     "word": "Persians",
+     "action": "Egypt turns Sasanian color",
+     "t": 403.42,
+     "frame": 12103,
+     "matched": "Persians",
+     "exact": true
+    },
+    {
+     "word": "Arabia",
+     "action": "Arabia lights up in a new color",
+     "t": 409.721,
+     "frame": 12292,
+     "matched": "Arabia.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "part": "GREEKS, ROMANS AND ARABS",
+   "assets": [
+    "MAP-14"
+   ],
+   "type": "map",
+   "motion": "Zoom on the delta and Sinai.",
+   "year": [
+    {
+     "at": 410.121,
+     "value": 639
+    },
+    {
+     "at": 418.59,
+     "value": 639
+    },
+    {
+     "at": 419.87,
+     "value": 642
+    }
+   ],
+   "yearEra": "AD",
+   "map": {
+    "id": "MAP-14",
+    "meridian": 32,
+    "camera": [
+     {
+      "at": 409.821,
+      "center": [
+       31.9,
+       30.7
+      ],
+      "zoom": 7.2
+     },
+     {
+      "at": 422.21,
+      "center": [
+       31.8,
+       30.6
+      ],
+      "zoom": 7.6
+     },
+     {
+      "at": 424.01,
+      "center": [
+       31.23,
+       30.02
+      ],
+      "zoom": 16
+     },
+     {
+      "at": 435.015,
+      "center": [
+       31.23,
+       30.02
+      ],
+      "zoom": 17
+     }
+    ],
+    "states": [
+     {
+      "at": 409.821,
+      "layers": [
+       {
+        "territory": "egypt_heartland",
+        "fill": "terracotta",
+        "opacity": 0.75
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 404.821,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 404.821,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 404.821,
+      "duration": 0.1
+     },
+     {
+      "id": "amr",
+      "style": "arrow",
+      "path": [
+       [
+        33.8,
+        31.13
+       ],
+       [
+        32.57,
+        31.04
+       ],
+       [
+        31.9,
+        30.6
+       ],
+       [
+        31.32,
+        30.08
+       ]
+      ],
+      "at": 412.26,
+      "duration": 6.13
+     }
+    ],
+    "markers": [
+     {
+      "id": "babylon",
+      "label": "Babylon",
+      "lonlat": [
+       31.23,
+       30.006
+      ],
+      "at": 410.321,
+      "kind": "city",
+      "crossAt": 418.59,
+      "labelSide": "right"
+     },
+     {
+      "id": "alexandria",
+      "label": "Alexandria",
+      "lonlat": [
+       29.92,
+       31.2
+      ],
+      "at": 410.521,
+      "kind": "city",
+      "crossAt": 419.87,
+      "labelSide": "top"
+     },
+     {
+      "id": "pelusium",
+      "label": "Pelusium",
+      "lonlat": [
+       32.57,
+       31.04
+      ],
+      "at": 412.76,
+      "kind": "dot",
+      "labelSide": "top"
+     },
+     {
+      "id": "fustat",
+      "label": "Fustat",
+      "lonlat": [
+       31.237,
+       30.03
+      ],
+      "at": 422.61,
+      "kind": "city",
+      "pulse": true,
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Sinai",
+      "lonlat": [
+       33.9,
+       30
+      ],
+      "at": 410.221,
+      "size": 32,
+      "tone": "dark"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       31.4,
+       32
+      ],
+      "size": 24
+     }
+    ]
+   },
+   "start": 409.821,
+   "end": 435.015,
+   "startFrame": 12295,
+   "endFrame": 13050,
+   "vo": "In December 639, the Arab general Amr ibn al-As crossed into Egypt with about 4,000 men. Within three years, the Byzantine fortress of Babylon and the city of Alexandria had both surrendered. Amr built a new capital next to the old fortress, called Fustat. Egypt has been under Muslim rule ever since, although most Egyptians converted to Islam and switched to Arabic slowly, over several centuries.",
+   "cues": [
+    {
+     "word": "Amr",
+     "action": "arrow from Sinai into the delta",
+     "t": 412.26,
+     "frame": 12368,
+     "matched": "Amr",
+     "exact": true
+    },
+    {
+     "word": "Babylon",
+     "action": "Babylon marker gets a cross",
+     "t": 418.59,
+     "frame": 12558,
+     "matched": "Babylon",
+     "exact": true
+    },
+    {
+     "word": "Alexandria",
+     "action": "Alexandria marker gets a cross",
+     "t": 419.87,
+     "frame": 12596,
+     "matched": "Alexandria",
+     "exact": true
+    },
+    {
+     "word": "capital",
+     "action": "Fustat marker appears",
+     "t": 422.61,
+     "frame": 12678,
+     "matched": "capital",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "IMG 018"
+   ],
+   "type": "image",
+   "image": "images/018.jpg",
+   "motion": "Slow pan across the new city.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "969",
+    "at": 435.315
+   },
+   "titles": [
+    {
+     "text": "CAIRO",
+     "at": 445.44,
+     "style": "name"
+    }
+   ],
+   "start": 435.015,
+   "end": 451.29,
+   "startFrame": 13050,
+   "endFrame": 13539,
+   "vo": "In 969, a Shia dynasty from North Africa, the Fatimids, conquered Egypt and founded a new city next to Fustat. They called it al-Qahira, the Victorious. We know it as Cairo. They also built the al-Azhar mosque, which grew into one of the oldest universities in the world.",
+   "cues": [
+    {
+     "word": "Cairo",
+     "action": "label \"CAIRO\"",
+     "t": 445.44,
+     "frame": 13363,
+     "matched": "Cairo.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "IMG 019"
+   ],
+   "type": "image",
+   "image": "images/019.jpg",
+   "motion": "Slow push in on Saladin.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.6,
+     "y": 0.42
+    }
+   },
+   "date": {
+    "text": "1187",
+    "at": 451.59
+   },
+   "titles": [
+    {
+     "text": "SALADIN",
+     "at": 454.91,
+     "style": "name"
+    }
+   ],
+   "start": 451.29,
+   "end": 462.46,
+   "startFrame": 13539,
+   "endFrame": 13874,
+   "vo": "The Fatimids were brought down from the inside. Their Kurdish vizier, Saladin, took power in 1171. From Egypt he fought the Crusaders, and in 1187 he captured Jerusalem.",
+   "cues": [
+    {
+     "word": "Saladin",
+     "action": "name card \"SALADIN\"",
+     "t": 454.91,
+     "frame": 13647,
+     "matched": "Saladin,",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "IMG 020"
+   ],
+   "type": "image",
+   "image": "images/020.jpg",
+   "motion": "Slow push in on the captured king.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.47,
+     "y": 0.45
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "date": {
+    "text": "1250",
+    "at": 462.76
+   },
+   "titles": [
+    {
+     "text": "LOUIS IX",
+     "at": 471.27,
+     "style": "name"
+    }
+   ],
+   "start": 462.46,
+   "end": 485.73,
+   "startFrame": 13874,
+   "endFrame": 14572,
+   "vo": "Saladin's successors relied on mamluks: soldiers bought as slaves, trained from childhood, and then freed to serve as an elite army. In 1250 the French king Louis IX invaded Egypt on crusade. The mamluks defeated his army and captured the king himself, and France had to pay a ransom of 800,000 bezants to get him back. That same year, they killed the last sultan of Saladin's family and took the throne for themselves.",
+   "cues": [
+    {
+     "word": "Louis",
+     "action": "name card \"LOUIS IX\"",
+     "t": 471.27,
+     "frame": 14138,
+     "matched": "Louis",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "MAP-15"
+   ],
+   "type": "map",
+   "motion": "The Mamluk Sultanate in Egypt and Syria.",
+   "year": [
+    {
+     "at": 486.03,
+     "value": 1260
+    },
+    {
+     "at": 496.5,
+     "value": 1260
+    },
+    {
+     "at": 497.5,
+     "value": 1291
+    }
+   ],
+   "map": {
+    "id": "MAP-15",
+    "meridian": 36,
+    "camera": [
+     {
+      "at": 485.73,
+      "center": [
+       36.5,
+       32
+      ],
+      "zoom": 2.1
+     },
+     {
+      "at": 488.37,
+      "center": [
+       36.5,
+       32
+      ],
+      "zoom": 2.15
+     },
+     {
+      "at": 490.17,
+      "center": [
+       35.2,
+       32.75
+      ],
+      "zoom": 10
+     },
+     {
+      "at": 499.774,
+      "center": [
+       35.2,
+       32.75
+      ],
+      "zoom": 10.5
+     }
+    ],
+    "states": [
+     {
+      "at": 485.73,
+      "layers": [
+       {
+        "territory": "mamluk_1279",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 485.73,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "mamluk_1279",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "ilkhanate_1279",
+        "fill": "deepRed",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 480.73,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 480.73,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 480.73,
+      "duration": 0.1
+     }
+    ],
+    "markers": [
+     {
+      "id": "cairo",
+      "label": "Cairo",
+      "lonlat": [
+       31.24,
+       30.05
+      ],
+      "at": 486.13,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "ainjalut",
+      "label": "Ain Jalut",
+      "lonlat": [
+       35.35,
+       32.55
+      ],
+      "at": 488.67,
+      "kind": "dot",
+      "battleAt": 489.27,
+      "labelSide": "right"
+     },
+     {
+      "id": "acre",
+      "label": "Acre",
+      "lonlat": [
+       35.08,
+       32.93
+      ],
+      "at": 490.37,
+      "kind": "city",
+      "crossAt": 497.5,
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Mamluk Sultanate",
+      "lonlat": [
+       29.8,
+       27.4
+      ],
+      "at": 486.13,
+      "size": 36
+     },
+     {
+      "text": "Mongols",
+      "lonlat": [
+       44,
+       36.6
+      ],
+      "at": 486.13,
+      "size": 38
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       29,
+       33.6
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 485.73,
+   "end": 499.774,
+   "startFrame": 14572,
+   "endFrame": 14993,
+   "vo": "Ten years later, in 1260, the Mamluks defeated the Mongols at Ain Jalut in Palestine. It was one of the first major defeats the Mongol armies had suffered. In 1291 they took Acre, the last big Crusader stronghold in the Holy Land.",
+   "cues": [
+    {
+     "word": "Ten",
+     "action": "Mongol zone in the north east",
+     "t": 485.73,
+     "frame": 14572,
+     "matched": "Ten",
+     "exact": true
+    },
+    {
+     "word": "Mongols",
+     "action": "battle icon at Ain Jalut",
+     "t": 488.97,
+     "frame": 14669,
+     "matched": "Mongols",
+     "exact": true
+    },
+    {
+     "word": "stronghold",
+     "action": "cross mark on Acre",
+     "t": 497.5,
+     "frame": 14925,
+     "matched": "stronghold",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "IMG 021"
+   ],
+   "type": "image",
+   "image": "images/021.jpg",
+   "motion": "Slow zoom out on the empty street, desaturation.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.35,
+     "x": 0.5,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "desaturate": [
+     1,
+     0.55
+    ]
+   },
+   "date": {
+    "text": "1347",
+    "at": 500.074
+   },
+   "start": 499.774,
+   "end": 510.16,
+   "startFrame": 14993,
+   "endFrame": 15305,
+   "vo": "Mamluk Cairo was one of the great cities of the Islamic world. Then, in 1347, the Black Death arrived, and plague returned again and again over the following decades.",
+   "cues": []
+  },
+  {
+   "id": "S37",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "MAP-16"
+   ],
+   "type": "map",
+   "motion": "The eastern Mediterranean.",
+   "year": [
+    {
+     "at": 510.46,
+     "value": 1517
+    }
+   ],
+   "map": {
+    "id": "MAP-16",
+    "meridian": 34,
+    "camera": [
+     {
+      "at": 510.16,
+      "center": [
+       34,
+       32.5
+      ],
+      "zoom": 1.8
+     },
+     {
+      "at": 525.78,
+      "center": [
+       33,
+       31.5
+      ],
+      "zoom": 1.9
+     }
+    ],
+    "states": [
+     {
+      "at": 510.16,
+      "layers": [
+       {
+        "territory": "ottoman_1492",
+        "fill": "olive"
+       },
+       {
+        "territory": "mamluk_1492",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 513.18,
+      "duration": 2.6,
+      "mode": "grow",
+      "origin": [
+       37,
+       35.5
+      ],
+      "layers": [
+       {
+        "territory": "ottoman_1530",
+        "fill": "olive",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "markers": [
+     {
+      "id": "cairo",
+      "label": "Cairo",
+      "lonlat": [
+       31.24,
+       30.05
+      ],
+      "at": 510.66,
+      "kind": "city",
+      "crossAt": 515.28,
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Ottoman Empire",
+      "lonlat": [
+       32.5,
+       39.4
+      ],
+      "at": 510.56,
+      "size": 38
+     },
+     {
+      "text": "Mamluks",
+      "lonlat": [
+       29,
+       27.2
+      ],
+      "at": 510.76,
+      "size": 36,
+      "hideAt": 514.88
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       25,
+       34
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 510.16,
+   "end": 525.78,
+   "startFrame": 15305,
+   "endFrame": 15773,
+   "vo": "In 1517, the Ottoman sultan Selim I defeated the Mamluks outside Cairo and hanged the last Mamluk sultan at one of the city's gates. For almost three centuries, Egypt was a province of the Ottoman Empire, though the Mamluk families stayed rich and powerful underneath.",
+   "cues": [
+    {
+     "word": "Selim",
+     "action": "Ottoman color spreads from Syria over Egypt",
+     "t": 512.88,
+     "frame": 15386,
+     "matched": "Selim",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "IMG 022"
+   ],
+   "type": "image",
+   "image": "images/022.jpg",
+   "motion": "Slow pan across the battle with the pyramids behind.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "smoke": 0.6
+   },
+   "date": {
+    "text": "1798",
+    "at": 526.08
+   },
+   "titles": [
+    {
+     "text": "NAPOLEON",
+     "at": 526.89,
+     "style": "name"
+    }
+   ],
+   "start": 525.78,
+   "end": 542.104,
+   "startFrame": 15773,
+   "endFrame": 16263,
+   "vo": "In 1798, Napoleon Bonaparte landed at Alexandria with an army and 167 scientists and scholars. On 21 July he defeated the Mamluks at the Battle of the Pyramids, but eleven days later the British admiral Nelson destroyed his fleet at the Battle of the Nile.",
+   "cues": [
+    {
+     "word": "Napoleon",
+     "action": "name card \"NAPOLEON\"",
+     "t": 526.89,
+     "frame": 15807,
+     "matched": "Napoleon",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "part": "CAIRO, THE MAMLUKS AND NAPOLEON",
+   "assets": [
+    "IMG 023"
+   ],
+   "type": "image",
+   "image": "images/023.jpg",
+   "motion": "Slow push in on the stone.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.35,
+     "x": 0.45,
+     "y": 0.42
+    }
+   },
+   "year": [
+    {
+     "at": 542.404,
+     "value": 1799
+    },
+    {
+     "at": 562.51,
+     "value": 1799
+    },
+    {
+     "at": 563.11,
+     "value": 1822
+    }
+   ],
+   "titles": [
+    {
+     "text": "CHAMPOLLION",
+     "at": 565.8,
+     "style": "name"
+    }
+   ],
+   "start": 542.104,
+   "end": 570.566,
+   "startFrame": 16263,
+   "endFrame": 17117,
+   "vo": "The French were trapped, but the scholars kept working. Their survey, published as the Description de l'Égypte, helped start the modern study of ancient Egypt. In 1799, their soldiers dug up the stone with the decree of Ptolemy V near the town of Rosetta. Napoleon left Egypt the same year, his army surrendered in 1801, and the Rosetta Stone went to the British Museum. In 1822, the French scholar Champollion used it to read hieroglyphs for the first time in about fourteen hundred years.",
+   "cues": [
+    {
+     "word": "hieroglyphs",
+     "action": "name card \"CHAMPOLLION\"",
+     "t": 565.8,
+     "frame": 16974,
+     "matched": "hieroglyphs",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "IMG 024"
+   ],
+   "type": "image",
+   "image": "images/024.jpg",
+   "motion": "Slow push in on Muhammad Ali.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.66,
+     "y": 0.4
+    }
+   },
+   "date": {
+    "text": "1805",
+    "at": 570.866
+   },
+   "titles": [
+    {
+     "text": "MUHAMMAD ALI",
+     "at": 575.94,
+     "style": "name"
+    }
+   ],
+   "start": 570.566,
+   "end": 580.089,
+   "startFrame": 17117,
+   "endFrame": 17403,
+   "vo": "In the chaos the French left behind, an Albanian officer in the Ottoman army took control. His name was Muhammad Ali, and in 1805 he became governor of Egypt.",
+   "cues": [
+    {
+     "word": "Muhammad",
+     "action": "name card \"MUHAMMAD ALI\"",
+     "t": 575.94,
+     "frame": 17278,
+     "matched": "Muhammad",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "IMG 025"
+   ],
+   "type": "image",
+   "image": "images/025.jpg",
+   "motion": "Slow push in on the closed gate, dark vignette.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.42,
+     "y": 0.5
+    }
+   },
+   "effects": {
+    "vignette": 0.7
+   },
+   "date": {
+    "text": "1811",
+    "at": 580.389
+   },
+   "start": 580.089,
+   "end": 586.9,
+   "startFrame": 17403,
+   "endFrame": 17607,
+   "vo": "In 1811, he invited the Mamluk leaders to a celebration at the Citadel of Cairo, closed the gates, and had them killed.",
+   "cues": []
+  },
+  {
+   "id": "S42",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "MAP-17"
+   ],
+   "type": "map",
+   "motion": "Egypt and its neighbours.",
+   "year": [
+    {
+     "at": 587.2,
+     "value": 1811
+    },
+    {
+     "at": 598.72,
+     "value": 1833
+    },
+    {
+     "at": 601.03,
+     "value": 1840
+    }
+   ],
+   "map": {
+    "id": "MAP-17",
+    "meridian": 34,
+    "camera": [
+     {
+      "at": 586.9,
+      "center": [
+       34,
+       26.5
+      ],
+      "zoom": 1.2
+     },
+     {
+      "at": 605.898,
+      "center": [
+       34,
+       27
+      ],
+      "zoom": 1.28
+     }
+    ],
+    "states": [
+     {
+      "at": 586.9,
+      "layers": [
+       {
+        "territory": "ottoman_1815",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "egypt_1811",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 595.11,
+      "duration": 1.4,
+      "mode": "grow",
+      "origin": [
+       31.5,
+       22
+      ],
+      "layers": [
+       {
+        "territory": "ottoman_1815",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "egypt_1811",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "sudan_1820s",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 596.08,
+      "duration": 1.2,
+      "mode": "grow",
+      "origin": [
+       35,
+       28
+      ],
+      "layers": [
+       {
+        "territory": "ottoman_1815",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "egypt_1811",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "sudan_1820s",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "hejaz_1818",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 596.9,
+      "duration": 1.2,
+      "mode": "grow",
+      "origin": [
+       34.3,
+       31.2
+      ],
+      "layers": [
+       {
+        "territory": "ottoman_1815",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "egypt_1811",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "sudan_1820s",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "hejaz_1818",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "syria_1831",
+        "fill": "terracotta"
+       }
+      ]
+     },
+     {
+      "at": 601.43,
+      "duration": 1.4,
+      "layers": [
+       {
+        "territory": "ottoman_1815",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "egypt_1811",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "sudan_1820s",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "ibrahim",
+      "style": "arrow",
+      "path": [
+       [
+        36.2,
+        36.9
+       ],
+       [
+        34.6,
+        38
+       ],
+       [
+        32.6,
+        38.8
+       ],
+       [
+        30.6,
+        39.6
+       ]
+      ],
+      "at": 598.72,
+      "duration": 1.3,
+      "hideAt": 601.03
+     }
+    ],
+    "markers": [
+     {
+      "id": "constantinople",
+      "label": "Constantinople",
+      "lonlat": [
+       28.98,
+       41.01
+      ],
+      "at": 598.52,
+      "kind": "city",
+      "labelSide": "top"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.6,
+       26.4
+      ],
+      "at": 587.3,
+      "size": 40
+     },
+     {
+      "text": "Ottoman Empire",
+      "lonlat": [
+       39.5,
+       38.6
+      ],
+      "at": 587.5,
+      "size": 32,
+      "tone": "dark"
+     },
+     {
+      "text": "Sudan",
+      "lonlat": [
+       30.5,
+       16
+      ],
+      "at": 595.71,
+      "size": 36
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       24,
+       34
+      ],
+      "size": 20
+     },
+     {
+      "text": "RED SEA",
+      "lonlat": [
+       38.2,
+       20.6
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 586.9,
+   "end": 605.898,
+   "startFrame": 17607,
+   "endFrame": 18177,
+   "vo": "Then he rebuilt the country, with a modern army, state factories and new schools, and turned Egypt into a major exporter of cotton. His armies conquered Sudan and parts of Arabia and Syria, and his son nearly reached Constantinople. In 1840, the European powers forced him to pull back, but his family won the right to rule Egypt.",
+   "cues": [
+    {
+     "word": "Sudan",
+     "action": "Egyptian color grows into Sudan",
+     "t": 595.11,
+     "frame": 17853,
+     "matched": "Sudan",
+     "exact": true
+    },
+    {
+     "word": "Arabia",
+     "action": "into western Arabia",
+     "t": 596.08,
+     "frame": 17882,
+     "matched": "Arabia",
+     "exact": true
+    },
+    {
+     "word": "Syria",
+     "action": "into Syria",
+     "t": 596.9,
+     "frame": 17907,
+     "matched": "Syria,",
+     "exact": true
+    },
+    {
+     "word": "Constantinople",
+     "action": "arrow toward Constantinople, then pulls back",
+     "t": 598.72,
+     "frame": 17962,
+     "matched": "Constantinople.",
+     "exact": true
+    },
+    {
+     "word": "European",
+     "action": "Syria and Arabia fade back",
+     "t": 601.03,
+     "frame": 18031,
+     "matched": "European",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S43",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "MAP-18"
+   ],
+   "type": "map",
+   "motion": "Wide view: Europe, Africa and Asia.",
+   "year": [
+    {
+     "at": 606.198,
+     "value": 1869
+    }
+   ],
+   "map": {
+    "id": "MAP-18",
+    "meridian": 30,
+    "camera": [
+     {
+      "at": 605.898,
+      "center": [
+       30,
+       9
+      ],
+      "zoom": 0.42
+     },
+     {
+      "at": 622.68,
+      "center": [
+       30,
+       9
+      ],
+      "zoom": 0.44
+     }
+    ],
+    "states": [
+     {
+      "at": 605.898,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "suez",
+      "style": "trade",
+      "at": 613.16,
+      "duration": 2.4,
+      "path": [
+       [
+        -0.12,
+        51.5
+       ],
+       [
+        -5,
+        49
+       ],
+       [
+        -9.6,
+        43
+       ],
+       [
+        -9.8,
+        38
+       ],
+       [
+        -5.6,
+        36
+       ],
+       [
+        3,
+        37.5
+       ],
+       [
+        11,
+        37.4
+       ],
+       [
+        20,
+        34
+       ],
+       [
+        32.3,
+        31.3
+       ],
+       [
+        32.55,
+        29.9
+       ],
+       [
+        34.5,
+        27
+       ],
+       [
+        38,
+        21
+       ],
+       [
+        42.7,
+        13.5
+       ],
+       [
+        45,
+        12.4
+       ],
+       [
+        55,
+        14
+       ],
+       [
+        64,
+        17
+       ],
+       [
+        72.83,
+        18.96
+       ]
+      ],
+      "dots": {
+       "at": 615.16,
+       "count": 3,
+       "period": 9
+      }
+     },
+     {
+      "id": "cape",
+      "style": "route",
+      "at": 619.18,
+      "duration": 1.8,
+      "hideAt": 621.92,
+      "path": [
+       [
+        -0.12,
+        51.5
+       ],
+       [
+        -10,
+        45
+       ],
+       [
+        -17,
+        30
+       ],
+       [
+        -20,
+        15
+       ],
+       [
+        -12,
+        0
+       ],
+       [
+        0,
+        -15
+       ],
+       [
+        10,
+        -30
+       ],
+       [
+        18.5,
+        -35.6
+       ],
+       [
+        26,
+        -36
+       ],
+       [
+        38,
+        -30
+       ],
+       [
+        45,
+        -22
+       ],
+       [
+        55,
+        -10
+       ],
+       [
+        62,
+        5
+       ],
+       [
+        70,
+        15
+       ],
+       [
+        72.83,
+        18.96
+       ]
+      ]
+     }
+    ],
+    "markers": [
+     {
+      "id": "london",
+      "label": "London",
+      "lonlat": [
+       -0.12,
+       51.5
+      ],
+      "at": 606.298,
+      "kind": "city",
+      "labelSide": "top"
+     },
+     {
+      "id": "bombay",
+      "label": "Bombay",
+      "lonlat": [
+       72.83,
+       18.96
+      ],
+      "at": 606.498,
+      "kind": "city",
+      "labelSide": "right"
+     },
+     {
+      "id": "suez",
+      "label": "Suez",
+      "lonlat": [
+       32.55,
+       29.97
+      ],
+      "at": 613.96,
+      "kind": "city",
+      "pulse": true,
+      "labelSide": "right"
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "ATLANTIC OCEAN",
+      "lonlat": [
+       -24,
+       22
+      ],
+      "size": 22
+     },
+     {
+      "text": "INDIAN OCEAN",
+      "lonlat": [
+       70,
+       -8
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 605.898,
+   "end": 622.68,
+   "startFrame": 18177,
+   "endFrame": 18680,
+   "vo": "His grandson Ismail spent heavily to modernize Egypt along European lines. In 1869, during his reign, the Suez Canal opened after ten years of digging. At 193 kilometers long, it connected the Mediterranean to the Red Sea, so ships from Europe no longer had to sail around Africa.",
+   "cues": [
+    {
+     "word": "opened",
+     "action": "the canal route draws through Suez",
+     "t": 613.16,
+     "frame": 18395,
+     "matched": "opened",
+     "exact": true
+    },
+    {
+     "word": "Africa",
+     "action": "the old route around Africa draws in dashed, then fades",
+     "t": 621.82,
+     "frame": 18655,
+     "matched": "Africa.",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S44",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "IMG 026"
+   ],
+   "type": "image",
+   "image": "images/026.jpg",
+   "motion": "Slow pan across the British troops.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.6
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.6
+    }
+   },
+   "effects": {
+    "dust": 1
+   },
+   "date": {
+    "text": "1882",
+    "at": 622.98
+   },
+   "start": 622.68,
+   "end": 642.379,
+   "startFrame": 18680,
+   "endFrame": 19271,
+   "vo": "It also ruined Egypt's finances. In 1875, deep in debt, Ismail sold Egypt's share in the canal to Britain for four million pounds. Seven years later, after an army revolt, British troops invaded and defeated the Egyptian army at Tel el-Kebir. Britain controlled Egypt from then on, even though on paper it was still part of the Ottoman Empire.",
+   "cues": []
+  },
+  {
+   "id": "S45",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "IMG 027"
+   ],
+   "type": "image",
+   "image": "images/027.jpg",
+   "motion": "Slow pan across the crowd.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.38,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.55
+    }
+   },
+   "year": [
+    {
+     "at": 642.679,
+     "value": 1919
+    },
+    {
+     "at": 651.41,
+     "value": 1919
+    },
+    {
+     "at": 652.01,
+     "value": 1922
+    }
+   ],
+   "start": 642.379,
+   "end": 657.063,
+   "startFrame": 19271,
+   "endFrame": 19712,
+   "vo": "When the Ottomans joined the First World War, Britain made Egypt a formal protectorate. In 1919 the country rose up in revolution, and on 28 February 1922 Britain declared Egypt independent, while keeping control of defense and the canal.",
+   "cues": []
+  },
+  {
+   "id": "S46",
+   "part": "MUHAMMAD ALI AND THE BRITISH",
+   "assets": [
+    "IMG 011"
+   ],
+   "type": "image",
+   "image": "images/011.jpg",
+   "motion": "Reuse of 011, a different crop: push in on the golden mask.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.2,
+     "x": 0.44,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.85,
+     "x": 0.4,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "1922",
+    "at": 657.363
+   },
+   "start": 657.063,
+   "end": 665.915,
+   "startFrame": 19712,
+   "endFrame": 19977,
+   "vo": "That same year, Howard Carter opened the tomb of Tutankhamun, which set off a new wave of fascination with ancient Egypt around the world.",
+   "cues": []
+  },
+  {
+   "id": "S47",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 028"
+   ],
+   "type": "image",
+   "image": "images/028.jpg",
+   "motion": "Slow push in on the officers.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.08,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.32,
+     "x": 0.42,
+     "y": 0.42
+    }
+   },
+   "date": {
+    "text": "1952",
+    "at": 666.215
+   },
+   "titles": [
+    {
+     "text": "GAMAL ABDEL NASSER",
+     "at": 677.52,
+     "style": "name"
+    }
+   ],
+   "start": 665.915,
+   "end": 679.76,
+   "startFrame": 19977,
+   "endFrame": 20393,
+   "vo": "On 23 July 1952, a group of army officers called the Free Officers overthrew King Farouk. A year later the monarchy was gone, and in 1956 one of the officers, Gamal Abdel Nasser, became president.",
+   "cues": [
+    {
+     "word": "Nasser",
+     "action": "name card \"GAMAL ABDEL NASSER\"",
+     "t": 677.52,
+     "frame": 20326,
+     "matched": "Nasser,",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S48",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "MAP-19"
+   ],
+   "type": "map",
+   "motion": "Zoom on Sinai and the canal.",
+   "year": [
+    {
+     "at": 680.06,
+     "value": 1956
+    }
+   ],
+   "map": {
+    "id": "MAP-19",
+    "meridian": 33,
+    "camera": [
+     {
+      "at": 679.76,
+      "center": [
+       32.8,
+       30.3
+      ],
+      "zoom": 5.6
+     },
+     {
+      "at": 696.08,
+      "center": [
+       33.2,
+       30.4
+      ],
+      "zoom": 6.4
+     }
+    ],
+    "states": [
+     {
+      "at": 679.76,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta",
+        "opacity": 0.85
+       },
+       {
+        "territory": "israel_modern",
+        "fill": "olive"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 674.76,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 674.76,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 674.76,
+      "duration": 0.1
+     },
+     {
+      "id": "canal",
+      "style": "trade",
+      "path": [
+       [
+        32.31,
+        31.26
+       ],
+       [
+        32.32,
+        30.85
+       ],
+       [
+        32.29,
+        30.6
+       ],
+       [
+        32.35,
+        30.4
+       ],
+       [
+        32.4,
+        30.3
+       ],
+       [
+        32.53,
+        30.1
+       ],
+       [
+        32.55,
+        29.95
+       ]
+      ],
+      "at": 685.12,
+      "duration": 1.2,
+      "smooth": false
+     },
+     {
+      "id": "isr1",
+      "style": "arrow",
+      "path": [
+       [
+        34.45,
+        31.05
+       ],
+       [
+        33.7,
+        30.6
+       ],
+       [
+        32.85,
+        30.3
+       ]
+      ],
+      "at": 687.06,
+      "duration": 1.3,
+      "hideAt": 691.74
+     },
+     {
+      "id": "isr2",
+      "style": "arrow",
+      "path": [
+       [
+        34.5,
+        30.3
+       ],
+       [
+        33.9,
+        29.6
+       ],
+       [
+        33.3,
+        29.2
+       ]
+      ],
+      "at": 687.26,
+      "duration": 1.3,
+      "hideAt": 691.74
+     },
+     {
+      "id": "portsaid",
+      "style": "arrow",
+      "path": [
+       [
+        31.4,
+        32.9
+       ],
+       [
+        31.95,
+        32
+       ],
+       [
+        32.28,
+        31.4
+       ]
+      ],
+      "at": 687.66,
+      "duration": 1.2,
+      "hideAt": 691.74
+     }
+    ],
+    "markers": [
+     {
+      "id": "portsaid",
+      "label": "Port Said",
+      "lonlat": [
+       32.3,
+       31.26
+      ],
+      "at": 680.16,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "suez",
+      "label": "Suez",
+      "lonlat": [
+       32.55,
+       29.97
+      ],
+      "at": 680.36,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "cairo",
+      "label": "Cairo",
+      "lonlat": [
+       31.24,
+       30.05
+      ],
+      "at": 680.56,
+      "kind": "city",
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Sinai",
+      "lonlat": [
+       33.7,
+       29.6
+      ],
+      "at": 680.16,
+      "size": 34,
+      "tone": "dark"
+     },
+     {
+      "text": "Israel",
+      "lonlat": [
+       35.1,
+       31.3
+      ],
+      "at": 680.36,
+      "size": 30
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       32.6,
+       32.2
+      ],
+      "size": 22
+     }
+    ]
+   },
+   "start": 679.76,
+   "end": 696.08,
+   "startFrame": 20393,
+   "endFrame": 20882,
+   "vo": "The last British soldiers had left the canal zone in June 1956. A month later, Nasser nationalized the Suez Canal. Israel, Britain and France invaded, but the United States and the Soviet Union forced them to withdraw, and Nasser came out of the crisis as the hero of the Arab world.",
+   "cues": [
+    {
+     "word": "nationalized",
+     "action": "the canal line glows",
+     "t": 685.12,
+     "frame": 20554,
+     "matched": "nationalized",
+     "exact": true
+    },
+    {
+     "word": "Israel",
+     "action": "arrows from Israel into Sinai, from the sea at Port Said",
+     "t": 687.06,
+     "frame": 20612,
+     "matched": "Israel,",
+     "exact": true
+    },
+    {
+     "word": "withdraw",
+     "action": "the arrows fade out",
+     "t": 691.74,
+     "frame": 20752,
+     "matched": "withdraw,",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S49",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "MAP-20"
+   ],
+   "type": "map",
+   "motion": "Egypt and Syria.",
+   "year": [
+    {
+     "at": 696.38,
+     "value": 1958
+    },
+    {
+     "at": 702.17,
+     "value": 1958
+    },
+    {
+     "at": 702.77,
+     "value": 1961
+    }
+   ],
+   "map": {
+    "id": "MAP-20",
+    "meridian": 33,
+    "camera": [
+     {
+      "at": 696.08,
+      "center": [
+       33,
+       29.5
+      ],
+      "zoom": 1.95
+     },
+     {
+      "at": 703.68,
+      "center": [
+       33,
+       29.8
+      ],
+      "zoom": 2.05
+     }
+    ],
+    "states": [
+     {
+      "at": 696.08,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "syria_modern",
+        "fill": "#B8A27A"
+       }
+      ]
+     },
+     {
+      "at": 697.65,
+      "duration": 1,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta",
+        "outline": 1
+       },
+       {
+        "territory": "syria_modern",
+        "fill": "terracotta",
+        "outline": 1
+       }
+      ]
+     },
+     {
+      "at": 702.47,
+      "duration": 1.2,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta"
+       },
+       {
+        "territory": "syria_modern",
+        "fill": "#B8A27A"
+       }
+      ]
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       29.6,
+       26.2
+      ],
+      "at": 696.48,
+      "size": 40,
+      "hideAt": 697.65
+     },
+     {
+      "text": "Syria",
+      "lonlat": [
+       38.6,
+       35.2
+      ],
+      "at": 696.68,
+      "size": 34
+     },
+     {
+      "text": "United Arab Republic",
+      "lonlat": [
+       30.6,
+       26.2
+      ],
+      "at": 698.05,
+      "size": 40,
+      "hideAt": 702.47
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "MEDITERRANEAN SEA",
+      "lonlat": [
+       27,
+       33.8
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 696.08,
+   "end": 703.68,
+   "startFrame": 20882,
+   "endFrame": 21110,
+   "vo": "In 1958 Egypt even merged with Syria into one country, the United Arab Republic, although the union broke up after three years.",
+   "cues": [
+    {
+     "word": "merged",
+     "action": "Egypt and Syria in one color, label UNITED ARAB REPUBLIC",
+     "t": 697.65,
+     "frame": 20930,
+     "matched": "merged",
+     "exact": true
+    },
+    {
+     "word": "broke",
+     "action": "Syria fades back",
+     "t": 702.17,
+     "frame": 21065,
+     "matched": "broke",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S50",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 029"
+   ],
+   "type": "image",
+   "image": "images/029.jpg",
+   "motion": "Slow pan along the dam wall.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.25,
+     "x": 0.35,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.25,
+     "x": 0.62,
+     "y": 0.55
+    }
+   },
+   "titles": [
+    {
+     "text": "ASWAN HIGH DAM",
+     "at": 708.82,
+     "style": "name"
+    }
+   ],
+   "start": 703.68,
+   "end": 714.6,
+   "startFrame": 21110,
+   "endFrame": 21438,
+   "vo": "At home, after the United States withdrew its funding, Nasser turned to the Soviet Union to build the Aswan High Dam, which ended the yearly Nile flood that had shaped Egypt since before the pharaohs.",
+   "cues": [
+    {
+     "word": "Aswan",
+     "action": "label \"ASWAN HIGH DAM\"",
+     "t": 708.82,
+     "frame": 21265,
+     "matched": "Aswan",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S51",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "MAP-21"
+   ],
+   "type": "map",
+   "motion": "Sinai, Gaza and the canal.",
+   "year": [
+    {
+     "at": 714.9,
+     "value": 1967
+    }
+   ],
+   "map": {
+    "id": "MAP-21",
+    "meridian": 33,
+    "camera": [
+     {
+      "at": 714.6,
+      "center": [
+       33.3,
+       30.3
+      ],
+      "zoom": 6
+     },
+     {
+      "at": 724.395,
+      "center": [
+       33.5,
+       30.2
+      ],
+      "zoom": 6.4
+     }
+    ],
+    "states": [
+     {
+      "at": 714.6,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta",
+        "opacity": 0.85
+       },
+       {
+        "territory": "israel_modern",
+        "fill": "olive"
+       }
+      ]
+     },
+     {
+      "at": 719.55,
+      "duration": 1.4,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta",
+        "opacity": 0.85
+       },
+       {
+        "territory": "israel_modern",
+        "fill": "olive"
+       },
+       {
+        "territory": "sinai_1967",
+        "fill": "olive",
+        "outline": 1
+       },
+       {
+        "territory": "gaza_1967",
+        "fill": "olive",
+        "outline": 1
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "nile",
+      "style": "river",
+      "path": [
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 709.6,
+      "duration": 0.1
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 709.6,
+      "duration": 0.1
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 709.6,
+      "duration": 0.1
+     },
+     {
+      "id": "canal",
+      "style": "river",
+      "path": [
+       [
+        32.31,
+        31.26
+       ],
+       [
+        32.32,
+        30.85
+       ],
+       [
+        32.29,
+        30.6
+       ],
+       [
+        32.35,
+        30.4
+       ],
+       [
+        32.4,
+        30.3
+       ],
+       [
+        32.53,
+        30.1
+       ],
+       [
+        32.55,
+        29.95
+       ]
+      ],
+      "at": 709.6,
+      "duration": 0.1,
+      "smooth": false
+     }
+    ],
+    "markers": [
+     {
+      "id": "cairo",
+      "label": "Cairo",
+      "lonlat": [
+       31.24,
+       30.05
+      ],
+      "at": 715,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "gaza",
+      "label": "Gaza",
+      "lonlat": [
+       34.45,
+       31.5
+      ],
+      "at": 715.2,
+      "kind": "dot",
+      "labelSide": "top"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Sinai",
+      "lonlat": [
+       33.7,
+       29.5
+      ],
+      "at": 720.15,
+      "size": 36
+     },
+     {
+      "text": "Israel",
+      "lonlat": [
+       35.1,
+       31
+      ],
+      "at": 715.1,
+      "size": 30
+     },
+     {
+      "text": "Egypt",
+      "lonlat": [
+       30.6,
+       29
+      ],
+      "at": 715,
+      "size": 36
+     }
+    ]
+   },
+   "start": 714.6,
+   "end": 724.395,
+   "startFrame": 21438,
+   "endFrame": 21732,
+   "vo": "In 1967, Israel destroyed Egypt's air force in a few hours and took the Sinai Peninsula and Gaza in six days. Nasser died three years later.",
+   "cues": [
+    {
+     "word": "Sinai",
+     "action": "Sinai and Gaza turn Israeli color",
+     "t": 719.55,
+     "frame": 21587,
+     "matched": "Sinai",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S52",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "MAP-22"
+   ],
+   "type": "map",
+   "motion": "Zoom on the canal.",
+   "year": [
+    {
+     "at": 724.695,
+     "value": 1973
+    }
+   ],
+   "map": {
+    "id": "MAP-22",
+    "meridian": 32.5,
+    "camera": [
+     {
+      "at": 724.395,
+      "center": [
+       32.55,
+       30.55
+      ],
+      "zoom": 11.5
+     },
+     {
+      "at": 738.52,
+      "center": [
+       32.55,
+       30.55
+      ],
+      "zoom": 12.5
+     }
+    ],
+    "states": [
+     {
+      "at": 724.395,
+      "layers": [
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta",
+        "opacity": 0.85
+       },
+       {
+        "territory": "sinai_1967",
+        "fill": "olive"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "canal",
+      "style": "river",
+      "path": [
+       [
+        32.31,
+        31.26
+       ],
+       [
+        32.32,
+        30.85
+       ],
+       [
+        32.29,
+        30.6
+       ],
+       [
+        32.35,
+        30.4
+       ],
+       [
+        32.4,
+        30.3
+       ],
+       [
+        32.53,
+        30.1
+       ],
+       [
+        32.55,
+        29.95
+       ]
+      ],
+      "at": 719.395,
+      "duration": 0.1,
+      "smooth": false
+     },
+     {
+      "id": "barlev",
+      "style": "divider",
+      "path": [
+       [
+        32.4,
+        31.2
+       ],
+       [
+        32.39,
+        30.85
+       ],
+       [
+        32.37,
+        30.6
+       ],
+       [
+        32.44,
+        30.38
+       ],
+       [
+        32.5,
+        30.26
+       ],
+       [
+        32.6,
+        30.1
+       ],
+       [
+        32.62,
+        29.95
+       ]
+      ],
+      "at": 724.795,
+      "duration": 1.2,
+      "hideAt": 731.99
+     },
+     {
+      "id": "cross0",
+      "style": "arrow",
+      "path": [
+       [
+        32.12,
+        31
+       ],
+       [
+        32.58,
+        31
+       ]
+      ],
+      "at": 730.32,
+      "duration": 0.9
+     },
+     {
+      "id": "cross1",
+      "style": "arrow",
+      "path": [
+       [
+        32.08,
+        30.66
+       ],
+       [
+        32.55,
+        30.66
+       ]
+      ],
+      "at": 730.52,
+      "duration": 0.9
+     },
+     {
+      "id": "cross2",
+      "style": "arrow",
+      "path": [
+       [
+        32.18,
+        30.42
+       ],
+       [
+        32.62,
+        30.42
+       ]
+      ],
+      "at": 730.72,
+      "duration": 0.9
+     },
+     {
+      "id": "cross3",
+      "style": "arrow",
+      "path": [
+       [
+        32.38,
+        30.15
+       ],
+       [
+        32.8,
+        30.15
+       ]
+      ],
+      "at": 730.92,
+      "duration": 0.9
+     },
+     {
+      "id": "cross4",
+      "style": "arrow",
+      "path": [
+       [
+        32.4,
+        29.98
+       ],
+       [
+        32.82,
+        29.98
+       ]
+      ],
+      "at": 731.12,
+      "duration": 0.9
+     }
+    ],
+    "markers": [
+     {
+      "id": "portsaid",
+      "label": "Port Said",
+      "lonlat": [
+       32.3,
+       31.26
+      ],
+      "at": 724.795,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "ismailia",
+      "label": "Ismailia",
+      "lonlat": [
+       32.27,
+       30.6
+      ],
+      "at": 724.895,
+      "kind": "city",
+      "labelSide": "left"
+     },
+     {
+      "id": "suez",
+      "label": "Suez",
+      "lonlat": [
+       32.55,
+       29.97
+      ],
+      "at": 724.995,
+      "kind": "city",
+      "labelSide": "left"
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Bar Lev Line",
+      "lonlat": [
+       32.95,
+       30.75
+      ],
+      "at": 725.595,
+      "size": 26,
+      "tone": "dark",
+      "hideAt": 731.99
+     },
+     {
+      "text": "Sinai",
+      "lonlat": [
+       33.3,
+       30.3
+      ],
+      "at": 724.995,
+      "size": 34
+     }
+    ]
+   },
+   "start": 724.395,
+   "end": 738.52,
+   "startFrame": 21732,
+   "endFrame": 22156,
+   "vo": "His successor, Anwar Sadat, attacked on 6 October 1973. Egyptian troops crossed the Suez Canal and broke through the Israeli defenses on the other side. The war ended without a clear winner, but it gave Sadat the strength to negotiate.",
+   "cues": [
+    {
+     "word": "crossed",
+     "action": "arrows cross the canal from west to east",
+     "t": 730.32,
+     "frame": 21910,
+     "matched": "crossed",
+     "exact": true
+    },
+    {
+     "word": "broke",
+     "action": "the Israeli line on the east bank breaks",
+     "t": 731.79,
+     "frame": 21954,
+     "matched": "broke",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S53",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 030"
+   ],
+   "type": "image",
+   "image": "images/030.jpg",
+   "motion": "Slow push in on the handshake.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.35,
+     "x": 0.5,
+     "y": 0.52
+    }
+   },
+   "date": {
+    "text": "1979",
+    "at": 738.82
+   },
+   "titles": [
+    {
+     "text": "ANWAR SADAT",
+     "at": 749.37,
+     "style": "name"
+    }
+   ],
+   "start": 738.52,
+   "end": 751.829,
+   "startFrame": 22156,
+   "endFrame": 22555,
+   "vo": "In 1977 he flew to Jerusalem, and on 26 March 1979 Egypt became the first Arab country to sign a peace treaty with Israel. Egypt got the Sinai back, and Sadat won the Nobel Peace Prize.",
+   "cues": [
+    {
+     "word": "Sadat",
+     "action": "name card \"ANWAR SADAT\"",
+     "t": 749.37,
+     "frame": 22481,
+     "matched": "Sadat",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S54",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 031"
+   ],
+   "type": "image",
+   "image": "images/031.jpg",
+   "motion": "Slow push in on the empty reviewing stand, dark vignette.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.3,
+     "x": 0.35,
+     "y": 0.6
+    }
+   },
+   "effects": {
+    "vignette": 0.7
+   },
+   "date": {
+    "text": "1981",
+    "at": 752.129
+   },
+   "start": 751.829,
+   "end": 766.148,
+   "startFrame": 22555,
+   "endFrame": 22984,
+   "vo": "Much of the Arab world saw the treaty as a betrayal, and Egypt was suspended from the Arab League for ten years. On 6 October 1981, eight years to the day after the crossing, Islamist soldiers shot Sadat during a military parade.",
+   "cues": []
+  },
+  {
+   "id": "S55",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 032"
+   ],
+   "type": "image",
+   "image": "images/032.jpg",
+   "motion": "Slow zoom out over the crowd.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.4,
+     "x": 0.5,
+     "y": 0.45
+    },
+    "to": {
+     "scale": 1.04,
+     "x": 0.5,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "2011",
+    "at": 766.448
+   },
+   "titles": [
+    {
+     "text": "HOSNI MUBARAK",
+     "at": 767.51,
+     "style": "name"
+    }
+   ],
+   "start": 766.148,
+   "end": 788.88,
+   "startFrame": 22984,
+   "endFrame": 23666,
+   "vo": "His vice president, Hosni Mubarak, ruled for the next thirty years. On 25 January 2011, National Police Day, protesters against police brutality filled Tahrir Square in Cairo. After eighteen days and more than 800 deaths, Mubarak resigned. In 2012, Egyptians elected Mohamed Morsi of the Muslim Brotherhood in the country's first free presidential election.",
+   "cues": [
+    {
+     "word": "Mubarak",
+     "action": "name card \"HOSNI MUBARAK\"",
+     "t": 767.51,
+     "frame": 23025,
+     "matched": "Mubarak,",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S56",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 033"
+   ],
+   "type": "image",
+   "image": "images/033.jpg",
+   "motion": "Slow pan over Cairo at dusk.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.28,
+     "x": 0.38,
+     "y": 0.5
+    },
+    "to": {
+     "scale": 1.28,
+     "x": 0.62,
+     "y": 0.5
+    }
+   },
+   "date": {
+    "text": "2013",
+    "at": 789.18
+   },
+   "start": 788.88,
+   "end": 807.171,
+   "startFrame": 23666,
+   "endFrame": 24215,
+   "vo": "A year later, after huge protests against him, the army removed Morsi. On 14 August 2013, security forces cleared his supporters' camps in Cairo, and hundreds were killed. The general who led the takeover, Abdel Fattah el-Sisi, was elected president in 2014 and is now in his third term.",
+   "cues": []
+  },
+  {
+   "id": "S57",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "MAP-23"
+   ],
+   "type": "map",
+   "motion": "The whole Nile basin and the Red Sea.",
+   "year": [
+    {
+     "at": 807.471,
+     "value": 2026
+    }
+   ],
+   "map": {
+    "id": "MAP-23",
+    "meridian": 35,
+    "camera": [
+     {
+      "at": 807.171,
+      "center": [
+       35,
+       15.5
+      ],
+      "zoom": 1
+     },
+     {
+      "at": 832.891,
+      "center": [
+       35,
+       16
+      ],
+      "zoom": 1.06
+     }
+    ],
+    "states": [
+     {
+      "at": 807.171,
+      "layers": [
+       {
+        "territory": "sudan_modern",
+        "fill": "#B8A27A"
+       },
+       {
+        "territory": "south_sudan_modern",
+        "fill": "#C9B48A"
+       },
+       {
+        "territory": "ethiopia_modern",
+        "fill": "olive"
+       },
+       {
+        "territory": "egypt_modern",
+        "fill": "terracotta"
+       }
+      ]
+     }
+    ],
+    "lines": [
+     {
+      "id": "white",
+      "style": "river",
+      "path": [
+       [
+        33.2,
+        0.45
+       ],
+       [
+        32.3,
+        1.7
+       ],
+       [
+        31.4,
+        2.4
+       ],
+       [
+        31.6,
+        3.7
+       ],
+       [
+        31.6,
+        4.85
+       ],
+       [
+        31.5,
+        6.2
+       ],
+       [
+        30.5,
+        9.5
+       ],
+       [
+        31.65,
+        9.53
+       ],
+       [
+        32.3,
+        11.2
+       ],
+       [
+        32.66,
+        13.17
+       ],
+       [
+        32.47,
+        14.6
+       ],
+       [
+        32.53,
+        15.6
+       ]
+      ],
+      "at": 807.471,
+      "duration": 1.4
+     },
+     {
+      "id": "blue",
+      "style": "river",
+      "path": [
+       [
+        37.39,
+        11.6
+       ],
+       [
+        37.9,
+        11
+       ],
+       [
+        38.2,
+        10.3
+       ],
+       [
+        37.7,
+        9.95
+       ],
+       [
+        36.8,
+        10.05
+       ],
+       [
+        36,
+        10.45
+       ],
+       [
+        35.09,
+        11.21
+       ],
+       [
+        34.38,
+        11.8
+       ],
+       [
+        33.63,
+        13.55
+       ],
+       [
+        33.52,
+        14.4
+       ],
+       [
+        32.53,
+        15.6
+       ]
+      ],
+      "at": 807.671,
+      "duration": 1.2
+     },
+     {
+      "id": "main",
+      "style": "river",
+      "path": [
+       [
+        32.53,
+        15.6
+       ],
+       [
+        32.7,
+        16.3
+       ],
+       [
+        33.43,
+        16.69
+       ],
+       [
+        33.75,
+        16.94
+       ],
+       [
+        33.98,
+        17.7
+       ],
+       [
+        33.98,
+        18.02
+       ],
+       [
+        33.6,
+        19
+       ],
+       [
+        33.32,
+        19.53
+       ],
+       [
+        32.8,
+        19.3
+       ],
+       [
+        32.3,
+        18.95
+       ],
+       [
+        31.83,
+        18.53
+       ],
+       [
+        31.3,
+        18.2
+       ],
+       [
+        30.95,
+        18.05
+       ],
+       [
+        30.55,
+        18.6
+       ],
+       [
+        30.48,
+        19.17
+       ],
+       [
+        30.42,
+        19.63
+       ],
+       [
+        30.33,
+        19.8
+       ],
+       [
+        30.4,
+        20.7
+       ],
+       [
+        30.95,
+        21.5
+       ],
+       [
+        31.35,
+        21.85
+       ],
+       [
+        31.62,
+        22.34
+       ],
+       [
+        32.4,
+        23.1
+       ],
+       [
+        32.85,
+        23.6
+       ],
+       [
+        32.89,
+        24.08
+       ],
+       [
+        32.93,
+        24.45
+       ],
+       [
+        32.87,
+        24.98
+       ],
+       [
+        32.55,
+        25.3
+       ],
+       [
+        32.64,
+        25.7
+       ],
+       [
+        32.72,
+        26
+       ],
+       [
+        32.73,
+        26.16
+       ],
+       [
+        32.45,
+        26.15
+       ],
+       [
+        32.25,
+        26.05
+       ],
+       [
+        31.95,
+        26.3
+       ],
+       [
+        31.7,
+        26.55
+       ],
+       [
+        31.45,
+        26.9
+       ],
+       [
+        31.18,
+        27.18
+       ],
+       [
+        30.85,
+        27.44
+       ],
+       [
+        30.88,
+        27.7
+       ],
+       [
+        30.75,
+        28.1
+       ],
+       [
+        30.8,
+        28.5
+       ],
+       [
+        31,
+        28.85
+       ],
+       [
+        31.1,
+        29.07
+       ],
+       [
+        31.22,
+        29.45
+       ],
+       [
+        31.25,
+        29.85
+       ],
+       [
+        31.23,
+        30.06
+       ],
+       [
+        31.18,
+        30.2
+       ]
+      ],
+      "at": 808.771,
+      "duration": 1.6
+     },
+     {
+      "id": "rosetta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        30.95,
+        30.45
+       ],
+       [
+        30.75,
+        30.75
+       ],
+       [
+        30.55,
+        31.05
+       ],
+       [
+        30.42,
+        31.3
+       ],
+       [
+        30.36,
+        31.45
+       ]
+      ],
+      "at": 810.371,
+      "duration": 0.4
+     },
+     {
+      "id": "damietta",
+      "style": "river",
+      "path": [
+       [
+        31.18,
+        30.2
+       ],
+       [
+        31.15,
+        30.5
+       ],
+       [
+        31.25,
+        30.8
+       ],
+       [
+        31.45,
+        31.05
+       ],
+       [
+        31.65,
+        31.25
+       ],
+       [
+        31.82,
+        31.45
+       ]
+      ],
+      "at": 810.371,
+      "duration": 0.4
+     },
+     {
+      "id": "shipping",
+      "style": "trade",
+      "at": 823.22,
+      "duration": 2,
+      "path": [
+       [
+        51,
+        12.6
+       ],
+       [
+        45,
+        12.2
+       ],
+       [
+        43.4,
+        12.6
+       ],
+       [
+        41,
+        16
+       ],
+       [
+        38,
+        21
+       ],
+       [
+        35.5,
+        25.5
+       ],
+       [
+        33.6,
+        28
+       ],
+       [
+        32.55,
+        29.95
+       ],
+       [
+        32.3,
+        31.3
+       ],
+       [
+        29.5,
+        33.4
+       ]
+      ],
+      "dots": {
+       "at": 824.22,
+       "count": 3,
+       "period": 8
+      }
+     }
+    ],
+    "markers": [
+     {
+      "id": "gerd",
+      "label": "Ethiopian dam",
+      "lonlat": [
+       35.09,
+       11.21
+      ],
+      "at": 816.78,
+      "kind": "dot",
+      "pulse": true,
+      "labelSide": "right"
+     },
+     {
+      "id": "redsea",
+      "lonlat": [
+       42.4,
+       14.6
+      ],
+      "at": 825.42,
+      "kind": "dot",
+      "flashAt": 825.42
+     }
+    ],
+    "regionLabels": [
+     {
+      "text": "Egypt",
+      "lonlat": [
+       28.6,
+       26.2
+      ],
+      "at": 807.571,
+      "size": 36
+     },
+     {
+      "text": "Sudan",
+      "lonlat": [
+       29.2,
+       15.6
+      ],
+      "at": 807.771,
+      "size": 32,
+      "tone": "dark"
+     },
+     {
+      "text": "Ethiopia",
+      "lonlat": [
+       39.6,
+       8.2
+      ],
+      "at": 807.971,
+      "size": 32
+     }
+    ],
+    "seaLabels": [
+     {
+      "text": "RED SEA",
+      "lonlat": [
+       38.6,
+       19.6
+      ],
+      "size": 20
+     }
+    ]
+   },
+   "start": 807.171,
+   "end": 832.891,
+   "startFrame": 24215,
+   "endFrame": 24987,
+   "vo": "Today Egypt has more than 106 million people, and it still lives from the river. The Nile provides about 97 percent of its fresh water. In September 2025, Ethiopia opened a giant dam on the Blue Nile, upstream, and Egypt protested to the UN Security Council. The Suez Canal, which carries around 8 percent of the world's sea trade, lost more than half its income after attacks on shipping in the Red Sea, although traffic has been coming back.",
+   "cues": [
+    {
+     "word": "Ethiopia",
+     "action": "dam marker on the Blue Nile",
+     "t": 816.78,
+     "frame": 24503,
+     "matched": "Ethiopia",
+     "exact": true
+    },
+    {
+     "word": "Suez",
+     "action": "shipping line through the canal, then a red flash in the Red Sea",
+     "t": 823.22,
+     "frame": 24697,
+     "matched": "Suez",
+     "exact": true
+    }
+   ]
+  },
+  {
+   "id": "S58",
+   "part": "MODERN EGYPT",
+   "assets": [
+    "IMG 034"
+   ],
+   "type": "image",
+   "image": "images/034.jpg",
+   "motion": "Slow zoom out from the museum to the pyramids. Fade to black 1.5 s after the voiceover ends.",
+   "kenBurns": {
+    "from": {
+     "scale": 1.45,
+     "x": 0.55,
+     "y": 0.55
+    },
+    "to": {
+     "scale": 1.06,
+     "x": 0.4,
+     "y": 0.5
+    }
+   },
+   "start": 832.891,
+   "end": 851.394,
+   "startFrame": 24987,
+   "endFrame": 25542,
+   "vo": "In November 2025, Egypt opened the Grand Egyptian Museum on the edge of Giza, a short distance from the pyramids. All 5,398 objects from Tutankhamun's tomb are now shown together for the first time, near the pyramid Khufu built more than 4,500 years ago.",
+   "cues": []
+  }
+ ]
+}

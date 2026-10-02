@@ -414,13 +414,13 @@ SHOTS:
 - @"SAVAK": IMG 062, slow push
 - @"Khomeini": IMG 063, slow push on the tapes
 
-### S50 | IMG 064 + PHOTO-12
+### S50 | PHOTO-12 + IMG 064
 VO: "In 1978, strikes and huge protests shut the country down. In January 1979, the Shah left Iran. On 1 February, Khomeini returned to a crowd of millions. On 1 April, after a referendum, Iran became an Islamic Republic. In December, a new constitution placed a Supreme Leader above the elected government."
 SHOTS:
-- start: IMG 064, slow pull out over the crowd
-- @"down": IMG 064, new camera move on another part of the image
-- @"Khomeini": PHOTO-12, slow push
-- @"after": PHOTO-12, new camera move on another part of the image
+- start: PHOTO-12, slow push, low zoom
+- @"down": PHOTO-12, new camera move on another part of the image
+- @"Khomeini": IMG 064, slow pull out over the crowd
+- @"after": IMG 064, new camera move on another part of the image
 - @"constitution": IMG 064, second move: banners detail
 
 ### S51 | IMG 065

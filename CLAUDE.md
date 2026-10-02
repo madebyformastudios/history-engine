@@ -61,6 +61,12 @@ These apply to every new video unless Jairo says otherwise.
      Use them as accents (roughly 1 in 8 to 10 shots), not instead of the illustrations.
    - Check each photo by eye: it must really show what the narration says (right building, right person, right
      period). If unsure, leave it out.
+6. **Real over comfortable.** Tell what happened, also when it makes a country, government, religion or
+   group look bad (any side, including Western powers, Israel, Iran or the narrator's "heroes"). No softening,
+   leaving out or vague wording to protect advertisers or avoid comments. Neutral means: no opinions or
+   loaded adjectives from the narrator, and every claim backed by solid sources. Where historians or sources
+   really disagree (death tolls, who started what), say so and give the range. Death tolls, coups, massacres,
+   assassinations and wars are named plainly.
 
 ## Making a new video
 

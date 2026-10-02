@@ -38,6 +38,15 @@ export const buildPages = (words: TimedWord[]): Page[] => {
 
 const pages = buildPages((timings as { words: TimedWord[] }).words);
 
+/**
+ * Fade-in / fade-out keyframes for a caption page. Pages shorter than ~0.25 s would give a
+ * non-increasing range, so the inner points meet in the middle (normal pages are unchanged).
+ */
+const fadeRange = (start: number, end: number) => {
+  const mid = (start + end) / 2;
+  return [start - 0.05, Math.min(start + 0.12, mid - 0.001), Math.max(end - 0.12, mid + 0.001), Math.max(end, mid + 0.002)];
+};
+
 /** Bottom-centre captions, word-by-word highlight, max two lines. */
 export const Captions: React.FC = () => {
   const frame = useCurrentFrame();
@@ -57,7 +66,7 @@ export const Captions: React.FC = () => {
             bottom: 62,
             width: 1440,
             transform: `translateX(-50%) translateY(${interpolate(t, [page.start - 0.05, page.start + 0.15], [10, 0], { easing: theme.ease.out, extrapolateLeft: "clamp", extrapolateRight: "clamp" })}px)`,
-            opacity: interpolate(t, [page.start - 0.05, page.start + 0.12, page.end - 0.12, page.end], [0, 1, 1, 0], {
+            opacity: interpolate(t, fadeRange(page.start, page.end), [0, 1, 1, 0], {
               extrapolateLeft: "clamp",
               extrapolateRight: "clamp",
             }),

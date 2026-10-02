@@ -40,13 +40,14 @@ const Shots: React.FC<{ sceneId: string; shots: Shot[]; fade: number }> = ({ sce
       {shots.map((shot, i) => {
         const start = i === 0 ? win.from : Math.max(win.from, sec(shot.at));
         const next = i < shots.length - 1 ? Math.max(start + 1, sec(shots[i + 1].at)) : end;
-        const until = Math.min(end, next + (i < shots.length - 1 ? fade : 0));
+        const nextFade = i < shots.length - 1 ? (shots[i + 1].fade ?? fade) : 0;
+        const until = Math.min(end, next + nextFade);
         // the camera move runs over the visible part of the shot (start .. next), not the overlap
         const moveWin = { from: start, durationInFrames: Math.max(1, next - start) };
         return (
           <Sequence key={i} from={start - win.from} durationInFrames={Math.max(1, until - start)} layout="none">
             <SceneWindow.Provider value={moveWin}>
-              <FadeIn frames={i === 0 ? 0 : fade}>
+              <FadeIn frames={i === 0 ? 0 : (shot.fade ?? fade)}>
                 {shot.map ? (
                   <MapScene sceneId={`${sceneId}-${i}`} settings={config.map} spec={shot.map} />
                 ) : shot.image ? (

@@ -12,7 +12,7 @@ Full working example of every option: `videos/mongol-empire/scene-spec.mjs`.
 | `image` | A still image with a camera move (Ken Burns) | `image`, `kenBurns` |
 | `parallax` | Background image + transparent cutout(s) moving across it | `background` (image + Ken Burns), `sprites` |
 | `map` | Animated historical map | `map` (see Maps) |
-| `shots` | Several shots in one scene (one VO paragraph), each starting on a cue word: an image with its own camera move, or a map. Shots after the first fade in over `shotFade` frames (default 6, 0 = hard cut). Use this to change the picture every 5 to 8 seconds | `shots: [{ at, image, kenBurns } or { at, map }]`, `shotFade` |
+| `shots` | Several shots in one scene (one VO paragraph), each starting on a cue word: an image with its own camera move, or a map. Shots after the first fade in over `shotFade` frames (default 6, 0 = hard cut); a shot can set its own `fade`. Use this to change the picture every 5 to 8 seconds | `shots: [{ at, image, kenBurns } or { at, map }]`, `shotFade` |
 | `gfx` | Coded motion graphic. Available: `decimal-army` (10 / 100 / 1,000 / 10,000 grid) | `gfx`, `steps` |
 
 ### Ken Burns (`kenBurns`, also used by `parallax.background`)

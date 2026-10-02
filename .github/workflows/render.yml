@@ -66,6 +66,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx remotion browser ensure
+        env:
+          VIDEO: ${{ inputs.video }} # remotion.config.ts needs the video folder
       - name: Render frames ${{ matrix.start }}-${{ matrix.end }}
         env:
           VIDEO: ${{ inputs.video }}

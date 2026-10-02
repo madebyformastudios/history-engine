@@ -36,10 +36,12 @@ These apply to every new video unless Jairo says otherwise.
    different part of the same image (a cut, not one slow zoom). Maps keep moving: camera moves, labels, arrows
    and territory changes land on cue words. Plan this in DRAAIBOEK.md (one row per shot) and count the images
    needed from it. Target for a 15-minute video: about 110 to 150 shots.
-3. **Call to action.** Every video has one spoken CTA, written into the script, usually right after the hook
-   (around 0:45 to 1:30), for example: "If you like seeing history move on the map, subscribe, it helps the
-   channel more than you think." While the CTA is spoken, the subscribe overlay plays (CATALOG.md, `cta`).
-   Optionally a short second CTA in the last 20 seconds, over the end screen.
+3. **Call to action.** Every video has one short spoken CTA (about 5 seconds), written into the script at a natural
+   break right after the first big payoff, usually the end of the first chapter (roughly 2 to 4 minutes in), never
+   in the first minute. Example: "If you like seeing history move on the map, subscribe, it helps the channel more
+   than you think." While the CTA is spoken, the subscribe overlay plays (CATALOG.md, `cta`). A second short CTA
+   can go in the last 20 seconds, over the end screen. Check the retention graph after each upload for a dip at
+   the CTA and move it if needed.
 4. **Rendering happens on GitHub, not on the laptop.** The MacBook Air gets too hot. Locally only
    `npm run stills` and short `npm run draft -- --frames=a-b` checks. Full drafts and the final render go through
    the GitHub Actions workflow "Render video" (push first, then run it with the video folder name); the MP4 is

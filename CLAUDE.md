@@ -109,6 +109,7 @@ Measured with the benchmark on the Mongol video (2-core machine):
   only draw what is inside the camera view, scale stroke widths manually instead of non-scaling-stroke.
 - Map accuracy: many territories are coarse dataset polygons or hand-made estimates (see CATALOG.md).
   Planned: borders per year, following real rivers and mountain ranges, with a source per territory.
-- GitHub Actions rendering is about as fast as the local Mac on the free plan (2-core runners, ~5 parallel jobs),
-  but keeps the laptop cool. It is the standard way to render.
+- GitHub Actions: the repo is public, so rendering is free on 4-core Linux runners, 20 chunks in parallel.
+  The 16-minute Iran video (207 shots, 29 maps) rendered in 19 minutes, far faster than the Mac. It is the
+  standard way to render. A macOS runner can be picked (`runner` input) but only 5 run at once, so Linux is faster.
 - The standing-requirement features are built: `cta` (subscribe overlay) and `shots` (multi-shot scenes), see CATALOG.md.
